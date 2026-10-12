@@ -79,7 +79,74 @@ function escapeHtml(s) {
   }[ch]));
 }
 
+function formatSpawnInterval(seconds) {
+  if (!Number.isFinite(seconds)) return "Not configured";
+  if (seconds === 0) return "No configured delay";
+  const minutes = Math.floor(seconds / 60);
+  const remainder = Math.round(seconds % 60);
+  if (!minutes) return `${remainder}s`;
+  return remainder ? `${minutes}m ${remainder}s` : `${minutes}m`;
+}
+
+function getSpawnTierDetails(tierName, settings) {
+  const name = tierName || "Unknown";
+  if (!settings || typeof settings !== "object") {
+    return { name, density: null, interval: null, cap: null };
+  }
+  if (settings.mode === "always") {
+    return { name, density: "Always eligible", interval: null, cap: null };
+  }
+  if (settings.mode === "never") {
+    return { name, density: "Disabled", interval: null, cap: "0" };
+  }
+
+  const quantity = Number(settings.quantityPerSquareMeter);
+  const areaPerCreature = quantity > 0 ? 1 / quantity : null;
+  const intervalSeconds = Number(settings.spawnIntervalSeconds);
+  const cap = Number(settings.creatureLimitPerPlayer);
+  return {
+    name,
+    density: Number.isFinite(areaPerCreature)
+      ? `1 per ${Math.round(areaPerCreature).toLocaleString()} m²`
+      : null,
+    interval: formatSpawnInterval(intervalSeconds),
+    cap: Number.isFinite(cap) ? cap.toLocaleString() : null
+  };
+}
+
 function buildPopupHtml(point, leafLabel) {
+  if (point.kind === "dynamic") {
+    const encounterLines = Array.isArray(point.encounters)
+      ? point.encounters.map((encounter) => {
+          const quantity = encounter.minQuantity === encounter.maxQuantity
+            ? `${encounter.minQuantity ?? "?"}`
+            : `${encounter.minQuantity ?? "?"}-${encounter.maxQuantity ?? "?"}`;
+          const conditions = Array.isArray(encounter.chanceModifiers) && encounter.chanceModifiers.length
+            ? `; ${encounter.chanceModifiers.join(", ")}`
+            : "";
+          const tier = getSpawnTierDetails(encounter.rarity, encounter.spawnTier);
+          const tierLines = [
+            `<br>Spawn tier: ${escapeHtml(tier.name)}`,
+            tier.density ? `<br>Target density: ${escapeHtml(tier.density)}` : "",
+            tier.interval ? `<br>Configured interval: ${escapeHtml(tier.interval)}` : "",
+            tier.cap ? `<br>Per-player cap: ${escapeHtml(tier.cap)}` : "",
+            '<br><span class="spawn-tier-note">Not a direct percentage chance.</span>'
+          ].join("");
+          return `<div class="lm-dynamic-rule"><strong>${escapeHtml(encounter.row || "Encounter")}</strong>`
+            + tierLines
+            + `<br>Quantity ${escapeHtml(quantity)}`
+            + ` · power ${escapeHtml(encounter.powerLevel ?? "?")}${escapeHtml(conditions)}</div>`;
+        })
+      : [];
+    return [
+      `<div class="map-context-menu-header">${escapeHtml(leafLabel)}</div>`,
+      `<div><strong>${escapeHtml(point.name)}</strong></div>`,
+      `<div class="lm-dynamic-label">Dynamic encounter area · ${Number(point.cellCount || 0).toLocaleString()} candidate cells</div>`,
+      `<div style="font-family:monospace;font-size:10px;opacity:0.7;">${escapeHtml(point.spawnTable || "")}</div>`,
+      ...encounterLines
+    ].join("");
+  }
+
   const lines = [
     `<div class="map-context-menu-header">${escapeHtml(leafLabel)}</div>`,
     `<div><strong>${escapeHtml(point.name)}</strong></div>`,
@@ -96,6 +163,29 @@ function buildLayer(state, points) {
   const layer = window.L.layerGroup();
   const icon = state.icon_;
   for (const p of points) {
+    if (p.kind === "dynamic" && p.bounds && p.bounds.min && p.bounds.max) {
+      const areaBounds = [
+        [Number(p.bounds.min.y), Number(p.bounds.min.x)],
+        [Number(p.bounds.max.y), Number(p.bounds.max.x)]
+      ];
+      const popup = buildPopupHtml(p, state.label);
+      if (areaBounds.flat().every(Number.isFinite)) {
+        window.L.rectangle(areaBounds, {
+          color: "#e0c896",
+          weight: 2,
+          fillColor: "#e0c896",
+          fillOpacity: 0.14
+        }).bindPopup(popup).addTo(layer);
+        window.L.circleMarker(gameXYToLatLng(p.x, p.y), {
+          radius: 4,
+          color: "#f4dfad",
+          weight: 2,
+          fillColor: "#0c0c0f",
+          fillOpacity: 0.9
+        }).bindPopup(popup).addTo(layer);
+        continue;
+      }
+    }
     const m = window.L.marker(gameXYToLatLng(p.x, p.y), icon ? { icon } : undefined);
     m.bindPopup(buildPopupHtml(p, state.label));
     layer.addLayer(m);
@@ -117,7 +207,22 @@ function tokenize(query) {
 function filterPoints(points, tokens) {
   if (!tokens.include.length && !tokens.exclude.length) return points;
   return points.filter(p => {
-    const lc = p.name.toLowerCase();
+    const encounterText = Array.isArray(p.encounters)
+      ? p.encounters.flatMap((encounter) => [
+          encounter.row,
+          encounter.rarity,
+          ...(encounter.chanceModifiers || [])
+        ]).filter(Boolean).join(" ")
+      : "";
+    const lc = [
+      p.name,
+      p.aiClass,
+      p.npcId,
+      p.spawnTable,
+      p.volumeId,
+      ...(p.tags || []),
+      encounterText
+    ].filter(Boolean).join(" ").toLowerCase();
     for (const ex of tokens.exclude) if (lc.includes(ex)) return false;
     for (const inc of tokens.include) if (!lc.includes(inc)) return false;
     return true;
@@ -176,7 +281,7 @@ function refreshAll() {
     if (leaf.enabled) grandShown += shown;
   }
   for (const parent of parents) refreshParentRow(parent, leafShownByKey);
-  countEl.textContent = `${grandShown.toLocaleString()} of ${grandTotal.toLocaleString()} pins shown`;
+  countEl.textContent = `${grandShown.toLocaleString()} of ${grandTotal.toLocaleString()} locations shown`;
 }
 
 /* --- DOM construction ----------------------------------------------------- */

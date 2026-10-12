@@ -671,6 +671,25 @@ textarea.combiner-text {
   cursor: pointer;
 }
 
+.location-result-button {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.location-result-name {
+  display: block;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.location-result-meta {
+  display: block;
+  color: var(--muted);
+  font-size: 0.75rem;
+  line-height: 1.25;
+}
+
 #results li button:hover,
 #results li button.active {
   background: var(--surface-2);
@@ -878,6 +897,26 @@ body.map-page #world-map {
   height: var(--lm-icon-size, 20px) !important;
   margin-left: calc(var(--lm-icon-size, 20px) / -2) !important;
   margin-top: calc(var(--lm-icon-size, 20px) / -2) !important;
+}
+
+.lm-dynamic-label {
+  margin: 0.2rem 0 0.35rem;
+  color: #e0c896;
+  font-size: 0.78rem;
+}
+
+.lm-dynamic-rule {
+  margin-top: 0.4rem;
+  padding-top: 0.4rem;
+  border-top: 1px solid rgba(224, 200, 150, 0.24);
+  font-size: 0.76rem;
+  line-height: 1.35;
+}
+
+.leaflet-popup-content .spawn-tier-note {
+  color: #625d54;
+  font-size: 0.72rem;
+  font-style: italic;
 }
 
 .map-chunk-list {

@@ -287,6 +287,33 @@ def audit_location_data(path: Path) -> None:
         print(f"  sample key: {k[:80]}..." if len(k) > 80 else f"  sample key: {k}")
 
 
+def audit_dynamic_ai_spawn_data(path: Path) -> None:
+    print(f"\n=== DynamicAISpawnData ({path}) ===")
+    try:
+        data = load_json(path)
+    except Exception as exc:  # noqa: BLE001
+        print(f"  ERROR: {exc}")
+        return
+    meta = data.get("_meta", {}) if isinstance(data, dict) else {}
+    counts = meta.get("counts", {}) if isinstance(meta, dict) else {}
+    tables = data.get("tables", {}) if isinstance(data, dict) else {}
+    volumes = data.get("volumes", []) if isinstance(data, dict) else []
+    tier_payload = data.get("spawnTierSettings", {}) if isinstance(data, dict) else {}
+    tiers = tier_payload.get("tiers", {}) if isinstance(tier_payload, dict) else {}
+    unresolved_refs = [
+        volume.get("spawnTable")
+        for volume in volumes
+        if isinstance(volume, dict) and volume.get("spawnTable") not in tables
+    ]
+    print(f"  encounter areas: {len(volumes)}")
+    print(f"  candidate cells: {counts.get('includedCells', '?')}")
+    print(f"  referenced tables: {len(tables)}")
+    print(f"  encounter rows: {counts.get('encounterRows', '?')}")
+    print(f"  spawn tiers: {len(tiers)}")
+    print(f"  unresolved NPC members (Blueprint fallback): {counts.get('unresolvedNpcMembers', '?')}")
+    print(f"  unresolved volume table references: {len(unresolved_refs)}")
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Audit compiled *Data.json summary stats.")
     parser.add_argument(
@@ -311,6 +338,7 @@ def main() -> None:
         "name": tools / "NameData" / "NameData.json",
         "npc": tools / "NPCData" / "NPCData.json",
         "location": tools / "LocationData" / "LocationData.json",
+        "dynamic_ai": tools / "DynamicAISpawnData" / "DynamicAISpawnData.json",
     }
 
     print(f"Repository root: {repo}")
@@ -342,6 +370,8 @@ def main() -> None:
             audit_npc_data(p, paths["loot"])
         elif key == "location":
             audit_location_data(p)
+        elif key == "dynamic_ai":
+            audit_dynamic_ai_spawn_data(p)
 
     print("\nDone.")
 

@@ -2,10 +2,9 @@
 Build LocationMapData.json: categorized actor pins for LocationMap.html.
 
 Reads website/tools/LocationData/LocationData.json (one entry per placed actor
-or per PCG foliage instance, value = "x y z"), parses each key into its asset
-class, applies the rules in category-rules.json (drops first, then ordered
-categories, with a fallback bucket), and writes a compact per-category list of
-points.
+or per PCG foliage instance, value = "x y z") plus the resolved dynamic AI
+encounter areas from DynamicAISpawnData.json. Static entries are classified by
+category-rules.json; dynamic encounters are emitted as a separate area layer.
 
 Output schema:
 {
@@ -39,7 +38,7 @@ import os
 import re
 import shutil
 import sys
-from collections import Counter, OrderedDict
+from collections import Counter, OrderedDict, defaultdict
 from pathlib import Path
 from typing import Any
 
@@ -50,6 +49,7 @@ _DEFAULT_INPUT = _HERE.parent / "LocationData" / "LocationData.json"
 _DEFAULT_RULES = _HERE / "category-rules.json"
 _DEFAULT_OUTPUT = _HERE / "LocationMapData.json"
 _DEFAULT_ICONDATA = _HERE.parent / "IconData" / "IconData.json"
+_DEFAULT_DYNAMIC_INPUT = _HERE.parent / "DynamicAISpawnData" / "DynamicAISpawnData.json"
 _REPO_ROOT = _HERE.parents[2]
 _WEBSITE_ROOT = _HERE.parents[1]
 _DEFAULT_CONFIG = _REPO_ROOT / "website" / "data.config.json"
@@ -316,6 +316,148 @@ def classify(asset: str, drop_patterns: list[re.Pattern], categories: list[dict]
     return "", None
 
 
+def dynamic_subcategory_key(ai_class: str) -> str:
+    value = ai_class.removeprefix("BP_AI_").removesuffix("_Character_C")
+    slug = re.sub(r"[^a-z0-9]+", "_", value.lower()).strip("_")
+    return slug or "unknown_ai"
+
+
+def build_dynamic_category(
+    payload: Any,
+    icon: str | None,
+) -> tuple[dict[str, Any] | None, dict[str, int]]:
+    if not isinstance(payload, dict):
+        return None, {"areas": 0, "aiAreaLinks": 0, "subcategories": 0}
+    tables = payload.get("tables", {})
+    volumes = payload.get("volumes", [])
+    tier_payload = payload.get("spawnTierSettings", {})
+    tier_settings = tier_payload.get("tiers", {}) if isinstance(tier_payload, dict) else {}
+    if not isinstance(tier_settings, dict):
+        tier_settings = {}
+    if not isinstance(tables, dict) or not isinstance(volumes, list):
+        return None, {"areas": 0, "aiAreaLinks": 0, "subcategories": 0}
+
+    points_by_ai: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    labels_by_ai: dict[str, str] = {}
+    seen_volume_ids: set[str] = set()
+
+    for volume in volumes:
+        if not isinstance(volume, dict):
+            continue
+        volume_id = volume.get("id")
+        table_name = volume.get("spawnTable")
+        center = volume.get("center")
+        if not isinstance(volume_id, str) or not isinstance(table_name, str):
+            continue
+        if not isinstance(center, dict):
+            continue
+        try:
+            x = float(center["x"])
+            y = float(center["y"])
+            z = float(center["z"])
+        except (KeyError, TypeError, ValueError):
+            continue
+
+        table = tables.get(table_name, {})
+        encounters = table.get("encounters", []) if isinstance(table, dict) else []
+        by_ai: dict[str, dict[str, Any]] = {}
+        if not isinstance(encounters, list):
+            encounters = []
+        for encounter in encounters:
+            if not isinstance(encounter, dict):
+                continue
+            members = encounter.get("members", [])
+            if not isinstance(members, list):
+                continue
+            for member in members:
+                if not isinstance(member, dict):
+                    continue
+                ai_class = member.get("aiClass")
+                if not isinstance(ai_class, str) or not ai_class:
+                    continue
+                display_name = member.get("displayName")
+                if not isinstance(display_name, str) or not display_name:
+                    display_name = ai_class
+                labels_by_ai.setdefault(ai_class, display_name)
+                entry = by_ai.setdefault(
+                    ai_class,
+                    {
+                        "aiClass": ai_class,
+                        "npcId": member.get("npcId"),
+                        "displayName": display_name,
+                        "encounters": [],
+                    },
+                )
+                rarity = encounter.get("rarity")
+                spawn_tier = tier_settings.get(rarity) if isinstance(rarity, str) else None
+                entry["encounters"].append(
+                    {
+                        "row": encounter.get("row"),
+                        "rarity": rarity,
+                        "spawnTier": spawn_tier if isinstance(spawn_tier, dict) else None,
+                        "chanceModifiers": encounter.get("chanceModifiers") or [],
+                        "spreadRadius": encounter.get("spreadRadius"),
+                        "minQuantity": member.get("minQuantity"),
+                        "maxQuantity": member.get("maxQuantity"),
+                        "powerLevel": member.get("powerLevel"),
+                    }
+                )
+
+        for ai_class, ai_data in sorted(by_ai.items()):
+            points_by_ai[ai_class].append(
+                {
+                    "kind": "dynamic",
+                    "name": ai_data["displayName"],
+                    "aiClass": ai_class,
+                    "npcId": ai_data.get("npcId"),
+                    "volumeId": volume_id,
+                    "spawnTable": table_name,
+                    "tags": volume.get("tags") or [],
+                    "x": x,
+                    "y": y,
+                    "z": z,
+                    "bounds": volume.get("bounds"),
+                    "cellCount": volume.get("cellCount"),
+                    "encounters": ai_data["encounters"],
+                }
+            )
+        if by_ai:
+            seen_volume_ids.add(volume_id)
+
+    if not points_by_ai:
+        return None, {"areas": 0, "aiAreaLinks": 0, "subcategories": 0}
+
+    subcategories: "OrderedDict[str, dict[str, Any]]" = OrderedDict()
+    used_keys: set[str] = set()
+    for ai_class in sorted(points_by_ai, key=lambda value: (labels_by_ai[value].lower(), value)):
+        base_key = dynamic_subcategory_key(ai_class)
+        sub_key = base_key
+        suffix = 2
+        while sub_key in used_keys:
+            sub_key = f"{base_key}_{suffix}"
+            suffix += 1
+        used_keys.add(sub_key)
+        points = sorted(points_by_ai[ai_class], key=lambda point: point["volumeId"])
+        subcategories[sub_key] = {
+            "label": labels_by_ai[ai_class],
+            "icon": icon,
+            "points": points,
+        }
+
+    return (
+        {
+            "label": "Dynamic Encounters",
+            "icon": icon,
+            "subcategories": subcategories,
+        },
+        {
+            "areas": len(seen_volume_ids),
+            "aiAreaLinks": sum(len(points) for points in points_by_ai.values()),
+            "subcategories": len(subcategories),
+        },
+    )
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Build LocationMapData.json from LocationData.json.")
     parser.add_argument("--input", type=Path, default=_DEFAULT_INPUT,
@@ -326,6 +468,8 @@ def main() -> None:
                         help=f"Output LocationMapData.json (default: {_DEFAULT_OUTPUT})")
     parser.add_argument("--icondata", type=Path, default=_DEFAULT_ICONDATA,
                         help=f"IconData.json for resolving iconRef -> PNG path (default: {_DEFAULT_ICONDATA})")
+    parser.add_argument("--dynamic-input", type=Path, default=_DEFAULT_DYNAMIC_INPUT,
+                        help=f"DynamicAISpawnData.json (default: {_DEFAULT_DYNAMIC_INPUT})")
     parser.add_argument("--config", type=Path, default=_DEFAULT_CONFIG,
                         help=f"website data config fallback for texture root (default: {_DEFAULT_CONFIG})")
     parser.add_argument("--top-unknown", type=int, default=40,
@@ -335,6 +479,7 @@ def main() -> None:
     in_path = args.input.resolve()
     rules_path = args.rules.resolve()
     out_path = args.out.resolve()
+    dynamic_input_path = args.dynamic_input.resolve()
 
     if not in_path.exists():
         print(f"[ERROR] Input not found: {in_path}", flush=True)
@@ -457,16 +602,31 @@ def main() -> None:
             if cat_payload["points"]:
                 out_categories[cat_key] = cat_payload
 
+    dynamic_meta = {"areas": 0, "aiAreaLinks": 0, "subcategories": 0}
+    if dynamic_input_path.is_file():
+        dynamic_payload = json.loads(dynamic_input_path.read_text(encoding="utf-8"))
+        enemy_icon = bucket_meta.get("enemies", {}).get("icon")
+        dynamic_category, dynamic_meta = build_dynamic_category(dynamic_payload, enemy_icon)
+        if dynamic_category:
+            fallback_payload = out_categories.pop(fallback_key, None)
+            out_categories["dynamic_encounters"] = dynamic_category
+            if fallback_payload is not None:
+                out_categories[fallback_key] = fallback_payload
+    else:
+        print(f"[WARN] Dynamic AI input not found: {dynamic_input_path}", flush=True)
+
     meta = {
         "generatedBy": "website/tools/LocationMap/CompileLocationMapData.py",
         "input": display_path(in_path),
         "rules": display_path(rules_path),
+        "dynamicInput": display_path(dynamic_input_path),
         "counts": {
             "totalEntries": total,
             "droppedByRules": dropped,
             "skippedBadPosition": bad_position,
             "perCategory": dict(counts),
             "perSubcategory": {cat: dict(sc) for cat, sc in sub_counts.items()},
+            "dynamic": dynamic_meta,
         },
         "topAssetsPerBucket": {
             bucket: cnt.most_common(15)
@@ -490,6 +650,13 @@ def main() -> None:
     print(f"[INFO] {total} entries -> "
           f"{sum(counts.values())} kept ({dropped} dropped, {bad_position} bad pos)",
           flush=True)
+    if dynamic_meta["aiAreaLinks"]:
+        print(
+            f"[INFO] Dynamic encounters: {dynamic_meta['areas']} areas, "
+            f"{dynamic_meta['aiAreaLinks']} AI-area links, "
+            f"{dynamic_meta['subcategories']} AI classes",
+            flush=True,
+        )
     for cat, n in counts.most_common():
         print(f"        {n:>7}  {cat}", flush=True)
         for sub, sn in sub_counts.get(cat, Counter()).most_common():

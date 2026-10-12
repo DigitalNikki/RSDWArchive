@@ -873,8 +873,9 @@ def main() -> None:
             "foliage ISMC, merged + wiki-filtered into LocationData.json), MapData "
             "(chunk-boundary GeoJSON overlays for Map.html), BPData (BP_* blueprint class "
             "paths), GEData (GE_* gameplay-effect class paths), Loot, Name, NPC, Plan, "
-            "Progression, Recipe, Spell, Vestige, Icon, LocationMap (categorized "
-            "actor pins for LocationMap.html)."
+            "Progression, Recipe, Spell, Vestige, Icon, DynamicAISpawnData "
+            "(resolved AISpawnVolume encounter areas), and LocationMap "
+            "(categorized actor pins and dynamic encounter areas)."
         )
     )
     parser.add_argument(
@@ -937,6 +938,7 @@ def main() -> None:
         tools / "SpellData" / "CompileSpellData.py",
         tools / "VestigeData" / "CompileVestigeData.py",
         tools / "IconData" / "CompileIconData.py",
+        tools / "DynamicAISpawnData" / "CompileDynamicAISpawnData.py",
         tools / "LocationMap" / "CompileLocationMapData.py",
     ]
 

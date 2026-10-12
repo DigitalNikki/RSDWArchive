@@ -63,7 +63,7 @@ def main() -> None:
             "By default runs website/tools/compiledata.py, which builds "
             "ItemData, LocationData, MapData, BPData, GEData, LootData, NameData, NPCData, "
             "PlanData, ProgressionData, QuestData, RecipeData, SpellData, VestigeData, IconData, "
-            "and LocationMap. "
+            "DynamicAISpawnData, and LocationMap. "
             "Use --skip-compile-data to skip that step."
         )
     )
@@ -77,7 +77,8 @@ def main() -> None:
         action="store_true",
         help=(
             "Skip website/tools/compiledata.py (Item, Location, Map, BP, GE, Loot, Name, "
-            "NPC, Plan, Progression, Quest, Recipe, Spell, Vestige, Icon, LocationMap data)."
+            "NPC, Plan, Progression, Quest, Recipe, Spell, Vestige, Icon, dynamic AI spawn, "
+            "and LocationMap data)."
         ),
     )
     parser.add_argument(

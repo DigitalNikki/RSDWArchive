@@ -6,7 +6,7 @@ Builds a **flat lookup map** from Unreal **Outer** identifiers to **world-space 
 
 Typical consumers: **static site generators**, **location calculators**, or any tool that needs a quick **name → coordinates** index from a dataset dump.
 
-**Wiki / website viewer:** open [`LocationData.html`](../../LocationData.html) to search compiled coordinates and copy values for articles. [`website/locationdata.js`](../../locationdata.js) fetches `LocationData.json` as the single source of truth.
+**Wiki / website viewer:** open [`/location-data/`](../../location-data/index.html) to search compiled coordinates and copy values for articles. [`website/locationdata.js`](../../locationdata.js) combines this fixed-location index with the separately compiled dynamic AI encounter areas.
 
 ## Source inputs
 
@@ -45,7 +45,7 @@ A normal run produces exactly one file: `LocationData.json`. Pass `--debug` if y
 
 1. Reads [`website/data.config.json`](../../data.config.json) (`datasetVersion`, optional `datasetJsonRoot`).
 2. Sets `RSDW_JSON_ROOT` and every `RSDW_*_SOURCE_DIR` (including `RSDW_LOCATION_SOURCE_DIR`) to the resolved json root.
-3. Runs compile scripts in order: Item → **Location** → **MapData** → Loot → Name → NPC → Plan → Progression → Recipe → Spell → Vestige → Icon.
+3. Runs compile scripts in order: Item → **Location** → **MapData** → BP → GE → Loot → Name → NPC → Plan → Progression → Quest → Recipe → Spell → Vestige → Icon → **DynamicAISpawnData** → LocationMap.
 
 You can also run `CompileLocationData.py` alone; it only needs `RSDW_JSON_ROOT` / `RSDW_LOCATION_SOURCE_DIR` when overriding paths.
 
@@ -68,9 +68,9 @@ The pipeline runs three internal phases inside a single script:
 
 1. **Chunk phase.** Walks each `_Generated_` JSON **and** the main `L_World.json` recursively, finding dict nodes with `Outer` and `Properties.RelativeLocation` (`X`, `Y`, `Z`). Keys are normalized Outer strings (Anima vents get an element suffix so paired actors don't collide). If the same key appears in multiple files, **last write wins**; duplicates are only noted in the console log.
 2. **PCG foliage phase.** Rescans the same files for `BP_InteractableFoliageISMC_*` components and resolves world space per instance. Keys look like `BP_Spawner_…_C::BP_PCG_TileSpawner_…/SM_Branches_02_4` so they do not collide with Outer keys. On collision with the chunk phase the chunk value wins. Per-instance rows (`…#inst0`, …) are emitted from `PerInstanceSMData` when available; root is `RootComponent0` for `InstancedFoliageActor_*` and the `Box` component for `BP_PCG_TileSpawner_C`.
-3. **Wiki-bounds filter.** Drops out-of-bounds coordinates (X `0..302400`, Y `-100800..201600`, Z sanity band), bad XYZ strings, PCG aggregate rows shadowed by per-instance siblings, and any `BP_InteractableFoliageISMC_*` aggregate row that also has `#instN` siblings. The filtered result is the only thing written to `LocationData.json`.
+3. **Map-bounds filter.** Drops coordinates outside the shared 420,000-unit map calibration, bad XYZ strings, PCG aggregate rows shadowed by per-instance siblings, and any `BP_InteractableFoliageISMC_*` aggregate row that also has `#instN` siblings. The filtered result is the only thing written to `LocationData.json`.
 
-The wiki X/Y bounds must stay in sync with [`website/map.js`](../../map.js) and [`website/locationdata.js`](../../locationdata.js) (Leaflet `maxBounds`).
+The X/Y bounds come from [`website/tools/map_calibration.py`](../map_calibration.py), which must stay in sync with [`website/shared/map-calibration.js`](../../shared/map-calibration.js).
 
 **Debug sidecars (opt-in, `--debug`):**
 
@@ -84,3 +84,4 @@ Neither sidecar is checked in and neither is consumed by the website; they exist
 - [`MapData.md`](../MapData/MapData.md) — WorldPartition chunk-boundary overlays for `Map.html`.
 - [`LootData.md`](../LootData/LootData.md) — loot tables and resolved drops.
 - [`NPCData.md`](../NPCData/NPCData.md) — NPC bundles and indexes.
+- [`DynamicAISpawnData`](../DynamicAISpawnData/README.md) — resolved `AISpawnVolume` encounter areas and candidate cells.

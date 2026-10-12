@@ -3,6 +3,7 @@
 const DATA_URL_CANDIDATES = [
   "/tools/LocationData/LocationData.json"
 ];
+const DYNAMIC_DATA_URL = "/tools/DynamicAISpawnData/DynamicAISpawnData.json";
 const CONFIG_URL = "/data.config.json";
 let ROOT_FOLDER = "0.11.0.3";
 const MAX_RESULTS = 400;
@@ -50,6 +51,8 @@ let copyToastTimer = null;
 let locationMap = null;
 let locationMarkersLayer = null;
 let mapMode = "selected";
+let fixedLocationCount = 0;
+let dynamicLocationCount = 0;
 
 if (siteLogo) {
   siteLogo.addEventListener("error", () => {
@@ -59,10 +62,62 @@ if (siteLogo) {
 }
 
 function escapeHtml(str) {
-  return str
+  return String(str)
     .replaceAll("&", "&amp;")
     .replaceAll("<", "&lt;")
     .replaceAll(">", "&gt;");
+}
+
+function formatSpawnInterval(seconds) {
+  if (!Number.isFinite(seconds)) return "Not configured";
+  if (seconds === 0) return "No configured delay";
+  const minutes = Math.floor(seconds / 60);
+  const remainder = Math.round(seconds % 60);
+  if (!minutes) return `${remainder}s`;
+  return remainder ? `${minutes}m ${remainder}s` : `${minutes}m`;
+}
+
+function getSpawnTierDetails(tierName, settings) {
+  const name = tierName || "Unknown";
+  if (!settings || typeof settings !== "object") {
+    return { name, density: null, interval: null, cap: null };
+  }
+  if (settings.mode === "always") {
+    return { name, density: "Always eligible", interval: null, cap: null };
+  }
+  if (settings.mode === "never") {
+    return { name, density: "Disabled", interval: null, cap: "0" };
+  }
+
+  const quantity = Number(settings.quantityPerSquareMeter);
+  const areaPerCreature = quantity > 0 ? 1 / quantity : null;
+  const intervalSeconds = Number(settings.spawnIntervalSeconds);
+  const cap = Number(settings.creatureLimitPerPlayer);
+  return {
+    name,
+    density: Number.isFinite(areaPerCreature)
+      ? `1 per ${Math.round(areaPerCreature).toLocaleString()} m²`
+      : null,
+    interval: formatSpawnInterval(intervalSeconds),
+    cap: Number.isFinite(cap) ? cap.toLocaleString() : null
+  };
+}
+
+function renderSpawnTierPopup(encounters) {
+  const uniqueTiers = new Map();
+  for (const encounter of encounters || []) {
+    const details = getSpawnTierDetails(encounter.rarity, encounter.spawnTier);
+    const key = `${details.name}|${details.density}|${details.interval}|${details.cap}`;
+    uniqueTiers.set(key, details);
+  }
+  return [...uniqueTiers.values()].map((details) => {
+    const lines = [`<br/><strong>Spawn tier: ${escapeHtml(details.name)}</strong>`];
+    if (details.density) lines.push(`<br/>Target density: ${escapeHtml(details.density)}`);
+    if (details.interval) lines.push(`<br/>Configured interval: ${escapeHtml(details.interval)}`);
+    if (details.cap) lines.push(`<br/>Per-player cap: ${escapeHtml(details.cap)}`);
+    lines.push('<br/><span class="spawn-tier-note">Not a direct percentage chance.</span>');
+    return lines.join("");
+  }).join("");
 }
 
 async function loadWebsiteConfig() {
@@ -116,15 +171,37 @@ function getPreviewText(entry) {
     return `${entry.x} ${entry.y} ${entry.z}`;
   }
 
-  const previewData = {
-    x: toNumberOrString(entry.x),
-    y: toNumberOrString(entry.y),
-    z: toNumberOrString(entry.z)
-  };
+  const previewData = entry.kind === "dynamic"
+    ? {
+        type: "dynamicEncounterArea",
+        displayName: entry.name,
+        aiClass: entry.dynamic.aiClass,
+        npcId: entry.dynamic.npcId,
+        center: {
+          x: toNumberOrString(entry.x),
+          y: toNumberOrString(entry.y),
+          z: toNumberOrString(entry.z)
+        },
+        bounds: entry.dynamic.bounds,
+        cellCount: entry.dynamic.cellCount,
+        volumeId: entry.dynamic.volumeId,
+        spawnTable: entry.dynamic.spawnTable,
+        tags: entry.dynamic.tags,
+        encounters: entry.dynamic.encounters
+      }
+    : {
+        x: toNumberOrString(entry.x),
+        y: toNumberOrString(entry.y),
+        z: toNumberOrString(entry.z)
+      };
   return `${JSON.stringify(previewData, null, 2)}\n`;
 }
 
 function updatePreviewModeButtonLabel() {
+  if (currentOpenEntry && currentOpenEntry.kind === "dynamic") {
+    togglePreviewFormatBtn.textContent = previewMode === "wiki" ? "Details" : "Center";
+    return;
+  }
   togglePreviewFormatBtn.textContent = previewMode === "wiki" ? "Wiki" : "Coords";
 }
 
@@ -150,7 +227,7 @@ function showCopyToast(message, isError = false) {
 }
 
 function updateCombineButtonState() {
-  const count = currentFiltered.length;
+  const count = currentFiltered.filter((entry) => entry.kind !== "dynamic").length;
   combineBtn.disabled = count === 0;
   combineBtn.textContent = count > 0 ? `Combine (${count.toLocaleString()})` : "Combine";
 }
@@ -206,12 +283,42 @@ function syncMapMarkers() {
     if (!latLng) {
       continue;
     }
+    if (entry.kind === "dynamic" && entry.dynamic && entry.dynamic.bounds) {
+      const minimum = entry.dynamic.bounds.min;
+      const maximum = entry.dynamic.bounds.max;
+      const areaBounds = [
+        [Number(minimum.y), Number(minimum.x)],
+        [Number(maximum.y), Number(maximum.x)]
+      ];
+      if (areaBounds.flat().every(Number.isFinite)) {
+        bounds.push(areaBounds[0], areaBounds[1]);
+        const popup = `<strong class="map-popup-title">${escapeHtml(entry.name)}</strong>`
+          + `<br/>Dynamic encounter area`
+          + `<br/>${entry.dynamic.cellCount.toLocaleString()} candidate cells`
+          + renderSpawnTierPopup(entry.dynamic.encounters);
+        window.L.rectangle(areaBounds, {
+          color: "#e0c896",
+          weight: 2,
+          fillColor: "#e0c896",
+          fillOpacity: 0.14
+        }).bindPopup(popup).addTo(locationMarkersLayer);
+        window.L.circleMarker(latLng, {
+          radius: 4,
+          color: "#f4dfad",
+          weight: 2,
+          fillColor: "#0c0c0f",
+          fillOpacity: 0.9
+        }).bindPopup(popup).addTo(locationMarkersLayer);
+        continue;
+      }
+    }
+
     bounds.push(latLng);
-    const marker = window.L.marker(latLng);
-    marker.bindPopup(
-      `<strong class="map-popup-title">${escapeHtml(entry.name)}</strong><br/>X: ${escapeHtml(String(entry.x))}<br/>Y: ${escapeHtml(String(entry.y))}`
-    );
-    marker.addTo(locationMarkersLayer);
+    window.L.marker(latLng)
+      .bindPopup(
+        `<strong class="map-popup-title">${escapeHtml(entry.name)}</strong><br/>X: ${escapeHtml(String(entry.x))}<br/>Y: ${escapeHtml(String(entry.y))}`
+      )
+      .addTo(locationMarkersLayer);
   }
 
   if (!bounds.length) {
@@ -219,11 +326,16 @@ function syncMapMarkers() {
   }
 
   if (mapMode === "selected") {
-    const [lat, lng] = bounds[0];
-    locationMap.setView([lat, lng], Math.max(locationMap.getZoom(), 2.5));
-    const firstMarker = locationMarkersLayer.getLayers()[0];
-    if (firstMarker) {
-      firstMarker.openPopup();
+    if (currentOpenEntry && currentOpenEntry.kind === "dynamic" && bounds.length > 1) {
+      locationMap.fitBounds(bounds, { padding: [28, 28], maxZoom: 3.5 });
+    } else {
+      const selectedLatLng = currentOpenEntry ? entryToLatLng(currentOpenEntry) : bounds[0];
+      const [lat, lng] = selectedLatLng || bounds[0];
+      locationMap.setView([lat, lng], Math.max(locationMap.getZoom(), 2.5));
+    }
+    const firstLayer = locationMarkersLayer.getLayers()[0];
+    if (firstLayer && typeof firstLayer.openPopup === "function") {
+      firstLayer.openPopup();
     }
   } else {
     locationMap.fitBounds(bounds, { padding: [24, 24] });
@@ -261,8 +373,11 @@ function setSelectedMatch(index) {
 
 function openLocation(entry) {
   currentOpenEntry = entry;
-  selectedPathEl.textContent = entry.name;
+  selectedPathEl.textContent = entry.kind === "dynamic"
+    ? `${entry.name} - Dynamic encounter area`
+    : entry.name;
   fileContentEl.textContent = getPreviewText(entry);
+  updatePreviewModeButtonLabel();
   updatePreviewControlsState();
   syncMapMarkers();
 }
@@ -337,7 +452,7 @@ function downloadCombinedLocationData() {
   );
   const includeIcon = Boolean(iconNameRaw);
 
-  const payload = currentFiltered.map((entry) => {
+  const payload = currentFiltered.filter((entry) => entry.kind !== "dynamic").map((entry) => {
     const out = {
       x: toNumberOrString(entry.x),
       y: toNumberOrString(entry.y)
@@ -387,7 +502,17 @@ function renderResults(matches) {
   matches.forEach((entry, idx) => {
     const li = document.createElement("li");
     const btn = document.createElement("button");
-    btn.textContent = entry.name;
+    btn.className = "location-result-button";
+    const name = document.createElement("span");
+    name.className = "location-result-name";
+    name.textContent = entry.name;
+    btn.appendChild(name);
+    if (entry.kind === "dynamic") {
+      const meta = document.createElement("span");
+      meta.className = "location-result-meta";
+      meta.textContent = `Dynamic area · ${entry.dynamic.rarityLabel} spawn tier · ${entry.dynamic.cellCount.toLocaleString()} cells`;
+      btn.appendChild(meta);
+    }
     btn.title = entry.name;
     btn.type = "button";
     btn.dataset.idx = String(idx);
@@ -400,12 +525,12 @@ function renderResults(matches) {
 
 function locationEntryMatchesQuery(entry, queryRaw) {
   const fn = window.rsdwHaystackMatchesQuery;
-  const hay = `${entry.nameLower} ${entry.coordsLower}`;
+  const hay = entry.searchHaystack || `${entry.nameLower} ${entry.coordsLower}`;
   if (typeof fn === "function") {
     return fn(hay, queryRaw);
   }
   const query = String(queryRaw || "").trim().toLowerCase();
-  return entry.nameLower.includes(query) || entry.coordsLower.includes(query);
+  return hay.includes(query);
 }
 
 function filterAndRender() {
@@ -424,6 +549,7 @@ function filterAndRender() {
     selectedPathEl.textContent = "Select a location";
     fileContentEl.textContent = "Search and click a location to preview XYZ coordinates.";
     updatePreviewControlsState();
+    updatePreviewModeButtonLabel();
     updateCombineButtonState();
     syncMapMarkers();
     return;
@@ -473,7 +599,7 @@ function formatLocationNumberForClipboard(n) {
  * @returns {string | null} e.g. `|center=139237.686757,61172.214662` (Y,X), or null if nothing valid.
  */
 function computeFilteredCenterLocationString(includeZ) {
-  const entries = currentFiltered;
+  const entries = currentFiltered.filter((entry) => entry.kind !== "dynamic");
   if (entries.length === 0) {
     return null;
   }
@@ -613,30 +739,155 @@ async function loadLocationDataObject() {
   throw lastError instanceof Error ? lastError : new Error("No LocationData JSON could be loaded");
 }
 
+async function loadDynamicAISpawnData() {
+  try {
+    const response = await fetch(DYNAMIC_DATA_URL, { cache: "no-store" });
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status} ${DYNAMIC_DATA_URL}`);
+    }
+    const payload = await response.json();
+    if (!payload || typeof payload !== "object" || Array.isArray(payload)) {
+      throw new Error(`Invalid DynamicAISpawnData JSON shape: ${DYNAMIC_DATA_URL}`);
+    }
+    return payload;
+  } catch (error) {
+    console.warn("Dynamic AI encounter data is unavailable.", error);
+    return null;
+  }
+}
+
+function normalizeDynamicLocations(payload) {
+  if (!payload || typeof payload !== "object") {
+    return [];
+  }
+  const tables = payload.tables && typeof payload.tables === "object" ? payload.tables : {};
+  const volumes = Array.isArray(payload.volumes) ? payload.volumes : [];
+  const tierPayload = payload.spawnTierSettings && typeof payload.spawnTierSettings === "object"
+    ? payload.spawnTierSettings
+    : {};
+  const tierSettings = tierPayload.tiers && typeof tierPayload.tiers === "object"
+    ? tierPayload.tiers
+    : {};
+  const entries = [];
+
+  for (const volume of volumes) {
+    if (!volume || typeof volume !== "object" || !volume.center) {
+      continue;
+    }
+    const table = tables[volume.spawnTable];
+    const encounters = table && Array.isArray(table.encounters) ? table.encounters : [];
+    const byAiClass = new Map();
+
+    for (const encounter of encounters) {
+      const members = encounter && Array.isArray(encounter.members) ? encounter.members : [];
+      for (const member of members) {
+        if (!member || typeof member.aiClass !== "string" || !member.aiClass) {
+          continue;
+        }
+        if (!byAiClass.has(member.aiClass)) {
+          byAiClass.set(member.aiClass, {
+            aiClass: member.aiClass,
+            npcId: member.npcId || null,
+            displayName: member.displayName || member.aiClass,
+            encounters: []
+          });
+        }
+        byAiClass.get(member.aiClass).encounters.push({
+          row: encounter.row,
+          rarity: encounter.rarity,
+          spawnTier: encounter.rarity && tierSettings[encounter.rarity]
+            ? tierSettings[encounter.rarity]
+            : null,
+          chanceModifiers: encounter.chanceModifiers || [],
+          spreadRadius: encounter.spreadRadius,
+          minQuantity: member.minQuantity,
+          maxQuantity: member.maxQuantity,
+          powerLevel: member.powerLevel,
+          spawnBehaviour: member.spawnBehaviour
+        });
+      }
+    }
+
+    for (const ai of byAiClass.values()) {
+      const rarities = [...new Set(ai.encounters.map((item) => item.rarity).filter(Boolean))];
+      const modifiers = [...new Set(ai.encounters.flatMap((item) => item.chanceModifiers || []))];
+      const coords = `${volume.center.x} ${volume.center.y} ${volume.center.z}`;
+      const searchParts = [
+        ai.displayName,
+        ai.aiClass,
+        ai.npcId,
+        volume.id,
+        volume.spawnTable,
+        ...(volume.tags || []),
+        ...rarities,
+        ...modifiers,
+        ...ai.encounters.map((item) => item.row)
+      ].filter(Boolean);
+      entries.push({
+        kind: "dynamic",
+        name: ai.displayName,
+        nameLower: ai.displayName.toLowerCase(),
+        coords,
+        coordsLower: coords.toLowerCase(),
+        searchHaystack: `${searchParts.join(" ").toLowerCase()} ${coords.toLowerCase()}`,
+        x: volume.center.x,
+        y: volume.center.y,
+        z: volume.center.z,
+        dynamic: {
+          aiClass: ai.aiClass,
+          npcId: ai.npcId,
+          volumeId: volume.id,
+          spawnTable: volume.spawnTable,
+          tags: volume.tags || [],
+          bounds: volume.bounds,
+          cellCount: Number(volume.cellCount) || 0,
+          rarityLabel: rarities.join(", ") || "Variable rarity",
+          encounters: ai.encounters
+        }
+      });
+    }
+  }
+
+  return entries.sort((a, b) => a.name.localeCompare(b.name) || a.dynamic.volumeId.localeCompare(b.dynamic.volumeId));
+}
+
 async function init() {
   await loadWebsiteConfig();
   try {
     initLocationMap();
 
-    const { parsed } = await loadLocationDataObject();
+    const [{ parsed }, dynamicPayload] = await Promise.all([
+      loadLocationDataObject(),
+      loadDynamicAISpawnData()
+    ]);
 
-    locations = Object.entries(parsed).map(([name, coords]) => {
+    const fixedLocations = Object.entries(parsed)
+      .filter(([name]) => !name.startsWith("AISpawnVolume_UAID_"))
+      .map(([name, coords]) => {
       const xyz = parseCoordinates(coords);
       return {
+        kind: "fixed",
         name,
         nameLower: name.toLowerCase(),
         coords: String(coords),
         coordsLower: String(coords).toLowerCase(),
+        searchHaystack: `${name.toLowerCase()} ${String(coords).toLowerCase()}`,
         x: xyz.x,
         y: xyz.y,
         z: xyz.z
       };
     });
+    const dynamicLocations = normalizeDynamicLocations(dynamicPayload);
+    locations = [...fixedLocations, ...dynamicLocations];
+    fixedLocationCount = fixedLocations.length;
+    dynamicLocationCount = dynamicLocations.length;
 
-    const loaded = `${locations.length.toLocaleString()} locations`;
+    const loaded = dynamicLocationCount
+      ? `${fixedLocationCount.toLocaleString()} fixed locations + ${dynamicLocationCount.toLocaleString()} dynamic encounter areas`
+      : `${fixedLocationCount.toLocaleString()} locations`;
     updateStatus(loaded);
     updateHomeStatus(loaded);
-    updateHomeSubtitle(`Browse ${locations.length.toLocaleString()} Locations in ${ROOT_FOLDER}`);
+    updateHomeSubtitle(`Browse locations and encounter areas in ${ROOT_FOLDER}`);
     setLandingVisible(true);
   } catch (error) {
     const errorText = `Failed to load LocationData: ${error instanceof Error ? error.message : "Unknown error"}`;
