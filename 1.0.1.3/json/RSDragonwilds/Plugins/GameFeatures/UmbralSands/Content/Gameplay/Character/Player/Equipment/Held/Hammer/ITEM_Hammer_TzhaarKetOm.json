@@ -1,0 +1,142 @@
+[
+  {
+    "Type": "HeldEquipmentData",
+    "Name": "ITEM_Hammer_TzhaarKetOm",
+    "Class": "UScriptClass'HeldEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HeldEquipmentActorClass": {
+        "AssetPathName": "/UmbralSands/Gameplay/Character/Player/Equipment/Held/Hammer/BP_Hammer_TzhaarKetOm.BP_Hammer_TzhaarKetOm_C",
+        "SubPathString": ""
+      },
+      "PrimaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_2H_Hammer_TzhaarKetOm_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/2H_Hammer/PA_Attack_2H_Hammer_TzhaarKetOm"
+      },
+      "PrimaryJumpActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Spell_2H_Hammer_JumpAttack_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/2H_Hammer/PA_Spell_2H_Hammer_JumpAttack"
+      },
+      "PrimarySprintActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_2H_Hammer_Sprint_TzhaarKetOm_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/2H_Hammer/PA_Attack_2H_Hammer_Sprint_TzhaarKetOm"
+      },
+      "SecondaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Block_Warhammer_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Abilities/Block/PA_Block_Warhammer"
+      },
+      "SpecialActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_2H_Hammer_Special_TzhaarKetOm_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/2H_Hammer/PA_Attack_2H_Hammer_Special_TzhaarKetOm"
+      },
+      "AnimationPoseType": "EAnimationPoseType::Default",
+      "AnimationPosesSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Idle_Hammer_Poses'",
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Hammer/A_PlayerM_Idle_Hammer_Poses"
+      },
+      "BaseHeldEquipmentPowerLevelRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_PlayerWeaponPowerLevels'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels"
+        },
+        "RowName": "Weapons"
+      },
+      "BaseHeldEquipmentDamageNegationRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_PlayerDamageNegation'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_PlayerDamageNegation"
+        },
+        "RowName": "Warhammer"
+      },
+      "DamageMultiplier": 8.4,
+      "BlockingDamageNegation": 44.0,
+      "DamageTypes": [
+        "DamageType.Physical.Crush"
+      ],
+      "Slot": "ELoadoutSlotStrategy::HeldTwoHanded",
+      "bIsAWeapon": true,
+      "DistanceOffset": 30.0,
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Attack'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Attack"
+      },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "Tzhaarketom",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "Tzhaarketom",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "CustomStatDetails": [
+        {
+          "Name": {
+            "TableId": "/Game/UI/StatusEffects/ST_StatusEffects.ST_StatusEffects",
+            "Key": "BleedApplication",
+            "SourceString": null,
+            "LocalizedString": ""
+          },
+          "Value": {
+            "CultureInvariantString": null
+          }
+        }
+      ],
+      "Icon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Kothaar_Mace.T_Icon_Kothaar_Mace",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/UmbralSands/Art/Skeleton/Weapons/Melee/KotHaar_Ket_Hammer_2H_01/SM_TzhaarKetOm_2H_01.SM_TzhaarKetOm_2H_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 7,
+      "Weight": 25.0,
+      "Category": {
+        "TagName": "Item.Equipment.Weapon.2H.Warhammer"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Weapon.Melee"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Metal.BludgeonLarge"
+      },
+      "BaseDurability": 1200,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak"
+      },
+      "BuffDatas": [
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemInfo.ST_ItemInfo",
+            "Key": "SpecialEffect",
+            "SourceString": null,
+            "LocalizedString": ""
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "TzhaarKetOm.Boon",
+            "SourceString": null,
+            "LocalizedString": ""
+          },
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "bIsMasterworkItem": true,
+      "MasterworkType": "EMasterworkUpgradeType::Vestige",
+      "PersistenceID": "d7VKQ0Pi4TZ60FSYIDUUxw",
+      "InternalName": "weap_hammer_Tzhaarketom"
+    }
+  }
+]

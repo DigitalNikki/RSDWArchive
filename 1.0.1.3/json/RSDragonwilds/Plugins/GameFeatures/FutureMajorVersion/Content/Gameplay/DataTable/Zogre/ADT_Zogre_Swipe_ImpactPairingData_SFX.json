@@ -1,0 +1,94 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ADT_Zogre_Swipe_ImpactPairingData_SFX",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Object'ImpactSourceSFXTableRow'",
+        "ObjectPath": "/Script/Dominion"
+      }
+    },
+    "Rows": {
+      "Audio.Flesh": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_Flesh_Generic_BludgeonLarge_Rem'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/Impacts_Flesh/MSS_Co_Flesh_Generic_BludgeonLarge_Rem"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.Flesh"
+        ]
+      },
+      "Audio.Metal.Armour": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_Armour_BludgeonLarge_OnPlayer'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/Impacts_Armour/MSS_Co_Armour_BludgeonLarge_OnPlayer"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.Metal.Armour"
+        ]
+      },
+      "Audio.Metal.Shield": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_ShieldImpact_MetalMed_MetalShield_OnPlayer'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/Shields/MSS_Co_ShieldImpact_MetalMed_MetalShield_OnPlayer"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.Metal.Shield"
+        ]
+      },
+      "Audio.Wood.Shield": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_ShieldImpact_Generic_WoodShield_OnPlayer'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/Shields/MSS_Co_ShieldImpact_Generic_WoodShield_OnPlayer"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.Wood.Shield"
+        ]
+      },
+      "Audio.Metal.Blade": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_WeapBlock_LargeMetalBlade'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/WeaponBlocks/MSS_Co_WeapBlock_LargeMetalBlade"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.Metal.Blade"
+        ]
+      },
+      "Audio.Metal.BludgeonLarge": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_WeapBlock_Metal_Pole'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/WeaponBlocks/MSS_Co_WeapBlock_Metal_Pole"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.Metal.BludgeonLarge"
+        ]
+      }
+    }
+  }
+]

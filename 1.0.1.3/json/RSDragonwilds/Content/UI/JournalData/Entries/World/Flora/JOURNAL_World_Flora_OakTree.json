@@ -1,0 +1,73 @@
+[
+  {
+    "Type": "JournalEntryWorldData",
+    "Name": "JOURNAL_World_Flora_OakTree",
+    "Class": "UScriptClass'JournalEntryWorldData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Locations": [
+        {
+          "LocationText": {
+            "TableId": "/Game/UI/ST_Localization.ST_Localization",
+            "Key": "Ghornfell",
+            "SourceString": null,
+            "LocalizedString": ""
+          },
+          "LocationID": "Ghornfell"
+        }
+      ],
+      "Materials": [
+        {
+          "MaterialID": "Oak Logs",
+          "MaterialItemData": {
+            "ObjectName": "FuelItemData'ITEM_Resources_Wood_Oak'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Wood/ITEM_Resources_Wood_Oak"
+          }
+        },
+        {
+          "MaterialID": "Oak Seed",
+          "MaterialItemData": {
+            "ObjectName": "HeldTreeSeedData'ITEM_Farming_TreeSeed_Oak'",
+            "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Held/Farming/TreePlanting/ITEM_Farming_TreeSeed_Oak"
+          }
+        },
+        {
+          "MaterialID": "Bird's Nest",
+          "MaterialItemData": {
+            "ObjectName": "BP_Consumables_ItemEmitter_C'ITEM_Consumable_BirdNest'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Misc/ITEM_Consumable_BirdNest"
+          }
+        }
+      ],
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "OakTree",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "OakTree",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Journal/T_Icon_SM_BM_Oak_Tree_01.T_Icon_SM_BM_Oak_Tree_01",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::ItemFirstPickup",
+        "UnlockingItemData": {
+          "AssetPathName": "/Game/Gameplay/Items/Resources/Wood/ITEM_Resources_Wood_Oak.ITEM_Resources_Wood_Oak",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "xuFgf0CMc6QCqz-VDe3IGA",
+      "InternalName": "JOURNAL_World_Flora_OakTree"
+    }
+  }
+]

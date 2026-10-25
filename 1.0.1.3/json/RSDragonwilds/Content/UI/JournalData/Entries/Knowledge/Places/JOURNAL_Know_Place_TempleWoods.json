@@ -1,0 +1,39 @@
+[
+  {
+    "Type": "JournalEntryKnowPlaceData",
+    "Name": "JOURNAL_Know_Place_TempleWoods",
+    "Class": "UScriptClass'JournalEntryKnowPlaceData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DisplayName": {
+        "TableId": "/Game/UI/ST_Localization.ST_Localization",
+        "Key": "TempleWoods",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "CliffWoods",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Journal/T_Icon_Journal_Temple_Woods.T_Icon_Journal_Temple_Woods",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::PlayerStart",
+        "UnlockingInteractionActor": {
+          "AssetPathName": "/Game/Gameplay/World/Misc/BP_BaseBossAltar.BP_BaseBossAltar_C",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "yAoy90z0p7TGisuGNmcJdw",
+      "InternalName": "JOURNAL_Know_Place_TempleWoods"
+    }
+  }
+]

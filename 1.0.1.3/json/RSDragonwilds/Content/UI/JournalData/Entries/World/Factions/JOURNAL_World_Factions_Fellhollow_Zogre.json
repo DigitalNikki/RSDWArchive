@@ -1,0 +1,92 @@
+[
+  {
+    "Type": "JournalEntryWorldData",
+    "Name": "JOURNAL_World_Factions_Fellhollow_Zogre",
+    "Class": "UScriptClass'JournalEntryWorldData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Weaknesses": [
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Locations": [
+        {
+          "LocationText": {
+            "TableId": "/Game/Gameplay/Map/ST_RegionNames.ST_RegionNames",
+            "Key": "Fellhollow",
+            "SourceString": null,
+            "LocalizedString": ""
+          },
+          "LocationID": "Fellhollow"
+        }
+      ],
+      "Materials": [
+        {
+          "MaterialID": "None",
+          "MaterialItemData": {
+            "ObjectName": "ItemData'ITEM_Currency_SoulFragment'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Currency/ITEM_Currency_SoulFragment"
+          }
+        },
+        {
+          "MaterialID": "None",
+          "MaterialItemData": {
+            "ObjectName": "BP_Consumables_ItemEmitter_C'ITEM_Consumable_ZogrePack'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Misc/ITEM_Consumable_ZogrePack"
+          }
+        },
+        {
+          "MaterialID": "None",
+          "MaterialItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Bone_Undead'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_Bone_Undead"
+          }
+        },
+        {
+          "MaterialID": "None",
+          "MaterialItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Leather_Hard'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Textiles/ITEM_Resources_Leather_Hard"
+          }
+        },
+        {
+          "MaterialID": "None",
+          "MaterialItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Corpse_Fur'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_Corpse_Fur"
+          }
+        }
+      ],
+      "DisplayName": {
+        "TableId": "/FutureMajorVersion/Gameplay/AI/ST_AI_Names_Fellhollow.ST_AI_Names_Fellhollow",
+        "Key": "Zogre",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "Zogre",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Journal/T_Icon_Journal_Zogre.T_Icon_Journal_Zogre",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::AIKill",
+        "AIData": {
+          "AssetPathName": "/FutureMajorVersion/Gameplay/AI/ZombieFaction/Zogre/BP_AI_Zogre_Data.BP_AI_Zogre_Data_C",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "MZGkM0r5w76ASWeMYscFng",
+      "InternalName": "JOURNAL_World_Factions_Fellhollow_Zombie_Zogre"
+    }
+  }
+]

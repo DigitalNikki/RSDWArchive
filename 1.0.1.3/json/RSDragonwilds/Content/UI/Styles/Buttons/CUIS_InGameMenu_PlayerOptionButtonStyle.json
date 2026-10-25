@@ -1,0 +1,155 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "CUIS_InGameMenu_PlayerOptionButtonStyle_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'CommonButtonStyle'",
+      "ObjectPath": "/Script/CommonUI"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "CUIS_InGameMenu_PlayerOptionButtonStyle_C'Default__CUIS_InGameMenu_PlayerOptionButtonStyle_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Styles/Buttons/CUIS_InGameMenu_PlayerOptionButtonStyle.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "CUIS_InGameMenu_PlayerOptionButtonStyle_C",
+    "Name": "Default__CUIS_InGameMenu_PlayerOptionButtonStyle_C",
+    "Class": "BlueprintGeneratedClass'1.0.1.3/RSDragonwilds/Content/UI/Styles/Buttons/CUIS_InGameMenu_PlayerOptionButtonStyle.CUIS_InGameMenu_PlayerOptionButtonStyle_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "NormalBase": {
+        "DrawAs": "ESlateBrushDrawType::Border",
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 372.0,
+          "Y": 2.0
+        },
+        "Margin": {
+          "Bottom": 1.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_ToolT_Line_Underline'",
+          "ObjectPath": "/Game/Art/UI/InGameMenus/T_ToolT_Line_Underline"
+        }
+      },
+      "NormalHovered": {
+        "DrawAs": "ESlateBrushDrawType::Border",
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 423.0,
+          "Y": 9.0
+        },
+        "Margin": {
+          "Bottom": 1.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_ToolT_Line_Highlight'",
+          "ObjectPath": "/Game/Art/UI/InGameMenus/T_ToolT_Line_Highlight"
+        }
+      },
+      "NormalPressed": {
+        "DrawAs": "ESlateBrushDrawType::Border",
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 423.0,
+          "Y": 9.0
+        },
+        "Margin": {
+          "Bottom": 1.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_ToolT_Line_Highlight'",
+          "ObjectPath": "/Game/Art/UI/InGameMenus/T_ToolT_Line_Highlight"
+        }
+      },
+      "SelectedBase": {
+        "DrawAs": "ESlateBrushDrawType::Border",
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 423.0,
+          "Y": 9.0
+        },
+        "Margin": {
+          "Bottom": 1.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_ToolT_Line_Highlight'",
+          "ObjectPath": "/Game/Art/UI/InGameMenus/T_ToolT_Line_Highlight"
+        }
+      },
+      "SelectedHovered": {
+        "DrawAs": "ESlateBrushDrawType::Border",
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 423.0,
+          "Y": 9.0
+        },
+        "Margin": {
+          "Bottom": 1.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_ToolT_Line_Highlight'",
+          "ObjectPath": "/Game/Art/UI/InGameMenus/T_ToolT_Line_Highlight"
+        }
+      },
+      "SelectedPressed": {
+        "DrawAs": "ESlateBrushDrawType::Border",
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 423.0,
+          "Y": 9.0
+        },
+        "Margin": {
+          "Bottom": 1.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_ToolT_Line_Highlight'",
+          "ObjectPath": "/Game/Art/UI/InGameMenus/T_ToolT_Line_Highlight"
+        }
+      },
+      "Disabled": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 481.0,
+          "Y": 252.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_ToolTip_Bg'",
+          "ObjectPath": "/Game/Art/UI/Common/T_ToolTip_Bg"
+        }
+      },
+      "NormalTextStyle": {
+        "ObjectName": "BlueprintGeneratedClass'CUIS_PlayerList_OptionsTextStyle_C'",
+        "ObjectPath": "/Game/UI/Styles/Texts/CUIS_PlayerList_OptionsTextStyle"
+      },
+      "NormalHoveredTextStyle": {
+        "ObjectName": "BlueprintGeneratedClass'CUIS_PlayerList_OptionsTextStyle_C'",
+        "ObjectPath": "/Game/UI/Styles/Texts/CUIS_PlayerList_OptionsTextStyle"
+      },
+      "SelectedTextStyle": {
+        "ObjectName": "BlueprintGeneratedClass'CUIS_PlayerList_OptionsSelectedTextStyle_C'",
+        "ObjectPath": "/Game/UI/Styles/Texts/CUIS_PlayerList_OptionsSelectedTextStyle"
+      },
+      "SelectedHoveredTextStyle": {
+        "ObjectName": "BlueprintGeneratedClass'CUIS_PlayerList_OptionsSelectedTextStyle_C'",
+        "ObjectPath": "/Game/UI/Styles/Texts/CUIS_PlayerList_OptionsSelectedTextStyle"
+      },
+      "DisabledTextStyle": {
+        "ObjectName": "BlueprintGeneratedClass'CUIS_PlayerList_OptionsTextStyle_C'",
+        "ObjectPath": "/Game/UI/Styles/Texts/CUIS_PlayerList_OptionsTextStyle"
+      }
+    }
+  }
+]

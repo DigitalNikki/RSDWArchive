@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "JournalEntryWorldData",
+    "Name": "JOURNAL_World_Flora_Redberries",
+    "Class": "UScriptClass'JournalEntryWorldData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Locations": [
+        {
+          "LocationText": {
+            "TableId": "/Game/UI/ST_Localization.ST_Localization",
+            "Key": "Ghornfell",
+            "SourceString": null,
+            "LocalizedString": ""
+          },
+          "LocationID": "Ghornfell"
+        }
+      ],
+      "Materials": [
+        {
+          "MaterialID": "Redberries",
+          "MaterialItemData": {
+            "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fruit_Redberry'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Fruit_Redberry"
+          }
+        },
+        {
+          "MaterialID": "Redberries Seed",
+          "MaterialItemData": {
+            "ObjectName": "SeedHeldEquipmentData'ITEM_Farming_Seed_Redberry'",
+            "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Held/Farming/Seeds/ITEM_Farming_Seed_Redberry"
+          }
+        }
+      ],
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "Redberries",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "RedBerries",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/Game/Art/UI/Icons/Journal/T_Icons_Journal_Redberries.T_Icons_Journal_Redberries",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::ItemFirstPickup",
+        "UnlockingItemData": {
+          "AssetPathName": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Fruit_Redberry.ITEM_Consumable_Fruit_Redberry",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "5opdaUedWo1U256QkHmGyw",
+      "InternalName": "JOURNAL_World_Flora_Redberries"
+    }
+  }
+]

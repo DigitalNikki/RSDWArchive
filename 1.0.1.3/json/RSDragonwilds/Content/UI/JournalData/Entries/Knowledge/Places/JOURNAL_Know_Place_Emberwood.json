@@ -1,0 +1,44 @@
+[
+  {
+    "Type": "JournalEntryKnowPlaceData",
+    "Name": "JOURNAL_Know_Place_Emberwood",
+    "Class": "UScriptClass'JournalEntryKnowPlaceData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Map/ST_RegionNames.ST_RegionNames",
+        "Key": "Fellhollow.Emberwood",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "Fellhollow.Emberwood",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Journal/T_Icon_Journal_Bloodblight_Swamps.T_Icon_Journal_Bloodblight_Swamps",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RegionUnlocked",
+        "UnlockingInteractionActor": {
+          "AssetPathName": "/Game/Gameplay/World/Misc/BP_BaseBossAltar.BP_BaseBossAltar_C",
+          "SubPathString": ""
+        },
+        "RegionID": 14,
+        "MapRegion": {
+          "AssetPathName": "/Game/Maps/World/L_World.L_World",
+          "SubPathString": "PersistentLevel.BP_MapRegion_C_UAID_AC1A3DB43E39109702_1673104074"
+        }
+      },
+      "PersistenceID": "MlxuWk4c1wUfwcGfcMX_rA",
+      "InternalName": "JOURNAL_Know_Place_Emberwood"
+    }
+  }
+]

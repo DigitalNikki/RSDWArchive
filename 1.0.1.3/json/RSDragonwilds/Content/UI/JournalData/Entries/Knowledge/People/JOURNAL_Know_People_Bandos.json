@@ -1,0 +1,35 @@
+[
+  {
+    "Type": "JournalEntryKnowPeopleData",
+    "Name": "JOURNAL_Know_People_Bandos",
+    "Class": "UScriptClass'JournalEntryKnowPeopleData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DisplayName": {
+        "TableId": "/Game/UI/ST_Localization.ST_Localization",
+        "Key": "Bandos",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "Bandos",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Journal/T_Icon_Journal_Bandos.T_Icon_Journal_Bandos",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::PlayerStart"
+      },
+      "PersistenceID": "753ck0e8IQhjJx-Netw-wg",
+      "InternalName": "JOURNAL_Know_People_Bandos"
+    }
+  }
+]

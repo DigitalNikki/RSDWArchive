@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "JournalEntryRecipeData",
+    "Name": "JOURNAL_Recipes_Weapons_Crossbow_Mithril",
+    "Class": "UScriptClass'JournalEntryRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipeData": {
+        "AssetPathName": "/DowdunReach/Gameplay/Character/Player/Equipment/Held/Crossbow/RECIPE_Weapon_Crossbow_Mithril.RECIPE_Weapon_Crossbow_Mithril",
+        "SubPathString": ""
+      },
+      "ItemData": {
+        "AssetPathName": "/DowdunReach/Gameplay/Character/Player/Equipment/Held/Crossbow/ITEM_Crossbow_Mithril.ITEM_Crossbow_Mithril",
+        "SubPathString": ""
+      },
+      "StationTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_CraftingStationsDataTable'",
+          "ObjectPath": "/Game/Gameplay/World/Stations/DT_CraftingStationsDataTable"
+        },
+        "RowName": "FletchingBenchv2"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "MithrilCrossbow",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "MithrilCrossbow",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Journal/T_Icon_Journal_Mithril_Crossbow.T_Icon_Journal_Mithril_Crossbow",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RecipeUnlocked",
+        "UnlockingRecipe": {
+          "AssetPathName": "/DowdunReach/Gameplay/Character/Player/Equipment/Held/Crossbow/RECIPE_Weapon_Crossbow_Mithril.RECIPE_Weapon_Crossbow_Mithril",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "wIOG6UjnvSNYnjmoQLF7bw",
+      "InternalName": "JOURNAL_Recipes_Weapons_Crossbow_Mithril"
+    }
+  }
+]

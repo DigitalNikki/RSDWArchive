@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "JournalEntryRecipeData",
+    "Name": "JOURNAL_Recipes_Trinket_Amulet_of_Glory",
+    "Class": "UScriptClass'JournalEntryRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipeData": {
+        "AssetPathName": "/UmbralSands/Gameplay/Items/Recipes/Gear/RECIPE_Trinket_Iconic_Amulet_of_Glory.RECIPE_Trinket_Iconic_Amulet_of_Glory",
+        "SubPathString": ""
+      },
+      "ItemData": {
+        "AssetPathName": "/UmbralSands/Gameplay/Character/Player/Equipment/Jewelry/ITEM_Trinket_Iconic_Amulet_of_Glory.ITEM_Trinket_Iconic_Amulet_of_Glory",
+        "SubPathString": ""
+      },
+      "StationTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_CraftingStationsDataTable'",
+          "ObjectPath": "/Game/Gameplay/World/Stations/DT_CraftingStationsDataTable"
+        },
+        "RowName": "JewelersBench"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "Trinket.AmuletofGlory",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "AmuletOfGlory",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Journal_Images/T_Icon_Journal_Amulet_of_Glory.T_Icon_Journal_Amulet_of_Glory",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RecipeUnlocked",
+        "UnlockingRecipe": {
+          "AssetPathName": "/UmbralSands/Gameplay/Items/Recipes/Gear/RECIPE_Trinket_Iconic_Amulet_of_Glory.RECIPE_Trinket_Iconic_Amulet_of_Glory",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "kB6J-EsaEgU1a--j3ZoQ6A",
+      "InternalName": "JOURNAL_Recipes_Trinket_Amulet_of_Glory"
+    }
+  }
+]

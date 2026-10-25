@@ -1,0 +1,194 @@
+[
+  {
+    "Type": "HeldEquipmentData",
+    "Name": "ITEM_Longbow_BowofElidinis",
+    "Class": "UScriptClass'HeldEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HeldEquipmentActorClass": {
+        "AssetPathName": "/UmbralSands/Gameplay/Character/Player/Equipment/Held/Bow/BP_Longbow_BowofElidinis.BP_Longbow_BowofElidinis_C",
+        "SubPathString": ""
+      },
+      "PrimaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_Longbow_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Bow/PA_Attack_Longbow"
+      },
+      "PrimaryJumpActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Spell_Longbow_JumpAttack_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Bow/PA_Spell_Longbow_JumpAttack"
+      },
+      "SecondaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Aim_Bow_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Bow/PA_Aim_Bow"
+      },
+      "SpecialActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_BowOfElidinis_Special_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Spells/Specials/BowOfElidinis/PA_BowOfElidinis_Special"
+      },
+      "AnimationPoseType": "EAnimationPoseType::Ranged",
+      "AnimationPosesSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Idle_Bow_Poses'",
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Bow/A_PlayerM_Idle_Bow_Poses"
+      },
+      "AimSweepSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Attack_Bow_Aim_Sweep'",
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Aim_Sweep"
+      },
+      "AimSweepCrouchedSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Attack_Bow_Aim_Crouch_Sweep'",
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Aim_Crouch_Sweep"
+      },
+      "WindUpSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Attack_Bow_Draw'",
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Draw"
+      },
+      "FullWindUpSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Attack_Bow_Hold'",
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Hold"
+      },
+      "WindUpMaxMovementSpeedOverride": 150.0,
+      "BaseHeldEquipmentPowerLevelRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_PlayerWeaponPowerLevels'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels"
+        },
+        "RowName": "Bows"
+      },
+      "BaseHeldEquipmentDamageNegationRowHandle": {
+        "RowName": "Unarmed"
+      },
+      "DamageMultiplier": 4.2,
+      "AdditionalBlockingDamageNegation": -5.0,
+      "bAssignDamageTypesToLaunchedProjectiles": true,
+      "DamageTypes": [
+        "DamageType.Magical.Water"
+      ],
+      "AmmoType": "EHeldEquipmentAmmoType::Arrows",
+      "ProjectileClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Arrow_Base_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Ammo/BP_Arrow_Base"
+      },
+      "ExcludedAmmoCategory": {
+        "TagName": "Item.Equipment.Ammo.Arrow.StatusEffect"
+      },
+      "RangedAttackCollection": {
+        "ObjectName": "BlueprintGeneratedClass'BP_PlayerRangedAttackCollection_Bow_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Bow/BP_PlayerRangedAttackCollection_Bow"
+      },
+      "PreferredLockOnCameraAimMode": "ELockOnCameraAimMode::RangedWeapon",
+      "Slot": "ELoadoutSlotStrategy::HeldTwoHanded",
+      "Tier": 3,
+      "bIsAWeapon": true,
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Ranged'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Ranged"
+      },
+      "GrantedEffects": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_BowOfElidinis_OnFatalHit_Data_C'",
+          "ObjectPath": "/Game/Gameplay/GameplayEffects/Equipment/BowOfElidinis/GE_BowOfElidinis_OnFatalHit_Data"
+        }
+      ],
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "BowofElidinis",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "BowofElidinis",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Longbow_Elidin.T_Icon_Longbow_Elidin",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/UmbralSands/Art/Skeleton/Weapons/Ranged/Longbow_Elidinis_01/SM_Longbow_Elidinis_02.SM_Longbow_Elidinis_02",
+        "SubPathString": ""
+      },
+      "PowerLevel": 7,
+      "Weight": 15.0,
+      "Category": {
+        "TagName": "Item.Equipment.Weapon.Bow.Longbow"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Weapon.Ranged"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Magic.Masterwork.BowofEldenis"
+      },
+      "BaseDurability": 1300,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak"
+      },
+      "BuffDatas": [
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "BowOfElidinisSpecial.Title",
+            "SourceString": null,
+            "LocalizedString": ""
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "BowOfElidinisSpecial.Description",
+            "SourceString": null,
+            "LocalizedString": ""
+          },
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "BowOfElidinis.Boon.Title",
+            "SourceString": null,
+            "LocalizedString": ""
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "BowOfElidinis.Boon.Description",
+            "SourceString": null,
+            "LocalizedString": ""
+          },
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "BowOfElidinis.Bane.Title",
+            "SourceString": null,
+            "LocalizedString": ""
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "BowOfElidinis.Bane.Description",
+            "SourceString": null,
+            "LocalizedString": ""
+          },
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "bIsMasterworkItem": true,
+      "MasterworkType": "EMasterworkUpgradeType::Masterwork",
+      "PersistenceID": "THi5wk7TfEUjXhWEkP6oZQ",
+      "InternalName": "weap_longbow_BowofElidinis"
+    }
+  }
+]

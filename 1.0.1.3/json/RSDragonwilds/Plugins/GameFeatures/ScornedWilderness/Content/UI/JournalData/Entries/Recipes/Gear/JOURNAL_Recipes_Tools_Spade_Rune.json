@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "JournalEntryRecipeData",
+    "Name": "JOURNAL_Recipes_Tools_Spade_Rune",
+    "Class": "UScriptClass'JournalEntryRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipeData": {
+        "AssetPathName": "/ScornedWilderness/Gameplay/Items/Recipes/Gear/RECIPE_Tool_Spade_Rune.RECIPE_Tool_Spade_Rune",
+        "SubPathString": ""
+      },
+      "ItemData": {
+        "AssetPathName": "/ScornedWilderness/Gameplay/Character/Player/Equipment/Held/Shovel/ITEM_Spade_T8_Rune.ITEM_Spade_T8_Rune",
+        "SubPathString": ""
+      },
+      "StationTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_CraftingStationsDataTable'",
+          "ObjectPath": "/Game/Gameplay/World/Stations/DT_CraftingStationsDataTable"
+        },
+        "RowName": "ToolsMeleeBench"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "RuneSpade",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "RuneSpade",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Journal/T_Icon_Journal_Shovel_Rune_2H_01.T_Icon_Journal_Shovel_Rune_2H_01",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RecipeUnlocked",
+        "UnlockingRecipe": {
+          "AssetPathName": "/ScornedWilderness/Gameplay/Items/Recipes/Gear/RECIPE_Tool_Spade_Rune.RECIPE_Tool_Spade_Rune",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "BccTVUDAwk204Tu7EXLhMw",
+      "InternalName": "JOURNAL_Recipes_Tools_Spade_Rune"
+    }
+  }
+]

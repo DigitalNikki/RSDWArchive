@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "JournalEntryRecipeData",
+    "Name": "JOURNAL_Recipes_Armour_Head_Zamorak",
+    "Class": "UScriptClass'JournalEntryRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipeData": {
+        "AssetPathName": "/DowdunReach/Gameplay/Character/Player/Equipment/Head/RECIPE_Armour_T6_Head_Zamorak.RECIPE_Armour_T6_Head_Zamorak",
+        "SubPathString": ""
+      },
+      "ItemData": {
+        "AssetPathName": "/DowdunReach/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_T6_Head_Zamorak.ITEM_Armour_T6_Head_Zamorak",
+        "SubPathString": ""
+      },
+      "StationTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_CraftingStationsDataTable'",
+          "ObjectPath": "/Game/Gameplay/World/Stations/DT_CraftingStationsDataTable"
+        },
+        "RowName": "ArmourBench"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "ZamorakianMageHood",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "ZamorakMageHood",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Journal/T_Icon_Journal_Zamorak_Hood.T_Icon_Journal_Zamorak_Hood",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RecipeUnlocked",
+        "UnlockingRecipe": {
+          "AssetPathName": "/DowdunReach/Gameplay/Character/Player/Equipment/Head/RECIPE_Armour_T6_Head_Zamorak.RECIPE_Armour_T6_Head_Zamorak",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "y45gkkb9ock4oCS0Wbg73w",
+      "InternalName": "JOURNAL_Recipes_Armour_Head_Zamorak"
+    }
+  }
+]

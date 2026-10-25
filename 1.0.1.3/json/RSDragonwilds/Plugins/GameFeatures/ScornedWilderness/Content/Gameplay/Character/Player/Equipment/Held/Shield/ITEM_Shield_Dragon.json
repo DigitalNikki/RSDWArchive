@@ -1,0 +1,86 @@
+[
+  {
+    "Type": "ShieldData",
+    "Name": "ITEM_Shield_Dragon",
+    "Class": "UScriptClass'ShieldData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArmorWeight": "EArmorWeight::Medium",
+      "HeldEquipmentActorClass": {
+        "AssetPathName": "/ScornedWilderness/Gameplay/Character/Player/Equipment/Held/Shield/BP_Shield_Dragon.BP_Shield_Dragon_C",
+        "SubPathString": ""
+      },
+      "SecondaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Block_Shield_Kite_Dragon_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Abilities/Block/PA_Block_Shield_Kite_Dragon"
+      },
+      "AnimationPoseType": "EAnimationPoseType::Default",
+      "AnimationPosesSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Idle_Kite_Poses'",
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Shield/A_PlayerM_Idle_Kite_Poses"
+      },
+      "BaseHeldEquipmentPowerLevelRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_PlayerWeaponPowerLevels'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels"
+        },
+        "RowName": "Weapons"
+      },
+      "BaseHeldEquipmentDamageNegationRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_PlayerDamageNegation'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_PlayerDamageNegation"
+        },
+        "RowName": "Shield"
+      },
+      "BlockingDamageNegation": 75.0,
+      "bLosesDurabilityOnAttack": false,
+      "bLosesDurabilityOnDamageReceived": false,
+      "Slot": "ELoadoutSlotStrategy::HeldOnlyLeft",
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "DragonKiteShield",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "DragonKiteShield",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Icons/T_Icon_SM_Kite_Dragon_1H_01.T_Icon_SM_Kite_Dragon_1H_01",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/ScornedWilderness/Art/Skeleton/Weapons/Shields/Kite_Dragon_1H_01/SM_Kite_Dragon_1H_01.SM_Kite_Dragon_1H_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 9,
+      "Weight": 10.0,
+      "Category": {
+        "TagName": "Item.Equipment.Shield"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Shield"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Metal.Shield"
+      },
+      "BaseDurability": 1900,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak"
+      },
+      "bIsMasterworkItem": true,
+      "MasterworkType": "EMasterworkUpgradeType::Vestige",
+      "PersistenceID": "QlvVq0AHBS7URw2a3nlFcw",
+      "InternalName": "shield_kite_dragon"
+    }
+  }
+]

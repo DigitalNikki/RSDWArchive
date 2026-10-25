@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "JournalEntryRecipeData",
+    "Name": "JOURNAL_Recipes_Resources_WildAnima",
+    "Class": "UScriptClass'JournalEntryRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipeData": {
+        "AssetPathName": "/Game/Gameplay/Items/Resources/Magic/RECIPE_Process_WildAnima_From_AnimaBark.RECIPE_Process_WildAnima_From_AnimaBark",
+        "SubPathString": ""
+      },
+      "ItemData": {
+        "AssetPathName": "/Game/Gameplay/Items/Resources/Magic/ITEM_Resources_WildAnima.ITEM_Resources_WildAnima",
+        "SubPathString": ""
+      },
+      "StationTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_ProcessingStationDataTable'",
+          "ObjectPath": "/Game/Gameplay/World/Stations/DT_ProcessingStationDataTable"
+        },
+        "RowName": "Kiln"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "WildAnima",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "WildAnima",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Journal/T_Icon_Journal_Wild_Anima.T_Icon_Journal_Wild_Anima",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RecipeUnlocked",
+        "UnlockingRecipe": {
+          "AssetPathName": "/Game/Gameplay/Items/Resources/Magic/RECIPE_Process_WildAnima_From_AnimaBark.RECIPE_Process_WildAnima_From_AnimaBark",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "1scSh0bwY2y6qsC_60dJMQ",
+      "InternalName": "JOURNAL_Recipes_Resources_WildAnima"
+    }
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "Type": "JournalEntryKnowPlaceData",
+    "Name": "JOURNAL_Know_Place_FracturedPlains",
+    "Class": "UScriptClass'JournalEntryKnowPlaceData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DisplayName": {
+        "TableId": "/Game/UI/ST_Localization.ST_Localization",
+        "Key": "FracturedPlains",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "GhornfellPlains",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Journal/T_Icon_Journal_Fractured_Plains.T_Icon_Journal_Fractured_Plains",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RegionUnlocked",
+        "UnlockingInteractionActor": {
+          "AssetPathName": "/Game/Gameplay/World/Misc/BP_BaseBossAltar.BP_BaseBossAltar_C",
+          "SubPathString": ""
+        },
+        "RegionID": 4,
+        "MapRegion": {
+          "AssetPathName": "/Game/Maps/World/L_World.L_World",
+          "SubPathString": "PersistentLevel.BP_MapRegion_C_UAID_004E01B922A1CAA401_2020138041"
+        }
+      },
+      "PersistenceID": "ZMrKTkUTgnZmtJuEa6AO-A",
+      "InternalName": "JOURNAL_Know_Place_FracturedPlains"
+    }
+  }
+]

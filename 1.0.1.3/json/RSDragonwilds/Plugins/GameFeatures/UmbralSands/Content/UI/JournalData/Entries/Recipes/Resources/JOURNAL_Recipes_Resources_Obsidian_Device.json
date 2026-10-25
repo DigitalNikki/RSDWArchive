@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "JournalEntryRecipeData",
+    "Name": "JOURNAL_Recipes_Resources_Obsidian_Device",
+    "Class": "UScriptClass'JournalEntryRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipeData": {
+        "AssetPathName": "/UmbralSands/Gameplay/Items/Recipes/BasicItemRecipes/RECIPE_Journal_Materials_Basic_Obsidian_Device.RECIPE_Journal_Materials_Basic_Obsidian_Device",
+        "SubPathString": ""
+      },
+      "ItemData": {
+        "AssetPathName": "/UmbralSands/Gameplay/Items/Resources/Misc/ITEM_Resources_Obsidian_Device.ITEM_Resources_Obsidian_Device",
+        "SubPathString": ""
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "ObsidianDevice",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "ObsidianDevice",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Journal_Images/T_Icon_Journal_Obsidian_Device.T_Icon_Journal_Obsidian_Device",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RecipeUnlocked",
+        "UnlockingRecipe": {
+          "AssetPathName": "/UmbralSands/Gameplay/Items/Recipes/BasicItemRecipes/RECIPE_Journal_Materials_Basic_Obsidian_Device.RECIPE_Journal_Materials_Basic_Obsidian_Device",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "nOUF6kQOD6EWVy2HOVS85g",
+      "InternalName": "JOURNAL_Recipes_Resources_Obsidian_Device"
+    }
+  }
+]

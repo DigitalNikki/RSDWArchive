@@ -1,0 +1,59 @@
+[
+  {
+    "Type": "JournalEntryWorldData",
+    "Name": "JOURNAL_World_Materials_RuneEssence",
+    "Class": "UScriptClass'JournalEntryWorldData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Locations": [
+        {
+          "LocationText": {
+            "TableId": "/Game/UI/ST_Localization.ST_Localization",
+            "Key": "Ghornfell",
+            "SourceString": null,
+            "LocalizedString": ""
+          },
+          "LocationID": "Ghornfell"
+        }
+      ],
+      "Materials": [
+        {
+          "MaterialID": "Rune Essence",
+          "MaterialItemData": {
+            "ObjectName": "ItemData'ITEM_Rune_Essence'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Magic/ITEM_Rune_Essence"
+          }
+        }
+      ],
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "RuneEssenceGeyser",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "RuneEssenceGeyser",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Journal/T_Icon_Journal_Rune_Geyser.T_Icon_Journal_Rune_Geyser",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::ItemFirstPickup",
+        "UnlockingItemData": {
+          "AssetPathName": "/Game/Gameplay/Items/Resources/Magic/ITEM_Rune_Essence.ITEM_Rune_Essence",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "-PSDcU7TeX3V9UCuiD0xnQ",
+      "InternalName": "JOURNAL_World_Materials_RuneEssence"
+    }
+  }
+]

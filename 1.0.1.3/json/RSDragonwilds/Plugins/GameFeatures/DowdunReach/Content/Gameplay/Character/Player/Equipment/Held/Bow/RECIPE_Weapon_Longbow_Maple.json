@@ -1,0 +1,73 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Weapon_Longbow_Maple",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "FuelItemData'ITEM_Resources_Wood_Maple'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Wood/ITEM_Resources_Wood_Maple"
+          },
+          "Count": 16
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Thread_Mystic'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/ITEM_Resources_Thread_Mystic"
+          },
+          "Count": 8
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_MithrilBar'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Metal/ITEM_Resources_MithrilBar"
+          },
+          "Count": 4
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Diamond'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Gem/ITEM_Resources_Diamond"
+          },
+          "Count": 4
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Currency_DreamShard'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/ITEM_Resources_Currency_DreamShard"
+          },
+          "Count": 32
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "HeldEquipmentData'ITEM_Longbow_Maple'",
+            "ObjectPath": "/DowdunReach/Gameplay/Character/Player/Equipment/Held/Bow/ITEM_Longbow_Maple"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Wood.Bow"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting"
+        },
+        "RowName": "Craft_Crafting_Table_Recipe_Tier2"
+      },
+      "SkillXPAwardedOnCraft": 150,
+      "PersistenceID": "x8AttEsAyjmhmYSUbVLBGw",
+      "InternalName": "recipe_longbow_maple"
+    }
+  }
+]

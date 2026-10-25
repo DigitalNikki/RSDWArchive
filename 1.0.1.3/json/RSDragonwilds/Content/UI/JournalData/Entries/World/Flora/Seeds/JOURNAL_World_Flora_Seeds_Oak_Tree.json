@@ -1,0 +1,59 @@
+[
+  {
+    "Type": "JournalEntryWorldData",
+    "Name": "JOURNAL_World_Flora_Seeds_Oak_Tree",
+    "Class": "UScriptClass'JournalEntryWorldData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Locations": [
+        {
+          "LocationText": {
+            "TableId": "/Game/UI/ST_Localization.ST_Localization",
+            "Key": "Ghornfell",
+            "SourceString": null,
+            "LocalizedString": ""
+          },
+          "LocationID": "Ghornfell"
+        }
+      ],
+      "Materials": [
+        {
+          "MaterialID": "Oak Tree Seed",
+          "MaterialItemData": {
+            "ObjectName": "HeldTreeSeedData'ITEM_Farming_TreeSeed_Oak'",
+            "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Held/Farming/TreePlanting/ITEM_Farming_TreeSeed_Oak"
+          }
+        }
+      ],
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+        "Key": "Name_Seed_Tree_Oak",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "OakSeed",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Journal/T_Icon_Journal_Oak_Seed.T_Icon_Journal_Oak_Seed",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::ItemFirstPickup",
+        "UnlockingItemData": {
+          "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Farming/TreePlanting/ITEM_Farming_TreeSeed_Oak.ITEM_Farming_TreeSeed_Oak",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "Ek1x1EhJW89XZ6KrPjKZBA",
+      "InternalName": "JOURNAL_World_Flora_Seeds_Oak_Tree"
+    }
+  }
+]

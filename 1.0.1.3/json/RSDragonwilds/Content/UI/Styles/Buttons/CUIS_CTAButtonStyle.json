@@ -1,0 +1,142 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "CUIS_CTAButtonStyle_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'CommonButtonStyle'",
+      "ObjectPath": "/Script/CommonUI"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "CUIS_CTAButtonStyle_C'Default__CUIS_CTAButtonStyle_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Styles/Buttons/CUIS_CTAButtonStyle.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "CUIS_CTAButtonStyle_C",
+    "Name": "Default__CUIS_CTAButtonStyle_C",
+    "Class": "BlueprintGeneratedClass'1.0.1.3/RSDragonwilds/Content/UI/Styles/Buttons/CUIS_CTAButtonStyle.CUIS_CTAButtonStyle_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "NormalBase": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 0.7,
+            "Hex": "B3FFFFFF"
+          }
+        },
+        "ImageSize": {
+          "X": 352.0,
+          "Y": 70.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'MI_CTA_Button_Unselected'",
+          "ObjectPath": "/Game/Materials/UI/CTA/MI_CTA_Button_Unselected"
+        }
+      },
+      "NormalHovered": {
+        "ImageSize": {
+          "X": 352.0,
+          "Y": 70.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'MI_CTA_Button_Hover'",
+          "ObjectPath": "/Game/Materials/UI/CTA/MI_CTA_Button_Hover"
+        }
+      },
+      "NormalPressed": {
+        "ImageSize": {
+          "X": 352.0,
+          "Y": 70.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'MI_CTA_Button_SelectedClick'",
+          "ObjectPath": "/Game/Materials/UI/CTA/MI_CTA_Button_SelectedClick"
+        }
+      },
+      "SelectedBase": {
+        "ImageSize": {
+          "X": 352.0,
+          "Y": 70.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'MI_CTA_Button_Selected'",
+          "ObjectPath": "/Game/Materials/UI/CTA/MI_CTA_Button_Selected"
+        }
+      },
+      "SelectedHovered": {
+        "ImageSize": {
+          "X": 352.0,
+          "Y": 70.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'MI_CTA_Button_Selected'",
+          "ObjectPath": "/Game/Materials/UI/CTA/MI_CTA_Button_Selected"
+        }
+      },
+      "SelectedPressed": {
+        "ImageSize": {
+          "X": 352.0,
+          "Y": 70.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'MI_CTA_Button_SelectedClick'",
+          "ObjectPath": "/Game/Materials/UI/CTA/MI_CTA_Button_SelectedClick"
+        }
+      },
+      "Disabled": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 0.35,
+            "Hex": "59FFFFFF"
+          }
+        },
+        "ImageSize": {
+          "X": 352.0,
+          "Y": 70.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'MI_CTA_Button_Unselected'",
+          "ObjectPath": "/Game/Materials/UI/CTA/MI_CTA_Button_Unselected"
+        }
+      },
+      "NormalTextStyle": {
+        "ObjectName": "BlueprintGeneratedClass'CUIS_WhiteButtonTextStyle_C'",
+        "ObjectPath": "/Game/UI/Styles/Texts/CUIS_WhiteButtonTextStyle"
+      },
+      "NormalHoveredTextStyle": {
+        "ObjectName": "BlueprintGeneratedClass'CUIS_DarkButtonTextStyle_C'",
+        "ObjectPath": "/Game/UI/Styles/Texts/CUIS_DarkButtonTextStyle"
+      },
+      "SelectedTextStyle": {
+        "ObjectName": "BlueprintGeneratedClass'CUIS_DarkButtonTextStyle_C'",
+        "ObjectPath": "/Game/UI/Styles/Texts/CUIS_DarkButtonTextStyle"
+      },
+      "SelectedHoveredTextStyle": {
+        "ObjectName": "BlueprintGeneratedClass'CUIS_DarkButtonTextStyle_C'",
+        "ObjectPath": "/Game/UI/Styles/Texts/CUIS_DarkButtonTextStyle"
+      },
+      "DisabledTextStyle": {
+        "ObjectName": "BlueprintGeneratedClass'CUIS_WhiteButtonTextStyle_C'",
+        "ObjectPath": "/Game/UI/Styles/Texts/CUIS_WhiteButtonTextStyle"
+      }
+    }
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "Type": "WBP_DomTextBlock_C",
+    "Name": "DomText",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_Processing_ItemEntry_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/ProcessingStations/Tooltip/WBP_Processing_ItemEntry.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_Processing_ItemEntry_C",
+    "Name": "Default__WBP_Processing_ItemEntry_C",
+    "Class": "WidgetBlueprintGeneratedClass'1.0.1.3/RSDragonwilds/Content/UI/ProcessingStations/Tooltip/WBP_Processing_ItemEntry.WBP_Processing_ItemEntry_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_Processing_ItemEntry_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WBP_Processing_ItemEntry_C:WidgetTree'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/ProcessingStations/Tooltip/WBP_Processing_ItemEntry.3"
+      },
+      "bClassRequiresNativeTick": true
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'DomTextWidget'",
+      "ObjectPath": "/Script/Dominion"
+    },
+    "ClassFlags": "CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_Processing_ItemEntry_C'Default__WBP_Processing_ItemEntry_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/ProcessingStations/Tooltip/WBP_Processing_ItemEntry.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WBP_Processing_ItemEntry_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/ProcessingStations/Tooltip/WBP_Processing_ItemEntry.2"
+    },
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "WBP_DomTextBlock_C'WBP_Processing_ItemEntry_C:WidgetTree.DomText'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/ProcessingStations/Tooltip/WBP_Processing_ItemEntry.0"
+      }
+    }
+  }
+]

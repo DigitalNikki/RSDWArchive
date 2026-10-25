@@ -1,0 +1,49 @@
+[
+  {
+    "Type": "FishingNodeResourceData",
+    "Name": "FNRD_NetFishing_Ghornfell",
+    "Class": "UScriptClass'FishingNodeResourceData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MinNumberOfResources": 15,
+      "MaxNumberOfResources": 15,
+      "CatchableSpecies": [
+        {
+          "ObjectName": "CatchableFishSpeciesData'CFSD_Anchovies'",
+          "ObjectPath": "/Fishing/Gameplay/World/Fishing/CatchableSpecies/CFSD_Anchovies"
+        }
+      ],
+      "CatchableJunk": [
+        {
+          "ItemData": {
+            "ObjectName": "BP_Consumables_ItemEmitter_C'ITEM_Consumable_GarouPack'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Misc/ITEM_Consumable_GarouPack"
+          },
+          "ProbabilityWeight": 0.05
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Weeds'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Plant/ITEM_Resources_Weeds"
+          },
+          "ProbabilityWeight": 0.7
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Stone'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Mineral/ITEM_Resources_Stone"
+          },
+          "ProbabilityWeight": 0.2
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Rune_Essence'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Magic/ITEM_Rune_Essence"
+          },
+          "ProbabilityWeight": 0.05
+        }
+      ],
+      "SumOfJunkProbabilityWeights": 1.0
+    }
+  }
+]

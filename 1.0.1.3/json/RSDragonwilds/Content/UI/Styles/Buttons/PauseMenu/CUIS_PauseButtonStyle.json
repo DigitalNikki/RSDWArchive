@@ -1,0 +1,156 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "CUIS_PauseButtonStyle_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'CommonButtonStyle'",
+      "ObjectPath": "/Script/CommonUI"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "CUIS_PauseButtonStyle_C'Default__CUIS_PauseButtonStyle_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Styles/Buttons/PauseMenu/CUIS_PauseButtonStyle.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "CUIS_PauseButtonStyle_C",
+    "Name": "Default__CUIS_PauseButtonStyle_C",
+    "Class": "BlueprintGeneratedClass'1.0.1.3/RSDragonwilds/Content/UI/Styles/Buttons/PauseMenu/CUIS_PauseButtonStyle.CUIS_PauseButtonStyle_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "NormalBase": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "000000"
+          }
+        },
+        "ImageSize": {
+          "X": 1920.0,
+          "Y": 65.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_HUD_MenuNav_Background'",
+          "ObjectPath": "/Game/Art/UI/MainMenu/T_HUD_MenuNav_Background"
+        }
+      },
+      "NormalHovered": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "000000"
+          }
+        },
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 423.0,
+          "Y": 44.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Highlight'",
+          "ObjectPath": "/Game/Art/UI/HUD/PauseMenu/T_Highlight"
+        }
+      },
+      "NormalPressed": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "000000"
+          }
+        },
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 423.0,
+          "Y": 44.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Highlight'",
+          "ObjectPath": "/Game/Art/UI/HUD/PauseMenu/T_Highlight"
+        }
+      },
+      "SelectedBase": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 423.0,
+          "Y": 44.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Highlight'",
+          "ObjectPath": "/Game/Art/UI/HUD/PauseMenu/T_Highlight"
+        }
+      },
+      "SelectedHovered": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 423.0,
+          "Y": 44.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Highlight'",
+          "ObjectPath": "/Game/Art/UI/HUD/PauseMenu/T_Highlight"
+        }
+      },
+      "SelectedPressed": {
+        "ImageSize": {
+          "X": 391.0,
+          "Y": 64.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_HUD_MenuNav_Highlight'",
+          "ObjectPath": "/Game/Art/UI/MainMenu/T_HUD_MenuNav_Highlight"
+        }
+      },
+      "Disabled": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.354167,
+            "G": 0.354167,
+            "B": 0.354167,
+            "A": 1.0,
+            "Hex": "A1A1A1"
+          }
+        }
+      },
+      "NormalTextStyle": {
+        "ObjectName": "BlueprintGeneratedClass'CUIS_PauseButton_TextStyle_Normal_C'",
+        "ObjectPath": "/Game/UI/Styles/Texts/PauseMenu/CUIS_PauseButton_TextStyle_Normal"
+      },
+      "NormalHoveredTextStyle": {
+        "ObjectName": "BlueprintGeneratedClass'CUIS_PauseButton_TextStyle_Hovered_C'",
+        "ObjectPath": "/Game/UI/Styles/Texts/PauseMenu/CUIS_PauseButton_TextStyle_Hovered"
+      },
+      "SelectedTextStyle": {
+        "ObjectName": "BlueprintGeneratedClass'CUIS_PauseButton_TextStyle_Normal_C'",
+        "ObjectPath": "/Game/UI/Styles/Texts/PauseMenu/CUIS_PauseButton_TextStyle_Normal"
+      },
+      "SelectedHoveredTextStyle": {
+        "ObjectName": "BlueprintGeneratedClass'CUIS_PauseButton_TextStyle_Hovered_C'",
+        "ObjectPath": "/Game/UI/Styles/Texts/PauseMenu/CUIS_PauseButton_TextStyle_Hovered"
+      },
+      "DisabledTextStyle": {
+        "ObjectName": "BlueprintGeneratedClass'CUIS_MainMenuButtonDisabledTextStyle_C'",
+        "ObjectPath": "/Game/UI/Styles/Texts/CUIS_MainMenuButtonDisabledTextStyle"
+      }
+    }
+  }
+]

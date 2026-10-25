@@ -1,0 +1,3819 @@
+[
+  {
+    "Type": "CommonLazyImage",
+    "Name": "CommonLazyImage_BottomLine",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_SettingsVideoWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.146"
+    },
+    "Class": "UScriptClass'CommonLazyImage'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 998.0,
+          "Y": 17.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_line_Title_Bottom'",
+          "ObjectPath": "/Game/Art/UI/Settings/General/T_line_Title_Bottom"
+        }
+      },
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer.VerticalBoxSlot_13'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.44"
+      }
+    }
+  },
+  {
+    "Type": "CommonLazyImage",
+    "Name": "CommonLazyImage_TopLine",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_SettingsVideoWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.146"
+    },
+    "Class": "UScriptClass'CommonLazyImage'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 295.0,
+          "Y": 2.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_line_Title_Top'",
+          "ObjectPath": "/Game/Art/UI/Settings/General/T_line_Title_Top"
+        }
+      },
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer.VerticalBoxSlot_11'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.42"
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "DoCustomNavigation",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WBP_SettingsVideoWidget_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.114"
+    },
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "EnumProperty",
+        "Name": "Navigation",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Enum": {
+          "ObjectName": "Object'EUINavigation'",
+          "ObjectPath": "/Script/SlateCore"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "Parm | OutParm | ReturnParm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'Widget'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_CustomNavigation_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'Widget'",
+          "ObjectPath": "/Script/UMG"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ScrollBox",
+    "Name": "ScrollBox",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_SettingsVideoWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.146"
+    },
+    "Class": "UScriptClass'ScrollBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetBarStyle": {
+        "VerticalBackgroundImage": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 0.25,
+              "G": 0.25,
+              "B": 0.25,
+              "A": 1.0,
+              "Hex": "898989"
+            }
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "ImageSize": {
+            "X": 24.0,
+            "Y": 3.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_Scroll_M'",
+            "ObjectPath": "/Game/Art/UI/Skills/T_Scroll_M"
+          }
+        },
+        "VerticalTopSlotImage": {
+          "DrawAs": "ESlateBrushDrawType::NoDrawType",
+          "ImageSize": {
+            "X": 0.0,
+            "Y": 0.0
+          }
+        },
+        "HorizontalTopSlotImage": {
+          "DrawAs": "ESlateBrushDrawType::NoDrawType",
+          "ImageSize": {
+            "X": 0.0,
+            "Y": 0.0
+          }
+        },
+        "VerticalBottomSlotImage": {
+          "DrawAs": "ESlateBrushDrawType::NoDrawType",
+          "ImageSize": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Margin": {
+            "Right": 1.0,
+            "Bottom": 1.0
+          }
+        },
+        "HorizontalBottomSlotImage": {
+          "DrawAs": "ESlateBrushDrawType::NoDrawType",
+          "ImageSize": {
+            "X": 0.0,
+            "Y": 0.0
+          }
+        },
+        "NormalThumbImage": {
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "ImageSize": {
+            "X": 24.0,
+            "Y": 3.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_Scroll_M'",
+            "ObjectPath": "/Game/Art/UI/Skills/T_Scroll_M"
+          }
+        },
+        "HoveredThumbImage": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 0.7,
+              "G": 0.7,
+              "B": 0.7,
+              "A": 1.0,
+              "Hex": "DADADA"
+            }
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "ImageSize": {
+            "X": 24.0,
+            "Y": 3.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_Scroll_M'",
+            "ObjectPath": "/Game/Art/UI/Skills/T_Scroll_M"
+          }
+        },
+        "DraggedThumbImage": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 0.5,
+              "G": 0.5,
+              "B": 0.5,
+              "A": 1.0,
+              "Hex": "BCBCBC"
+            }
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "ImageSize": {
+            "X": 24.0,
+            "Y": 3.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_Scroll_M'",
+            "ObjectPath": "/Game/Art/UI/Skills/T_Scroll_M"
+          }
+        },
+        "Thickness": 24.0
+      },
+      "NavigationScrollPadding": 100.0,
+      "ScrollWhenFocusChanges": "EScrollWhenFocusChanges::AnimatedScroll",
+      "Slots": [
+        {
+          "ObjectName": "ScrollBoxSlot'WBP_SettingsVideoWidget_C:WidgetTree.ScrollBox.ScrollBoxSlot_0'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.4"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScrollBoxSlot",
+    "Name": "ScrollBoxSlot_0",
+    "Outer": {
+      "ObjectName": "ScrollBox'WBP_SettingsVideoWidget_C:WidgetTree.ScrollBox'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.3"
+    },
+    "Class": "UScriptClass'ScrollBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScrollBox'WBP_SettingsVideoWidget_C:WidgetTree.ScrollBox'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.3"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+      }
+    }
+  },
+  {
+    "Type": "SettingsTooltipGeneralContent",
+    "Name": "SettingsTooltipGeneralContent_0",
+    "Outer": {
+      "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.AntiAliasingQualitySelector'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.85"
+    },
+    "Class": "UScriptClass'SettingsTooltipGeneralContent'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Paragraph": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.AntiAliasingQuality.tooltip.Title",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Title": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.AntiAliasingQuality.tooltip.Description",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "SettingsTooltipGeneralContent",
+    "Name": "SettingsTooltipGeneralContent_0",
+    "Outer": {
+      "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.AntiAliasingSelector'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.86"
+    },
+    "Class": "UScriptClass'SettingsTooltipGeneralContent'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Paragraph": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.antialiasing.tooltip.Description",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Title": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.antialiasing.tooltip.Title",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "SettingsTooltipGeneralContent",
+    "Name": "SettingsTooltipGeneralContent_0",
+    "Outer": {
+      "ObjectName": "WBP_CallToActionWidget_C'WBP_SettingsVideoWidget_C:WidgetTree.AutoButtonPerformance'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.79"
+    },
+    "Class": "UScriptClass'SettingsTooltipGeneralContent'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Paragraph": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.autodetect.tooltip.description",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Title": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.autodetect.tooltip.title",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "SettingsTooltipGeneralContent",
+    "Name": "SettingsTooltipGeneralContent_0",
+    "Outer": {
+      "ObjectName": "WBP_CallToActionWidget_C'WBP_SettingsVideoWidget_C:WidgetTree.AutoButtonQuality'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.80"
+    },
+    "Class": "UScriptClass'SettingsTooltipGeneralContent'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Paragraph": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.autodetect.tooltip.description",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Title": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.autodetect.tooltip.title",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "SettingsTooltipGeneralContent",
+    "Name": "SettingsTooltipGeneralContent_0",
+    "Outer": {
+      "ObjectName": "WBP_Settings_Slider_C'WBP_SettingsVideoWidget_C:WidgetTree.BloomSlider'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.110"
+    },
+    "Class": "UScriptClass'SettingsTooltipGeneralContent'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Paragraph": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.Bloom.tooltip.Description",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Title": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.Bloom.tooltip.Title",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "SettingsTooltipGeneralContent",
+    "Name": "SettingsTooltipGeneralContent_0",
+    "Outer": {
+      "ObjectName": "WBP_CallToActionWidget_C'WBP_SettingsVideoWidget_C:WidgetTree.BrightnessGammaButton'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.81"
+    },
+    "Class": "UScriptClass'SettingsTooltipGeneralContent'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Paragraph": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.brightness.tooltip.Description",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Title": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.brightness.tooltip.Title",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "SettingsTooltipGeneralContent",
+    "Name": "SettingsTooltipGeneralContent_0",
+    "Outer": {
+      "ObjectName": "WBP_Settings_Slider_C'WBP_SettingsVideoWidget_C:WidgetTree.DepthOfFieldSlider'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.111"
+    },
+    "Class": "UScriptClass'SettingsTooltipGeneralContent'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Paragraph": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.DepthOfField.tooltip.Description",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Title": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.DepthOfField.tooltip.Title",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "SettingsTooltipGeneralContent",
+    "Name": "SettingsTooltipGeneralContent_0",
+    "Outer": {
+      "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.DisplayModeSelector'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.87"
+    },
+    "Class": "UScriptClass'SettingsTooltipGeneralContent'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Paragraph": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.displaymode.tooltip.Description",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Title": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.displaymode.tooltip.Title",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "SettingsTooltipGeneralContent",
+    "Name": "SettingsTooltipGeneralContent_0",
+    "Outer": {
+      "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.EffectsQualitySelector'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.88"
+    },
+    "Class": "UScriptClass'SettingsTooltipGeneralContent'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Paragraph": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.Effects.tooltip.Description",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Title": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.Effects.tooltip.Title",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "SettingsTooltipGeneralContent",
+    "Name": "SettingsTooltipGeneralContent_0",
+    "Outer": {
+      "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.FoliageQualitySelector'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.89"
+    },
+    "Class": "UScriptClass'SettingsTooltipGeneralContent'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Paragraph": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.Foliage.tooltip.Description",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Title": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.Foliage.tooltip.Title",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "SettingsTooltipGeneralContent",
+    "Name": "SettingsTooltipGeneralContent_0",
+    "Outer": {
+      "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.FrameGenerationSelector'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.90"
+    },
+    "Class": "UScriptClass'SettingsTooltipGeneralContent'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Paragraph": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.framegeneration.tooltip.Description",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Title": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.framegeneration.tooltip.Title",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "SettingsTooltipGeneralContent",
+    "Name": "SettingsTooltipGeneralContent_0",
+    "Outer": {
+      "ObjectName": "WBP_Settings_Checkbox_C'WBP_SettingsVideoWidget_C:WidgetTree.FrameGenerationToggle'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.105"
+    },
+    "Class": "UScriptClass'SettingsTooltipGeneralContent'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Paragraph": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.framegeneration.tooltip.Description",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Title": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.framegeneration.tooltip.Title",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "SettingsTooltipGeneralContent",
+    "Name": "SettingsTooltipGeneralContent_0",
+    "Outer": {
+      "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.FrameRateLimitsSelector'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.91"
+    },
+    "Class": "UScriptClass'SettingsTooltipGeneralContent'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Paragraph": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.frameratelimit.tooltip.Description",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Title": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.frameratelimit.tooltip.Title",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "SettingsTooltipGeneralContent",
+    "Name": "SettingsTooltipGeneralContent_0",
+    "Outer": {
+      "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.GlobalIlluminationQualitySelector'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.92"
+    },
+    "Class": "UScriptClass'SettingsTooltipGeneralContent'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Paragraph": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.GlobalIlluminationQuality.tooltip.Description",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Title": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.GlobalIlluminationQuality.tooltip.Title",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "SettingsTooltipGeneralContent",
+    "Name": "SettingsTooltipGeneralContent_0",
+    "Outer": {
+      "ObjectName": "WBP_Settings_Checkbox_C'WBP_SettingsVideoWidget_C:WidgetTree.GPUCrashDebuggingToggle'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.106"
+    },
+    "Class": "UScriptClass'SettingsTooltipGeneralContent'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Paragraph": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.GpuCrashDebugging.tooltip.Description",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Title": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.GpuCrashDebugging.tooltip.Title",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "SettingsTooltipGeneralContent",
+    "Name": "SettingsTooltipGeneralContent_0",
+    "Outer": {
+      "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.GraphicsAPISelector'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.93"
+    },
+    "Class": "UScriptClass'SettingsTooltipGeneralContent'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Paragraph": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.quality.tooltip.Description",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Title": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.quality.tooltip.Title",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "SettingsTooltipGeneralContent",
+    "Name": "SettingsTooltipGeneralContent_0",
+    "Outer": {
+      "ObjectName": "WBP_Settings_Checkbox_C'WBP_SettingsVideoWidget_C:WidgetTree.LowLatencyToggle'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.107"
+    },
+    "Class": "UScriptClass'SettingsTooltipGeneralContent'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Paragraph": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.lowlatency.tooltop.Description",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Title": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.lowlatency.tooltop.Title",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "SettingsTooltipGeneralContent",
+    "Name": "SettingsTooltipGeneralContent_0",
+    "Outer": {
+      "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.ModelsQualitySelector'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.94"
+    },
+    "Class": "UScriptClass'SettingsTooltipGeneralContent'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Paragraph": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.Models.tooltip.Description",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Title": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.Models",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "SettingsTooltipGeneralContent",
+    "Name": "SettingsTooltipGeneralContent_0",
+    "Outer": {
+      "ObjectName": "WBP_Settings_Checkbox_C'WBP_SettingsVideoWidget_C:WidgetTree.NaniteToggle'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.108"
+    },
+    "Class": "UScriptClass'SettingsTooltipGeneralContent'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Paragraph": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.Nanite.tooltip.Description",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Title": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.Nanite.tooltip.Title",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "SettingsTooltipGeneralContent",
+    "Name": "SettingsTooltipGeneralContent_0",
+    "Outer": {
+      "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.PerformanceOrQualitySelector'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.95"
+    },
+    "Class": "UScriptClass'SettingsTooltipGeneralContent'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Paragraph": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.QualityOrPerformance.Desc",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Title": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.QualityOrPerformance",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "SettingsTooltipGeneralContent",
+    "Name": "SettingsTooltipGeneralContent_0",
+    "Outer": {
+      "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.PostProcessQualitySelector'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.96"
+    },
+    "Class": "UScriptClass'SettingsTooltipGeneralContent'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Paragraph": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.PostProcess.tooltip.Description",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Title": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.PostProcess.tooltip.Title",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "SettingsTooltipGeneralContent",
+    "Name": "SettingsTooltipGeneralContent_0",
+    "Outer": {
+      "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.ReflectionsQualitySelector'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.97"
+    },
+    "Class": "UScriptClass'SettingsTooltipGeneralContent'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Paragraph": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.Reflections.tooltip.Description",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Title": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.Reflections.tooltip.Title",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "SettingsTooltipGeneralContent",
+    "Name": "SettingsTooltipGeneralContent_0",
+    "Outer": {
+      "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.RenderingQualitySelector'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.98"
+    },
+    "Class": "UScriptClass'SettingsTooltipGeneralContent'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Paragraph": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.quality.tooltip.Description",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Title": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.quality.tooltip.Title",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "SettingsTooltipGeneralContent",
+    "Name": "SettingsTooltipGeneralContent_0",
+    "Outer": {
+      "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.ResolutionSelector'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.99"
+    },
+    "Class": "UScriptClass'SettingsTooltipGeneralContent'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Paragraph": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.resolution.tooltip.Description",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Title": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.resolution.tooltip.Title",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "SettingsTooltipGeneralContent",
+    "Name": "SettingsTooltipGeneralContent_0",
+    "Outer": {
+      "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.ShadowsQualitySelector'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.100"
+    },
+    "Class": "UScriptClass'SettingsTooltipGeneralContent'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Paragraph": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.Shadows.tooltip.Description",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Title": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.Shadows.tooltip.Title",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "SettingsTooltipGeneralContent",
+    "Name": "SettingsTooltipGeneralContent_0",
+    "Outer": {
+      "ObjectName": "WBP_Settings_Slider_C'WBP_SettingsVideoWidget_C:WidgetTree.SharpnessSlider'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.112"
+    },
+    "Class": "UScriptClass'SettingsTooltipGeneralContent'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Paragraph": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.sharpness.tooltip.Description",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Title": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.sharpness.tooltip.Title",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "SettingsTooltipGeneralContent",
+    "Name": "SettingsTooltipGeneralContent_0",
+    "Outer": {
+      "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.TextureQualitySelector'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.101"
+    },
+    "Class": "UScriptClass'SettingsTooltipGeneralContent'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Paragraph": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.Textures.tooltip.Description",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Title": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.Textures.tooltip.Title",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "SettingsTooltipGeneralContent",
+    "Name": "SettingsTooltipGeneralContent_0",
+    "Outer": {
+      "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.UpscalingModeSelector'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.102"
+    },
+    "Class": "UScriptClass'SettingsTooltipGeneralContent'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Paragraph": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.upscalingmode.tooltip.Description",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Title": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.upscalingmode.tooltip.Title",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "SettingsTooltipGeneralContent",
+    "Name": "SettingsTooltipGeneralContent_0",
+    "Outer": {
+      "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.UpscalingQualitySelector'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.103"
+    },
+    "Class": "UScriptClass'SettingsTooltipGeneralContent'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Paragraph": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.upscalingquality.tooltip.Description",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Title": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.upscalingquality.tooltip.Title",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "SettingsTooltipGeneralContent",
+    "Name": "SettingsTooltipGeneralContent_0",
+    "Outer": {
+      "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.ViewDistanceQualitySelector'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.104"
+    },
+    "Class": "UScriptClass'SettingsTooltipGeneralContent'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Paragraph": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.ViewDistance.tooltip.Description",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Title": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.ViewDistance.tooltip.Title",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "SettingsTooltipGeneralContent",
+    "Name": "SettingsTooltipGeneralContent_0",
+    "Outer": {
+      "ObjectName": "WBP_Settings_Checkbox_C'WBP_SettingsVideoWidget_C:WidgetTree.VSyncToggle'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.109"
+    },
+    "Class": "UScriptClass'SettingsTooltipGeneralContent'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Paragraph": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.vsync.tooltip.Description",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Title": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.vsync.tooltip.Title",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "Spacer",
+    "Name": "QualityOrPerformanceSpacer",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_SettingsVideoWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.146"
+    },
+    "Class": "UScriptClass'Spacer'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Size": {
+        "X": 1.0,
+        "Y": 10.0
+      },
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer.VerticalBoxSlot_6'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.76"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "Spacer",
+    "Name": "Spacer",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_SettingsVideoWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.146"
+    },
+    "Class": "UScriptClass'Spacer'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Size": {
+        "X": 1.0,
+        "Y": 10.0
+      },
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer.VerticalBoxSlot_14'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.45"
+      }
+    }
+  },
+  {
+    "Type": "Spacer",
+    "Name": "Spacer_14",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_SettingsVideoWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.146"
+    },
+    "Class": "UScriptClass'Spacer'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Size": {
+        "X": 1.0,
+        "Y": 10.0
+      },
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer.VerticalBoxSlot_35'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.60"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "SettingsContainer",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_SettingsVideoWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.146"
+    },
+    "Class": "UScriptClass'VerticalBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer.VerticalBoxSlot_11'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.42"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer.VerticalBoxSlot_12'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.43"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer.VerticalBoxSlot_13'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.44"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer.VerticalBoxSlot_35'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.60"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer.VerticalBoxSlot_7'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.77"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer.VerticalBoxSlot_6'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.76"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer.VerticalBoxSlot_16'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.47"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer.VerticalBoxSlot_15'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.46"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer.VerticalBoxSlot_14'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.45"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer.VerticalBoxSlot_0'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.40"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer.VerticalBoxSlot_3'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.56"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer.VerticalBoxSlot_4'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.64"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer.VerticalBoxSlot_39'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.63"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer.VerticalBoxSlot_40'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.65"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer.VerticalBoxSlot_41'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.66"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer.VerticalBoxSlot_42'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.67"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer.VerticalBoxSlot_43'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.68"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer.VerticalBoxSlot_44'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.69"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer.VerticalBoxSlot_45'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.70"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer.VerticalBoxSlot_46'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.71"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer.VerticalBoxSlot_47'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.72"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer.VerticalBoxSlot_48'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.73"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer.VerticalBoxSlot_50'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.75"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer.VerticalBoxSlot_5'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.74"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer.VerticalBoxSlot_21'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.49"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer.VerticalBoxSlot_37'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.61"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer.VerticalBoxSlot_2'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.48"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer.VerticalBoxSlot_38'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.62"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer.VerticalBoxSlot_33'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.59"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer.VerticalBoxSlot_27'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.54"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer.VerticalBoxSlot_30'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.57"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer.VerticalBoxSlot_26'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.53"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer.VerticalBoxSlot_25'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.52"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer.VerticalBoxSlot_31'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.58"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer.VerticalBoxSlot_1'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.41"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer.VerticalBoxSlot_9'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.78"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer.VerticalBoxSlot_24'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.51"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer.VerticalBoxSlot_23'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.50"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer.VerticalBoxSlot_28'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.55"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "ScrollBoxSlot'WBP_SettingsVideoWidget_C:WidgetTree.ScrollBox.ScrollBoxSlot_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.4"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_0",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+      },
+      "Content": {
+        "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.RenderingQualitySelector'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.98"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_1",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+      },
+      "Content": {
+        "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.FrameGenerationSelector'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.90"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_11",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 4.0,
+        "Top": 5.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Left",
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+      },
+      "Content": {
+        "ObjectName": "CommonLazyImage'WBP_SettingsVideoWidget_C:WidgetTree.CommonLazyImage_TopLine'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.1"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_12",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 4.0,
+        "Top": 5.0,
+        "Bottom": 5.0
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+      },
+      "Content": {
+        "ObjectName": "WBP_DomTextBlock_C'WBP_SettingsVideoWidget_C:WidgetTree.Graphics_Quality_Label'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.83"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_13",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 4.0,
+        "Top": -5.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Left",
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+      },
+      "Content": {
+        "ObjectName": "CommonLazyImage'WBP_SettingsVideoWidget_C:WidgetTree.CommonLazyImage_BottomLine'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.0"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_14",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+      },
+      "Content": {
+        "ObjectName": "Spacer'WBP_SettingsVideoWidget_C:WidgetTree.Spacer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.37"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_15",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+      },
+      "Content": {
+        "ObjectName": "WBP_CallToActionWidget_C'WBP_SettingsVideoWidget_C:WidgetTree.AutoButtonPerformance'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.79"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_16",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+      },
+      "Content": {
+        "ObjectName": "WBP_CallToActionWidget_C'WBP_SettingsVideoWidget_C:WidgetTree.AutoButtonQuality'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.80"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_2",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+      },
+      "Content": {
+        "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.ResolutionSelector'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.99"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_21",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 4.0,
+        "Top": 5.0,
+        "Bottom": 5.0
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+      },
+      "Content": {
+        "ObjectName": "WBP_DomTextBlock_C'WBP_SettingsVideoWidget_C:WidgetTree.WBP_DomTextBlock_C'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.84"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_23",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 4.0,
+        "Top": 5.0,
+        "Bottom": 5.0
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+      },
+      "Content": {
+        "ObjectName": "WBP_DomTextBlock_C'WBP_SettingsVideoWidget_C:WidgetTree.Graphics_Advanced_Label'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.82"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_24",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+      },
+      "Content": {
+        "ObjectName": "WBP_Settings_Checkbox_C'WBP_SettingsVideoWidget_C:WidgetTree.VSyncToggle'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.109"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_25",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+      },
+      "Content": {
+        "ObjectName": "WBP_Settings_Slider_C'WBP_SettingsVideoWidget_C:WidgetTree.BloomSlider'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.110"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_26",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+      },
+      "Content": {
+        "ObjectName": "WBP_Settings_Slider_C'WBP_SettingsVideoWidget_C:WidgetTree.DepthOfFieldSlider'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.111"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_27",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+      },
+      "Content": {
+        "ObjectName": "WBP_CallToActionWidget_C'WBP_SettingsVideoWidget_C:WidgetTree.BrightnessGammaButton'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.81"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_28",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+      },
+      "Content": {
+        "ObjectName": "WBP_Settings_Checkbox_C'WBP_SettingsVideoWidget_C:WidgetTree.GPUCrashDebuggingToggle'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.106"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_3",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+      },
+      "Content": {
+        "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.UpscalingModeSelector'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.102"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_30",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+      },
+      "Content": {
+        "ObjectName": "WBP_Settings_Slider_C'WBP_SettingsVideoWidget_C:WidgetTree.SharpnessSlider'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.112"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_31",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+      },
+      "Content": {
+        "ObjectName": "WBP_Settings_Checkbox_C'WBP_SettingsVideoWidget_C:WidgetTree.FrameGenerationToggle'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.105"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_33",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+      },
+      "Content": {
+        "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.FrameRateLimitsSelector'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.91"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_35",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+      },
+      "Content": {
+        "ObjectName": "Spacer'WBP_SettingsVideoWidget_C:WidgetTree.Spacer_14'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.38"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_37",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+      },
+      "Content": {
+        "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.GraphicsAPISelector'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.93"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_38",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+      },
+      "Content": {
+        "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.DisplayModeSelector'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.87"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_39",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+      },
+      "Content": {
+        "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.AntiAliasingQualitySelector'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.85"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_4",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+      },
+      "Content": {
+        "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.UpscalingQualitySelector'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.103"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_40",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+      },
+      "Content": {
+        "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.GlobalIlluminationQualitySelector'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.92"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_41",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+      },
+      "Content": {
+        "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.ReflectionsQualitySelector'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.97"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_42",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+      },
+      "Content": {
+        "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.ShadowsQualitySelector'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.100"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_43",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+      },
+      "Content": {
+        "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.FoliageQualitySelector'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.89"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_44",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+      },
+      "Content": {
+        "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.ModelsQualitySelector'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.94"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_45",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+      },
+      "Content": {
+        "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.PostProcessQualitySelector'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.96"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_46",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+      },
+      "Content": {
+        "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.EffectsQualitySelector'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.88"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_47",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+      },
+      "Content": {
+        "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.ViewDistanceQualitySelector'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.104"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_48",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+      },
+      "Content": {
+        "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.TextureQualitySelector'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.101"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_5",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+      },
+      "Content": {
+        "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.AntiAliasingSelector'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.86"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_50",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+      },
+      "Content": {
+        "ObjectName": "WBP_Settings_Checkbox_C'WBP_SettingsVideoWidget_C:WidgetTree.NaniteToggle'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.108"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_6",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Bottom": 30.0
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+      },
+      "Content": {
+        "ObjectName": "Spacer'WBP_SettingsVideoWidget_C:WidgetTree.QualityOrPerformanceSpacer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.36"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_7",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Top": 30.0
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+      },
+      "Content": {
+        "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.PerformanceOrQualitySelector'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.95"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_9",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_SettingsVideoWidget_C:WidgetTree.SettingsContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.39"
+      },
+      "Content": {
+        "ObjectName": "WBP_Settings_Checkbox_C'WBP_SettingsVideoWidget_C:WidgetTree.LowLatencyToggle'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.107"
+      }
+    }
+  },
+  {
+    "Type": "WBP_CallToActionWidget_C",
+    "Name": "AutoButtonPerformance",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_SettingsVideoWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.146"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_CallToActionWidget_C",
+    "Name": "AutoButtonQuality",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_SettingsVideoWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.146"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_CallToActionWidget_C",
+    "Name": "BrightnessGammaButton",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_SettingsVideoWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.146"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_DomTextBlock_C",
+    "Name": "Graphics_Advanced_Label",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_SettingsVideoWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.146"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_DomTextBlock_C",
+    "Name": "Graphics_Quality_Label",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_SettingsVideoWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.146"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_DomTextBlock_C",
+    "Name": "WBP_DomTextBlock_C",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_SettingsVideoWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.146"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_SelectorWidget_WithLabel_C",
+    "Name": "AntiAliasingQualitySelector",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_SettingsVideoWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.146"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_SelectorWidget_WithLabel_C",
+    "Name": "AntiAliasingSelector",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_SettingsVideoWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.146"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_SelectorWidget_WithLabel_C",
+    "Name": "DisplayModeSelector",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_SettingsVideoWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.146"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_SelectorWidget_WithLabel_C",
+    "Name": "EffectsQualitySelector",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_SettingsVideoWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.146"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_SelectorWidget_WithLabel_C",
+    "Name": "FoliageQualitySelector",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_SettingsVideoWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.146"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_SelectorWidget_WithLabel_C",
+    "Name": "FrameGenerationSelector",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_SettingsVideoWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.146"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_SelectorWidget_WithLabel_C",
+    "Name": "FrameRateLimitsSelector",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_SettingsVideoWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.146"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_SelectorWidget_WithLabel_C",
+    "Name": "GlobalIlluminationQualitySelector",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_SettingsVideoWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.146"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_SelectorWidget_WithLabel_C",
+    "Name": "GraphicsAPISelector",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_SettingsVideoWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.146"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_SelectorWidget_WithLabel_C",
+    "Name": "ModelsQualitySelector",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_SettingsVideoWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.146"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_SelectorWidget_WithLabel_C",
+    "Name": "PerformanceOrQualitySelector",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_SettingsVideoWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.146"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_SelectorWidget_WithLabel_C",
+    "Name": "PostProcessQualitySelector",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_SettingsVideoWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.146"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_SelectorWidget_WithLabel_C",
+    "Name": "ReflectionsQualitySelector",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_SettingsVideoWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.146"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_SelectorWidget_WithLabel_C",
+    "Name": "RenderingQualitySelector",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_SettingsVideoWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.146"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_SelectorWidget_WithLabel_C",
+    "Name": "ResolutionSelector",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_SettingsVideoWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.146"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_SelectorWidget_WithLabel_C",
+    "Name": "ShadowsQualitySelector",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_SettingsVideoWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.146"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_SelectorWidget_WithLabel_C",
+    "Name": "TextureQualitySelector",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_SettingsVideoWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.146"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_SelectorWidget_WithLabel_C",
+    "Name": "UpscalingModeSelector",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_SettingsVideoWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.146"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_SelectorWidget_WithLabel_C",
+    "Name": "UpscalingQualitySelector",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_SettingsVideoWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.146"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_SelectorWidget_WithLabel_C",
+    "Name": "ViewDistanceQualitySelector",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_SettingsVideoWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.146"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_Settings_Checkbox_C",
+    "Name": "FrameGenerationToggle",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_SettingsVideoWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.146"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_Settings_Checkbox_C",
+    "Name": "GPUCrashDebuggingToggle",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_SettingsVideoWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.146"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_Settings_Checkbox_C",
+    "Name": "LowLatencyToggle",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_SettingsVideoWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.146"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_Settings_Checkbox_C",
+    "Name": "NaniteToggle",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_SettingsVideoWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.146"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_Settings_Checkbox_C",
+    "Name": "VSyncToggle",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_SettingsVideoWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.146"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_Settings_Slider_C",
+    "Name": "BloomSlider",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_SettingsVideoWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.146"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_Settings_Slider_C",
+    "Name": "DepthOfFieldSlider",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_SettingsVideoWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.146"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_Settings_Slider_C",
+    "Name": "SharpnessSlider",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_SettingsVideoWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.146"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_SettingsVideoWidget_C",
+    "Name": "Default__WBP_SettingsVideoWidget_C",
+    "Class": "WidgetBlueprintGeneratedClass'1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.WBP_SettingsVideoWidget_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ReadableUpscaleModes": [
+        {
+          "Key": "EUpscaleMode::Off",
+          "Value": {
+            "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+            "Key": "ui.settings.video.upscalingmode.Choice1",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": "EUpscaleMode::On",
+          "Value": {
+            "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+            "Key": "ui.settings.video.upscalingmode.Choice2",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": "EUpscaleMode::TAAU",
+          "Value": {
+            "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+            "Key": "ui.settings.video.upscalingmode.Choice3",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": "EUpscaleMode::TSR",
+          "Value": {
+            "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+            "Key": "ui.settings.video.upscalingmode.Choice4",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": "EUpscaleMode::DLSS",
+          "Value": {
+            "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+            "Key": "ui.settings.video.upscalingmode.Choice5",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": "EUpscaleMode::NIS",
+          "Value": {
+            "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+            "Key": "ui.settings.video.upscalingmode.Choice6",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": "EUpscaleMode::FSR",
+          "Value": {
+            "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+            "Key": "ui.settings.video.upscalingmode.Choice7",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": "EUpscaleMode::Auto",
+          "Value": {
+            "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+            "Key": "ui.settings.video.Auto",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "ReadableUpscaleQuality": [
+        {
+          "Key": "EUpscaleQuality::UltraPerformance",
+          "Value": {
+            "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+            "Key": "ui.settings.video.upscalingquality.Choice1",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": "EUpscaleQuality::Performance",
+          "Value": {
+            "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+            "Key": "ui.settings.video.upscalingquality.Choice2",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": "EUpscaleQuality::Balanced",
+          "Value": {
+            "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+            "Key": "ui.settings.video.upscalingquality.Choice3",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": "EUpscaleQuality::Quality",
+          "Value": {
+            "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+            "Key": "ui.settings.video.upscalingquality.Choice4",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": "EUpscaleQuality::UltraQuality",
+          "Value": {
+            "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+            "Key": "ui.settings.video.upscalingquality.Choice5",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": "EUpscaleQuality::DLAA",
+          "Value": {
+            "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+            "Key": "ui.settings.video.upscalingquality.Choice6",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": "EUpscaleQuality::Auto",
+          "Value": {
+            "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+            "Key": "ui.settings.video.Auto",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": "EUpscaleQuality::NativeAA",
+          "Value": {
+            "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+            "Key": "ui.settings.video.upscalingquality.Choice8",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "ReadableAntiAliasMode": [
+        {
+          "Key": "EAntialiasMode::Off",
+          "Value": {
+            "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+            "Key": "ui.settings.video.antialiasing.Choice1",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": "EAntialiasMode::FXAA",
+          "Value": {
+            "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+            "Key": "ui.settings.video.antialiasing.Choice2",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": "EAntialiasMode::TAA",
+          "Value": {
+            "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+            "Key": "ui.settings.video.antialiasing.Choice3",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": "EAntialiasMode::TSR",
+          "Value": {
+            "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+            "Key": "ui.settings.video.antialiasing.Choice4",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": "EAntialiasMode::DLAA",
+          "Value": {
+            "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+            "Key": "ui.settings.video.antialiasing.Choice5",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": "EAntialiasMode::Auto",
+          "Value": {
+            "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+            "Key": "ui.settings.video.Auto",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "ReadableScalabilityMode": [
+        {
+          "Key": "EScalabilityMode::VeryLow",
+          "Value": {
+            "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+            "Key": "ui.settings.video.quality.Choice1",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": "EScalabilityMode::Low",
+          "Value": {
+            "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+            "Key": "ui.settings.video.quality.Choice2",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": "EScalabilityMode::Medium",
+          "Value": {
+            "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+            "Key": "ui.settings.video.quality.Choice3",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": "EScalabilityMode::High",
+          "Value": {
+            "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+            "Key": "ui.settings.video.quality.Choice4",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": "EScalabilityMode::Epic",
+          "Value": {
+            "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+            "Key": "ui.settings.video.quality.Choice5",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": "EScalabilityMode::XboxS",
+          "Value": {
+            "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+            "Key": "ui.settings.video.quality.Choice6",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": "EScalabilityMode::XboxX",
+          "Value": {
+            "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+            "Key": "ui.settings.video.quality.Choice7",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": "EScalabilityMode::PS5",
+          "Value": {
+            "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+            "Key": "ui.settings.video.quality.Choice8",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": "EScalabilityMode::SteamDeck",
+          "Value": {
+            "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+            "Key": "ui.settings.video.quality.Choice9",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": "EScalabilityMode::VeryHigh",
+          "Value": {
+            "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+            "Key": "ui.settings.video.quality.Choice10",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": "EScalabilityMode::Custom",
+          "Value": {
+            "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+            "Key": "ui.settings.video.Custom",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": "EScalabilityMode::Off",
+          "Value": {
+            "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+            "Key": "ui.settings.video.Off",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": "EScalabilityMode::Auto",
+          "Value": {
+            "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+            "Key": "ui.settings.video.Auto",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "ReadableFrameGenerationMode": [
+        {
+          "Key": "EFrameGenerationMode::Off",
+          "Value": {
+            "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+            "Key": "ui.settings.video.framegeneration.choice1",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": "EFrameGenerationMode::On2X",
+          "Value": {
+            "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+            "Key": "ui.settings.video.framegeneration.choice2",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": "EFrameGenerationMode::On3X",
+          "Value": {
+            "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+            "Key": "ui.settings.video.framegeneration.choice3",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": "EFrameGenerationMode::On4X",
+          "Value": {
+            "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+            "Key": "ui.settings.video.framegeneration.choice4",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": "EFrameGenerationMode::On5X",
+          "Value": {
+            "CultureInvariantString": "5X"
+          }
+        },
+        {
+          "Key": "EFrameGenerationMode::On6X",
+          "Value": {
+            "CultureInvariantString": "6X"
+          }
+        },
+        {
+          "Key": "EFrameGenerationMode::Dynamic",
+          "Value": {
+            "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+            "Key": "ui.settings.video.frameratelimit.Choice6",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "OffText": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.upscalingmode.Choice1",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "NAText": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.upscalingquality.Choice7",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "TAAText": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.antialiasing.Choice3",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "EpicText": {
+        "TableId": "/Game/UI/Settings/ST_Settings.ST_Settings",
+        "Key": "ui.settings.video.quality.Choice5",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "CalibrationWidgetClass": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'WBP_MainMenu_CalibrateScreen_C'",
+        "ObjectPath": "/Game/UI/MainMenu/WBP_MainMenu_CalibrateScreen"
+      },
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_SettingsVideoWidget_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WBP_SettingsVideoWidget_C:WidgetTree'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.146"
+      },
+      "bClassRequiresNativeTick": true,
+      "CookedPropertyGuids": [
+        {
+          "Key": "CommonLazyImage_TopLine",
+          "Value": "115F7D56-95873D32-80A12CD3-006B7C75"
+        },
+        {
+          "Key": "FrameGenerationToggle",
+          "Value": "F0FF2F39-C2FB36CF-9494A355-57ABCDF1"
+        }
+      ]
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'SettingsVideoWidget'",
+      "ObjectPath": "/Script/Dominion"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'WBP_SettingsVideoWidget_C:DoCustomNavigation'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "FrameGenerationToggle",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'WBP_Settings_Checkbox_C'",
+          "ObjectPath": "/Game/UI/Settings/WBP_Settings_Checkbox"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CommonLazyImage_TopLine",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CommonLazyImage'",
+          "ObjectPath": "/Script/CommonUI"
+        }
+      }
+    ],
+    "FuncMap": {
+      "DoCustomNavigation": {
+        "ObjectName": "Function'WBP_SettingsVideoWidget_C:DoCustomNavigation'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.2"
+      }
+    },
+    "ClassFlags": "CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_SettingsVideoWidget_C'Default__WBP_SettingsVideoWidget_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.113"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetNavigation",
+    "Name": "WidgetNavigation_0",
+    "Outer": {
+      "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.AntiAliasingQualitySelector'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.85"
+    },
+    "Class": "UScriptClass'WidgetNavigation'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Up": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Down": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Left": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Right": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Next": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Previous": {
+        "Rule": "EUINavigationRule::Stop"
+      }
+    }
+  },
+  {
+    "Type": "WidgetNavigation",
+    "Name": "WidgetNavigation_0",
+    "Outer": {
+      "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.AntiAliasingSelector'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.86"
+    },
+    "Class": "UScriptClass'WidgetNavigation'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Up": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Down": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Left": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Right": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Next": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Previous": {
+        "Rule": "EUINavigationRule::Stop"
+      }
+    }
+  },
+  {
+    "Type": "WidgetNavigation",
+    "Name": "WidgetNavigation_0",
+    "Outer": {
+      "ObjectName": "WBP_CallToActionWidget_C'WBP_SettingsVideoWidget_C:WidgetTree.AutoButtonPerformance'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.79"
+    },
+    "Class": "UScriptClass'WidgetNavigation'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Up": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Down": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      }
+    }
+  },
+  {
+    "Type": "WidgetNavigation",
+    "Name": "WidgetNavigation_0",
+    "Outer": {
+      "ObjectName": "WBP_CallToActionWidget_C'WBP_SettingsVideoWidget_C:WidgetTree.AutoButtonQuality'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.80"
+    },
+    "Class": "UScriptClass'WidgetNavigation'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Up": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Down": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      }
+    }
+  },
+  {
+    "Type": "WidgetNavigation",
+    "Name": "WidgetNavigation_0",
+    "Outer": {
+      "ObjectName": "WBP_Settings_Slider_C'WBP_SettingsVideoWidget_C:WidgetTree.BloomSlider'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.110"
+    },
+    "Class": "UScriptClass'WidgetNavigation'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Up": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Down": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Left": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Right": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Next": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Previous": {
+        "Rule": "EUINavigationRule::Stop"
+      }
+    }
+  },
+  {
+    "Type": "WidgetNavigation",
+    "Name": "WidgetNavigation_0",
+    "Outer": {
+      "ObjectName": "WBP_CallToActionWidget_C'WBP_SettingsVideoWidget_C:WidgetTree.BrightnessGammaButton'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.81"
+    },
+    "Class": "UScriptClass'WidgetNavigation'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Up": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Down": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      }
+    }
+  },
+  {
+    "Type": "WidgetNavigation",
+    "Name": "WidgetNavigation_0",
+    "Outer": {
+      "ObjectName": "WBP_Settings_Slider_C'WBP_SettingsVideoWidget_C:WidgetTree.DepthOfFieldSlider'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.111"
+    },
+    "Class": "UScriptClass'WidgetNavigation'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Up": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Down": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Left": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Right": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Next": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Previous": {
+        "Rule": "EUINavigationRule::Stop"
+      }
+    }
+  },
+  {
+    "Type": "WidgetNavigation",
+    "Name": "WidgetNavigation_0",
+    "Outer": {
+      "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.DisplayModeSelector'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.87"
+    },
+    "Class": "UScriptClass'WidgetNavigation'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Up": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Down": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Left": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Right": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Next": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Previous": {
+        "Rule": "EUINavigationRule::Stop"
+      }
+    }
+  },
+  {
+    "Type": "WidgetNavigation",
+    "Name": "WidgetNavigation_0",
+    "Outer": {
+      "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.EffectsQualitySelector'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.88"
+    },
+    "Class": "UScriptClass'WidgetNavigation'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Up": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Down": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Left": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Right": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Next": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Previous": {
+        "Rule": "EUINavigationRule::Stop"
+      }
+    }
+  },
+  {
+    "Type": "WidgetNavigation",
+    "Name": "WidgetNavigation_0",
+    "Outer": {
+      "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.FoliageQualitySelector'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.89"
+    },
+    "Class": "UScriptClass'WidgetNavigation'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Up": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Down": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Left": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Right": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Next": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Previous": {
+        "Rule": "EUINavigationRule::Stop"
+      }
+    }
+  },
+  {
+    "Type": "WidgetNavigation",
+    "Name": "WidgetNavigation_0",
+    "Outer": {
+      "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.FrameGenerationSelector'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.90"
+    },
+    "Class": "UScriptClass'WidgetNavigation'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Up": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Down": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Left": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Right": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Next": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Previous": {
+        "Rule": "EUINavigationRule::Stop"
+      }
+    }
+  },
+  {
+    "Type": "WidgetNavigation",
+    "Name": "WidgetNavigation_0",
+    "Outer": {
+      "ObjectName": "WBP_Settings_Checkbox_C'WBP_SettingsVideoWidget_C:WidgetTree.FrameGenerationToggle'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.105"
+    },
+    "Class": "UScriptClass'WidgetNavigation'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Up": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Down": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Left": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Right": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Next": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Previous": {
+        "Rule": "EUINavigationRule::Stop"
+      }
+    }
+  },
+  {
+    "Type": "WidgetNavigation",
+    "Name": "WidgetNavigation_0",
+    "Outer": {
+      "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.FrameRateLimitsSelector'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.91"
+    },
+    "Class": "UScriptClass'WidgetNavigation'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Up": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Down": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Left": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Right": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Next": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Previous": {
+        "Rule": "EUINavigationRule::Stop"
+      }
+    }
+  },
+  {
+    "Type": "WidgetNavigation",
+    "Name": "WidgetNavigation_0",
+    "Outer": {
+      "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.GlobalIlluminationQualitySelector'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.92"
+    },
+    "Class": "UScriptClass'WidgetNavigation'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Up": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Down": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Left": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Right": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Next": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Previous": {
+        "Rule": "EUINavigationRule::Stop"
+      }
+    }
+  },
+  {
+    "Type": "WidgetNavigation",
+    "Name": "WidgetNavigation_0",
+    "Outer": {
+      "ObjectName": "WBP_Settings_Checkbox_C'WBP_SettingsVideoWidget_C:WidgetTree.GPUCrashDebuggingToggle'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.106"
+    },
+    "Class": "UScriptClass'WidgetNavigation'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Up": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Down": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Left": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Right": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Next": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Previous": {
+        "Rule": "EUINavigationRule::Stop"
+      }
+    }
+  },
+  {
+    "Type": "WidgetNavigation",
+    "Name": "WidgetNavigation_0",
+    "Outer": {
+      "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.GraphicsAPISelector'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.93"
+    },
+    "Class": "UScriptClass'WidgetNavigation'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Up": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Down": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Left": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Right": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Next": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Previous": {
+        "Rule": "EUINavigationRule::Stop"
+      }
+    }
+  },
+  {
+    "Type": "WidgetNavigation",
+    "Name": "WidgetNavigation_0",
+    "Outer": {
+      "ObjectName": "WBP_Settings_Checkbox_C'WBP_SettingsVideoWidget_C:WidgetTree.LowLatencyToggle'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.107"
+    },
+    "Class": "UScriptClass'WidgetNavigation'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Up": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Down": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Left": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Right": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Next": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Previous": {
+        "Rule": "EUINavigationRule::Stop"
+      }
+    }
+  },
+  {
+    "Type": "WidgetNavigation",
+    "Name": "WidgetNavigation_0",
+    "Outer": {
+      "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.ModelsQualitySelector'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.94"
+    },
+    "Class": "UScriptClass'WidgetNavigation'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Up": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Down": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Left": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Right": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Next": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Previous": {
+        "Rule": "EUINavigationRule::Stop"
+      }
+    }
+  },
+  {
+    "Type": "WidgetNavigation",
+    "Name": "WidgetNavigation_0",
+    "Outer": {
+      "ObjectName": "WBP_Settings_Checkbox_C'WBP_SettingsVideoWidget_C:WidgetTree.NaniteToggle'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.108"
+    },
+    "Class": "UScriptClass'WidgetNavigation'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Up": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Down": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Left": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Right": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Next": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Previous": {
+        "Rule": "EUINavigationRule::Stop"
+      }
+    }
+  },
+  {
+    "Type": "WidgetNavigation",
+    "Name": "WidgetNavigation_0",
+    "Outer": {
+      "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.PerformanceOrQualitySelector'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.95"
+    },
+    "Class": "UScriptClass'WidgetNavigation'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Up": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Down": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Left": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Right": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Next": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Previous": {
+        "Rule": "EUINavigationRule::Stop"
+      }
+    }
+  },
+  {
+    "Type": "WidgetNavigation",
+    "Name": "WidgetNavigation_0",
+    "Outer": {
+      "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.PostProcessQualitySelector'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.96"
+    },
+    "Class": "UScriptClass'WidgetNavigation'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Up": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Down": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Left": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Right": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Next": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Previous": {
+        "Rule": "EUINavigationRule::Stop"
+      }
+    }
+  },
+  {
+    "Type": "WidgetNavigation",
+    "Name": "WidgetNavigation_0",
+    "Outer": {
+      "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.ReflectionsQualitySelector'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.97"
+    },
+    "Class": "UScriptClass'WidgetNavigation'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Up": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Down": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Left": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Right": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Next": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Previous": {
+        "Rule": "EUINavigationRule::Stop"
+      }
+    }
+  },
+  {
+    "Type": "WidgetNavigation",
+    "Name": "WidgetNavigation_0",
+    "Outer": {
+      "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.RenderingQualitySelector'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.98"
+    },
+    "Class": "UScriptClass'WidgetNavigation'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Up": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Down": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Left": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Right": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Next": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Previous": {
+        "Rule": "EUINavigationRule::Stop"
+      }
+    }
+  },
+  {
+    "Type": "WidgetNavigation",
+    "Name": "WidgetNavigation_0",
+    "Outer": {
+      "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.ResolutionSelector'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.99"
+    },
+    "Class": "UScriptClass'WidgetNavigation'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Up": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Down": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Left": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Right": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Next": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Previous": {
+        "Rule": "EUINavigationRule::Stop"
+      }
+    }
+  },
+  {
+    "Type": "WidgetNavigation",
+    "Name": "WidgetNavigation_0",
+    "Outer": {
+      "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.ShadowsQualitySelector'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.100"
+    },
+    "Class": "UScriptClass'WidgetNavigation'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Up": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Down": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Left": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Right": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Next": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Previous": {
+        "Rule": "EUINavigationRule::Stop"
+      }
+    }
+  },
+  {
+    "Type": "WidgetNavigation",
+    "Name": "WidgetNavigation_0",
+    "Outer": {
+      "ObjectName": "WBP_Settings_Slider_C'WBP_SettingsVideoWidget_C:WidgetTree.SharpnessSlider'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.112"
+    },
+    "Class": "UScriptClass'WidgetNavigation'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Up": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Down": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Left": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Right": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Next": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Previous": {
+        "Rule": "EUINavigationRule::Stop"
+      }
+    }
+  },
+  {
+    "Type": "WidgetNavigation",
+    "Name": "WidgetNavigation_0",
+    "Outer": {
+      "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.TextureQualitySelector'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.101"
+    },
+    "Class": "UScriptClass'WidgetNavigation'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Up": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Down": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Left": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Right": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Next": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Previous": {
+        "Rule": "EUINavigationRule::Stop"
+      }
+    }
+  },
+  {
+    "Type": "WidgetNavigation",
+    "Name": "WidgetNavigation_0",
+    "Outer": {
+      "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.UpscalingModeSelector'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.102"
+    },
+    "Class": "UScriptClass'WidgetNavigation'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Up": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Down": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Left": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Right": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Next": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Previous": {
+        "Rule": "EUINavigationRule::Stop"
+      }
+    }
+  },
+  {
+    "Type": "WidgetNavigation",
+    "Name": "WidgetNavigation_0",
+    "Outer": {
+      "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.UpscalingQualitySelector'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.103"
+    },
+    "Class": "UScriptClass'WidgetNavigation'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Up": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Down": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Left": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Right": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Next": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Previous": {
+        "Rule": "EUINavigationRule::Stop"
+      }
+    }
+  },
+  {
+    "Type": "WidgetNavigation",
+    "Name": "WidgetNavigation_0",
+    "Outer": {
+      "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_SettingsVideoWidget_C:WidgetTree.ViewDistanceQualitySelector'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.104"
+    },
+    "Class": "UScriptClass'WidgetNavigation'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Up": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Down": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Left": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Right": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Next": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Previous": {
+        "Rule": "EUINavigationRule::Stop"
+      }
+    }
+  },
+  {
+    "Type": "WidgetNavigation",
+    "Name": "WidgetNavigation_0",
+    "Outer": {
+      "ObjectName": "WBP_Settings_Checkbox_C'WBP_SettingsVideoWidget_C:WidgetTree.VSyncToggle'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.109"
+    },
+    "Class": "UScriptClass'WidgetNavigation'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Up": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Down": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Left": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Right": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Next": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Previous": {
+        "Rule": "EUINavigationRule::Stop"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WBP_SettingsVideoWidget_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.114"
+    },
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "ScrollBox'WBP_SettingsVideoWidget_C:WidgetTree.ScrollBox'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/SubWidgets/WBP_SettingsVideoWidget.3"
+      }
+    }
+  }
+]

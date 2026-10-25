@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "JournalEntryRecipeData",
+    "Name": "JOURNAL_Recipes_Resources_WeaponBarbs",
+    "Class": "UScriptClass'JournalEntryRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipeData": {
+        "AssetPathName": "/Game/Gameplay/Items/Consumables/Misc/RECIPE_WeaponBarbs.RECIPE_WeaponBarbs",
+        "SubPathString": ""
+      },
+      "ItemData": {
+        "AssetPathName": "/Game/Gameplay/Items/Consumables/Misc/ITEM_Consumable_WeaponBarbs.ITEM_Consumable_WeaponBarbs",
+        "SubPathString": ""
+      },
+      "StationTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_CraftingStationsDataTable'",
+          "ObjectPath": "/Game/Gameplay/World/Stations/DT_CraftingStationsDataTable"
+        },
+        "RowName": "ToolsMeleeBench"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "WeaponBarbs",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "WeaponBarbs",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/Game/Art/UI/Icons/Journal/T_Icon_Journal_Weapon_Barbs.T_Icon_Journal_Weapon_Barbs",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RecipeUnlocked",
+        "UnlockingRecipe": {
+          "AssetPathName": "/Game/Gameplay/Items/Consumables/Misc/RECIPE_WeaponBarbs.RECIPE_WeaponBarbs",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "J2IrLk56Wg07ieWljYrm9w",
+      "InternalName": "JOURNAL_Recipes_Resources_WeaponBarbs"
+    }
+  }
+]

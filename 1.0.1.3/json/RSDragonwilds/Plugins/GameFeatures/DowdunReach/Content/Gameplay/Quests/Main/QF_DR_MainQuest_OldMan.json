@@ -1,0 +1,1509 @@
+[
+  {
+    "Type": "ConversationChoiceNode",
+    "Name": "ConversationChoiceNode_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Class": "UScriptClass'ConversationChoiceNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultChoiceDisplayText": {
+        "TableId": "/DowdunReach/Gameplay/Quests/Main/ST_DR_Main.ST_DR_Main",
+        "Key": "WoM_Optional_PlayerChoice_1",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "ConversationChoiceNode",
+    "Name": "ConversationChoiceNode_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Class": "UScriptClass'ConversationChoiceNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultChoiceDisplayText": {
+        "TableId": "/DowdunReach/Gameplay/Quests/Main/ST_DR_Main.ST_DR_Main",
+        "Key": "WoM_Optional_PlayerChoice_4",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "ConversationChoiceNode",
+    "Name": "ConversationChoiceNode_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Class": "UScriptClass'ConversationChoiceNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultChoiceDisplayText": {
+        "TableId": "/DowdunReach/Gameplay/Quests/Main/ST_DR_Main.ST_DR_Main",
+        "Key": "WoM_Optional_PlayerChoice_3",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "ConversationChoiceNode",
+    "Name": "ConversationChoiceNode_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Class": "UScriptClass'ConversationChoiceNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultChoiceDisplayText": {
+        "TableId": "/DowdunReach/Gameplay/Quests/Main/ST_DR_Main.ST_DR_Main",
+        "Key": "WoM_Optional_PlayerChoice_2",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "ConversationDatabase",
+    "Name": "QF_DR_MainQuest_OldMan",
+    "Class": "UScriptClass'ConversationDatabase'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CompilerVersion": 2,
+      "ReachableNodeMap": [
+        {
+          "Key": "DD5A9757-4AB0A357-44EBD391-C7FCE100",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_DR_MainQuest_OldMan:ConversationEntryPointNode_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.6"
+          }
+        },
+        {
+          "Key": "8B1ACE4B-4259C085-EC0BD090-EE3D1FEE",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_MainQuest_OldMan:QFT_PromptMessage_C_24'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.68"
+          }
+        },
+        {
+          "Key": "AE85D476-4B4CB605-BEFE2CB6-78CBA724",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_MainQuest_OldMan:QFT_Blank_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.44"
+          }
+        },
+        {
+          "Key": "69BAAE81-4E8EBC7E-7F653AAF-2C1182F8",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_MainQuest_OldMan:QFT_PromptMessage_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.64"
+          }
+        },
+        {
+          "Key": "A2CDCC8E-4A3171F3-B3DD1D94-CCE6AEAA",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_MainQuest_OldMan:QFT_PromptMessage_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.57"
+          }
+        },
+        {
+          "Key": "FD04A210-466DF930-F9CEEC98-4F674D73",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_MainQuest_OldMan:QFT_PromptMessage_C_9'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.79"
+          }
+        },
+        {
+          "Key": "218E54C6-436C90A7-266D29BD-1ED8DF22",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_DR_MainQuest_OldMan:QFT_SetQuestBool_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.81"
+          }
+        },
+        {
+          "Key": "0BDC6446-4487488E-C60D2FA9-619AD441",
+          "Value": {
+            "ObjectName": "ConversationLinkNode'QF_DR_MainQuest_OldMan:ConversationLinkNode_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.7"
+          }
+        },
+        {
+          "Key": "8059EF3A-423D35C9-2CBB2495-1F6A5A2C",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_MainQuest_OldMan:QFT_Blank_C_13'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.37"
+          }
+        },
+        {
+          "Key": "FC0601FB-49553FA2-D192D186-A48FD73A",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_MainQuest_OldMan:QFT_PromptMessage_C_11'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.59"
+          }
+        },
+        {
+          "Key": "988515B8-4F678BB2-9FB8369A-6B09DF4B",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_MainQuest_OldMan:QFT_PromptMessage_C_19'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.63"
+          }
+        },
+        {
+          "Key": "5D1A7849-40FDFF56-05C7F2A0-F086DEFE",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_MainQuest_OldMan:QFT_PromptMessage_C_25'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.69"
+          }
+        },
+        {
+          "Key": "6916DEB6-4B8AFB7E-1473F6A3-499E0269",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_MainQuest_OldMan:QFT_PromptMessage_C_26'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.70"
+          }
+        },
+        {
+          "Key": "B4F89181-4D48C879-380BB0AC-234617FE",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_MainQuest_OldMan:QFT_PromptMessage_C_27'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.71"
+          }
+        },
+        {
+          "Key": "915E2201-4299281B-0D7CFA9D-1DDCF9C0",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_DR_MainQuest_OldMan:QFT_SetQuestBool_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.84"
+          }
+        },
+        {
+          "Key": "33C05911-4CEAB8FA-9EF1FF9C-15CD29F3",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_MainQuest_OldMan:QFT_Blank_C_9'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.55"
+          }
+        },
+        {
+          "Key": "2AEF404F-4909C0E1-A8E142AE-A53C5A25",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_MainQuest_OldMan:QFT_PromptMessage_C_10'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.58"
+          }
+        },
+        {
+          "Key": "36B7E444-4726EFEE-7401E996-A745CCC1",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_MainQuest_OldMan:QFT_PromptMessage_C_13'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.60"
+          }
+        },
+        {
+          "Key": "66FAC6DA-49070BDC-60667680-F495FA8D",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_DR_MainQuest_OldMan:QFT_SetQuestBool_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.83"
+          }
+        },
+        {
+          "Key": "A7FB1FD3-48E7129E-79D75BAE-B0A37D5F",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_MainQuest_OldMan:QFT_Blank_C_7'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.54"
+          }
+        },
+        {
+          "Key": "781140D8-4F16C4DB-44CA9682-96B76FD5",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_MainQuest_OldMan:QFT_PromptMessage_C_8'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.78"
+          }
+        },
+        {
+          "Key": "BB715BA7-4721B514-231ADAB3-61BEDCBA",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_MainQuest_OldMan:QFT_PromptMessage_C_14'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.61"
+          }
+        },
+        {
+          "Key": "AEE59B93-44F1358F-196166A2-2FEA2C97",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_MainQuest_OldMan:QFT_PromptMessage_C_16'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.62"
+          }
+        },
+        {
+          "Key": "3507BB42-42D8C586-C7D5B480-ABC5956A",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_DR_MainQuest_OldMan:QFT_SetQuestBool_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.82"
+          }
+        },
+        {
+          "Key": "2617811A-4F54CD95-D5E89CA8-E8C9D162",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_DR_MainQuest_OldMan:ConversationEntryPointNode_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.5"
+          }
+        },
+        {
+          "Key": "1EE365C0-4272E81E-F70D2EB8-AA180C24",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_MainQuest_OldMan:QFT_Blank_C_10'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.36"
+          }
+        },
+        {
+          "Key": "979ADFAC-457DCA07-C99C97A9-F06A46E0",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_MainQuest_OldMan:QFT_PromptMessage_C_34'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.76"
+          }
+        },
+        {
+          "Key": "5AB3410E-4927E52C-0A9772BC-36CF8E06",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_MainQuest_OldMan:QFT_Blank_C_15'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.38"
+          }
+        },
+        {
+          "Key": "9CC453D5-4B82C54F-323D73A4-50E2B689",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_MainQuest_OldMan:QFT_Blank_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.39"
+          }
+        },
+        {
+          "Key": "5C17D432-4BB3C620-320381B0-6FE2FD5B",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_MainQuest_OldMan:QFT_Blank_C_5'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.52"
+          }
+        },
+        {
+          "Key": "D61AFC5D-43DE653E-E0A1A28F-6CE67C95",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_MainQuest_OldMan:QFT_PromptMessage_C_28'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.72"
+          }
+        },
+        {
+          "Key": "E920A0E1-4D2B858C-405E5F83-25823D80",
+          "Value": {
+            "ObjectName": "ConversationLinkNode'QF_DR_MainQuest_OldMan:ConversationLinkNode_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.9"
+          }
+        },
+        {
+          "Key": "E0DFA22E-473376B9-B99D0EB5-6A194D4C",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_MainQuest_OldMan:QFT_Blank_C_30'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.45"
+          }
+        },
+        {
+          "Key": "D05B5AB1-430E224B-E29FE386-995FC263",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_MainQuest_OldMan:QFT_PromptMessage_C_5'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.77"
+          }
+        },
+        {
+          "Key": "714735C1-4B4294B1-802DA0A5-25A962F5",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_MainQuest_OldMan:QFT_PromptMessage_C_32'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.74"
+          }
+        },
+        {
+          "Key": "F4C2DBD6-46E8A40F-43B257BA-4C63C95E",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_MainQuest_OldMan:QFT_PromptMessage_C_33'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.75"
+          }
+        },
+        {
+          "Key": "A534BFFD-4FD1BA8C-2FF487BC-71629E01",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_MainQuest_OldMan:QFT_Blank_C_27'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.41"
+          }
+        },
+        {
+          "Key": "A3EC6BCF-4A69DAD5-5C72728C-0CB224A5",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_MainQuest_OldMan:QFT_Blank_C_28'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.42"
+          }
+        },
+        {
+          "Key": "FCF5D012-48514F2C-3E9992BF-C46D1613",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_MainQuest_OldMan:QFT_Blank_C_26'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.40"
+          }
+        },
+        {
+          "Key": "420B8101-4F9F567D-48D64895-A2FC98CD",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_MainQuest_OldMan:QFT_Blank_C_29'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.43"
+          }
+        },
+        {
+          "Key": "A652046C-4888A0DA-B9C1DD87-08DB54A4",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_MainQuest_OldMan:QFT_PromptMessage_C_29'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.73"
+          }
+        },
+        {
+          "Key": "8AB9DE98-45033A71-225DC69B-2172885D",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_MainQuest_OldMan:QFT_Blank_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.35"
+          }
+        },
+        {
+          "Key": "60AFA6A0-4DB2A0F0-B9DFBE89-0ABBE9F3",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_MainQuest_OldMan:QFT_Blank_C_6'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.53"
+          }
+        },
+        {
+          "Key": "BE1C99EC-48D300F9-C9B439A4-188AA204",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_MainQuest_OldMan:QFT_PromptMessage_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.56"
+          }
+        },
+        {
+          "Key": "8DE46870-4AF9A578-1C60C4A1-2A343E92",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_MainQuest_OldMan:QFT_PromptMessage_C_20'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.65"
+          }
+        },
+        {
+          "Key": "EBD88D88-492B9257-0FF379BE-75B68F7A",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_MainQuest_OldMan:QFT_PromptMessage_C_21'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.66"
+          }
+        },
+        {
+          "Key": "23D34CC8-4D2BEFC7-D73FC4AB-23D9A0CD",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_MainQuest_OldMan:QFT_PromptMessage_C_22'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.67"
+          }
+        },
+        {
+          "Key": "8E0CA5F6-46DD6C55-B773DAA8-D9E2AAFB",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_MainQuest_OldMan:QFT_Blank_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.51"
+          }
+        },
+        {
+          "Key": "82E2E299-4089282D-4AB1D18D-1E3DF5C7",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_DR_MainQuest_OldMan:QFT_SetQuestObjective_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.85"
+          }
+        },
+        {
+          "Key": "725374D7-4890E50D-4DEB3A9A-66A09C0F",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DR_MainQuest_OldMan:QFT_UpdateQuestLocation_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.86"
+          }
+        },
+        {
+          "Key": "68D8E54E-4D538627-7B92418C-BCF7399F",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DR_MainQuest_OldMan:QFT_UpdateQuestLocation_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.87"
+          }
+        },
+        {
+          "Key": "3F04EFCD-4CF7D092-F1012BB7-6D4A2D79",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_DR_MainQuest_OldMan:QFT_SetQuestBool_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.80"
+          }
+        },
+        {
+          "Key": "35D2BA55-4230265A-7591B9B3-E55D81EB",
+          "Value": {
+            "ObjectName": "ConversationLinkNode'QF_DR_MainQuest_OldMan:ConversationLinkNode_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.8"
+          }
+        },
+        {
+          "Key": "9C6D628C-47BD4BC8-4E76C1B7-07F2E4CD",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_MainQuest_OldMan:QFT_Blank_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.34"
+          }
+        },
+        {
+          "Key": "8D69B27B-4122CBA4-E8BD5B95-8054980B",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_MainQuest_OldMan:QFT_Blank_C_36'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.50"
+          }
+        },
+        {
+          "Key": "BC2E9BF5-4BF9CB3F-7A69968F-E4108449",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_MainQuest_OldMan:QFT_Blank_C_33'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.47"
+          }
+        },
+        {
+          "Key": "11D3D9BE-48C3B254-5ADE3597-22AA56E2",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_MainQuest_OldMan:QFT_Blank_C_34'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.48"
+          }
+        },
+        {
+          "Key": "0B659616-4EE67BF9-F146C3A2-EC9AFBEC",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_MainQuest_OldMan:QFT_Blank_C_32'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.46"
+          }
+        },
+        {
+          "Key": "4C35D791-46E156C7-F225EFA8-D9D4455B",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_MainQuest_OldMan:QFT_Blank_C_35'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.49"
+          }
+        }
+      ],
+      "EntryTags": [
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.BlackKnightsFortress.WiseOldMan"
+          },
+          "DestinationList": [
+            "2617811A-4F54CD95-D5E89CA8-E8C9D162"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.BlackKnightsFortress.WiseOldMan.OptionalDialogue"
+          },
+          "DestinationList": [
+            "DD5A9757-4AB0A357-44EBD391-C7FCE100"
+          ],
+          "EntryIdentifier": ""
+        }
+      ],
+      "ExitTags": [
+        "QuestFlow.Entry.BlackKnightsFortress.WiseOldMan.OptionalDialogue"
+      ],
+      "InternalNodeIds": [
+        "DD5A9757-4AB0A357-44EBD391-C7FCE100",
+        "8B1ACE4B-4259C085-EC0BD090-EE3D1FEE",
+        "AE85D476-4B4CB605-BEFE2CB6-78CBA724",
+        "69BAAE81-4E8EBC7E-7F653AAF-2C1182F8",
+        "A2CDCC8E-4A3171F3-B3DD1D94-CCE6AEAA",
+        "FD04A210-466DF930-F9CEEC98-4F674D73",
+        "218E54C6-436C90A7-266D29BD-1ED8DF22",
+        "0BDC6446-4487488E-C60D2FA9-619AD441",
+        "8059EF3A-423D35C9-2CBB2495-1F6A5A2C",
+        "FC0601FB-49553FA2-D192D186-A48FD73A",
+        "988515B8-4F678BB2-9FB8369A-6B09DF4B",
+        "5D1A7849-40FDFF56-05C7F2A0-F086DEFE",
+        "6916DEB6-4B8AFB7E-1473F6A3-499E0269",
+        "B4F89181-4D48C879-380BB0AC-234617FE",
+        "915E2201-4299281B-0D7CFA9D-1DDCF9C0",
+        "33C05911-4CEAB8FA-9EF1FF9C-15CD29F3",
+        "2AEF404F-4909C0E1-A8E142AE-A53C5A25",
+        "36B7E444-4726EFEE-7401E996-A745CCC1",
+        "66FAC6DA-49070BDC-60667680-F495FA8D",
+        "A7FB1FD3-48E7129E-79D75BAE-B0A37D5F",
+        "781140D8-4F16C4DB-44CA9682-96B76FD5",
+        "BB715BA7-4721B514-231ADAB3-61BEDCBA",
+        "AEE59B93-44F1358F-196166A2-2FEA2C97",
+        "3507BB42-42D8C586-C7D5B480-ABC5956A",
+        "2617811A-4F54CD95-D5E89CA8-E8C9D162",
+        "1EE365C0-4272E81E-F70D2EB8-AA180C24",
+        "979ADFAC-457DCA07-C99C97A9-F06A46E0",
+        "5AB3410E-4927E52C-0A9772BC-36CF8E06",
+        "9CC453D5-4B82C54F-323D73A4-50E2B689",
+        "5C17D432-4BB3C620-320381B0-6FE2FD5B",
+        "D61AFC5D-43DE653E-E0A1A28F-6CE67C95",
+        "E920A0E1-4D2B858C-405E5F83-25823D80",
+        "E0DFA22E-473376B9-B99D0EB5-6A194D4C",
+        "D05B5AB1-430E224B-E29FE386-995FC263",
+        "714735C1-4B4294B1-802DA0A5-25A962F5",
+        "F4C2DBD6-46E8A40F-43B257BA-4C63C95E",
+        "A534BFFD-4FD1BA8C-2FF487BC-71629E01",
+        "A3EC6BCF-4A69DAD5-5C72728C-0CB224A5",
+        "FCF5D012-48514F2C-3E9992BF-C46D1613",
+        "420B8101-4F9F567D-48D64895-A2FC98CD",
+        "A652046C-4888A0DA-B9C1DD87-08DB54A4",
+        "8AB9DE98-45033A71-225DC69B-2172885D",
+        "60AFA6A0-4DB2A0F0-B9DFBE89-0ABBE9F3",
+        "BE1C99EC-48D300F9-C9B439A4-188AA204",
+        "8DE46870-4AF9A578-1C60C4A1-2A343E92",
+        "EBD88D88-492B9257-0FF379BE-75B68F7A",
+        "23D34CC8-4D2BEFC7-D73FC4AB-23D9A0CD",
+        "8E0CA5F6-46DD6C55-B773DAA8-D9E2AAFB",
+        "82E2E299-4089282D-4AB1D18D-1E3DF5C7",
+        "725374D7-4890E50D-4DEB3A9A-66A09C0F",
+        "68D8E54E-4D538627-7B92418C-BCF7399F",
+        "3F04EFCD-4CF7D092-F1012BB7-6D4A2D79",
+        "35D2BA55-4230265A-7591B9B3-E55D81EB",
+        "9C6D628C-47BD4BC8-4E76C1B7-07F2E4CD",
+        "8D69B27B-4122CBA4-E8BD5B95-8054980B",
+        "BC2E9BF5-4BF9CB3F-7A69968F-E4108449",
+        "11D3D9BE-48C3B254-5ADE3597-22AA56E2",
+        "0B659616-4EE67BF9-F146C3A2-EC9AFBEC",
+        "4C35D791-46E156C7-F225EFA8-D9D4455B"
+      ]
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.BlackKnightsFortress.WiseOldMan"
+      },
+      "OutputConnections": [
+        "5AB3410E-4927E52C-0A9772BC-36CF8E06",
+        "1EE365C0-4272E81E-F70D2EB8-AA180C24"
+      ],
+      "Compiled_NodeGUID": "2617811A-4F54CD95-D5E89CA8-E8C9D162"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.BlackKnightsFortress.WiseOldMan.OptionalDialogue"
+      },
+      "OutputConnections": [
+        "8B1ACE4B-4259C085-EC0BD090-EE3D1FEE"
+      ],
+      "Compiled_NodeGUID": "DD5A9757-4AB0A357-44EBD391-C7FCE100"
+    }
+  },
+  {
+    "Type": "ConversationLinkNode",
+    "Name": "ConversationLinkNode_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Class": "UScriptClass'ConversationLinkNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RemoteEntryTag": {
+        "TagName": "QuestFlow.Entry.BlackKnightsFortress.WiseOldMan.OptionalDialogue"
+      },
+      "Compiled_NodeGUID": "0BDC6446-4487488E-C60D2FA9-619AD441",
+      "ParentNode": {
+        "ObjectName": "QFT_SetQuestBool_C'QF_DR_MainQuest_OldMan:QFT_SetQuestBool_C_4'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.84"
+      }
+    }
+  },
+  {
+    "Type": "ConversationLinkNode",
+    "Name": "ConversationLinkNode_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Class": "UScriptClass'ConversationLinkNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RemoteEntryTag": {
+        "TagName": "QuestFlow.Entry.BlackKnightsFortress.WiseOldMan.OptionalDialogue"
+      },
+      "Compiled_NodeGUID": "35D2BA55-4230265A-7591B9B3-E55D81EB",
+      "ParentNode": {
+        "ObjectName": "QFT_SetQuestBool_C'QF_DR_MainQuest_OldMan:QFT_SetQuestBool_C_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.80"
+      }
+    }
+  },
+  {
+    "Type": "ConversationLinkNode",
+    "Name": "ConversationLinkNode_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Class": "UScriptClass'ConversationLinkNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RemoteEntryTag": {
+        "TagName": "QuestFlow.Entry.BlackKnightsFortress.WiseOldMan.OptionalDialogue"
+      },
+      "Compiled_NodeGUID": "E920A0E1-4D2B858C-405E5F83-25823D80",
+      "ParentNode": {
+        "ObjectName": "QFT_PromptMessage_C'QF_DR_MainQuest_OldMan:QFT_PromptMessage_C_33'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.75"
+      }
+    }
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_12",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_14",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_15",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBoolsOR_C",
+    "Name": "QFR_TestQuestBoolsOR_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_26",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_27",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_28",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_29",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_30",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_36",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_37",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_38",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_39",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_40",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_13",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_15",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_26",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_27",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_28",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_29",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_30",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_32",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_33",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_34",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_35",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_36",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_13",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_14",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_16",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_19",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_20",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_21",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_22",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_24",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_25",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_26",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_27",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_28",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_29",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_32",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_33",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_34",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_23",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_24",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_25",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_30",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_31",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_35",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_OldMan'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_OldMan.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  }
+]

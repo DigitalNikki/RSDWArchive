@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "JournalEntryRecipeData",
+    "Name": "JOURNAL_Recipes_Resources_DorgeshunnLimbs",
+    "Class": "UScriptClass'JournalEntryRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipeData": {
+        "AssetPathName": "/Game/Gameplay/Items/Resources/Components/RECIPE_Resources_CrossbowLimbs_Dorgeshuun.RECIPE_Resources_CrossbowLimbs_Dorgeshuun",
+        "SubPathString": ""
+      },
+      "ItemData": {
+        "AssetPathName": "/Game/Gameplay/Items/Resources/Components/ITEM_Resources_DorgeshuunLimbs.ITEM_Resources_DorgeshuunLimbs",
+        "SubPathString": ""
+      },
+      "StationTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_CraftingStationsDataTable'",
+          "ObjectPath": "/Game/Gameplay/World/Stations/DT_CraftingStationsDataTable"
+        },
+        "RowName": "ToolsMeleeBench"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "DorgeshuunLimbs",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "IronCrossbowLimbs",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/Game/Art/UI/Icons/Weapons_tools_Placables/Journal/T_icon_Journal_Dorgeshuun_Crossbow_Limbs.T_icon_Journal_Dorgeshuun_Crossbow_Limbs",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RecipeUnlocked",
+        "UnlockingRecipe": {
+          "AssetPathName": "/Game/Gameplay/Items/Resources/Components/RECIPE_Resources_CrossbowLimbs_Dorgeshuun.RECIPE_Resources_CrossbowLimbs_Dorgeshuun",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "T_-zq0tn_1C8_r-_N5WtWA",
+      "InternalName": "JOURNAL_Recipes_Resources_Dorgeshuun"
+    }
+  }
+]

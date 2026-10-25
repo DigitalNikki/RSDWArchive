@@ -1,0 +1,163 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_ATK_DragonHatchling",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Object'AiAttackOperationData'",
+        "ObjectPath": "/Script/Dominion"
+      }
+    },
+    "Rows": {
+      "MeleeSlash_L": {
+        "Attack": {
+          "ObjectName": "BlueprintGeneratedClass'ATK_DragonLesser_MeleeSlashLeft_C'",
+          "ObjectPath": "/Game/Gameplay/AI/DragonLesser/Attacks/ATK_DragonLesser_MeleeSlashLeft"
+        },
+        "MinInitialCD": 0.0,
+        "MaxInitialCD": 0.0,
+        "CD": 12.0,
+        "bEnableCDRange": false,
+        "MaxCD": -1.0,
+        "bEnableSharedCD": true,
+        "SharedCooldownID": 1,
+        "ActivationChance": 0.7,
+        "Likelihood": {
+          "ObjectName": "BlueprintGeneratedClass'LH_DragonLesser_MeleeSlash_C'",
+          "ObjectPath": "/Game/Gameplay/AI/DragonLesser/Attacks/LH_DragonLesser_MeleeSlash"
+        },
+        "bRequiresElementalAffinity": false,
+        "RequiredElementalAffinity": "EElementalAffinity::None",
+        "bEnabled": true
+      },
+      "MeleeSlash_R": {
+        "Attack": {
+          "ObjectName": "BlueprintGeneratedClass'ATK_DragonLesser_MeleeSlashRight_C'",
+          "ObjectPath": "/Game/Gameplay/AI/DragonLesser/Attacks/ATK_DragonLesser_MeleeSlashRight"
+        },
+        "MinInitialCD": 0.0,
+        "MaxInitialCD": 0.0,
+        "CD": 12.0,
+        "bEnableCDRange": false,
+        "MaxCD": -1.0,
+        "bEnableSharedCD": true,
+        "SharedCooldownID": 1,
+        "ActivationChance": 0.7,
+        "Likelihood": {
+          "ObjectName": "BlueprintGeneratedClass'LH_DragonLesser_MeleeSlash_C'",
+          "ObjectPath": "/Game/Gameplay/AI/DragonLesser/Attacks/LH_DragonLesser_MeleeSlash"
+        },
+        "bRequiresElementalAffinity": false,
+        "RequiredElementalAffinity": "EElementalAffinity::None",
+        "bEnabled": true
+      },
+      "MeleeSlash_CMB": {
+        "Attack": {
+          "ObjectName": "BlueprintGeneratedClass'ATK_DragonLesser_MeleeSlash_Combo1_C'",
+          "ObjectPath": "/Game/Gameplay/AI/DragonLesser/Attacks/ATK_DragonLesser_MeleeSlash_Combo1"
+        },
+        "MinInitialCD": 15.0,
+        "MaxInitialCD": 15.0,
+        "CD": 28.0,
+        "bEnableCDRange": false,
+        "MaxCD": -1.0,
+        "bEnableSharedCD": false,
+        "SharedCooldownID": 0,
+        "ActivationChance": 1.0,
+        "Likelihood": {
+          "ObjectName": "BlueprintGeneratedClass'LH_DragonLesser_MeleeSlash_C'",
+          "ObjectPath": "/Game/Gameplay/AI/DragonLesser/Attacks/LH_DragonLesser_MeleeSlash"
+        },
+        "bRequiresElementalAffinity": false,
+        "RequiredElementalAffinity": "EElementalAffinity::None",
+        "bEnabled": true
+      },
+      "WingBuffet": {
+        "Attack": {
+          "ObjectName": "BlueprintGeneratedClass'ATK_DragonLesser_WingBuffet_C'",
+          "ObjectPath": "/Game/Gameplay/AI/DragonLesser/Attacks/ATK_DragonLesser_WingBuffet"
+        },
+        "MinInitialCD": 20.0,
+        "MaxInitialCD": 25.0,
+        "CD": 40.0,
+        "bEnableCDRange": false,
+        "MaxCD": -1.0,
+        "bEnableSharedCD": false,
+        "SharedCooldownID": 0,
+        "ActivationChance": 0.7,
+        "Likelihood": {
+          "ObjectName": "BlueprintGeneratedClass'LH_DragonLesser_WingBuffet_C'",
+          "ObjectPath": "/Game/Gameplay/AI/DragonLesser/Attacks/LH_DragonLesser_WingBuffet"
+        },
+        "bRequiresElementalAffinity": false,
+        "RequiredElementalAffinity": "EElementalAffinity::None",
+        "bEnabled": false
+      },
+      "Tackle": {
+        "Attack": {
+          "ObjectName": "BlueprintGeneratedClass'ATK_DragonLesser_Tackle_C'",
+          "ObjectPath": "/Game/Gameplay/AI/DragonLesser/Attacks/ATK_DragonLesser_Tackle"
+        },
+        "MinInitialCD": 0.0,
+        "MaxInitialCD": 0.0,
+        "CD": 28.0,
+        "bEnableCDRange": false,
+        "MaxCD": -1.0,
+        "bEnableSharedCD": false,
+        "SharedCooldownID": 0,
+        "ActivationChance": 0.9,
+        "Likelihood": {
+          "ObjectName": "BlueprintGeneratedClass'LH_DragonLesser_Tackle_C'",
+          "ObjectPath": "/Game/Gameplay/AI/DragonLesser/Attacks/LH_DragonLesser_Tackle"
+        },
+        "bRequiresElementalAffinity": false,
+        "RequiredElementalAffinity": "EElementalAffinity::None",
+        "bEnabled": true
+      },
+      "SpinAttack_L": {
+        "Attack": {
+          "ObjectName": "BlueprintGeneratedClass'ATK_DragonLesser_SpinAttack_Left_C'",
+          "ObjectPath": "/Game/Gameplay/AI/DragonLesser/Attacks/ATK_DragonLesser_SpinAttack_Left"
+        },
+        "MinInitialCD": 0.0,
+        "MaxInitialCD": 0.0,
+        "CD": 30.0,
+        "bEnableCDRange": false,
+        "MaxCD": -1.0,
+        "bEnableSharedCD": false,
+        "SharedCooldownID": 0,
+        "ActivationChance": 0.8,
+        "Likelihood": {
+          "ObjectName": "BlueprintGeneratedClass'LH_DragonLesser_TailSwipeLeft_C'",
+          "ObjectPath": "/Game/Gameplay/AI/DragonLesser/Attacks/LH_DragonLesser_TailSwipeLeft"
+        },
+        "bRequiresElementalAffinity": false,
+        "RequiredElementalAffinity": "EElementalAffinity::None",
+        "bEnabled": true
+      },
+      "SpinAttack_R": {
+        "Attack": {
+          "ObjectName": "BlueprintGeneratedClass'ATK_DragonLesser_SpinAttack_Right_C'",
+          "ObjectPath": "/Game/Gameplay/AI/DragonLesser/Attacks/ATK_DragonLesser_SpinAttack_Right"
+        },
+        "MinInitialCD": 0.0,
+        "MaxInitialCD": 0.0,
+        "CD": 30.0,
+        "bEnableCDRange": false,
+        "MaxCD": -1.0,
+        "bEnableSharedCD": false,
+        "SharedCooldownID": 0,
+        "ActivationChance": 0.8,
+        "Likelihood": {
+          "ObjectName": "BlueprintGeneratedClass'LH_DragonLesser_TailSwipeRight_C'",
+          "ObjectPath": "/Game/Gameplay/AI/DragonLesser/Attacks/LH_DragonLesser_TailSwipeRight"
+        },
+        "bRequiresElementalAffinity": false,
+        "RequiredElementalAffinity": "EElementalAffinity::None",
+        "bEnabled": true
+      }
+    }
+  }
+]

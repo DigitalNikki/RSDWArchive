@@ -1,0 +1,51 @@
+[
+  {
+    "Type": "JournalEntryRecipeData",
+    "Name": "JOURNAL_Recipes_Empty_Resources_Wood_Oak",
+    "Class": "UScriptClass'JournalEntryRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipeData": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/JournalEntries/Materials_Basic/RECIPE_Journal_Materials_Basic_Wood_Oak.RECIPE_Journal_Materials_Basic_Wood_Oak",
+        "SubPathString": ""
+      },
+      "ItemData": {
+        "AssetPathName": "/Game/Gameplay/Items/Resources/Wood/ITEM_Resources_Wood_Oak.ITEM_Resources_Wood_Oak",
+        "SubPathString": ""
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "OakLogs",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "OakLogs",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Journal/T_Icon_Journal_Oak_Logs.T_Icon_Journal_Oak_Logs",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RecipeUnlocked",
+        "UnlockingItemData": {
+          "AssetPathName": "/Game/Gameplay/Items/Resources/Wood/ITEM_Resources_Wood_Ash.ITEM_Resources_Wood_Ash",
+          "SubPathString": ""
+        },
+        "UnlockingRecipe": {
+          "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/JournalEntries/Materials_Basic/RECIPE_Journal_Materials_Basic_Wood_Oak.RECIPE_Journal_Materials_Basic_Wood_Oak",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "R9F8QEnF44jTsCyOau0_9w",
+      "InternalName": "JOURNAL_Recipes_Resources_Wood_Oak"
+    }
+  }
+]

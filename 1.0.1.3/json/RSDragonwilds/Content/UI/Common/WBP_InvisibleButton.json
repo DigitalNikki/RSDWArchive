@@ -1,0 +1,73 @@
+[
+  {
+    "Type": "WBP_DomTextBlock_C",
+    "Name": "LabelText",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_InvisibleButton_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Common/WBP_InvisibleButton.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_InvisibleButton_C",
+    "Name": "Default__WBP_InvisibleButton_C",
+    "Class": "WidgetBlueprintGeneratedClass'1.0.1.3/RSDragonwilds/Content/UI/Common/WBP_InvisibleButton.WBP_InvisibleButton_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'CUIS_InvisibleButtonStyle_C'",
+        "ObjectPath": "/Game/UI/Styles/Buttons/CUIS_InvisibleButtonStyle"
+      },
+      "bHideInputAction": true,
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_InvisibleButton_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WBP_InvisibleButton_C:WidgetTree'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Common/WBP_InvisibleButton.3"
+      },
+      "bClassRequiresNativeTick": true
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'DomButton'",
+      "ObjectPath": "/Script/Dominion"
+    },
+    "ClassFlags": "CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_InvisibleButton_C'Default__WBP_InvisibleButton_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Common/WBP_InvisibleButton.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WBP_InvisibleButton_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Common/WBP_InvisibleButton.2"
+    },
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "WBP_DomTextBlock_C'WBP_InvisibleButton_C:WidgetTree.LabelText'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Common/WBP_InvisibleButton.0"
+      }
+    }
+  }
+]

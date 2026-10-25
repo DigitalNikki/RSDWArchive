@@ -1,0 +1,289 @@
+[
+  {
+    "Type": "FixedTextNotificationData",
+    "Name": "FTN_Farming",
+    "Class": "UScriptClass'FixedTextNotificationData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TagToTextMap": [
+        {
+          "Key": {
+            "TagName": "UI.Notification.Farming.NoPlantCurePotionInInventory"
+          },
+          "Value": {
+            "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+            "Key": "Notification_NoPlantCurePotionInInventory",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "UI.Notification.Farming.ContainerItem.Compost.NormalCompost"
+          },
+          "Value": {
+            "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+            "Key": "Notification_ContainerItem_CantHoldCompost",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "UI.Notification.Farming.ContainerItem.Water"
+          },
+          "Value": {
+            "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+            "Key": "Notification_ContainerItem_CantHoldWater",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "UI.Notification.Farming.WaterBarrel.Empty"
+          },
+          "Value": {
+            "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+            "Key": "Notification_WaterBarrel_TryingToTakeFromEmptyWaterBarrel",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "UI.Notification.Farming.WaterBarrel.NothingInInventoryToFillBarelWith"
+          },
+          "Value": {
+            "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+            "Key": "Notification_WaterBarrel_NothingInInventoryToFillContainerWith",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "UI.Notification.Farming.InvalidPlotForSeed"
+          },
+          "Value": {
+            "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+            "Key": "Notification_InvalidPlotForSeed",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "UI.Notification.Farming.InvalidShovelForPlot"
+          },
+          "Value": {
+            "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+            "Key": "Notification_InvalidShovelForPlot",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "UI.Notification.Farming.PlotInIncorrectStateForPlanting"
+          },
+          "Value": {
+            "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+            "Key": "Notification_PlotIncorrectStateForPlanting",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "UI.Notification.Farming.WaterBarrel.BarrelAlreadyFull"
+          },
+          "Value": {
+            "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+            "Key": "Notification_WaterBarrel_TryingToFillFullBarrel",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "UI.Notification.Farming.Well.Empty"
+          },
+          "Value": {
+            "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+            "Key": "Notification_Well_Empty",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "UI.Notification.Farming.Composter.Empty"
+          },
+          "Value": {
+            "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+            "Key": "Notification_Composter_Empty",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "UI.Notification.Farming.RainCatcher.Empty"
+          },
+          "Value": {
+            "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+            "Key": "Notification_RainCatcher_Empty",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "UI.Notification.Farming.ContainerItem.Water.Clean"
+          },
+          "Value": {
+            "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+            "Key": "Notification_ContainerItem_CantHoldWater_Clean",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "UI.Notification.Farming.ContainerItem.Water.Dirty"
+          },
+          "Value": {
+            "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+            "Key": "Notification_ContainerItem_CantHoldWater_Dirty",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "UI.Notification.Farming.ContainerItem.Compost.SuperCompost"
+          },
+          "Value": {
+            "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+            "Key": "Notification_ContainerItem_CantHoldSuperCompost",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "UI.Notification.Farming.ContainerItem.Compost.UltraCompost"
+          },
+          "Value": {
+            "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+            "Key": "Notification_ContainerItem_CantHoldUltraCompost",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "UI.Notification.Farming.CannotPlaceTreeIncorrectRegion"
+          },
+          "Value": {
+            "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+            "Key": "Notification_TreeFarming_IncorrectRegion",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "UI.Notification.Farming.CannotPlaceTreeInDungeon"
+          },
+          "Value": {
+            "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+            "Key": "Notification_TreeFarming_CannotPlaceTreeInDungeon",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "UI.Notification.Farming.CannotPlaceTreeInThisArea"
+          },
+          "Value": {
+            "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+            "Key": "Notification_TreeFarming_CannotPlaceInProtectedVolume",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "UI.Notification.Farming.CannotPlaceTreeTooCloseToAnotherObject"
+          },
+          "Value": {
+            "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+            "Key": "Notification_TreeFarming_TooCloseToAnotherObject",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "UI.Notification.Farming.CannotPlaceTreeNotEnoughSpaceOverhead"
+          },
+          "Value": {
+            "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+            "Key": "Notification_TreeFarming_NotEnoughSpaceOverhead",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "UI.Notification.Farming.TooFarAwayFromGround"
+          },
+          "Value": {
+            "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+            "Key": "Notification_TreeFarming_TooFarAwayFromGround",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "UI.Notification.Farming.CannotPlaceTreeIncorrectSurface"
+          },
+          "Value": {
+            "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+            "Key": "Notification_TreeFarming_CannotPlaceTreeIncorrectSurface",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "UI.Notification.Farming.PlotProtectedByHost"
+          },
+          "Value": {
+            "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+            "Key": "Notification_Plot_Protected",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "UI.Notification.Farming.NoPlotWhenTryToPlantSeed"
+          },
+          "Value": {
+            "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+            "Key": "NoPlotWhenTryToPlantSeed",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "PersistenceID": "CBg480BlDdba4ASuIm2RuA",
+      "InternalName": "ftn_farming"
+    }
+  }
+]

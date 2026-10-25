@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "JournalEntryRecipeData",
+    "Name": "JOURNAL_Recipes_Tool_Spade_Adamant",
+    "Class": "UScriptClass'JournalEntryRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipeData": {
+        "AssetPathName": "/UmbralSands/Gameplay/Items/Recipes/Gear/RECIPE_Tool_T7_Spade_Aadamant.RECIPE_Tool_T7_Spade_Aadamant",
+        "SubPathString": ""
+      },
+      "ItemData": {
+        "AssetPathName": "/UmbralSands/Gameplay/Character/Player/Equipment/Held/Shovel/ITEM_Spade_T7_Adamant.ITEM_Spade_T7_Adamant",
+        "SubPathString": ""
+      },
+      "StationTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_CraftingStationsDataTable'",
+          "ObjectPath": "/Game/Gameplay/World/Stations/DT_CraftingStationsDataTable"
+        },
+        "RowName": "ToolsMeleeBench"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+        "Key": "Name_Tool_Shovel_T7",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "AdamantShovel",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Journal_Images/T_Icon_Journal_Shovel_Adamant_2H_01.T_Icon_Journal_Shovel_Adamant_2H_01",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RecipeUnlocked",
+        "UnlockingRecipe": {
+          "AssetPathName": "/UmbralSands/Gameplay/Items/Recipes/Gear/RECIPE_Tool_T7_Spade_Aadamant.RECIPE_Tool_T7_Spade_Aadamant",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "I3ITXkqGWTMJToOvjf_1UA",
+      "InternalName": "JOURNAL_Recipes_Tools_Spade_Adamant"
+    }
+  }
+]

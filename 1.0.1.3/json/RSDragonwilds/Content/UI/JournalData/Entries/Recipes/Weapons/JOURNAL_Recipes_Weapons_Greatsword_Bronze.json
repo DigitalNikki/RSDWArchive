@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "JournalEntryRecipeData",
+    "Name": "JOURNAL_Recipes_Weapons_Greatsword_Bronze",
+    "Class": "UScriptClass'JournalEntryRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipeData": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/GreatSword/RECIPE_Weapon_GreatSword_Bronze.RECIPE_Weapon_GreatSword_Bronze",
+        "SubPathString": ""
+      },
+      "ItemData": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/GreatSword/ITEM_GreatSword_Bronze.ITEM_GreatSword_Bronze",
+        "SubPathString": ""
+      },
+      "StationTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_CraftingStationsDataTable'",
+          "ObjectPath": "/Game/Gameplay/World/Stations/DT_CraftingStationsDataTable"
+        },
+        "RowName": "ToolsMeleeBench"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "BronzeGreatsword",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "BronzeGreatsword",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/Game/Art/UI/Icons/Weapons_09_24/T_Icons_Journal_Weapons_Bronze_Greatsword.T_Icons_Journal_Weapons_Bronze_Greatsword",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RecipeUnlocked",
+        "UnlockingRecipe": {
+          "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/GreatSword/RECIPE_Weapon_GreatSword_Bronze.RECIPE_Weapon_GreatSword_Bronze",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "pCO5_k77pB9u0bCrz67sTw",
+      "InternalName": "JOURNAL_Recipes_Weapons_Greatsword_Bronze"
+    }
+  }
+]

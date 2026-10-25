@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "JournalEntryRecipeData",
+    "Name": "JOURNAL_Recipes_Weapons_Wand_Kuldra",
+    "Class": "UScriptClass'JournalEntryRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipeData": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Wand/RECIPE_Weapon_Wand_KuldrasWrath.RECIPE_Weapon_Wand_KuldrasWrath",
+        "SubPathString": ""
+      },
+      "ItemData": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Wand/ITEM_Wand_KuldrasWrath.ITEM_Wand_KuldrasWrath",
+        "SubPathString": ""
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "Wand.Kuldra",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "KuldrasWrath",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Journal/T_Icon_Journal_SM_Wand_Kuldras_Wrath_01.T_Icon_Journal_SM_Wand_Kuldras_Wrath_01",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RecipeUnlocked",
+        "UnlockingRecipe": {
+          "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Wand/RECIPE_Weapon_Wand_KuldrasWrath.RECIPE_Weapon_Wand_KuldrasWrath",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "Fl9JBkzmkLSycp-Xg2LheA",
+      "InternalName": "JOURNAL_Recipes_Weapons_Wand_Kuldra"
+    }
+  }
+]

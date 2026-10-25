@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "JournalEntryRecipeData",
+    "Name": "JOURNAL_Recipes_Weapons_Mace_Bronze",
+    "Class": "UScriptClass'JournalEntryRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipeData": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Mace/RECIPE_Weapon_Mace_Bronze.RECIPE_Weapon_Mace_Bronze",
+        "SubPathString": ""
+      },
+      "ItemData": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Mace/ITEM_Mace_Bronze.ITEM_Mace_Bronze",
+        "SubPathString": ""
+      },
+      "StationTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_CraftingStationsDataTable'",
+          "ObjectPath": "/Game/Gameplay/World/Stations/DT_CraftingStationsDataTable"
+        },
+        "RowName": "ToolsMeleeBench"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "BronzeMace",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "BronzeMace",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/Game/Art/UI/Icons/Weapons_09_24/T_Icons_Journal_Weapons_Mace_Bronze.T_Icons_Journal_Weapons_Mace_Bronze",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RecipeUnlocked",
+        "UnlockingRecipe": {
+          "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Mace/RECIPE_Weapon_Mace_Bronze.RECIPE_Weapon_Mace_Bronze",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "aORzYERal9hSC8W4WdDOhA",
+      "InternalName": "JOURNAL_Recipes_Weapons_Mace_Bronze"
+    }
+  }
+]

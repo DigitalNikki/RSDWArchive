@@ -1,0 +1,60 @@
+[
+  {
+    "Type": "JournalEntryRecipeData",
+    "Name": "JOURNAL_Recipes_Drink_Infusion_Arcane",
+    "Class": "UScriptClass'JournalEntryRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipeData": {
+        "AssetPathName": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Crafted/RECIPE_Consumable_Tea_Stamina_Reduction_Magic.RECIPE_Consumable_Tea_Stamina_Reduction_Magic",
+        "SubPathString": ""
+      },
+      "ItemData": {
+        "AssetPathName": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Tea_Stamina_Reduction_Magic.ITEM_Consumable_Tea_Stamina_Reduction_Magic",
+        "SubPathString": ""
+      },
+      "StationTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_CraftingStationsDataTable'",
+          "ObjectPath": "/Game/Gameplay/World/Stations/DT_CraftingStationsDataTable"
+        },
+        "RowName": "RangeStone"
+      },
+      "DefaultDescriptionFormat": {
+        "Namespace": "",
+        "Key": "E34A7C6643DEE508A148839684B98AAD",
+        "SourceString": "{0}\r\n\r\nCrafted In: {1}",
+        "LocalizedString": "{0}\r\n\r\nCrafted In: {1}"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "ArcaneInfusion",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "ArcaneInfusion",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/Game/Art/UI/Icons/Journal/Food_30/T_Icon_Journal_Arcane_infusion.T_Icon_Journal_Arcane_infusion",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RecipeUnlocked",
+        "UnlockingRecipe": {
+          "AssetPathName": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Crafted/RECIPE_Consumable_Tea_Stamina_Reduction_Magic.RECIPE_Consumable_Tea_Stamina_Reduction_Magic",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "NoWbsEMCiYnMgcu2MfgH8A",
+      "InternalName": "JOURNAL_Recipes_Drink_Tea_Stamina_Reduction_Magic"
+    }
+  }
+]

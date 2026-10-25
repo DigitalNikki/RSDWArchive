@@ -1,0 +1,159 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "CUIS_MountsEquipButtonStyle_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'CommonButtonStyle'",
+      "ObjectPath": "/Script/CommonUI"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "CUIS_MountsEquipButtonStyle_C'Default__CUIS_MountsEquipButtonStyle_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Styles/Buttons/CUIS_MountsEquipButtonStyle.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "CUIS_MountsEquipButtonStyle_C",
+    "Name": "Default__CUIS_MountsEquipButtonStyle_C",
+    "Class": "BlueprintGeneratedClass'1.0.1.3/RSDragonwilds/Content/UI/Styles/Buttons/CUIS_MountsEquipButtonStyle.CUIS_MountsEquipButtonStyle_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "NormalBase": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 0.6,
+            "Hex": "99FFFFFF"
+          }
+        },
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 868.0,
+          "Y": 184.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Btn_Normal'",
+          "ObjectPath": "/Game/Art/UI/Spellcasting/T_Btn_Normal"
+        }
+      },
+      "NormalHovered": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 868.0,
+          "Y": 184.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Btn_Hover'",
+          "ObjectPath": "/Game/Art/UI/Spellcasting/T_Btn_Hover"
+        }
+      },
+      "NormalPressed": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "000000"
+          }
+        },
+        "DrawAs": "ESlateBrushDrawType::NoDrawType",
+        "ImageSize": {
+          "X": 617.0,
+          "Y": 821.0
+        }
+      },
+      "SelectedBase": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 0.6,
+            "Hex": "99FFFFFF"
+          }
+        },
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 868.0,
+          "Y": 184.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Btn_Normal'",
+          "ObjectPath": "/Game/Art/UI/Spellcasting/T_Btn_Normal"
+        }
+      },
+      "SelectedHovered": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 868.0,
+          "Y": 184.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Btn_Hover'",
+          "ObjectPath": "/Game/Art/UI/Spellcasting/T_Btn_Hover"
+        }
+      },
+      "SelectedPressed": {
+        "DrawAs": "ESlateBrushDrawType::NoDrawType",
+        "ImageSize": {
+          "X": 617.0,
+          "Y": 821.0
+        }
+      },
+      "Disabled": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 0.2,
+            "Hex": "33FFFFFF"
+          }
+        },
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 868.0,
+          "Y": 184.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Btn_Locked'",
+          "ObjectPath": "/Game/Art/UI/Spellcasting/T_Btn_Locked"
+        }
+      },
+      "NormalTextStyle": {
+        "ObjectName": "BlueprintGeneratedClass'CUIS_MountsEquipButtonNormalTextStyle_C'",
+        "ObjectPath": "/Game/UI/Styles/Texts/CUIS_MountsEquipButtonNormalTextStyle"
+      },
+      "NormalHoveredTextStyle": {
+        "ObjectName": "BlueprintGeneratedClass'CUIS_MountsEquipButtonHoveredTextStyle_C'",
+        "ObjectPath": "/Game/UI/Styles/Texts/CUIS_MountsEquipButtonHoveredTextStyle"
+      },
+      "SelectedTextStyle": {
+        "ObjectName": "BlueprintGeneratedClass'CUIS_MountsEquipButtonNormalTextStyle_C'",
+        "ObjectPath": "/Game/UI/Styles/Texts/CUIS_MountsEquipButtonNormalTextStyle"
+      },
+      "SelectedHoveredTextStyle": {
+        "ObjectName": "BlueprintGeneratedClass'CUIS_MountsEquipButtonHoveredTextStyle_C'",
+        "ObjectPath": "/Game/UI/Styles/Texts/CUIS_MountsEquipButtonHoveredTextStyle"
+      },
+      "DisabledTextStyle": {
+        "ObjectName": "BlueprintGeneratedClass'CUIS_MountsEquipButtonDisabledTextStyle_C'",
+        "ObjectPath": "/Game/UI/Styles/Texts/CUIS_MountsEquipButtonDisabledTextStyle"
+      }
+    }
+  }
+]

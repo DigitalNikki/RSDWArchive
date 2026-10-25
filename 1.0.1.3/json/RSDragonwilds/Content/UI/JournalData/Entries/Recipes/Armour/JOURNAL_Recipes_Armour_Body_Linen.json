@@ -1,0 +1,60 @@
+[
+  {
+    "Type": "JournalEntryRecipeData",
+    "Name": "JOURNAL_Recipes_Armour_Body_Linen",
+    "Class": "UScriptClass'JournalEntryRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipeData": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Body/RECIPE_Armour_T2_Body_Linen.RECIPE_Armour_T2_Body_Linen",
+        "SubPathString": ""
+      },
+      "ItemData": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Body/ITEM_Armour_T2_Body_Linen.ITEM_Armour_T2_Body_Linen",
+        "SubPathString": ""
+      },
+      "StationTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_CraftingStationsDataTable'",
+          "ObjectPath": "/Game/Gameplay/World/Stations/DT_CraftingStationsDataTable"
+        },
+        "RowName": "CraftingTable"
+      },
+      "DefaultDescriptionFormat": {
+        "Namespace": "",
+        "Key": "1A1080BE4AB4EE8419072D97639920D1",
+        "SourceString": "{0}\r\n\r\nCrafted In: {1}",
+        "LocalizedString": "{0}\r\n\r\nCrafted In: {1}"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "ApprenticeRobe",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "LinenApprenticeBody",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icons_Journal_Armour_Linen_Apprentice_Chest.T_Icons_Journal_Armour_Linen_Apprentice_Chest",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RecipeUnlocked",
+        "UnlockingRecipe": {
+          "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Body/RECIPE_Armour_T2_Body_Linen.RECIPE_Armour_T2_Body_Linen",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "aceA50wgzH9VmKKhrGeo4A",
+      "InternalName": "JOURNAL_Recipes_Armour_Body_Linen"
+    }
+  }
+]

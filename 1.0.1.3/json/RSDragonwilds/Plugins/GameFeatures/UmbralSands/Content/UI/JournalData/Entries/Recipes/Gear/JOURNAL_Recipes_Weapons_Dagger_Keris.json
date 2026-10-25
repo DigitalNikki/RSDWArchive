@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "JournalEntryRecipeData",
+    "Name": "JOURNAL_Recipes_Weapons_Dagger_Keris",
+    "Class": "UScriptClass'JournalEntryRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipeData": {
+        "AssetPathName": "/UmbralSands/Gameplay/Items/Recipes/Gear/RECIPE_Weapon_Dagger_Keris.RECIPE_Weapon_Dagger_Keris",
+        "SubPathString": ""
+      },
+      "ItemData": {
+        "AssetPathName": "/UmbralSands/Gameplay/Character/Player/Equipment/Held/Dagger/ITEM_Dagger_Keris.ITEM_Dagger_Keris",
+        "SubPathString": ""
+      },
+      "StationTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_CraftingStationsDataTable'",
+          "ObjectPath": "/Game/Gameplay/World/Stations/DT_CraftingStationsDataTable"
+        },
+        "RowName": "ToolsMeleeBench"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "Keris",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "Keris",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Journal_Images/T_Icon_Journal_Keris_Dagger.T_Icon_Journal_Keris_Dagger",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RecipeUnlocked",
+        "UnlockingRecipe": {
+          "AssetPathName": "/UmbralSands/Gameplay/Items/Recipes/Gear/RECIPE_Weapon_Dagger_Keris.RECIPE_Weapon_Dagger_Keris",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "0mnKUk7Qmu8fsnCGyNL_8w",
+      "InternalName": "JOURNAL_Recipes_Weapons_Dagger_Keris"
+    }
+  }
+]

@@ -1,0 +1,6177 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "DominionInputKeyboardMouseControllerData_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'KiBLIICommonInputBaseControllerData'",
+      "ObjectPath": "/Script/KiBLIICommonUI"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "DominionInputKeyboardMouseControllerData_C'Default__DominionInputKeyboardMouseControllerData_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/InputData/DominionInputKeyboardMouseControllerData.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "DominionInputKeyboardMouseControllerData_C",
+    "Name": "Default__DominionInputKeyboardMouseControllerData_C",
+    "Class": "BlueprintGeneratedClass'1.0.1.3/RSDragonwilds/Content/UI/InputData/DominionInputKeyboardMouseControllerData.DominionInputKeyboardMouseControllerData_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "InputBrushDataMap": [
+        {
+          "Key": {
+            "KeyName": "AnyKey"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Mouse-Buttons-Left'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Mouse/T_Mouse-Buttons-Left"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "MouseX"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Mouse-Buttons-Left'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Mouse/T_Mouse-Buttons-Left"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "Mouse2D"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_BuildMode_Rotate'",
+              "ObjectPath": "/Game/Art/UI/Inputs/BuildMode/T_BuildMode_Rotate"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "MouseWheelAxis"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Mouse-Buttons-Scroll'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Mouse/T_Mouse-Buttons-Scroll"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "MouseScrollDown"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Mouse-Buttons-Scroll'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Mouse/T_Mouse-Buttons-Scroll"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "LeftMouseButton"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Mouse-Buttons-Left'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Mouse/T_Mouse-Buttons-Left"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "RightMouseButton"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Mouse-Buttons-Right'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Mouse/T_Mouse-Buttons-Right"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "MiddleMouseButton"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Mouse-Buttons-Middle'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Mouse/T_Mouse-Buttons-Middle"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "Tab"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 89.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Special-Tab'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Special-Tab"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "Enter"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'Keys-Standard-Enter'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/Keys-Standard-Enter"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "Escape"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 89.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Special-Esc'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Special-Esc"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "SpaceBar"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 89.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Special-Space'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Special-Space"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "Left"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-Arrow_Left'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-Arrow_Left"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "Up"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-Arrow_Up'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-Arrow_Up"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "Right"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-Arrow_Right'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-Arrow_Right"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "Down"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-Arrow_Down'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-Arrow_Down"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "Zero"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-0'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-0"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "One"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-1'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-1"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "Two"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-2'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-2"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "Three"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-3'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-3"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "Four"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-4'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-4"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "Five"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-5'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-5"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "Six"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-6'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-6"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "Seven"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-7'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-7"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "Eight"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-8'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-8"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "Nine"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-9'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-9"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "A"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-A'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-A"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "B"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-B'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-B"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "C"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-C'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-C"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "D"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-D'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-D"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "E"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-E'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-E"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "F"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-F'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-F"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "G"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-G'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-G"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "H"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-H'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-H"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "I"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-I'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-I"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "J"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-J'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-J"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "K"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-K'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-K"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "L"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-L'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-L"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "M"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-M'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-M"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "N"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-N'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-N"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "O"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-O'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-O"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "P"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-P'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-P"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "Q"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-Q'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-Q"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "R"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-R'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-R"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "S"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-S'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-S"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "T"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-T'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-T"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "U"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-U'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-U"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "V"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-V'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-V"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "W"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-W'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-W"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "X"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-X'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-X"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "Y"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-Y'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-Y"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "Z"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-Z'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-Z"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "F1"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 89.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Special-F1'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Special-F1"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "F2"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 89.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Special-F2'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Special-F2"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "F3"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 89.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Special-F3'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Special-F3"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "F4"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 89.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Special-F4'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Special-F4"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "F5"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 89.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Special-F5'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Special-F5"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "F6"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 89.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Special-F6'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Special-F6"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "F7"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 89.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Special-F7'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Special-F7"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "F8"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 89.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Special-F8'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Special-F8"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "F9"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 89.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Special-F9'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Special-F9"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "F10"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 89.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Special-F10'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Special-F10"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "F11"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 89.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Special-F11'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Special-F11"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "F12"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 89.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Special-F12'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Special-F12"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "LeftShift"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 89.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Special-Shift'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Special-Shift"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "RightShift"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 89.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Special-Shift'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Special-Shift"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "LeftControl"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 89.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Special-Ctrl'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Special-Ctrl"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "RightControl"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 89.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Special-Ctrl'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Special-Ctrl"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "LeftAlt"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 89.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Special-Alt'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Special-Alt"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "RightAlt"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 89.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Special-Alt'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Special-Alt"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "Semicolon"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-Semicolon'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-Semicolon"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "Equals"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-EqualsSign'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-EqualsSign"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "Comma"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-Comma'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-Comma"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "Slash"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-Solidus'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-Solidus"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "LeftBracket"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-LeftBracket'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-LeftBracket"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "RightBracket"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-RightBracket'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-RightBracket"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "Apostrophe"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-Apostrophe'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-Apostrophe"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "Quote"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-QuotationMark'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-QuotationMark"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "LeftParantheses"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-LeftParethesis'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-LeftParethesis"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "RightParantheses"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-RightParethesis'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-RightParethesis"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "Ampersand"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-Ampersand'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-Ampersand"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "Asterix"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-Asterisk'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-Asterisk"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "Caret"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-CircumflexAccent'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-CircumflexAccent"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "Dollar"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-Dollar'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-Dollar"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "Exclamation"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-ExclamationMark'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-ExclamationMark"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "Colon"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-Colon'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-Colon"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "#"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-NumberSign'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-NumberSign"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "+"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-Plus'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-Plus"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        },
+        {
+          "Key": {
+            "KeyName": "<"
+          },
+          "KeyBrush": {
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "ResourceObject": {
+              "ObjectName": "Texture2D'T_Keys-Standard-LessThanSign'",
+              "ObjectPath": "/Game/Art/UI/Inputs/Keyboard/T_Keys-Standard-LessThanSign"
+            },
+            "OutlineSettings": {
+              "CornerRadii": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "Color": {
+                "SpecifiedColor": {
+                  "R": 0.0,
+                  "G": 0.0,
+                  "B": 0.0,
+                  "A": 0.0,
+                  "Hex": "000000"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "Width": 0.0,
+              "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+              "bUseBrushTransparency": false
+            },
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            },
+            "bIsDynamicallyLoaded": false,
+            "ResourceName": "None"
+          }
+        }
+      ]
+    }
+  }
+]

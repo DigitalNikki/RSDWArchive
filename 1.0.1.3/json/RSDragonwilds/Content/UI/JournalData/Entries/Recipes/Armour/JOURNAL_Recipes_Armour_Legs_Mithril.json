@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "JournalEntryRecipeData",
+    "Name": "JOURNAL_Recipes_Armour_Legs_Mithril",
+    "Class": "UScriptClass'JournalEntryRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipeData": {
+        "AssetPathName": "/DowdunReach/Gameplay/Character/Player/Equipment/Legs/RECIPE_Armour_T6_Legs_Mithril.RECIPE_Armour_T6_Legs_Mithril",
+        "SubPathString": ""
+      },
+      "ItemData": {
+        "AssetPathName": "/DowdunReach/Gameplay/Character/Player/Equipment/Legs/ITEM_Armour_T6_Legs_Mithril.ITEM_Armour_T6_Legs_Mithril",
+        "SubPathString": ""
+      },
+      "StationTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_CraftingStationsDataTable'",
+          "ObjectPath": "/Game/Gameplay/World/Stations/DT_CraftingStationsDataTable"
+        },
+        "RowName": "ArmourBench"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "MithrilPlatelegs",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "MithrilPlatelegs",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Journal/T_Icon_Journal_Mithril_Legs.T_Icon_Journal_Mithril_Legs",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RecipeUnlocked",
+        "UnlockingRecipe": {
+          "AssetPathName": "/DowdunReach/Gameplay/Character/Player/Equipment/Legs/RECIPE_Armour_T6_Legs_Mithril.RECIPE_Armour_T6_Legs_Mithril",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "gCeVO0DlFxPACQGASoAhVw",
+      "InternalName": "JOURNAL_Recipes_Armour_Legs_Mithril"
+    }
+  }
+]

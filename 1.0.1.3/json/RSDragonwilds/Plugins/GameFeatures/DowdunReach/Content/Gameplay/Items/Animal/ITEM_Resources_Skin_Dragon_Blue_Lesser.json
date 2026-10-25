@@ -1,0 +1,53 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Skin_Dragon_Blue_Lesser",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "BlueDragonhide",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "BlueDragonhide",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Blue_Dragon_Hide.T_Icon_Blue_Dragon_Hide",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/DowdunReach/Art/Item/Resources/Blue_Dragonhide/SM_Dragon_Hide_Blue_01.SM_Dragon_Hide_Blue_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Weight": 1.2,
+      "Category": {
+        "TagName": "Item.Resource"
+      },
+      "AudioSwitchTag": {
+        "TagName": "Audio.Leather"
+      },
+      "PickupXPEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Pickup'",
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Pickup"
+        },
+        "RowName": "Pickup_Animal_Crafting_Resource"
+      },
+      "PersistenceID": "sM8FckDf5OipPo-BPZWpbw",
+      "InternalName": "res_skin_dragon_blue_lesser"
+    }
+  }
+]

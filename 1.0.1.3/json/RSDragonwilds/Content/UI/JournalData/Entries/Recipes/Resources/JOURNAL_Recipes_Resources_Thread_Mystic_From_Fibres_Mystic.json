@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "JournalEntryRecipeData",
+    "Name": "JOURNAL_Recipes_Resources_Thread_Mystic_From_Fibres_Mystic",
+    "Class": "UScriptClass'JournalEntryRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipeData": {
+        "AssetPathName": "/DowdunReach/Gameplay/Items/Textiles/RECIPE_Process_Thread_Mystic_From_Fibres_Mystic.RECIPE_Process_Thread_Mystic_From_Fibres_Mystic",
+        "SubPathString": ""
+      },
+      "ItemData": {
+        "AssetPathName": "/Game/Gameplay/Items/Resources/ITEM_Resources_Thread_Mystic.ITEM_Resources_Thread_Mystic",
+        "SubPathString": ""
+      },
+      "StationTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_ProcessingStationDataTable'",
+          "ObjectPath": "/Game/Gameplay/World/Stations/DT_ProcessingStationDataTable"
+        },
+        "RowName": "Spinning Wheel"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "MysticThread",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "MysticThread",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Journal/T_Icon_Journal_Mystic_Thread.T_Icon_Journal_Mystic_Thread",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RecipeUnlocked",
+        "UnlockingRecipe": {
+          "AssetPathName": "/DowdunReach/Gameplay/Items/Textiles/RECIPE_Process_Thread_Mystic_From_Fibres_Mystic.RECIPE_Process_Thread_Mystic_From_Fibres_Mystic",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "C5WFsUW8G1Tyl66MuZsbFQ",
+      "InternalName": "JOURNAL_Recipes_Resources_Thread_Mystic_From_Fibres_Mystic"
+    }
+  }
+]

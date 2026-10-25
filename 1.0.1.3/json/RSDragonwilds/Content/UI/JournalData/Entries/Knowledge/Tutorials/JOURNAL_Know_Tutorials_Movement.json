@@ -1,0 +1,39 @@
+[
+  {
+    "Type": "JournalEntryKnowPlaceData",
+    "Name": "JOURNAL_Know_Tutorials_Movement",
+    "Class": "UScriptClass'JournalEntryKnowPlaceData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DisplayName": {
+        "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+        "Key": "Movement.Title",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "Movement",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/Game/Art/UI/Icons/Journal/T_Icon_Journal_Lore_Scraps.T_Icon_Journal_Lore_Scraps",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::PlayerStart",
+        "UnlockingInteractionActor": {
+          "AssetPathName": "/Game/Gameplay/World/Misc/BP_BaseBossAltar.BP_BaseBossAltar_C",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "ejvebE2QE9LQSAOBn_32QA",
+      "InternalName": "JOURNAL_Know_Tutorials_Movement"
+    }
+  }
+]

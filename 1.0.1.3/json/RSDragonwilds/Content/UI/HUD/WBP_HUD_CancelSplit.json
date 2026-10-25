@@ -1,0 +1,946 @@
+[
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_11",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_HUD_CancelSplit_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.40"
+    },
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_HUD_CancelSplit_C:WidgetTree.CanvasPanel_11.CanvasPanelSlot_2'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.1"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_HUD_CancelSplit_C:WidgetTree.CanvasPanel_11.CanvasPanelSlot_3'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.2"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": {
+      "ObjectName": "CanvasPanel'WBP_HUD_CancelSplit_C:WidgetTree.CanvasPanel_11'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.0"
+    },
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_HUD_CancelSplit_C:WidgetTree.CanvasPanel_11'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.0"
+      },
+      "Content": {
+        "ObjectName": "WBP_InvisibleButton_C'WBP_HUD_CancelSplit_C:WidgetTree.BackButton'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.23"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": {
+      "ObjectName": "CanvasPanel'WBP_HUD_CancelSplit_C:WidgetTree.CanvasPanel_11'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.0"
+    },
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_HUD_CancelSplit_C:WidgetTree.CanvasPanel_11'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.0"
+      },
+      "Content": {
+        "ObjectName": "Overlay'WBP_HUD_CancelSplit_C:WidgetTree.DisabledButtons'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.6"
+      }
+    }
+  },
+  {
+    "Type": "ComponentDelegateBinding",
+    "Name": "ComponentDelegateBinding_0",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WBP_HUD_CancelSplit_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.39"
+    },
+    "Class": "UScriptClass'ComponentDelegateBinding'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentDelegateBindings": [
+        {
+          "ComponentPropertyName": "BackButton",
+          "DelegatePropertyName": "OnButtonBaseClicked",
+          "FunctionNameToBind": "BndEvt__WBP_HUD_CancelSplit_BackButton_K2Node_ComponentBoundEvent_0_CommonButtonBaseClicked__DelegateSignature"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__WBP_HUD_CancelSplit_BackButton_K2Node_ComponentBoundEvent_0_CommonButtonBaseClicked__DelegateSignature",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WBP_HUD_CancelSplit_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.39"
+    },
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Button",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'CommonButtonBase'",
+          "ObjectPath": "/Script/CommonUI"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_WBP_HUD_CancelSplit",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WBP_HUD_CancelSplit_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.39"
+    },
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetWorldSubsystem_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'HUDUISubsystem'",
+          "ObjectPath": "/Script/Dominion"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetInventoryAPI_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'InventoryUIAPI'",
+          "ObjectPath": "/Script/Dominion"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_Button",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'CommonButtonBase'",
+          "ObjectPath": "/Script/CommonUI"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Overlay",
+    "Name": "DisabledButtons",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_HUD_CancelSplit_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.40"
+    },
+    "Class": "UScriptClass'Overlay'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WBP_HUD_CancelSplit_C:WidgetTree.DisabledButtons.OverlaySlot_0'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.7"
+        },
+        {
+          "ObjectName": "OverlaySlot'WBP_HUD_CancelSplit_C:WidgetTree.DisabledButtons.OverlaySlot_1'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.8"
+        },
+        {
+          "ObjectName": "OverlaySlot'WBP_HUD_CancelSplit_C:WidgetTree.DisabledButtons.OverlaySlot_2'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.14"
+        },
+        {
+          "ObjectName": "OverlaySlot'WBP_HUD_CancelSplit_C:WidgetTree.DisabledButtons.OverlaySlot_3'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.15"
+        },
+        {
+          "ObjectName": "OverlaySlot'WBP_HUD_CancelSplit_C:WidgetTree.DisabledButtons.OverlaySlot_15'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.13"
+        },
+        {
+          "ObjectName": "OverlaySlot'WBP_HUD_CancelSplit_C:WidgetTree.DisabledButtons.OverlaySlot_14'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.12"
+        },
+        {
+          "ObjectName": "OverlaySlot'WBP_HUD_CancelSplit_C:WidgetTree.DisabledButtons.OverlaySlot_4'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.16"
+        },
+        {
+          "ObjectName": "OverlaySlot'WBP_HUD_CancelSplit_C:WidgetTree.DisabledButtons.OverlaySlot_5'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.17"
+        },
+        {
+          "ObjectName": "OverlaySlot'WBP_HUD_CancelSplit_C:WidgetTree.DisabledButtons.OverlaySlot_6'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.18"
+        },
+        {
+          "ObjectName": "OverlaySlot'WBP_HUD_CancelSplit_C:WidgetTree.DisabledButtons.OverlaySlot_7'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.19"
+        },
+        {
+          "ObjectName": "OverlaySlot'WBP_HUD_CancelSplit_C:WidgetTree.DisabledButtons.OverlaySlot_8'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.20"
+        },
+        {
+          "ObjectName": "OverlaySlot'WBP_HUD_CancelSplit_C:WidgetTree.DisabledButtons.OverlaySlot_9'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.21"
+        },
+        {
+          "ObjectName": "OverlaySlot'WBP_HUD_CancelSplit_C:WidgetTree.DisabledButtons.OverlaySlot_10'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.9"
+        },
+        {
+          "ObjectName": "OverlaySlot'WBP_HUD_CancelSplit_C:WidgetTree.DisabledButtons.OverlaySlot_11'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.10"
+        },
+        {
+          "ObjectName": "OverlaySlot'WBP_HUD_CancelSplit_C:WidgetTree.DisabledButtons.OverlaySlot_12'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.11"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_HUD_CancelSplit_C:WidgetTree.CanvasPanel_11.CanvasPanelSlot_3'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.2"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Outer": {
+      "ObjectName": "Overlay'WBP_HUD_CancelSplit_C:WidgetTree.DisabledButtons'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.6"
+    },
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Overlay'WBP_HUD_CancelSplit_C:WidgetTree.DisabledButtons'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.6"
+      },
+      "Content": {
+        "ObjectName": "WBP_InvisibleButton_C'WBP_HUD_CancelSplit_C:WidgetTree.Button_ToggleBuilding'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.33"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_1",
+    "Outer": {
+      "ObjectName": "Overlay'WBP_HUD_CancelSplit_C:WidgetTree.DisabledButtons'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.6"
+    },
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Overlay'WBP_HUD_CancelSplit_C:WidgetTree.DisabledButtons'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.6"
+      },
+      "Content": {
+        "ObjectName": "WBP_InvisibleButton_C'WBP_HUD_CancelSplit_C:WidgetTree.Button_ToggleInventory'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.34"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_10",
+    "Outer": {
+      "ObjectName": "Overlay'WBP_HUD_CancelSplit_C:WidgetTree.DisabledButtons'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.6"
+    },
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Overlay'WBP_HUD_CancelSplit_C:WidgetTree.DisabledButtons'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.6"
+      },
+      "Content": {
+        "ObjectName": "WBP_InvisibleButton_C'WBP_HUD_CancelSplit_C:WidgetTree.Button_QuickAccess7'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.31"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_11",
+    "Outer": {
+      "ObjectName": "Overlay'WBP_HUD_CancelSplit_C:WidgetTree.DisabledButtons'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.6"
+    },
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Overlay'WBP_HUD_CancelSplit_C:WidgetTree.DisabledButtons'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.6"
+      },
+      "Content": {
+        "ObjectName": "WBP_InvisibleButton_C'WBP_HUD_CancelSplit_C:WidgetTree.Button_QuickAccess8'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.32"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_12",
+    "Outer": {
+      "ObjectName": "Overlay'WBP_HUD_CancelSplit_C:WidgetTree.DisabledButtons'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.6"
+    },
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Overlay'WBP_HUD_CancelSplit_C:WidgetTree.DisabledButtons'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.6"
+      },
+      "Content": {
+        "ObjectName": "WBP_InvisibleButton_C'WBP_HUD_CancelSplit_C:WidgetTree.Button_Interact'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.24"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_14",
+    "Outer": {
+      "ObjectName": "Overlay'WBP_HUD_CancelSplit_C:WidgetTree.DisabledButtons'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.6"
+    },
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Overlay'WBP_HUD_CancelSplit_C:WidgetTree.DisabledButtons'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.6"
+      },
+      "Content": {
+        "ObjectName": "WBP_InvisibleButton_C'WBP_HUD_CancelSplit_C:WidgetTree.Button_ToggleSpellMenu'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.38"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_15",
+    "Outer": {
+      "ObjectName": "Overlay'WBP_HUD_CancelSplit_C:WidgetTree.DisabledButtons'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.6"
+    },
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Overlay'WBP_HUD_CancelSplit_C:WidgetTree.DisabledButtons'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.6"
+      },
+      "Content": {
+        "ObjectName": "WBP_InvisibleButton_C'WBP_HUD_CancelSplit_C:WidgetTree.Button_ToggleSeverMan'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.37"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_2",
+    "Outer": {
+      "ObjectName": "Overlay'WBP_HUD_CancelSplit_C:WidgetTree.DisabledButtons'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.6"
+    },
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Overlay'WBP_HUD_CancelSplit_C:WidgetTree.DisabledButtons'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.6"
+      },
+      "Content": {
+        "ObjectName": "WBP_InvisibleButton_C'WBP_HUD_CancelSplit_C:WidgetTree.Button_ToggleJournal'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.35"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_3",
+    "Outer": {
+      "ObjectName": "Overlay'WBP_HUD_CancelSplit_C:WidgetTree.DisabledButtons'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.6"
+    },
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Overlay'WBP_HUD_CancelSplit_C:WidgetTree.DisabledButtons'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.6"
+      },
+      "Content": {
+        "ObjectName": "WBP_InvisibleButton_C'WBP_HUD_CancelSplit_C:WidgetTree.Button_ToggleMap'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.36"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_4",
+    "Outer": {
+      "ObjectName": "Overlay'WBP_HUD_CancelSplit_C:WidgetTree.DisabledButtons'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.6"
+    },
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Overlay'WBP_HUD_CancelSplit_C:WidgetTree.DisabledButtons'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.6"
+      },
+      "Content": {
+        "ObjectName": "WBP_InvisibleButton_C'WBP_HUD_CancelSplit_C:WidgetTree.Button_QuickAccess1'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.25"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_5",
+    "Outer": {
+      "ObjectName": "Overlay'WBP_HUD_CancelSplit_C:WidgetTree.DisabledButtons'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.6"
+    },
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Overlay'WBP_HUD_CancelSplit_C:WidgetTree.DisabledButtons'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.6"
+      },
+      "Content": {
+        "ObjectName": "WBP_InvisibleButton_C'WBP_HUD_CancelSplit_C:WidgetTree.Button_QuickAccess2'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.26"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_6",
+    "Outer": {
+      "ObjectName": "Overlay'WBP_HUD_CancelSplit_C:WidgetTree.DisabledButtons'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.6"
+    },
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Overlay'WBP_HUD_CancelSplit_C:WidgetTree.DisabledButtons'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.6"
+      },
+      "Content": {
+        "ObjectName": "WBP_InvisibleButton_C'WBP_HUD_CancelSplit_C:WidgetTree.Button_QuickAccess3'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.27"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_7",
+    "Outer": {
+      "ObjectName": "Overlay'WBP_HUD_CancelSplit_C:WidgetTree.DisabledButtons'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.6"
+    },
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Overlay'WBP_HUD_CancelSplit_C:WidgetTree.DisabledButtons'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.6"
+      },
+      "Content": {
+        "ObjectName": "WBP_InvisibleButton_C'WBP_HUD_CancelSplit_C:WidgetTree.Button_QuickAccess4'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.28"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_8",
+    "Outer": {
+      "ObjectName": "Overlay'WBP_HUD_CancelSplit_C:WidgetTree.DisabledButtons'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.6"
+    },
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Overlay'WBP_HUD_CancelSplit_C:WidgetTree.DisabledButtons'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.6"
+      },
+      "Content": {
+        "ObjectName": "WBP_InvisibleButton_C'WBP_HUD_CancelSplit_C:WidgetTree.Button_QuickAccess5'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.29"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_9",
+    "Outer": {
+      "ObjectName": "Overlay'WBP_HUD_CancelSplit_C:WidgetTree.DisabledButtons'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.6"
+    },
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Overlay'WBP_HUD_CancelSplit_C:WidgetTree.DisabledButtons'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.6"
+      },
+      "Content": {
+        "ObjectName": "WBP_InvisibleButton_C'WBP_HUD_CancelSplit_C:WidgetTree.Button_QuickAccess6'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.30"
+      }
+    }
+  },
+  {
+    "Type": "WBP_HUD_CancelSplit_C",
+    "Name": "Default__WBP_HUD_CancelSplit_C",
+    "Class": "WidgetBlueprintGeneratedClass'1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.WBP_HUD_CancelSplit_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "WBP_InvisibleButton_C",
+    "Name": "BackButton",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_HUD_CancelSplit_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.40"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_InvisibleButton_C",
+    "Name": "Button_Interact",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_HUD_CancelSplit_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.40"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_InvisibleButton_C",
+    "Name": "Button_QuickAccess1",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_HUD_CancelSplit_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.40"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_InvisibleButton_C",
+    "Name": "Button_QuickAccess2",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_HUD_CancelSplit_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.40"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_InvisibleButton_C",
+    "Name": "Button_QuickAccess3",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_HUD_CancelSplit_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.40"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_InvisibleButton_C",
+    "Name": "Button_QuickAccess4",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_HUD_CancelSplit_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.40"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_InvisibleButton_C",
+    "Name": "Button_QuickAccess5",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_HUD_CancelSplit_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.40"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_InvisibleButton_C",
+    "Name": "Button_QuickAccess6",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_HUD_CancelSplit_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.40"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_InvisibleButton_C",
+    "Name": "Button_QuickAccess7",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_HUD_CancelSplit_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.40"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_InvisibleButton_C",
+    "Name": "Button_QuickAccess8",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_HUD_CancelSplit_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.40"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_InvisibleButton_C",
+    "Name": "Button_ToggleBuilding",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_HUD_CancelSplit_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.40"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_InvisibleButton_C",
+    "Name": "Button_ToggleInventory",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_HUD_CancelSplit_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.40"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_InvisibleButton_C",
+    "Name": "Button_ToggleJournal",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_HUD_CancelSplit_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.40"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_InvisibleButton_C",
+    "Name": "Button_ToggleMap",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_HUD_CancelSplit_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.40"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_InvisibleButton_C",
+    "Name": "Button_ToggleSeverMan",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_HUD_CancelSplit_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.40"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_InvisibleButton_C",
+    "Name": "Button_ToggleSpellMenu",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_HUD_CancelSplit_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.40"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_HUD_CancelSplit_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WBP_HUD_CancelSplit_C:WidgetTree'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.40"
+      },
+      "bClassRequiresNativeTick": true,
+      "DynamicBindingObjects": [
+        {
+          "ObjectName": "ComponentDelegateBinding'WBP_HUD_CancelSplit_C:ComponentDelegateBinding_0'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.3"
+        }
+      ],
+      "UberGraphFunction": {
+        "ObjectName": "Function'WBP_HUD_CancelSplit_C:ExecuteUbergraph_WBP_HUD_CancelSplit'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'BackNavigationWidget'",
+      "ObjectPath": "/Script/Dominion"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'WBP_HUD_CancelSplit_C:BndEvt__WBP_HUD_CancelSplit_BackButton_K2Node_ComponentBoundEvent_0_CommonButtonBaseClicked__DelegateSignature'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.4"
+      },
+      {
+        "ObjectName": "Function'WBP_HUD_CancelSplit_C:ExecuteUbergraph_WBP_HUD_CancelSplit'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.5"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Object'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Button_ToggleSpellMenu",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'WBP_InvisibleButton_C'",
+          "ObjectPath": "/Game/UI/Common/WBP_InvisibleButton"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Button_ToggleSeverMan",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'WBP_InvisibleButton_C'",
+          "ObjectPath": "/Game/UI/Common/WBP_InvisibleButton"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Button_ToggleMap",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'WBP_InvisibleButton_C'",
+          "ObjectPath": "/Game/UI/Common/WBP_InvisibleButton"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Button_ToggleJournal",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'WBP_InvisibleButton_C'",
+          "ObjectPath": "/Game/UI/Common/WBP_InvisibleButton"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Button_ToggleInventory",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'WBP_InvisibleButton_C'",
+          "ObjectPath": "/Game/UI/Common/WBP_InvisibleButton"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Button_ToggleBuilding",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'WBP_InvisibleButton_C'",
+          "ObjectPath": "/Game/UI/Common/WBP_InvisibleButton"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Button_QuickAccess8",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'WBP_InvisibleButton_C'",
+          "ObjectPath": "/Game/UI/Common/WBP_InvisibleButton"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Button_QuickAccess7",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'WBP_InvisibleButton_C'",
+          "ObjectPath": "/Game/UI/Common/WBP_InvisibleButton"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Button_QuickAccess6",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'WBP_InvisibleButton_C'",
+          "ObjectPath": "/Game/UI/Common/WBP_InvisibleButton"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Button_QuickAccess5",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'WBP_InvisibleButton_C'",
+          "ObjectPath": "/Game/UI/Common/WBP_InvisibleButton"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Button_QuickAccess4",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'WBP_InvisibleButton_C'",
+          "ObjectPath": "/Game/UI/Common/WBP_InvisibleButton"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Button_QuickAccess3",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'WBP_InvisibleButton_C'",
+          "ObjectPath": "/Game/UI/Common/WBP_InvisibleButton"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Button_QuickAccess2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'WBP_InvisibleButton_C'",
+          "ObjectPath": "/Game/UI/Common/WBP_InvisibleButton"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Button_QuickAccess1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'WBP_InvisibleButton_C'",
+          "ObjectPath": "/Game/UI/Common/WBP_InvisibleButton"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Button_Interact",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'WBP_InvisibleButton_C'",
+          "ObjectPath": "/Game/UI/Common/WBP_InvisibleButton"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_WBP_HUD_CancelSplit": {
+        "ObjectName": "Function'WBP_HUD_CancelSplit_C:ExecuteUbergraph_WBP_HUD_CancelSplit'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.5"
+      },
+      "BndEvt__WBP_HUD_CancelSplit_BackButton_K2Node_ComponentBoundEvent_0_CommonButtonBaseClicked__DelegateSignature": {
+        "ObjectName": "Function'WBP_HUD_CancelSplit_C:BndEvt__WBP_HUD_CancelSplit_BackButton_K2Node_ComponentBoundEvent_0_CommonButtonBaseClicked__DelegateSignature'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.4"
+      }
+    },
+    "ClassFlags": "CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_HUD_CancelSplit_C'Default__WBP_HUD_CancelSplit_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.22"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WBP_HUD_CancelSplit_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.39"
+    },
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WBP_HUD_CancelSplit_C:WidgetTree.CanvasPanel_11'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/HUD/WBP_HUD_CancelSplit.0"
+      }
+    }
+  }
+]

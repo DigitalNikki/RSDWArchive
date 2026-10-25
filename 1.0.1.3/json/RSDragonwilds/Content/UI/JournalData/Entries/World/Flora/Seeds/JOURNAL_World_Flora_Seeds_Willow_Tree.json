@@ -1,0 +1,59 @@
+[
+  {
+    "Type": "JournalEntryWorldData",
+    "Name": "JOURNAL_World_Flora_Seeds_Willow_Tree",
+    "Class": "UScriptClass'JournalEntryWorldData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Locations": [
+        {
+          "LocationText": {
+            "TableId": "/Game/UI/ST_Localization.ST_Localization",
+            "Key": "Ghornfell",
+            "SourceString": null,
+            "LocalizedString": ""
+          },
+          "LocationID": "Ghornfell"
+        }
+      ],
+      "Materials": [
+        {
+          "MaterialID": "Willow Tree Seed",
+          "MaterialItemData": {
+            "ObjectName": "HeldTreeSeedData'ITEM_Farming_TreeSeed_Willow'",
+            "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Held/Farming/TreePlanting/ITEM_Farming_TreeSeed_Willow"
+          }
+        }
+      ],
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+        "Key": "Name_Seed_Tree_Willow",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "WillowSeed",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Journal/T_Icon_Journal_Willow_Seed.T_Icon_Journal_Willow_Seed",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::ItemFirstPickup",
+        "UnlockingItemData": {
+          "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Farming/TreePlanting/ITEM_Farming_TreeSeed_Willow.ITEM_Farming_TreeSeed_Willow",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "6AfIDEmIBBdjHgCSjQSyuw",
+      "InternalName": "JOURNAL_World_Flora_Seeds_Willow_Tree"
+    }
+  }
+]

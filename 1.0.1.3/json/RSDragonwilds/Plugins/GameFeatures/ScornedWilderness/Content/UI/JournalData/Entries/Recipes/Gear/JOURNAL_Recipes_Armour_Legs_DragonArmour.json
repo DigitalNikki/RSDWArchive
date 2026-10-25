@@ -1,0 +1,51 @@
+[
+  {
+    "Type": "JournalEntryRecipeData",
+    "Name": "JOURNAL_Recipes_Armour_Legs_DragonArmour",
+    "Class": "UScriptClass'JournalEntryRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipeData": {
+        "AssetPathName": "/ScornedWilderness/Gameplay/Items/Recipes/Gear/RECIPE_Armour_T8_Legs_DragonArmour.RECIPE_Armour_T8_Legs_DragonArmour",
+        "SubPathString": ""
+      },
+      "ItemData": {
+        "AssetPathName": "/ScornedWilderness/Gameplay/Character/Player/Equipment/Legs/ITEM_Armour_T8_Legs_DragonArmour.ITEM_Armour_T8_Legs_DragonArmour",
+        "SubPathString": ""
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "DragonArmourLegs",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "DragonPlateLegs",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Journal/T_Icon_Journal_SM_M_MED_LEGS_DragonArmour_01.T_Icon_Journal_SM_M_MED_LEGS_DragonArmour_01",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RecipeUnlocked",
+        "UnlockingItemData": {
+          "AssetPathName": "/ScornedWilderness/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_T8_Head_DragonArmour.ITEM_Armour_T8_Head_DragonArmour",
+          "SubPathString": ""
+        },
+        "UnlockingRecipe": {
+          "AssetPathName": "/ScornedWilderness/Gameplay/Items/Recipes/Gear/RECIPE_Armour_T8_Legs_DragonArmour.RECIPE_Armour_T8_Legs_DragonArmour",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "84ipW0WBk_CQjqmim3BD1w",
+      "InternalName": "JOURNAL_Recipes_Armour_Legs_Dragon"
+    }
+  }
+]

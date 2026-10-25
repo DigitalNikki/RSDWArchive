@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "JournalEntryRecipeData",
+    "Name": "JOURNAL_Recipes_Food_Pie_Fruit",
+    "Class": "UScriptClass'JournalEntryRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipeData": {
+        "AssetPathName": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Crafted/RECIPE_Consumable_Pie_Fruit.RECIPE_Consumable_Pie_Fruit",
+        "SubPathString": ""
+      },
+      "ItemData": {
+        "AssetPathName": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Pie_Fruit.ITEM_Consumable_Pie_Fruit",
+        "SubPathString": ""
+      },
+      "StationTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_CraftingStationsDataTable'",
+          "ObjectPath": "/Game/Gameplay/World/Stations/DT_CraftingStationsDataTable"
+        },
+        "RowName": "RangeBronze"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "PieFruit",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "FruitPie",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/Game/Art/UI/Icons/Fixed_Food_Icons/Journal/T_Icon_Journal_Fruit_pie.T_Icon_Journal_Fruit_pie",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RecipeUnlocked",
+        "UnlockingRecipe": {
+          "AssetPathName": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Crafted/RECIPE_Consumable_Pie_Fruit.RECIPE_Consumable_Pie_Fruit",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "C6d-6E39f2pkRvKUkFZXqw",
+      "InternalName": "JOURNAL_Recipes_Food_Pie_Fruit"
+    }
+  }
+]

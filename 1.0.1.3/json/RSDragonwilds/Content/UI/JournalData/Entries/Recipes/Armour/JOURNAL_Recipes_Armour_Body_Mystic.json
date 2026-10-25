@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "JournalEntryRecipeData",
+    "Name": "JOURNAL_Recipes_Armour_Body_Mystic",
+    "Class": "UScriptClass'JournalEntryRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipeData": {
+        "AssetPathName": "/DowdunReach/Gameplay/Character/Player/Equipment/Body/RECIPE_Armour_T6_Body_Mystic.RECIPE_Armour_T6_Body_Mystic",
+        "SubPathString": ""
+      },
+      "ItemData": {
+        "AssetPathName": "/DowdunReach/Gameplay/Character/Player/Equipment/Body/ITEM_Armour_T6_Body_Mystic.ITEM_Armour_T6_Body_Mystic",
+        "SubPathString": ""
+      },
+      "StationTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_CraftingStationsDataTable'",
+          "ObjectPath": "/Game/Gameplay/World/Stations/DT_CraftingStationsDataTable"
+        },
+        "RowName": "ArmourBench"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "MysticRobes",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "MysticRobe",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Journal/T_Icon_Journal_Mystic_Robe.T_Icon_Journal_Mystic_Robe",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RecipeUnlocked",
+        "UnlockingRecipe": {
+          "AssetPathName": "/DowdunReach/Gameplay/Character/Player/Equipment/Body/RECIPE_Armour_T6_Body_Mystic.RECIPE_Armour_T6_Body_Mystic",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "T5wJgUTEEQX3gU2GsDUYZA",
+      "InternalName": "JOURNAL_Recipes_Armour_Body_Mystic"
+    }
+  }
+]

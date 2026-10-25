@@ -1,0 +1,63 @@
+[
+  {
+    "Type": "JournalEntryWorldData",
+    "Name": "JOURNAL_Recipe_Resources_Luminite_Deposit",
+    "Class": "UScriptClass'JournalEntryWorldData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Locations": [
+        {
+          "LocationText": {
+            "TableId": "/Game/UI/ST_Localization.ST_Localization",
+            "Key": "Ghornfell",
+            "SourceString": null,
+            "LocalizedString": ""
+          },
+          "LocationID": "Ghornfell"
+        }
+      ],
+      "Materials": [
+        {
+          "MaterialID": "Luminite Ore",
+          "MaterialItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Ore_Luminite'",
+            "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Mineral/ITEM_Resources_Ore_Luminite"
+          }
+        }
+      ],
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "LuminiteDeposit",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "LuminiteDeposit",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Journal/T_Icon_Journal_Luminute_Deposit.T_Icon_Journal_Luminute_Deposit",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RecipeUnlocked",
+        "UnlockingItemData": {
+          "AssetPathName": "/Game/Gameplay/Items/Resources/Wood/ITEM_Resources_Wood_Ash.ITEM_Resources_Wood_Ash",
+          "SubPathString": ""
+        },
+        "UnlockingRecipe": {
+          "AssetPathName": "/ScornedWilderness/Gameplay/Items/Recipes/BasicItemRecipes/RECIPE_Journal_Materials_Basic_Ore_Luminite.RECIPE_Journal_Materials_Basic_Ore_Luminite",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "Yg93tUWHD2c6hVuVhxy6Mg",
+      "InternalName": "JOURNAL_Recipes_Resources_Deposit_Luminite"
+    }
+  }
+]

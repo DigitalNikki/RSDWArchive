@@ -1,0 +1,51 @@
+[
+  {
+    "Type": "JournalEntryRecipeData",
+    "Name": "JOURNAL_Recipe_Resources_Hide_Dragon_Black",
+    "Class": "UScriptClass'JournalEntryRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipeData": {
+        "AssetPathName": "/ScornedWilderness/Gameplay/Items/Recipes/BasicItemRecipes/RECIPE_Journal_Materials_Basic_Hide_Dragon_Black.RECIPE_Journal_Materials_Basic_Hide_Dragon_Black",
+        "SubPathString": ""
+      },
+      "ItemData": {
+        "AssetPathName": "/ScornedWilderness/Gameplay/Items/Resources/Animal/ITEM_Resources_Hide_Dragon_Black.ITEM_Resources_Hide_Dragon_Black",
+        "SubPathString": ""
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "BlackDragonhide",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "BlackDragonhide",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Journal/T_Icon_Journal_Black_Dragon_Hide.T_Icon_Journal_Black_Dragon_Hide",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RecipeUnlocked",
+        "UnlockingItemData": {
+          "AssetPathName": "/Game/Gameplay/Items/Resources/Wood/ITEM_Resources_Wood_Ash.ITEM_Resources_Wood_Ash",
+          "SubPathString": ""
+        },
+        "UnlockingRecipe": {
+          "AssetPathName": "/ScornedWilderness/Gameplay/Items/Recipes/BasicItemRecipes/RECIPE_Journal_Materials_Basic_Hide_Dragon_Black.RECIPE_Journal_Materials_Basic_Hide_Dragon_Black",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "BIhH0E7rZY0CdgOtClKkhA",
+      "InternalName": "JOURNAL_Recipes_Resources_Hide_Dragon_Black"
+    }
+  }
+]

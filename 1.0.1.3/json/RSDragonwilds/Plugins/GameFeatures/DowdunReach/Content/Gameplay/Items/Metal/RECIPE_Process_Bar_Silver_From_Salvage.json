@@ -1,0 +1,45 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Process_Bar_Silver_From_Salvage",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Salvage_Silver'",
+            "ObjectPath": "/DowdunReach/Gameplay/Items/Metal/ITEM_Resources_Salvage_Silver"
+          },
+          "Count": 9
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_SilverBar'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Metal/ITEM_Resources_SilverBar"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Metal.Ringy"
+      },
+      "bIgnoreNotification": true,
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting"
+        },
+        "RowName": "Process_Smelting_Tier3"
+      },
+      "PersistenceID": "k8FfW05A2CYKj5WPKegvTA",
+      "InternalName": "recipe_bar_silver_from_salvage"
+    }
+  }
+]

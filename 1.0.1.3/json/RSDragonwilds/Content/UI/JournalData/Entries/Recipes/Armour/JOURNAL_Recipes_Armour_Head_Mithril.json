@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "JournalEntryRecipeData",
+    "Name": "JOURNAL_Recipes_Armour_Head_Mithril",
+    "Class": "UScriptClass'JournalEntryRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipeData": {
+        "AssetPathName": "/DowdunReach/Gameplay/Character/Player/Equipment/Head/RECIPE_Armour_T6_Head_Mithril.RECIPE_Armour_T6_Head_Mithril",
+        "SubPathString": ""
+      },
+      "ItemData": {
+        "AssetPathName": "/DowdunReach/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_T6_Head_Mithril.ITEM_Armour_T6_Head_Mithril",
+        "SubPathString": ""
+      },
+      "StationTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_CraftingStationsDataTable'",
+          "ObjectPath": "/Game/Gameplay/World/Stations/DT_CraftingStationsDataTable"
+        },
+        "RowName": "ArmourBench"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "MithrilHelmet",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "MithrilHelmet",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Journal/T_Icon_Journal_Mithril_Helm.T_Icon_Journal_Mithril_Helm",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RecipeUnlocked",
+        "UnlockingRecipe": {
+          "AssetPathName": "/DowdunReach/Gameplay/Character/Player/Equipment/Head/RECIPE_Armour_T6_Head_Mithril.RECIPE_Armour_T6_Head_Mithril",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "IUbx5kHRS7oa27qUOjYZSw",
+      "InternalName": "JOURNAL_Recipes_Armour_Head_Mithril"
+    }
+  }
+]

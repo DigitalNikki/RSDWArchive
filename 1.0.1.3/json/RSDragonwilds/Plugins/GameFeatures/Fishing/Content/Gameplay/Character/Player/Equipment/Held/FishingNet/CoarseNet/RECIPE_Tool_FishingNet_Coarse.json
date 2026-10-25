@@ -1,0 +1,45 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Tool_FishingNet_Coarse",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Thread_Coarse'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Textiles/ITEM_Resources_Thread_Coarse"
+          },
+          "Count": 2
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "HeldEquipmentData'ITEM_FishingNet_CoarseNet'",
+            "ObjectPath": "/Fishing/Gameplay/Character/Player/Equipment/Held/FishingNet/CoarseNet/ITEM_FishingNet_CoarseNet"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Fishing.Net"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting"
+        },
+        "RowName": "Craft_Crafting_Table_Recipe_Tier1"
+      },
+      "SkillXPAwardedOnCraft": 15,
+      "PersistenceID": "FJ7lWkVRqSg0-cWleODCKw",
+      "InternalName": "recipe_fishing_net_coarse"
+    }
+  }
+]

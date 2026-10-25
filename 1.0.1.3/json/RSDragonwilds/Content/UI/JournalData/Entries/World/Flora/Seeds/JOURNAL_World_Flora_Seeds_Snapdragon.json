@@ -1,0 +1,59 @@
+[
+  {
+    "Type": "JournalEntryWorldData",
+    "Name": "JOURNAL_World_Flora_Seeds_Snapdragon",
+    "Class": "UScriptClass'JournalEntryWorldData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Locations": [
+        {
+          "LocationText": {
+            "TableId": "/Game/UI/ST_Localization.ST_Localization",
+            "Key": "Ghornfell",
+            "SourceString": null,
+            "LocalizedString": ""
+          },
+          "LocationID": "Ghornfell"
+        }
+      ],
+      "Materials": [
+        {
+          "MaterialID": "Snapdragon Seed",
+          "MaterialItemData": {
+            "ObjectName": "SeedHeldEquipmentData'ITEM_Farming_Seed_Snapdragon'",
+            "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Held/Farming/Seeds/ITEM_Farming_Seed_Snapdragon"
+          }
+        }
+      ],
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+        "Key": "Name_Seed_Snapdragon",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "Seeds.Snapdragon",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/Game/Art/UI/Icons/Seeds/Journal/T_Icon_Journal_Snapdragon_seeds.T_Icon_Journal_Snapdragon_seeds",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::ItemFirstPickup",
+        "UnlockingItemData": {
+          "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Farming/Seeds/ITEM_Farming_Seed_Snapdragon.ITEM_Farming_Seed_Snapdragon",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "W0kSpUj9HOZCeBK3Cl2MFw",
+      "InternalName": "JOURNAL_World_Flora_Seeds_Snapdragon"
+    }
+  }
+]

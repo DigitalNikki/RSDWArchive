@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "JournalEntryRecipeData",
+    "Name": "JOURNAL_Recipes_Food_Cactus_Steak_Cooked",
+    "Class": "UScriptClass'JournalEntryRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipeData": {
+        "AssetPathName": "/UmbralSands/Gameplay/Items/Recipes/FoodDrink/RECIPE_Consumable_Cactus_Steak_Cooked.RECIPE_Consumable_Cactus_Steak_Cooked",
+        "SubPathString": ""
+      },
+      "ItemData": {
+        "AssetPathName": "/UmbralSands/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Steak_Cactus_Cooked.ITEM_Consumable_Steak_Cactus_Cooked",
+        "SubPathString": ""
+      },
+      "StationTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_ProcessingStationDataTable'",
+          "ObjectPath": "/Game/Gameplay/World/Stations/DT_ProcessingStationDataTable"
+        },
+        "RowName": "Campfire"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "CactusSteakCooked",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "CactusSteakCooked",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Journal_Images/T_Icon_Journal_Cactus_Steak_Cooked.T_Icon_Journal_Cactus_Steak_Cooked",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RecipeUnlocked",
+        "UnlockingRecipe": {
+          "AssetPathName": "/UmbralSands/Gameplay/Items/Recipes/FoodDrink/RECIPE_Consumable_Cactus_Steak_Cooked.RECIPE_Consumable_Cactus_Steak_Cooked",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "eMVoPU4cPEmkR6WapggODQ",
+      "InternalName": "JOURNAL_Recipes_Cactus_Steak_Cooked"
+    }
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "JournalEntryRecipeData",
+    "Name": "JOURNAL_Recipes_Masterworks_Warhammer_GraniteMaul",
+    "Class": "UScriptClass'JournalEntryRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipeData": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/UniqueWeapons/Hammer/GraniteMaul/RECIPE_Masterworks_Hammer_GraniteMaul.RECIPE_Masterworks_Hammer_GraniteMaul",
+        "SubPathString": ""
+      },
+      "ItemData": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/UniqueWeapons/Hammer/GraniteMaul/ITEM_Hammer_GraniteMaul.ITEM_Hammer_GraniteMaul",
+        "SubPathString": ""
+      },
+      "StationTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_CraftingStationsDataTable'",
+          "ObjectPath": "/Game/Gameplay/World/Stations/DT_CraftingStationsDataTable"
+        },
+        "RowName": "ToolsMeleeBench"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "GraniteMaul",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "GraniteMaul",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/Game/Art/UI/Icons/Journal/WeaponsArmours_07/T_Icons_Journal_Warhammer_Granite_Maul.T_Icons_Journal_Warhammer_Granite_Maul",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RecipeUnlocked",
+        "UnlockingRecipe": {
+          "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/UniqueWeapons/Hammer/GraniteMaul/RECIPE_Masterworks_Hammer_GraniteMaul.RECIPE_Masterworks_Hammer_GraniteMaul",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "EuOZiE5cz9SeLYqDiDr6Qw",
+      "InternalName": "JOURNAL_Recipes_Masterworks_Weapons_Warhammer_GraniteMaul"
+    }
+  }
+]

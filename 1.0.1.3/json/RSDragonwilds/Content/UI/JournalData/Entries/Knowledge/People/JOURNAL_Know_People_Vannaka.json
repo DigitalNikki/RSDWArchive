@@ -1,0 +1,35 @@
+[
+  {
+    "Type": "JournalEntryKnowPeopleData",
+    "Name": "JOURNAL_Know_People_Vannaka",
+    "Class": "UScriptClass'JournalEntryKnowPeopleData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DisplayName": {
+        "TableId": "/Game/UI/ST_Localization.ST_Localization",
+        "Key": "Vannaka",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "VannakaDefault",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Journal/T_Icon_Journal_Vannaka.T_Icon_Journal_Vannaka",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::PlayerStart"
+      },
+      "PersistenceID": "9Ky_TExRY5yVxIyGTNpJmA",
+      "InternalName": "JOURNAL_Know_People_Vannaka"
+    }
+  }
+]

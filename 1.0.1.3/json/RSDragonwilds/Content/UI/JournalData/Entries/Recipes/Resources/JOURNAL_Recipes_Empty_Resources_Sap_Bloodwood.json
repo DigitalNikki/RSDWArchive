@@ -1,0 +1,51 @@
+[
+  {
+    "Type": "JournalEntryRecipeData",
+    "Name": "JOURNAL_Recipes_Empty_Resources_Sap_Bloodwood",
+    "Class": "UScriptClass'JournalEntryRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipeData": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/JournalEntries/Materials_Basic/RECIPE_Journal_Materials_Basic_Sap_Bloodwood.RECIPE_Journal_Materials_Basic_Sap_Bloodwood",
+        "SubPathString": ""
+      },
+      "ItemData": {
+        "AssetPathName": "/Game/Gameplay/Items/Resources/Plant/ITEM_Resources_Bloodwood_Sap.ITEM_Resources_Bloodwood_Sap",
+        "SubPathString": ""
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "BloodwoodSap",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "BloodwoodSap",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icons_Journal_Recipes_Resources_Bloodwood_Sap.T_Icons_Journal_Recipes_Resources_Bloodwood_Sap",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RecipeUnlocked",
+        "UnlockingItemData": {
+          "AssetPathName": "/Game/Gameplay/Items/Resources/Wood/ITEM_Resources_Wood_Ash.ITEM_Resources_Wood_Ash",
+          "SubPathString": ""
+        },
+        "UnlockingRecipe": {
+          "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/JournalEntries/Materials_Basic/RECIPE_Journal_Materials_Basic_Sap_Bloodwood.RECIPE_Journal_Materials_Basic_Sap_Bloodwood",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "wKKUJUwMRvEpcjmqb0JK-g",
+      "InternalName": "JOURNAL_Recipes_Resources_Sap_Bloodwood"
+    }
+  }
+]

@@ -1,0 +1,2269 @@
+[
+  {
+    "Type": "ConversationDatabase",
+    "Name": "QF_UmS_MainQuest_TribeC_Task2_DragonHunt",
+    "Class": "UScriptClass'ConversationDatabase'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CompilerVersion": 2,
+      "ReachableNodeMap": [
+        {
+          "Key": "FA686603-4366FC91-DF90FE95-32677A74",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:ConversationEntryPointNode_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.6"
+          }
+        },
+        {
+          "Key": "2EB2242B-40B1B7BF-425B47B9-854FEB10",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_SetQuestBool_C_6'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.115"
+          }
+        },
+        {
+          "Key": "D26AB61E-405A517D-07DF07B1-AD93BAEE",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_UpdateQuestLocation_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.126"
+          }
+        },
+        {
+          "Key": "E13D72F4-4E2B10CD-606FE7BA-AE7CE3B2",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_UpdateQuestLocation_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.128"
+          }
+        },
+        {
+          "Key": "BFE759DE-461E03D9-E86A2EB5-4C8FED3D",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_SetQuestObjective_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.119"
+          }
+        },
+        {
+          "Key": "4FFC86C3-4778E2B4-8C124586-CEC5F2FE",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_UpdateQuestLocation_C_9'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.135"
+          }
+        },
+        {
+          "Key": "72093443-428F2859-1DE1B587-A106950F",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_UpdateQuestLocation_C_8'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.134"
+          }
+        },
+        {
+          "Key": "E896F02C-4095AF02-826F5284-F82F7C81",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:ConversationEntryPointNode_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.3"
+          }
+        },
+        {
+          "Key": "5D81510A-4E047D2C-783177B1-944ADA91",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_Blank_C_6'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.78"
+          }
+        },
+        {
+          "Key": "D3384ACB-4D47F5AF-507E598B-0941653F",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_PromptMessage_C_14'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.93"
+          }
+        },
+        {
+          "Key": "FF0DE8F3-40AA731B-F9A64AB1-A7B02B6B",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_Blank_C_7'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.79"
+          }
+        },
+        {
+          "Key": "E6067310-4DA59EB1-C3DB6FB6-8E791D87",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_PromptMessage_C_15'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.94"
+          }
+        },
+        {
+          "Key": "D4876319-4E6DE995-AAD7439F-C389813D",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_PromptMessage_C_16'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.95"
+          }
+        },
+        {
+          "Key": "3E9AAB2B-47DF31AD-9893E5BB-A15606CE",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_UpdateQuestLocation_C_12'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.124"
+          }
+        },
+        {
+          "Key": "640A98AE-4D60AABE-7FA356B1-75C24710",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_SetQuestBool_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.113"
+          }
+        },
+        {
+          "Key": "2C4ED7A8-451631C2-2FDAA489-013ED7B8",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_Blank_C_8'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.80"
+          }
+        },
+        {
+          "Key": "7E7D7EAC-4ED6DBFC-0D1079A5-DF3CF934",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_SetQuestBool_C_5'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.114"
+          }
+        },
+        {
+          "Key": "A8E75D40-44E040A7-E22A0B95-27DDCEA5",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_Blank_C_28'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.69"
+          }
+        },
+        {
+          "Key": "109B9EA0-4145F48A-16B37082-6B79EEFF",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_SetQuestObjective_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.118"
+          }
+        },
+        {
+          "Key": "3360B8D9-473284E7-1D5F00AF-9B900017",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_UpdateQuestLocation_C_5'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.131"
+          }
+        },
+        {
+          "Key": "34EB9AD9-48A11B17-70CEA688-8B351670",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:ConversationEntryPointNode_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.2"
+          }
+        },
+        {
+          "Key": "66F3CA9F-42EB7840-F4B87980-EB458825",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_Blank_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.75"
+          }
+        },
+        {
+          "Key": "D66A94CB-471F6164-7684C0AC-CB863C48",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_PromptMessage_C_6'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.105"
+          }
+        },
+        {
+          "Key": "BDD00909-4D239407-5EC9AE99-E0CDD764",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_Blank_C_5'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.77"
+          }
+        },
+        {
+          "Key": "0BAD5F48-47C5E64E-D410B4A7-CE3EADC9",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_PromptMessage_C_8'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.107"
+          }
+        },
+        {
+          "Key": "40D5DBEB-450FBAF5-80523B95-E559A35F",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_PromptMessage_C_13'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.92"
+          }
+        },
+        {
+          "Key": "5ED82554-420E6FEA-0E59BF87-C1203EC5",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_UpdateQuestLocation_C_7'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.133"
+          }
+        },
+        {
+          "Key": "50BD8A95-48D3FF13-E2F5CC84-91D65A45",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_SetQuestBool_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.110"
+          }
+        },
+        {
+          "Key": "E40C234D-47F7F1F9-95FB0782-7822FEBF",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:ConversationEntryPointNode_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.1"
+          }
+        },
+        {
+          "Key": "64C6562E-40707147-90482889-3198FCE3",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_Blank_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.65"
+          }
+        },
+        {
+          "Key": "10C1C247-498FCF91-49518985-7DE56222",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_PromptMessage_C_20'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.100"
+          }
+        },
+        {
+          "Key": "B3A7B9AD-494FDD31-0240C1BF-C46C301B",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_Blank_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.71"
+          }
+        },
+        {
+          "Key": "5EA0110A-4AA1BA49-2AEE82AC-BAEF0A00",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_PromptMessage_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.101"
+          }
+        },
+        {
+          "Key": "75ABFD0F-4B9F1721-EF0C2F8A-0750D6FC",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_PromptMessage_C_5'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.103"
+          }
+        },
+        {
+          "Key": "92175C0D-4E618877-6C822C87-9212DFE3",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_UpdateQuestLocation_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.121"
+          }
+        },
+        {
+          "Key": "E1128E62-46093C2E-BD4C48B7-76661470",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_SetQuestBool_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.111"
+          }
+        },
+        {
+          "Key": "20799E58-47211ABB-0643E3B7-8E9E2D67",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:ConversationEntryPointNode_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.5"
+          }
+        },
+        {
+          "Key": "4653AF22-43CC50DA-A4897AAA-FB2C9ACD",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_SetQuestBool_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.109"
+          }
+        },
+        {
+          "Key": "AF6F188B-4E47AC40-86890B89-934FFBAD",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_Blank_C_21'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.67"
+          }
+        },
+        {
+          "Key": "CA9DFE2B-43B532EF-9E157A84-DA2DA62C",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_Blank_C_40'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.76"
+          }
+        },
+        {
+          "Key": "54596D12-4EEA7802-BAEA5FA6-41EE2D5A",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_PromptMessage_C_47'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.102"
+          }
+        },
+        {
+          "Key": "635AD262-4B163BA1-D229F89A-AEBA25C6",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_Blank_C_23'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.68"
+          }
+        },
+        {
+          "Key": "30C3BA52-4961D25D-2A18EBA5-AF9BB4F9",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_SetQuestBool_C_34'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.112"
+          }
+        },
+        {
+          "Key": "76FCB884-440CADBE-E3E352B4-A8D44EDD",
+          "Value": {
+            "ObjectName": "QFT_CompleteQuest_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_CompleteQuest_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.82"
+          }
+        },
+        {
+          "Key": "60DFFAB3-4CE4DE0A-64573198-A13CD5E8",
+          "Value": {
+            "ObjectName": "QFT_GiveItemToPlayer_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_GiveItemToPlayer_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.83"
+          }
+        },
+        {
+          "Key": "6AFA06D2-4767A125-02E96D8D-DEB24093",
+          "Value": {
+            "ObjectName": "QFT_ModifyQuestInt_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_ModifyQuestInt_C_22'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.85"
+          }
+        },
+        {
+          "Key": "599BBB33-49E040DC-3E05B498-23867D58",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_UpdateQuestLocation_C_30'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.129"
+          }
+        },
+        {
+          "Key": "07018FFF-4A0DF2A1-EE590498-974EC2F1",
+          "Value": {
+            "ObjectName": "QFT_TakeItemFromPlayer_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_TakeItemFromPlayer_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.120"
+          }
+        },
+        {
+          "Key": "59F47280-465994DC-FB52A598-DC86D53A",
+          "Value": {
+            "ObjectName": "QFT_ModifyVendorReputation_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_ModifyVendorReputation_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.86"
+          }
+        },
+        {
+          "Key": "C845C3A8-47A79B78-874C6985-EC108D44",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_UpdateQuestLocation_C_17'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.125"
+          }
+        },
+        {
+          "Key": "CD7ACF28-4F4327E9-629789B9-CA627CFD",
+          "Value": {
+            "ObjectName": "ConversationLinkNode'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:ConversationLinkNode_14'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.7"
+          }
+        },
+        {
+          "Key": "5243BEBF-457912E7-F92AEEB5-8DB0A006",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:ConversationEntryPointNode_20'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.4"
+          }
+        },
+        {
+          "Key": "636A5F5C-4F9650E9-53DFF2A4-B7704B99",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_Blank_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.53"
+          }
+        },
+        {
+          "Key": "8C0F8670-4518BDC8-4CAB4CA9-BE3C28EA",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_PromptMessage_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.87"
+          }
+        },
+        {
+          "Key": "3378F218-45E62E9B-D946339D-F9DC6495",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_Blank_C_20'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.66"
+          }
+        },
+        {
+          "Key": "01B931A5-409B6F99-21D614B5-ADA48E81",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_Blank_C_16'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.61"
+          }
+        },
+        {
+          "Key": "32B73BBF-4E5E6803-B975259E-2989AD9C",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_PromptMessage_C_9'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.108"
+          }
+        },
+        {
+          "Key": "EC86C87C-4B616194-7B9DE4B0-2A20EFBF",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_Blank_C_13'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.58"
+          }
+        },
+        {
+          "Key": "433A6B1D-449CC63E-7D62518E-B7C2DB25",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_Blank_C_34'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.73"
+          }
+        },
+        {
+          "Key": "1D68691E-48AA741C-AB744994-5E3FBD66",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_Blank_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.54"
+          }
+        },
+        {
+          "Key": "983721C0-42BFA70D-AF0805BF-5392229A",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_Blank_C_18'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.63"
+          }
+        },
+        {
+          "Key": "5637CC05-45143401-86B54A9D-1BF7D770",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_PromptMessage_C_59'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.104"
+          }
+        },
+        {
+          "Key": "6F7E3EAD-40176198-5225E4AF-DC8C4604",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_PromptMessage_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.99"
+          }
+        },
+        {
+          "Key": "0CC76C4D-44FF6600-DAD13394-FEF9CC4A",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_Blank_C_19'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.64"
+          }
+        },
+        {
+          "Key": "92E49960-4B9AA44F-1EFFE7A3-213CC867",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_PromptMessage_C_19'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.98"
+          }
+        },
+        {
+          "Key": "60DC0FDD-4FA2F7EC-493E959A-F3798AED",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_Blank_C_15'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.60"
+          }
+        },
+        {
+          "Key": "8132DFF8-4F50FF62-148054B1-ED1982FE",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_Blank_C_10'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.55"
+          }
+        },
+        {
+          "Key": "784EE69B-488C5668-5A8BDD8C-DA76B7A9",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_Blank_C_17'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.62"
+          }
+        },
+        {
+          "Key": "ED9BC5DA-4BEC62CD-EEA8EEBF-E1DE507B",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_PromptMessage_C_10'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.89"
+          }
+        },
+        {
+          "Key": "390B1C52-48388DE6-F38C60B2-64C2EB16",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_Blank_C_12'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.57"
+          }
+        },
+        {
+          "Key": "A5C70637-4515AE9F-BA79908F-19083D5F",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_Blank_C_9'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.81"
+          }
+        },
+        {
+          "Key": "BDBBBBF8-48F65EE1-DFDD4C9A-23B7E8F5",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_PromptMessage_C_12'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.91"
+          }
+        },
+        {
+          "Key": "32008302-44602A1F-4107B5AF-61574610",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_PromptMessage_C_7'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.106"
+          }
+        },
+        {
+          "Key": "49051149-4B44B4AA-7F4B7FB8-84D04EF4",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_PromptMessage_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.88"
+          }
+        },
+        {
+          "Key": "8FE7C05C-45580ECD-54B75E93-B133AA9A",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_Blank_C_30'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.72"
+          }
+        },
+        {
+          "Key": "B5CDF579-41B897D5-B70CE2B9-32AFB9C1",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_Blank_C_29'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.70"
+          }
+        },
+        {
+          "Key": "FA54A273-4B7DCC02-4149B4A4-78060D78",
+          "Value": {
+            "ObjectName": "QFT_GiveQuest_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_GiveQuest_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.84"
+          }
+        },
+        {
+          "Key": "0D2D2C89-4382B089-0764AB96-115D2A3B",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_SetQuestObjective_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.117"
+          }
+        },
+        {
+          "Key": "2FEED9E0-4EDD6437-C3760DA7-2C0C8F13",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_UpdateQuestLocation_C_29'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.127"
+          }
+        },
+        {
+          "Key": "F6CB9BFA-40A283D4-AB0B2F86-4E2FA61D",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_UpdateQuestLocation_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.130"
+          }
+        },
+        {
+          "Key": "A92CF611-46804321-3DAECAA9-E81E3E8E",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_UpdateQuestLocation_C_6'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.132"
+          }
+        },
+        {
+          "Key": "FAE91647-4D58FD95-5BD95087-41C54C27",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_SetQuestBool_C_7'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.116"
+          }
+        },
+        {
+          "Key": "BAE128C4-4B0DAEC3-F52FF7A2-0657B106",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_UpdateQuestLocation_C_10'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.122"
+          }
+        },
+        {
+          "Key": "C3ECC113-422FD458-6DEFFE83-23C90033",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_UpdateQuestLocation_C_11'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.123"
+          }
+        },
+        {
+          "Key": "1176AA7E-4BB9EA87-8C730892-DD765E0F",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_Blank_C_14'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.59"
+          }
+        },
+        {
+          "Key": "84940733-49729ADE-FE2BEC91-BAD8423E",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_PromptMessage_C_11'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.90"
+          }
+        },
+        {
+          "Key": "8F1326DD-46378473-07D07A8D-E53796F3",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_Blank_C_11'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.56"
+          }
+        },
+        {
+          "Key": "CA562027-4BDB6411-A627CE94-33BDAA67",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_PromptMessage_C_17'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.96"
+          }
+        },
+        {
+          "Key": "18FA6153-4150B44B-D90EB88A-26F7604D",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_PromptMessage_C_18'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.97"
+          }
+        },
+        {
+          "Key": "7A39C8BD-4016B217-21645082-825C0928",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_Blank_C_35'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.74"
+          }
+        }
+      ],
+      "EntryTags": [
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.UmS_MainQuest.TribeCGarou.TaskGiver2"
+          },
+          "DestinationList": [
+            "5243BEBF-457912E7-F92AEEB5-8DB0A006"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.UmS_MainQuest.TribeCGarou.Task2.Skip"
+          },
+          "DestinationList": [
+            "20799E58-47211ABB-0643E3B7-8E9E2D67"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.UmS_MainQuest.TribeCGarou.TaskGiver2.ScoutBody"
+          },
+          "DestinationList": [
+            "E40C234D-47F7F1F9-95FB0782-7822FEBF"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.UmS_MainQuest.TribeCGarou.TaskGiver2.Clue1"
+          },
+          "DestinationList": [
+            "34EB9AD9-48A11B17-70CEA688-8B351670"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.UmS_MainQuest.TribeCGarou.TaskGiver2.Clue2"
+          },
+          "DestinationList": [
+            "E896F02C-4095AF02-826F5284-F82F7C81"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.UmS_MainQuest.TribeCGarou.Task2.GotDragonHeart"
+          },
+          "DestinationList": [
+            "FA686603-4366FC91-DF90FE95-32677A74"
+          ],
+          "EntryIdentifier": ""
+        }
+      ],
+      "ExitTags": [
+        "QuestFlow.Entry.UmS_MainQuest.TribeCGarou.FavourIncrease"
+      ],
+      "InternalNodeIds": [
+        "FA686603-4366FC91-DF90FE95-32677A74",
+        "2EB2242B-40B1B7BF-425B47B9-854FEB10",
+        "D26AB61E-405A517D-07DF07B1-AD93BAEE",
+        "E13D72F4-4E2B10CD-606FE7BA-AE7CE3B2",
+        "BFE759DE-461E03D9-E86A2EB5-4C8FED3D",
+        "4FFC86C3-4778E2B4-8C124586-CEC5F2FE",
+        "72093443-428F2859-1DE1B587-A106950F",
+        "E896F02C-4095AF02-826F5284-F82F7C81",
+        "5D81510A-4E047D2C-783177B1-944ADA91",
+        "D3384ACB-4D47F5AF-507E598B-0941653F",
+        "FF0DE8F3-40AA731B-F9A64AB1-A7B02B6B",
+        "E6067310-4DA59EB1-C3DB6FB6-8E791D87",
+        "D4876319-4E6DE995-AAD7439F-C389813D",
+        "3E9AAB2B-47DF31AD-9893E5BB-A15606CE",
+        "640A98AE-4D60AABE-7FA356B1-75C24710",
+        "2C4ED7A8-451631C2-2FDAA489-013ED7B8",
+        "7E7D7EAC-4ED6DBFC-0D1079A5-DF3CF934",
+        "A8E75D40-44E040A7-E22A0B95-27DDCEA5",
+        "109B9EA0-4145F48A-16B37082-6B79EEFF",
+        "3360B8D9-473284E7-1D5F00AF-9B900017",
+        "34EB9AD9-48A11B17-70CEA688-8B351670",
+        "66F3CA9F-42EB7840-F4B87980-EB458825",
+        "D66A94CB-471F6164-7684C0AC-CB863C48",
+        "BDD00909-4D239407-5EC9AE99-E0CDD764",
+        "0BAD5F48-47C5E64E-D410B4A7-CE3EADC9",
+        "40D5DBEB-450FBAF5-80523B95-E559A35F",
+        "5ED82554-420E6FEA-0E59BF87-C1203EC5",
+        "50BD8A95-48D3FF13-E2F5CC84-91D65A45",
+        "E40C234D-47F7F1F9-95FB0782-7822FEBF",
+        "64C6562E-40707147-90482889-3198FCE3",
+        "10C1C247-498FCF91-49518985-7DE56222",
+        "B3A7B9AD-494FDD31-0240C1BF-C46C301B",
+        "5EA0110A-4AA1BA49-2AEE82AC-BAEF0A00",
+        "75ABFD0F-4B9F1721-EF0C2F8A-0750D6FC",
+        "92175C0D-4E618877-6C822C87-9212DFE3",
+        "E1128E62-46093C2E-BD4C48B7-76661470",
+        "20799E58-47211ABB-0643E3B7-8E9E2D67",
+        "4653AF22-43CC50DA-A4897AAA-FB2C9ACD",
+        "AF6F188B-4E47AC40-86890B89-934FFBAD",
+        "CA9DFE2B-43B532EF-9E157A84-DA2DA62C",
+        "54596D12-4EEA7802-BAEA5FA6-41EE2D5A",
+        "635AD262-4B163BA1-D229F89A-AEBA25C6",
+        "30C3BA52-4961D25D-2A18EBA5-AF9BB4F9",
+        "76FCB884-440CADBE-E3E352B4-A8D44EDD",
+        "60DFFAB3-4CE4DE0A-64573198-A13CD5E8",
+        "6AFA06D2-4767A125-02E96D8D-DEB24093",
+        "599BBB33-49E040DC-3E05B498-23867D58",
+        "07018FFF-4A0DF2A1-EE590498-974EC2F1",
+        "59F47280-465994DC-FB52A598-DC86D53A",
+        "C845C3A8-47A79B78-874C6985-EC108D44",
+        "CD7ACF28-4F4327E9-629789B9-CA627CFD",
+        "5243BEBF-457912E7-F92AEEB5-8DB0A006",
+        "636A5F5C-4F9650E9-53DFF2A4-B7704B99",
+        "8C0F8670-4518BDC8-4CAB4CA9-BE3C28EA",
+        "3378F218-45E62E9B-D946339D-F9DC6495",
+        "01B931A5-409B6F99-21D614B5-ADA48E81",
+        "32B73BBF-4E5E6803-B975259E-2989AD9C",
+        "EC86C87C-4B616194-7B9DE4B0-2A20EFBF",
+        "433A6B1D-449CC63E-7D62518E-B7C2DB25",
+        "1D68691E-48AA741C-AB744994-5E3FBD66",
+        "983721C0-42BFA70D-AF0805BF-5392229A",
+        "5637CC05-45143401-86B54A9D-1BF7D770",
+        "6F7E3EAD-40176198-5225E4AF-DC8C4604",
+        "0CC76C4D-44FF6600-DAD13394-FEF9CC4A",
+        "92E49960-4B9AA44F-1EFFE7A3-213CC867",
+        "60DC0FDD-4FA2F7EC-493E959A-F3798AED",
+        "8132DFF8-4F50FF62-148054B1-ED1982FE",
+        "784EE69B-488C5668-5A8BDD8C-DA76B7A9",
+        "ED9BC5DA-4BEC62CD-EEA8EEBF-E1DE507B",
+        "390B1C52-48388DE6-F38C60B2-64C2EB16",
+        "A5C70637-4515AE9F-BA79908F-19083D5F",
+        "BDBBBBF8-48F65EE1-DFDD4C9A-23B7E8F5",
+        "32008302-44602A1F-4107B5AF-61574610",
+        "49051149-4B44B4AA-7F4B7FB8-84D04EF4",
+        "8FE7C05C-45580ECD-54B75E93-B133AA9A",
+        "B5CDF579-41B897D5-B70CE2B9-32AFB9C1",
+        "FA54A273-4B7DCC02-4149B4A4-78060D78",
+        "0D2D2C89-4382B089-0764AB96-115D2A3B",
+        "2FEED9E0-4EDD6437-C3760DA7-2C0C8F13",
+        "F6CB9BFA-40A283D4-AB0B2F86-4E2FA61D",
+        "A92CF611-46804321-3DAECAA9-E81E3E8E",
+        "FAE91647-4D58FD95-5BD95087-41C54C27",
+        "BAE128C4-4B0DAEC3-F52FF7A2-0657B106",
+        "C3ECC113-422FD458-6DEFFE83-23C90033",
+        "1176AA7E-4BB9EA87-8C730892-DD765E0F",
+        "84940733-49729ADE-FE2BEC91-BAD8423E",
+        "8F1326DD-46378473-07D07A8D-E53796F3",
+        "CA562027-4BDB6411-A627CE94-33BDAA67",
+        "18FA6153-4150B44B-D90EB88A-26F7604D",
+        "7A39C8BD-4016B217-21645082-825C0928"
+      ]
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.UmS_MainQuest.TribeCGarou.TaskGiver2.ScoutBody"
+      },
+      "OutputConnections": [
+        "B3A7B9AD-494FDD31-0240C1BF-C46C301B",
+        "64C6562E-40707147-90482889-3198FCE3"
+      ],
+      "Compiled_NodeGUID": "E40C234D-47F7F1F9-95FB0782-7822FEBF"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.UmS_MainQuest.TribeCGarou.TaskGiver2.Clue1"
+      },
+      "OutputConnections": [
+        "BDD00909-4D239407-5EC9AE99-E0CDD764",
+        "66F3CA9F-42EB7840-F4B87980-EB458825"
+      ],
+      "Compiled_NodeGUID": "34EB9AD9-48A11B17-70CEA688-8B351670"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.UmS_MainQuest.TribeCGarou.TaskGiver2.Clue2"
+      },
+      "OutputConnections": [
+        "FF0DE8F3-40AA731B-F9A64AB1-A7B02B6B",
+        "5D81510A-4E047D2C-783177B1-944ADA91"
+      ],
+      "Compiled_NodeGUID": "E896F02C-4095AF02-826F5284-F82F7C81"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_20",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.UmS_MainQuest.TribeCGarou.TaskGiver2"
+      },
+      "OutputConnections": [
+        "3378F218-45E62E9B-D946339D-F9DC6495",
+        "636A5F5C-4F9650E9-53DFF2A4-B7704B99"
+      ],
+      "Compiled_NodeGUID": "5243BEBF-457912E7-F92AEEB5-8DB0A006"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.UmS_MainQuest.TribeCGarou.Task2.Skip"
+      },
+      "OutputConnections": [
+        "4653AF22-43CC50DA-A4897AAA-FB2C9ACD"
+      ],
+      "Compiled_NodeGUID": "20799E58-47211ABB-0643E3B7-8E9E2D67"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.UmS_MainQuest.TribeCGarou.Task2.GotDragonHeart"
+      },
+      "OutputConnections": [
+        "2EB2242B-40B1B7BF-425B47B9-854FEB10"
+      ],
+      "Compiled_NodeGUID": "FA686603-4366FC91-DF90FE95-32677A74"
+    }
+  },
+  {
+    "Type": "ConversationLinkNode",
+    "Name": "ConversationLinkNode_14",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Class": "UScriptClass'ConversationLinkNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RemoteEntryTag": {
+        "TagName": "QuestFlow.Entry.UmS_MainQuest.TribeCGarou.FavourIncrease"
+      },
+      "Compiled_NodeGUID": "CD7ACF28-4F4327E9-629789B9-CA627CFD",
+      "ParentNode": {
+        "ObjectName": "QFT_UpdateQuestLocation_C'QF_UmS_MainQuest_TribeC_Task2_DragonHunt:QFT_UpdateQuestLocation_C_17'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.125"
+      }
+    }
+  },
+  {
+    "Type": "DialogueBarkSideEffectNode",
+    "Name": "DialogueBarkSideEffectNode_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Class": "UScriptClass'DialogueBarkSideEffectNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BarkRequestData": {
+        "BarkCategory": "EBarkCategory::Generic",
+        "BarkEmotion": {
+          "TagName": "Audio.Dialogue.Disgust"
+        },
+        "EmotionSettings": {
+          "bAllowOnlyExactMatches": true,
+          "bAllowNeutralEmotions": false
+        }
+      },
+      "SpeakerTag": {
+        "TagName": "QuestFlow.Participant.MoonGarou.TribeA"
+      }
+    }
+  },
+  {
+    "Type": "DialogueBarkSideEffectNode",
+    "Name": "DialogueBarkSideEffectNode_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Class": "UScriptClass'DialogueBarkSideEffectNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BarkRequestData": {
+        "BarkCategory": "EBarkCategory::Generic",
+        "BarkEmotion": {
+          "TagName": "Audio.Dialogue.Anger.Annoyed"
+        },
+        "EmotionSettings": {
+          "bAllowOnlyExactMatches": true,
+          "bAllowNeutralEmotions": false
+        }
+      },
+      "SpeakerTag": {
+        "TagName": "QuestFlow.Participant.MoonGarou.TribeA"
+      }
+    }
+  },
+  {
+    "Type": "DialogueBarkSideEffectNode",
+    "Name": "DialogueBarkSideEffectNode_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Class": "UScriptClass'DialogueBarkSideEffectNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BarkRequestData": {
+        "BarkCategory": "EBarkCategory::Generic",
+        "BarkEmotion": {
+          "TagName": "Audio.Dialogue.Surprise"
+        },
+        "EmotionSettings": {
+          "bAllowOnlyExactMatches": true,
+          "bAllowNeutralEmotions": false
+        }
+      },
+      "SpeakerTag": {
+        "TagName": "QuestFlow.Participant.MoonGarou.TribeA"
+      }
+    }
+  },
+  {
+    "Type": "DialogueBarkSideEffectNode",
+    "Name": "DialogueBarkSideEffectNode_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Class": "UScriptClass'DialogueBarkSideEffectNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BarkRequestData": {
+        "BarkCategory": "EBarkCategory::Generic",
+        "BarkEmotion": {
+          "TagName": "Audio.Dialogue.Neutral.Informative"
+        },
+        "EmotionSettings": {
+          "bAllowOnlyExactMatches": true,
+          "bAllowNeutralEmotions": false
+        }
+      },
+      "SpeakerTag": {
+        "TagName": "QuestFlow.Participant.MoonGarou.TribeA"
+      }
+    }
+  },
+  {
+    "Type": "DialogueBarkSideEffectNode",
+    "Name": "DialogueBarkSideEffectNode_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Class": "UScriptClass'DialogueBarkSideEffectNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BarkRequestData": {
+        "BarkCategory": "EBarkCategory::Generic",
+        "BarkEmotion": {
+          "TagName": "Audio.Dialogue.Surprise"
+        },
+        "EmotionSettings": {
+          "bAllowOnlyExactMatches": true,
+          "bAllowNeutralEmotions": false
+        }
+      },
+      "SpeakerTag": {
+        "TagName": "QuestFlow.Participant.MoonGarou.TribeA"
+      }
+    }
+  },
+  {
+    "Type": "DialogueBarkSideEffectNode",
+    "Name": "DialogueBarkSideEffectNode_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Class": "UScriptClass'DialogueBarkSideEffectNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BarkRequestData": {
+        "BarkCategory": "EBarkCategory::Generic",
+        "BarkEmotion": {
+          "TagName": "Audio.Dialogue.Disgust"
+        },
+        "EmotionSettings": {
+          "bAllowOnlyExactMatches": true,
+          "bAllowNeutralEmotions": false
+        }
+      },
+      "SpeakerTag": {
+        "TagName": "QuestFlow.Participant.MoonGarou.TribeA"
+      }
+    }
+  },
+  {
+    "Type": "DialogueBarkSideEffectNode",
+    "Name": "DialogueBarkSideEffectNode_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Class": "UScriptClass'DialogueBarkSideEffectNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BarkRequestData": {
+        "BarkCategory": "EBarkCategory::Generic",
+        "BarkEmotion": {
+          "TagName": "Audio.Dialogue.Neutral.Informative"
+        },
+        "EmotionSettings": {
+          "bAllowOnlyExactMatches": true,
+          "bAllowNeutralEmotions": false
+        }
+      },
+      "SpeakerTag": {
+        "TagName": "QuestFlow.Participant.MoonGarou.TribeA"
+      }
+    }
+  },
+  {
+    "Type": "DialogueBarkSideEffectNode",
+    "Name": "DialogueBarkSideEffectNode_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Class": "UScriptClass'DialogueBarkSideEffectNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BarkRequestData": {
+        "BarkCategory": "EBarkCategory::Generic",
+        "BarkEmotion": {
+          "TagName": "Audio.Dialogue.Positive.Encouraging"
+        },
+        "EmotionSettings": {
+          "bAllowOnlyExactMatches": true,
+          "bAllowNeutralEmotions": false
+        }
+      },
+      "SpeakerTag": {
+        "TagName": "QuestFlow.Participant.MoonGarou.TribeA"
+      }
+    }
+  },
+  {
+    "Type": "DialogueBarkSideEffectNode",
+    "Name": "DialogueBarkSideEffectNode_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Class": "UScriptClass'DialogueBarkSideEffectNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BarkRequestData": {
+        "BarkCategory": "EBarkCategory::Generic",
+        "BarkEmotion": {
+          "TagName": "Audio.Dialogue.Positive.Grateful"
+        },
+        "EmotionSettings": {
+          "bAllowOnlyExactMatches": true,
+          "bAllowNeutralEmotions": false
+        }
+      },
+      "SpeakerTag": {
+        "TagName": "QuestFlow.Participant.MoonGarou.TribeA"
+      }
+    }
+  },
+  {
+    "Type": "DialogueBarkSideEffectNode",
+    "Name": "DialogueBarkSideEffectNode_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Class": "UScriptClass'DialogueBarkSideEffectNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BarkRequestData": {
+        "BarkCategory": "EBarkCategory::Generic",
+        "BarkEmotion": {
+          "TagName": "Audio.Dialogue.Positive.Grateful"
+        },
+        "EmotionSettings": {
+          "bAllowOnlyExactMatches": true,
+          "bAllowNeutralEmotions": false
+        }
+      },
+      "SpeakerTag": {
+        "TagName": "QuestFlow.Participant.MoonGarou.TribeA"
+      }
+    }
+  },
+  {
+    "Type": "DialogueBarkSideEffectNode",
+    "Name": "DialogueBarkSideEffectNode_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Class": "UScriptClass'DialogueBarkSideEffectNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BarkRequestData": {
+        "BarkCategory": "EBarkCategory::Generic",
+        "BarkEmotion": {
+          "TagName": "Audio.Dialogue.Misc.Laughing"
+        },
+        "EmotionSettings": {
+          "bAllowOnlyExactMatches": true,
+          "bAllowNeutralEmotions": false
+        }
+      },
+      "SpeakerTag": {
+        "TagName": "QuestFlow.Participant.MoonGarou.TribeA"
+      }
+    }
+  },
+  {
+    "Type": "QFR_PlayerDoesntHaveItem_C",
+    "Name": "QFR_PlayerDoesntHaveItem_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerDoesntHaveSpaceForItem_C",
+    "Name": "QFR_PlayerDoesntHaveSpaceForItem_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasItemAmount_C",
+    "Name": "QFR_PlayerHasItemAmount_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasSpaceForItem_C",
+    "Name": "QFR_PlayerHasSpaceForItem_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_12",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_13",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_14",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_15",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_17",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_18",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_19",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_20",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_21",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_22",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_23",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_24",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_28",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_30",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_32",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_33",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_36",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBoolsAND_C",
+    "Name": "QFR_TestQuestBoolsAND_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_12",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_13",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_14",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_15",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_16",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_17",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_18",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_19",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_20",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_21",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_23",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_28",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_29",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_30",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_34",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_35",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_40",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_CompleteQuest_C",
+    "Name": "QFT_CompleteQuest_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveItemToPlayer_C",
+    "Name": "QFT_GiveItemToPlayer_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveQuest_C",
+    "Name": "QFT_GiveQuest_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_ModifyQuestInt_C",
+    "Name": "QFT_ModifyQuestInt_C_22",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_ModifyVendorReputation_C",
+    "Name": "QFT_ModifyVendorReputation_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_12",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_13",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_14",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_15",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_16",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_17",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_18",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_19",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_20",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_47",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_59",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_34",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_TakeItemFromPlayer_C",
+    "Name": "QFT_TakeItemFromPlayer_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_12",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_17",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_29",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_30",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_Play2DSting_C",
+    "Name": "SEN_Play2DSting_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeC_Task2_DragonHunt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeC_Tasks/QF_UmS_MainQuest_TribeC_Task2_DragonHunt.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  }
+]

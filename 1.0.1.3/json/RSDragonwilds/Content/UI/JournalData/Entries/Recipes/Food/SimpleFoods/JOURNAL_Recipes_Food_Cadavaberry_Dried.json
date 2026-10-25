@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "JournalEntryRecipeData",
+    "Name": "JOURNAL_Recipes_Food_Cadavaberry_Dried",
+    "Class": "UScriptClass'JournalEntryRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipeData": {
+        "AssetPathName": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Dried_Cadaveberries_From_Cadaveberries.RECIPE_Consumable_Dried_Cadaveberries_From_Cadaveberries",
+        "SubPathString": ""
+      },
+      "ItemData": {
+        "AssetPathName": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Fruit_Dried_Cadavaberry.ITEM_Consumable_Fruit_Dried_Cadavaberry",
+        "SubPathString": ""
+      },
+      "StationTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_ProcessingStationDataTable'",
+          "ObjectPath": "/Game/Gameplay/World/Stations/DT_ProcessingStationDataTable"
+        },
+        "RowName": "Campfire"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "DriedCadavaberries",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "DriedCadavaberries",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/Game/Art/UI/Icons/Seeds/Journal/T_Icon_Journal_Dried_Cadaverberries.T_Icon_Journal_Dried_Cadaverberries",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RecipeUnlocked",
+        "UnlockingRecipe": {
+          "AssetPathName": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Dried_Cadaveberries_From_Cadaveberries.RECIPE_Consumable_Dried_Cadaveberries_From_Cadaveberries",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "WsWWmU5U4tm_0f6LLKbMzQ",
+      "InternalName": "JOURNAL_Recipes_Food_Cadavaberry_Dried"
+    }
+  }
+]

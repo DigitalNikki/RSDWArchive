@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "JournalCategoryData",
+    "Name": "JOURNAL_Category_Knowledge",
+    "Class": "UScriptClass'JournalCategoryData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CategoryName": {
+        "TableId": "/Game/UI/ST_Localization.ST_Localization",
+        "Key": "Knowledge",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "SubCategories": [
+        {
+          "Key": "KnowTutorials",
+          "Value": {
+            "ObjectName": "JournalSubCategoryByGroupData'JOURNAL_SC_Know_Tutorial'",
+            "ObjectPath": "/Game/UI/JournalData/JOURNAL_SC_Know_Tutorial"
+          }
+        },
+        {
+          "Key": "KnowLoreScraps",
+          "Value": {
+            "ObjectName": "JournalSubCategoryByGroupData'JOURNAL_SC_Know_LoreScraps'",
+            "ObjectPath": "/Game/UI/JournalData/JOURNAL_SC_Know_LoreScraps"
+          }
+        },
+        {
+          "Key": "KnowPeople",
+          "Value": {
+            "ObjectName": "JournalSubCategoryByGroupData'JOURNAL_SC_Know_People'",
+            "ObjectPath": "/Game/UI/JournalData/JOURNAL_SC_Know_People"
+          }
+        },
+        {
+          "Key": "KnowPlaces",
+          "Value": {
+            "ObjectName": "JournalSubCategoryNoBiomeData'JOURNAL_SC_Know_Places'",
+            "ObjectPath": "/Game/UI/JournalData/JOURNAL_SC_Know_Places"
+          }
+        }
+      ],
+      "PersistenceID": "IQA_jk39Gf84mY6AgQffbA"
+    }
+  }
+]

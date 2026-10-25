@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "JournalEntryRecipeData",
+    "Name": "JOURNAL_Recipes_Weapons_Sword_Chieftans",
+    "Class": "UScriptClass'JournalEntryRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipeData": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Mace/RECIPE_Vestige_Weapon_T3_Sword_Chieftains.RECIPE_Vestige_Weapon_T3_Sword_Chieftains",
+        "SubPathString": ""
+      },
+      "ItemData": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Sword/ITEM_Sword_Chieftans.ITEM_Sword_Chieftans",
+        "SubPathString": ""
+      },
+      "StationTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_CraftingStationsDataTable'",
+          "ObjectPath": "/Game/Gameplay/World/Stations/DT_CraftingStationsDataTable"
+        },
+        "RowName": "ToolsMeleeBench"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "2A309FC842E317DEED7D27A9360217C7",
+        "SourceString": "Chieftain's Blade",
+        "LocalizedString": "Chieftain's Blade"
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "ChieftainsBlade",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/Game/Art/UI/Icons/Journal/WeaponsArmours_07/T_Icons_Journal_Sword_Chieftain_s_Blade.T_Icons_Journal_Sword_Chieftain_s_Blade",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RecipeUnlocked",
+        "UnlockingRecipe": {
+          "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Mace/RECIPE_Vestige_Weapon_T3_Sword_Chieftains.RECIPE_Vestige_Weapon_T3_Sword_Chieftains",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "MkjD8EE_f0h_3QqvqTUnaw",
+      "InternalName": "JOURNAL_Recipes_Weapons_Sword_Chieftans"
+    }
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "Type": "JournalEntryRecipeData",
+    "Name": "JOURNAL_Recipes_Resources_Leather_Snake",
+    "Class": "UScriptClass'JournalEntryRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipeData": {
+        "AssetPathName": "/UmbralSands/Gameplay/Items/Recipes/Processed/RECIPE_Process_Leather_Snake_From_Skin_Snake.RECIPE_Process_Leather_Snake_From_Skin_Snake",
+        "SubPathString": ""
+      },
+      "ItemData": {
+        "AssetPathName": "/UmbralSands/Gameplay/Items/Resources/Processed/ITEM_Resources_Leather_Snake.ITEM_Resources_Leather_Snake",
+        "SubPathString": ""
+      },
+      "StationTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_ProcessingStationDataTable'",
+          "ObjectPath": "/Game/Gameplay/World/Stations/DT_ProcessingStationDataTable"
+        },
+        "RowName": "Tannery"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "LeatherSnake",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "SnakeskinLeather",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RecipeUnlocked",
+        "UnlockingRecipe": {
+          "AssetPathName": "/UmbralSands/Gameplay/Items/Recipes/Processed/RECIPE_Process_Leather_Snake_From_Skin_Snake.RECIPE_Process_Leather_Snake_From_Skin_Snake",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "2Ogx1k58upDatBi6joWkKw",
+      "InternalName": "JOURNAL_Recipes_Resources_Leather_Snake",
+      "bSoftDeleted": true
+    }
+  }
+]

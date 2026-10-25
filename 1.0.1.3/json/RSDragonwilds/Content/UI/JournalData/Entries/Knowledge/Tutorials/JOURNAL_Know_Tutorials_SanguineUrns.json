@@ -1,0 +1,39 @@
+[
+  {
+    "Type": "JournalEntryKnowPlaceData",
+    "Name": "JOURNAL_Know_Tutorials_SanguineUrns",
+    "Class": "UScriptClass'JournalEntryKnowPlaceData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DisplayName": {
+        "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+        "Key": "Lifeward.Title",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "Lifeward",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Journal/T_Icon_Journal_SM_Heart_Shrine_01.T_Icon_Journal_SM_Heart_Shrine_01",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::PlayerStart",
+        "UnlockingInteractionActor": {
+          "AssetPathName": "/Game/Gameplay/World/Misc/BP_BaseBossAltar.BP_BaseBossAltar_C",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "EaAWgkorJd0GQ_26wdKyeg",
+      "InternalName": "JOURNAL_Know_Tutorials_SanguineUrns"
+    }
+  }
+]

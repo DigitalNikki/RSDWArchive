@@ -1,0 +1,59 @@
+[
+  {
+    "Type": "JournalEntryWorldData",
+    "Name": "JOURNAL_World_Flora_Seeds_Kwuarm",
+    "Class": "UScriptClass'JournalEntryWorldData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Locations": [
+        {
+          "LocationText": {
+            "TableId": "/Game/UI/ST_Localization.ST_Localization",
+            "Key": "Ghornfell",
+            "SourceString": null,
+            "LocalizedString": ""
+          },
+          "LocationID": "Ghornfell"
+        }
+      ],
+      "Materials": [
+        {
+          "MaterialID": "Kwuarm Seed",
+          "MaterialItemData": {
+            "ObjectName": "SeedHeldEquipmentData'ITEM_Farming_Seed_Kwuarm'",
+            "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Held/Farming/Seeds/ITEM_Farming_Seed_Kwuarm"
+          }
+        }
+      ],
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+        "Key": "Name_Seed_Kwuarm",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "Seeds.Kwuarm",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/Game/Art/UI/Icons/Seeds/Journal/T_Icon_Journal_Kuarm_seed.T_Icon_Journal_Kuarm_seed",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::ItemFirstPickup",
+        "UnlockingItemData": {
+          "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Farming/Seeds/ITEM_Farming_Seed_Kwuarm.ITEM_Farming_Seed_Kwuarm",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "SDGqZU0kVjqirTO21aPGZA",
+      "InternalName": "JOURNAL_World_Flora_Seeds_Kwuarm"
+    }
+  }
+]

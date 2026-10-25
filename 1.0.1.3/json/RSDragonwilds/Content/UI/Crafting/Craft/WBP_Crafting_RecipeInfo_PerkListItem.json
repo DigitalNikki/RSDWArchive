@@ -1,0 +1,254 @@
+[
+  {
+    "Type": "CommonLazyImage",
+    "Name": "PerkImage",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_Crafting_RecipeInfo_PerkListItem_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_RecipeInfo_PerkListItem.11"
+    },
+    "Class": "UScriptClass'CommonLazyImage'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ImageSize": {
+          "X": 61.0,
+          "Y": 61.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Icon_Buff_FungalFortitude'",
+          "ObjectPath": "/Game/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_FungalFortitude"
+        }
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WBP_Crafting_RecipeInfo_PerkListItem_C:WidgetTree.TitleHorizontalBox.HorizontalBoxSlot_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_RecipeInfo_PerkListItem.2"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "TitleHorizontalBox",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_Crafting_RecipeInfo_PerkListItem_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_RecipeInfo_PerkListItem.11"
+    },
+    "Class": "UScriptClass'HorizontalBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WBP_Crafting_RecipeInfo_PerkListItem_C:WidgetTree.TitleHorizontalBox.HorizontalBoxSlot_0'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_RecipeInfo_PerkListItem.2"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WBP_Crafting_RecipeInfo_PerkListItem_C:WidgetTree.TitleHorizontalBox.HorizontalBoxSlot_1'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_RecipeInfo_PerkListItem.3"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WBP_Crafting_RecipeInfo_PerkListItem_C:WidgetTree.VerticalBox_0.VerticalBoxSlot_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_RecipeInfo_PerkListItem.5"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WBP_Crafting_RecipeInfo_PerkListItem_C:WidgetTree.TitleHorizontalBox'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_RecipeInfo_PerkListItem.1"
+    },
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WBP_Crafting_RecipeInfo_PerkListItem_C:WidgetTree.TitleHorizontalBox'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_RecipeInfo_PerkListItem.1"
+      },
+      "Content": {
+        "ObjectName": "CommonLazyImage'WBP_Crafting_RecipeInfo_PerkListItem_C:WidgetTree.PerkImage'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_RecipeInfo_PerkListItem.0"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_1",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WBP_Crafting_RecipeInfo_PerkListItem_C:WidgetTree.TitleHorizontalBox'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_RecipeInfo_PerkListItem.1"
+    },
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Padding": {
+        "Right": 10.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Left",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WBP_Crafting_RecipeInfo_PerkListItem_C:WidgetTree.TitleHorizontalBox'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_RecipeInfo_PerkListItem.1"
+      },
+      "Content": {
+        "ObjectName": "WBP_DomTextBlock_C'WBP_Crafting_RecipeInfo_PerkListItem_C:WidgetTree.PerkTitle'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_RecipeInfo_PerkListItem.9"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "VerticalBox_0",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_Crafting_RecipeInfo_PerkListItem_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_RecipeInfo_PerkListItem.11"
+    },
+    "Class": "UScriptClass'VerticalBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_Crafting_RecipeInfo_PerkListItem_C:WidgetTree.VerticalBox_0.VerticalBoxSlot_0'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_RecipeInfo_PerkListItem.5"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_Crafting_RecipeInfo_PerkListItem_C:WidgetTree.VerticalBox_0.VerticalBoxSlot_3'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_RecipeInfo_PerkListItem.6"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_0",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_Crafting_RecipeInfo_PerkListItem_C:WidgetTree.VerticalBox_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_RecipeInfo_PerkListItem.4"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Bottom": -5.0
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_Crafting_RecipeInfo_PerkListItem_C:WidgetTree.VerticalBox_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_RecipeInfo_PerkListItem.4"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'WBP_Crafting_RecipeInfo_PerkListItem_C:WidgetTree.TitleHorizontalBox'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_RecipeInfo_PerkListItem.1"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_3",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_Crafting_RecipeInfo_PerkListItem_C:WidgetTree.VerticalBox_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_RecipeInfo_PerkListItem.4"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 15.0,
+        "Right": 10.0
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_Crafting_RecipeInfo_PerkListItem_C:WidgetTree.VerticalBox_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_RecipeInfo_PerkListItem.4"
+      },
+      "Content": {
+        "ObjectName": "WBP_DomTextBlock_C'WBP_Crafting_RecipeInfo_PerkListItem_C:WidgetTree.PerkDescription'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_RecipeInfo_PerkListItem.8"
+      }
+    }
+  },
+  {
+    "Type": "WBP_Crafting_RecipeInfo_PerkListItem_C",
+    "Name": "Default__WBP_Crafting_RecipeInfo_PerkListItem_C",
+    "Class": "WidgetBlueprintGeneratedClass'1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_RecipeInfo_PerkListItem.WBP_Crafting_RecipeInfo_PerkListItem_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TitlePaddingNoImage": {
+        "Left": 10.0,
+        "Right": 10.0,
+        "Bottom": 5.0
+      },
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "WBP_DomTextBlock_C",
+    "Name": "PerkDescription",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_Crafting_RecipeInfo_PerkListItem_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_RecipeInfo_PerkListItem.11"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_DomTextBlock_C",
+    "Name": "PerkTitle",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_Crafting_RecipeInfo_PerkListItem_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_RecipeInfo_PerkListItem.11"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_Crafting_RecipeInfo_PerkListItem_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WBP_Crafting_RecipeInfo_PerkListItem_C:WidgetTree'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_RecipeInfo_PerkListItem.11"
+      },
+      "bClassRequiresNativeTick": true
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'SkillsPerkInfoListItem'",
+      "ObjectPath": "/Script/Dominion"
+    },
+    "ClassFlags": "CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_Crafting_RecipeInfo_PerkListItem_C'Default__WBP_Crafting_RecipeInfo_PerkListItem_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_RecipeInfo_PerkListItem.7"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WBP_Crafting_RecipeInfo_PerkListItem_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_RecipeInfo_PerkListItem.10"
+    },
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "VerticalBox'WBP_Crafting_RecipeInfo_PerkListItem_C:WidgetTree.VerticalBox_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_RecipeInfo_PerkListItem.4"
+      }
+    }
+  }
+]

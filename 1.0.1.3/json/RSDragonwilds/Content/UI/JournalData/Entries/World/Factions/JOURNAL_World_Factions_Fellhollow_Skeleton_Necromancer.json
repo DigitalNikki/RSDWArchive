@@ -1,0 +1,78 @@
+[
+  {
+    "Type": "JournalEntryWorldData",
+    "Name": "JOURNAL_World_Factions_Fellhollow_Skeleton_Necromancer",
+    "Class": "UScriptClass'JournalEntryWorldData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Weaknesses": [
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Locations": [
+        {
+          "LocationText": {
+            "TableId": "/Game/Gameplay/Map/ST_RegionNames.ST_RegionNames",
+            "Key": "Fellhollow",
+            "SourceString": null,
+            "LocalizedString": ""
+          },
+          "LocationID": "Fellhollow"
+        }
+      ],
+      "Materials": [
+        {
+          "MaterialID": "None",
+          "MaterialItemData": {
+            "ObjectName": "ItemData'ITEM_Currency_SoulFragment'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Currency/ITEM_Currency_SoulFragment"
+          }
+        },
+        {
+          "MaterialID": "None",
+          "MaterialItemData": {
+            "ObjectName": "BP_Consumables_ItemEmitter_C'ITEM_Consumable_SkeletonPack'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Misc/ITEM_Consumable_SkeletonPack"
+          }
+        },
+        {
+          "MaterialID": "None",
+          "MaterialItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Bone_Undead'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_Bone_Undead"
+          }
+        }
+      ],
+      "DisplayName": {
+        "TableId": "/FutureMajorVersion/Gameplay/AI/ST_AI_Names_Fellhollow.ST_AI_Names_Fellhollow",
+        "Key": "SkeletonMage",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "SkeletalNecromancer",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Journal/T_Icon_Journal_Skeletal_Necromancer.T_Icon_Journal_Skeletal_Necromancer",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::AIKill",
+        "AIData": {
+          "AssetPathName": "/FutureMajorVersion/Gameplay/AI/SkeletonFaction/MagicSkeleton/BP_AI_SkeletalNecromancer_Data.BP_AI_SkeletalNecromancer_Data_C",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "XE22dkzoN_VzqxiFCjZxEw",
+      "InternalName": "JOURNAL_World_Factions_Fellhollow_Skeleton_Necromancer"
+    }
+  }
+]

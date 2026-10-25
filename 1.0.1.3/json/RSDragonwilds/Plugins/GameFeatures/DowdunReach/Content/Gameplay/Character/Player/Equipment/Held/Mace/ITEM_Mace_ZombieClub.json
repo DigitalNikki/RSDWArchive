@@ -1,0 +1,135 @@
+[
+  {
+    "Type": "HeldEquipmentData",
+    "Name": "ITEM_Mace_ZombieClub",
+    "Class": "UScriptClass'HeldEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HeldEquipmentActorClass": {
+        "AssetPathName": "/DowdunReach/Gameplay/Character/Player/Equipment/Held/Mace/BP_Mace_ZombieClub.BP_Mace_ZombieClub_C",
+        "SubPathString": ""
+      },
+      "PrimaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_Club_ZombieArm_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Club/ZombieArm/PA_Attack_Club_ZombieArm"
+      },
+      "PrimaryJumpActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Spell_Club_JumpAttack_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Club/PA_Spell_Club_JumpAttack"
+      },
+      "PrimarySprintActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_Club_ZombieArm_Sprint_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Club/ZombieArm/PA_Attack_Club_ZombieArm_Sprint"
+      },
+      "PrimaryVisceralActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_Club_Visceral_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Club/PA_Attack_Club_Visceral"
+      },
+      "SecondaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Block_Club_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Abilities/Block/PA_Block_Club"
+      },
+      "SpecialActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_Club_Special_ZombieArm_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Club/ZombieArm/PA_Attack_Club_Special_ZombieArm"
+      },
+      "AnimationPoseType": "EAnimationPoseType::Default",
+      "AnimationPosesSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Idle_Club_Poses'",
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Club/A_PlayerM_Idle_Club_Poses"
+      },
+      "BaseHeldEquipmentPowerLevelRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_PlayerWeaponPowerLevels'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels"
+        },
+        "RowName": "Weapons"
+      },
+      "BaseHeldEquipmentDamageNegationRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_PlayerDamageNegation'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_PlayerDamageNegation"
+        },
+        "RowName": "Club"
+      },
+      "DamageMultiplier": 4.1,
+      "BlockingDamageNegation": 23.0,
+      "DamageTypes": [
+        "DamageType.Physical.Crush"
+      ],
+      "Slot": "ELoadoutSlotStrategy::HeldOnlyRight",
+      "HandPreference": "EHandPreference::Right",
+      "bIsAWeapon": true,
+      "DistanceOffset": 25.0,
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Attack'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Attack"
+      },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "1HZombieClub",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "1HZombieClub",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Club_Zombie.T_Icon_Club_Zombie",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Skeleton/Weapons/Melee/Club_Zombie_1H_01/SM_Club_Zombie_1H_01.SM_Club_Zombie_1H_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 4,
+      "Weight": 15.0,
+      "Category": {
+        "TagName": "Item.Equipment.Weapon.1H.Mace"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Weapon.Melee",
+        "ItemFilter.NoEnchant"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Metal.Chopper.Electric"
+      },
+      "BaseDurability": 1300,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak"
+      },
+      "BuffDatas": [
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemInfo.ST_ItemInfo",
+            "Key": "SpecialEffect",
+            "SourceString": null,
+            "LocalizedString": ""
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "ZombieArmClub.Boon",
+            "SourceString": null,
+            "LocalizedString": ""
+          },
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "bIsMasterworkItem": true,
+      "MasterworkType": "EMasterworkUpgradeType::Vestige",
+      "PersistenceID": "ZUMRukFLXvSUBtSY_HzEPA",
+      "InternalName": "weap_mace_1hzombiemace"
+    }
+  }
+]

@@ -1,0 +1,55 @@
+[
+  {
+    "Type": "JournalEntryRecipeData",
+    "Name": "JOURNAL_Recipes_Armour_Cape_Bramblemead",
+    "Class": "UScriptClass'JournalEntryRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipeData": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Body/RECIPE_Armour_T0_Cape_Bramblemead.RECIPE_Armour_T0_Cape_Bramblemead",
+        "SubPathString": ""
+      },
+      "ItemData": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Cape/ITEM_Cape_Bramblemead.ITEM_Cape_Bramblemead",
+        "SubPathString": ""
+      },
+      "StationTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_CraftingStationsDataTable'",
+          "ObjectPath": "/Game/Gameplay/World/Stations/DT_CraftingStationsDataTable"
+        },
+        "RowName": "CraftingTable"
+      },
+      "bHideSetBonusSection": true,
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "BramblemeadCape",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "BramblemeadCape",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Journal/T_Icon_Journal_SM_M_MED_Cape_Bramblemead.T_Icon_Journal_SM_M_MED_Cape_Bramblemead",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RecipeUnlocked",
+        "UnlockingRecipe": {
+          "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Body/RECIPE_Armour_T0_Cape_Bramblemead.RECIPE_Armour_T0_Cape_Bramblemead",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "jhzaP00aj7dNaUOJRhjqfg",
+      "InternalName": "JOURNAL_Recipes_Armour_Cape_Bramblemead"
+    }
+  }
+]

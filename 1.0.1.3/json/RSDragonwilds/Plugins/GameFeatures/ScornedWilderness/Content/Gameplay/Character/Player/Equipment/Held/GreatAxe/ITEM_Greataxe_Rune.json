@@ -1,0 +1,110 @@
+[
+  {
+    "Type": "HeldEquipmentData",
+    "Name": "ITEM_Greataxe_Rune",
+    "Class": "UScriptClass'HeldEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HeldEquipmentActorClass": {
+        "AssetPathName": "/ScornedWilderness/Gameplay/Character/Player/Equipment/Held/Greataxe/BP_Greataxe_Rune.BP_Greataxe_Rune_C",
+        "SubPathString": ""
+      },
+      "PrimaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_GreatAxe_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/2H_Axe/PA_Attack_GreatAxe"
+      },
+      "PrimaryJumpActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Spell_Greataxe_JumpAttack_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/2H_Axe/PA_Spell_Greataxe_JumpAttack"
+      },
+      "PrimarySprintActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_GreatAxe_Sprint_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/2H_Axe/PA_Attack_GreatAxe_Sprint"
+      },
+      "PrimaryVisceralActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_GreatAxe_Visceral_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/2H_Axe/PA_Attack_GreatAxe_Visceral"
+      },
+      "SecondaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Block_GreatAxe_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Abilities/Block/PA_Block_GreatAxe"
+      },
+      "SpecialActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_Greataxe_Special_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/2H_Axe/PA_Attack_Greataxe_Special"
+      },
+      "AnimationPoseType": "EAnimationPoseType::Default",
+      "AnimationPosesSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Idle_GreatAxe_Poses'",
+        "ObjectPath": "/Game/Art/Animation/PlayerM/GreatAxe/A_PlayerM_Idle_GreatAxe_Poses"
+      },
+      "BaseHeldEquipmentPowerLevelRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_PlayerWeaponPowerLevels'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels"
+        },
+        "RowName": "Weapons"
+      },
+      "BaseHeldEquipmentDamageNegationRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_PlayerDamageNegation'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_PlayerDamageNegation"
+        },
+        "RowName": "Greataxe"
+      },
+      "DamageMultiplier": 9.5,
+      "BlockingDamageNegation": 49.0,
+      "DamageTypes": [
+        "DamageType.Physical.Slash"
+      ],
+      "Slot": "ELoadoutSlotStrategy::HeldTwoHanded",
+      "bIsAWeapon": true,
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Attack'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Attack"
+      },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "RuneGreatAxe",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "RuneGreatAxe",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Icons/T_Icon_Greataxe_Rune_2H_01.T_Icon_Greataxe_Rune_2H_01",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/ScornedWilderness/Art/Skeleton/Weapons/Melee/Greataxe_Rune_2H_01/SM_Greataxe_Rune_2H_01.SM_Greataxe_Rune_2H_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 8,
+      "Weight": 25.0,
+      "Category": {
+        "TagName": "Item.Equipment.Weapon.2H.Axe"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Weapon.Melee"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Metal.ChopperLarge"
+      },
+      "BaseDurability": 1900,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak"
+      },
+      "PersistenceID": "uK4Zskj3RorN4g234QEG1A",
+      "InternalName": "weap_greataxe_rune"
+    }
+  }
+]

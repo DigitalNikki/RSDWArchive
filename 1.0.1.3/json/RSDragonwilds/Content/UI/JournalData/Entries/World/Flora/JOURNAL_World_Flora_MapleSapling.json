@@ -1,0 +1,63 @@
+[
+  {
+    "Type": "JournalEntryWorldData",
+    "Name": "JOURNAL_World_Flora_MapleSapling",
+    "Class": "UScriptClass'JournalEntryWorldData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Locations": [
+        {
+          "LocationText": {
+            "TableId": "/Game/UI/ST_Localization.ST_Localization",
+            "Key": "Ghornfell",
+            "SourceString": null,
+            "LocalizedString": ""
+          },
+          "LocationID": "Ghornfell"
+        }
+      ],
+      "Materials": [
+        {
+          "MaterialID": "Maple Logs",
+          "MaterialItemData": {
+            "ObjectName": "FuelItemData'ITEM_Resources_Wood_Maple'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Wood/ITEM_Resources_Wood_Maple"
+          }
+        }
+      ],
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/World/ST_WorldObjects.ST_WorldObjects",
+        "Key": "MapleSapling",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "MapleSapling",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Journal/T_Icon_Journal_Maple_Sapling.T_Icon_Journal_Maple_Sapling",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::ItemFirstPickup",
+        "UnlockingItemData": {
+          "AssetPathName": "/Game/Gameplay/Items/Resources/Wood/ITEM_Resources_Wood_Maple.ITEM_Resources_Wood_Maple",
+          "SubPathString": ""
+        },
+        "UnlockingInteractionActor": {
+          "AssetPathName": "/Game/Gameplay/World/Trees/BP_BM_Sapling_Ash_01.BP_BM_Sapling_Ash_01_C",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "CWBDnEiVwv-iCxG_qWvt0Q",
+      "InternalName": "JOURNAL_World_Flora_MapleSapling"
+    }
+  }
+]

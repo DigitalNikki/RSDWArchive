@@ -1,0 +1,55 @@
+[
+  {
+    "Type": "JournalEntryRecipeData",
+    "Name": "JOURNAL_Recipes_Armour_Cape_Fellhollow",
+    "Class": "UScriptClass'JournalEntryRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipeData": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Body/RECIPE_Armour_T0_Cape_Fellhollow.RECIPE_Armour_T0_Cape_Fellhollow",
+        "SubPathString": ""
+      },
+      "ItemData": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Cape/ITEM_Cape_Fellhollow.ITEM_Cape_Fellhollow",
+        "SubPathString": ""
+      },
+      "StationTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_CraftingStationsDataTable'",
+          "ObjectPath": "/Game/Gameplay/World/Stations/DT_CraftingStationsDataTable"
+        },
+        "RowName": "ArmourBench"
+      },
+      "bHideSetBonusSection": true,
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "FellhollowCape",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "FellhollowCape",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_Capes_Armour_weapons/Journal/T_icon_Journal_Fellhollow_Cape.T_icon_Journal_Fellhollow_Cape",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RecipeUnlocked",
+        "UnlockingRecipe": {
+          "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Body/RECIPE_Armour_T0_Cape_Fellhollow.RECIPE_Armour_T0_Cape_Fellhollow",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "X2goiksWLrvinoS1M2PBIg",
+      "InternalName": "JOURNAL_Recipes_Armour_Cape_Fellhollow"
+    }
+  }
+]

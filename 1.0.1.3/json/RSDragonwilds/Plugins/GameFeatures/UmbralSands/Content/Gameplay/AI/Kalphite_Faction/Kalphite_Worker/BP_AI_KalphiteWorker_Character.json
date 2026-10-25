@@ -1,0 +1,2023 @@
+[
+  {
+    "Type": "AIAttributesComponent",
+    "Name": "AI Attributes Component",
+    "Outer": {
+      "ObjectName": "BP_AI_KalphiteWorker_Character_C'Default__BP_AI_KalphiteWorker_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.8"
+    },
+    "Class": "UScriptClass'AIAttributesComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DamageTypeAffinities": [
+        {
+          "Key": {
+            "TagName": "DamageType.Physical"
+          },
+          "Value": "EDamageTypeAffinity::Resistance"
+        },
+        {
+          "Key": {
+            "TagName": "DamageType.Ranged"
+          },
+          "Value": "EDamageTypeAffinity::Resistance"
+        },
+        {
+          "Key": {
+            "TagName": "DamageType.Magical.Air"
+          },
+          "Value": "EDamageTypeAffinity::Resistance"
+        },
+        {
+          "Key": {
+            "TagName": "DamageType.Magical.AxtralProjection"
+          },
+          "Value": "EDamageTypeAffinity::Resistance"
+        },
+        {
+          "Key": {
+            "TagName": "DamageType.Magical.Earth"
+          },
+          "Value": "EDamageTypeAffinity::Resistance"
+        },
+        {
+          "Key": {
+            "TagName": "DamageType.Magical.Rocksplosion"
+          },
+          "Value": "EDamageTypeAffinity::Resistance"
+        },
+        {
+          "Key": {
+            "TagName": "DamageType.Magical.Water"
+          },
+          "Value": "EDamageTypeAffinity::Resistance"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "AIAudioManagerComponent",
+    "Name": "AIAudioManager_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_KalphiteWorker_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.6"
+    },
+    "Class": "UScriptClass'AIAudioManagerComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Properties": {
+      "IdleSoundToPlay": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_KaliphiteWorker_Distant_Idle_Call'",
+        "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Distant_Idle/MSS_Cr_Vox_KaliphiteWorker_Distant_Idle_Call"
+      },
+      "CharacterAudioManagerData": {
+        "ObjectName": "CharacterAudioManagerData'ADA_RatCharacterData'",
+        "ObjectPath": "/Game/Audio/DataAssets/Characters/ADA_RatCharacterData"
+      }
+    }
+  },
+  {
+    "Type": "AIDominionGameplayEffectsComponent",
+    "Name": "Gameplay Effects Component",
+    "Outer": {
+      "ObjectName": "BP_AI_KalphiteWorker_Character_C'Default__BP_AI_KalphiteWorker_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.8"
+    },
+    "Class": "UScriptClass'AIDominionGameplayEffectsComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "AiHealthComponent",
+    "Name": "Health Component",
+    "Outer": {
+      "ObjectName": "BP_AI_KalphiteWorker_Character_C'Default__BP_AI_KalphiteWorker_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.8"
+    },
+    "Class": "UScriptClass'AiHealthComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ModifyHealthGE": {
+        "ObjectName": "BlueprintGeneratedClass'GE_ModifyHealth_C'",
+        "ObjectPath": "/Game/Gameplay/GameplayEffects/Effects/GE_ModifyHealth"
+      },
+      "ModifyMaxHealthGE": {
+        "ObjectName": "BlueprintGeneratedClass'GE_ModifyMaxHealth_C'",
+        "ObjectPath": "/Game/Gameplay/GameplayEffects/Effects/GE_ModifyMaxHealth"
+      },
+      "MaxHealth": 50.0
+    }
+  },
+  {
+    "Type": "AiMovementComponent",
+    "Name": "CharMoveComp",
+    "Outer": {
+      "ObjectName": "BP_AI_KalphiteWorker_Character_C'Default__BP_AI_KalphiteWorker_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.8"
+    },
+    "Class": "UScriptClass'AiMovementComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "NavAgentName": "Default",
+      "SpeedFactorIfMovingBackwards": {
+        "ObjectName": "CurveFloat'Curve_MediumBeast_BackwardsAccelleration'",
+        "ObjectPath": "/Game/Gameplay/AI/BeastFaction/MediumBeast/Curve_MediumBeast_BackwardsAccelleration"
+      },
+      "bEnableLocomotionAnimation": true,
+      "MovementAnimationsTable": {
+        "ObjectName": "DataTable'DT_KalphiteWorker_Movement'",
+        "ObjectPath": "/UmbralSands/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/Movement/DT_KalphiteWorker_Movement"
+      },
+      "AlertnessStatesToRotationTable": [
+        {
+          "Key": "EAlertnessState::AMBIENT",
+          "Value": {
+            "ObjectName": "DataTable'DT_KalphiteWorker_Rotation'",
+            "ObjectPath": "/UmbralSands/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/Movement/Turns/DT_KalphiteWorker_Rotation"
+          }
+        },
+        {
+          "Key": "EAlertnessState::TRANSITION_TO_SUSPICIOUS",
+          "Value": {
+            "ObjectName": "DataTable'DT_KalphiteWorker_Rotation'",
+            "ObjectPath": "/UmbralSands/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/Movement/Turns/DT_KalphiteWorker_Rotation"
+          }
+        },
+        {
+          "Key": "EAlertnessState::SUSPICIOUS",
+          "Value": {
+            "ObjectName": "DataTable'DT_KalphiteWorker_Rotation'",
+            "ObjectPath": "/UmbralSands/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/Movement/Turns/DT_KalphiteWorker_Rotation"
+          }
+        },
+        {
+          "Key": "EAlertnessState::TRANSITION_TO_COMBAT",
+          "Value": {
+            "ObjectName": "DataTable'DT_KalphiteWorker_Rotation_Alert'",
+            "ObjectPath": "/UmbralSands/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/Movement/Turns/DT_KalphiteWorker_Rotation_Alert"
+          }
+        },
+        {
+          "Key": "EAlertnessState::COMBAT",
+          "Value": {
+            "ObjectName": "DataTable'DT_KalphiteWorker_Rotation_Alert'",
+            "ObjectPath": "/UmbralSands/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/Movement/Turns/DT_KalphiteWorker_Rotation_Alert"
+          }
+        },
+        {
+          "Key": "EAlertnessState::LOST_TARGET",
+          "Value": {
+            "ObjectName": "DataTable'DT_KalphiteWorker_Rotation_Alert'",
+            "ObjectPath": "/UmbralSands/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/Movement/Turns/DT_KalphiteWorker_Rotation_Alert"
+          }
+        },
+        {
+          "Key": "EAlertnessState::TRANSITION_TO_AMBIENT",
+          "Value": {
+            "ObjectName": "DataTable'DT_KalphiteWorker_Rotation'",
+            "ObjectPath": "/UmbralSands/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/Movement/Turns/DT_KalphiteWorker_Rotation"
+          }
+        }
+      ],
+      "MaxDistanceCoveredByLocomotionAnimation": 800.0,
+      "MinDistanceCoveredByLocomotionAnimation": 50.0,
+      "MaxStepHeight": 35.0,
+      "WalkableFloorAngle": 60.0,
+      "WalkableFloorZ": 0.49999997,
+      "MaxAcceleration": 1200.0,
+      "RotationRate": {
+        "Pitch": 0.0,
+        "Yaw": 220.0,
+        "Roll": 0.0
+      },
+      "bOrientRotationToMovement": true,
+      "NavMovementProperties": {
+        "bUpdateNavAgentWithOwnersCollision": false
+      },
+      "NavAgentProps": {
+        "AgentRadius": 30.0,
+        "AgentHeight": 150.0,
+        "PreferredNavData": {
+          "AssetPathName": "/Script/NavigationSystem.RecastNavMesh",
+          "SubPathString": ""
+        }
+      }
+    }
+  },
+  {
+    "Type": "AiSightSensorPositionComponent",
+    "Name": "Sight Sensor Position Component",
+    "Outer": {
+      "ObjectName": "BP_AI_KalphiteWorker_Character_C'Default__BP_AI_KalphiteWorker_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.8"
+    },
+    "Class": "UScriptClass'AiSightSensorPositionComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_AI_KalphiteWorker_Character_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_AI_KalphiteWorker_Character_C:SimpleConstructionScript_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.49"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_AI_KalphiteWorker_Character_C:InheritableComponentHandler'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.32"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_AI_KalphiteWorker_Character_C:ExecuteUbergraph_BP_AI_KalphiteWorker_Character'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.26"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_DominionAICharacter_C'",
+      "ObjectPath": "/Game/Gameplay/AI/BP_DominionAICharacter"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_AI_KalphiteWorker_Character_C:OnAIKnockdownState_End'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.28"
+      },
+      {
+        "ObjectName": "Function'BP_AI_KalphiteWorker_Character_C:OnAIKnockdownState_Begin'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.27"
+      },
+      {
+        "ObjectName": "Function'BP_AI_KalphiteWorker_Character_C:OnSpawnFailed_0665319441A5533C509CADA81A4A3E84'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.29"
+      },
+      {
+        "ObjectName": "Function'BP_AI_KalphiteWorker_Character_C:OnSpawnSucceeded_0665319441A5533C509CADA81A4A3E84'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.30"
+      },
+      {
+        "ObjectName": "Function'BP_AI_KalphiteWorker_Character_C:Event_SpawnAllyKalphiteWorker'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.25"
+      },
+      {
+        "ObjectName": "Function'BP_AI_KalphiteWorker_Character_C:BP_OnAlertnessStateChanged'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.24"
+      },
+      {
+        "ObjectName": "Function'BP_AI_KalphiteWorker_Character_C:ExecuteUbergraph_BP_AI_KalphiteWorker_Character'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.26"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Object'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Collision_Body",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'BoxComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "LootDrop",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'LootDropComponent'",
+          "ObjectPath": "/Script/Dominion"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_GiantRat_AttackOpportunityComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_GiantRat_AttackOpportunityComponent_C'",
+          "ObjectPath": "/Game/Gameplay/AI/GiantRat/Attacks/BP_GiantRat_AttackOpportunityComponent"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_GiantRat_AiAttackComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_GiantRat_AiAttackComponent_C'",
+          "ObjectPath": "/Game/Gameplay/AI/Components/BP_GiantRat_AiAttackComponent"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_GiantRat_AiCombatModeInitiator",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_GiantRat_AiCombatModeInitiator_C'",
+          "ObjectPath": "/Game/Gameplay/AI/Components/BP_GiantRat_AiCombatModeInitiator"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Targetable",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'TargetableComponent'",
+          "ObjectPath": "/Script/Dominion"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_AiHitPointsComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_AiHitPointsComponent_C'",
+          "ObjectPath": "/Game/Gameplay/AI/Components/BP_AiHitPointsComponent"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_AiAnimationManager",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_AiAnimationManager_C'",
+          "ObjectPath": "/Game/Gameplay/AI/Components/BP_AiAnimationManager"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_AiHitReactionsComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_AiHitReactionsComponent_C'",
+          "ObjectPath": "/Game/Gameplay/AI/Components/BP_AiHitReactionsComponent"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_AiDamageComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_AiDamageComponent_C'",
+          "ObjectPath": "/Game/Gameplay/AI/Components/BP_AiDamageComponent"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_AiDeathComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_AiDeathComponent_C'",
+          "ObjectPath": "/Game/Gameplay/AI/Components/BP_AiDeathComponent"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_AiHealthBarComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_AiHealthBarComponent_C'",
+          "ObjectPath": "/Game/Gameplay/AI/Components/BP_AiHealthBarComponent"
+        }
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "ChanceToSpawnAllies",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "ChanceToSpawnMultipleAllies",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "AllySpawnOffsetDelay",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "AllyCount",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "MaxAllyCount",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "AllySpawnRadius",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      },
+      {
+        "Type": "SoftClassProperty",
+        "Name": "AllyAIClass",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 48,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | UObjectWrapper",
+        "PropertyClass": {
+          "ObjectName": "Class'Class'",
+          "ObjectPath": "/Script/CoreUObject"
+        },
+        "MetaClass": {
+          "ObjectName": "Class'DominionAICharacter'",
+          "ObjectPath": "/Script/Dominion"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "MaxEnemiesToSpawnAlly",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_AI_KalphiteWorker_Character": {
+        "ObjectName": "Function'BP_AI_KalphiteWorker_Character_C:ExecuteUbergraph_BP_AI_KalphiteWorker_Character'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.26"
+      },
+      "BP_OnAlertnessStateChanged": {
+        "ObjectName": "Function'BP_AI_KalphiteWorker_Character_C:BP_OnAlertnessStateChanged'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.24"
+      },
+      "Event_SpawnAllyKalphiteWorker": {
+        "ObjectName": "Function'BP_AI_KalphiteWorker_Character_C:Event_SpawnAllyKalphiteWorker'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.25"
+      },
+      "OnSpawnSucceeded_0665319441A5533C509CADA81A4A3E84": {
+        "ObjectName": "Function'BP_AI_KalphiteWorker_Character_C:OnSpawnSucceeded_0665319441A5533C509CADA81A4A3E84'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.30"
+      },
+      "OnSpawnFailed_0665319441A5533C509CADA81A4A3E84": {
+        "ObjectName": "Function'BP_AI_KalphiteWorker_Character_C:OnSpawnFailed_0665319441A5533C509CADA81A4A3E84'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.29"
+      },
+      "OnAIKnockdownState_Begin": {
+        "ObjectName": "Function'BP_AI_KalphiteWorker_Character_C:OnAIKnockdownState_Begin'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.27"
+      },
+      "OnAIKnockdownState_End": {
+        "ObjectName": "Function'BP_AI_KalphiteWorker_Character_C:OnAIKnockdownState_End'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.28"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_NoExport | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_AI_KalphiteWorker_Character_C'Default__BP_AI_KalphiteWorker_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.8"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Collision_Body_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_KalphiteWorker_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.6"
+    },
+    "Class": "UScriptClass'BoxComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BoxExtent": {
+        "X": 55.0,
+        "Y": 50.0,
+        "Z": 50.0
+      },
+      "bUseSystemDefaultObstacleAreaClass": false,
+      "AreaClassOverride": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_Pawn",
+        "CollisionProfileName": "AiMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Ai",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Player",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile_Arrow",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 55.0
+      }
+    }
+  },
+  {
+    "Type": "BP_AI_KalphiteWorker_Character_C",
+    "Name": "Default__BP_AI_KalphiteWorker_Character_C",
+    "Class": "BlueprintGeneratedClass'1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.BP_AI_KalphiteWorker_Character_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "ChanceToSpawnAllies": 0.5,
+      "ChanceToSpawnMultipleAllies": 0.5,
+      "AllySpawnOffsetDelay": 1.0,
+      "MaxAllyCount": 1,
+      "AllySpawnRadius": 500.0,
+      "AllyAIClass": {
+        "AssetPathName": "/UmbralSands/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.BP_AI_KalphiteWorker_Character_C",
+        "SubPathString": ""
+      },
+      "MaxEnemiesToSpawnAlly": 5
+    }
+  },
+  {
+    "Type": "BP_AiAnimationManager_C",
+    "Name": "BP_AiAnimationManager_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_KalphiteWorker_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.6"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "BP_AiDamageComponent_C",
+    "Name": "BP_AiDamageComponent_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_KalphiteWorker_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.6"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "BP_AiDeathComponent_C",
+    "Name": "BP_AiDeathComponent_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_KalphiteWorker_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.6"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "BP_AiHealthBarComponent_C",
+    "Name": "BP_AiHealthBarComponent_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_KalphiteWorker_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.6"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "BP_AiHitPointsComponent_C",
+    "Name": "BP_AiHitPointsComponent_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_KalphiteWorker_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.6"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "BP_AiHitReactionsComponent_C",
+    "Name": "BP_AiHitReactionsComponent_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_KalphiteWorker_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.6"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "BP_GiantRat_AiAttackComponent_C",
+    "Name": "BP_GiantRat_AiAttackComponent_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_KalphiteWorker_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.6"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "BP_GiantRat_AiCombatModeInitiator_C",
+    "Name": "BP_GiantRat_AiCombatModeInitiator_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_KalphiteWorker_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.6"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "BP_GiantRat_AttackOpportunityComponent_C",
+    "Name": "BP_GiantRat_AttackOpportunityComponent_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_KalphiteWorker_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.6"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "BP_TagActivatedFX_C",
+    "Name": "TagActivatedFX",
+    "Outer": {
+      "ObjectName": "BP_AI_KalphiteWorker_Character_C'Default__BP_AI_KalphiteWorker_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.8"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Outer": {
+      "ObjectName": "BP_AI_KalphiteWorker_Character_C'Default__BP_AI_KalphiteWorker_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.8"
+    },
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CapsuleHalfHeight": 55.0,
+      "CapsuleRadius": 55.0,
+      "bDynamicObstacle": false,
+      "bUseSystemDefaultObstacleAreaClass": false,
+      "AreaClassOverride": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_GameTraceChannel3",
+        "CollisionProfileName": "Ai",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Player",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Projectile_Arrow",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "TriggerVolume",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "Type": "CombatModeArea",
+    "Name": "CombatModeArea_0",
+    "Outer": {
+      "ObjectName": "BP_GiantRat_AiCombatModeInitiator_C'BP_AI_KalphiteWorker_Character_C:BP_GiantRat_AiCombatModeInitiator_GEN_VARIABLE'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.16"
+    },
+    "Class": "UScriptClass'CombatModeArea'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Shape": {
+        "ObjectName": "DominionShape_Sphere'BP_AI_KalphiteWorker_Character_C:BP_GiantRat_AiCombatModeInitiator_GEN_VARIABLE.CombatModeArea_0.DominionShape_Sphere_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.22"
+      }
+    }
+  },
+  {
+    "Type": "DominionAIActionsComponent",
+    "Name": "DominionAIActionsComponent",
+    "Outer": {
+      "ObjectName": "BP_AI_KalphiteWorker_Character_C'Default__BP_AI_KalphiteWorker_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.8"
+    },
+    "Class": "UScriptClass'DominionAIActionsComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "DominionShape_Sphere",
+    "Name": "DominionShape_Sphere_0",
+    "Outer": {
+      "ObjectName": "CombatModeArea'BP_AI_KalphiteWorker_Character_C:BP_GiantRat_AiCombatModeInitiator_GEN_VARIABLE.CombatModeArea_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.20"
+    },
+    "Class": "UScriptClass'DominionShape_Sphere'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "EnvironmentComponent",
+    "Name": "Environment Component",
+    "Outer": {
+      "ObjectName": "BP_AI_KalphiteWorker_Character_C'Default__BP_AI_KalphiteWorker_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.8"
+    },
+    "Class": "UScriptClass'EnvironmentComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "Function",
+    "Name": "BP_OnAlertnessStateChanged",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_KalphiteWorker_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.6"
+    },
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Object'DominionAICharacter:BP_OnAlertnessStateChanged'",
+      "ObjectPath": "/Script/Dominion"
+    },
+    "ChildProperties": [
+      {
+        "Type": "EnumProperty",
+        "Name": "State",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Enum": {
+          "ObjectName": "Object'EAlertnessState'",
+          "ObjectPath": "/Script/Dominion"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Event_SpawnAllyKalphiteWorker",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_KalphiteWorker_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.6"
+    },
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_AI_KalphiteWorker_Character",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_KalphiteWorker_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.6"
+    },
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "SignatureFunction": {
+          "ObjectName": "Object'OnDomAISpawnedDelegate__DelegateSignature'",
+          "ObjectPath": "/Script/Dominion"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetActorLocation_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "Object'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Temp_object_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'DominionAICharacter'",
+          "ObjectPath": "/Script/Dominion"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_GetAIPowerLevel_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsBP_AI_Kalphite_Worker_Character",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_AI_KalphiteWorker_Character_C'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.6"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasAuthority_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetClosestPlayer_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'DominionPlayerCharacter'",
+          "ObjectPath": "/Script/Dominion"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_CustomEvent_SpawnedAI",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'DominionAICharacter'",
+          "ObjectPath": "/Script/Dominion"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_Event_State",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Object'EAlertnessState'",
+          "ObjectPath": "/Script/Dominion"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_1",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "SignatureFunction": {
+          "ObjectName": "Object'OnDomAISpawnedDelegate__DelegateSignature'",
+          "ObjectPath": "/Script/Dominion"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_AsyncDomSpawnAI_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'AsyncAction_DomSpawnAI'",
+          "ObjectPath": "/Script/Dominion"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetRandomStream_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "Object'RandomStream'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_RandomBoolWithWeightFromStream_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetRandomStream_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "Object'RandomStream'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_RandomBoolWithWeightFromStream_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetActorLocation_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "Object'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_GetAiInRangeAccordingToAttitude_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_GetAiInRangeAccordingToAttitude_ReturnValue",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'DominionAICharacter'",
+            "ObjectPath": "/Script/Dominion"
+          }
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_CustomEvent_SpawnedAI_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'DominionAICharacter'",
+          "ObjectPath": "/Script/Dominion"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_RandomBoolWithWeightFromStream_Weight_ImplicitCast",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Delay_Duration_ImplicitCast",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_RandomBoolWithWeightFromStream_Weight_ImplicitCast_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnAIKnockdownState_Begin",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_KalphiteWorker_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.6"
+    },
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'BP_DominionAICharacter_C:OnAIKnockdownState_Begin'",
+      "ObjectPath": "/Game/Gameplay/AI/BP_DominionAICharacter"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeLiteralGameplayTag_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "Object'GameplayTag'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnAIKnockdownState_End",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_KalphiteWorker_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.6"
+    },
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'BP_DominionAICharacter_C:OnAIKnockdownState_End'",
+      "ObjectPath": "/Game/Gameplay/AI/BP_DominionAICharacter"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeLiteralGameplayTag_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "Object'GameplayTag'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnSpawnFailed_0665319441A5533C509CADA81A4A3E84",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_KalphiteWorker_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.6"
+    },
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "SpawnedAI",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'DominionAICharacter'",
+          "ObjectPath": "/Script/Dominion"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnSpawnSucceeded_0665319441A5533C509CADA81A4A3E84",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_KalphiteWorker_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.6"
+    },
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "SpawnedAI",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'DominionAICharacter'",
+          "ObjectPath": "/Script/Dominion"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "GameplayTagsComponent",
+    "Name": "GameplayTagsComponent",
+    "Outer": {
+      "ObjectName": "BP_AI_KalphiteWorker_Character_C'Default__BP_AI_KalphiteWorker_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.8"
+    },
+    "Class": "UScriptClass'GameplayTagsComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_KalphiteWorker_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.6"
+    },
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'AIAudioManagerComponent'",
+            "ObjectPath": "/Script/Dominion"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "AIAudioManagerComponent'BP_AI_KalphiteWorker_Character_C:AIAudioManager_GEN_VARIABLE'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.1"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_DominionAICharacter_C'",
+              "ObjectPath": "/Game/Gameplay/AI/BP_DominionAICharacter"
+            },
+            "SCSVariableName": "AIAudioManager",
+            "AssociatedGuid": "A67185B4-4154555F-CC1F3980-144D6B0F"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "LootDropComponent",
+    "Name": "LootDrop_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_KalphiteWorker_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.6"
+    },
+    "Class": "UScriptClass'LootDropComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EnemyTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "CompositeDataTable'DT_CompositeEnemyLootDropTable'",
+          "ObjectPath": "/Game/Gameplay/Items/LootDropTables/DT_CompositeEnemyLootDropTable"
+        },
+        "RowName": "Kalphite_Worker"
+      },
+      "DefaultResourceClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_RuntimeSpawnedWorldItem_C'",
+        "ObjectPath": "/Game/Gameplay/WorldItems/BP_RuntimeSpawnedWorldItem"
+      }
+    }
+  },
+  {
+    "Type": "MeshOverlayMaterialManager",
+    "Name": "MeshOverlayMaterialManager",
+    "Outer": {
+      "ObjectName": "BP_AI_KalphiteWorker_Character_C'Default__BP_AI_KalphiteWorker_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.8"
+    },
+    "Class": "UScriptClass'MeshOverlayMaterialManager'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_KalphiteWorker_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.6"
+    },
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_AI_KalphiteWorker_Character_C:SimpleConstructionScript_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.49"
+    },
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_AI_KalphiteWorker_Character_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.35"
+      },
+      "VariableGUID": "1D2A580A-41ADCDDC-5DC619AA-4E66816F",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_AI_KalphiteWorker_Character_C:SimpleConstructionScript_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.49"
+    },
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_AiAnimationManager_C'",
+        "ObjectPath": "/Game/Gameplay/AI/Components/BP_AiAnimationManager"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_AiAnimationManager_C'BP_AI_KalphiteWorker_Character_C:BP_AiAnimationManager_GEN_VARIABLE'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.9"
+      },
+      "VariableGUID": "2B4DEC54-426CE68D-A11FA9BA-B463D2A0",
+      "InternalVariableName": "BP_AiAnimationManager"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_AI_KalphiteWorker_Character_C:SimpleConstructionScript_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.49"
+    },
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_AiHitPointsComponent_C'",
+        "ObjectPath": "/Game/Gameplay/AI/Components/BP_AiHitPointsComponent"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_AiHitPointsComponent_C'BP_AI_KalphiteWorker_Character_C:BP_AiHitPointsComponent_GEN_VARIABLE'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.13"
+      },
+      "VariableGUID": "C5793BCD-4BCF5388-08EE2897-9B88E849",
+      "InternalVariableName": "BP_AiHitPointsComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_11",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_AI_KalphiteWorker_Character_C:SimpleConstructionScript_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.49"
+    },
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'TargetableComponent'",
+        "ObjectPath": "/Script/Dominion"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "TargetableComponent'BP_AI_KalphiteWorker_Character_C:Targetable_GEN_VARIABLE'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.51"
+      },
+      "ParentComponentOrVariableName": "CollisionCylinder",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "71A9748B-4F0BDB36-08C2E3A6-C7C538B6",
+      "InternalVariableName": "Targetable"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_14",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_AI_KalphiteWorker_Character_C:SimpleConstructionScript_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.49"
+    },
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_GiantRat_AiCombatModeInitiator_C'",
+        "ObjectPath": "/Game/Gameplay/AI/Components/BP_GiantRat_AiCombatModeInitiator"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_GiantRat_AiCombatModeInitiator_C'BP_AI_KalphiteWorker_Character_C:BP_GiantRat_AiCombatModeInitiator_GEN_VARIABLE'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.16"
+      },
+      "VariableGUID": "FC5E5473-41058BBF-429D1796-7E38A3A7",
+      "InternalVariableName": "BP_GiantRat_AiCombatModeInitiator"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_16",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_AI_KalphiteWorker_Character_C:SimpleConstructionScript_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.49"
+    },
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_GiantRat_AiAttackComponent_C'",
+        "ObjectPath": "/Game/Gameplay/AI/Components/BP_GiantRat_AiAttackComponent"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_GiantRat_AiAttackComponent_C'BP_AI_KalphiteWorker_Character_C:BP_GiantRat_AiAttackComponent_GEN_VARIABLE'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.15"
+      },
+      "VariableGUID": "2C1B397C-4EAB0167-E41569AB-DE3E8A32",
+      "InternalVariableName": "BP_GiantRat_AiAttackComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_17",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_AI_KalphiteWorker_Character_C:SimpleConstructionScript_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.49"
+    },
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_GiantRat_AttackOpportunityComponent_C'",
+        "ObjectPath": "/Game/Gameplay/AI/GiantRat/Attacks/BP_GiantRat_AttackOpportunityComponent"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_GiantRat_AttackOpportunityComponent_C'BP_AI_KalphiteWorker_Character_C:BP_GiantRat_AttackOpportunityComponent_GEN_VARIABLE'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.17"
+      },
+      "VariableGUID": "CC7A7A00-410634C4-4B3B2394-C7191460",
+      "InternalVariableName": "BP_GiantRat_AttackOpportunityComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_AI_KalphiteWorker_Character_C:SimpleConstructionScript_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.49"
+    },
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BoxComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BoxComponent'BP_AI_KalphiteWorker_Character_C:Collision_Body_GEN_VARIABLE'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.7"
+      },
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "184F8D8B-4590B519-526F29A7-2C13C8BB",
+      "InternalVariableName": "Collision_Body"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_AI_KalphiteWorker_Character_C:SimpleConstructionScript_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.49"
+    },
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_AiHealthBarComponent_C'",
+        "ObjectPath": "/Game/Gameplay/AI/Components/BP_AiHealthBarComponent"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_AiHealthBarComponent_C'BP_AI_KalphiteWorker_Character_C:BP_AiHealthBarComponent_GEN_VARIABLE'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.12"
+      },
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "6A8FB227-4EDA65EE-1F2AF5A1-22343270",
+      "InternalVariableName": "BP_AiHealthBarComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_AI_KalphiteWorker_Character_C:SimpleConstructionScript_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.49"
+    },
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_AiDeathComponent_C'",
+        "ObjectPath": "/Game/Gameplay/AI/Components/BP_AiDeathComponent"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_AiDeathComponent_C'BP_AI_KalphiteWorker_Character_C:BP_AiDeathComponent_GEN_VARIABLE'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.11"
+      },
+      "VariableGUID": "B4B3B570-4973C0DC-F54169BF-84C0559D",
+      "InternalVariableName": "BP_AiDeathComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_AI_KalphiteWorker_Character_C:SimpleConstructionScript_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.49"
+    },
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_AiDamageComponent_C'",
+        "ObjectPath": "/Game/Gameplay/AI/Components/BP_AiDamageComponent"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_AiDamageComponent_C'BP_AI_KalphiteWorker_Character_C:BP_AiDamageComponent_GEN_VARIABLE'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.10"
+      },
+      "VariableGUID": "95C62570-47762DE3-2D5FFB8A-D46C7610",
+      "InternalVariableName": "BP_AiDamageComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_AI_KalphiteWorker_Character_C:SimpleConstructionScript_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.49"
+    },
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_AiHitReactionsComponent_C'",
+        "ObjectPath": "/Game/Gameplay/AI/Components/BP_AiHitReactionsComponent"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_AiHitReactionsComponent_C'BP_AI_KalphiteWorker_Character_C:BP_AiHitReactionsComponent_GEN_VARIABLE'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.14"
+      },
+      "VariableGUID": "1F3CE235-4204EADA-59885CA3-5459544D",
+      "InternalVariableName": "BP_AiHitReactionsComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_AI_KalphiteWorker_Character_C:SimpleConstructionScript_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.49"
+    },
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'LootDropComponent'",
+        "ObjectPath": "/Script/Dominion"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "LootDropComponent'BP_AI_KalphiteWorker_Character_C:LootDrop_GEN_VARIABLE'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.33"
+      },
+      "VariableGUID": "FE3FDA08-48783E6A-2DBB2D93-E9F53BEA",
+      "InternalVariableName": "LootDrop"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_KalphiteWorker_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.6"
+    },
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_AI_KalphiteWorker_Character_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.44"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AI_KalphiteWorker_Character_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.45"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AI_KalphiteWorker_Character_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.46"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AI_KalphiteWorker_Character_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.47"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AI_KalphiteWorker_Character_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.37"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AI_KalphiteWorker_Character_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.38"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AI_KalphiteWorker_Character_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.39"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AI_KalphiteWorker_Character_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.40"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AI_KalphiteWorker_Character_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.41"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AI_KalphiteWorker_Character_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.42"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AI_KalphiteWorker_Character_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.48"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AI_KalphiteWorker_Character_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.43"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_AI_KalphiteWorker_Character_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.44"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AI_KalphiteWorker_Character_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.45"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AI_KalphiteWorker_Character_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.46"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AI_KalphiteWorker_Character_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.47"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AI_KalphiteWorker_Character_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.37"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AI_KalphiteWorker_Character_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.38"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AI_KalphiteWorker_Character_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.39"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AI_KalphiteWorker_Character_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.40"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AI_KalphiteWorker_Character_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.41"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AI_KalphiteWorker_Character_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.42"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AI_KalphiteWorker_Character_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.48"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AI_KalphiteWorker_Character_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.43"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_AI_KalphiteWorker_Character_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.36"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "CharacterMesh0",
+    "Outer": {
+      "ObjectName": "BP_AI_KalphiteWorker_Character_C'Default__BP_AI_KalphiteWorker_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.8"
+    },
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'APB_Kalphite_Worker_C'",
+        "ObjectPath": "/UmbralSands/Skeleton/NPC/Insectoid/Kalphite_Worker_01/APB_Kalphite_Worker"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_Kalphite_Worker_01'",
+        "ObjectPath": "/UmbralSands/Art/Skeleton/NPC/Insectoid/Kalphite_Worker_01/SK_Kalphite_Worker_01"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SK_Kalphite_Worker_01'",
+        "ObjectPath": "/UmbralSands/Art/Skeleton/NPC/Insectoid/Kalphite_Worker_01/SK_Kalphite_Worker_01"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "CanCharacterStepUpOn": "ECanBeCharacterBase::ECB_No",
+      "BodyInstance": {
+        "CollisionProfileName": "AiMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Ai",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Player",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile_Arrow",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        }
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_AI_KalphiteWorker_Character_C:CollisionCylinder'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.19"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -56.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "TargetableComponent",
+    "Name": "Targetable_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_KalphiteWorker_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.6"
+    },
+    "Class": "UScriptClass'TargetableComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TargetingDistance": 5000.0
+    }
+  },
+  {
+    "Type": "TrackedStatusEffectInstance",
+    "Name": "TrackedStatusEffectInstance_0",
+    "Outer": {
+      "ObjectName": "TrackedStatusEffectsComponent'Default__BP_AI_KalphiteWorker_Character_C:Tracked Status Effects Component'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.59"
+    },
+    "Class": "UScriptClass'TrackedStatusEffectInstance'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TrackedStatusEffectInstance",
+    "Name": "TrackedStatusEffectInstance_1",
+    "Outer": {
+      "ObjectName": "TrackedStatusEffectsComponent'Default__BP_AI_KalphiteWorker_Character_C:Tracked Status Effects Component'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.59"
+    },
+    "Class": "UScriptClass'TrackedStatusEffectInstance'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TrackedStatusEffectInstanceBleeding",
+    "Name": "TrackedStatusEffectInstanceBleeding_0",
+    "Outer": {
+      "ObjectName": "TrackedStatusEffectsComponent'Default__BP_AI_KalphiteWorker_Character_C:Tracked Status Effects Component'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.59"
+    },
+    "Class": "UScriptClass'TrackedStatusEffectInstanceBleeding'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TrackedStatusEffectInstanceBurning",
+    "Name": "TrackedStatusEffectInstanceBurning_0",
+    "Outer": {
+      "ObjectName": "TrackedStatusEffectsComponent'Default__BP_AI_KalphiteWorker_Character_C:Tracked Status Effects Component'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.59"
+    },
+    "Class": "UScriptClass'TrackedStatusEffectInstanceBurning'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TrackedStatusEffectInstancePoison",
+    "Name": "TrackedStatusEffectInstancePoison_0",
+    "Outer": {
+      "ObjectName": "TrackedStatusEffectsComponent'Default__BP_AI_KalphiteWorker_Character_C:Tracked Status Effects Component'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.59"
+    },
+    "Class": "UScriptClass'TrackedStatusEffectInstancePoison'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TrackedStatusEffectInstanceSlow",
+    "Name": "TrackedStatusEffectInstanceSlow_0",
+    "Outer": {
+      "ObjectName": "TrackedStatusEffectsComponent'Default__BP_AI_KalphiteWorker_Character_C:Tracked Status Effects Component'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.59"
+    },
+    "Class": "UScriptClass'TrackedStatusEffectInstanceSlow'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TrackedStatusEffectInstanceSlowBuildup",
+    "Name": "TrackedStatusEffectInstanceSlowBuildup_0",
+    "Outer": {
+      "ObjectName": "TrackedStatusEffectsComponent'Default__BP_AI_KalphiteWorker_Character_C:Tracked Status Effects Component'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.59"
+    },
+    "Class": "UScriptClass'TrackedStatusEffectInstanceSlowBuildup'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TrackedStatusEffectsComponent",
+    "Name": "Tracked Status Effects Component",
+    "Outer": {
+      "ObjectName": "BP_AI_KalphiteWorker_Character_C'Default__BP_AI_KalphiteWorker_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.8"
+    },
+    "Class": "UScriptClass'TrackedStatusEffectsComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TrackedStatusEffectInstances": [
+        {
+          "ObjectName": "TrackedStatusEffectInstancePoison'Default__BP_AI_KalphiteWorker_Character_C:Tracked Status Effects Component.TrackedStatusEffectInstancePoison_0'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.56"
+        },
+        {
+          "ObjectName": "TrackedStatusEffectInstanceBurning'Default__BP_AI_KalphiteWorker_Character_C:Tracked Status Effects Component.TrackedStatusEffectInstanceBurning_0'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.55"
+        },
+        {
+          "ObjectName": "TrackedStatusEffectInstanceBleeding'Default__BP_AI_KalphiteWorker_Character_C:Tracked Status Effects Component.TrackedStatusEffectInstanceBleeding_0'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.54"
+        },
+        {
+          "ObjectName": "TrackedStatusEffectInstanceSlow'Default__BP_AI_KalphiteWorker_Character_C:Tracked Status Effects Component.TrackedStatusEffectInstanceSlow_0'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.57"
+        },
+        {
+          "ObjectName": "TrackedStatusEffectInstanceSlowBuildup'Default__BP_AI_KalphiteWorker_Character_C:Tracked Status Effects Component.TrackedStatusEffectInstanceSlowBuildup_0'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.58"
+        },
+        {
+          "ObjectName": "TrackedStatusEffectInstance'Default__BP_AI_KalphiteWorker_Character_C:Tracked Status Effects Component.TrackedStatusEffectInstance_0'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.52"
+        },
+        {
+          "ObjectName": "TrackedStatusEffectInstance'Default__BP_AI_KalphiteWorker_Character_C:Tracked Status Effects Component.TrackedStatusEffectInstance_1'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Kalphite_Faction/Kalphite_Worker/BP_AI_KalphiteWorker_Character.53"
+        }
+      ]
+    }
+  }
+]

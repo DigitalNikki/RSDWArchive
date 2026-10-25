@@ -1,0 +1,244 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_OreNode_Limestone_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_OreNode_Limestone_C:SimpleConstructionScript_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/World/Mining/Mineral/BP_OreNode_Limestone.9"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_OreNode_Limestone_C:InheritableComponentHandler'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/World/Mining/Mineral/BP_OreNode_Limestone.4"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MiningRock_Base_C'",
+      "ObjectPath": "/Game/Gameplay/World/Mining/Rocks/BP_MiningRock_Base"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_NoExport | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_OreNode_Limestone_C'Default__BP_OreNode_Limestone_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/World/Mining/Mineral/BP_OreNode_Limestone.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_OreNode_Limestone_C",
+    "Name": "Default__BP_OreNode_Limestone_C",
+    "Class": "BlueprintGeneratedClass'1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/World/Mining/Mineral/BP_OreNode_Limestone.BP_OreNode_Limestone_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "BuildingQueryBoxComponent",
+    "Name": "BuildingQueryBoxComponent",
+    "Outer": {
+      "ObjectName": "BP_OreNode_Limestone_C'Default__BP_OreNode_Limestone_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/World/Mining/Mineral/BP_OreNode_Limestone.1"
+    },
+    "Class": "UScriptClass'BuildingQueryBoxComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BoxExtent": {
+        "X": 69.02891,
+        "Y": 82.83909,
+        "Z": 74.74597
+      },
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'Default__BP_OreNode_Limestone_C:RootStaticMeshComponent'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/World/Mining/Mineral/BP_OreNode_Limestone.10"
+      },
+      "RelativeLocation": {
+        "X": -0.71875095,
+        "Y": 13.398438,
+        "Z": 38.736977
+      },
+      "RelativeScale3D": {
+        "X": 1.59,
+        "Y": 1.39,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "CameraShakeOnDamageComponent",
+    "Name": "CameraShakeOnDamageComponent",
+    "Outer": {
+      "ObjectName": "BP_OreNode_Limestone_C'Default__BP_OreNode_Limestone_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/World/Mining/Mineral/BP_OreNode_Limestone.1"
+    },
+    "Class": "UScriptClass'CameraShakeOnDamageComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_OreNode_Limestone_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/World/Mining/Mineral/BP_OreNode_Limestone.0"
+    },
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "ItemDropComponent",
+    "Name": "ItemDropOnDestructionComponent",
+    "Outer": {
+      "ObjectName": "BP_OreNode_Limestone_C'Default__BP_OreNode_Limestone_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/World/Mining/Mineral/BP_OreNode_Limestone.1"
+    },
+    "Class": "UScriptClass'ItemDropComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemActorClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_RuntimeSpawnedWorldItem_C'",
+        "ObjectPath": "/Game/Gameplay/WorldItems/BP_RuntimeSpawnedWorldItem"
+      },
+      "LaunchSpeed": 200.0,
+      "ItemsToDrop": [
+        {
+          "ItemDataClass": {
+            "AssetPathName": "/DowdunReach/Gameplay/Items/Mineral/ITEM_Resources_Limestone.ITEM_Resources_Limestone",
+            "SubPathString": ""
+          },
+          "MinToDrop": 8,
+          "MaxToDrop": 12,
+          "MaximumGrouping": 1,
+          "ProbabilityOfDrop": 1.0,
+          "RequiredTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ProbabilityModifierAttribute": null,
+          "ExtraDropPercentageForPlayerAmount": []
+        }
+      ],
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'Default__BP_OreNode_Limestone_C:RootStaticMeshComponent'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/World/Mining/Mineral/BP_OreNode_Limestone.10"
+      }
+    }
+  },
+  {
+    "Type": "ResourceRespawnComponent",
+    "Name": "RespawnComponent",
+    "Outer": {
+      "ObjectName": "BP_OreNode_Limestone_C'Default__BP_OreNode_Limestone_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/World/Mining/Mineral/BP_OreNode_Limestone.1"
+    },
+    "Class": "UScriptClass'ResourceRespawnComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_OreNode_Limestone_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/World/Mining/Mineral/BP_OreNode_Limestone.0"
+    },
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_OreNode_Limestone_C:SimpleConstructionScript_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/World/Mining/Mineral/BP_OreNode_Limestone.9"
+    },
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_OreNode_Limestone_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/World/Mining/Mineral/BP_OreNode_Limestone.7"
+      },
+      "VariableGUID": "421F3B73-48DD86EB-ACD6079C-D887A0F7",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_OreNode_Limestone_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/World/Mining/Mineral/BP_OreNode_Limestone.0"
+    },
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_OreNode_Limestone_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/World/Mining/Mineral/BP_OreNode_Limestone.8"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "RootStaticMeshComponent",
+    "Outer": {
+      "ObjectName": "BP_OreNode_Limestone_C'Default__BP_OreNode_Limestone_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/World/Mining/Mineral/BP_OreNode_Limestone.1"
+    },
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Limestone_Boulder_01'",
+        "ObjectPath": "/DowdunReach/Art/Item/Resources/Limestone/SM_Limestone_Boulder_01"
+      },
+      "bEvaluateWorldPositionOffsetInRayTracing": true,
+      "OverrideMaterials": [
+        null
+      ]
+    }
+  },
+  {
+    "Type": "WorldActorDamageComponent",
+    "Name": "DamageComponent",
+    "Outer": {
+      "ObjectName": "BP_OreNode_Limestone_C'Default__BP_OreNode_Limestone_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/World/Mining/Mineral/BP_OreNode_Limestone.1"
+    },
+    "Class": "UScriptClass'WorldActorDamageComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DamageModifiers": [
+        {
+          "ObjectName": "BP_DamageModifier_SpecificWeapon_C'DA_PickaxeOnly_Tier6'",
+          "ObjectPath": "/Game/Gameplay/DamageModifiers/DA_PickaxeOnly_Tier6"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "WorldActorHealthComponent",
+    "Name": "HealthComponent",
+    "Outer": {
+      "ObjectName": "BP_OreNode_Limestone_C'Default__BP_OreNode_Limestone_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/World/Mining/Mineral/BP_OreNode_Limestone.1"
+    },
+    "Class": "UScriptClass'WorldActorHealthComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaxHealth": 400.0
+    }
+  }
+]

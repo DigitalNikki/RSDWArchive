@@ -1,0 +1,329 @@
+[
+  {
+    "Type": "ConversationChoiceNode",
+    "Name": "ConversationChoiceNode_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeB_Vendor'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeB_Tasks/QF_UmS_MainQuest_TribeB_Vendor.2"
+    },
+    "Class": "UScriptClass'ConversationChoiceNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultChoiceDisplayText": {
+        "TableId": "/UmbralSands/Gameplay/Quests/UmS_MainQuest/ST_UmS_MainQuest.ST_UmS_MainQuest",
+        "Key": "Open.Shop",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "ConversationChoiceNode",
+    "Name": "ConversationChoiceNode_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeB_Vendor'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeB_Tasks/QF_UmS_MainQuest_TribeB_Vendor.2"
+    },
+    "Class": "UScriptClass'ConversationChoiceNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultChoiceDisplayText": {
+        "TableId": "/UmbralSands/Gameplay/Quests/UmS_MainQuest/ST_UmS_MainQuest.ST_UmS_MainQuest",
+        "Key": "Step.Away",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "ConversationDatabase",
+    "Name": "QF_UmS_MainQuest_TribeB_Vendor",
+    "Class": "UScriptClass'ConversationDatabase'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CompilerVersion": 2,
+      "ReachableNodeMap": [
+        {
+          "Key": "5C71876D-4FA2975A-13F32D91-437A1A4C",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_UmS_MainQuest_TribeB_Vendor:ConversationEntryPointNode_6'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeB_Tasks/QF_UmS_MainQuest_TribeB_Vendor.3"
+          }
+        },
+        {
+          "Key": "0400C457-4E12E6AE-E2BAE18C-A6F03C1A",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MainQuest_TribeB_Vendor:QFT_Blank_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeB_Tasks/QF_UmS_MainQuest_TribeB_Vendor.15"
+          }
+        },
+        {
+          "Key": "0D528696-401931BF-3C947896-E7F7C2A9",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_UmS_MainQuest_TribeB_Vendor:QFT_PromptMessage_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeB_Tasks/QF_UmS_MainQuest_TribeB_Vendor.17"
+          }
+        },
+        {
+          "Key": "11B93697-4F701D32-A15698B7-8360CED4",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MainQuest_TribeB_Vendor:QFT_Blank_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeB_Tasks/QF_UmS_MainQuest_TribeB_Vendor.11"
+          }
+        },
+        {
+          "Key": "8A740A37-43864DF7-2DA37786-DC98E630",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MainQuest_TribeB_Vendor:QFT_Blank_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeB_Tasks/QF_UmS_MainQuest_TribeB_Vendor.10"
+          }
+        },
+        {
+          "Key": "3AFC3EA6-4872DE04-1A7327A5-1A5A8B49",
+          "Value": {
+            "ObjectName": "QFT_SwitchToShop_C'QF_UmS_MainQuest_TribeB_Vendor:QFT_SwitchToShop_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeB_Tasks/QF_UmS_MainQuest_TribeB_Vendor.18"
+          }
+        },
+        {
+          "Key": "EE074C36-4C5E8A6F-4121C687-CEDA306C",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MainQuest_TribeB_Vendor:QFT_Blank_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeB_Tasks/QF_UmS_MainQuest_TribeB_Vendor.14"
+          }
+        },
+        {
+          "Key": "AED3C6BE-48C214F3-62A7A8A3-8CEFE350",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MainQuest_TribeB_Vendor:QFT_Blank_C_11'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeB_Tasks/QF_UmS_MainQuest_TribeB_Vendor.13"
+          }
+        },
+        {
+          "Key": "8747A5BF-4536B22B-C9741EBF-0A3BE437",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MainQuest_TribeB_Vendor:QFT_Blank_C_10'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeB_Tasks/QF_UmS_MainQuest_TribeB_Vendor.12"
+          }
+        },
+        {
+          "Key": "309A2F69-4A6903AF-3462138E-014ABB67",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_UmS_MainQuest_TribeB_Vendor:QFT_PromptMessage_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeB_Tasks/QF_UmS_MainQuest_TribeB_Vendor.16"
+          }
+        }
+      ],
+      "EntryTags": [
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.UmS_MainQuest.TribeBGarou.Vendor"
+          },
+          "DestinationList": [
+            "5C71876D-4FA2975A-13F32D91-437A1A4C"
+          ],
+          "EntryIdentifier": ""
+        }
+      ],
+      "InternalNodeIds": [
+        "5C71876D-4FA2975A-13F32D91-437A1A4C",
+        "0400C457-4E12E6AE-E2BAE18C-A6F03C1A",
+        "0D528696-401931BF-3C947896-E7F7C2A9",
+        "11B93697-4F701D32-A15698B7-8360CED4",
+        "8A740A37-43864DF7-2DA37786-DC98E630",
+        "3AFC3EA6-4872DE04-1A7327A5-1A5A8B49",
+        "EE074C36-4C5E8A6F-4121C687-CEDA306C",
+        "AED3C6BE-48C214F3-62A7A8A3-8CEFE350",
+        "8747A5BF-4536B22B-C9741EBF-0A3BE437",
+        "309A2F69-4A6903AF-3462138E-014ABB67"
+      ]
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeB_Vendor'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeB_Tasks/QF_UmS_MainQuest_TribeB_Vendor.2"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.UmS_MainQuest.TribeBGarou.Vendor"
+      },
+      "OutputConnections": [
+        "EE074C36-4C5E8A6F-4121C687-CEDA306C",
+        "0400C457-4E12E6AE-E2BAE18C-A6F03C1A"
+      ],
+      "Compiled_NodeGUID": "5C71876D-4FA2975A-13F32D91-437A1A4C"
+    }
+  },
+  {
+    "Type": "DialogueBarkSideEffectNode",
+    "Name": "DialogueBarkSideEffectNode_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeB_Vendor'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeB_Tasks/QF_UmS_MainQuest_TribeB_Vendor.2"
+    },
+    "Class": "UScriptClass'DialogueBarkSideEffectNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BarkRequestData": {
+        "BarkCategory": "EBarkCategory::Generic",
+        "BarkEmotion": {
+          "TagName": "Audio.Dialogue.Positive.Encouraging"
+        },
+        "EmotionSettings": {
+          "bAllowOnlyExactMatches": true,
+          "bAllowNeutralEmotions": false
+        }
+      },
+      "SpeakerTag": {
+        "TagName": "QuestFlow.Participant.MoonGarou.TribeB.Shopkeeper"
+      }
+    }
+  },
+  {
+    "Type": "DialogueBarkSideEffectNode",
+    "Name": "DialogueBarkSideEffectNode_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeB_Vendor'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeB_Tasks/QF_UmS_MainQuest_TribeB_Vendor.2"
+    },
+    "Class": "UScriptClass'DialogueBarkSideEffectNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BarkRequestData": {
+        "BarkCategory": "EBarkCategory::Generic",
+        "BarkEmotion": {
+          "TagName": "Audio.Dialogue.Negative.Dismissive"
+        },
+        "EmotionSettings": {
+          "bAllowOnlyExactMatches": true,
+          "bAllowNeutralEmotions": false
+        }
+      },
+      "SpeakerTag": {
+        "TagName": "QuestFlow.Participant.MoonGarou.TribeB.Shopkeeper"
+      }
+    }
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeB_Vendor'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeB_Tasks/QF_UmS_MainQuest_TribeB_Vendor.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeB_Vendor'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeB_Tasks/QF_UmS_MainQuest_TribeB_Vendor.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeB_Vendor'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeB_Tasks/QF_UmS_MainQuest_TribeB_Vendor.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeB_Vendor'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeB_Tasks/QF_UmS_MainQuest_TribeB_Vendor.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeB_Vendor'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeB_Tasks/QF_UmS_MainQuest_TribeB_Vendor.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeB_Vendor'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeB_Tasks/QF_UmS_MainQuest_TribeB_Vendor.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeB_Vendor'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeB_Tasks/QF_UmS_MainQuest_TribeB_Vendor.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeB_Vendor'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeB_Tasks/QF_UmS_MainQuest_TribeB_Vendor.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeB_Vendor'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeB_Tasks/QF_UmS_MainQuest_TribeB_Vendor.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeB_Vendor'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeB_Tasks/QF_UmS_MainQuest_TribeB_Vendor.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeB_Vendor'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeB_Tasks/QF_UmS_MainQuest_TribeB_Vendor.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeB_Vendor'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeB_Tasks/QF_UmS_MainQuest_TribeB_Vendor.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SwitchToShop_C",
+    "Name": "QFT_SwitchToShop_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MainQuest_TribeB_Vendor'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/TribeB_Tasks/QF_UmS_MainQuest_TribeB_Vendor.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  }
+]

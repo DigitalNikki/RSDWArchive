@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "JournalEntryRecipeData",
+    "Name": "JOURNAL_Recipes_Resources_Kalphite_Wing",
+    "Class": "UScriptClass'JournalEntryRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipeData": {
+        "AssetPathName": "/UmbralSands/Gameplay/Items/Recipes/BasicItemRecipes/RECIPE_Journal_Materials_Basic_Kalphite_Wing.RECIPE_Journal_Materials_Basic_Kalphite_Wing",
+        "SubPathString": ""
+      },
+      "ItemData": {
+        "AssetPathName": "/UmbralSands/Gameplay/Items/Resources/Animal/ITEM_Resources_Wing_Kalphite.ITEM_Resources_Wing_Kalphite",
+        "SubPathString": ""
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "KalphiteWing",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "KalphiteWing",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Journal_Images/T_Icon_Journal_Kalaphite_Wing.T_Icon_Journal_Kalaphite_Wing",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RecipeUnlocked",
+        "UnlockingRecipe": {
+          "AssetPathName": "/UmbralSands/Gameplay/Items/Recipes/BasicItemRecipes/RECIPE_Journal_Materials_Basic_Kalphite_Wing.RECIPE_Journal_Materials_Basic_Kalphite_Wing",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "bV0yFkmbRJwSiW6Xqj9A_Q",
+      "InternalName": "JOURNAL_Recipes_Resources_Kalphite_Wing"
+    }
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "JournalEntryRecipeData",
+    "Name": "JOURNAL_Recipes_Armour_Head_SpectralBagOfNoggin",
+    "Class": "UScriptClass'JournalEntryRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipeData": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Head/RECIPE_Armour_Head_SpectralBagOfNoggin.RECIPE_Armour_Head_SpectralBagOfNoggin",
+        "SubPathString": ""
+      },
+      "ItemData": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_Head_SpectralBagOfNoggin.ITEM_Armour_Head_SpectralBagOfNoggin",
+        "SubPathString": ""
+      },
+      "StationTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_CraftingStationsDataTable'",
+          "ObjectPath": "/Game/Gameplay/World/Stations/DT_CraftingStationsDataTable"
+        },
+        "RowName": "CraftingTable"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "ShroudOfNoggin",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "ShroudOfNoggin",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_10_02/Journal/T_Icon_Journal_Spectral_Noggin.T_Icon_Journal_Spectral_Noggin",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RecipeUnlocked",
+        "UnlockingRecipe": {
+          "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Head/RECIPE_Armour_Head_SpectralBagOfNoggin.RECIPE_Armour_Head_SpectralBagOfNoggin",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "8yqV6EM2dzCRkt6BiP_mvQ",
+      "InternalName": "JOURNAL_Recipes_Armour_Head_SpectralBagOfNoggin"
+    }
+  }
+]

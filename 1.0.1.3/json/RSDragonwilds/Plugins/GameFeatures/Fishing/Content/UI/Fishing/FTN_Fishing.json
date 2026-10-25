@@ -1,0 +1,190 @@
+[
+  {
+    "Type": "FixedTextNotificationData",
+    "Name": "FTN_Fishing",
+    "Class": "UScriptClass'FixedTextNotificationData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TagToTextMap": [
+        {
+          "Key": {
+            "TagName": "UI.Notification.Fishing.DamageTaken"
+          },
+          "Value": {
+            "TableId": "/Game/UI/Notifications/ST_Notifications.ST_Notifications",
+            "Key": "Fishing_UI_Notification_PlayerTookDamage",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "UI.Notification.Fishing.FishEscaped"
+          },
+          "Value": {
+            "TableId": "/Game/UI/Notifications/ST_Notifications.ST_Notifications",
+            "Key": "Fishing_UI_Notification_FishEscaped",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "UI.Notification.Fishing.NoFishAvailable"
+          },
+          "Value": {
+            "TableId": "/Game/UI/Notifications/ST_Notifications.ST_Notifications",
+            "Key": "Fishing_UI_Notification_NoFishAvailable",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "UI.Notification.Fishing.NoFishAvailableForToolLevel"
+          },
+          "Value": {
+            "TableId": "/Game/UI/Notifications/ST_Notifications.ST_Notifications",
+            "Key": "Fishing_UI_Notification_FishEscapedToolTooLowLvl",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "UI.Notification.Fishing.NoFishHooked"
+          },
+          "Value": {
+            "TableId": "/Game/UI/Notifications/ST_Notifications.ST_Notifications",
+            "Key": "Fishing_UI_Notification_NoFishWasHooked",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "UI.Notification.Fishing.NoNodeDetected"
+          },
+          "Value": {
+            "TableId": "/Game/UI/Notifications/ST_Notifications.ST_Notifications",
+            "Key": "Fishing_UI_Notification_NoNodeDetectedAtTargetLocation",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "UI.Notification.Fishing.RodNoStamina"
+          },
+          "Value": {
+            "TableId": "/Game/UI/Notifications/ST_Notifications.ST_Notifications",
+            "Key": "Fishing_UI_Notification_RodNoStamina",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "UI.Notification.Fishing.FishBite"
+          },
+          "Value": {
+            "TableId": "/Game/UI/Notifications/ST_Notifications.ST_Notifications",
+            "Key": "Fishing_UI_Notification_FishBite",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "UI.Notification.Fishing.Net.NotInCorrectNode"
+          },
+          "Value": {
+            "TableId": "/Game/UI/Notifications/ST_Notifications.ST_Notifications",
+            "Key": "Fishing_UI_Notification_Net_NotInCorrectNode",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "UI.Notification.Fishing.Net.NotInAnyNode"
+          },
+          "Value": {
+            "TableId": "/Game/UI/Notifications/ST_Notifications.ST_Notifications",
+            "Key": "Fishing_UI_Notification_Net_NotInAnyNode",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "UI.Notification.Fishing.Net.PowerLevelTooLow"
+          },
+          "Value": {
+            "TableId": "/Game/UI/Notifications/ST_Notifications.ST_Notifications",
+            "Key": "Fishing_UI_Notification_Net_PowerLevelTooLow",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "UI.Notification.Fishing.NoBait"
+          },
+          "Value": {
+            "TableId": "/Game/UI/Notifications/ST_Notifications.ST_Notifications",
+            "Key": "Fishing_UI_Notification_NoBait",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "UI.Notification.Fishing.WrongBait"
+          },
+          "Value": {
+            "TableId": "/Game/UI/Notifications/ST_Notifications.ST_Notifications",
+            "Key": "Fishing_UI_Notification_WrongBait",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "UI.Notification.Fishing.Rod.NotInCorrectNode"
+          },
+          "Value": {
+            "TableId": "/Game/UI/Notifications/ST_Notifications.ST_Notifications",
+            "Key": "Fishing_UI_Notification_Rod_NotInCorrectNode",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "UI.Notification.Fishing.NodeBlocked"
+          },
+          "Value": {
+            "TableId": "/Game/UI/Notifications/ST_Notifications.ST_Notifications",
+            "Key": "Fishing_UI_Notification_NodeBlocked",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "UI.Notification.Fishing.BaitRunOut"
+          },
+          "Value": {
+            "TableId": "/Game/UI/Notifications/ST_Notifications.ST_Notifications",
+            "Key": "Fishing_UI_Notification_BaitRunOut",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "PersistenceID": "iTylAkSGKWyt46WHuFhmZQ",
+      "InternalName": "ftn_fishing"
+    }
+  }
+]

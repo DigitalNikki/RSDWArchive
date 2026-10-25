@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "JournalEntryRecipeData",
+    "Name": "JOURNAL_Recipes_Food_Veg_Ball_Sweet",
+    "Class": "UScriptClass'JournalEntryRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipeData": {
+        "AssetPathName": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Crafted/RECIPE_Consumable_Vegball_Sweet.RECIPE_Consumable_Vegball_Sweet",
+        "SubPathString": ""
+      },
+      "ItemData": {
+        "AssetPathName": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Vegball_Sweet.ITEM_Consumable_Vegball_Sweet",
+        "SubPathString": ""
+      },
+      "StationTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_CraftingStationsDataTable'",
+          "ObjectPath": "/Game/Gameplay/World/Stations/DT_CraftingStationsDataTable"
+        },
+        "RowName": "RangeStone"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "VegballSweet",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "SweetVegBall",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/Game/Art/UI/Icons/Journal/Food_30/T_Icon_Journal_Sweet_veg_ball.T_Icon_Journal_Sweet_veg_ball",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RecipeUnlocked",
+        "UnlockingRecipe": {
+          "AssetPathName": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Crafted/RECIPE_Consumable_Vegball_Sweet.RECIPE_Consumable_Vegball_Sweet",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "ki6BckD_Br2lEpKkU16kNw",
+      "InternalName": "JOURNAL_Recipes_Food_Veg_Ball_Sweet"
+    }
+  }
+]

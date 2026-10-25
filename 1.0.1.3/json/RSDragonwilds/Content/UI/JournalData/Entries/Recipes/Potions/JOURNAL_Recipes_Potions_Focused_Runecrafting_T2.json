@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "JournalEntryRecipeData",
+    "Name": "JOURNAL_Recipes_Potions_Focused_Runecrafting_T2",
+    "Class": "UScriptClass'JournalEntryRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipeData": {
+        "AssetPathName": "/Game/Gameplay/Items/Consumables/Magic/RECIPE_Consumable_Potion_Focused_T2_Lesser_Runecrafting.RECIPE_Consumable_Potion_Focused_T2_Lesser_Runecrafting",
+        "SubPathString": ""
+      },
+      "ItemData": {
+        "AssetPathName": "/Game/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T2_Lesser_Runecrafting.ITEM_Consumable_Potion_Focused_T2_Lesser_Runecrafting",
+        "SubPathString": ""
+      },
+      "StationTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_ProcessingStationDataTable'",
+          "ObjectPath": "/Game/Gameplay/World/Stations/DT_ProcessingStationDataTable"
+        },
+        "RowName": "BrewingCauldron"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "C10AD8804DA32A40F8C757ABD8EFAE0E",
+        "SourceString": "Lesser Focused Runecrafting Potion",
+        "LocalizedString": "Lesser Focused Runecrafting Potion"
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "FocusedRunecraftingPotion",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/Game/Art/UI/Icons/Potions/Journal_Icons/T_Icons_Journal_Lesser_Purple_Potion.T_Icons_Journal_Lesser_Purple_Potion",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RecipeUnlocked",
+        "UnlockingRecipe": {
+          "AssetPathName": "/Game/Gameplay/Items/Consumables/Magic/RECIPE_Consumable_Potion_Focused_T2_Lesser_Runecrafting.RECIPE_Consumable_Potion_Focused_T2_Lesser_Runecrafting",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "bC1t5Eisw_MdhLaw9IZUsQ",
+      "InternalName": "JOURNAL_Recipes_Potions_Focused_Runecrafting_T2"
+    }
+  }
+]

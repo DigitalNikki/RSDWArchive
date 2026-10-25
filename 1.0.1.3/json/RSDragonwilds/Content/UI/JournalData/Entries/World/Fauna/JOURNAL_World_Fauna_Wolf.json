@@ -1,0 +1,80 @@
+[
+  {
+    "Type": "JournalEntryWorldData",
+    "Name": "JOURNAL_World_Fauna_Wolf",
+    "Class": "UScriptClass'JournalEntryWorldData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Locations": [
+        {
+          "LocationText": {
+            "TableId": "/Game/UI/ST_Localization.ST_Localization",
+            "Key": "Ghornfell",
+            "SourceString": null,
+            "LocalizedString": ""
+          },
+          "LocationID": "Ghornfell"
+        }
+      ],
+      "Materials": [
+        {
+          "MaterialID": "Bestial Meat",
+          "MaterialItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Meat_Bestial'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_Meat_Bestial"
+          }
+        },
+        {
+          "MaterialID": "Animal Hide",
+          "MaterialItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Animal_Hide'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_Animal_Hide"
+          }
+        },
+        {
+          "MaterialID": "Soft Animal Fur",
+          "MaterialItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Soft_Animal_Fur'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_Soft_Animal_Fur"
+          }
+        },
+        {
+          "MaterialID": "Fang",
+          "MaterialItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Fang'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_Fang"
+          }
+        }
+      ],
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/AI/ST_AI_Names.ST_AI_Names",
+        "Key": "Wolf",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "Wolf",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Journal/T_Icon_Journal_Wolf.T_Icon_Journal_Wolf",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::AIKill",
+        "AIData": {
+          "AssetPathName": "/Game/Gameplay/AI/Wolf/BP_AI_Wolf_Data.BP_AI_Wolf_Data_C",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "rkXO6EzLWQHIb8-BVPO7sA",
+      "InternalName": "JOURNAL_World_Fauna_Wolf"
+    }
+  }
+]

@@ -1,0 +1,87 @@
+[
+  {
+    "Type": "JournalEntryWorldData",
+    "Name": "JOURNAL_World_Fauna_Fellhollow_Cow_Zombie",
+    "Class": "UScriptClass'JournalEntryWorldData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Locations": [
+        {
+          "LocationText": {
+            "TableId": "/Game/UI/ST_Localization.ST_Localization",
+            "Key": "Brynmoor",
+            "SourceString": null,
+            "LocalizedString": ""
+          },
+          "LocationID": "Brynmoor"
+        }
+      ],
+      "Materials": [
+        {
+          "MaterialID": "Feathers",
+          "MaterialItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Leather_Scraps_Hard'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Textiles/ITEM_Resources_Leather_Scraps_Hard"
+          }
+        },
+        {
+          "MaterialID": "Bird Meat",
+          "MaterialItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Meat_Undead'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_Meat_Undead"
+          }
+        },
+        {
+          "MaterialID": "None",
+          "MaterialItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_AnimalBone'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_AnimalBone"
+          }
+        },
+        {
+          "MaterialID": "None",
+          "MaterialItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Bone_Undead'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_Bone_Undead"
+          }
+        },
+        {
+          "MaterialID": "None",
+          "MaterialItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Weeds'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Plant/ITEM_Resources_Weeds"
+          }
+        }
+      ],
+      "DisplayName": {
+        "TableId": "/FutureMajorVersion/Gameplay/AI/ST_AI_Names_Fellhollow.ST_AI_Names_Fellhollow",
+        "Key": "CowZombie",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "UndeadCow",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Journal/T_Icon_Journal_Zombie_Cow.T_Icon_Journal_Zombie_Cow",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::AIKill",
+        "AIData": {
+          "AssetPathName": "/FutureMajorVersion/Gameplay/AI/Cow/ZombieVariant/BP_AI_CowZombie_Data.BP_AI_CowZombie_Data_C",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "GAu5kUzDLWSfN5qMvYIYAw",
+      "InternalName": "JOURNAL_World_Fauna_Fellhollow_Cow_Zombie"
+    }
+  }
+]

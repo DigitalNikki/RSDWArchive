@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "JournalEntryRecipeData",
+    "Name": "JOURNAL_Recipes_Armour_Head_DragonkinMage",
+    "Class": "UScriptClass'JournalEntryRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipeData": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Head/RECIPE_Armour_T4_Head_DragonkinMage.RECIPE_Armour_T4_Head_DragonkinMage",
+        "SubPathString": ""
+      },
+      "ItemData": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_T4_Head_DragonkinMage.ITEM_Armour_T4_Head_DragonkinMage",
+        "SubPathString": ""
+      },
+      "StationTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_CraftingStationsDataTable'",
+          "ObjectPath": "/Game/Gameplay/World/Stations/DT_CraftingStationsDataTable"
+        },
+        "RowName": "ArmourBench"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "16F884F14E97B31E5EBAD6A7BE32586B",
+        "SourceString": "Dragonkin Mage Hood",
+        "LocalizedString": "Dragonkin Mage Hood"
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "DragonkinDarkMageHood",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/Game/Art/UI/Icons/Armours_07/test/Journal/T_Icons_Journal_Dragonkin_Dark_Mage_Hood.T_Icons_Journal_Dragonkin_Dark_Mage_Hood",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RecipeUnlocked",
+        "UnlockingRecipe": {
+          "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Head/RECIPE_Armour_T4_Head_DragonkinMage.RECIPE_Armour_T4_Head_DragonkinMage",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "GjrZbEJ3Drv1tmewEwxsjw",
+      "InternalName": "JOURNAL_Recipes_Armour_Head_DragonkinMage"
+    }
+  }
+]

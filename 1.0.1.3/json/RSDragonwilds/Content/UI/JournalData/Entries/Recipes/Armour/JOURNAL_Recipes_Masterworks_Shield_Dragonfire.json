@@ -1,0 +1,58 @@
+[
+  {
+    "Type": "JournalEntryRecipeData",
+    "Name": "JOURNAL_Recipes_Masterworks_Shield_Dragonfire",
+    "Class": "UScriptClass'JournalEntryRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipeData": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/UniqueWeapons/Staff/StaffOfLight/RECIPE_Masterworks_Shield_Dragonfire.RECIPE_Masterworks_Shield_Dragonfire",
+        "SubPathString": ""
+      },
+      "ItemData": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Shield/ITEM_Masterworks_Shield_Dragonfire.ITEM_Masterworks_Shield_Dragonfire",
+        "SubPathString": ""
+      },
+      "StationTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_CraftingStationsDataTable'",
+          "ObjectPath": "/Game/Gameplay/World/Stations/DT_CraftingStationsDataTable"
+        },
+        "RowName": "ToolsMeleeBench"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "DragonfireShield",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "PoisonDragonfireShield",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/Game/Art/UI/Icons/Journal/WeaponsArmours_07/T_Icons_Journal_Shield_Poison_Dragonfirel.T_Icons_Journal_Shield_Poison_Dragonfirel",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RecipeUnlocked",
+        "UnlockingItemData": {
+          "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Shield/ITEM_Masterworks_Shield_Anti_Dragon.ITEM_Masterworks_Shield_Anti_Dragon",
+          "SubPathString": ""
+        },
+        "UnlockingRecipe": {
+          "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/UniqueWeapons/Staff/StaffOfLight/RECIPE_Masterworks_Shield_Dragonfire.RECIPE_Masterworks_Shield_Dragonfire",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "-XSFc0cNpwqwZjWXdxXfvA",
+      "InternalName": "JOURNAL_Recipes_Masterworks_Shield_Dragonfire"
+    }
+  }
+]

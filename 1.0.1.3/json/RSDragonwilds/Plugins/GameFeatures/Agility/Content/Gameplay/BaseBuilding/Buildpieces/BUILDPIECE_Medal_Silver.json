@@ -1,0 +1,69 @@
+[
+  {
+    "Type": "BuildingPieceData",
+    "Name": "BUILDPIECE_Medal_Silver",
+    "Class": "UScriptClass'BuildingPieceData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DerivedData": {
+        "AssetPathName": "/Agility/Gameplay/BaseBuilding/BuildPieces/BUILDPIECE_Medal_Silver_DerivedData.BUILDPIECE_Medal_Silver_DerivedData",
+        "SubPathString": ""
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/BaseBuilding_New/BuildingPieces/ST_BuildingPieces.ST_BuildingPieces",
+        "Key": "Decoration.Medal.Silver.Name",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Description": {
+        "TableId": "/Game/Gameplay/BaseBuilding_New/BuildingPieces/ST_BuildingPieces.ST_BuildingPieces",
+        "Key": "Decoration.Medal.Silver.Description",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "DisplayIcon": {
+        "AssetPathName": "/Agility/Art/UI/Icons/Items/T_Icon_Agility_Medal_Silver.T_Icon_Agility_Medal_Silver",
+        "SubPathString": ""
+      },
+      "BuildableActor": {
+        "AssetPathName": "/Agility/Gameplay/BaseBuilding/BuildingBP/BP_BaseBuilding_Decoration_Hanging_Silver_Medal.BP_BaseBuilding_Decoration_Hanging_Silver_Medal_C",
+        "SubPathString": ""
+      },
+      "Requirements": [
+        {
+          "Amount": 1,
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Agility_Silver_Leaf'",
+            "ObjectPath": "/Agility/Gameplay/Items/Resources/Agility/ITEM_Resources_Agility_Silver_Leaf"
+          }
+        },
+        {
+          "Amount": 1,
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Cloth_Padded'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Textiles/ITEM_Resources_Cloth_Padded"
+          }
+        }
+      ],
+      "PieceTag": {
+        "TagName": "BaseBuilding.PieceType.Prop"
+      },
+      "BuildingStabilityProfileRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'StabilityProfileDataTable'",
+          "ObjectPath": "/Game/Gameplay/BaseBuilding/StabilityProfileDataTable"
+        },
+        "RowName": "Prop"
+      },
+      "BuildXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Building'",
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Building"
+        },
+        "RowName": "Build_Decoration_Tier3"
+      },
+      "RepresentationCategory": "EBuildingPieceRepresentationCategory::Lightweight",
+      "PersistenceID": "kGgNF0qNVA9ldNGMl-8vDA"
+    }
+  }
+]

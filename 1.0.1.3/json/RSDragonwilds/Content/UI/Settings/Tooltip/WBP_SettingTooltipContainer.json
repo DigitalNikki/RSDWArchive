@@ -1,0 +1,610 @@
+[
+  {
+    "Type": "CommonLazyImage",
+    "Name": "CommonLazyImage",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_SettingTooltipContainer_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.29"
+    },
+    "Class": "UScriptClass'CommonLazyImage'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 663.0,
+          "Y": 16.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_line_Title_Underline_2'",
+          "ObjectPath": "/Game/Art/UI/Settings/General/T_line_Title_Underline_2"
+        }
+      },
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WBP_SettingTooltipContainer_C:WidgetTree.TooltipContainer.VerticalBoxSlot_7'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.19"
+      }
+    }
+  },
+  {
+    "Type": "CommonLazyImage",
+    "Name": "LazyImage",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_SettingTooltipContainer_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.29"
+    },
+    "Class": "UScriptClass'CommonLazyImage'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WBP_SettingTooltipContainer_C:WidgetTree.LazyImageSizeBox.SizeBoxSlot_1'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.4"
+      }
+    }
+  },
+  {
+    "Type": "CommonLazyImage",
+    "Name": "LazyImageLineDivider",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_SettingTooltipContainer_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.29"
+    },
+    "Class": "UScriptClass'CommonLazyImage'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 663.0,
+          "Y": 16.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_line_Title_Underline_2'",
+          "ObjectPath": "/Game/Art/UI/Settings/General/T_line_Title_Underline_2"
+        }
+      },
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WBP_SettingTooltipContainer_C:WidgetTree.GeneralContainer.VerticalBoxSlot_1'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.9"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "LazyImageSizeBox",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_SettingTooltipContainer_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.29"
+    },
+    "Class": "UScriptClass'SizeBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidthOverride": 663.0,
+      "HeightOverride": 345.0,
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WBP_SettingTooltipContainer_C:WidgetTree.LazyImageSizeBox.SizeBoxSlot_1'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.4"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WBP_SettingTooltipContainer_C:WidgetTree.GeneralContainer.VerticalBoxSlot_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.8"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_1",
+    "Outer": {
+      "ObjectName": "SizeBox'WBP_SettingTooltipContainer_C:WidgetTree.LazyImageSizeBox'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.3"
+    },
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'WBP_SettingTooltipContainer_C:WidgetTree.LazyImageSizeBox'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.3"
+      },
+      "Content": {
+        "ObjectName": "CommonLazyImage'WBP_SettingTooltipContainer_C:WidgetTree.LazyImage'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.1"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "GeneralContainer",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_SettingTooltipContainer_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.29"
+    },
+    "Class": "UScriptClass'VerticalBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_SettingTooltipContainer_C:WidgetTree.GeneralContainer.VerticalBoxSlot_0'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.8"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_SettingTooltipContainer_C:WidgetTree.GeneralContainer.VerticalBoxSlot_1'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.9"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_SettingTooltipContainer_C:WidgetTree.GeneralContainer.VerticalBoxSlot_2'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.10"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_SettingTooltipContainer_C:WidgetTree.GeneralContainer.VerticalBoxSlot_3'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.11"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WBP_SettingTooltipContainer_C:WidgetTree.TooltipContainer.VerticalBoxSlot_17'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.17"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "SocialContainer",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_SettingTooltipContainer_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.29"
+    },
+    "Class": "UScriptClass'VerticalBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_SettingTooltipContainer_C:WidgetTree.SocialContainer.VerticalBoxSlot_0'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.12"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_SettingTooltipContainer_C:WidgetTree.SocialContainer.VerticalBoxSlot_1'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.13"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_SettingTooltipContainer_C:WidgetTree.SocialContainer.VerticalBoxSlot_2'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.14"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_SettingTooltipContainer_C:WidgetTree.SocialContainer.VerticalBoxSlot_3'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.15"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WBP_SettingTooltipContainer_C:WidgetTree.TooltipContainer.VerticalBoxSlot_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.16"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "TooltipContainer",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_SettingTooltipContainer_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.29"
+    },
+    "Class": "UScriptClass'VerticalBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_SettingTooltipContainer_C:WidgetTree.TooltipContainer.VerticalBoxSlot_6'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.18"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_SettingTooltipContainer_C:WidgetTree.TooltipContainer.VerticalBoxSlot_7'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.19"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_SettingTooltipContainer_C:WidgetTree.TooltipContainer.VerticalBoxSlot_17'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.17"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_SettingTooltipContainer_C:WidgetTree.TooltipContainer.VerticalBoxSlot_0'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.16"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_0",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_SettingTooltipContainer_C:WidgetTree.GeneralContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.5"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_SettingTooltipContainer_C:WidgetTree.GeneralContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.5"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WBP_SettingTooltipContainer_C:WidgetTree.LazyImageSizeBox'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.3"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_1",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_SettingTooltipContainer_C:WidgetTree.GeneralContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.5"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_SettingTooltipContainer_C:WidgetTree.GeneralContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.5"
+      },
+      "Content": {
+        "ObjectName": "CommonLazyImage'WBP_SettingTooltipContainer_C:WidgetTree.LazyImageLineDivider'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.2"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_2",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_SettingTooltipContainer_C:WidgetTree.GeneralContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.5"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_SettingTooltipContainer_C:WidgetTree.GeneralContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.5"
+      },
+      "Content": {
+        "ObjectName": "WBP_DomTextBlock_C'WBP_SettingTooltipContainer_C:WidgetTree.Paragraph'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.24"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_3",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_SettingTooltipContainer_C:WidgetTree.GeneralContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.5"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Top": 10.0,
+        "Bottom": 10.0
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_SettingTooltipContainer_C:WidgetTree.GeneralContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.5"
+      },
+      "Content": {
+        "ObjectName": "WBP_DomTextBlock_C'WBP_SettingTooltipContainer_C:WidgetTree.CannotBeEditedTooltip'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.20"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_0",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_SettingTooltipContainer_C:WidgetTree.SocialContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.6"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Bottom": 10.0
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_SettingTooltipContainer_C:WidgetTree.SocialContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.6"
+      },
+      "Content": {
+        "ObjectName": "WBP_DomTextBlock_C'WBP_SettingTooltipContainer_C:WidgetTree.PlayerName'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.25"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_1",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_SettingTooltipContainer_C:WidgetTree.SocialContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.6"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Bottom": 10.0
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_SettingTooltipContainer_C:WidgetTree.SocialContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.6"
+      },
+      "Content": {
+        "ObjectName": "WBP_DomTextBlock_C'WBP_SettingTooltipContainer_C:WidgetTree.CharacterName'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.21"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_2",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_SettingTooltipContainer_C:WidgetTree.SocialContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.6"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Bottom": 10.0
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_SettingTooltipContainer_C:WidgetTree.SocialContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.6"
+      },
+      "Content": {
+        "ObjectName": "WBP_DomTextBlock_C'WBP_SettingTooltipContainer_C:WidgetTree.DateJoined'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.22"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_3",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_SettingTooltipContainer_C:WidgetTree.SocialContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.6"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Bottom": 10.0
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_SettingTooltipContainer_C:WidgetTree.SocialContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.6"
+      },
+      "Content": {
+        "ObjectName": "WBP_DomTextBlock_C'WBP_SettingTooltipContainer_C:WidgetTree.DateLastActive'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.23"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_0",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_SettingTooltipContainer_C:WidgetTree.TooltipContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.7"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_SettingTooltipContainer_C:WidgetTree.TooltipContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.7"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox'WBP_SettingTooltipContainer_C:WidgetTree.SocialContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.6"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_17",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_SettingTooltipContainer_C:WidgetTree.TooltipContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.7"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Top": 10.0
+      },
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Top",
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_SettingTooltipContainer_C:WidgetTree.TooltipContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.7"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox'WBP_SettingTooltipContainer_C:WidgetTree.GeneralContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.5"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_6",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_SettingTooltipContainer_C:WidgetTree.TooltipContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.7"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_SettingTooltipContainer_C:WidgetTree.TooltipContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.7"
+      },
+      "Content": {
+        "ObjectName": "WBP_DomTextBlock_C'WBP_SettingTooltipContainer_C:WidgetTree.Title'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.26"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_7",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_SettingTooltipContainer_C:WidgetTree.TooltipContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.7"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Left",
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_SettingTooltipContainer_C:WidgetTree.TooltipContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.7"
+      },
+      "Content": {
+        "ObjectName": "CommonLazyImage'WBP_SettingTooltipContainer_C:WidgetTree.CommonLazyImage'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.0"
+      }
+    }
+  },
+  {
+    "Type": "WBP_DomTextBlock_C",
+    "Name": "CannotBeEditedTooltip",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_SettingTooltipContainer_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.29"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_DomTextBlock_C",
+    "Name": "CharacterName",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_SettingTooltipContainer_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.29"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_DomTextBlock_C",
+    "Name": "DateJoined",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_SettingTooltipContainer_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.29"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_DomTextBlock_C",
+    "Name": "DateLastActive",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_SettingTooltipContainer_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.29"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_DomTextBlock_C",
+    "Name": "Paragraph",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_SettingTooltipContainer_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.29"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_DomTextBlock_C",
+    "Name": "PlayerName",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_SettingTooltipContainer_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.29"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_DomTextBlock_C",
+    "Name": "Title",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_SettingTooltipContainer_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.29"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_SettingTooltipContainer_C",
+    "Name": "Default__WBP_SettingTooltipContainer_C",
+    "Class": "WidgetBlueprintGeneratedClass'1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.WBP_SettingTooltipContainer_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_SettingTooltipContainer_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WBP_SettingTooltipContainer_C:WidgetTree'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.29"
+      },
+      "bClassRequiresNativeTick": true
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'SettingsTooltipBase'",
+      "ObjectPath": "/Script/Dominion"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "CommonLazyImage",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CommonLazyImage'",
+          "ObjectPath": "/Script/CommonUI"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_SettingTooltipContainer_C'Default__WBP_SettingTooltipContainer_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.27"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WBP_SettingTooltipContainer_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.28"
+    },
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "VerticalBox'WBP_SettingTooltipContainer_C:WidgetTree.TooltipContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/Tooltip/WBP_SettingTooltipContainer.7"
+      }
+    }
+  }
+]

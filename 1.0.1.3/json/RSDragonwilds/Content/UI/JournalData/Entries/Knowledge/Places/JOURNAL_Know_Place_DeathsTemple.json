@@ -1,0 +1,44 @@
+[
+  {
+    "Type": "JournalEntryKnowPlaceData",
+    "Name": "JOURNAL_Know_Place_DeathsTemple",
+    "Class": "UScriptClass'JournalEntryKnowPlaceData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Map/ST_RegionNames.ST_RegionNames",
+        "Key": "Fellhollow.DeathsDomain",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "Fellhollow.ForgottenTemple",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Journal/T_Icon_Journal_Bloodblight_Swamps.T_Icon_Journal_Bloodblight_Swamps",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RegionUnlocked",
+        "UnlockingInteractionActor": {
+          "AssetPathName": "/Game/Gameplay/World/Misc/BP_BaseBossAltar.BP_BaseBossAltar_C",
+          "SubPathString": ""
+        },
+        "RegionID": 15,
+        "MapRegion": {
+          "AssetPathName": "/Game/Maps/World/L_World.L_World",
+          "SubPathString": "PersistentLevel.BP_MapRegion_C_UAID_AC1A3DB43E39B48702_1986429258"
+        }
+      },
+      "PersistenceID": "rlMTYUfUHGk2Qy-j_FnTWQ",
+      "InternalName": "JOURNAL_Know_Place_DeathsDomain"
+    }
+  }
+]

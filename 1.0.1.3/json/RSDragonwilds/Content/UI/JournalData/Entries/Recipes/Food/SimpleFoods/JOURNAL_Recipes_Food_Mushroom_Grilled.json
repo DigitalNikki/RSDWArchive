@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "JournalEntryRecipeData",
+    "Name": "JOURNAL_Recipes_Food_Mushroom_Grilled",
+    "Class": "UScriptClass'JournalEntryRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipeData": {
+        "AssetPathName": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Mushroom_Grilled_From_Mushroom.RECIPE_Consumable_Mushroom_Grilled_From_Mushroom",
+        "SubPathString": ""
+      },
+      "ItemData": {
+        "AssetPathName": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Mushroom_Grilled.ITEM_Consumable_Mushroom_Grilled",
+        "SubPathString": ""
+      },
+      "StationTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_ProcessingStationDataTable'",
+          "ObjectPath": "/Game/Gameplay/World/Stations/DT_ProcessingStationDataTable"
+        },
+        "RowName": "Campfire"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "GrilledMushrooms",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "GrilledMushrooms",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icons_Journal_Recipes_Resources_BittercapShroomSkewer.T_Icons_Journal_Recipes_Resources_BittercapShroomSkewer",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RecipeUnlocked",
+        "UnlockingRecipe": {
+          "AssetPathName": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Mushroom_Grilled_From_Mushroom.RECIPE_Consumable_Mushroom_Grilled_From_Mushroom",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "uma-dEenjumqXi-xU_DLiw",
+      "InternalName": "JOURNAL_Recipes_Food_Mushroom_Grilled"
+    }
+  }
+]

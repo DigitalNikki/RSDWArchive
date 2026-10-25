@@ -1,0 +1,59 @@
+[
+  {
+    "Type": "JournalEntryWorldData",
+    "Name": "JOURNAL_World_Fauna_Beltfish",
+    "Class": "UScriptClass'JournalEntryWorldData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Locations": [
+        {
+          "LocationText": {
+            "Namespace": "",
+            "Key": "5A473CF0489CDD2CBD70D7B16B4BBA9F",
+            "SourceString": "Umbral Sands",
+            "LocalizedString": "Umbral Sands"
+          },
+          "LocationID": "Umbral Sands"
+        }
+      ],
+      "Materials": [
+        {
+          "MaterialID": "Beltfish",
+          "MaterialItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Fish_Raw_Beltfish'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Resources/Fish/ITEM_Resources_Fish_Raw_Beltfish"
+          }
+        }
+      ],
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "Beltfish",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "Beltfish",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/Game/Art/UI/Icons/ScornedWIlderness/Journals/T_Icon_Journal_Fish_Beltfish.T_Icon_Journal_Fish_Beltfish",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::ItemFirstPickup",
+        "UnlockingItemData": {
+          "AssetPathName": "/UmbralSands/Gameplay/Items/Resources/Fish/ITEM_Resources_Fish_Raw_Beltfish.ITEM_Resources_Fish_Raw_Beltfish",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "jjOJXEGCGXf8T8Kf-MiXTQ",
+      "InternalName": "JOURNAL_World_Fauna_Beltfish"
+    }
+  }
+]

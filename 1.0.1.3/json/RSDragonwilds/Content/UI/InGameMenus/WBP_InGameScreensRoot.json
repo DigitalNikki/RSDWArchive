@@ -1,0 +1,109 @@
+[
+  {
+    "Type": "WBP_DomActivatableWidgetStack_C",
+    "Name": "MainMenuStack",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_InGameScreensRoot_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/InGameMenus/WBP_InGameScreensRoot.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_InGameScreensRoot_C",
+    "Name": "Default__WBP_InGameScreensRoot_C",
+    "Class": "WidgetBlueprintGeneratedClass'1.0.1.3/RSDragonwilds/Content/UI/InGameMenus/WBP_InGameScreensRoot.WBP_InGameScreensRoot_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ScreenWidgetMap": [
+        {
+          "Key": "EMainSubMenuType::TopNavMenu",
+          "Value": {
+            "ObjectName": "WidgetBlueprintGeneratedClass'WBP_InGameTopNav_InGame_C'",
+            "ObjectPath": "/Game/UI/InGameMenus/WBP_InGameTopNav_InGame"
+          }
+        },
+        {
+          "Key": "EMainSubMenuType::Pause",
+          "Value": {
+            "ObjectName": "WidgetBlueprintGeneratedClass'WBP_PauseMenuScreen_C'",
+            "ObjectPath": "/Game/UI/InGameMenus/WBP_PauseMenuScreen"
+          }
+        },
+        {
+          "Key": "EMainSubMenuType::Calibration",
+          "Value": {
+            "ObjectName": "WidgetBlueprintGeneratedClass'WBP_MainMenu_CalibrateScreen_C'",
+            "ObjectPath": "/Game/UI/MainMenu/WBP_MainMenu_CalibrateScreen"
+          }
+        },
+        {
+          "Key": "EMainSubMenuType::TopNavSystemsMenu",
+          "Value": {
+            "ObjectName": "WidgetBlueprintGeneratedClass'WBP_InGameTopNav_Systems_C'",
+            "ObjectPath": "/Game/UI/InGameMenus/WBP_InGameTopNav_Systems"
+          }
+        },
+        {
+          "Key": "EMainSubMenuType::PlayerList",
+          "Value": {
+            "ObjectName": "WidgetBlueprintGeneratedClass'WBP_PlayerList_C'",
+            "ObjectPath": "/Game/UI/InGameMenus/WBP_PlayerList"
+          }
+        }
+      ],
+      "DialogWidget": {
+        "AssetPathName": "/Game/UI/GenericDialog/WBP_GenericDialog.WBP_GenericDialog_C",
+        "SubPathString": ""
+      },
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_InGameScreensRoot_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WBP_InGameScreensRoot_C:WidgetTree'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/InGameMenus/WBP_InGameScreensRoot.3"
+      },
+      "bClassRequiresNativeTick": true
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MainMenuBase'",
+      "ObjectPath": "/Script/Dominion"
+    },
+    "ClassFlags": "CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_InGameScreensRoot_C'Default__WBP_InGameScreensRoot_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/InGameMenus/WBP_InGameScreensRoot.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WBP_InGameScreensRoot_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/InGameMenus/WBP_InGameScreensRoot.2"
+    },
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "WBP_DomActivatableWidgetStack_C'WBP_InGameScreensRoot_C:WidgetTree.MainMenuStack'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/InGameMenus/WBP_InGameScreensRoot.0"
+      }
+    }
+  }
+]

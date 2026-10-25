@@ -1,0 +1,51 @@
+[
+  {
+    "Type": "JournalEntryRecipeData",
+    "Name": "JOURNAL_Recipes_Empty_Resources_Scraps_BlackMetal",
+    "Class": "UScriptClass'JournalEntryRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipeData": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/JournalEntries/Materials_Basic/RECIPE_Journal_Materials_Basic_Scraps_BlackMetal.RECIPE_Journal_Materials_Basic_Scraps_BlackMetal",
+        "SubPathString": ""
+      },
+      "ItemData": {
+        "AssetPathName": "/DowdunReach/Gameplay/Items/Metal/ITEM_Resources_BlackMetal_Scraps.ITEM_Resources_BlackMetal_Scraps",
+        "SubPathString": ""
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "BlackMetalScraps",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "BlackMetalScraps",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Journal/T_Icon_Journal_Black_Metal_Scraps.T_Icon_Journal_Black_Metal_Scraps",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RecipeUnlocked",
+        "UnlockingItemData": {
+          "AssetPathName": "/Game/Gameplay/Items/Resources/Wood/ITEM_Resources_Wood_Ash.ITEM_Resources_Wood_Ash",
+          "SubPathString": ""
+        },
+        "UnlockingRecipe": {
+          "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/JournalEntries/Materials_Basic/RECIPE_Journal_Materials_Basic_Scraps_BlackMetal.RECIPE_Journal_Materials_Basic_Scraps_BlackMetal",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "u_p7-0HpUwY2uVa9Ug1uEw",
+      "InternalName": "JOURNAL_Recipes_Resources_Scraps_BlackMetal"
+    }
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "Type": "JournalEntryWorldData",
+    "Name": "JOURNAL_World_Flora_Seeds_Magic_Tree",
+    "Class": "UScriptClass'JournalEntryWorldData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Locations": [
+        {
+          "LocationText": {
+            "TableId": "/Game/UI/ST_Localization.ST_Localization",
+            "Key": "Ghornfell",
+            "SourceString": null,
+            "LocalizedString": ""
+          },
+          "LocationID": "Ghornfell"
+        }
+      ],
+      "Materials": [
+        {
+          "MaterialID": "Magic Tree Seed",
+          "MaterialItemData": {
+            "ObjectName": "HeldTreeSeedData'ITEM_Farming_TreeSeed_Magic'",
+            "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Plant/ITEM_Farming_TreeSeed_Magic"
+          }
+        }
+      ],
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "MagicSeeds",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "Seeds.Magic",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Journal/T_Icon_Journal_Magic_Seeds.T_Icon_Journal_Magic_Seeds",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::ItemFirstPickup",
+        "UnlockingItemData": {
+          "AssetPathName": "/ScornedWilderness/Gameplay/Items/Resources/Plant/ITEM_Farming_TreeSeed_Magic.ITEM_Farming_TreeSeed_Magic",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "zZkE3k6XQETrf0OkR2PoKQ",
+      "InternalName": "JOURNAL_World_Flora_Seeds_Magic_Tree"
+    }
+  }
+]

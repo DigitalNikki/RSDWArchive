@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "JournalEntryRecipeData",
+    "Name": "JOURNAL_Recipes_Armour_Legs_WildArcher",
+    "Class": "UScriptClass'JournalEntryRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipeData": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Legs/RECIPE_Armour_T4_Legs_WildArcher.RECIPE_Armour_T4_Legs_WildArcher",
+        "SubPathString": ""
+      },
+      "ItemData": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Legs/ITEM_Armour_T4_Legs_WildArcher.ITEM_Armour_T4_Legs_WildArcher",
+        "SubPathString": ""
+      },
+      "StationTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_CraftingStationsDataTable'",
+          "ObjectPath": "/Game/Gameplay/World/Stations/DT_CraftingStationsDataTable"
+        },
+        "RowName": "ArmourBench"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "3FD23AF0464498066336D294607991FF",
+        "SourceString": "Wild Archer Chaps",
+        "LocalizedString": "Wild Archer Chaps"
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "WildArchersLegs",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/Game/Art/UI/Icons/Journal/WeaponsArmours_07/T_Icons_Journal_Wild_Archer_s_Chaps.T_Icons_Journal_Wild_Archer_s_Chaps",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RecipeUnlocked",
+        "UnlockingRecipe": {
+          "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Legs/RECIPE_Armour_T4_Legs_WildArcher.RECIPE_Armour_T4_Legs_WildArcher",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "Pdqf00dqyFenWXapvTkj9w",
+      "InternalName": "JOURNAL_Recipes_Armour_Legs_WildArcher"
+    }
+  }
+]

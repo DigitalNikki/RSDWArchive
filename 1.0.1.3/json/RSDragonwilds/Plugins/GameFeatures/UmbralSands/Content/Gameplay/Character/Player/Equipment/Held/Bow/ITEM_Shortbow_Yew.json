@@ -1,0 +1,126 @@
+[
+  {
+    "Type": "HeldEquipmentData",
+    "Name": "ITEM_Shortbow_Yew",
+    "Class": "UScriptClass'HeldEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HeldEquipmentActorClass": {
+        "AssetPathName": "/UmbralSands/Gameplay/Character/Player/Equipment/Held/Bow/BP_Shortbow_Yew.BP_Shortbow_Yew_C",
+        "SubPathString": ""
+      },
+      "PrimaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_RangedAttack_Shortbow_QuickAction_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Shortbow/PA_RangedAttack_Shortbow_QuickAction"
+      },
+      "PrimaryJumpActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Spell_Shortbow_JumpAttack_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Bow/PA_Spell_Shortbow_JumpAttack"
+      },
+      "SecondaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Aim_Shortbow_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Shortbow/PA_Aim_Shortbow"
+      },
+      "SpecialActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_RangedAttack_Shortbow_Rapidshot_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Shortbow/PA_RangedAttack_Shortbow_Rapidshot"
+      },
+      "AnimationPoseType": "EAnimationPoseType::Ranged",
+      "AnimationPosesSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Idle_Bow_Poses'",
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Bow/A_PlayerM_Idle_Bow_Poses"
+      },
+      "AimSweepSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Attack_Bow_Aim_Sweep'",
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Aim_Sweep"
+      },
+      "AimSweepCrouchedSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Attack_Bow_Aim_Crouch_Sweep'",
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Aim_Crouch_Sweep"
+      },
+      "WindUpSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Attack_Bow_Draw'",
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Draw"
+      },
+      "FullWindUpSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Attack_Bow_Hold'",
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Hold"
+      },
+      "WindUpMaxMovementSpeedOverride": 300.0,
+      "BaseHeldEquipmentPowerLevelRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_PlayerWeaponPowerLevels'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels"
+        },
+        "RowName": "Bows"
+      },
+      "BaseHeldEquipmentDamageNegationRowHandle": {
+        "RowName": "Unarmed"
+      },
+      "DamageMultiplier": 4.2,
+      "AdditionalBlockingDamageNegation": -5.0,
+      "DamageTypes": [
+        "DamageType.Ranged"
+      ],
+      "AmmoType": "EHeldEquipmentAmmoType::Arrows",
+      "ProjectileClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Arrow_Base_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Ammo/BP_Arrow_Base"
+      },
+      "RangedAttackCollection": {
+        "ObjectName": "BlueprintGeneratedClass'BP_PlayerRangedAttackCollection_Shortbow_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Shortbow/BP_PlayerRangedAttackCollection_Shortbow"
+      },
+      "PreferredLockOnCameraAimMode": "ELockOnCameraAimMode::RangedWeapon",
+      "Slot": "ELoadoutSlotStrategy::HeldTwoHanded",
+      "Tier": 3,
+      "bIsAWeapon": true,
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Ranged'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Ranged"
+      },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "YewShortbow",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "YewShortbow",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Shortbow_Yew_2H_01_v2.T_Icon_Shortbow_Yew_2H_01_v2",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/UmbralSands/Art/Skeleton/Weapons/Ranged/Shortbow_Yew_2H_01/SM_Shortbow_Yew_2H_01.SM_Shortbow_Yew_2H_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 7,
+      "Weight": 10.0,
+      "Category": {
+        "TagName": "Item.Equipment.Weapon.Bow.Shortbow"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Weapon.Ranged"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Wood.Bow"
+      },
+      "BaseDurability": 1300,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak"
+      },
+      "PersistenceID": "x5esxEkIeEzMuEWWg0V-jg",
+      "InternalName": "weap_shortbow_yew"
+    }
+  }
+]

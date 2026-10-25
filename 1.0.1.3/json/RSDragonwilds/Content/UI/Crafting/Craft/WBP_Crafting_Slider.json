@@ -1,0 +1,528 @@
+[
+  {
+    "Type": "Function",
+    "Name": "BP_GetDesiredFocusTarget",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WBP_Crafting_Slider_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_Slider.19"
+    },
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "Parm | OutParm | ReturnParm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'Widget'",
+          "ObjectPath": "/Script/UMG"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent | FUNC_Const"
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_33",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_Crafting_Slider_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_Slider.20"
+    },
+    "Class": "UScriptClass'HorizontalBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WBP_Crafting_Slider_C:WidgetTree.HorizontalBox_33.HorizontalBoxSlot_0'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_Slider.2"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WBP_Crafting_Slider_C:WidgetTree.HorizontalBox_33.HorizontalBoxSlot_5'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_Slider.5"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WBP_Crafting_Slider_C:WidgetTree.HorizontalBox_33.HorizontalBoxSlot_1'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_Slider.3"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WBP_Crafting_Slider_C:WidgetTree.HorizontalBox_33.HorizontalBoxSlot_3'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_Slider.4"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WBP_Crafting_Slider_C:WidgetTree.HorizontalBox_33.HorizontalBoxSlot_9'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_Slider.6"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WBP_Crafting_Slider_C:WidgetTree.HorizontalBox_33'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_Slider.1"
+    },
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WBP_Crafting_Slider_C:WidgetTree.HorizontalBox_33'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_Slider.1"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WBP_Crafting_Slider_C:WidgetTree.SizeBox_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_Slider.7"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_1",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WBP_Crafting_Slider_C:WidgetTree.HorizontalBox_33'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_Slider.1"
+    },
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WBP_Crafting_Slider_C:WidgetTree.HorizontalBox_33'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_Slider.1"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WBP_Crafting_Slider_C:WidgetTree.SizeBox_1'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_Slider.8"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_3",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WBP_Crafting_Slider_C:WidgetTree.HorizontalBox_33'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_Slider.1"
+    },
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "HorizontalBox'WBP_Crafting_Slider_C:WidgetTree.HorizontalBox_33'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_Slider.1"
+      },
+      "Content": {
+        "ObjectName": "Spacer'WBP_Crafting_Slider_C:WidgetTree.Spacer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_Slider.14"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_5",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WBP_Crafting_Slider_C:WidgetTree.HorizontalBox_33'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_Slider.1"
+    },
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "HorizontalBox'WBP_Crafting_Slider_C:WidgetTree.HorizontalBox_33'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_Slider.1"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WBP_Crafting_Slider_C:WidgetTree.SizeBox_2'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_Slider.9"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_9",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WBP_Crafting_Slider_C:WidgetTree.HorizontalBox_33'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_Slider.1"
+    },
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Parent": {
+        "ObjectName": "HorizontalBox'WBP_Crafting_Slider_C:WidgetTree.HorizontalBox_33'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_Slider.1"
+      },
+      "Content": {
+        "ObjectName": "Slider'WBP_Crafting_Slider_C:WidgetTree.InputSlider'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_Slider.13"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_0",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_Crafting_Slider_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_Slider.20"
+    },
+    "Class": "UScriptClass'SizeBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidthOverride": 25.0,
+      "HeightOverride": 25.0,
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WBP_Crafting_Slider_C:WidgetTree.SizeBox_0.SizeBoxSlot_1'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_Slider.10"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WBP_Crafting_Slider_C:WidgetTree.HorizontalBox_33.HorizontalBoxSlot_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_Slider.2"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": -1.0,
+          "Y": 1.0
+        }
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_1",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_Crafting_Slider_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_Slider.20"
+    },
+    "Class": "UScriptClass'SizeBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidthOverride": 25.0,
+      "HeightOverride": 25.0,
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WBP_Crafting_Slider_C:WidgetTree.SizeBox_1.SizeBoxSlot_2'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_Slider.11"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WBP_Crafting_Slider_C:WidgetTree.HorizontalBox_33.HorizontalBoxSlot_1'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_Slider.3"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_2",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_Crafting_Slider_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_Slider.20"
+    },
+    "Class": "UScriptClass'SizeBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidthOverride": 40.0,
+      "HeightOverride": 37.0,
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WBP_Crafting_Slider_C:WidgetTree.SizeBox_2.SizeBoxSlot_1'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_Slider.12"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WBP_Crafting_Slider_C:WidgetTree.HorizontalBox_33.HorizontalBoxSlot_5'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_Slider.5"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_1",
+    "Outer": {
+      "ObjectName": "SizeBox'WBP_Crafting_Slider_C:WidgetTree.SizeBox_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_Slider.7"
+    },
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'WBP_Crafting_Slider_C:WidgetTree.SizeBox_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_Slider.7"
+      },
+      "Content": {
+        "ObjectName": "WBP_DomButton_C'WBP_Crafting_Slider_C:WidgetTree.MinusButton'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_Slider.16"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_2",
+    "Outer": {
+      "ObjectName": "SizeBox'WBP_Crafting_Slider_C:WidgetTree.SizeBox_1'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_Slider.8"
+    },
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'WBP_Crafting_Slider_C:WidgetTree.SizeBox_1'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_Slider.8"
+      },
+      "Content": {
+        "ObjectName": "WBP_DomButton_C'WBP_Crafting_Slider_C:WidgetTree.PlusButton'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_Slider.17"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_1",
+    "Outer": {
+      "ObjectName": "SizeBox'WBP_Crafting_Slider_C:WidgetTree.SizeBox_2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_Slider.9"
+    },
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "SizeBox'WBP_Crafting_Slider_C:WidgetTree.SizeBox_2'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_Slider.9"
+      },
+      "Content": {
+        "ObjectName": "WBP_DomTextBlock_C'WBP_Crafting_Slider_C:WidgetTree.SliderValueText'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_Slider.18"
+      }
+    }
+  },
+  {
+    "Type": "Slider",
+    "Name": "InputSlider",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_Crafting_Slider_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_Slider.20"
+    },
+    "Class": "UScriptClass'Slider'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Value": 1.0,
+      "MinValue": 1.0,
+      "MaxValue": 255.0,
+      "WidgetStyle": {
+        "NormalBarImage": {
+          "ImageSize": {
+            "X": 256.0,
+            "Y": 4.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_Craft_AmountLine'",
+            "ObjectPath": "/Game/Art/UI/Craft/T_Craft_AmountLine"
+          }
+        },
+        "HoveredBarImage": {
+          "ImageSize": {
+            "X": 256.0,
+            "Y": 4.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_Craft_AmountLine'",
+            "ObjectPath": "/Game/Art/UI/Craft/T_Craft_AmountLine"
+          }
+        },
+        "DisabledBarImage": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            }
+          },
+          "ImageSize": {
+            "X": 256.0,
+            "Y": 4.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_Craft_AmountLine'",
+            "ObjectPath": "/Game/Art/UI/Craft/T_Craft_AmountLine"
+          }
+        },
+        "NormalThumbImage": {
+          "ImageSize": {
+            "X": 10.0,
+            "Y": 26.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_Craft_AmountScroller'",
+            "ObjectPath": "/Game/Art/UI/Craft/T_Craft_AmountScroller"
+          }
+        },
+        "HoveredThumbImage": {
+          "ImageSize": {
+            "X": 10.0,
+            "Y": 26.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_Craft_AmountScroller'",
+            "ObjectPath": "/Game/Art/UI/Craft/T_Craft_AmountScroller"
+          }
+        },
+        "DisabledThumbImage": {
+          "ImageSize": {
+            "X": 10.0,
+            "Y": 26.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_Craft_AmountScroller'",
+            "ObjectPath": "/Game/Art/UI/Craft/T_Craft_AmountScroller"
+          },
+          "ResourceName": "../../../Engine/Content/Slate/Common/Button.png"
+        }
+      },
+      "StepSize": 1.0,
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WBP_Crafting_Slider_C:WidgetTree.HorizontalBox_33.HorizontalBoxSlot_9'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_Slider.6"
+      }
+    }
+  },
+  {
+    "Type": "Spacer",
+    "Name": "Spacer",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_Crafting_Slider_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_Slider.20"
+    },
+    "Class": "UScriptClass'Spacer'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WBP_Crafting_Slider_C:WidgetTree.HorizontalBox_33.HorizontalBoxSlot_3'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_Slider.4"
+      }
+    }
+  },
+  {
+    "Type": "WBP_Crafting_Slider_C",
+    "Name": "Default__WBP_Crafting_Slider_C",
+    "Class": "WidgetBlueprintGeneratedClass'1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_Slider.WBP_Crafting_Slider_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "InitialMinSliderValue": 1.0,
+      "InitialMaxSliderValue": 10.0,
+      "ChangeValueInputActionGamepad": {
+        "ObjectName": "InputAction'IA_UI_GenericSlider'",
+        "ObjectPath": "/Game/Gameplay/Inputs/Actions/UI/IA_UI_GenericSlider"
+      },
+      "bShouldWidgetHandleInputsOnFocus": true,
+      "LabeledWidgetInputMappingContext": {
+        "ObjectName": "InputMappingContext'IMC_UI_GenericSlider'",
+        "ObjectPath": "/Game/Gameplay/Inputs/Mappings/IMC_UI_GenericSlider"
+      },
+      "LabeledWidgetInputMappingContextPriority": 15,
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "WBP_DomButton_C",
+    "Name": "MinusButton",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_Crafting_Slider_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_Slider.20"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_DomButton_C",
+    "Name": "PlusButton",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_Crafting_Slider_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_Slider.20"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_DomTextBlock_C",
+    "Name": "SliderValueText",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_Crafting_Slider_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_Slider.20"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_Crafting_Slider_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WBP_Crafting_Slider_C:WidgetTree'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_Slider.20"
+      },
+      "bClassRequiresNativeTick": true
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'CraftingSliderUIInput'",
+      "ObjectPath": "/Script/Dominion"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'WBP_Crafting_Slider_C:BP_GetDesiredFocusTarget'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_Slider.0"
+      }
+    ],
+    "FuncMap": {
+      "BP_GetDesiredFocusTarget": {
+        "ObjectName": "Function'WBP_Crafting_Slider_C:BP_GetDesiredFocusTarget'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_Slider.0"
+      }
+    },
+    "ClassFlags": "CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_Crafting_Slider_C'Default__WBP_Crafting_Slider_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_Slider.15"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WBP_Crafting_Slider_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_Slider.19"
+    },
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "HorizontalBox'WBP_Crafting_Slider_C:WidgetTree.HorizontalBox_33'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Crafting/Craft/WBP_Crafting_Slider.1"
+      }
+    }
+  }
+]

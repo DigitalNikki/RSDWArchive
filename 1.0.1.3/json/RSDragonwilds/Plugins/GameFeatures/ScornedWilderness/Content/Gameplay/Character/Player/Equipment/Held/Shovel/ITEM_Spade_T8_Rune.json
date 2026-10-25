@@ -1,0 +1,100 @@
+[
+  {
+    "Type": "SpadeToolEquipmentData",
+    "Name": "ITEM_Spade_T8_Rune",
+    "Class": "UScriptClass'SpadeToolEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ChargesAppliedPerDig": 5,
+      "HeldEquipmentActorClass": {
+        "AssetPathName": "/ScornedWilderness/Gameplay/Character/Player/Equipment/Held/Shovel/BP_Spade_Rune.BP_Spade_Rune_C",
+        "SubPathString": ""
+      },
+      "PrimaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Shovel_Dig_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Spells/Farming/Shovel/PA_Shovel_Dig"
+      },
+      "SecondaryActionClass": {
+        "ObjectName": "Class'PlayerAction'",
+        "ObjectPath": "/Script/Dominion"
+      },
+      "AnimationPoseType": "EAnimationPoseType::Default",
+      "AnimationPosesSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Idle_Shovel_Poses'",
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Farming/A_PlayerM_Idle_Shovel_Poses"
+      },
+      "LeftHandIKBoneName": "Prop_SecondHandSocket",
+      "BaseHeldEquipmentPowerLevelRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_PlayerWeaponPowerLevels'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels"
+        },
+        "RowName": "Weapons"
+      },
+      "BaseHeldEquipmentDamageNegationRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_PlayerDamageNegation'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_PlayerDamageNegation"
+        },
+        "RowName": "Tools"
+      },
+      "DamageMultiplier": 0.0,
+      "DamageTypes": [
+        "DamageType.Physical.Crush"
+      ],
+      "bLosesDurabilityOnAttack": false,
+      "bLosesDurabilityOnDamageReceived": false,
+      "Slot": "ELoadoutSlotStrategy::HeldTwoHanded",
+      "HandPreference": "EHandPreference::Right",
+      "Tier": 8,
+      "bIsAWeapon": true,
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Farming'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Farming"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "RuneSpade",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "RuneSpade",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Icons/T_Icon_Shovel_Rune_2H_01.T_Icon_Shovel_Rune_2H_01",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/ScornedWilderness/Art/Skeleton/Weapons/Tool/Shovel_Rune_2H_01/SM_Shovel_Rune_2H_01.SM_Shovel_Rune_2H_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 8,
+      "Weight": 5.5,
+      "Category": {
+        "TagName": "Item.Equipment.Tool.Shovel"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Tool.Shovel",
+        "Item.Farming.ShowProgress",
+        "Farming.Tiers.Tier1_Brynmoor",
+        "Farming.Tiers.Tier2_Ghornfell",
+        "Farming.Tiers.Tier3_Fellhollow",
+        "Farming.Tiers.Tier4_UmbralSands"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Farming.Shovel.Steel"
+      },
+      "BaseDurability": 800,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak"
+      },
+      "PersistenceID": "Z_2OHUr47dPq84uXDmB-rQ",
+      "InternalName": "tool_spade_rune"
+    }
+  }
+]

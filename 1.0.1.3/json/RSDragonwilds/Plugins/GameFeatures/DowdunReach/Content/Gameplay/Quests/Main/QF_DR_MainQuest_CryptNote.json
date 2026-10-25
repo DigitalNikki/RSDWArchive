@@ -1,0 +1,157 @@
+[
+  {
+    "Type": "ConversationDatabase",
+    "Name": "QF_DR_MainQuest_CryptNote",
+    "Class": "UScriptClass'ConversationDatabase'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CompilerVersion": 2,
+      "ReachableNodeMap": [
+        {
+          "Key": "5D10DD18-46470FBB-010E679A-0586FDFD",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_DR_MainQuest_CryptNote:ConversationEntryPointNode_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_CryptNote.1"
+          }
+        },
+        {
+          "Key": "EE1D6F8E-433C67A4-371ABE99-ADE4A96E",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_MainQuest_CryptNote:QFT_PromptMessage_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_CryptNote.2"
+          }
+        },
+        {
+          "Key": "31554606-41EFC183-50274A86-92CBC29C",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_MainQuest_CryptNote:QFT_PromptMessage_C_11'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_CryptNote.3"
+          }
+        },
+        {
+          "Key": "21197B3D-46C1F5A9-E1AE7B86-4D53BA16",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_MainQuest_CryptNote:QFT_PromptMessage_C_12'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_CryptNote.4"
+          }
+        },
+        {
+          "Key": "8C6EC4D4-46ED85D0-E2DA618C-456659C6",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_MainQuest_CryptNote:QFT_PromptMessage_C_13'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_CryptNote.5"
+          }
+        }
+      ],
+      "EntryTags": [
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.BlackKnightsFortress.Crypt_Note"
+          },
+          "DestinationList": [
+            "5D10DD18-46470FBB-010E679A-0586FDFD"
+          ],
+          "EntryIdentifier": ""
+        }
+      ],
+      "InternalNodeIds": [
+        "5D10DD18-46470FBB-010E679A-0586FDFD",
+        "EE1D6F8E-433C67A4-371ABE99-ADE4A96E",
+        "31554606-41EFC183-50274A86-92CBC29C",
+        "21197B3D-46C1F5A9-E1AE7B86-4D53BA16",
+        "8C6EC4D4-46ED85D0-E2DA618C-456659C6"
+      ]
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_CryptNote'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_CryptNote.0"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.BlackKnightsFortress.Crypt_Note"
+      },
+      "OutputConnections": [
+        "EE1D6F8E-433C67A4-371ABE99-ADE4A96E"
+      ],
+      "Compiled_NodeGUID": "5D10DD18-46470FBB-010E679A-0586FDFD"
+    }
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_CryptNote'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_CryptNote.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_CryptNote'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_CryptNote.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_12",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_CryptNote'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_CryptNote.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_13",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_CryptNote'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_CryptNote.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_Play2DSting_C",
+    "Name": "SEN_Play2DSting_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_CryptNote'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_CryptNote.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_Play2DSting_C",
+    "Name": "SEN_Play2DSting_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_CryptNote'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_CryptNote.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_Play2DSting_C",
+    "Name": "SEN_Play2DSting_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_CryptNote'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_CryptNote.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_Play2DSting_C",
+    "Name": "SEN_Play2DSting_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_CryptNote'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_CryptNote.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  }
+]

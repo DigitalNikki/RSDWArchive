@@ -1,0 +1,44 @@
+[
+  {
+    "Type": "JournalEntryKnowPlaceData",
+    "Name": "JOURNAL_Know_Place_LakeOfLostSouls",
+    "Class": "UScriptClass'JournalEntryKnowPlaceData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Map/ST_RegionNames.ST_RegionNames",
+        "Key": "Fellhollow.LakeOfLostSouls",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "Fellhollow.LakeOfLostSouls",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Journal/T_Icon_Journal_Bloodblight_Swamps.T_Icon_Journal_Bloodblight_Swamps",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RegionUnlocked",
+        "UnlockingInteractionActor": {
+          "AssetPathName": "/Game/Gameplay/World/Misc/BP_BaseBossAltar.BP_BaseBossAltar_C",
+          "SubPathString": ""
+        },
+        "RegionID": 9,
+        "MapRegion": {
+          "AssetPathName": "/Game/Maps/World/L_World.L_World",
+          "SubPathString": "PersistentLevel.BP_MapRegion_C_UAID_AC1A3DB43E390E9802_1925200781"
+        }
+      },
+      "PersistenceID": "yU2u8k-xB9k9chm76tBMYg",
+      "InternalName": "JOURNAL_Know_Place_LakeOfLostSouls"
+    }
+  }
+]

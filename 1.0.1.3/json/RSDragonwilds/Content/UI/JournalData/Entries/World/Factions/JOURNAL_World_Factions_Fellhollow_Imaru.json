@@ -1,0 +1,68 @@
+[
+  {
+    "Type": "JournalEntryWorldData",
+    "Name": "JOURNAL_World_Factions_Fellhollow_Imaru",
+    "Class": "UScriptClass'JournalEntryWorldData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Weaknesses": [
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Locations": [
+        {
+          "LocationText": {
+            "TableId": "/Game/Gameplay/Map/ST_RegionNames.ST_RegionNames",
+            "Key": "Fellhollow",
+            "SourceString": null,
+            "LocalizedString": ""
+          },
+          "LocationID": "Fellhollow"
+        }
+      ],
+      "Materials": [
+        {
+          "MaterialID": "None",
+          "MaterialItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Imaru_Head'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Key/ITEM_Resources_Imaru_Head"
+          }
+        }
+      ],
+      "DisplayName": {
+        "TableId": "/FutureMajorVersion/Gameplay/AI/ST_AI_Names_Fellhollow.ST_AI_Names_Fellhollow",
+        "Key": "Imaru",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "Imaru",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Journal/T_Icon_Journal_Imaru.T_Icon_Journal_Imaru",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::Interaction",
+        "UnlockingInteractionActor": {
+          "AssetPathName": "/Game/Gameplay/NPCs/Fellhollow_NPCs/BP_NPC_Death.BP_NPC_Death_C",
+          "SubPathString": ""
+        },
+        "AIData": {
+          "AssetPathName": "/Game/Gameplay/AI/DragonImaru/BP_AI_DragonImaru_Data.BP_AI_DragonImaru_Data_C",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "_6T6YkegHyuxYSmIFeK3Tw",
+      "InternalName": "JOURNAL_World_Factions_Fellhollow_Imaru"
+    }
+  }
+]

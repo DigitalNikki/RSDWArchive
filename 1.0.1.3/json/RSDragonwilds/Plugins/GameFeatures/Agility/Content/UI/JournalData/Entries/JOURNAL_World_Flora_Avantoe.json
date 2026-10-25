@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "JournalEntryWorldData",
+    "Name": "JOURNAL_World_Flora_Avantoe",
+    "Class": "UScriptClass'JournalEntryWorldData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Locations": [
+        {
+          "LocationText": {
+            "TableId": "/Game/UI/ST_Localization.ST_Localization",
+            "Key": "Ghornfell",
+            "SourceString": null,
+            "LocalizedString": ""
+          },
+          "LocationID": "Ghornfell"
+        }
+      ],
+      "Materials": [
+        {
+          "MaterialID": "Avantoe",
+          "MaterialItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Agility_Avantoe'",
+            "ObjectPath": "/Agility/Gameplay/Items/Resources/Agility/ITEM_Resources_Agility_Avantoe"
+          }
+        },
+        {
+          "MaterialID": "Avantoe Seed",
+          "MaterialItemData": {
+            "ObjectName": "SeedHeldEquipmentData'ITEM_Farming_Seed_Avantoe'",
+            "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Held/Farming/Seeds/ITEM_Farming_Seed_Avantoe"
+          }
+        }
+      ],
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "AgilityAvantoe",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "Avantoe",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/Agility/Art/UI/Icons/Journal/T_Icon_Journal_Avantoe_Herb_v2.T_Icon_Journal_Avantoe_Herb_v2",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::ItemFirstPickup",
+        "UnlockingItemData": {
+          "AssetPathName": "/Agility/Gameplay/Items/Resources/Agility/ITEM_Resources_Agility_Avantoe.ITEM_Resources_Agility_Avantoe",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "lMdCBET5Fy68M5KjgqsPGA",
+      "InternalName": "JOURNAL_World_Flora_Avantoe"
+    }
+  }
+]

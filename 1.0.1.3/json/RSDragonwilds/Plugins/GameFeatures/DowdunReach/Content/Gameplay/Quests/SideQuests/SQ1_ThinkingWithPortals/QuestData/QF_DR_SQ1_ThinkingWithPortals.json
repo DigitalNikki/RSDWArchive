@@ -1,0 +1,1741 @@
+[
+  {
+    "Type": "ConversationChoiceNode",
+    "Name": "ConversationChoiceNode_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Class": "UScriptClass'ConversationChoiceNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultChoiceDisplayText": {
+        "TableId": "/DowdunReach/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/ST_ThinkingWithPortals.ST_ThinkingWithPortals",
+        "Key": "PlayerChoice_1",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "ConversationChoiceNode",
+    "Name": "ConversationChoiceNode_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Class": "UScriptClass'ConversationChoiceNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultChoiceDisplayText": {
+        "TableId": "/DowdunReach/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/ST_ThinkingWithPortals.ST_ThinkingWithPortals",
+        "Key": "PlayerChoice_2",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "ConversationChoiceNode",
+    "Name": "ConversationChoiceNode_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Class": "UScriptClass'ConversationChoiceNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultChoiceDisplayText": {
+        "TableId": "/DowdunReach/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/ST_ThinkingWithPortals.ST_ThinkingWithPortals",
+        "Key": "PlayerChoice_AskAboutPortals",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "ConversationDatabase",
+    "Name": "QF_DR_SQ1_ThinkingWithPortals",
+    "Class": "UScriptClass'ConversationDatabase'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CompilerVersion": 2,
+      "ReachableNodeMap": [
+        {
+          "Key": "DF6E869E-48772D83-F3E6E1B4-837C60FF",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_DR_SQ1_ThinkingWithPortals:ConversationEntryPointNode_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.4"
+          }
+        },
+        {
+          "Key": "9C47A359-49E9249E-76A09780-95516574",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ1_ThinkingWithPortals:QFT_Blank_C_45'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.52"
+          }
+        },
+        {
+          "Key": "629EA44D-46FDFF4F-5CC26782-6CE9F52A",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_SQ1_ThinkingWithPortals:QFT_PromptMessage_C_43'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.81"
+          }
+        },
+        {
+          "Key": "E3BD4B01-41D201FE-DD246FB2-6C52AFC0",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_SQ1_ThinkingWithPortals:QFT_PromptMessage_C_48'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.83"
+          }
+        },
+        {
+          "Key": "8175B8DC-4A90E1EA-6F768A8E-BFA59795",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_SQ1_ThinkingWithPortals:QFT_PromptMessage_C_53'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.84"
+          }
+        },
+        {
+          "Key": "3EA0D490-4259FA3D-8F2591A0-37E558FF",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_SQ1_ThinkingWithPortals:QFT_PromptMessage_C_57'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.85"
+          }
+        },
+        {
+          "Key": "4E73E94E-40001168-53EC74A1-4624025C",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ1_ThinkingWithPortals:QFT_Blank_C_49'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.54"
+          }
+        },
+        {
+          "Key": "C80FC39A-49D00697-143375A7-CFFD1F8B",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_SQ1_ThinkingWithPortals:QFT_PromptMessage_C_59'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.86"
+          }
+        },
+        {
+          "Key": "AF64355A-46FFA075-861B73B6-7B2CB601",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ1_ThinkingWithPortals:QFT_Blank_C_48'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.53"
+          }
+        },
+        {
+          "Key": "14D03E4B-473A7B55-49BA5FB9-9F9E2295",
+          "Value": {
+            "ObjectName": "QFT_GiveItemToPlayer_C'QF_DR_SQ1_ThinkingWithPortals:QFT_GiveItemToPlayer_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.60"
+          }
+        },
+        {
+          "Key": "B398C3F6-40106D66-371014AB-9C0062EE",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_DR_SQ1_ThinkingWithPortals:QFT_SetQuestBool_C_11'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.90"
+          }
+        },
+        {
+          "Key": "1715F869-41AB386F-2353529F-6A0F3CEB",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ1_ThinkingWithPortals:QFT_Blank_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.41"
+          }
+        },
+        {
+          "Key": "B93260F3-4AB20458-16111DA9-B15464F2",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_SQ1_ThinkingWithPortals:QFT_PromptMessage_C_47'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.82"
+          }
+        },
+        {
+          "Key": "FE7BC0F6-44F10011-9DC154B7-56D5B6F5",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ1_ThinkingWithPortals:QFT_Blank_C_10'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.33"
+          }
+        },
+        {
+          "Key": "451B24BB-4EFDDB2B-9C5BF79D-C22849CC",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ1_ThinkingWithPortals:QFT_Blank_C_13'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.36"
+          }
+        },
+        {
+          "Key": "4EE281BF-4BDD7C18-6700D59F-D486CBD3",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ1_ThinkingWithPortals:QFT_Blank_C_14'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.37"
+          }
+        },
+        {
+          "Key": "E02E052D-4A32B039-58BBDBAC-49C04C84",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ1_ThinkingWithPortals:QFT_Blank_C_15'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.38"
+          }
+        },
+        {
+          "Key": "31F74656-444D782E-94D0F689-DC7A38BF",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ1_ThinkingWithPortals:QFT_Blank_C_16'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.39"
+          }
+        },
+        {
+          "Key": "3F5A5333-4CFD0797-FD4071B1-C47BEED9",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ1_ThinkingWithPortals:QFT_Blank_C_17'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.40"
+          }
+        },
+        {
+          "Key": "D7AE6F79-41145B1A-5FE9A3B6-28C76517",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_DR_SQ1_ThinkingWithPortals:ConversationEntryPointNode_15'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.5"
+          }
+        },
+        {
+          "Key": "B745BF41-462AC434-20BFF6BF-5BA7701D",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ1_ThinkingWithPortals:QFT_Blank_C_6'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.56"
+          }
+        },
+        {
+          "Key": "B4C3005B-4422666C-1BA28F8F-C5637AFC",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_SQ1_ThinkingWithPortals:QFT_PromptMessage_C_61'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.87"
+          }
+        },
+        {
+          "Key": "D995333C-433C2A6A-4BAA1E9B-ACA5D2E8",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ1_ThinkingWithPortals:QFT_Blank_C_52'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.55"
+          }
+        },
+        {
+          "Key": "C7BB99B3-466BFB0F-B5029798-2E1573BE",
+          "Value": {
+            "ObjectName": "ConversationLinkNode'QF_DR_SQ1_ThinkingWithPortals:ConversationLinkNode_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.6"
+          }
+        },
+        {
+          "Key": "5C96B80A-43570E95-C0936790-C23C8B23",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ1_ThinkingWithPortals:QFT_Blank_C_12'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.35"
+          }
+        },
+        {
+          "Key": "525F516F-4C241D34-6E3BA8B5-F3D4D0E3",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ1_ThinkingWithPortals:QFT_Blank_C_8'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.57"
+          }
+        },
+        {
+          "Key": "49BCAEB1-40EC2C1D-2C8DEFA4-00C6F23C",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ1_ThinkingWithPortals:QFT_Blank_C_22'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.43"
+          }
+        },
+        {
+          "Key": "3209836B-45411D7F-A41D2D87-0F12658E",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ1_ThinkingWithPortals:QFT_Blank_C_44'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.51"
+          }
+        },
+        {
+          "Key": "DB3DABC7-44DA4123-C1D904BE-9BE62F00",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_SQ1_ThinkingWithPortals:QFT_PromptMessage_C_38'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.77"
+          }
+        },
+        {
+          "Key": "3D9CD722-441A7CA4-A4BC239E-C0AFEE24",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_SQ1_ThinkingWithPortals:QFT_PromptMessage_C_39'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.78"
+          }
+        },
+        {
+          "Key": "4C4951E4-404B7E3B-4D29E4A6-60AAB5E8",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_SQ1_ThinkingWithPortals:QFT_PromptMessage_C_40'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.79"
+          }
+        },
+        {
+          "Key": "09CF8BFD-4B9EF1A1-2A73018E-F79FD953",
+          "Value": {
+            "ObjectName": "QFT_GiveCraftingRecipe_C'QF_DR_SQ1_ThinkingWithPortals:QFT_GiveCraftingRecipe_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.59"
+          }
+        },
+        {
+          "Key": "CDCCD943-4F3B16EC-7313A1BC-33B965DF",
+          "Value": {
+            "ObjectName": "QFT_CompleteQuest_C'QF_DR_SQ1_ThinkingWithPortals:QFT_CompleteQuest_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.58"
+          }
+        },
+        {
+          "Key": "717F372F-4CDEEE25-89624AA6-011231F2",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_SQ1_ThinkingWithPortals:QFT_PromptMessage_C_41'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.80"
+          }
+        },
+        {
+          "Key": "F8F3AC06-4299C22C-1977EF84-53861649",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ1_ThinkingWithPortals:QFT_Blank_C_37'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.47"
+          }
+        },
+        {
+          "Key": "2835EBEE-44A2585F-8870889E-EF523A30",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ1_ThinkingWithPortals:QFT_Blank_C_38'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.48"
+          }
+        },
+        {
+          "Key": "459EE7D3-4B95D5A2-B001AB93-85C3A770",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_SQ1_ThinkingWithPortals:QFT_PromptMessage_C_33'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.76"
+          }
+        },
+        {
+          "Key": "624FFF68-469052AA-5F42BEB5-AAB92C74",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ1_ThinkingWithPortals:QFT_Blank_C_39'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.49"
+          }
+        },
+        {
+          "Key": "52B13ECE-4BAD6B73-8796ADAE-9311EAD7",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_SQ1_ThinkingWithPortals:QFT_PromptMessage_C_30'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.74"
+          }
+        },
+        {
+          "Key": "A9DE8C6C-460294CA-C696759E-5459E298",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_SQ1_ThinkingWithPortals:QFT_PromptMessage_C_31'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.75"
+          }
+        },
+        {
+          "Key": "8354505C-49010858-9FC74F81-CA3362D3",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_DR_SQ1_ThinkingWithPortals:QFT_SetQuestBool_C_6'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.93"
+          }
+        },
+        {
+          "Key": "8524E8C9-4C2B5245-58757DB4-2E6F16C8",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_DR_SQ1_ThinkingWithPortals:QFT_SetQuestObjective_C_8'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.100"
+          }
+        },
+        {
+          "Key": "B574EC0C-490107CC-02CF0F98-6FB60F48",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_DR_SQ1_ThinkingWithPortals:QFT_SetQuestBool_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.92"
+          }
+        },
+        {
+          "Key": "8CF5FC12-4F2F1055-C20C9393-B88177EA",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ1_ThinkingWithPortals:QFT_Blank_C_26'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.44"
+          }
+        },
+        {
+          "Key": "6771A82E-40E62B20-7A883FB7-360CCED1",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ1_ThinkingWithPortals:QFT_Blank_C_30'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.46"
+          }
+        },
+        {
+          "Key": "A2259B95-4F74C3F1-1AE1BEB0-9D0FBF77",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_SQ1_ThinkingWithPortals:QFT_PromptMessage_C_28'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.73"
+          }
+        },
+        {
+          "Key": "8582C894-4AA8F8DB-DB04D9AC-3ACC3744",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ1_ThinkingWithPortals:QFT_Blank_C_29'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.45"
+          }
+        },
+        {
+          "Key": "1495A575-4BF5A801-D64103AB-33F601B5",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_SQ1_ThinkingWithPortals:QFT_PromptMessage_C_26'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.71"
+          }
+        },
+        {
+          "Key": "5007BB0A-4527CDEE-D3D2BC98-B80B8590",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_SQ1_ThinkingWithPortals:QFT_PromptMessage_C_27'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.72"
+          }
+        },
+        {
+          "Key": "B0A1E79F-495C14E6-36FDF1BD-AF997707",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_DR_SQ1_ThinkingWithPortals:QFT_SetQuestObjective_C_7'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.99"
+          }
+        },
+        {
+          "Key": "C9DDF84D-4E07549F-D3B6E787-97AA9448",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_DR_SQ1_ThinkingWithPortals:QFT_SetQuestBool_C_9'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.96"
+          }
+        },
+        {
+          "Key": "18F7F895-4FF42E1D-CD4E0A9B-9692EE1F",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_DR_SQ1_ThinkingWithPortals:QFT_SetQuestBool_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.91"
+          }
+        },
+        {
+          "Key": "EE9F6D93-4757744F-887262A1-20344AAC",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ1_ThinkingWithPortals:QFT_Blank_C_20'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.42"
+          }
+        },
+        {
+          "Key": "20D47F63-4AC56B48-76E38B8C-ABDDE7CC",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_SQ1_ThinkingWithPortals:QFT_PromptMessage_C_24'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.69"
+          }
+        },
+        {
+          "Key": "BFEB2A06-461787EB-ACACB897-17A44EBE",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_SQ1_ThinkingWithPortals:QFT_PromptMessage_C_25'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.70"
+          }
+        },
+        {
+          "Key": "D4A540C8-44996DC8-F36BEF93-D501747B",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_DR_SQ1_ThinkingWithPortals:QFT_SetQuestObjective_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.98"
+          }
+        },
+        {
+          "Key": "9CBDF65F-467884C8-8B0287B2-C4E2C062",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_DR_SQ1_ThinkingWithPortals:QFT_SetQuestBool_C_8'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.95"
+          }
+        },
+        {
+          "Key": "E54B82B4-4AEF8B15-DED8C4B0-ABCDCA5B",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_DR_SQ1_ThinkingWithPortals:QFT_SetQuestBool_C_7'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.94"
+          }
+        },
+        {
+          "Key": "9E0E6345-49F046A7-AD824185-C03BF129",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ1_ThinkingWithPortals:QFT_Blank_C_11'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.34"
+          }
+        },
+        {
+          "Key": "48714346-4F2E0A85-8C8560AB-021A1D40",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_SQ1_ThinkingWithPortals:QFT_PromptMessage_C_12'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.66"
+          }
+        },
+        {
+          "Key": "B21B594D-4BF4984F-8FD775B4-4E3843A4",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ1_ThinkingWithPortals:QFT_Blank_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.50"
+          }
+        },
+        {
+          "Key": "76EF5050-48C021CE-10D9DB86-E80C6E11",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_SQ1_ThinkingWithPortals:QFT_PromptMessage_C_13'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.67"
+          }
+        },
+        {
+          "Key": "FDAD79C3-42E3E9E3-E4278A92-32EDE92A",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ1_ThinkingWithPortals:QFT_Blank_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.32"
+          }
+        },
+        {
+          "Key": "B7678371-40D0A6FC-EF79F29E-9191234F",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_SQ1_ThinkingWithPortals:QFT_PromptMessage_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.63"
+          }
+        },
+        {
+          "Key": "14A075FE-43A57188-80A89CB6-31452ADC",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_SQ1_ThinkingWithPortals:QFT_PromptMessage_C_10'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.64"
+          }
+        },
+        {
+          "Key": "72861CF8-4853CBF6-125C5BAB-415D343A",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_SQ1_ThinkingWithPortals:QFT_PromptMessage_C_11'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.65"
+          }
+        },
+        {
+          "Key": "CC29DA9F-44D965C9-6A277587-56321049",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_SQ1_ThinkingWithPortals:QFT_PromptMessage_C_14'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.68"
+          }
+        },
+        {
+          "Key": "9BB17FAE-4F0CC2FE-2C66F592-5E381ABF",
+          "Value": {
+            "ObjectName": "QFT_GiveQuest_C'QF_DR_SQ1_ThinkingWithPortals:QFT_GiveQuest_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.61"
+          }
+        },
+        {
+          "Key": "D224BC80-4034E13E-EA2F95B1-76D1A035",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_DR_SQ1_ThinkingWithPortals:QFT_SetQuestBool_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.88"
+          }
+        },
+        {
+          "Key": "532BB5D1-4DD33DF9-D832DBAB-73FB9E2C",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_DR_SQ1_ThinkingWithPortals:QFT_SetQuestBool_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.89"
+          }
+        },
+        {
+          "Key": "516960DA-446B98EA-AC28B990-A55C2591",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_DR_SQ1_ThinkingWithPortals:QFT_SetQuestObjective_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.97"
+          }
+        },
+        {
+          "Key": "D1925CB2-4AA58E9B-87C9359F-C81B6BE0",
+          "Value": {
+            "ObjectName": "QFT_ModifyQuestInt_C'QF_DR_SQ1_ThinkingWithPortals:QFT_ModifyQuestInt_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.62"
+          }
+        },
+        {
+          "Key": "324B8B0D-49B98E26-418E4396-627AC7CE",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DR_SQ1_ThinkingWithPortals:QFT_UpdateQuestLocation_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.101"
+          }
+        }
+      ],
+      "EntryTags": [
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.ThinkingWithPortals.Doric"
+          },
+          "DestinationList": [
+            "D7AE6F79-41145B1A-5FE9A3B6-28C76517"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.ThinkingWithPortals.Portals.QuestStatus"
+          },
+          "DestinationList": [
+            "DF6E869E-48772D83-F3E6E1B4-837C60FF"
+          ],
+          "EntryIdentifier": ""
+        }
+      ],
+      "ExitTags": [
+        "QuestFlow.Entry.ThinkingWithPortals.Portals.QuestStatus"
+      ],
+      "InternalNodeIds": [
+        "DF6E869E-48772D83-F3E6E1B4-837C60FF",
+        "9C47A359-49E9249E-76A09780-95516574",
+        "629EA44D-46FDFF4F-5CC26782-6CE9F52A",
+        "E3BD4B01-41D201FE-DD246FB2-6C52AFC0",
+        "8175B8DC-4A90E1EA-6F768A8E-BFA59795",
+        "3EA0D490-4259FA3D-8F2591A0-37E558FF",
+        "4E73E94E-40001168-53EC74A1-4624025C",
+        "C80FC39A-49D00697-143375A7-CFFD1F8B",
+        "AF64355A-46FFA075-861B73B6-7B2CB601",
+        "14D03E4B-473A7B55-49BA5FB9-9F9E2295",
+        "B398C3F6-40106D66-371014AB-9C0062EE",
+        "1715F869-41AB386F-2353529F-6A0F3CEB",
+        "B93260F3-4AB20458-16111DA9-B15464F2",
+        "FE7BC0F6-44F10011-9DC154B7-56D5B6F5",
+        "451B24BB-4EFDDB2B-9C5BF79D-C22849CC",
+        "4EE281BF-4BDD7C18-6700D59F-D486CBD3",
+        "E02E052D-4A32B039-58BBDBAC-49C04C84",
+        "31F74656-444D782E-94D0F689-DC7A38BF",
+        "3F5A5333-4CFD0797-FD4071B1-C47BEED9",
+        "D7AE6F79-41145B1A-5FE9A3B6-28C76517",
+        "B745BF41-462AC434-20BFF6BF-5BA7701D",
+        "B4C3005B-4422666C-1BA28F8F-C5637AFC",
+        "D995333C-433C2A6A-4BAA1E9B-ACA5D2E8",
+        "C7BB99B3-466BFB0F-B5029798-2E1573BE",
+        "5C96B80A-43570E95-C0936790-C23C8B23",
+        "525F516F-4C241D34-6E3BA8B5-F3D4D0E3",
+        "49BCAEB1-40EC2C1D-2C8DEFA4-00C6F23C",
+        "3209836B-45411D7F-A41D2D87-0F12658E",
+        "DB3DABC7-44DA4123-C1D904BE-9BE62F00",
+        "3D9CD722-441A7CA4-A4BC239E-C0AFEE24",
+        "4C4951E4-404B7E3B-4D29E4A6-60AAB5E8",
+        "09CF8BFD-4B9EF1A1-2A73018E-F79FD953",
+        "CDCCD943-4F3B16EC-7313A1BC-33B965DF",
+        "717F372F-4CDEEE25-89624AA6-011231F2",
+        "F8F3AC06-4299C22C-1977EF84-53861649",
+        "2835EBEE-44A2585F-8870889E-EF523A30",
+        "459EE7D3-4B95D5A2-B001AB93-85C3A770",
+        "624FFF68-469052AA-5F42BEB5-AAB92C74",
+        "52B13ECE-4BAD6B73-8796ADAE-9311EAD7",
+        "A9DE8C6C-460294CA-C696759E-5459E298",
+        "8354505C-49010858-9FC74F81-CA3362D3",
+        "8524E8C9-4C2B5245-58757DB4-2E6F16C8",
+        "B574EC0C-490107CC-02CF0F98-6FB60F48",
+        "8CF5FC12-4F2F1055-C20C9393-B88177EA",
+        "6771A82E-40E62B20-7A883FB7-360CCED1",
+        "A2259B95-4F74C3F1-1AE1BEB0-9D0FBF77",
+        "8582C894-4AA8F8DB-DB04D9AC-3ACC3744",
+        "1495A575-4BF5A801-D64103AB-33F601B5",
+        "5007BB0A-4527CDEE-D3D2BC98-B80B8590",
+        "B0A1E79F-495C14E6-36FDF1BD-AF997707",
+        "C9DDF84D-4E07549F-D3B6E787-97AA9448",
+        "18F7F895-4FF42E1D-CD4E0A9B-9692EE1F",
+        "EE9F6D93-4757744F-887262A1-20344AAC",
+        "20D47F63-4AC56B48-76E38B8C-ABDDE7CC",
+        "BFEB2A06-461787EB-ACACB897-17A44EBE",
+        "D4A540C8-44996DC8-F36BEF93-D501747B",
+        "9CBDF65F-467884C8-8B0287B2-C4E2C062",
+        "E54B82B4-4AEF8B15-DED8C4B0-ABCDCA5B",
+        "9E0E6345-49F046A7-AD824185-C03BF129",
+        "48714346-4F2E0A85-8C8560AB-021A1D40",
+        "B21B594D-4BF4984F-8FD775B4-4E3843A4",
+        "76EF5050-48C021CE-10D9DB86-E80C6E11",
+        "FDAD79C3-42E3E9E3-E4278A92-32EDE92A",
+        "B7678371-40D0A6FC-EF79F29E-9191234F",
+        "14A075FE-43A57188-80A89CB6-31452ADC",
+        "72861CF8-4853CBF6-125C5BAB-415D343A",
+        "CC29DA9F-44D965C9-6A277587-56321049",
+        "9BB17FAE-4F0CC2FE-2C66F592-5E381ABF",
+        "D224BC80-4034E13E-EA2F95B1-76D1A035",
+        "532BB5D1-4DD33DF9-D832DBAB-73FB9E2C",
+        "516960DA-446B98EA-AC28B990-A55C2591",
+        "D1925CB2-4AA58E9B-87C9359F-C81B6BE0",
+        "324B8B0D-49B98E26-418E4396-627AC7CE"
+      ]
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.ThinkingWithPortals.Portals.QuestStatus"
+      },
+      "OutputConnections": [
+        "3F5A5333-4CFD0797-FD4071B1-C47BEED9",
+        "31F74656-444D782E-94D0F689-DC7A38BF",
+        "E02E052D-4A32B039-58BBDBAC-49C04C84",
+        "4EE281BF-4BDD7C18-6700D59F-D486CBD3",
+        "451B24BB-4EFDDB2B-9C5BF79D-C22849CC",
+        "FE7BC0F6-44F10011-9DC154B7-56D5B6F5",
+        "1715F869-41AB386F-2353529F-6A0F3CEB",
+        "9C47A359-49E9249E-76A09780-95516574"
+      ],
+      "Compiled_NodeGUID": "DF6E869E-48772D83-F3E6E1B4-837C60FF"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_15",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.ThinkingWithPortals.Doric"
+      },
+      "OutputConnections": [
+        "5C96B80A-43570E95-C0936790-C23C8B23",
+        "B745BF41-462AC434-20BFF6BF-5BA7701D"
+      ],
+      "Compiled_NodeGUID": "D7AE6F79-41145B1A-5FE9A3B6-28C76517"
+    }
+  },
+  {
+    "Type": "ConversationLinkNode",
+    "Name": "ConversationLinkNode_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Class": "UScriptClass'ConversationLinkNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RemoteEntryTag": {
+        "TagName": "QuestFlow.Entry.ThinkingWithPortals.Portals.QuestStatus"
+      },
+      "Compiled_NodeGUID": "C7BB99B3-466BFB0F-B5029798-2E1573BE",
+      "ParentNode": {
+        "ObjectName": "QFT_Blank_C'QF_DR_SQ1_ThinkingWithPortals:QFT_Blank_C_52'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.55"
+      }
+    }
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerDoesntHaveSpaceForItem_C",
+    "Name": "QFR_PlayerDoesntHaveSpaceForItem_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasSpaceForItem_C",
+    "Name": "QFR_PlayerHasSpaceForItem_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_20",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_21",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_24",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_25",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_27",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_33",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_12",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_13",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_14",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_15",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_16",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_12",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_13",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_14",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_15",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_16",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_17",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_20",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_22",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_26",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_29",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_30",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_37",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_38",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_39",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_44",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_45",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_48",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_49",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_52",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_CompleteQuest_C",
+    "Name": "QFT_CompleteQuest_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveCraftingRecipe_C",
+    "Name": "QFT_GiveCraftingRecipe_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveItemToPlayer_C",
+    "Name": "QFT_GiveItemToPlayer_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveQuest_C",
+    "Name": "QFT_GiveQuest_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_ModifyQuestInt_C",
+    "Name": "QFT_ModifyQuestInt_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_12",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_13",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_14",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_24",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_25",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_26",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_27",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_28",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_30",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_31",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_33",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_38",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_39",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_40",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_41",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_43",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_47",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_48",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_53",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_57",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_59",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_61",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_12",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_13",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_14",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_15",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ1_ThinkingWithPortals'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/QF_DR_SQ1_ThinkingWithPortals.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  }
+]

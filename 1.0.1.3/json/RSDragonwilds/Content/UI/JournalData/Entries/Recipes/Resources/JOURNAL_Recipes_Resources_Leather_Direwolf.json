@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "JournalEntryRecipeData",
+    "Name": "JOURNAL_Recipes_Resources_Leather_Direwolf",
+    "Class": "UScriptClass'JournalEntryRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipeData": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/JournalEntries/Materials_Basic/RECIPE_Journal_Materials_Basic_Hide_Wolf_Alpha.RECIPE_Journal_Materials_Basic_Hide_Wolf_Alpha",
+        "SubPathString": ""
+      },
+      "ItemData": {
+        "AssetPathName": "/Game/Gameplay/Items/Resources/Textiles/ITEM_Resources_Alpha_Leather.ITEM_Resources_Alpha_Leather",
+        "SubPathString": ""
+      },
+      "StationTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_ProcessingStationDataTable'",
+          "ObjectPath": "/Game/Gameplay/World/Stations/DT_ProcessingStationDataTable"
+        },
+        "RowName": "Tannery"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "DireWolfLeather",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "DireWolfLeather",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icons_Journal_Dire_Wolf_Leather_New.T_Icons_Journal_Dire_Wolf_Leather_New",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RecipeUnlocked",
+        "UnlockingRecipe": {
+          "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/JournalEntries/Materials_Basic/RECIPE_Journal_Materials_Basic_Hide_Wolf_Alpha.RECIPE_Journal_Materials_Basic_Hide_Wolf_Alpha",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "n_aBP09PRvoLeLmA1ybRHw",
+      "InternalName": "JOURNAL_Recipes_Resources_Leather_Alpha"
+    }
+  }
+]

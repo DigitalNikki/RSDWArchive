@@ -1,0 +1,76 @@
+[
+  {
+    "Type": "BuildingPieceData",
+    "Name": "BUILDPIECE_Decoration_UmS_Carpet_Standing_02",
+    "Class": "UScriptClass'BuildingPieceData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DerivedData": {
+        "AssetPathName": "/UmbralSands/Gameplay/Buildpieces/Decorations/Recipes/BUILDPIECE_Decoration_UmS_Carpet_Standing_02_DerivedData.BUILDPIECE_Decoration_UmS_Carpet_Standing_02_DerivedData",
+        "SubPathString": ""
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/BaseBuilding_New/BuildingPieces/ST_BuildingPieces.ST_BuildingPieces",
+        "Key": "Decoration.UmS.Carpet.Standing.02",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Category": {
+        "TagName": "BaseBuilding.Category.Bed"
+      },
+      "DisplayIcon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Moon_Garou_Decoration_Standing_Carpet_02.T_Icon_Moon_Garou_Decoration_Standing_Carpet_02",
+        "SubPathString": ""
+      },
+      "BuildableActor": {
+        "AssetPathName": "/UmbralSands/Gameplay/Buildpieces/Decorations/Blueprints/BP_BaseBuilding_Decoration_UmS_Carpet_Standing_02.BP_BaseBuilding_Decoration_UmS_Carpet_Standing_02_C",
+        "SubPathString": ""
+      },
+      "Requirements": [
+        {
+          "Amount": 2,
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Cloth_Desert'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Resources/Processed/ITEM_Resources_Cloth_Desert"
+          }
+        }
+      ],
+      "ShelterRequirementIcon": {
+        "AssetPathName": "/Game/Art/UI/Icons/T_Build_Tooltip_Shelter_80x80.T_Build_Tooltip_Shelter_80x80",
+        "SubPathString": ""
+      },
+      "ShelterRequirementText": {
+        "Namespace": "",
+        "Key": "1DEB601E4DDF80DDFDF4519D6AEA5D3B",
+        "SourceString": "Requries Shelter",
+        "LocalizedString": "Requries Shelter"
+      },
+      "PieceTag": {
+        "TagName": "BaseBuilding.PieceType.Prop"
+      },
+      "BuildingStabilityProfileRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'StabilityProfileDataTable'",
+          "ObjectPath": "/Game/Gameplay/BaseBuilding/StabilityProfileDataTable"
+        },
+        "RowName": "Prop"
+      },
+      "BuildXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Building'",
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Building"
+        },
+        "RowName": "Build_Decoration_Tier2"
+      },
+      "SelectionPlayerHooks": [
+        {
+          "ObjectName": "BP_FTUENotificationPlayerHook_C'PH_UnlockedFirstBed'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/PlayerHooks/FTUE/PH_UnlockedFirstBed"
+        }
+      ],
+      "RepresentationCategory": "EBuildingPieceRepresentationCategory::Lightweight",
+      "PersistenceID": "6Z36gkR8TqCmpTGq2ziLZw",
+      "InternalName": "buildpiece_decoration_ums_carpet_standing_02"
+    }
+  }
+]

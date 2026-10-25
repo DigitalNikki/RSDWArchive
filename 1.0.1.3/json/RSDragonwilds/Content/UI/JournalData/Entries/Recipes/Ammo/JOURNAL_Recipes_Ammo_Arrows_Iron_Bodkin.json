@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "JournalEntryRecipeData",
+    "Name": "JOURNAL_Recipes_Ammo_Arrows_Iron_Bodkin",
+    "Class": "UScriptClass'JournalEntryRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipeData": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Ammo/RECIPE_Ammo_Arrows_Iron_Bodkin.RECIPE_Ammo_Arrows_Iron_Bodkin",
+        "SubPathString": ""
+      },
+      "ItemData": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Arrows_Iron_Bodkin.ITEM_Ammo_Arrows_Iron_Bodkin",
+        "SubPathString": ""
+      },
+      "StationTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_CraftingStationsDataTable'",
+          "ObjectPath": "/Game/Gameplay/World/Stations/DT_CraftingStationsDataTable"
+        },
+        "RowName": "FletchingBenchv2"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "IronBodkinArrow",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "IronArrow",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Journal/T_Icon_Journal_Arrows_Iron.T_Icon_Journal_Arrows_Iron",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RecipeUnlocked",
+        "UnlockingRecipe": {
+          "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Ammo/RECIPE_Ammo_Arrows_Iron_Bodkin.RECIPE_Ammo_Arrows_Iron_Bodkin",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "jPm4n0k20ZQHLMKgVy7Vcg",
+      "InternalName": "JOURNAL_Recipes_Ammo_Arrows_Iron_Bodkin"
+    }
+  }
+]

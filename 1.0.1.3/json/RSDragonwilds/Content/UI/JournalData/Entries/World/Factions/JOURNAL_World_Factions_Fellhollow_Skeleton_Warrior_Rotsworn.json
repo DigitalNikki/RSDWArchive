@@ -1,0 +1,85 @@
+[
+  {
+    "Type": "JournalEntryWorldData",
+    "Name": "JOURNAL_World_Factions_Fellhollow_Skeleton_Warrior_Rotsworn",
+    "Class": "UScriptClass'JournalEntryWorldData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Weaknesses": [
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Locations": [
+        {
+          "LocationText": {
+            "TableId": "/Game/Gameplay/Map/ST_RegionNames.ST_RegionNames",
+            "Key": "Fellhollow",
+            "SourceString": null,
+            "LocalizedString": ""
+          },
+          "LocationID": "Fellhollow"
+        }
+      ],
+      "Materials": [
+        {
+          "MaterialID": "None",
+          "MaterialItemData": {
+            "ObjectName": "ItemData'ITEM_Currency_SoulFragment'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Currency/ITEM_Currency_SoulFragment"
+          }
+        },
+        {
+          "MaterialID": "None",
+          "MaterialItemData": {
+            "ObjectName": "BP_Consumables_ItemEmitter_C'ITEM_Consumable_SkeletonPack'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Misc/ITEM_Consumable_SkeletonPack"
+          }
+        },
+        {
+          "MaterialID": "None",
+          "MaterialItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Bone_Undead'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_Bone_Undead"
+          }
+        },
+        {
+          "MaterialID": "None",
+          "MaterialItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Heart_Withered'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_Heart_Withered"
+          }
+        }
+      ],
+      "DisplayName": {
+        "TableId": "/FutureMajorVersion/Gameplay/AI/ST_AI_Names_Fellhollow.ST_AI_Names_Fellhollow",
+        "Key": "SkeletonMeleeWithered",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "RotswornWarrior",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Journal/T_Icon_Journal_Rotsword_Warrior.T_Icon_Journal_Rotsword_Warrior",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::AIKill",
+        "AIData": {
+          "AssetPathName": "/FutureMajorVersion/Gameplay/AI/SkeletonFaction/MeleeSkeleton/OneHandSwordVariant/BP_AI_SkeletalWarrior_Data.BP_AI_SkeletalWarrior_Data_C",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "Ny9UaEzjSCqNUeGieLRC7w",
+      "InternalName": "JOURNAL_World_Factions_Skeleton_Warrior_Rotsworn"
+    }
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "Type": "BuildingPieceData",
+    "Name": "BUILDPIECE_Decoration_UmS_Pet_Vulture",
+    "Class": "UScriptClass'BuildingPieceData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DerivedData": {
+        "AssetPathName": "/UmbralSands/Gameplay/Buildpieces/Decorations/Recipes/BUILDPIECE_Decoration_UmS_Pet_Vulture_DerivedData.BUILDPIECE_Decoration_UmS_Pet_Vulture_DerivedData",
+        "SubPathString": ""
+      },
+      "DisplayName": {
+        "TableId": "/UmbralSands/Gameplay/Buildpieces/ST_UmS_BuildPieces.ST_UmS_BuildPieces",
+        "Key": "Perch.Vulture",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Category": {
+        "TagName": "BaseBuilding.Category"
+      },
+      "DisplayIcon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Decorations_Ums_Perch_Vulture.T_Icon_Decorations_Ums_Perch_Vulture",
+        "SubPathString": ""
+      },
+      "BuildableActor": {
+        "AssetPathName": "/UmbralSands/Gameplay/Buildpieces/Decorations/Blueprints/BP_BaseBuilding_Decoration_UmS_Perch_Vulture.BP_BaseBuilding_Decoration_UmS_Perch_Vulture_C",
+        "SubPathString": ""
+      },
+      "Requirements": [
+        {
+          "Amount": 4,
+          "ItemData": {
+            "ObjectName": "FuelItemData'ITEM_Resources_Wood_Yew'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Resources/Plant/ITEM_Resources_Wood_Yew"
+          }
+        },
+        {
+          "Amount": 2,
+          "ItemData": {
+            "ObjectName": "SeedHeldEquipmentData'ITEM_Farming_Seed_Cactus_Bunny'",
+            "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Held/Farming/Seeds/ITEM_Farming_Seed_Cactus_Bunny"
+          }
+        },
+        {
+          "Amount": 1,
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Meat_Bird'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_Meat_Bird"
+          }
+        },
+        {
+          "Amount": 3,
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Feathers'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_Feathers"
+          }
+        }
+      ],
+      "ShelterRequirementIcon": {
+        "AssetPathName": "/Game/Art/UI/Icons/T_Build_Tooltip_Shelter_80x80.T_Build_Tooltip_Shelter_80x80",
+        "SubPathString": ""
+      },
+      "ShelterRequirementText": {
+        "Namespace": "",
+        "Key": "AE144DC348CAB947AF998A8019DD2C8D",
+        "SourceString": "Requries Shelter",
+        "LocalizedString": "Requries Shelter"
+      },
+      "PieceTag": {
+        "TagName": "BaseBuilding.PieceType.Prop"
+      },
+      "BuildingStabilityProfileRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'StabilityProfileDataTable'",
+          "ObjectPath": "/Game/Gameplay/BaseBuilding/StabilityProfileDataTable"
+        },
+        "RowName": "Prop"
+      },
+      "BuildXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Building'",
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Building"
+        },
+        "RowName": "Build_Decoration_Tier2"
+      },
+      "SelectionPlayerHooks": [
+        {
+          "ObjectName": "BP_FTUENotificationPlayerHook_C'PH_UnlockedFirstBed'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/PlayerHooks/FTUE/PH_UnlockedFirstBed"
+        }
+      ],
+      "RepresentationCategory": "EBuildingPieceRepresentationCategory::ManagedActor",
+      "bShouldBeVisibleFromFarAway": false,
+      "PersistenceID": "pW44Hk1fThWjy6yAFdmA2w",
+      "InternalName": "buildpiece_decoration_ums_pet_vulture"
+    }
+  }
+]

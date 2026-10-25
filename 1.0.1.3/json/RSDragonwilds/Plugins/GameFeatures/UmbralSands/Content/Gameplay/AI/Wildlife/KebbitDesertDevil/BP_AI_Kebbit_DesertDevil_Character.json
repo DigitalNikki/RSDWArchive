@@ -1,0 +1,1328 @@
+[
+  {
+    "Type": "AIAttributesComponent",
+    "Name": "AI Attributes Component",
+    "Outer": {
+      "ObjectName": "BP_AI_Kebbit_DesertDevil_Character_C'Default__BP_AI_Kebbit_DesertDevil_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.7"
+    },
+    "Class": "UScriptClass'AIAttributesComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "AIAudioManagerComponent",
+    "Name": "AIAudioManager_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_Kebbit_DesertDevil_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.6"
+    },
+    "Class": "UScriptClass'AIAudioManagerComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Properties": {
+      "IdleSoundToPlay": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Kebbit_Distant_Idle_Call'",
+        "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Distant_Idle/MSS_Cr_Vox_Kebbit_Distant_Idle_Call"
+      },
+      "CharacterAudioManagerData": {
+        "ObjectName": "CharacterAudioManagerData'ADA_KebbitCharacterData'",
+        "ObjectPath": "/Game/Audio/DataAssets/Characters/ADA_KebbitCharacterData"
+      },
+      "bCanOnlyUseOneAudioComponent": true
+    }
+  },
+  {
+    "Type": "AIDominionGameplayEffectsComponent",
+    "Name": "Gameplay Effects Component",
+    "Outer": {
+      "ObjectName": "BP_AI_Kebbit_DesertDevil_Character_C'Default__BP_AI_Kebbit_DesertDevil_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.7"
+    },
+    "Class": "UScriptClass'AIDominionGameplayEffectsComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "AiHealthComponent",
+    "Name": "Health Component",
+    "Outer": {
+      "ObjectName": "BP_AI_Kebbit_DesertDevil_Character_C'Default__BP_AI_Kebbit_DesertDevil_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.7"
+    },
+    "Class": "UScriptClass'AiHealthComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ModifyHealthGE": {
+        "ObjectName": "BlueprintGeneratedClass'GE_ModifyHealth_C'",
+        "ObjectPath": "/Game/Gameplay/GameplayEffects/Effects/GE_ModifyHealth"
+      },
+      "ModifyMaxHealthGE": {
+        "ObjectName": "BlueprintGeneratedClass'GE_ModifyMaxHealth_C'",
+        "ObjectPath": "/Game/Gameplay/GameplayEffects/Effects/GE_ModifyMaxHealth"
+      },
+      "MaxHealth": 30.0
+    }
+  },
+  {
+    "Type": "AiMovementComponent",
+    "Name": "CharMoveComp",
+    "Outer": {
+      "ObjectName": "BP_AI_Kebbit_DesertDevil_Character_C'Default__BP_AI_Kebbit_DesertDevil_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.7"
+    },
+    "Class": "UScriptClass'AiMovementComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "NavAgentName": "Default",
+      "SpeedFactorIfMovingBackwards": {
+        "ObjectName": "CurveFloat'Curve_MediumBeast_BackwardsAccelleration'",
+        "ObjectPath": "/Game/Gameplay/AI/BeastFaction/MediumBeast/Curve_MediumBeast_BackwardsAccelleration"
+      },
+      "bEnableLocomotionAnimation": true,
+      "MovementAnimationsTable": {
+        "ObjectName": "DataTable'DT_Kebbit_Movement'",
+        "ObjectPath": "/Game/Gameplay/AI/Kebbit/Actions/Movement/DT_Kebbit_Movement"
+      },
+      "AlertnessStatesToRotationTable": [
+        {
+          "Key": "EAlertnessState::AMBIENT",
+          "Value": {
+            "ObjectName": "DataTable'DT_KebbitRotation'",
+            "ObjectPath": "/Game/Gameplay/AI/Kebbit/Actions/Movement/DT_KebbitRotation"
+          }
+        },
+        {
+          "Key": "EAlertnessState::TRANSITION_TO_SUSPICIOUS",
+          "Value": {
+            "ObjectName": "DataTable'DT_KebbitRotation'",
+            "ObjectPath": "/Game/Gameplay/AI/Kebbit/Actions/Movement/DT_KebbitRotation"
+          }
+        },
+        {
+          "Key": "EAlertnessState::SUSPICIOUS",
+          "Value": {
+            "ObjectName": "DataTable'DT_KebbitRotationAlert'",
+            "ObjectPath": "/Game/Gameplay/AI/Kebbit/Actions/Movement/DT_KebbitRotationAlert"
+          }
+        },
+        {
+          "Key": "EAlertnessState::TRANSITION_TO_COMBAT",
+          "Value": {
+            "ObjectName": "DataTable'DT_KebbitRotationAlert'",
+            "ObjectPath": "/Game/Gameplay/AI/Kebbit/Actions/Movement/DT_KebbitRotationAlert"
+          }
+        },
+        {
+          "Key": "EAlertnessState::COMBAT",
+          "Value": {
+            "ObjectName": "DataTable'DT_KebbitRotationAlert'",
+            "ObjectPath": "/Game/Gameplay/AI/Kebbit/Actions/Movement/DT_KebbitRotationAlert"
+          }
+        },
+        {
+          "Key": "EAlertnessState::LOST_TARGET",
+          "Value": {
+            "ObjectName": "DataTable'DT_KebbitRotation'",
+            "ObjectPath": "/Game/Gameplay/AI/Kebbit/Actions/Movement/DT_KebbitRotation"
+          }
+        },
+        {
+          "Key": "EAlertnessState::TRANSITION_TO_AMBIENT",
+          "Value": {
+            "ObjectName": "DataTable'DT_KebbitRotation'",
+            "ObjectPath": "/Game/Gameplay/AI/Kebbit/Actions/Movement/DT_KebbitRotation"
+          }
+        }
+      ],
+      "MaxStepHeight": 35.0,
+      "WalkableFloorAngle": 60.0,
+      "WalkableFloorZ": 0.49999997,
+      "MaxAcceleration": 1000.0,
+      "bOrientRotationToMovement": true,
+      "NavMovementProperties": {
+        "bUpdateNavAgentWithOwnersCollision": false
+      },
+      "NavAgentProps": {
+        "AgentRadius": 30.0,
+        "AgentHeight": 150.0,
+        "PreferredNavData": {
+          "AssetPathName": "/Script/NavigationSystem.RecastNavMesh",
+          "SubPathString": ""
+        }
+      }
+    }
+  },
+  {
+    "Type": "AiSightSensorPositionComponent",
+    "Name": "Sight Sensor Position Component",
+    "Outer": {
+      "ObjectName": "BP_AI_Kebbit_DesertDevil_Character_C'Default__BP_AI_Kebbit_DesertDevil_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.7"
+    },
+    "Class": "UScriptClass'AiSightSensorPositionComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_AI_Kebbit_DesertDevil_Character_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_AI_Kebbit_DesertDevil_Character_C:SimpleConstructionScript_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.43"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_AI_Kebbit_DesertDevil_Character_C:InheritableComponentHandler'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.26"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_DominionAICharacter_C'",
+      "ObjectPath": "/Game/Gameplay/AI/BP_DominionAICharacter"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Weakpoint_RangedSize",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CapsuleComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "LootDrop",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'LootDropComponent'",
+          "ObjectPath": "/Script/Dominion"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_Kebbit_AttackOpportunityComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_Kebbit_AttackOpportunityComponent_C'",
+          "ObjectPath": "/Game/Gameplay/AI/Kebbit/Attacks/BP_Kebbit_AttackOpportunityComponent"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_Kebbit_AiCombatModeInitiator",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_Kebbit_AiCombatModeInitiator_C'",
+          "ObjectPath": "/Game/Gameplay/AI/Components/BP_Kebbit_AiCombatModeInitiator"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_Kebbit_AiAttackComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_Kebbit_AiAttackComponent_C'",
+          "ObjectPath": "/Game/Gameplay/AI/Components/BP_Kebbit_AiAttackComponent"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Targetable",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'TargetableComponent'",
+          "ObjectPath": "/Script/Dominion"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_AiHitPointsComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_AiHitPointsComponent_C'",
+          "ObjectPath": "/Game/Gameplay/AI/Components/BP_AiHitPointsComponent"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_AiAnimationManager",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_AiAnimationManager_C'",
+          "ObjectPath": "/Game/Gameplay/AI/Components/BP_AiAnimationManager"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_AiHitReactionsComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_AiHitReactionsComponent_C'",
+          "ObjectPath": "/Game/Gameplay/AI/Components/BP_AiHitReactionsComponent"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_AiDamageComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_AiDamageComponent_C'",
+          "ObjectPath": "/Game/Gameplay/AI/Components/BP_AiDamageComponent"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_AiDeathComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_AiDeathComponent_C'",
+          "ObjectPath": "/Game/Gameplay/AI/Components/BP_AiDeathComponent"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_AiHealthBarComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_AiHealthBarComponent_C'",
+          "ObjectPath": "/Game/Gameplay/AI/Components/BP_AiHealthBarComponent"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_NoExport | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_AI_Kebbit_DesertDevil_Character_C'Default__BP_AI_Kebbit_DesertDevil_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.7"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_AI_Kebbit_DesertDevil_Character_C",
+    "Name": "Default__BP_AI_Kebbit_DesertDevil_Character_C",
+    "Class": "BlueprintGeneratedClass'1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.BP_AI_Kebbit_DesertDevil_Character_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "BP_AiAnimationManager_C",
+    "Name": "BP_AiAnimationManager_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_Kebbit_DesertDevil_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.6"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "BP_AiDamageComponent_C",
+    "Name": "BP_AiDamageComponent_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_Kebbit_DesertDevil_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.6"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "BP_AiDeathComponent_C",
+    "Name": "BP_AiDeathComponent_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_Kebbit_DesertDevil_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.6"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "BP_AiHealthBarComponent_C",
+    "Name": "BP_AiHealthBarComponent_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_Kebbit_DesertDevil_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.6"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "BP_AiHitPointsComponent_C",
+    "Name": "BP_AiHitPointsComponent_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_Kebbit_DesertDevil_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.6"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "BP_AiHitReactionsComponent_C",
+    "Name": "BP_AiHitReactionsComponent_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_Kebbit_DesertDevil_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.6"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "BP_Kebbit_AiAttackComponent_C",
+    "Name": "BP_Kebbit_AiAttackComponent_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_Kebbit_DesertDevil_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.6"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "BP_Kebbit_AiCombatModeInitiator_C",
+    "Name": "BP_Kebbit_AiCombatModeInitiator_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_Kebbit_DesertDevil_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.6"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "BP_Kebbit_AttackOpportunityComponent_C",
+    "Name": "BP_Kebbit_AttackOpportunityComponent_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_Kebbit_DesertDevil_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.6"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "BP_TagActivatedFX_C",
+    "Name": "TagActivatedFX",
+    "Outer": {
+      "ObjectName": "BP_AI_Kebbit_DesertDevil_Character_C'Default__BP_AI_Kebbit_DesertDevil_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.7"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "Weakpoint_RangedSize_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_Kebbit_DesertDevil_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.6"
+    },
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CapsuleHalfHeight": 50.0,
+      "CapsuleRadius": 38.0,
+      "bGenerateOverlapEvents": false,
+      "CanCharacterStepUpOn": "ECanBeCharacterBase::ECB_No",
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_Pawn",
+        "CollisionProfileName": "WeakPoint",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Ai",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Player",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Projectile_Arrow",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Building",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Ground",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 5.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Outer": {
+      "ObjectName": "BP_AI_Kebbit_DesertDevil_Character_C'Default__BP_AI_Kebbit_DesertDevil_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.7"
+    },
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CapsuleHalfHeight": 45.0,
+      "CapsuleRadius": 30.0,
+      "bUseSystemDefaultObstacleAreaClass": false,
+      "AreaClassOverride": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_GameTraceChannel3",
+        "CollisionProfileName": "Ai",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Player",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Projectile_Arrow",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "TriggerVolume",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "Type": "CombatModeArea",
+    "Name": "CombatModeArea_0",
+    "Outer": {
+      "ObjectName": "BP_Kebbit_AiCombatModeInitiator_C'BP_AI_Kebbit_DesertDevil_Character_C:BP_Kebbit_AiCombatModeInitiator_GEN_VARIABLE'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.15"
+    },
+    "Class": "UScriptClass'CombatModeArea'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Shape": {
+        "ObjectName": "DominionShape_Sphere'BP_AI_Kebbit_DesertDevil_Character_C:BP_Kebbit_AiCombatModeInitiator_GEN_VARIABLE.CombatModeArea_0.DominionShape_Sphere_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.22"
+      }
+    }
+  },
+  {
+    "Type": "DominionAIActionsComponent",
+    "Name": "DominionAIActionsComponent",
+    "Outer": {
+      "ObjectName": "BP_AI_Kebbit_DesertDevil_Character_C'Default__BP_AI_Kebbit_DesertDevil_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.7"
+    },
+    "Class": "UScriptClass'DominionAIActionsComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "DominionShape_Sphere",
+    "Name": "DominionShape_Sphere_0",
+    "Outer": {
+      "ObjectName": "CombatModeArea'BP_AI_Kebbit_DesertDevil_Character_C:BP_Kebbit_AiCombatModeInitiator_GEN_VARIABLE.CombatModeArea_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.20"
+    },
+    "Class": "UScriptClass'DominionShape_Sphere'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "EnvironmentComponent",
+    "Name": "Environment Component",
+    "Outer": {
+      "ObjectName": "BP_AI_Kebbit_DesertDevil_Character_C'Default__BP_AI_Kebbit_DesertDevil_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.7"
+    },
+    "Class": "UScriptClass'EnvironmentComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "GameplayTagsComponent",
+    "Name": "GameplayTagsComponent",
+    "Outer": {
+      "ObjectName": "BP_AI_Kebbit_DesertDevil_Character_C'Default__BP_AI_Kebbit_DesertDevil_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.7"
+    },
+    "Class": "UScriptClass'GameplayTagsComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "HitPointDamageMultiplierModule",
+    "Name": "HitPointDamageMultiplierModule_0",
+    "Outer": {
+      "ObjectName": "BP_AiHitPointsComponent_C'BP_AI_Kebbit_DesertDevil_Character_C:BP_AiHitPointsComponent_GEN_VARIABLE'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.12"
+    },
+    "Class": "UScriptClass'HitPointDamageMultiplierModule'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_Kebbit_DesertDevil_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.6"
+    },
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'AIAudioManagerComponent'",
+            "ObjectPath": "/Script/Dominion"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "AIAudioManagerComponent'BP_AI_Kebbit_DesertDevil_Character_C:AIAudioManager_GEN_VARIABLE'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.1"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_DominionAICharacter_C'",
+              "ObjectPath": "/Game/Gameplay/AI/BP_DominionAICharacter"
+            },
+            "SCSVariableName": "AIAudioManager",
+            "AssociatedGuid": "A67185B4-4154555F-CC1F3980-144D6B0F"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "LootDropComponent",
+    "Name": "LootDrop_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_Kebbit_DesertDevil_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.6"
+    },
+    "Class": "UScriptClass'LootDropComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EnemyTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "CompositeDataTable'DT_CompositeEnemyLootDropTable'",
+          "ObjectPath": "/Game/Gameplay/Items/LootDropTables/DT_CompositeEnemyLootDropTable"
+        },
+        "RowName": "Kebbit_DesertDevil"
+      },
+      "DefaultResourceClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_RuntimeSpawnedWorldItem_C'",
+        "ObjectPath": "/Game/Gameplay/WorldItems/BP_RuntimeSpawnedWorldItem"
+      }
+    }
+  },
+  {
+    "Type": "MeshOverlayMaterialManager",
+    "Name": "MeshOverlayMaterialManager",
+    "Outer": {
+      "ObjectName": "BP_AI_Kebbit_DesertDevil_Character_C'Default__BP_AI_Kebbit_DesertDevil_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.7"
+    },
+    "Class": "UScriptClass'MeshOverlayMaterialManager'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_Kebbit_DesertDevil_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.6"
+    },
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_AI_Kebbit_DesertDevil_Character_C:SimpleConstructionScript_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.43"
+    },
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_AI_Kebbit_DesertDevil_Character_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.29"
+      },
+      "VariableGUID": "1D2A580A-41ADCDDC-5DC619AA-4E66816F",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_AI_Kebbit_DesertDevil_Character_C:SimpleConstructionScript_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.43"
+    },
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_AiAnimationManager_C'",
+        "ObjectPath": "/Game/Gameplay/AI/Components/BP_AiAnimationManager"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_AiAnimationManager_C'BP_AI_Kebbit_DesertDevil_Character_C:BP_AiAnimationManager_GEN_VARIABLE'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.8"
+      },
+      "VariableGUID": "2B4DEC54-426CE68D-A11FA9BA-B463D2A0",
+      "InternalVariableName": "BP_AiAnimationManager"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_AI_Kebbit_DesertDevil_Character_C:SimpleConstructionScript_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.43"
+    },
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_AiHitPointsComponent_C'",
+        "ObjectPath": "/Game/Gameplay/AI/Components/BP_AiHitPointsComponent"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_AiHitPointsComponent_C'BP_AI_Kebbit_DesertDevil_Character_C:BP_AiHitPointsComponent_GEN_VARIABLE'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.12"
+      },
+      "VariableGUID": "C5793BCD-4BCF5388-08EE2897-9B88E849",
+      "InternalVariableName": "BP_AiHitPointsComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_11",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_AI_Kebbit_DesertDevil_Character_C:SimpleConstructionScript_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.43"
+    },
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'TargetableComponent'",
+        "ObjectPath": "/Script/Dominion"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "TargetableComponent'BP_AI_Kebbit_DesertDevil_Character_C:Targetable_GEN_VARIABLE'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.45"
+      },
+      "ParentComponentOrVariableName": "CollisionCylinder",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "778FC938-447E03D9-48E0D696-2BF2A182",
+      "InternalVariableName": "Targetable"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_18",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_AI_Kebbit_DesertDevil_Character_C:SimpleConstructionScript_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.43"
+    },
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Kebbit_AiAttackComponent_C'",
+        "ObjectPath": "/Game/Gameplay/AI/Components/BP_Kebbit_AiAttackComponent"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_Kebbit_AiAttackComponent_C'BP_AI_Kebbit_DesertDevil_Character_C:BP_Kebbit_AiAttackComponent_GEN_VARIABLE'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.14"
+      },
+      "VariableGUID": "B1B0C680-47876100-97421C99-C2A38FD3",
+      "InternalVariableName": "BP_Kebbit_AiAttackComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_19",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_AI_Kebbit_DesertDevil_Character_C:SimpleConstructionScript_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.43"
+    },
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Kebbit_AiCombatModeInitiator_C'",
+        "ObjectPath": "/Game/Gameplay/AI/Components/BP_Kebbit_AiCombatModeInitiator"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_Kebbit_AiCombatModeInitiator_C'BP_AI_Kebbit_DesertDevil_Character_C:BP_Kebbit_AiCombatModeInitiator_GEN_VARIABLE'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.15"
+      },
+      "VariableGUID": "3F9659F6-4A911DB2-880D88B5-35B5027F",
+      "InternalVariableName": "BP_Kebbit_AiCombatModeInitiator"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_AI_Kebbit_DesertDevil_Character_C:SimpleConstructionScript_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.43"
+    },
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'LootDropComponent'",
+        "ObjectPath": "/Script/Dominion"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "LootDropComponent'BP_AI_Kebbit_DesertDevil_Character_C:LootDrop_GEN_VARIABLE'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.27"
+      },
+      "VariableGUID": "60F7FBD4-4F2842F1-B28A5299-65137788",
+      "InternalVariableName": "LootDrop"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_20",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_AI_Kebbit_DesertDevil_Character_C:SimpleConstructionScript_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.43"
+    },
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Kebbit_AttackOpportunityComponent_C'",
+        "ObjectPath": "/Game/Gameplay/AI/Kebbit/Attacks/BP_Kebbit_AttackOpportunityComponent"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_Kebbit_AttackOpportunityComponent_C'BP_AI_Kebbit_DesertDevil_Character_C:BP_Kebbit_AttackOpportunityComponent_GEN_VARIABLE'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.16"
+      },
+      "VariableGUID": "2616912C-497A756A-2DE5F681-D479B478",
+      "InternalVariableName": "BP_Kebbit_AttackOpportunityComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_AI_Kebbit_DesertDevil_Character_C:SimpleConstructionScript_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.43"
+    },
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_AiHealthBarComponent_C'",
+        "ObjectPath": "/Game/Gameplay/AI/Components/BP_AiHealthBarComponent"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_AiHealthBarComponent_C'BP_AI_Kebbit_DesertDevil_Character_C:BP_AiHealthBarComponent_GEN_VARIABLE'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.11"
+      },
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "MetaDataArray": [
+        {
+          "DataKey": "tooltip",
+          "DataValue": ""
+        }
+      ],
+      "VariableGUID": "6A8FB227-4EDA65EE-1F2AF5A1-22343270",
+      "InternalVariableName": "BP_AiHealthBarComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_AI_Kebbit_DesertDevil_Character_C:SimpleConstructionScript_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.43"
+    },
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_AiDeathComponent_C'",
+        "ObjectPath": "/Game/Gameplay/AI/Components/BP_AiDeathComponent"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_AiDeathComponent_C'BP_AI_Kebbit_DesertDevil_Character_C:BP_AiDeathComponent_GEN_VARIABLE'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.10"
+      },
+      "VariableGUID": "B4B3B570-4973C0DC-F54169BF-84C0559D",
+      "InternalVariableName": "BP_AiDeathComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_AI_Kebbit_DesertDevil_Character_C:SimpleConstructionScript_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.43"
+    },
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_AiDamageComponent_C'",
+        "ObjectPath": "/Game/Gameplay/AI/Components/BP_AiDamageComponent"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_AiDamageComponent_C'BP_AI_Kebbit_DesertDevil_Character_C:BP_AiDamageComponent_GEN_VARIABLE'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.9"
+      },
+      "VariableGUID": "95C62570-47762DE3-2D5FFB8A-D46C7610",
+      "InternalVariableName": "BP_AiDamageComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_AI_Kebbit_DesertDevil_Character_C:SimpleConstructionScript_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.43"
+    },
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_AiHitReactionsComponent_C'",
+        "ObjectPath": "/Game/Gameplay/AI/Components/BP_AiHitReactionsComponent"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_AiHitReactionsComponent_C'BP_AI_Kebbit_DesertDevil_Character_C:BP_AiHitReactionsComponent_GEN_VARIABLE'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.13"
+      },
+      "VariableGUID": "1F3CE235-4204EADA-59885CA3-5459544D",
+      "InternalVariableName": "BP_AiHitReactionsComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_AI_Kebbit_DesertDevil_Character_C:SimpleConstructionScript_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.43"
+    },
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CapsuleComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CapsuleComponent'BP_AI_Kebbit_DesertDevil_Character_C:Weakpoint_RangedSize_GEN_VARIABLE'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.18"
+      },
+      "ParentComponentOrVariableName": "CollisionCylinder",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "0B2EF2EF-4838F19A-2FD97786-4C7B1EA9",
+      "InternalVariableName": "Weakpoint_RangedSize"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_Kebbit_DesertDevil_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.6"
+    },
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_AI_Kebbit_DesertDevil_Character_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.38"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AI_Kebbit_DesertDevil_Character_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.39"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AI_Kebbit_DesertDevil_Character_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.40"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AI_Kebbit_DesertDevil_Character_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.41"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AI_Kebbit_DesertDevil_Character_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.31"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AI_Kebbit_DesertDevil_Character_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.32"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AI_Kebbit_DesertDevil_Character_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.33"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AI_Kebbit_DesertDevil_Character_C:SimpleConstructionScript_0.SCS_Node_18'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.34"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AI_Kebbit_DesertDevil_Character_C:SimpleConstructionScript_0.SCS_Node_19'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.35"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AI_Kebbit_DesertDevil_Character_C:SimpleConstructionScript_0.SCS_Node_20'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.37"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AI_Kebbit_DesertDevil_Character_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.36"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AI_Kebbit_DesertDevil_Character_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.42"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_AI_Kebbit_DesertDevil_Character_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.38"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AI_Kebbit_DesertDevil_Character_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.39"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AI_Kebbit_DesertDevil_Character_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.40"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AI_Kebbit_DesertDevil_Character_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.41"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AI_Kebbit_DesertDevil_Character_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.31"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AI_Kebbit_DesertDevil_Character_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.32"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AI_Kebbit_DesertDevil_Character_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.33"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AI_Kebbit_DesertDevil_Character_C:SimpleConstructionScript_0.SCS_Node_18'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.34"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AI_Kebbit_DesertDevil_Character_C:SimpleConstructionScript_0.SCS_Node_19'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.35"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AI_Kebbit_DesertDevil_Character_C:SimpleConstructionScript_0.SCS_Node_20'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.37"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AI_Kebbit_DesertDevil_Character_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.36"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AI_Kebbit_DesertDevil_Character_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.42"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_AI_Kebbit_DesertDevil_Character_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.30"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "CharacterMesh0",
+    "Outer": {
+      "ObjectName": "BP_AI_Kebbit_DesertDevil_Character_C'Default__BP_AI_Kebbit_DesertDevil_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.7"
+    },
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABP_Kebbit_01_C'",
+        "ObjectPath": "/Game/Art/Skeleton/NPC/Creatures/Kebbit_01/ABP_Kebbit_01"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_Kebbit_03'",
+        "ObjectPath": "/UmbralSands/Art/Skeleton/NPC/Creatures/Kebbit_03/SK_Kebbit_03"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SK_Kebbit_03'",
+        "ObjectPath": "/UmbralSands/Art/Skeleton/NPC/Creatures/Kebbit_03/SK_Kebbit_03"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "CanCharacterStepUpOn": "ECanBeCharacterBase::ECB_No",
+      "BodyInstance": {
+        "CollisionProfileName": "AiMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Ai",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Player",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile_Arrow",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        }
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_AI_Kebbit_DesertDevil_Character_C:CollisionCylinder'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.19"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -45.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "TargetableComponent",
+    "Name": "Targetable_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_Kebbit_DesertDevil_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.6"
+    },
+    "Class": "UScriptClass'TargetableComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TargetingDistance": 5000.0
+    }
+  },
+  {
+    "Type": "TrackedStatusEffectInstance",
+    "Name": "TrackedStatusEffectInstance_0",
+    "Outer": {
+      "ObjectName": "TrackedStatusEffectsComponent'Default__BP_AI_Kebbit_DesertDevil_Character_C:Tracked Status Effects Component'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.53"
+    },
+    "Class": "UScriptClass'TrackedStatusEffectInstance'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TrackedStatusEffectInstance",
+    "Name": "TrackedStatusEffectInstance_1",
+    "Outer": {
+      "ObjectName": "TrackedStatusEffectsComponent'Default__BP_AI_Kebbit_DesertDevil_Character_C:Tracked Status Effects Component'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.53"
+    },
+    "Class": "UScriptClass'TrackedStatusEffectInstance'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TrackedStatusEffectInstanceBleeding",
+    "Name": "TrackedStatusEffectInstanceBleeding_0",
+    "Outer": {
+      "ObjectName": "TrackedStatusEffectsComponent'Default__BP_AI_Kebbit_DesertDevil_Character_C:Tracked Status Effects Component'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.53"
+    },
+    "Class": "UScriptClass'TrackedStatusEffectInstanceBleeding'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TrackedStatusEffectInstanceBurning",
+    "Name": "TrackedStatusEffectInstanceBurning_0",
+    "Outer": {
+      "ObjectName": "TrackedStatusEffectsComponent'Default__BP_AI_Kebbit_DesertDevil_Character_C:Tracked Status Effects Component'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.53"
+    },
+    "Class": "UScriptClass'TrackedStatusEffectInstanceBurning'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TrackedStatusEffectInstancePoison",
+    "Name": "TrackedStatusEffectInstancePoison_0",
+    "Outer": {
+      "ObjectName": "TrackedStatusEffectsComponent'Default__BP_AI_Kebbit_DesertDevil_Character_C:Tracked Status Effects Component'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.53"
+    },
+    "Class": "UScriptClass'TrackedStatusEffectInstancePoison'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TrackedStatusEffectInstanceSlow",
+    "Name": "TrackedStatusEffectInstanceSlow_0",
+    "Outer": {
+      "ObjectName": "TrackedStatusEffectsComponent'Default__BP_AI_Kebbit_DesertDevil_Character_C:Tracked Status Effects Component'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.53"
+    },
+    "Class": "UScriptClass'TrackedStatusEffectInstanceSlow'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TrackedStatusEffectInstanceSlowBuildup",
+    "Name": "TrackedStatusEffectInstanceSlowBuildup_0",
+    "Outer": {
+      "ObjectName": "TrackedStatusEffectsComponent'Default__BP_AI_Kebbit_DesertDevil_Character_C:Tracked Status Effects Component'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.53"
+    },
+    "Class": "UScriptClass'TrackedStatusEffectInstanceSlowBuildup'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TrackedStatusEffectsComponent",
+    "Name": "Tracked Status Effects Component",
+    "Outer": {
+      "ObjectName": "BP_AI_Kebbit_DesertDevil_Character_C'Default__BP_AI_Kebbit_DesertDevil_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.7"
+    },
+    "Class": "UScriptClass'TrackedStatusEffectsComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TrackedStatusEffectInstances": [
+        {
+          "ObjectName": "TrackedStatusEffectInstancePoison'Default__BP_AI_Kebbit_DesertDevil_Character_C:Tracked Status Effects Component.TrackedStatusEffectInstancePoison_0'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.50"
+        },
+        {
+          "ObjectName": "TrackedStatusEffectInstanceBurning'Default__BP_AI_Kebbit_DesertDevil_Character_C:Tracked Status Effects Component.TrackedStatusEffectInstanceBurning_0'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.49"
+        },
+        {
+          "ObjectName": "TrackedStatusEffectInstanceBleeding'Default__BP_AI_Kebbit_DesertDevil_Character_C:Tracked Status Effects Component.TrackedStatusEffectInstanceBleeding_0'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.48"
+        },
+        {
+          "ObjectName": "TrackedStatusEffectInstanceSlow'Default__BP_AI_Kebbit_DesertDevil_Character_C:Tracked Status Effects Component.TrackedStatusEffectInstanceSlow_0'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.51"
+        },
+        {
+          "ObjectName": "TrackedStatusEffectInstanceSlowBuildup'Default__BP_AI_Kebbit_DesertDevil_Character_C:Tracked Status Effects Component.TrackedStatusEffectInstanceSlowBuildup_0'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.52"
+        },
+        {
+          "ObjectName": "TrackedStatusEffectInstance'Default__BP_AI_Kebbit_DesertDevil_Character_C:Tracked Status Effects Component.TrackedStatusEffectInstance_0'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.46"
+        },
+        {
+          "ObjectName": "TrackedStatusEffectInstance'Default__BP_AI_Kebbit_DesertDevil_Character_C:Tracked Status Effects Component.TrackedStatusEffectInstance_1'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/AI/Wildlife/KebbitDesertDevil/BP_AI_Kebbit_DesertDevil_Character.47"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "JournalEntryRecipeData",
+    "Name": "JOURNAL_Recipes_Potions_Quarrymaster_T3",
+    "Class": "UScriptClass'JournalEntryRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipeData": {
+        "AssetPathName": "/Game/Gameplay/Items/Consumables/Magic/RECIPE_Consumable_Potion_T3_Quarrymaster.RECIPE_Consumable_Potion_T3_Quarrymaster",
+        "SubPathString": ""
+      },
+      "ItemData": {
+        "AssetPathName": "/Game/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T3_Quarrymaster.ITEM_Consumable_Potion_T3_Quarrymaster",
+        "SubPathString": ""
+      },
+      "StationTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_ProcessingStationDataTable'",
+          "ObjectPath": "/Game/Gameplay/World/Stations/DT_ProcessingStationDataTable"
+        },
+        "RowName": "BrewingCauldron"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "QuarrymasterPotion",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "SuperQuarrymasterPotion",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Journal/T_Icon_Journal_Potion_Tier3_Black.T_Icon_Journal_Potion_Tier3_Black",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RecipeUnlocked",
+        "UnlockingRecipe": {
+          "AssetPathName": "/Game/Gameplay/Items/Consumables/Magic/RECIPE_Consumable_Potion_T3_Quarrymaster.RECIPE_Consumable_Potion_T3_Quarrymaster",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "Fw4ggUaOgdBYd6WMygEYow",
+      "InternalName": "JOURNAL_Recipes_Potions_Quarrymaster_T3"
+    }
+  }
+]

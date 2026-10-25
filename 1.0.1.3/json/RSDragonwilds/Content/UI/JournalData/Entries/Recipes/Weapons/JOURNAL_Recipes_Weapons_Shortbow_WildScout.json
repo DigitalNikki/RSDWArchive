@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "JournalEntryRecipeData",
+    "Name": "JOURNAL_Recipes_Weapons_Shortbow_WildScout",
+    "Class": "UScriptClass'JournalEntryRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipeData": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Mace/RECIPE_Vestige_Weapon_T3_Shortbow_WildScouts.RECIPE_Vestige_Weapon_T3_Shortbow_WildScouts",
+        "SubPathString": ""
+      },
+      "ItemData": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Bow/ITEM_Shortbow_WildScout.ITEM_Shortbow_WildScout",
+        "SubPathString": ""
+      },
+      "StationTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_CraftingStationsDataTable'",
+          "ObjectPath": "/Game/Gameplay/World/Stations/DT_CraftingStationsDataTable"
+        },
+        "RowName": "FletchingBenchv2"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "62CCFA3A40DD203A4ABBFAB1A1EC081D",
+        "SourceString": "Wild Scout's Shortbow",
+        "LocalizedString": "Wild Scout's Shortbow"
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "WildScoutsShortbow",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/Game/Art/UI/Icons/Armours_07/test/Journal/T_Icons_Journal_Shortbow_Wild_Scout.T_Icons_Journal_Shortbow_Wild_Scout",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RecipeUnlocked",
+        "UnlockingRecipe": {
+          "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Mace/RECIPE_Vestige_Weapon_T3_Shortbow_WildScouts.RECIPE_Vestige_Weapon_T3_Shortbow_WildScouts",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "U9DegUKQBBfQ-S-DLLT-2g",
+      "InternalName": "JOURNAL_Recipes_Weapons_Shortbow_WildScout"
+    }
+  }
+]

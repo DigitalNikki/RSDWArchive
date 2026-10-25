@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "JournalCategoryData",
+    "Name": "JOURNAL_Category_World",
+    "Class": "UScriptClass'JournalCategoryData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CategoryName": {
+        "TableId": "/Game/UI/JournalData/ST_JournalUI.ST_JournalUI",
+        "Key": "Category.World",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "SubCategories": [
+        {
+          "Key": "WorldFlora",
+          "Value": {
+            "ObjectName": "JournalSubCategoryByGroupData'JOURNAL_SC_World_Flora'",
+            "ObjectPath": "/Game/UI/JournalData/JOURNAL_SC_World_Flora"
+          }
+        },
+        {
+          "Key": "WorldFauna",
+          "Value": {
+            "ObjectName": "JournalSubCategoryByGroupData'JOURNAL_SC_World_Fauna'",
+            "ObjectPath": "/Game/UI/JournalData/JOURNAL_SC_World_Fauna"
+          }
+        },
+        {
+          "Key": "WorldMaterials",
+          "Value": {
+            "ObjectName": "JournalSubCategoryByGroupData'JOURNAL_SC_World_Material_Sources'",
+            "ObjectPath": "/Game/UI/JournalData/JOURNAL_SC_World_Material_Sources"
+          }
+        },
+        {
+          "Key": "WorldFactions",
+          "Value": {
+            "ObjectName": "JournalSubCategoryByGroupData'JOURNAL_SC_World_Factions'",
+            "ObjectPath": "/Game/UI/JournalData/JOURNAL_SC_World_Factions"
+          }
+        }
+      ],
+      "PersistenceID": "jk3-qkpVdBAW-1yXlXczkw"
+    }
+  }
+]

@@ -1,0 +1,111 @@
+[
+  {
+    "Type": "HeldEquipmentData",
+    "Name": "ITEM_Hammer_Mithril",
+    "Class": "UScriptClass'HeldEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HeldEquipmentActorClass": {
+        "AssetPathName": "/DowdunReach/Gameplay/Character/Player/Equipment/Held/Hammer/BP_Hammer_Mithril.BP_Hammer_Mithril_C",
+        "SubPathString": ""
+      },
+      "PrimaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_2H_Hammer_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/2H_Hammer/PA_Attack_2H_Hammer"
+      },
+      "PrimaryJumpActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Spell_2H_Hammer_JumpAttack_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/2H_Hammer/PA_Spell_2H_Hammer_JumpAttack"
+      },
+      "PrimarySprintActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_2H_Hammer_Sprint_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/2H_Hammer/PA_Attack_2H_Hammer_Sprint"
+      },
+      "PrimaryVisceralActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_2H_Hammer_Visceral_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/2H_Hammer/PA_Attack_2H_Hammer_Visceral"
+      },
+      "SecondaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Block_Warhammer_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Abilities/Block/PA_Block_Warhammer"
+      },
+      "SpecialActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_2H_Hammer_Special_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/2H_Hammer/PA_Attack_2H_Hammer_Special"
+      },
+      "AnimationPoseType": "EAnimationPoseType::Default",
+      "AnimationPosesSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Idle_Hammer_Poses'",
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Hammer/A_PlayerM_Idle_Hammer_Poses"
+      },
+      "BaseHeldEquipmentPowerLevelRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_PlayerWeaponPowerLevels'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels"
+        },
+        "RowName": "Weapons"
+      },
+      "BaseHeldEquipmentDamageNegationRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_PlayerDamageNegation'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_PlayerDamageNegation"
+        },
+        "RowName": "Warhammer"
+      },
+      "DamageMultiplier": 6.8,
+      "BlockingDamageNegation": 59.0,
+      "DamageTypes": [
+        "DamageType.Physical.Crush"
+      ],
+      "Slot": "ELoadoutSlotStrategy::HeldTwoHanded",
+      "bIsAWeapon": true,
+      "DistanceOffset": 30.0,
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Attack'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Attack"
+      },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "MithrilWarhammer",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "MithrilWarhammer",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Mithril_Warhammer.T_Icon_Mithril_Warhammer",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/DowdunReach/Art/Skeleton/Weapons/Melee/Warhammer_Mithril_2H_01/SM_Warhammer_Mithril_2H_01.SM_Warhammer_Mithril_2H_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 6,
+      "Weight": 25.0,
+      "Category": {
+        "TagName": "Item.Equipment.Weapon.2H.Warhammer"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Weapon.Melee"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Metal.BludgeonLarge"
+      },
+      "BaseDurability": 1600,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak"
+      },
+      "PersistenceID": "kY3YrUjljLRP25mmWyGy2A",
+      "InternalName": "weap_hammer_mithril"
+    }
+  }
+]

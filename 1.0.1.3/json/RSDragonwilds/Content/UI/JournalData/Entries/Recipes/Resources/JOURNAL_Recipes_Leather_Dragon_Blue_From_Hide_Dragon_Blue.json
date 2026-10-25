@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "JournalEntryRecipeData",
+    "Name": "JOURNAL_Recipes_Leather_Dragon_Blue_From_Hide_Dragon_Blue",
+    "Class": "UScriptClass'JournalEntryRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipeData": {
+        "AssetPathName": "/DowdunReach/Gameplay/Items/Animal/RECIPE_Process_Leather_Dragonhide_Blue_From_Hide_Dragon_Lesser_Blue.RECIPE_Process_Leather_Dragonhide_Blue_From_Hide_Dragon_Lesser_Blue",
+        "SubPathString": ""
+      },
+      "ItemData": {
+        "AssetPathName": "/DowdunReach/Gameplay/Items/Animal/ITEM_Resources_Leather_Dragon_Blue_Lesser.ITEM_Resources_Leather_Dragon_Blue_Lesser",
+        "SubPathString": ""
+      },
+      "StationTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_ProcessingStationDataTable'",
+          "ObjectPath": "/Game/Gameplay/World/Stations/DT_ProcessingStationDataTable"
+        },
+        "RowName": "Tannery"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "BlueDragonLeather",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "BlueDragonhideLeather",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Journal/T_Icon_Journal_Blue_Dragon_Hide_Leather.T_Icon_Journal_Blue_Dragon_Hide_Leather",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RecipeUnlocked",
+        "UnlockingRecipe": {
+          "AssetPathName": "/DowdunReach/Gameplay/Items/Animal/RECIPE_Process_Leather_Dragonhide_Blue_From_Hide_Dragon_Lesser_Blue.RECIPE_Process_Leather_Dragonhide_Blue_From_Hide_Dragon_Lesser_Blue",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "p0ji_EzDp4lRC2GxQd4pgw",
+      "InternalName": "JOURNAL_Recipes_Resources_Leather_Dragon_Blue_From_Hide_Dragon_Blue"
+    }
+  }
+]

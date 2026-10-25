@@ -1,0 +1,111 @@
+[
+  {
+    "Type": "HeldEquipmentData",
+    "Name": "ITEM_Mace_Rune",
+    "Class": "UScriptClass'HeldEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HeldEquipmentActorClass": {
+        "AssetPathName": "/ScornedWilderness/Gameplay/Character/Player/Equipment/Held/Mace/BP_Mace_Rune.BP_Mace_Rune_C",
+        "SubPathString": ""
+      },
+      "PrimaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_Club_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Club/PA_Attack_Club"
+      },
+      "PrimaryJumpActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Spell_Club_JumpAttack_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Club/PA_Spell_Club_JumpAttack"
+      },
+      "PrimarySprintActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_Club_Sprint_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Club/PA_Attack_Club_Sprint"
+      },
+      "PrimaryVisceralActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_Club_Visceral_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Club/PA_Attack_Club_Visceral"
+      },
+      "SecondaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Block_Club_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Abilities/Block/PA_Block_Club"
+      },
+      "SpecialActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_Club_Special_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Club/PA_Attack_Club_Special"
+      },
+      "AnimationPoseType": "EAnimationPoseType::Default",
+      "AnimationPosesSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Idle_Club_Poses'",
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Club/A_PlayerM_Idle_Club_Poses"
+      },
+      "BaseHeldEquipmentPowerLevelRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_PlayerWeaponPowerLevels'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels"
+        },
+        "RowName": "Weapons"
+      },
+      "BaseHeldEquipmentDamageNegationRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_PlayerDamageNegation'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_PlayerDamageNegation"
+        },
+        "RowName": "Club"
+      },
+      "DamageMultiplier": 9.5,
+      "BlockingDamageNegation": 35.0,
+      "DamageTypes": [
+        "DamageType.Physical.Crush"
+      ],
+      "Slot": "ELoadoutSlotStrategy::HeldOnlyRight",
+      "bIsAWeapon": true,
+      "DistanceOffset": 25.0,
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Attack'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Attack"
+      },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "RuneMace",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "RuneMace",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Icons/T_Icon_Mace_Rune_1H_01.T_Icon_Mace_Rune_1H_01",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/ScornedWilderness/Art/Skeleton/Weapons/Melee/Mace_Rune_1H_01/SM_Mace_Rune_1H_01.SM_Mace_Rune_1H_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 8,
+      "Weight": 15.0,
+      "Category": {
+        "TagName": "Item.Equipment.Weapon.1H.Mace"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Weapon.Melee"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Metal.Bludgeon"
+      },
+      "BaseDurability": 1900,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak"
+      },
+      "PersistenceID": "qVNYr0wbO2A7j7CatbehEQ",
+      "InternalName": "weap_mace_rune"
+    }
+  }
+]

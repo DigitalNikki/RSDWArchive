@@ -1,0 +1,39 @@
+[
+  {
+    "Type": "JournalEntryWorldData",
+    "Name": "JOURNAL_World_Factions_BlackKnight_Houndmaster",
+    "Class": "UScriptClass'JournalEntryWorldData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DisplayName": {
+        "TableId": "/DowdunReach/Gameplay/AI/ST_AI_Names_DowdunReach.ST_AI_Names_DowdunReach",
+        "Key": "Houndmaster",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "HoundmasterRexiton",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Journal/T_Icon_Journal_Houndmaster_Rexinton.T_Icon_Journal_Houndmaster_Rexinton",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::AIKill",
+        "AIData": {
+          "AssetPathName": "/DowdunReach/Gameplay/AI/BlackKnightFaction/MeleeBlackKnight/MiniBossVariant/Houndmaster/BP_AI_Houndmaster_Data.BP_AI_Houndmaster_Data_C",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "rK7D0kX3lZ-mml6tRtLKYQ",
+      "InternalName": "JOURNAL_World_Factions_BlackKnight_Houndmaster"
+    }
+  }
+]

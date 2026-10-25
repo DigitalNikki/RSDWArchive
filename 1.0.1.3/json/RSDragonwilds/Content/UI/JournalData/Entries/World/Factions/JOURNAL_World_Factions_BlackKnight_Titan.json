@@ -1,0 +1,39 @@
+[
+  {
+    "Type": "JournalEntryWorldData",
+    "Name": "JOURNAL_World_Factions_BlackKnight_Titan",
+    "Class": "UScriptClass'JournalEntryWorldData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DisplayName": {
+        "TableId": "/DowdunReach/Gameplay/AI/ST_AI_Names_DowdunReach.ST_AI_Names_DowdunReach",
+        "Key": "BlackKnightTitan",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "BlackKnightTitan",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Journal/T_Icon_Journal_Black_Knight_Titan.T_Icon_Journal_Black_Knight_Titan",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::AIKill",
+        "AIData": {
+          "AssetPathName": "/DowdunReach/Gameplay/AI/Bosses/BlackKnightTitan/BP_AI_BlackKnightTitan_Data_02.BP_AI_BlackKnightTitan_Data_02_C",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "UwEppkor2DHQdOm74qi5cQ",
+      "InternalName": "JOURNAL_World_Factions_BlackKnight_Titan"
+    }
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "Type": "BP_Consumables_Potion_C",
+    "Name": "ITEM_Consumable_Potion_Stamina",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "GE_Cooldown_StaminaPotion_C",
+    "Name": "GE_Cooldown_StaminaPotion_C_1",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Potion_C'ITEM_Consumable_Potion_Stamina'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Potions/ITEM_Consumable_Potion_Stamina.0"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "GE_Skills_Agility_SprintStaminaCost_C",
+    "Name": "GE_Skills_Agility_SprintStaminaCost_C_0",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Potion_C'ITEM_Consumable_Potion_Stamina'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Potions/ITEM_Consumable_Potion_Stamina.0"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "GE_StaminaCostMultiplier_C",
+    "Name": "GE_StaminaCostMultiplier_C_0",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Potion_C'ITEM_Consumable_Potion_Stamina'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Potions/ITEM_Consumable_Potion_Stamina.0"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "JournalEntryRecipeData",
+    "Name": "JOURNAL_Recipes_Resources_Bonemeal_Necrotic_From_Bone_Undead",
+    "Class": "UScriptClass'JournalEntryRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipeData": {
+        "AssetPathName": "/Game/Gameplay/Items/Resources/Mineral/RECIPE_Process_Ground_Bonemeal_Necrotic.RECIPE_Process_Ground_Bonemeal_Necrotic",
+        "SubPathString": ""
+      },
+      "ItemData": {
+        "AssetPathName": "/Game/Gameplay/Items/Resources/Mineral/ITEM_Resources_Ground_Bonemeal_Necrotic.ITEM_Resources_Ground_Bonemeal_Necrotic",
+        "SubPathString": ""
+      },
+      "StationTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_ProcessingStationDataTable'",
+          "ObjectPath": "/Game/Gameplay/World/Stations/DT_ProcessingStationDataTable"
+        },
+        "RowName": "Grinder"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "NecroticBonemeal",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "NecroticBonemeal",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Journal/T_Icon_Journal_Necrotic_Boneleal.T_Icon_Journal_Necrotic_Boneleal",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RecipeUnlocked",
+        "UnlockingRecipe": {
+          "AssetPathName": "/Game/Gameplay/Items/Resources/Mineral/RECIPE_Process_Ground_Bonemeal_Necrotic.RECIPE_Process_Ground_Bonemeal_Necrotic",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "djuvNkDwlOBoQUue10jHuQ",
+      "InternalName": "JOURNAL_Recipes_Resources_Bonemeal_Necrotic_From_Bone_Undead"
+    }
+  }
+]

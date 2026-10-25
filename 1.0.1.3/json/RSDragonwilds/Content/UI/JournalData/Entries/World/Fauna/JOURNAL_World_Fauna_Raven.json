@@ -1,0 +1,39 @@
+[
+  {
+    "Type": "JournalEntryWorldData",
+    "Name": "JOURNAL_World_Fauna_Raven",
+    "Class": "UScriptClass'JournalEntryWorldData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DisplayName": {
+        "TableId": "/DowdunReach/Gameplay/AI/ST_AI_Names_DowdunReach.ST_AI_Names_DowdunReach",
+        "Key": "Raven",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "Raven",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Journal/T_Icon_Journal_Raven.T_Icon_Journal_Raven",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::AIKill",
+        "AIData": {
+          "AssetPathName": "/DowdunReach/Gameplay/AI/Wildlife/Raven/BP_AI_Raven_Data.BP_AI_Raven_Data_C",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "NPbwI0ikYYyhGfy9hN8PKA",
+      "InternalName": "JOURNAL_World_Fauna_Raven"
+    }
+  }
+]

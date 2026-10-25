@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "JournalEntryRecipeData",
+    "Name": "JOURNAL_Recipes_Weapons_Dagger_Dragonbone",
+    "Class": "UScriptClass'JournalEntryRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipeData": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Mace/RECIPE_Vestige_Weapon_T4_Dagger_Dragonbone.RECIPE_Vestige_Weapon_T4_Dagger_Dragonbone",
+        "SubPathString": ""
+      },
+      "ItemData": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Dagger/ITEM_Dagger_DragonboneBone.ITEM_Dagger_DragonboneBone",
+        "SubPathString": ""
+      },
+      "StationTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_CraftingStationsDataTable'",
+          "ObjectPath": "/Game/Gameplay/World/Stations/DT_CraftingStationsDataTable"
+        },
+        "RowName": "ToolsMeleeBench"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "F58075F94DB25953329D67A5CF417485",
+        "SourceString": "Dragonbone Dagger",
+        "LocalizedString": "Dragonbone Dagger"
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "DragonboneDagger",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/Game/Art/UI/Icons/Journal/WeaponsArmours_07/T_Icons_Journal_Dagger_Dragonbone.T_Icons_Journal_Dagger_Dragonbone",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RecipeUnlocked",
+        "UnlockingRecipe": {
+          "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Mace/RECIPE_Vestige_Weapon_T4_Dagger_Dragonbone.RECIPE_Vestige_Weapon_T4_Dagger_Dragonbone",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "JRXRB0-8NyAWbPe9OaW4CQ",
+      "InternalName": "JOURNAL_Recipes_Weapons_Dagger_Dragonbone"
+    }
+  }
+]

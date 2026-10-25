@@ -1,0 +1,39 @@
+[
+  {
+    "Type": "JournalEntryWorldData",
+    "Name": "JOURNAL_World_Factions_Zamorak_Mage",
+    "Class": "UScriptClass'JournalEntryWorldData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DisplayName": {
+        "TableId": "/DowdunReach/Gameplay/AI/ST_AI_Names_DowdunReach.ST_AI_Names_DowdunReach",
+        "Key": "MageOfZamorak",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "MageOfZamorak",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Journal/T_Icon_Journal_Mage_Of_Zamorak.T_Icon_Journal_Mage_Of_Zamorak",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::AIKill",
+        "AIData": {
+          "AssetPathName": "/DowdunReach/Gameplay/AI/ZamorakianMageFaction/ZamorakianMage/BP_AI_MageOfZamorak_Data.BP_AI_MageOfZamorak_Data_C",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "qvSh90elBoLdkYe4Pu5sfg",
+      "InternalName": "JOURNAL_World_Factions_Zamorak_Mage"
+    }
+  }
+]

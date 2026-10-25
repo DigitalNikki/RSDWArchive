@@ -1,0 +1,67 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Armour_T2_Body_DE_Gilded",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_GoldBar'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Metal/ITEM_Resources_GoldBar"
+          },
+          "Count": 10
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Leather_Hard'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Textiles/ITEM_Resources_Leather_Hard"
+          },
+          "Count": 6
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Cloth_Padded'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Textiles/ITEM_Resources_Cloth_Padded"
+          },
+          "Count": 2
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_VaultShard'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Magic/ITEM_Resources_VaultShard"
+          },
+          "Count": 3
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "WearableEquipmentData'ITEM_Armour_T1_Body_GildedPaladin'",
+            "ObjectPath": "/ScornedWilderness/Gameplay/Character/Player/Equipment/Body/ITEM_Armour_T1_Body_GildedPaladin"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Metal.Armour"
+      },
+      "bIgnoreAutomaticUnlocks": true,
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting"
+        },
+        "RowName": "Craft_Crafting_Table_Recipe_Tier2"
+      },
+      "SkillXPAwardedOnCraft": 40,
+      "PersistenceID": "NrkZ5EEJy1O17ammF8tMfA",
+      "InternalName": "recipe_armour_body_de_gilded"
+    }
+  }
+]

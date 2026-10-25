@@ -1,0 +1,39 @@
+[
+  {
+    "Type": "JournalEntryWorldData",
+    "Name": "JOURNAL_World_Factions_KotHaar_KotHaarKet",
+    "Class": "UScriptClass'JournalEntryWorldData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DisplayName": {
+        "TableId": "/UmbralSands/Gameplay/AI/ST_AI_Names_UmbralSands.ST_AI_Names_UmbralSands",
+        "Key": "KotHaar-Ket",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "KotHaar-Ket",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/Game/Art/UI/Icons/Journal/T_Icon_Journal_Kothaar_Ket.T_Icon_Journal_Kothaar_Ket",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::AIKill",
+        "AIData": {
+          "AssetPathName": "/UmbralSands/Gameplay/AI/KotHaar/KotHaar_Ket/BP_AI_KotHaar_Ket_Data.BP_AI_KotHaar_Ket_Data_C",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "5H7v5UuGWicUqICMLz5e-w",
+      "InternalName": "JOURNAL_World_Factions_KotHaar_KotHaarKet"
+    }
+  }
+]

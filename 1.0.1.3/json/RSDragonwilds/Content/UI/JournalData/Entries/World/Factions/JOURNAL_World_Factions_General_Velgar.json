@@ -1,0 +1,67 @@
+[
+  {
+    "Type": "JournalEntryWorldData",
+    "Name": "JOURNAL_World_Factions_General_Velgar",
+    "Class": "UScriptClass'JournalEntryWorldData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Weaknesses": [
+        {
+          "Namespace": "",
+          "Key": "98CF53304022DDD97BDA59BA132F58C8",
+          "SourceString": "Is often uncomfortable with ambiguity",
+          "LocalizedString": "Is often uncomfortable with ambiguity"
+        }
+      ],
+      "Locations": [
+        {
+          "LocationText": {
+            "TableId": "/Game/UI/ST_Localization.ST_Localization",
+            "Key": "Ghornfell",
+            "SourceString": null,
+            "LocalizedString": ""
+          },
+          "LocationID": "Ghornfell"
+        }
+      ],
+      "Materials": [
+        {
+          "MaterialID": "Velgar's Head",
+          "MaterialItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Velgar_Head'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_Velgar_Head"
+          }
+        }
+      ],
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "74DF620B4F4664433B289D9C8A07F88F",
+        "SourceString": "General Velgar",
+        "LocalizedString": "General Velgar"
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "Velgar",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Journal/T_Icon_Journal_General_Velgar.T_Icon_Journal_General_Velgar",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::AIKill",
+        "AIData": {
+          "AssetPathName": "/Game/Gameplay/AI/DragonVelgar/BP_AI_DragonVelgar_Data.BP_AI_DragonVelgar_Data_C",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "BDid9Ub4zdWScEGm8Y7sYQ",
+      "InternalName": "JOURNAL_World_Factions_General_Velgar"
+    }
+  }
+]

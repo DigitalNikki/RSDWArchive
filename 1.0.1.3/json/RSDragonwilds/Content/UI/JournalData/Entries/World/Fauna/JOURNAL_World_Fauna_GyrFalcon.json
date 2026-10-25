@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "JournalEntryWorldData",
+    "Name": "JOURNAL_World_Fauna_GyrFalcon",
+    "Class": "UScriptClass'JournalEntryWorldData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Locations": [
+        {
+          "LocationText": {
+            "TableId": "/Game/UI/ST_Localization.ST_Localization",
+            "Key": "Ghornfell",
+            "SourceString": null,
+            "LocalizedString": ""
+          },
+          "LocationID": "Ghornfell"
+        }
+      ],
+      "Materials": [
+        {
+          "MaterialID": "Feathers",
+          "MaterialItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Feathers'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_Feathers"
+          }
+        },
+        {
+          "MaterialID": "Stringy Meat",
+          "MaterialItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Meat_Bird'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_Meat_Bird"
+          }
+        }
+      ],
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/AI/ST_AI_Names.ST_AI_Names",
+        "Key": "Gyrfalcon",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "Gyrfalcon",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Journal/T_Icon_Journal_Gyrfalcon.T_Icon_Journal_Gyrfalcon",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::AIKill",
+        "AIData": {
+          "AssetPathName": "/Game/Gameplay/AI/Birds/GyrFalcon/BP_AI_GyrFalcon_Data.BP_AI_GyrFalcon_Data_C",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "PCZtHUPMBXnPRSCk9gSQMQ",
+      "InternalName": "JOURNAL_World_Fauna_GyrFalcon"
+    }
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "JournalEntryRecipeData",
+    "Name": "JOURNAL_Recipes_Tool_Pickaxe_Rune",
+    "Class": "UScriptClass'JournalEntryRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipeData": {
+        "AssetPathName": "/ScornedWilderness/Gameplay/Items/Recipes/Gear/RECIPE_Pickaxe_Rune.RECIPE_Pickaxe_Rune",
+        "SubPathString": ""
+      },
+      "ItemData": {
+        "AssetPathName": "/ScornedWilderness/Gameplay/Character/Player/Equipment/Held/Pickaxe/ITEM_Pickaxe_Rune.ITEM_Pickaxe_Rune",
+        "SubPathString": ""
+      },
+      "StationTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_CraftingStationsDataTable'",
+          "ObjectPath": "/Game/Gameplay/World/Stations/DT_CraftingStationsDataTable"
+        },
+        "RowName": "ToolsMeleeBench"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "RunePickAxe",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "RunePickaxe",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Journal/T_Icon_Journal_Pickaxe_Rune_2H_01.T_Icon_Journal_Pickaxe_Rune_2H_01",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RecipeUnlocked",
+        "UnlockingRecipe": {
+          "AssetPathName": "/ScornedWilderness/Gameplay/Items/Recipes/Gear/RECIPE_Pickaxe_Rune.RECIPE_Pickaxe_Rune",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "M7XzHkF271vMYFKWKQFHOQ",
+      "InternalName": "JOURNAL_Recipes_Tools_Pickaxe_Runite"
+    }
+  }
+]

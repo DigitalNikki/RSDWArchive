@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "JournalEntryWorldData",
+    "Name": "JOURNAL_World_Flora_Herb_Swampweed",
+    "Class": "UScriptClass'JournalEntryWorldData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Locations": [
+        {
+          "LocationText": {
+            "TableId": "/Game/UI/ST_Localization.ST_Localization",
+            "Key": "Ghornfell",
+            "SourceString": null,
+            "LocalizedString": ""
+          },
+          "LocationID": "Ghornfell"
+        }
+      ],
+      "Materials": [
+        {
+          "MaterialID": "Swampweed",
+          "MaterialItemData": {
+            "ObjectName": "ItemData'ITEM_SwampWeed'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Herb/ITEM_SwampWeed"
+          }
+        },
+        {
+          "MaterialID": "Swampweed Seed",
+          "MaterialItemData": {
+            "ObjectName": "SeedHeldEquipmentData'ITEM_Farming_Seed_SwampWeed'",
+            "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Held/Farming/Seeds/ITEM_Farming_Seed_SwampWeed"
+          }
+        }
+      ],
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "Swampweed",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "SwampWeed",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icons_Journal_Recipes_Resources_SwampWeed.T_Icons_Journal_Recipes_Resources_SwampWeed",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::ItemFirstPickup",
+        "UnlockingItemData": {
+          "AssetPathName": "/Game/Gameplay/Items/Resources/Herb/ITEM_SwampWeed.ITEM_SwampWeed",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "vCeDd0PYGfcVGnecUfaXkg",
+      "InternalName": "JOURNAL_World_Flora_Herb_Swampweed"
+    }
+  }
+]

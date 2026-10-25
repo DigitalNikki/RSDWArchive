@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "JournalEntryRecipeData",
+    "Name": "JOURNAL_Recipes_Ammo_Bolts_Adamant_Enchanted",
+    "Class": "UScriptClass'JournalEntryRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipeData": {
+        "AssetPathName": "/UmbralSands/Gameplay/Items/Recipes/Ammo/RECIPE_Ammo_Bolts_Adamant_Enchanted.RECIPE_Ammo_Bolts_Adamant_Enchanted",
+        "SubPathString": ""
+      },
+      "ItemData": {
+        "AssetPathName": "/UmbralSands/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Bolts_Enchanted_Adamant.ITEM_Ammo_Bolts_Enchanted_Adamant",
+        "SubPathString": ""
+      },
+      "StationTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_CraftingStationsDataTable'",
+          "ObjectPath": "/Game/Gameplay/World/Stations/DT_CraftingStationsDataTable"
+        },
+        "RowName": "FletchingBenchv2"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "EnchantedAdamantBolts",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "EnchantedAdamantCrossbowBolts",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Journal_Images/T_Icon_Journal_Adamant_Bolt_Enchanted.T_Icon_Journal_Adamant_Bolt_Enchanted",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RecipeUnlocked",
+        "UnlockingRecipe": {
+          "AssetPathName": "/UmbralSands/Gameplay/Items/Recipes/Ammo/RECIPE_Ammo_Bolts_Adamant_Enchanted.RECIPE_Ammo_Bolts_Adamant_Enchanted",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "3Rd7UUmT17E0LoKrH8FfDw",
+      "InternalName": "JOURNAL_Recipes_Ammo_Bolts_Adamant_Enchanted"
+    }
+  }
+]

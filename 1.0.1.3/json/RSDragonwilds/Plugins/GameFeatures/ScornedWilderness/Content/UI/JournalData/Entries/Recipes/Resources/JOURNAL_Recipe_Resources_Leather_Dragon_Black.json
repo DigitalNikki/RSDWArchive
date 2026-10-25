@@ -1,0 +1,58 @@
+[
+  {
+    "Type": "JournalEntryRecipeData",
+    "Name": "JOURNAL_Recipe_Resources_Leather_Dragon_Black",
+    "Class": "UScriptClass'JournalEntryRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipeData": {
+        "AssetPathName": "/ScornedWilderness/Gameplay/Items/Recipes/Processed/RECIPE_Process_Leather_Draconic_Black_From_Hide_Dragon_Black.RECIPE_Process_Leather_Draconic_Black_From_Hide_Dragon_Black",
+        "SubPathString": ""
+      },
+      "ItemData": {
+        "AssetPathName": "/ScornedWilderness/Gameplay/Items/Resources/Processed/ITEM_Resources_Leather_Dragon_Black.ITEM_Resources_Leather_Dragon_Black",
+        "SubPathString": ""
+      },
+      "StationTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_ProcessingStationDataTable'",
+          "ObjectPath": "/Game/Gameplay/World/Stations/DT_ProcessingStationDataTable"
+        },
+        "RowName": "AdvancedTannery"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "BlackDragonLeather",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "BlackDragonLeather",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Journal/T_Icon_Journal_Black_Dragon_Leather.T_Icon_Journal_Black_Dragon_Leather",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RecipeUnlocked",
+        "UnlockingItemData": {
+          "AssetPathName": "/Game/Gameplay/Items/Resources/Wood/ITEM_Resources_Wood_Ash.ITEM_Resources_Wood_Ash",
+          "SubPathString": ""
+        },
+        "UnlockingRecipe": {
+          "AssetPathName": "/ScornedWilderness/Gameplay/Items/Recipes/Processed/RECIPE_Process_Leather_Draconic_Black_From_Hide_Dragon_Black.RECIPE_Process_Leather_Draconic_Black_From_Hide_Dragon_Black",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "TeW5o0IXR1Mwg4CnC3ix4w",
+      "InternalName": "JOURNAL_Recipes_Resources_Leather_Dragon_Black"
+    }
+  }
+]

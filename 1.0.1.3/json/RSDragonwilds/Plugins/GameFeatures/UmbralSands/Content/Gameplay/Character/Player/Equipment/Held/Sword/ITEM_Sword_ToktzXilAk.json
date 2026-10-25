@@ -1,0 +1,139 @@
+[
+  {
+    "Type": "HeldEquipmentData",
+    "Name": "ITEM_Sword_ToktzXilAk",
+    "Class": "UScriptClass'HeldEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HeldEquipmentActorClass": {
+        "AssetPathName": "/UmbralSands/Gameplay/Character/Player/Equipment/Held/Sword/BP_Sword_ToktzXilAk.BP_Sword_ToktzXilAk_C",
+        "SubPathString": ""
+      },
+      "PrimaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_Sword_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Sword/PA_Attack_Sword"
+      },
+      "PrimaryJumpActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Spell_Sword_JumpAttack_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Sword/PA_Spell_Sword_JumpAttack"
+      },
+      "PrimarySprintActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_Sword_Sprint_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Sword/PA_Attack_Sword_Sprint"
+      },
+      "PrimaryVisceralActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_Sword_Visceral_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Sword/PA_Attack_Sword_Visceral"
+      },
+      "SecondaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Block_Sword_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Abilities/Block/PA_Block_Sword"
+      },
+      "SpecialActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_Sword_Special_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Sword/PA_Attack_Sword_Special"
+      },
+      "AnimationPoseType": "EAnimationPoseType::Default",
+      "AnimationPosesSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Idle_Sword_Poses'",
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Sword/A_PlayerM_Idle_Sword_Poses"
+      },
+      "BaseHeldEquipmentPowerLevelRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_PlayerWeaponPowerLevels'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels"
+        },
+        "RowName": "Weapons"
+      },
+      "BaseHeldEquipmentDamageNegationRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_PlayerDamageNegation'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_PlayerDamageNegation"
+        },
+        "RowName": "Sword"
+      },
+      "DamageMultiplier": 8.4,
+      "BlockingDamageNegation": 30.0,
+      "DamageTypes": [
+        "DamageType.Physical.Slash"
+      ],
+      "CriticalHitChanceIncrease": 0.02,
+      "Slot": "ELoadoutSlotStrategy::HeldOnlyRight",
+      "bIsAWeapon": true,
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Attack'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Attack"
+      },
+      "GrantedEffects": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_CriticalHitChanceWeaponModifier_UmS_C'",
+          "ObjectPath": "/Game/Gameplay/GameplayEffects/Effects/GE_CriticalHitChanceWeaponModifier_UmS"
+        }
+      ],
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "Toktzxilak",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "Toktzxilak",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Kothaar_Sword.T_Icon_Kothaar_Sword",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/UmbralSands/Art/Skeleton/Weapons/Faction/Sword_KotHaar_1H_01/SM_Sword_KotHaar_1H_01.SM_Sword_KotHaar_1H_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 7,
+      "Weight": 15.0,
+      "Category": {
+        "TagName": "Item.Equipment.Weapon.1H.Sword"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Weapon.Melee"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Metal.Blade"
+      },
+      "BaseDurability": 1200,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak"
+      },
+      "BuffDatas": [
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemInfo.ST_ItemInfo",
+            "Key": "SpecialEffect",
+            "SourceString": null,
+            "LocalizedString": ""
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "ToktzXilAk.Boon",
+            "SourceString": null,
+            "LocalizedString": ""
+          },
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "bIsMasterworkItem": true,
+      "MasterworkType": "EMasterworkUpgradeType::Vestige",
+      "PersistenceID": "x-D6O0P6Iip5zwae70fOiw",
+      "InternalName": "weap_sword_toktzxilak"
+    }
+  }
+]

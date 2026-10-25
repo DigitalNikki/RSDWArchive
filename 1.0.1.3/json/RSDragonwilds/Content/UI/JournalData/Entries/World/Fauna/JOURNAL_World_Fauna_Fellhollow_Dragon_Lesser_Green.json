@@ -1,0 +1,80 @@
+[
+  {
+    "Type": "JournalEntryWorldData",
+    "Name": "JOURNAL_World_Fauna_Fellhollow_Dragon_Lesser_Green",
+    "Class": "UScriptClass'JournalEntryWorldData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Locations": [
+        {
+          "LocationText": {
+            "TableId": "/Game/UI/ST_Localization.ST_Localization",
+            "Key": "Brynmoor",
+            "SourceString": null,
+            "LocalizedString": ""
+          },
+          "LocationID": "Brynmoor"
+        }
+      ],
+      "Materials": [
+        {
+          "MaterialID": "None",
+          "MaterialItemData": {
+            "ObjectName": "ItemData'ITEM_Currency_SoulFragment'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Currency/ITEM_Currency_SoulFragment"
+          }
+        },
+        {
+          "MaterialID": "Feathers",
+          "MaterialItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Skin_Dragon_Green_Lesser'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_Skin_Dragon_Green_Lesser"
+          }
+        },
+        {
+          "MaterialID": "Bird Meat",
+          "MaterialItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_DragonBlood'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_DragonBlood"
+          }
+        },
+        {
+          "MaterialID": "None",
+          "MaterialItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Dragon_Tooth'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Mineral/ITEM_Resources_Dragon_Tooth"
+          }
+        }
+      ],
+      "DisplayName": {
+        "TableId": "/FutureMajorVersion/Gameplay/AI/ST_AI_Names_Fellhollow.ST_AI_Names_Fellhollow",
+        "Key": "DragonGreen",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "LesserGreenDragon",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/Game/Art/UI/Icons/Journal/T_Icon_Journal_Kalphite_Green_Dragon.T_Icon_Journal_Kalphite_Green_Dragon",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::AIKill",
+        "AIData": {
+          "AssetPathName": "/Game/Gameplay/AI/DragonLesser/BP_AI_DragonLesserGreen_Data.BP_AI_DragonLesserGreen_Data_C",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "JhS5hEGZSSBvRYO1QDTfaA",
+      "InternalName": "JOURNAL_World_Fauna_Fellhollow_Dragon_Lesser_Green"
+    }
+  }
+]

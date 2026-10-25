@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "JournalEntryRecipeData",
+    "Name": "JOURNAL_Recipes_Armour_Legs_DragonkinMage",
+    "Class": "UScriptClass'JournalEntryRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipeData": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Legs/RECIPE_Armour_T4_Legs_DragonkinMage.RECIPE_Armour_T4_Legs_DragonkinMage",
+        "SubPathString": ""
+      },
+      "ItemData": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Legs/ITEM_Armour_T4_Legs_DragonkinMage.ITEM_Armour_T4_Legs_DragonkinMage",
+        "SubPathString": ""
+      },
+      "StationTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_CraftingStationsDataTable'",
+          "ObjectPath": "/Game/Gameplay/World/Stations/DT_CraftingStationsDataTable"
+        },
+        "RowName": "ArmourBench"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "DragonkinRobeLegs",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "DragonkinDarkMageLegs",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/Game/Art/UI/Icons/Armours_07/test/Journal/T_Icons_Journal_Dragonkin_Dark_Mage_Leggings.T_Icons_Journal_Dragonkin_Dark_Mage_Leggings",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RecipeUnlocked",
+        "UnlockingRecipe": {
+          "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Legs/RECIPE_Armour_T4_Legs_DragonkinMage.RECIPE_Armour_T4_Legs_DragonkinMage",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "O3ZOFERwpk1wHPCOfttuqA",
+      "InternalName": "JOURNAL_Recipes_Armour_Legs_DragonkinMage"
+    }
+  }
+]

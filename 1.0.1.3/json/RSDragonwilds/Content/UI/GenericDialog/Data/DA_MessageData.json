@@ -1,0 +1,2726 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "DA_MessageData_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'DialogMessageData'",
+      "ObjectPath": "/Script/Dominion"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "DA_MessageData_C'Default__DA_MessageData_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/GenericDialog/Data/DA_MessageData.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "DA_MessageData_C",
+    "Name": "Default__DA_MessageData_C",
+    "Class": "BlueprintGeneratedClass'1.0.1.3/RSDragonwilds/Content/UI/GenericDialog/Data/DA_MessageData.DA_MessageData_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DialogMessageData": [
+        {
+          "Key": "EDialogMessageType::FailedToCreateWorldError",
+          "Value": {
+            "HeaderText": {
+              "CultureInvariantString": null
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "FailedToCreateWorldErrorBody",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::HostClosedConnectionError",
+          "Value": {
+            "HeaderText": {
+              "CultureInvariantString": null
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "HostClosedConnectionErrorBody",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::FailedToJoinServerError",
+          "Value": {
+            "HeaderText": {
+              "CultureInvariantString": null
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "FailedToJoinServerErrorBosy",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::ConfirmDeleteCharacter",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "WarningMessageTitle",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "ConfirmDeleteCharacterBody",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "Yes",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "No",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::ConfirmDeleteWorld",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "WarningMessageTitle",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "ConfirmDeleteWorldBody",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "Yes",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "No",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::NetworkLogoutReturnToMenus",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "NetworkLogoutReturnToMenusHeader",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "NetworkLogoutReturnToMenusBody",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::EmptyWorldNameError",
+          "Value": {
+            "HeaderText": {
+              "CultureInvariantString": null
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "EmptyWorldNameErrorBody",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::NoCharactersAvailableError",
+          "Value": {
+            "HeaderText": {
+              "CultureInvariantString": null
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "NoCharactersAvailableErrorBody",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::NetworkUnknownError",
+          "Value": {
+            "HeaderText": {
+              "CultureInvariantString": null
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "NetworkUnknownErrorBody",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::CharacterNameExistsError",
+          "Value": {
+            "HeaderText": {
+              "CultureInvariantString": null
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "CharacterNameExistsErrorBody",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::RestartGame",
+          "Value": {
+            "HeaderText": {
+              "CultureInvariantString": null
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "RestartGameBody",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::DedicatedServerNotAvailable",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "ErrorMessageTitle",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "DedicatedServersNotAvailableBody",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::PasswordPrompt",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "PasswordPromptTitle",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "PasswordPromptBody",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "Cancel",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::ServerPrivacyPrompt",
+          "Value": {
+            "HeaderText": {
+              "CultureInvariantString": null
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "ServerPrivacyPromptBody",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "Confirm",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "Cancel",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::NoWorldsFoundBySearch",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "ServerSearchTitle",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "ServerSearchBody",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::CharacterNameCannotBeEmpty",
+          "Value": {
+            "HeaderText": {
+              "CultureInvariantString": null
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "CharacterNameEmptyBody",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::EOSRequiredToPlayOnline",
+          "Value": {
+            "HeaderText": {
+              "CultureInvariantString": null
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "EOSRequiredToPlayOnlineBody",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::ConfirmResetKeybindings",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "WarningMessageTitle",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "ConfirmResetKeybindingsBody",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "ConfirmResetKeybindingsLeftButton",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "Cancel",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::CharacterIncompatibleWithWorldError",
+          "Value": {
+            "HeaderText": {
+              "CultureInvariantString": null
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "CharacterIncompatibleWithWorldError",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::ConfirmExitCharacterCreation",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "WarningMessageTitle",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "ConfirmExitCharacterCreationBody",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "Yes",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "No",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::ConfirmExitCharacterCreationFTUE",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "WarningMessageTitle",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "ConfirmExitCharacterCreationBodyFTUE",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "Yes",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "No",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::FailedToLoadWorldSaveError",
+          "Value": {
+            "HeaderText": {
+              "CultureInvariantString": null
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "FailedToLoadWorldSaveErrorBody",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::ServerFilterDialog",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/MainMenu/ST_MainMenus.ST_MainMenus",
+              "Key": "ui.mainmenus.filter.DialogHeader",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "CultureInvariantString": null
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "Apply",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "Cancel",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::IncorrectAdminPassword",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "ErrorMessageTitle",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "PasswordError",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::BanPlayerConfirmation",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/InGameMenus/ST_Server.ST_Server",
+              "Key": "BanConfirmationHeader",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/InGameMenus/ST_Server.ST_Server",
+              "Key": "BanConfirmationBody",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/InGameMenus/ST_Server.ST_Server",
+              "Key": "Ban",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "Cancel",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::KickPlayerConfirmation",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/InGameMenus/ST_Server.ST_Server",
+              "Key": "KickConfirmationHeader",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/InGameMenus/ST_Server.ST_Server",
+              "Key": "KickConfirmationBody",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/InGameMenus/ST_Server.ST_Server",
+              "Key": "Kick",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "Cancel",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::CustomSearchUnavailableError",
+          "Value": {
+            "HeaderText": {
+              "CultureInvariantString": null
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "CustomSearchUnavailable",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::TimeoutWhileRetrievingWorldData",
+          "Value": {
+            "HeaderText": {
+              "CultureInvariantString": null
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "TimeoutWorldListReceived",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::MaxPlayerWorldCapacity",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/MainMenu/ST_MainMenus.ST_MainMenus",
+              "Key": "ui.mainmenus.createworld.MaxWorlds.Title",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/MainMenu/ST_MainMenus.ST_MainMenus",
+              "Key": "ui.mainmenus.createworld.MaxWorlds.Body",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::NetworkDisconnectedError",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "NetworkDisconnectedErrorHeader",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "NetworkDisconnectedErrorBody",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::ControllerDisconnected",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "ControllerDisconnectedHeader",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "ControllerDisconnectedBody",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": {
+              "HeaderText": {
+                "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+                "Key": "ControllerDisconnectedHeader.PS5",
+                "SourceString": null,
+                "LocalizedString": ""
+              },
+              "BodyText": {
+                "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+                "Key": "ControllerDisconnectedBody.PS5",
+                "SourceString": null,
+                "LocalizedString": ""
+              }
+            },
+            "Xbox": {
+              "HeaderText": {
+                "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+                "Key": "ControllerDisconnectedHeader.Xbox",
+                "SourceString": null,
+                "LocalizedString": ""
+              },
+              "BodyText": {
+                "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+                "Key": "ControllerDisconnectedBody.Xbox",
+                "SourceString": null,
+                "LocalizedString": ""
+              }
+            },
+            "Switch2": {
+              "HeaderText": {
+                "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+                "Key": "ControllerDisconnectedHeader.Switch2",
+                "SourceString": null,
+                "LocalizedString": ""
+              },
+              "BodyText": {
+                "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+                "Key": "ControllerDisconnectedBody.Switch2",
+                "SourceString": null,
+                "LocalizedString": ""
+              }
+            }
+          }
+        },
+        {
+          "Key": "EDialogMessageType::ReportWorld",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "WorldReport.Title",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "CultureInvariantString": null
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "WorldReport.Submit",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "Cancel",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::ConfirmReportWorld",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "WorldReport.Confirm.Submitted",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "WorldReport.Confirm.Body",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "Yes",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "No",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::ViewWorldDetails",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "WorldDetails.Title",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "CultureInvariantString": null
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "WorldDetails.ReportWorld",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "Cancel",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::CrossplayInviteRejected",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "Invite.Rejected.Xplay",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "Invite.Rejected.Xplay.Desc",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "Confirm",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::JoiningWorldPleaseWait",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "PleaseWait",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "JoiningGame",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "CultureInvariantString": null
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::SessionFullError",
+          "Value": {
+            "HeaderText": {
+              "Namespace": "",
+              "Key": "6B4413DB4938FADC2D0BEA847DAB16EA",
+              "SourceString": "Session full",
+              "LocalizedString": "Session full"
+            },
+            "BodyText": {
+              "Namespace": "",
+              "Key": "85CCEA414AA553F206088999F79ECEF8",
+              "SourceString": "The server you tried to join is already full. Please try a different server.",
+              "LocalizedString": "The server you tried to join is already full. Please try a different server."
+            },
+            "LeftButtonText": {
+              "Namespace": "",
+              "Key": "B1E903CF482E7871D4DAE8A9F510777E",
+              "SourceString": "OK",
+              "LocalizedString": "OK"
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::IncorrectIPAddressError",
+          "Value": {
+            "HeaderText": {
+              "CultureInvariantString": null
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_EditableTextDialog.ST_EditableTextDialog",
+              "Key": "ui.EnterIpAddress.Error.NotCorrectlyFormatted",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::ConfirmExitCharacterEdit",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "WarningMessageTitle",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "ConfirmExitCharacterEditBody",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "Yes",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "No",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::OnlineErrorBanSanction",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "BanSanctionTitle",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "BanSanctionBody",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::EnterInviteCode",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/MainMenu/ST_MainMenu_World_DirectConnection.ST_MainMenu_World_DirectConnection",
+              "Key": "ui.mainmenu.worlds.inviteCode.SectionTitle",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/MainMenu/ST_MainMenu_World_DirectConnection.ST_MainMenu_World_DirectConnection",
+              "Key": "ui.mainmenu.worlds.inviteCode.Subtitle",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "Cancel",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::LoginFailed",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "LoginFailedTitle",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "LoginFailedBody",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::FailedToCreateWorldSave",
+          "Value": {
+            "HeaderText": {
+              "CultureInvariantString": null
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_SaveGameErrors.ST_SaveGameErrors",
+              "Key": "SaveGameError.FailedToCreateWorldSave",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::Net_StreamingChunkClientFailure",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "ErrorMessageTitle",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_NetworkErrors.ST_NetworkErrors",
+              "Key": "Net_StreamingChunkClientFailure",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::NetworkConnectionIsOk",
+          "Value": {
+            "HeaderText": {
+              "CultureInvariantString": null
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_NetworkErrors.ST_NetworkErrors",
+              "Key": "NetworkConnectionIsOk",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::LoginLost",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "ErrorMessageTitle",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_NetworkErrors.ST_NetworkErrors",
+              "Key": "LoginLost",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::SessionJoin_UserBanned",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "ErrorMessageTitle",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_NetworkErrors.ST_NetworkErrors",
+              "Key": "SessionJoin_UserBanned",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::SessionJoin_AlreadyJoined",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "ErrorMessageTitle",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_NetworkErrors.ST_NetworkErrors",
+              "Key": "SessionJoin_AlreadyJoined",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::SessionJoin_UnknownFailure",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "ErrorMessageTitle",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_NetworkErrors.ST_NetworkErrors",
+              "Key": "SessionJoin_UnknownFailure",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::PreLogin_PasswordSystemNotReady",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "ErrorMessageTitle",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_NetworkErrors.ST_NetworkErrors",
+              "Key": "PreLogin_PasswordSystemNotReady",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::PreLogin_UserIsBanned",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "ErrorMessageTitle",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_NetworkErrors.ST_NetworkErrors",
+              "Key": "PreLogin_UserIsBanned",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::PreLogin_PasswordDecodeFailed",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "ErrorMessageTitle",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_NetworkErrors.ST_NetworkErrors",
+              "Key": "PreLogin_PasswordDecodeFailed",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::PreLogin_PasswordIncorrect",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "ErrorMessageTitle",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "PasswordError",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::CharacterSaveCannotLoad",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "ErrorMessageTitle",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_NetworkErrors.ST_NetworkErrors",
+              "Key": "CharacterSaveCannotLoad",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::Game_FailedToSpawnPawn",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "ErrorMessageTitle",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_NetworkErrors.ST_NetworkErrors",
+              "Key": "Game_FailedToSpawnPawn",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::Net_StreamingChunkFailure",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "ErrorMessageTitle",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_NetworkErrors.ST_NetworkErrors",
+              "Key": "Net_StreamingChunkFailure",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::FailedToCreateCharacterSave",
+          "Value": {
+            "HeaderText": {
+              "CultureInvariantString": null
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_SaveGameErrors.ST_SaveGameErrors",
+              "Key": "SaveGameError.FailedToCreateCharacter",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::ReportPlayer",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/GenericDialog/ST_Reporting.ST_Reporting",
+              "Key": "Reporting.Title",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "CultureInvariantString": null
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/GenericDialog/ST_Reporting.ST_Reporting",
+              "Key": "Reporting.Option.Submit",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "TableId": "/Game/UI/GenericDialog/ST_Reporting.ST_Reporting",
+              "Key": "Reporting.Option.Cancel",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::PlayerList_BanPlayer",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/InGameMenus/ST_PlayerList.ST_PlayerList",
+              "Key": "banDialogHeader",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/InGameMenus/ST_PlayerList.ST_PlayerList",
+              "Key": "banDialogBody",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "Confirm",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "Cancel",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::PlayerList_BlockPlayer",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/InGameMenus/ST_PlayerList.ST_PlayerList",
+              "Key": "AvoidDialogHeader",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/InGameMenus/ST_PlayerList.ST_PlayerList",
+              "Key": "AvoidDialogBody",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "Confirm",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "Cancel",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::PlayerList_KickPlayer",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/InGameMenus/ST_PlayerList.ST_PlayerList",
+              "Key": "KickDialogHeader",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/InGameMenus/ST_PlayerList.ST_PlayerList",
+              "Key": "KickDialogBody",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "Confirm",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "Cancel",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::CrossPlayDisabledAtPlatformLevel",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "Crossplay.GloballyDisabled",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "Crossplay.GloballyDisabled.Desc",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::CannotConnectToOwnSession",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "ErrorMessageTitle",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "CannotConnectToOwnSession",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::SelectMyDedicatedServer",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/MainMenu/ST_MainMenus.ST_MainMenus",
+              "Key": "ui.mainmenus.CreateWorld",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "selectmydedicatedserver.select_one",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "Cancel",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::PlayerList_AdminPlayer",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/InGameMenus/ST_PlayerList.ST_PlayerList",
+              "Key": "AdminDialogHeader",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/InGameMenus/ST_PlayerList.ST_PlayerList",
+              "Key": "AdminDialogBody",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "Confirm",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "Cancel",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::PlayerList_UnblockPlayer",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/InGameMenus/ST_PlayerList.ST_PlayerList",
+              "Key": "unavoidDialogHeader",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/InGameMenus/ST_PlayerList.ST_PlayerList",
+              "Key": "unavoidDialogBody",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "Confirm",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "Cancel",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::PlayerList_UnbanPlayer",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/InGameMenus/ST_PlayerList.ST_PlayerList",
+              "Key": "unbanDialogHeader",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/InGameMenus/ST_PlayerList.ST_PlayerList",
+              "Key": "unbanDialogBody",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "Confirm",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "Cancel",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::RestorePlayerCharacterSave",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "RestoreCharacter.Title",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "RestoreCharacter.Body",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "Confirm",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "Cancel",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::RestorePlayerWorldSave",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "RestoreWorld.Title",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "RestoreWorld.Body",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "Confirm",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "Cancel",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::WorldModdedWarning",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "WorldModWarning.Title",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "WorldModWarning.Body",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "Confirm",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "Cancel",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::FailedReportWorld",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "WorldReport.Fail.Failed",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "WorldReport.Fail.Body",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::FailedReportPlayer",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "WorldReport.Fail.Failed",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "WorldReport.Fail.Body",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::PlayerBanned",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "Player.Banned.Title",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "Player.Banned.Body",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::PlayerAmendConfirm",
+          "Value": {
+            "HeaderText": {
+              "CultureInvariantString": null
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "Player.Ban.Amend.Confirm",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::PlayerAmendFailed",
+          "Value": {
+            "HeaderText": {
+              "CultureInvariantString": null
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "Player.Ban.Amend.Failed",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::WorldShadowBanned",
+          "Value": {
+            "HeaderText": {
+              "CultureInvariantString": null
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "World.ShadowBan.Body",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::RetryLoginPrompt",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "LoginFailedTitle",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "LoginFailedBody",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "Retry",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "Cancel",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::FailedToLoadCharacterSaveError",
+          "Value": {
+            "HeaderText": {
+              "CultureInvariantString": null
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "Error.FailedToLoadCharacterSaveErrorBody",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::DedicatedServerReconfiguring",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "DedicatedServer.Reconfigure.Header",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "DedicatedServer.Reconfigure.Body",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::AppealBanDialog",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/GenericDialog/ST_Reporting.ST_Reporting",
+              "Key": "Appeal.DialogueTitle",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_Reporting.ST_Reporting",
+              "Key": "Appeal.DialogueSubtitle",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "Cancel",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::ComplexWorldWarning",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "ComplexWorld.Title",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "ComplexWorld.Body",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "Confirm",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "Cancel",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::WorldPreviouslyReported",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "World.Join.PreviouslyReported.Title",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "World.Join.PreviouslyReported.Body",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::ConfirmPlayerReport",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "WorldReport.Confirm.Submitted",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "PlayerReport.Confirm.Body",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::PleaseWait",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "PleaseWait",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "CultureInvariantString": null
+            },
+            "LeftButtonText": {
+              "CultureInvariantString": null
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::PreLogin_PlatformNotAllowed",
+          "Value": {
+            "HeaderText": {
+              "CultureInvariantString": null
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_NetworkErrors.ST_NetworkErrors",
+              "Key": "PreLogin_PlatformNotAllowed",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::PreLogin_CrossplayRequired",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "Crossplay.GloballyDisabled",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_NetworkErrors.ST_NetworkErrors",
+              "Key": "PreLogin_CrossplayRequired",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::NotifyPlayerKicked",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "World.Join.PreviouslyReported.Title",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "Player.Notify.Kicked",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::PreLogin_UserWasKicked",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "ErrorMessageTitle",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_NetworkErrors.ST_NetworkErrors",
+              "Key": "PreLogin_UserWasKicked",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::GenericQrCode",
+          "Value": {
+            "HeaderText": {
+              "CultureInvariantString": null
+            },
+            "BodyText": {
+              "CultureInvariantString": null
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/Settings/ST_Controls.ST_Controls",
+              "Key": "Close",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::CrossPlay_MissingPrivilege_Windows",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "ErrorMessageTitle",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "Crossplay.MissingPrivilege.Windows",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::MissingPrivilege_UGC_GDK",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "ErrorMessageTitle",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/GenericDialog/ST_GenericDialog.ST_GenericDialog",
+              "Key": "MissingPrivilege.UGC.GDK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        },
+        {
+          "Key": "EDialogMessageType::CorruptedCharacterDetected_MainMenu",
+          "Value": {
+            "HeaderText": {
+              "TableId": "/Game/UI/ST_SaveRecovery.ST_SaveRecovery",
+              "Key": "ui.mainmenu.saverecovery.corruptedcharacter.popup.title",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "BodyText": {
+              "TableId": "/Game/UI/ST_SaveRecovery.ST_SaveRecovery",
+              "Key": "ui.mainmenu.saverecovery.corruptedcharacter.popup.text",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LeftButtonText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "OK",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "RightButtonText": {
+              "CultureInvariantString": null
+            },
+            "PS5": null,
+            "Xbox": null,
+            "Switch2": null
+          }
+        }
+      ],
+      "PersistenceID": "Dchvx0IGk8GLdD-310Wc3A"
+    }
+  }
+]

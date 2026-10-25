@@ -1,0 +1,51 @@
+[
+  {
+    "Type": "JournalEntryRecipeData",
+    "Name": "JOURNAL_Recipe_Resources_Residue_Discordent",
+    "Class": "UScriptClass'JournalEntryRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipeData": {
+        "AssetPathName": "/ScornedWilderness/Gameplay/Items/Recipes/BasicItemRecipes/RECIPE_Journal_Materials_Basic_Residue_Discordent.RECIPE_Journal_Materials_Basic_Residue_Discordent",
+        "SubPathString": ""
+      },
+      "ItemData": {
+        "AssetPathName": "/ScornedWilderness/Gameplay/Items/Resources/Misc/ITEM_Resources_Residue_Discordent.ITEM_Resources_Residue_Discordent",
+        "SubPathString": ""
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "DiscordantResidue",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "DiscordantResidue",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Journal/T_Icon_Journal_Discorden_Residue.T_Icon_Journal_Discorden_Residue",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RecipeUnlocked",
+        "UnlockingItemData": {
+          "AssetPathName": "/Game/Gameplay/Items/Resources/Wood/ITEM_Resources_Wood_Ash.ITEM_Resources_Wood_Ash",
+          "SubPathString": ""
+        },
+        "UnlockingRecipe": {
+          "AssetPathName": "/ScornedWilderness/Gameplay/Items/Recipes/BasicItemRecipes/RECIPE_Journal_Materials_Basic_Residue_Discordent.RECIPE_Journal_Materials_Basic_Residue_Discordent",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "JxBrpk3trNBG6Km4zbLBcQ",
+      "InternalName": "JOURNAL_Recipes_Resources_Residue_Discordent"
+    }
+  }
+]

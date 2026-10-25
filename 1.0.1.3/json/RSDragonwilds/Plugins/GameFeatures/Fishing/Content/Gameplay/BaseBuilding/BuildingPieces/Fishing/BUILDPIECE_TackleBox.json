@@ -1,0 +1,77 @@
+[
+  {
+    "Type": "BuildingPieceData",
+    "Name": "BUILDPIECE_TackleBox",
+    "Class": "UScriptClass'BuildingPieceData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DerivedData": {
+        "AssetPathName": "/Fishing/Gameplay/BaseBuilding/BuildingPieces_DerivedData/Fishing/BUILDPIECE_TackleBox_DerivedData.BUILDPIECE_TackleBox_DerivedData",
+        "SubPathString": ""
+      },
+      "DisplayName": {
+        "TableId": "/Fishing/UI/Fishing/ST_Fishing.ST_Fishing",
+        "Key": "BaseBuilding_DisplayName_TackleBox",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Description": {
+        "TableId": "/Fishing/UI/Fishing/ST_Fishing.ST_Fishing",
+        "Key": "BaseBuilding_Description_TackleBox",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "DisplayIcon": {
+        "AssetPathName": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/Additional_Fishing_Icons/T_Icon_Tackle_Box.T_Icon_Tackle_Box",
+        "SubPathString": ""
+      },
+      "BuildableActor": {
+        "AssetPathName": "/Fishing/Gameplay/BaseBuilding/BuildingPieces/Fishing/BP_BaseBuilding_TackleBox.BP_BaseBuilding_TackleBox_C",
+        "SubPathString": ""
+      },
+      "Requirements": [
+        {
+          "Amount": 5,
+          "ItemData": {
+            "ObjectName": "FuelItemData'ITEM_Resources_Wood_Oak'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Wood/ITEM_Resources_Wood_Oak"
+          }
+        },
+        {
+          "Amount": 1,
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_IronBar'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Metal/ITEM_Resources_IronBar"
+          }
+        },
+        {
+          "Amount": 1,
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Thread_Wool'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Textiles/ITEM_Resources_Thread_Wool"
+          }
+        }
+      ],
+      "PieceTag": {
+        "TagName": "BaseBuilding.PieceType.Prop"
+      },
+      "BuildingStabilityProfileRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'StabilityProfileDataTable'",
+          "ObjectPath": "/Game/Gameplay/BaseBuilding/StabilityProfileDataTable"
+        },
+        "RowName": "Prop"
+      },
+      "BuildXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Building'",
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Building"
+        },
+        "RowName": "Build_Storage_Tier1"
+      },
+      "RepresentationCategory": "EBuildingPieceRepresentationCategory::IndividuallyReplicatedAndPersistedActor",
+      "PersistenceID": "igQfr0IWrzv62SqDwVPFFQ",
+      "InternalName": "buildpiece_tacklebox"
+    }
+  }
+]

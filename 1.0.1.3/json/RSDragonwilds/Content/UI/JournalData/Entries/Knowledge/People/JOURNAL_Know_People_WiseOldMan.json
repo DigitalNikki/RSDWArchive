@@ -1,0 +1,35 @@
+[
+  {
+    "Type": "JournalEntryKnowPeopleData",
+    "Name": "JOURNAL_Know_People_WiseOldMan",
+    "Class": "UScriptClass'JournalEntryKnowPeopleData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DisplayName": {
+        "TableId": "/Game/UI/ST_Localization.ST_Localization",
+        "Key": "WiseOldMan",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "WiseOldMan",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Journal/T_Icon_Journal_Wise_Old_man.T_Icon_Journal_Wise_Old_man",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::PlayerStart"
+      },
+      "PersistenceID": "Egwd2EQqSklWNmi7iPrDMA",
+      "InternalName": "JOURNAL_Know_People_WOM"
+    }
+  }
+]

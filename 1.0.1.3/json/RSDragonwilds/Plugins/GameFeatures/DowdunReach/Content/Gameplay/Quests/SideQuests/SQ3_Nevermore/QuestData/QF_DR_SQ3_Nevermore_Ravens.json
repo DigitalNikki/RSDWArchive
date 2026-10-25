@@ -1,0 +1,3516 @@
+[
+  {
+    "Type": "ConversationDatabase",
+    "Name": "QF_DR_SQ3_Nevermore_Ravens",
+    "Class": "UScriptClass'ConversationDatabase'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CompilerVersion": 2,
+      "ReachableNodeMap": [
+        {
+          "Key": "D49BFAD4-4DF53C03-F95851A2-CC0CC6AE",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_DR_SQ3_Nevermore_Ravens:ConversationEntryPointNode_14'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.3"
+          }
+        },
+        {
+          "Key": "E724B640-4F463A07-BECD7D9D-948F6FCE",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_66'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.124"
+          }
+        },
+        {
+          "Key": "E787487B-48A42393-796CEA98-9F4E14ED",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_DR_SQ3_Nevermore_Ravens:QFT_SetQuestObjective_C_12'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.195"
+          }
+        },
+        {
+          "Key": "433EF5EF-4A71BD81-2BE638AB-508C3F88",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DR_SQ3_Nevermore_Ravens:QFT_UpdateQuestLocation_C_22'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.206"
+          }
+        },
+        {
+          "Key": "0FFCB9C4-4B57F1E4-C39578A9-B6D72373",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_DR_SQ3_Nevermore_Ravens:ConversationEntryPointNode_10'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.2"
+          }
+        },
+        {
+          "Key": "3F074E95-4D2D2A9A-F30654AE-3E6BFFA4",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_132'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.117"
+          }
+        },
+        {
+          "Key": "6114EA07-4EC9AF5E-D84CBABB-9184C56F",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_134'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.119"
+          }
+        },
+        {
+          "Key": "2043E1F6-4BE4A3BA-C4266B9F-A1DC7260",
+          "Value": {
+            "ObjectName": "QFT_GiveQuest_C'QF_DR_SQ3_Nevermore_Ravens:QFT_GiveQuest_C_19'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.163"
+          }
+        },
+        {
+          "Key": "4F1F6944-4920AA5E-37BF189A-D25743C8",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_DR_SQ3_Nevermore_Ravens:QFT_SetQuestObjective_C_21'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.204"
+          }
+        },
+        {
+          "Key": "CC341AA5-4A158593-53453696-C63EFBF7",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DR_SQ3_Nevermore_Ravens:QFT_UpdateQuestLocation_C_49'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.215"
+          }
+        },
+        {
+          "Key": "DBE7B74C-4BCD5DB2-7F651A8E-59CDA10E",
+          "Value": {
+            "ObjectName": "QFT_GiveItemToPlayer_C'QF_DR_SQ3_Nevermore_Ravens:QFT_GiveItemToPlayer_C_28'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.153"
+          }
+        },
+        {
+          "Key": "C4DD1314-4486EA98-401371B0-A158B7CA",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_DR_SQ3_Nevermore_Ravens:QFT_SetQuestBool_C_32'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.193"
+          }
+        },
+        {
+          "Key": "AB216AEB-4D7EB08B-66D8AFB7-E65ADE23",
+          "Value": {
+            "ObjectName": "ConversationLinkNode'QF_DR_SQ3_Nevermore_Ravens:ConversationLinkNode_13'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.16"
+          }
+        },
+        {
+          "Key": "0827E039-4B24207A-25D8EC99-EA79FC96",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_133'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.118"
+          }
+        },
+        {
+          "Key": "BB556505-4616A1B6-33A3DCAD-DA5D7A05",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_130'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.115"
+          }
+        },
+        {
+          "Key": "C24AA777-4C0F2F64-0D80A58A-321A836F",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_129'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.114"
+          }
+        },
+        {
+          "Key": "AD9110C2-4EBFB784-A8CF4FB7-4F31D570",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_SQ3_Nevermore_Ravens:QFT_PromptMessage_C_41'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.183"
+          }
+        },
+        {
+          "Key": "35569B51-4A890DDC-F6A52F98-FA2B097C",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_131'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.116"
+          }
+        },
+        {
+          "Key": "F5FEA0E5-42382026-536BA0A2-E509A4DC",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_SQ3_Nevermore_Ravens:QFT_PromptMessage_C_40'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.182"
+          }
+        },
+        {
+          "Key": "7E9345BE-40EA0A7A-22A390B1-66CB33EF",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_DR_SQ3_Nevermore_Ravens:ConversationEntryPointNode_9'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.11"
+          }
+        },
+        {
+          "Key": "0D368474-4DA3774B-1FB085A3-7C6FA6F8",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_126'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.111"
+          }
+        },
+        {
+          "Key": "51C2E133-45D319F7-5B0E089E-1D017B64",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_128'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.113"
+          }
+        },
+        {
+          "Key": "BDFF11AC-4713D912-0CFC739B-864D88B1",
+          "Value": {
+            "ObjectName": "QFT_GiveQuest_C'QF_DR_SQ3_Nevermore_Ravens:QFT_GiveQuest_C_18'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.162"
+          }
+        },
+        {
+          "Key": "14DF47BE-46AF7C17-3C8F6981-FCB2F1E0",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_DR_SQ3_Nevermore_Ravens:QFT_SetQuestObjective_C_20'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.203"
+          }
+        },
+        {
+          "Key": "276B06A9-4EC21966-E0E6D282-1B436532",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DR_SQ3_Nevermore_Ravens:QFT_UpdateQuestLocation_C_47'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.214"
+          }
+        },
+        {
+          "Key": "FAA899BF-4B447650-ECD7A2A6-5B2FB02A",
+          "Value": {
+            "ObjectName": "QFT_GiveItemToPlayer_C'QF_DR_SQ3_Nevermore_Ravens:QFT_GiveItemToPlayer_C_27'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.152"
+          }
+        },
+        {
+          "Key": "4C550222-43F11F18-2ED1B083-E442EEED",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_DR_SQ3_Nevermore_Ravens:QFT_SetQuestBool_C_31'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.192"
+          }
+        },
+        {
+          "Key": "E3F5D04C-49DE537B-EBC994BE-0F84B8F6",
+          "Value": {
+            "ObjectName": "ConversationLinkNode'QF_DR_SQ3_Nevermore_Ravens:ConversationLinkNode_12'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.15"
+          }
+        },
+        {
+          "Key": "423E8DD4-4734A3E8-27171DBD-F1DD53C7",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_127'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.112"
+          }
+        },
+        {
+          "Key": "C2CD03EE-4C7B7565-7216B4A5-9AB4438D",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_124'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.109"
+          }
+        },
+        {
+          "Key": "6C72DFE2-4FE56147-13668782-FBAF35BC",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_123'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.108"
+          }
+        },
+        {
+          "Key": "FC2B57E7-49D2AC5E-010D0A95-5CB51817",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_SQ3_Nevermore_Ravens:QFT_PromptMessage_C_39'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.181"
+          }
+        },
+        {
+          "Key": "C247BAB2-474F65D6-7835ADB6-0F45D92E",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_125'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.110"
+          }
+        },
+        {
+          "Key": "81DB2F8B-426CD030-66B6AC97-2E095AD6",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_SQ3_Nevermore_Ravens:QFT_PromptMessage_C_38'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.180"
+          }
+        },
+        {
+          "Key": "752B0F42-46456F7E-75ACFCA2-51B3F618",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_DR_SQ3_Nevermore_Ravens:ConversationEntryPointNode_8'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.10"
+          }
+        },
+        {
+          "Key": "3AC8A464-44382C48-B0170094-5640EE9F",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_120'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.105"
+          }
+        },
+        {
+          "Key": "0386F6EE-4AAC4ED4-5E3B0B80-7A72297C",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_122'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.107"
+          }
+        },
+        {
+          "Key": "0123943A-4F1E70FC-7DBC4E84-73CB7B97",
+          "Value": {
+            "ObjectName": "QFT_GiveQuest_C'QF_DR_SQ3_Nevermore_Ravens:QFT_GiveQuest_C_17'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.161"
+          }
+        },
+        {
+          "Key": "DC886CC7-4E2A239E-62F2C287-58E74038",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_DR_SQ3_Nevermore_Ravens:QFT_SetQuestObjective_C_19'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.202"
+          }
+        },
+        {
+          "Key": "471884D1-43301187-102AC59F-1E8DBD1A",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DR_SQ3_Nevermore_Ravens:QFT_UpdateQuestLocation_C_45'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.213"
+          }
+        },
+        {
+          "Key": "E425F052-46118076-3136F291-294A6C96",
+          "Value": {
+            "ObjectName": "QFT_GiveItemToPlayer_C'QF_DR_SQ3_Nevermore_Ravens:QFT_GiveItemToPlayer_C_26'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.151"
+          }
+        },
+        {
+          "Key": "8D34B134-43CB1335-A442BB95-88DBBC8D",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_DR_SQ3_Nevermore_Ravens:QFT_SetQuestBool_C_30'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.191"
+          }
+        },
+        {
+          "Key": "AC43E5D2-4988C6E5-A1F68DBB-40FAF700",
+          "Value": {
+            "ObjectName": "ConversationLinkNode'QF_DR_SQ3_Nevermore_Ravens:ConversationLinkNode_11'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.14"
+          }
+        },
+        {
+          "Key": "8DDEFA42-4B1A88DD-B6C2D689-56DDCF6A",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_121'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.106"
+          }
+        },
+        {
+          "Key": "2E2FA9C3-43CACBAF-86E38B99-AA64D530",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_118'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.103"
+          }
+        },
+        {
+          "Key": "4F86B249-4BBD9CDF-603826A6-A5BED2C7",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_117'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.102"
+          }
+        },
+        {
+          "Key": "E5F733CE-436D9D74-BAFEAD94-AFAD83B8",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_SQ3_Nevermore_Ravens:QFT_PromptMessage_C_37'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.179"
+          }
+        },
+        {
+          "Key": "40A9BD79-4A7DEC6C-935A4A9E-F2EA31FE",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_119'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.104"
+          }
+        },
+        {
+          "Key": "38A49437-4ABEC418-DA568987-38E18FF5",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_SQ3_Nevermore_Ravens:QFT_PromptMessage_C_36'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.178"
+          }
+        },
+        {
+          "Key": "FC348193-451579DD-348FD9B5-3DA5D922",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_DR_SQ3_Nevermore_Ravens:ConversationEntryPointNode_7'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.9"
+          }
+        },
+        {
+          "Key": "5BA61072-45004DCB-4822C3AC-4A9E5D8E",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_114'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.99"
+          }
+        },
+        {
+          "Key": "8B80C433-497C4283-A0E4B3B4-28FCF1BF",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_116'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.101"
+          }
+        },
+        {
+          "Key": "4E046964-4405829A-DFBD8791-C04934DB",
+          "Value": {
+            "ObjectName": "QFT_GiveQuest_C'QF_DR_SQ3_Nevermore_Ravens:QFT_GiveQuest_C_16'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.160"
+          }
+        },
+        {
+          "Key": "37E37CC7-4A179B2F-C53B1493-56973503",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_DR_SQ3_Nevermore_Ravens:QFT_SetQuestObjective_C_18'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.201"
+          }
+        },
+        {
+          "Key": "E0A5B04A-4EDFF103-D63226BA-C393878F",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DR_SQ3_Nevermore_Ravens:QFT_UpdateQuestLocation_C_43'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.212"
+          }
+        },
+        {
+          "Key": "7205F045-49E2FB2D-DFFA80AB-791F2A28",
+          "Value": {
+            "ObjectName": "QFT_GiveItemToPlayer_C'QF_DR_SQ3_Nevermore_Ravens:QFT_GiveItemToPlayer_C_25'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.150"
+          }
+        },
+        {
+          "Key": "165C7484-44CC5699-46CDB88D-D6C19AF1",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_DR_SQ3_Nevermore_Ravens:QFT_SetQuestBool_C_29'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.190"
+          }
+        },
+        {
+          "Key": "706EDBFC-4763DB3D-5C8A2EB1-F7D01654",
+          "Value": {
+            "ObjectName": "ConversationLinkNode'QF_DR_SQ3_Nevermore_Ravens:ConversationLinkNode_10'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.13"
+          }
+        },
+        {
+          "Key": "259CB434-4AE702ED-4A86BE95-A1BBFD4F",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_115'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.100"
+          }
+        },
+        {
+          "Key": "1111FDF9-437DDCE2-6D59A8BA-DF144388",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_112'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.97"
+          }
+        },
+        {
+          "Key": "FF6E0C3F-4986196F-A7FBA28A-A859A0C1",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_111'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.96"
+          }
+        },
+        {
+          "Key": "3FD6005B-400A8767-1566A19B-73FE033F",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_SQ3_Nevermore_Ravens:QFT_PromptMessage_C_35'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.177"
+          }
+        },
+        {
+          "Key": "BED39C5B-47199731-600F9696-713AD0ED",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_113'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.98"
+          }
+        },
+        {
+          "Key": "578E25D7-457ACFA7-577E30B7-C92FBC43",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_SQ3_Nevermore_Ravens:QFT_PromptMessage_C_34'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.176"
+          }
+        },
+        {
+          "Key": "40BA547C-4E49A60B-BEC459A2-A84B17DA",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_DR_SQ3_Nevermore_Ravens:ConversationEntryPointNode_6'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.8"
+          }
+        },
+        {
+          "Key": "31E2F452-4F839985-5F19FDBE-3565555A",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_108'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.93"
+          }
+        },
+        {
+          "Key": "CF5B69D5-44D1B326-E746899D-80B63E51",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_110'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.95"
+          }
+        },
+        {
+          "Key": "261A525C-46354D3B-FE1D5E99-255F1036",
+          "Value": {
+            "ObjectName": "QFT_GiveQuest_C'QF_DR_SQ3_Nevermore_Ravens:QFT_GiveQuest_C_15'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.159"
+          }
+        },
+        {
+          "Key": "9C50C90A-45F52B4E-D3B712B0-0DD6A9E9",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_DR_SQ3_Nevermore_Ravens:QFT_SetQuestObjective_C_17'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.200"
+          }
+        },
+        {
+          "Key": "5419A7A1-444AE176-9A3FFF88-A9582A30",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DR_SQ3_Nevermore_Ravens:QFT_UpdateQuestLocation_C_41'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.211"
+          }
+        },
+        {
+          "Key": "0B9DE50B-4D67D3B4-579BBBAD-5F9EEEDC",
+          "Value": {
+            "ObjectName": "QFT_GiveItemToPlayer_C'QF_DR_SQ3_Nevermore_Ravens:QFT_GiveItemToPlayer_C_24'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.149"
+          }
+        },
+        {
+          "Key": "14392867-4C635D40-F2F464B2-B12DDC9D",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_DR_SQ3_Nevermore_Ravens:QFT_SetQuestBool_C_28'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.189"
+          }
+        },
+        {
+          "Key": "824EA020-480F9B89-00D944A1-9EC4EFA4",
+          "Value": {
+            "ObjectName": "ConversationLinkNode'QF_DR_SQ3_Nevermore_Ravens:ConversationLinkNode_9'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.21"
+          }
+        },
+        {
+          "Key": "DD6274BB-42E461EA-62E9879D-5A041C53",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_109'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.94"
+          }
+        },
+        {
+          "Key": "6AC32CC2-4C122829-BC25C788-1045BBFB",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_106'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.91"
+          }
+        },
+        {
+          "Key": "9FBBD38E-4379B60D-55C4B09E-EBD8F9AF",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_105'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.90"
+          }
+        },
+        {
+          "Key": "914F394D-476A02AA-6FB5FB83-9DF1BDD1",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_SQ3_Nevermore_Ravens:QFT_PromptMessage_C_33'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.175"
+          }
+        },
+        {
+          "Key": "3D005A49-4156094C-E9D2429C-8024DBFC",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_107'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.92"
+          }
+        },
+        {
+          "Key": "5FCFFB06-4C3A05F5-8A5353A0-9AEFF90E",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_SQ3_Nevermore_Ravens:QFT_PromptMessage_C_32'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.174"
+          }
+        },
+        {
+          "Key": "11CF3AB1-4DA1C013-8CB97AA1-F889407E",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_DR_SQ3_Nevermore_Ravens:ConversationEntryPointNode_5'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.7"
+          }
+        },
+        {
+          "Key": "9EF050AD-448376FD-11CAF1A6-025E7625",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_102'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.87"
+          }
+        },
+        {
+          "Key": "BBAD4526-4CC526D3-55C4A189-0367B3B1",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_104'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.89"
+          }
+        },
+        {
+          "Key": "346900A0-431B2F6F-76A9A897-63CD1EAC",
+          "Value": {
+            "ObjectName": "QFT_GiveQuest_C'QF_DR_SQ3_Nevermore_Ravens:QFT_GiveQuest_C_14'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.158"
+          }
+        },
+        {
+          "Key": "DFE65808-4BDB6E4D-56D1EBB6-628013CE",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_DR_SQ3_Nevermore_Ravens:QFT_SetQuestObjective_C_16'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.199"
+          }
+        },
+        {
+          "Key": "CC4646DD-4D67C1A6-9ADFBD99-E32A1C5A",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DR_SQ3_Nevermore_Ravens:QFT_UpdateQuestLocation_C_39'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.210"
+          }
+        },
+        {
+          "Key": "1979654A-445D023C-9CB3A087-4C48D0C6",
+          "Value": {
+            "ObjectName": "QFT_GiveItemToPlayer_C'QF_DR_SQ3_Nevermore_Ravens:QFT_GiveItemToPlayer_C_23'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.148"
+          }
+        },
+        {
+          "Key": "82EA7C32-4F7E805A-ED2C6B89-5612DB8D",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_DR_SQ3_Nevermore_Ravens:QFT_SetQuestBool_C_27'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.188"
+          }
+        },
+        {
+          "Key": "16349FA7-481BCC20-6CB6EE93-DB0B622E",
+          "Value": {
+            "ObjectName": "ConversationLinkNode'QF_DR_SQ3_Nevermore_Ravens:ConversationLinkNode_8'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.20"
+          }
+        },
+        {
+          "Key": "D28E2626-41107AA7-AFAFA690-BC66BCA8",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_103'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.88"
+          }
+        },
+        {
+          "Key": "2B54707C-4A2C5C64-0C3015A5-D19BE839",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_100'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.85"
+          }
+        },
+        {
+          "Key": "4EEC95B9-42DCF3D3-2D437C8B-25BD0D50",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_99'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.143"
+          }
+        },
+        {
+          "Key": "21608126-4E51080A-C6CFD596-0C098DD7",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_SQ3_Nevermore_Ravens:QFT_PromptMessage_C_31'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.173"
+          }
+        },
+        {
+          "Key": "4908C5CA-4614CC55-470A6EB7-EAA4B5CD",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_101'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.86"
+          }
+        },
+        {
+          "Key": "662D602D-41337594-D9849EB1-11AC35CA",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_SQ3_Nevermore_Ravens:QFT_PromptMessage_C_30'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.172"
+          }
+        },
+        {
+          "Key": "ECDADC00-461C31B6-26B395B5-6AF59D12",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_DR_SQ3_Nevermore_Ravens:ConversationEntryPointNode_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.6"
+          }
+        },
+        {
+          "Key": "6DE84FB5-47DD6BEA-2DF373A4-C3E64B6F",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_90'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.134"
+          }
+        },
+        {
+          "Key": "21B6D8A8-4900B27F-BD6E4A90-C771FB73",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_92'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.136"
+          }
+        },
+        {
+          "Key": "FAA65BA5-486FFBB6-8AC693B7-0F8C4546",
+          "Value": {
+            "ObjectName": "QFT_GiveQuest_C'QF_DR_SQ3_Nevermore_Ravens:QFT_GiveQuest_C_12'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.156"
+          }
+        },
+        {
+          "Key": "39C6A0D6-41C29E7A-ECD6C6A3-AB353DA9",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_DR_SQ3_Nevermore_Ravens:QFT_SetQuestObjective_C_14'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.197"
+          }
+        },
+        {
+          "Key": "BDBC4126-46D9DDC2-020AB987-50397BAF",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DR_SQ3_Nevermore_Ravens:QFT_UpdateQuestLocation_C_35'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.208"
+          }
+        },
+        {
+          "Key": "3DEF0983-43B5E1F7-0840E48B-009C7745",
+          "Value": {
+            "ObjectName": "QFT_GiveItemToPlayer_C'QF_DR_SQ3_Nevermore_Ravens:QFT_GiveItemToPlayer_C_21'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.146"
+          }
+        },
+        {
+          "Key": "D2CAF01D-4DFBB9F9-BE74DBB9-C4A23672",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_DR_SQ3_Nevermore_Ravens:QFT_SetQuestBool_C_25'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.186"
+          }
+        },
+        {
+          "Key": "62CCDA60-438D1AC3-FBE4749A-FAF930D3",
+          "Value": {
+            "ObjectName": "ConversationLinkNode'QF_DR_SQ3_Nevermore_Ravens:ConversationLinkNode_6'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.18"
+          }
+        },
+        {
+          "Key": "7D3FFC1B-453A2E41-20CE1697-BCFE9FD1",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_91'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.135"
+          }
+        },
+        {
+          "Key": "4E95B7DE-4F78FCEC-3C60359F-6B381723",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_82'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.132"
+          }
+        },
+        {
+          "Key": "0407D256-4077D3DB-DFB707A8-8C2B2BD5",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_73'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.131"
+          }
+        },
+        {
+          "Key": "453C2356-480A9237-22EE1FA9-095062B7",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_SQ3_Nevermore_Ravens:QFT_PromptMessage_C_27'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.169"
+          }
+        },
+        {
+          "Key": "F1CB3314-4921C4E5-22A8DEB1-06DC9B9D",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_83'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.133"
+          }
+        },
+        {
+          "Key": "82F8924C-4F4C1C76-D6B71088-7A9F30E4",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_SQ3_Nevermore_Ravens:QFT_PromptMessage_C_26'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.168"
+          }
+        },
+        {
+          "Key": "4A9D27C0-47E06EF0-29DE8EB1-FB347DCD",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_DR_SQ3_Nevermore_Ravens:ConversationEntryPointNode_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.5"
+          }
+        },
+        {
+          "Key": "AD253D57-415EA18E-1F8451B4-74C50592",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_96'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.140"
+          }
+        },
+        {
+          "Key": "79733EA6-49895CA3-3CE816A9-BA47ABE8",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_98'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.142"
+          }
+        },
+        {
+          "Key": "B38E12AD-4230D2CF-36F5E4BB-42527883",
+          "Value": {
+            "ObjectName": "QFT_GiveQuest_C'QF_DR_SQ3_Nevermore_Ravens:QFT_GiveQuest_C_13'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.157"
+          }
+        },
+        {
+          "Key": "46D62747-42CF5411-BE3BCBA0-EDF88AD9",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_DR_SQ3_Nevermore_Ravens:QFT_SetQuestObjective_C_15'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.198"
+          }
+        },
+        {
+          "Key": "72D7C7A4-4033E91F-8C7479B5-315FC6C1",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DR_SQ3_Nevermore_Ravens:QFT_UpdateQuestLocation_C_37'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.209"
+          }
+        },
+        {
+          "Key": "3856DE25-49509784-55F90E89-7AE9B3AD",
+          "Value": {
+            "ObjectName": "QFT_GiveItemToPlayer_C'QF_DR_SQ3_Nevermore_Ravens:QFT_GiveItemToPlayer_C_22'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.147"
+          }
+        },
+        {
+          "Key": "42B5FA6C-417040F2-68D7A9B5-E8B163AE",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_DR_SQ3_Nevermore_Ravens:QFT_SetQuestBool_C_26'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.187"
+          }
+        },
+        {
+          "Key": "A90B8BEC-429F0408-FD7971BF-F5D9466C",
+          "Value": {
+            "ObjectName": "ConversationLinkNode'QF_DR_SQ3_Nevermore_Ravens:ConversationLinkNode_7'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.19"
+          }
+        },
+        {
+          "Key": "235C9109-414E2C84-7C74B686-EBA84B36",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_97'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.141"
+          }
+        },
+        {
+          "Key": "2EE2D1B6-4B3A7A41-CDAEC0A5-C8DF7786",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_94'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.138"
+          }
+        },
+        {
+          "Key": "C42CDEB5-450652B7-A991909A-71995267",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_93'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.137"
+          }
+        },
+        {
+          "Key": "CFC11092-435FDE8D-D84E229E-027B4955",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_SQ3_Nevermore_Ravens:QFT_PromptMessage_C_29'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.171"
+          }
+        },
+        {
+          "Key": "A2963446-4A4430AA-BAC05595-8C0975DB",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_95'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.139"
+          }
+        },
+        {
+          "Key": "B03D33FD-4251E1C2-2BD7CF89-2E3038B4",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_SQ3_Nevermore_Ravens:QFT_PromptMessage_C_28'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.170"
+          }
+        },
+        {
+          "Key": "A14E3264-47F14EB7-8E78C8B2-2ECECA5D",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_DR_SQ3_Nevermore_Ravens:ConversationEntryPointNode_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.4"
+          }
+        },
+        {
+          "Key": "CF96815C-4D36BDE6-31285FB8-03DC1010",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_70'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.128"
+          }
+        },
+        {
+          "Key": "FAC82602-4B632C37-1A916CB2-643DFD47",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_72'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.130"
+          }
+        },
+        {
+          "Key": "9A49A5B3-46BD670F-216B2C99-69B9B26C",
+          "Value": {
+            "ObjectName": "QFT_GiveQuest_C'QF_DR_SQ3_Nevermore_Ravens:QFT_GiveQuest_C_11'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.155"
+          }
+        },
+        {
+          "Key": "C326A535-4FB7D55B-83B64992-BB68CAF7",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_DR_SQ3_Nevermore_Ravens:QFT_SetQuestObjective_C_13'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.196"
+          }
+        },
+        {
+          "Key": "1D201E34-412BB964-3E89A2A9-19697B8D",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DR_SQ3_Nevermore_Ravens:QFT_UpdateQuestLocation_C_30'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.207"
+          }
+        },
+        {
+          "Key": "78CEDF65-4F55CA48-205AB0A9-6504D9C2",
+          "Value": {
+            "ObjectName": "QFT_GiveItemToPlayer_C'QF_DR_SQ3_Nevermore_Ravens:QFT_GiveItemToPlayer_C_20'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.145"
+          }
+        },
+        {
+          "Key": "9CBEB7F2-4A78FE54-D8636386-D37A6E6A",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_DR_SQ3_Nevermore_Ravens:QFT_SetQuestBool_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.185"
+          }
+        },
+        {
+          "Key": "170DB003-42A325F3-AACA39AA-1CDAEFC2",
+          "Value": {
+            "ObjectName": "ConversationLinkNode'QF_DR_SQ3_Nevermore_Ravens:ConversationLinkNode_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.12"
+          }
+        },
+        {
+          "Key": "F29CF039-4BB23AD7-8B880186-872BD078",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_71'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.129"
+          }
+        },
+        {
+          "Key": "2A7EDE6B-4017AB07-3F50C9B2-C4631FFB",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_68'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.126"
+          }
+        },
+        {
+          "Key": "6BC46CE9-4F8DCA93-28568AA7-247109B0",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_67'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.125"
+          }
+        },
+        {
+          "Key": "461F98AD-483BEF7C-D8725EB7-E6B2E229",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_SQ3_Nevermore_Ravens:QFT_PromptMessage_C_25'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.167"
+          }
+        },
+        {
+          "Key": "971AC5FC-48BFECB5-77CD19AF-3B529DCD",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_69'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.127"
+          }
+        },
+        {
+          "Key": "30677A8C-4792331B-0D47C8BD-51BFC30E",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_SQ3_Nevermore_Ravens:QFT_PromptMessage_C_24'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.166"
+          }
+        },
+        {
+          "Key": "1CEDF8E2-44830A70-C031F4AC-633B1CA1",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_DR_SQ3_Nevermore_Ravens:ConversationEntryPointNode_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.1"
+          }
+        },
+        {
+          "Key": "1B76D447-4DDF8E46-39D412B7-A71CD250",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_63'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.121"
+          }
+        },
+        {
+          "Key": "A3B740FC-41466D7C-73174190-CCB522D1",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_65'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.123"
+          }
+        },
+        {
+          "Key": "5A206A2D-4C88F9F6-41AD0BB2-C5E00904",
+          "Value": {
+            "ObjectName": "QFT_GiveQuest_C'QF_DR_SQ3_Nevermore_Ravens:QFT_GiveQuest_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.154"
+          }
+        },
+        {
+          "Key": "9899E4EE-4DEBADE8-ECAB4C88-446CE863",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_DR_SQ3_Nevermore_Ravens:QFT_SetQuestObjective_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.194"
+          }
+        },
+        {
+          "Key": "F68BCF97-4A0EDB34-05D465AB-0B906DBE",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DR_SQ3_Nevermore_Ravens:QFT_UpdateQuestLocation_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.205"
+          }
+        },
+        {
+          "Key": "51B80DFA-459DA8D7-D7441782-40D014C9",
+          "Value": {
+            "ObjectName": "QFT_GiveItemToPlayer_C'QF_DR_SQ3_Nevermore_Ravens:QFT_GiveItemToPlayer_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.144"
+          }
+        },
+        {
+          "Key": "D54909FE-4A4CF02B-CA7F2BB1-3D6B1D66",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_DR_SQ3_Nevermore_Ravens:QFT_SetQuestBool_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.184"
+          }
+        },
+        {
+          "Key": "5B3811B2-4D70D881-DC50A4BE-56BDC562",
+          "Value": {
+            "ObjectName": "ConversationLinkNode'QF_DR_SQ3_Nevermore_Ravens:ConversationLinkNode_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.17"
+          }
+        },
+        {
+          "Key": "98977B2B-42A9196B-BD03FB90-3C7616E8",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_64'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.122"
+          }
+        },
+        {
+          "Key": "2E54CA0F-4D2569C5-055E418A-AC8C141D",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.84"
+          }
+        },
+        {
+          "Key": "48A73C92-46C2E3A1-B5559F8A-4BD6C9CE",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.83"
+          }
+        },
+        {
+          "Key": "330EA026-4127F90A-B2BE70A6-F6A6A853",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_SQ3_Nevermore_Ravens:QFT_PromptMessage_C_23'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.165"
+          }
+        },
+        {
+          "Key": "8CBF64C0-46BAFB92-3ECC65AC-879DA1C4",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_SQ3_Nevermore_Ravens:QFT_Blank_C_62'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.120"
+          }
+        },
+        {
+          "Key": "FA01E990-4CE3B713-5692DDB6-E43AE60C",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_SQ3_Nevermore_Ravens:QFT_PromptMessage_C_22'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.164"
+          }
+        }
+      ],
+      "EntryTags": [
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.Nevermore.Ravens.Raven1"
+          },
+          "DestinationList": [
+            "1CEDF8E2-44830A70-C031F4AC-633B1CA1"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.Nevermore.Ravens.Raven2"
+          },
+          "DestinationList": [
+            "A14E3264-47F14EB7-8E78C8B2-2ECECA5D"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.Nevermore.Ravens.Raven4"
+          },
+          "DestinationList": [
+            "4A9D27C0-47E06EF0-29DE8EB1-FB347DCD"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.Nevermore.Ravens.Raven3"
+          },
+          "DestinationList": [
+            "ECDADC00-461C31B6-26B395B5-6AF59D12"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.Nevermore.Ravens.Raven5"
+          },
+          "DestinationList": [
+            "11CF3AB1-4DA1C013-8CB97AA1-F889407E"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.Nevermore.Ravens.Raven6"
+          },
+          "DestinationList": [
+            "40BA547C-4E49A60B-BEC459A2-A84B17DA"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.Nevermore.Ravens.Raven7"
+          },
+          "DestinationList": [
+            "FC348193-451579DD-348FD9B5-3DA5D922"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.Nevermore.Ravens.Raven8"
+          },
+          "DestinationList": [
+            "752B0F42-46456F7E-75ACFCA2-51B3F618"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.Nevermore.Ravens.Raven9"
+          },
+          "DestinationList": [
+            "7E9345BE-40EA0A7A-22A390B1-66CB33EF"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.Nevermore.Ravens.Raven10"
+          },
+          "DestinationList": [
+            "0FFCB9C4-4B57F1E4-C39578A9-B6D72373"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.Nevermore.Ravens.CollectionCheck"
+          },
+          "DestinationList": [
+            "D49BFAD4-4DF53C03-F95851A2-CC0CC6AE"
+          ],
+          "EntryIdentifier": ""
+        }
+      ],
+      "ExitTags": [
+        "QuestFlow.Entry.Nevermore.Ravens.CollectionCheck"
+      ],
+      "InternalNodeIds": [
+        "D49BFAD4-4DF53C03-F95851A2-CC0CC6AE",
+        "E724B640-4F463A07-BECD7D9D-948F6FCE",
+        "E787487B-48A42393-796CEA98-9F4E14ED",
+        "433EF5EF-4A71BD81-2BE638AB-508C3F88",
+        "0FFCB9C4-4B57F1E4-C39578A9-B6D72373",
+        "3F074E95-4D2D2A9A-F30654AE-3E6BFFA4",
+        "6114EA07-4EC9AF5E-D84CBABB-9184C56F",
+        "2043E1F6-4BE4A3BA-C4266B9F-A1DC7260",
+        "4F1F6944-4920AA5E-37BF189A-D25743C8",
+        "CC341AA5-4A158593-53453696-C63EFBF7",
+        "DBE7B74C-4BCD5DB2-7F651A8E-59CDA10E",
+        "C4DD1314-4486EA98-401371B0-A158B7CA",
+        "AB216AEB-4D7EB08B-66D8AFB7-E65ADE23",
+        "0827E039-4B24207A-25D8EC99-EA79FC96",
+        "BB556505-4616A1B6-33A3DCAD-DA5D7A05",
+        "C24AA777-4C0F2F64-0D80A58A-321A836F",
+        "AD9110C2-4EBFB784-A8CF4FB7-4F31D570",
+        "35569B51-4A890DDC-F6A52F98-FA2B097C",
+        "F5FEA0E5-42382026-536BA0A2-E509A4DC",
+        "7E9345BE-40EA0A7A-22A390B1-66CB33EF",
+        "0D368474-4DA3774B-1FB085A3-7C6FA6F8",
+        "51C2E133-45D319F7-5B0E089E-1D017B64",
+        "BDFF11AC-4713D912-0CFC739B-864D88B1",
+        "14DF47BE-46AF7C17-3C8F6981-FCB2F1E0",
+        "276B06A9-4EC21966-E0E6D282-1B436532",
+        "FAA899BF-4B447650-ECD7A2A6-5B2FB02A",
+        "4C550222-43F11F18-2ED1B083-E442EEED",
+        "E3F5D04C-49DE537B-EBC994BE-0F84B8F6",
+        "423E8DD4-4734A3E8-27171DBD-F1DD53C7",
+        "C2CD03EE-4C7B7565-7216B4A5-9AB4438D",
+        "6C72DFE2-4FE56147-13668782-FBAF35BC",
+        "FC2B57E7-49D2AC5E-010D0A95-5CB51817",
+        "C247BAB2-474F65D6-7835ADB6-0F45D92E",
+        "81DB2F8B-426CD030-66B6AC97-2E095AD6",
+        "752B0F42-46456F7E-75ACFCA2-51B3F618",
+        "3AC8A464-44382C48-B0170094-5640EE9F",
+        "0386F6EE-4AAC4ED4-5E3B0B80-7A72297C",
+        "0123943A-4F1E70FC-7DBC4E84-73CB7B97",
+        "DC886CC7-4E2A239E-62F2C287-58E74038",
+        "471884D1-43301187-102AC59F-1E8DBD1A",
+        "E425F052-46118076-3136F291-294A6C96",
+        "8D34B134-43CB1335-A442BB95-88DBBC8D",
+        "AC43E5D2-4988C6E5-A1F68DBB-40FAF700",
+        "8DDEFA42-4B1A88DD-B6C2D689-56DDCF6A",
+        "2E2FA9C3-43CACBAF-86E38B99-AA64D530",
+        "4F86B249-4BBD9CDF-603826A6-A5BED2C7",
+        "E5F733CE-436D9D74-BAFEAD94-AFAD83B8",
+        "40A9BD79-4A7DEC6C-935A4A9E-F2EA31FE",
+        "38A49437-4ABEC418-DA568987-38E18FF5",
+        "FC348193-451579DD-348FD9B5-3DA5D922",
+        "5BA61072-45004DCB-4822C3AC-4A9E5D8E",
+        "8B80C433-497C4283-A0E4B3B4-28FCF1BF",
+        "4E046964-4405829A-DFBD8791-C04934DB",
+        "37E37CC7-4A179B2F-C53B1493-56973503",
+        "E0A5B04A-4EDFF103-D63226BA-C393878F",
+        "7205F045-49E2FB2D-DFFA80AB-791F2A28",
+        "165C7484-44CC5699-46CDB88D-D6C19AF1",
+        "706EDBFC-4763DB3D-5C8A2EB1-F7D01654",
+        "259CB434-4AE702ED-4A86BE95-A1BBFD4F",
+        "1111FDF9-437DDCE2-6D59A8BA-DF144388",
+        "FF6E0C3F-4986196F-A7FBA28A-A859A0C1",
+        "3FD6005B-400A8767-1566A19B-73FE033F",
+        "BED39C5B-47199731-600F9696-713AD0ED",
+        "578E25D7-457ACFA7-577E30B7-C92FBC43",
+        "40BA547C-4E49A60B-BEC459A2-A84B17DA",
+        "31E2F452-4F839985-5F19FDBE-3565555A",
+        "CF5B69D5-44D1B326-E746899D-80B63E51",
+        "261A525C-46354D3B-FE1D5E99-255F1036",
+        "9C50C90A-45F52B4E-D3B712B0-0DD6A9E9",
+        "5419A7A1-444AE176-9A3FFF88-A9582A30",
+        "0B9DE50B-4D67D3B4-579BBBAD-5F9EEEDC",
+        "14392867-4C635D40-F2F464B2-B12DDC9D",
+        "824EA020-480F9B89-00D944A1-9EC4EFA4",
+        "DD6274BB-42E461EA-62E9879D-5A041C53",
+        "6AC32CC2-4C122829-BC25C788-1045BBFB",
+        "9FBBD38E-4379B60D-55C4B09E-EBD8F9AF",
+        "914F394D-476A02AA-6FB5FB83-9DF1BDD1",
+        "3D005A49-4156094C-E9D2429C-8024DBFC",
+        "5FCFFB06-4C3A05F5-8A5353A0-9AEFF90E",
+        "11CF3AB1-4DA1C013-8CB97AA1-F889407E",
+        "9EF050AD-448376FD-11CAF1A6-025E7625",
+        "BBAD4526-4CC526D3-55C4A189-0367B3B1",
+        "346900A0-431B2F6F-76A9A897-63CD1EAC",
+        "DFE65808-4BDB6E4D-56D1EBB6-628013CE",
+        "CC4646DD-4D67C1A6-9ADFBD99-E32A1C5A",
+        "1979654A-445D023C-9CB3A087-4C48D0C6",
+        "82EA7C32-4F7E805A-ED2C6B89-5612DB8D",
+        "16349FA7-481BCC20-6CB6EE93-DB0B622E",
+        "D28E2626-41107AA7-AFAFA690-BC66BCA8",
+        "2B54707C-4A2C5C64-0C3015A5-D19BE839",
+        "4EEC95B9-42DCF3D3-2D437C8B-25BD0D50",
+        "21608126-4E51080A-C6CFD596-0C098DD7",
+        "4908C5CA-4614CC55-470A6EB7-EAA4B5CD",
+        "662D602D-41337594-D9849EB1-11AC35CA",
+        "ECDADC00-461C31B6-26B395B5-6AF59D12",
+        "6DE84FB5-47DD6BEA-2DF373A4-C3E64B6F",
+        "21B6D8A8-4900B27F-BD6E4A90-C771FB73",
+        "FAA65BA5-486FFBB6-8AC693B7-0F8C4546",
+        "39C6A0D6-41C29E7A-ECD6C6A3-AB353DA9",
+        "BDBC4126-46D9DDC2-020AB987-50397BAF",
+        "3DEF0983-43B5E1F7-0840E48B-009C7745",
+        "D2CAF01D-4DFBB9F9-BE74DBB9-C4A23672",
+        "62CCDA60-438D1AC3-FBE4749A-FAF930D3",
+        "7D3FFC1B-453A2E41-20CE1697-BCFE9FD1",
+        "4E95B7DE-4F78FCEC-3C60359F-6B381723",
+        "0407D256-4077D3DB-DFB707A8-8C2B2BD5",
+        "453C2356-480A9237-22EE1FA9-095062B7",
+        "F1CB3314-4921C4E5-22A8DEB1-06DC9B9D",
+        "82F8924C-4F4C1C76-D6B71088-7A9F30E4",
+        "4A9D27C0-47E06EF0-29DE8EB1-FB347DCD",
+        "AD253D57-415EA18E-1F8451B4-74C50592",
+        "79733EA6-49895CA3-3CE816A9-BA47ABE8",
+        "B38E12AD-4230D2CF-36F5E4BB-42527883",
+        "46D62747-42CF5411-BE3BCBA0-EDF88AD9",
+        "72D7C7A4-4033E91F-8C7479B5-315FC6C1",
+        "3856DE25-49509784-55F90E89-7AE9B3AD",
+        "42B5FA6C-417040F2-68D7A9B5-E8B163AE",
+        "A90B8BEC-429F0408-FD7971BF-F5D9466C",
+        "235C9109-414E2C84-7C74B686-EBA84B36",
+        "2EE2D1B6-4B3A7A41-CDAEC0A5-C8DF7786",
+        "C42CDEB5-450652B7-A991909A-71995267",
+        "CFC11092-435FDE8D-D84E229E-027B4955",
+        "A2963446-4A4430AA-BAC05595-8C0975DB",
+        "B03D33FD-4251E1C2-2BD7CF89-2E3038B4",
+        "A14E3264-47F14EB7-8E78C8B2-2ECECA5D",
+        "CF96815C-4D36BDE6-31285FB8-03DC1010",
+        "FAC82602-4B632C37-1A916CB2-643DFD47",
+        "9A49A5B3-46BD670F-216B2C99-69B9B26C",
+        "C326A535-4FB7D55B-83B64992-BB68CAF7",
+        "1D201E34-412BB964-3E89A2A9-19697B8D",
+        "78CEDF65-4F55CA48-205AB0A9-6504D9C2",
+        "9CBEB7F2-4A78FE54-D8636386-D37A6E6A",
+        "170DB003-42A325F3-AACA39AA-1CDAEFC2",
+        "F29CF039-4BB23AD7-8B880186-872BD078",
+        "2A7EDE6B-4017AB07-3F50C9B2-C4631FFB",
+        "6BC46CE9-4F8DCA93-28568AA7-247109B0",
+        "461F98AD-483BEF7C-D8725EB7-E6B2E229",
+        "971AC5FC-48BFECB5-77CD19AF-3B529DCD",
+        "30677A8C-4792331B-0D47C8BD-51BFC30E",
+        "1CEDF8E2-44830A70-C031F4AC-633B1CA1",
+        "1B76D447-4DDF8E46-39D412B7-A71CD250",
+        "A3B740FC-41466D7C-73174190-CCB522D1",
+        "5A206A2D-4C88F9F6-41AD0BB2-C5E00904",
+        "9899E4EE-4DEBADE8-ECAB4C88-446CE863",
+        "F68BCF97-4A0EDB34-05D465AB-0B906DBE",
+        "51B80DFA-459DA8D7-D7441782-40D014C9",
+        "D54909FE-4A4CF02B-CA7F2BB1-3D6B1D66",
+        "5B3811B2-4D70D881-DC50A4BE-56BDC562",
+        "98977B2B-42A9196B-BD03FB90-3C7616E8",
+        "2E54CA0F-4D2569C5-055E418A-AC8C141D",
+        "48A73C92-46C2E3A1-B5559F8A-4BD6C9CE",
+        "330EA026-4127F90A-B2BE70A6-F6A6A853",
+        "8CBF64C0-46BAFB92-3ECC65AC-879DA1C4",
+        "FA01E990-4CE3B713-5692DDB6-E43AE60C"
+      ]
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.Nevermore.Ravens.Raven1"
+      },
+      "OutputConnections": [
+        "8CBF64C0-46BAFB92-3ECC65AC-879DA1C4",
+        "1B76D447-4DDF8E46-39D412B7-A71CD250"
+      ],
+      "Compiled_NodeGUID": "1CEDF8E2-44830A70-C031F4AC-633B1CA1"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.Nevermore.Ravens.Raven10"
+      },
+      "OutputConnections": [
+        "35569B51-4A890DDC-F6A52F98-FA2B097C",
+        "3F074E95-4D2D2A9A-F30654AE-3E6BFFA4"
+      ],
+      "Compiled_NodeGUID": "0FFCB9C4-4B57F1E4-C39578A9-B6D72373"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_14",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.Nevermore.Ravens.CollectionCheck"
+      },
+      "OutputConnections": [
+        "E724B640-4F463A07-BECD7D9D-948F6FCE"
+      ],
+      "Compiled_NodeGUID": "D49BFAD4-4DF53C03-F95851A2-CC0CC6AE"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.Nevermore.Ravens.Raven2"
+      },
+      "OutputConnections": [
+        "971AC5FC-48BFECB5-77CD19AF-3B529DCD",
+        "CF96815C-4D36BDE6-31285FB8-03DC1010"
+      ],
+      "Compiled_NodeGUID": "A14E3264-47F14EB7-8E78C8B2-2ECECA5D"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.Nevermore.Ravens.Raven4"
+      },
+      "OutputConnections": [
+        "A2963446-4A4430AA-BAC05595-8C0975DB",
+        "AD253D57-415EA18E-1F8451B4-74C50592"
+      ],
+      "Compiled_NodeGUID": "4A9D27C0-47E06EF0-29DE8EB1-FB347DCD"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.Nevermore.Ravens.Raven3"
+      },
+      "OutputConnections": [
+        "F1CB3314-4921C4E5-22A8DEB1-06DC9B9D",
+        "6DE84FB5-47DD6BEA-2DF373A4-C3E64B6F"
+      ],
+      "Compiled_NodeGUID": "ECDADC00-461C31B6-26B395B5-6AF59D12"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.Nevermore.Ravens.Raven5"
+      },
+      "OutputConnections": [
+        "4908C5CA-4614CC55-470A6EB7-EAA4B5CD",
+        "9EF050AD-448376FD-11CAF1A6-025E7625"
+      ],
+      "Compiled_NodeGUID": "11CF3AB1-4DA1C013-8CB97AA1-F889407E"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.Nevermore.Ravens.Raven6"
+      },
+      "OutputConnections": [
+        "3D005A49-4156094C-E9D2429C-8024DBFC",
+        "31E2F452-4F839985-5F19FDBE-3565555A"
+      ],
+      "Compiled_NodeGUID": "40BA547C-4E49A60B-BEC459A2-A84B17DA"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.Nevermore.Ravens.Raven7"
+      },
+      "OutputConnections": [
+        "BED39C5B-47199731-600F9696-713AD0ED",
+        "5BA61072-45004DCB-4822C3AC-4A9E5D8E"
+      ],
+      "Compiled_NodeGUID": "FC348193-451579DD-348FD9B5-3DA5D922"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.Nevermore.Ravens.Raven8"
+      },
+      "OutputConnections": [
+        "40A9BD79-4A7DEC6C-935A4A9E-F2EA31FE",
+        "3AC8A464-44382C48-B0170094-5640EE9F"
+      ],
+      "Compiled_NodeGUID": "752B0F42-46456F7E-75ACFCA2-51B3F618"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.Nevermore.Ravens.Raven9"
+      },
+      "OutputConnections": [
+        "C247BAB2-474F65D6-7835ADB6-0F45D92E",
+        "0D368474-4DA3774B-1FB085A3-7C6FA6F8"
+      ],
+      "Compiled_NodeGUID": "7E9345BE-40EA0A7A-22A390B1-66CB33EF"
+    }
+  },
+  {
+    "Type": "ConversationLinkNode",
+    "Name": "ConversationLinkNode_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Class": "UScriptClass'ConversationLinkNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RemoteEntryTag": {
+        "TagName": "QuestFlow.Entry.Nevermore.Ravens.CollectionCheck"
+      },
+      "Compiled_NodeGUID": "170DB003-42A325F3-AACA39AA-1CDAEFC2",
+      "ParentNode": {
+        "ObjectName": "QFT_SetQuestBool_C'QF_DR_SQ3_Nevermore_Ravens:QFT_SetQuestBool_C_1'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.185"
+      }
+    }
+  },
+  {
+    "Type": "ConversationLinkNode",
+    "Name": "ConversationLinkNode_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Class": "UScriptClass'ConversationLinkNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RemoteEntryTag": {
+        "TagName": "QuestFlow.Entry.Nevermore.Ravens.CollectionCheck"
+      },
+      "Compiled_NodeGUID": "706EDBFC-4763DB3D-5C8A2EB1-F7D01654",
+      "ParentNode": {
+        "ObjectName": "QFT_SetQuestBool_C'QF_DR_SQ3_Nevermore_Ravens:QFT_SetQuestBool_C_29'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.190"
+      }
+    }
+  },
+  {
+    "Type": "ConversationLinkNode",
+    "Name": "ConversationLinkNode_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Class": "UScriptClass'ConversationLinkNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RemoteEntryTag": {
+        "TagName": "QuestFlow.Entry.Nevermore.Ravens.CollectionCheck"
+      },
+      "Compiled_NodeGUID": "AC43E5D2-4988C6E5-A1F68DBB-40FAF700",
+      "ParentNode": {
+        "ObjectName": "QFT_SetQuestBool_C'QF_DR_SQ3_Nevermore_Ravens:QFT_SetQuestBool_C_30'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.191"
+      }
+    }
+  },
+  {
+    "Type": "ConversationLinkNode",
+    "Name": "ConversationLinkNode_12",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Class": "UScriptClass'ConversationLinkNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RemoteEntryTag": {
+        "TagName": "QuestFlow.Entry.Nevermore.Ravens.CollectionCheck"
+      },
+      "Compiled_NodeGUID": "E3F5D04C-49DE537B-EBC994BE-0F84B8F6",
+      "ParentNode": {
+        "ObjectName": "QFT_SetQuestBool_C'QF_DR_SQ3_Nevermore_Ravens:QFT_SetQuestBool_C_31'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.192"
+      }
+    }
+  },
+  {
+    "Type": "ConversationLinkNode",
+    "Name": "ConversationLinkNode_13",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Class": "UScriptClass'ConversationLinkNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RemoteEntryTag": {
+        "TagName": "QuestFlow.Entry.Nevermore.Ravens.CollectionCheck"
+      },
+      "Compiled_NodeGUID": "AB216AEB-4D7EB08B-66D8AFB7-E65ADE23",
+      "ParentNode": {
+        "ObjectName": "QFT_SetQuestBool_C'QF_DR_SQ3_Nevermore_Ravens:QFT_SetQuestBool_C_32'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.193"
+      }
+    }
+  },
+  {
+    "Type": "ConversationLinkNode",
+    "Name": "ConversationLinkNode_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Class": "UScriptClass'ConversationLinkNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RemoteEntryTag": {
+        "TagName": "QuestFlow.Entry.Nevermore.Ravens.CollectionCheck"
+      },
+      "Compiled_NodeGUID": "5B3811B2-4D70D881-DC50A4BE-56BDC562",
+      "ParentNode": {
+        "ObjectName": "QFT_SetQuestBool_C'QF_DR_SQ3_Nevermore_Ravens:QFT_SetQuestBool_C_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.184"
+      }
+    }
+  },
+  {
+    "Type": "ConversationLinkNode",
+    "Name": "ConversationLinkNode_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Class": "UScriptClass'ConversationLinkNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RemoteEntryTag": {
+        "TagName": "QuestFlow.Entry.Nevermore.Ravens.CollectionCheck"
+      },
+      "Compiled_NodeGUID": "62CCDA60-438D1AC3-FBE4749A-FAF930D3",
+      "ParentNode": {
+        "ObjectName": "QFT_SetQuestBool_C'QF_DR_SQ3_Nevermore_Ravens:QFT_SetQuestBool_C_25'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.186"
+      }
+    }
+  },
+  {
+    "Type": "ConversationLinkNode",
+    "Name": "ConversationLinkNode_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Class": "UScriptClass'ConversationLinkNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RemoteEntryTag": {
+        "TagName": "QuestFlow.Entry.Nevermore.Ravens.CollectionCheck"
+      },
+      "Compiled_NodeGUID": "A90B8BEC-429F0408-FD7971BF-F5D9466C",
+      "ParentNode": {
+        "ObjectName": "QFT_SetQuestBool_C'QF_DR_SQ3_Nevermore_Ravens:QFT_SetQuestBool_C_26'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.187"
+      }
+    }
+  },
+  {
+    "Type": "ConversationLinkNode",
+    "Name": "ConversationLinkNode_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Class": "UScriptClass'ConversationLinkNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RemoteEntryTag": {
+        "TagName": "QuestFlow.Entry.Nevermore.Ravens.CollectionCheck"
+      },
+      "Compiled_NodeGUID": "16349FA7-481BCC20-6CB6EE93-DB0B622E",
+      "ParentNode": {
+        "ObjectName": "QFT_SetQuestBool_C'QF_DR_SQ3_Nevermore_Ravens:QFT_SetQuestBool_C_27'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.188"
+      }
+    }
+  },
+  {
+    "Type": "ConversationLinkNode",
+    "Name": "ConversationLinkNode_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Class": "UScriptClass'ConversationLinkNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RemoteEntryTag": {
+        "TagName": "QuestFlow.Entry.Nevermore.Ravens.CollectionCheck"
+      },
+      "Compiled_NodeGUID": "824EA020-480F9B89-00D944A1-9EC4EFA4",
+      "ParentNode": {
+        "ObjectName": "QFT_SetQuestBool_C'QF_DR_SQ3_Nevermore_Ravens:QFT_SetQuestBool_C_28'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.189"
+      }
+    }
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_13",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_14",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_15",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_16",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_17",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_18",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_19",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_20",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_21",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_22",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_23",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_24",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_25",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_26",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_27",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_28",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_29",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_30",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_31",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_32",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_17",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_18",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_19",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_20",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_21",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_22",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_23",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_24",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_25",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_26",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_27",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_28",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_29",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_30",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_31",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_32",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_33",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_34",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasItemAmount_C",
+    "Name": "QFR_PlayerHasItemAmount_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_22",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_23",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_30",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_31",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_32",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_33",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_34",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_35",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_36",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_37",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_38",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_39",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_40",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_41",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_42",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_43",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_48",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_49",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_100",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_101",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_102",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_103",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_104",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_105",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_106",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_107",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_108",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_109",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_110",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_111",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_112",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_113",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_114",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_115",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_116",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_117",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_118",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_119",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_120",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_121",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_122",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_123",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_124",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_125",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_126",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_127",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_128",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_129",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_130",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_131",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_132",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_133",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_134",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_62",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_63",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_64",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_65",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_66",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_67",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_68",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_69",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_70",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_71",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_72",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_73",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_82",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_83",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_90",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_91",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_92",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_93",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_94",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_95",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_96",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_97",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_98",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_99",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveItemToPlayer_C",
+    "Name": "QFT_GiveItemToPlayer_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveItemToPlayer_C",
+    "Name": "QFT_GiveItemToPlayer_C_20",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveItemToPlayer_C",
+    "Name": "QFT_GiveItemToPlayer_C_21",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveItemToPlayer_C",
+    "Name": "QFT_GiveItemToPlayer_C_22",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveItemToPlayer_C",
+    "Name": "QFT_GiveItemToPlayer_C_23",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveItemToPlayer_C",
+    "Name": "QFT_GiveItemToPlayer_C_24",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveItemToPlayer_C",
+    "Name": "QFT_GiveItemToPlayer_C_25",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveItemToPlayer_C",
+    "Name": "QFT_GiveItemToPlayer_C_26",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveItemToPlayer_C",
+    "Name": "QFT_GiveItemToPlayer_C_27",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveItemToPlayer_C",
+    "Name": "QFT_GiveItemToPlayer_C_28",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveQuest_C",
+    "Name": "QFT_GiveQuest_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveQuest_C",
+    "Name": "QFT_GiveQuest_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveQuest_C",
+    "Name": "QFT_GiveQuest_C_12",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveQuest_C",
+    "Name": "QFT_GiveQuest_C_13",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveQuest_C",
+    "Name": "QFT_GiveQuest_C_14",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveQuest_C",
+    "Name": "QFT_GiveQuest_C_15",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveQuest_C",
+    "Name": "QFT_GiveQuest_C_16",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveQuest_C",
+    "Name": "QFT_GiveQuest_C_17",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveQuest_C",
+    "Name": "QFT_GiveQuest_C_18",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveQuest_C",
+    "Name": "QFT_GiveQuest_C_19",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_22",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_23",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_24",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_25",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_26",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_27",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_28",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_29",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_30",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_31",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_32",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_33",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_34",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_35",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_36",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_37",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_38",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_39",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_40",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_41",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_25",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_26",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_27",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_28",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_29",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_30",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_31",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_32",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_12",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_13",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_14",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_15",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_16",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_17",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_18",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_19",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_20",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_21",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_22",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_30",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_35",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_37",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_39",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_41",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_43",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_45",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_47",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_49",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_SQ3_Nevermore_Ravens'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/SideQuests/SQ3_Nevermore/QuestData/QF_DR_SQ3_Nevermore_Ravens.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  }
+]

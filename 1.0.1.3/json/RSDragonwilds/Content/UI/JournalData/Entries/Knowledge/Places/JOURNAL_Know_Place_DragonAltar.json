@@ -1,0 +1,39 @@
+[
+  {
+    "Type": "JournalEntryKnowPlaceData",
+    "Name": "JOURNAL_Know_Place_DragonAltar",
+    "Class": "UScriptClass'JournalEntryKnowPlaceData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "9AE36ED5486ED139496C3BB950E9E66F",
+        "SourceString": "Dragon Altar",
+        "LocalizedString": "Dragon Altar"
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "DragonAltar",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Journal/T_Icon_Journal_Dragon_Altar.T_Icon_Journal_Dragon_Altar",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::Interaction",
+        "UnlockingInteractionActor": {
+          "AssetPathName": "/Game/Gameplay/World/Misc/BP_BaseBossAltar.BP_BaseBossAltar_C",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "vKW6i0oC8jv39qK7QeQLWA",
+      "InternalName": "JOURNAL_Know_Place_DragonAltar"
+    }
+  }
+]

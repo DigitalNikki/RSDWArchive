@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "JournalEntryRecipeData",
+    "Name": "JOURNAL_Recipes_Armour_Head_BagOfNoggin",
+    "Class": "UScriptClass'JournalEntryRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipeData": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Head/RECIPE_Armour_T2_Head_BagOfNoggin.RECIPE_Armour_T2_Head_BagOfNoggin",
+        "SubPathString": ""
+      },
+      "ItemData": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_Head_BagOfNoggin.ITEM_Armour_Head_BagOfNoggin",
+        "SubPathString": ""
+      },
+      "StationTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_CraftingStationsDataTable'",
+          "ObjectPath": "/Game/Gameplay/World/Stations/DT_CraftingStationsDataTable"
+        },
+        "RowName": "ArmourBench"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "F5C7A2BC4C8EF709716E44916967CA53",
+        "SourceString": "Bag of Noggin",
+        "LocalizedString": "Bag of Noggin"
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "BagOfNoggin",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/Game/Art/UI/Icons/Armours_07/test/Journal/T_Icons_Journal_Bag_o__Noggin.T_Icons_Journal_Bag_o__Noggin",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RecipeUnlocked",
+        "UnlockingRecipe": {
+          "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Head/RECIPE_Armour_T2_Head_BagOfNoggin.RECIPE_Armour_T2_Head_BagOfNoggin",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "VFwQ7kzRiz8d1A-B1GIOUQ",
+      "InternalName": "JOURNAL_Recipes_Armour_Head_Sackt"
+    }
+  }
+]

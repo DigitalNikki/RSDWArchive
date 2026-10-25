@@ -1,0 +1,65 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Resources_T4_Upgrade_Core",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_T4_Upgrade_Shard'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Resources/Misc/ITEM_Resources_T4_Upgrade_Shard"
+          },
+          "Count": 99
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_IronBar'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Metal/ITEM_Resources_IronBar"
+          },
+          "Count": 10
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Alpha_Leather'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Textiles/ITEM_Resources_Alpha_Leather"
+          },
+          "Count": 10
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Cloth_Padded'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Textiles/ITEM_Resources_Cloth_Padded"
+          },
+          "Count": 10
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_T4_Upgrade_Core'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Resources/Misc/ITEM_Resources_T4_Upgrade_Core"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Metal.Chunky"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting"
+        },
+        "RowName": "Craft_Crafting_Table_Recipe_Tier2"
+      },
+      "PersistenceID": "ajGeEkgw6ZMP4I-V1ox6wg",
+      "InternalName": "recipe_t4_upgrade_core"
+    }
+  }
+]

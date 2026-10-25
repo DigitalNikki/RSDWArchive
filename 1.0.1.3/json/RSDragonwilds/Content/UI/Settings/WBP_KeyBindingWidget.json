@@ -1,0 +1,1476 @@
+[
+  {
+    "Type": "CommonLazyImage",
+    "Name": "CommonLazyImage",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_KeyBindingWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.52"
+    },
+    "Class": "UScriptClass'CommonLazyImage'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 500.0,
+          "Y": 4.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_CC_LineBreak_Name'",
+          "ObjectPath": "/Game/Art/UI/MainMenu/T_CC_LineBreak_Name"
+        }
+      },
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WBP_KeyBindingWidget_C:WidgetTree.Bindings.VerticalBoxSlot_2'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.20"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CommonListView",
+    "Name": "KeyBindingList",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_KeyBindingWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.52"
+    },
+    "Class": "UScriptClass'CommonListView'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bIsFocusable": false,
+      "EntryWidgetClass": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'WBP_KeyBindingListItem_C'",
+        "ObjectPath": "/Game/UI/Settings/WBP_KeyBindingListItem"
+      },
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WBP_KeyBindingWidget_C:WidgetTree.SizeBox_0.SizeBoxSlot_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.14"
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "DoCustomNavigation",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WBP_KeyBindingWidget_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.43"
+    },
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "EnumProperty",
+        "Name": "Navigation",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Enum": {
+          "ObjectName": "Object'EUINavigation'",
+          "ObjectPath": "/Script/SlateCore"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "Parm | OutParm | ReturnParm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'Widget'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_CustomNavigation_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'Widget'",
+          "ObjectPath": "/Script/UMG"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ScrollBox",
+    "Name": "ScrollBox",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_KeyBindingWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.52"
+    },
+    "Class": "UScriptClass'ScrollBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetBarStyle": {
+        "VerticalBackgroundImage": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 0.25,
+              "G": 0.25,
+              "B": 0.25,
+              "A": 1.0,
+              "Hex": "898989"
+            }
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "ImageSize": {
+            "X": 24.0,
+            "Y": 3.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_Scroll_M'",
+            "ObjectPath": "/Game/Art/UI/Skills/T_Scroll_M"
+          }
+        },
+        "VerticalTopSlotImage": {
+          "DrawAs": "ESlateBrushDrawType::NoDrawType",
+          "ImageSize": {
+            "X": 0.0,
+            "Y": 0.0
+          }
+        },
+        "HorizontalTopSlotImage": {
+          "DrawAs": "ESlateBrushDrawType::NoDrawType",
+          "ImageSize": {
+            "X": 0.0,
+            "Y": 0.0
+          }
+        },
+        "VerticalBottomSlotImage": {
+          "DrawAs": "ESlateBrushDrawType::NoDrawType",
+          "ImageSize": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Margin": {
+            "Right": 1.0,
+            "Bottom": 1.0
+          }
+        },
+        "HorizontalBottomSlotImage": {
+          "DrawAs": "ESlateBrushDrawType::NoDrawType",
+          "ImageSize": {
+            "X": 0.0,
+            "Y": 0.0
+          }
+        },
+        "NormalThumbImage": {
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "ImageSize": {
+            "X": 24.0,
+            "Y": 3.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_Scroll_M'",
+            "ObjectPath": "/Game/Art/UI/Skills/T_Scroll_M"
+          }
+        },
+        "HoveredThumbImage": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 0.7,
+              "G": 0.7,
+              "B": 0.7,
+              "A": 1.0,
+              "Hex": "DADADA"
+            }
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "ImageSize": {
+            "X": 24.0,
+            "Y": 3.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_Scroll_M'",
+            "ObjectPath": "/Game/Art/UI/Skills/T_Scroll_M"
+          }
+        },
+        "DraggedThumbImage": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 0.5,
+              "G": 0.5,
+              "B": 0.5,
+              "A": 1.0,
+              "Hex": "BCBCBC"
+            }
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "ImageSize": {
+            "X": 24.0,
+            "Y": 3.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_Scroll_M'",
+            "ObjectPath": "/Game/Art/UI/Skills/T_Scroll_M"
+          }
+        },
+        "Thickness": 24.0
+      },
+      "NavigationScrollPadding": 100.0,
+      "ScrollWhenFocusChanges": "EScrollWhenFocusChanges::AnimatedScroll",
+      "Slots": [
+        {
+          "ObjectName": "ScrollBoxSlot'WBP_KeyBindingWidget_C:WidgetTree.ScrollBox.ScrollBoxSlot_0'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.4"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScrollBoxSlot",
+    "Name": "ScrollBoxSlot_0",
+    "Outer": {
+      "ObjectName": "ScrollBox'WBP_KeyBindingWidget_C:WidgetTree.ScrollBox'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.3"
+    },
+    "Class": "UScriptClass'ScrollBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScrollBox'WBP_KeyBindingWidget_C:WidgetTree.ScrollBox'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.3"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox'WBP_KeyBindingWidget_C:WidgetTree.SettingsContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.17"
+      }
+    }
+  },
+  {
+    "Type": "SettingsTooltipGeneralContent",
+    "Name": "SettingsTooltipGeneralContent_0",
+    "Outer": {
+      "ObjectName": "WBP_Settings_Checkbox_CustomNavigation_C'WBP_KeyBindingWidget_C:WidgetTree.AdaptiveTriggerToggle'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.39"
+    },
+    "Class": "UScriptClass'SettingsTooltipGeneralContent'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Paragraph": {
+        "TableId": "/Game/UI/Settings/ST_ConsoleSettings.ST_ConsoleSettings",
+        "Key": "ui.settings.adaptivetrigger.body",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Title": {
+        "TableId": "/Game/UI/Settings/ST_ConsoleSettings.ST_ConsoleSettings",
+        "Key": "ui.settings.accessibility.controls.triggerfeedback",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "SettingsTooltipGeneralContent",
+    "Name": "SettingsTooltipGeneralContent_0",
+    "Outer": {
+      "ObjectName": "WBP_Settings_Checkbox_CustomNavigation_C'WBP_KeyBindingWidget_C:WidgetTree.ControllerVibrationToggle'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.40"
+    },
+    "Class": "UScriptClass'SettingsTooltipGeneralContent'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Paragraph": {
+        "TableId": "/Game/UI/Settings/ST_Controls.ST_Controls",
+        "Key": "ControllerVibrationToggle.Description",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Title": {
+        "TableId": "/Game/UI/Settings/ST_Controls.ST_Controls",
+        "Key": "ControllerVibrationToggle.Title",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "SettingsTooltipGeneralContent",
+    "Name": "SettingsTooltipGeneralContent_0",
+    "Outer": {
+      "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_KeyBindingWidget_C:WidgetTree.GamepadActionLayout'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.36"
+    },
+    "Class": "UScriptClass'SettingsTooltipGeneralContent'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Paragraph": {
+        "TableId": "/Game/UI/Settings/ST_Controls.ST_Controls",
+        "Key": "GamepadActionLayout.Description",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Title": {
+        "TableId": "/Game/UI/Settings/ST_Controls.ST_Controls",
+        "Key": "GamepadActionLayout.Title",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "SettingsTooltipGeneralContent",
+    "Name": "SettingsTooltipGeneralContent_0",
+    "Outer": {
+      "ObjectName": "WBP_Settings_Slider_C'WBP_KeyBindingWidget_C:WidgetTree.GamepadAimDeadzoneSlider'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.41"
+    },
+    "Class": "UScriptClass'SettingsTooltipGeneralContent'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Paragraph": {
+        "TableId": "/Game/UI/Settings/ST_Controls.ST_Controls",
+        "Key": "ControllerAimDeadzone.Description",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Title": {
+        "TableId": "/Game/UI/Settings/ST_Controls.ST_Controls",
+        "Key": "ControllerAimDeadzone.Title",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "SettingsTooltipGeneralContent",
+    "Name": "SettingsTooltipGeneralContent_0",
+    "Outer": {
+      "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_KeyBindingWidget_C:WidgetTree.GamepadAttackDirectionMode'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.37"
+    },
+    "Class": "UScriptClass'SettingsTooltipGeneralContent'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Paragraph": {
+        "TableId": "/Game/UI/Settings/ST_Controls.ST_Controls",
+        "Key": "AttackDirectionMode.Description",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Title": {
+        "TableId": "/Game/UI/Settings/ST_Controls.ST_Controls",
+        "Key": "AttackDirectionMode.Title",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "SettingsTooltipGeneralContent",
+    "Name": "SettingsTooltipGeneralContent_0",
+    "Outer": {
+      "ObjectName": "WBP_Settings_Slider_C'WBP_KeyBindingWidget_C:WidgetTree.GamepadMovementDeadzoneSlider'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.42"
+    },
+    "Class": "UScriptClass'SettingsTooltipGeneralContent'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Paragraph": {
+        "TableId": "/Game/UI/Settings/ST_Controls.ST_Controls",
+        "Key": "ControllerMovementDeadzone.Description",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Title": {
+        "TableId": "/Game/UI/Settings/ST_Controls.ST_Controls",
+        "Key": "ControllerMovementDeadzone.Title",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "SettingsTooltipGeneralContent",
+    "Name": "SettingsTooltipGeneralContent_0",
+    "Outer": {
+      "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_KeyBindingWidget_C:WidgetTree.KBMAttackDirectionMode'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.38"
+    },
+    "Class": "UScriptClass'SettingsTooltipGeneralContent'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Paragraph": {
+        "TableId": "/Game/UI/Settings/ST_Controls.ST_Controls",
+        "Key": "AttackDirectionMode.Description",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Title": {
+        "TableId": "/Game/UI/Settings/ST_Controls.ST_Controls",
+        "Key": "AttackDirectionMode.Title",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "SettingsTooltipGeneralContent",
+    "Name": "SettingsTooltipGeneralContent_0",
+    "Outer": {
+      "ObjectName": "WBP_CallToActionWidget_C'WBP_KeyBindingWidget_C:WidgetTree.ViewControllerBindings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.32"
+    },
+    "Class": "UScriptClass'SettingsTooltipGeneralContent'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Paragraph": {
+        "TableId": "/Game/UI/Settings/ST_ControllerBindings.ST_ControllerBindings",
+        "Key": "Controller.Description",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Title": {
+        "TableId": "/Game/UI/Settings/ST_ControllerBindings.ST_ControllerBindings",
+        "Key": "Title",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_0",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_KeyBindingWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.52"
+    },
+    "Class": "UScriptClass'SizeBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HeightOverride": 610.0,
+      "bOverride_HeightOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WBP_KeyBindingWidget_C:WidgetTree.SizeBox_0.SizeBoxSlot_0'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.14"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WBP_KeyBindingWidget_C:WidgetTree.Bindings.VerticalBoxSlot_3'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.21"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Outer": {
+      "ObjectName": "SizeBox'WBP_KeyBindingWidget_C:WidgetTree.SizeBox_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.13"
+    },
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'WBP_KeyBindingWidget_C:WidgetTree.SizeBox_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.13"
+      },
+      "Content": {
+        "ObjectName": "CommonListView'WBP_KeyBindingWidget_C:WidgetTree.KeyBindingList'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.1"
+      }
+    }
+  },
+  {
+    "Type": "Spacer",
+    "Name": "Spacer",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_KeyBindingWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.52"
+    },
+    "Class": "UScriptClass'Spacer'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Size": {
+        "X": 1.0,
+        "Y": 40.0
+      },
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WBP_KeyBindingWidget_C:WidgetTree.Bindings.VerticalBoxSlot_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.18"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "Bindings",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_KeyBindingWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.52"
+    },
+    "Class": "UScriptClass'VerticalBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_KeyBindingWidget_C:WidgetTree.Bindings.VerticalBoxSlot_0'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.18"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_KeyBindingWidget_C:WidgetTree.Bindings.VerticalBoxSlot_1'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.19"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_KeyBindingWidget_C:WidgetTree.Bindings.VerticalBoxSlot_2'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.20"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_KeyBindingWidget_C:WidgetTree.Bindings.VerticalBoxSlot_3'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.21"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WBP_KeyBindingWidget_C:WidgetTree.SettingsContainer.VerticalBoxSlot_6'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.29"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "SettingsContainer",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_KeyBindingWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.52"
+    },
+    "Class": "UScriptClass'VerticalBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_KeyBindingWidget_C:WidgetTree.SettingsContainer.VerticalBoxSlot_14'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.25"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_KeyBindingWidget_C:WidgetTree.SettingsContainer.VerticalBoxSlot_9'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.31"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_KeyBindingWidget_C:WidgetTree.SettingsContainer.VerticalBoxSlot_10'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.24"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_KeyBindingWidget_C:WidgetTree.SettingsContainer.VerticalBoxSlot_1'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.23"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_KeyBindingWidget_C:WidgetTree.SettingsContainer.VerticalBoxSlot_2'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.26"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_KeyBindingWidget_C:WidgetTree.SettingsContainer.VerticalBoxSlot_0'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.22"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_KeyBindingWidget_C:WidgetTree.SettingsContainer.VerticalBoxSlot_7'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.30"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_KeyBindingWidget_C:WidgetTree.SettingsContainer.VerticalBoxSlot_3'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.27"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_KeyBindingWidget_C:WidgetTree.SettingsContainer.VerticalBoxSlot_5'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.28"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_KeyBindingWidget_C:WidgetTree.SettingsContainer.VerticalBoxSlot_6'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.29"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "ScrollBoxSlot'WBP_KeyBindingWidget_C:WidgetTree.ScrollBox.ScrollBoxSlot_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.4"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_0",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_KeyBindingWidget_C:WidgetTree.Bindings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.16"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_KeyBindingWidget_C:WidgetTree.Bindings'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.16"
+      },
+      "Content": {
+        "ObjectName": "Spacer'WBP_KeyBindingWidget_C:WidgetTree.Spacer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.15"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_1",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_KeyBindingWidget_C:WidgetTree.Bindings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.16"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_KeyBindingWidget_C:WidgetTree.Bindings'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.16"
+      },
+      "Content": {
+        "ObjectName": "WBP_DomTextBlock_C'WBP_KeyBindingWidget_C:WidgetTree.WBP_DomTextBlock_C_1'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.34"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_2",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_KeyBindingWidget_C:WidgetTree.Bindings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.16"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_KeyBindingWidget_C:WidgetTree.Bindings'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.16"
+      },
+      "Content": {
+        "ObjectName": "CommonLazyImage'WBP_KeyBindingWidget_C:WidgetTree.CommonLazyImage'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.0"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_3",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_KeyBindingWidget_C:WidgetTree.Bindings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.16"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_KeyBindingWidget_C:WidgetTree.Bindings'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.16"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WBP_KeyBindingWidget_C:WidgetTree.SizeBox_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.13"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_0",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_KeyBindingWidget_C:WidgetTree.SettingsContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.17"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_KeyBindingWidget_C:WidgetTree.SettingsContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.17"
+      },
+      "Content": {
+        "ObjectName": "WBP_Settings_Checkbox_CustomNavigation_C'WBP_KeyBindingWidget_C:WidgetTree.AdaptiveTriggerToggle'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.39"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_1",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_KeyBindingWidget_C:WidgetTree.SettingsContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.17"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_KeyBindingWidget_C:WidgetTree.SettingsContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.17"
+      },
+      "Content": {
+        "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_KeyBindingWidget_C:WidgetTree.GamepadActionLayout'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.36"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_10",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_KeyBindingWidget_C:WidgetTree.SettingsContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.17"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_KeyBindingWidget_C:WidgetTree.SettingsContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.17"
+      },
+      "Content": {
+        "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_KeyBindingWidget_C:WidgetTree.GamepadAttackDirectionMode'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.37"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_14",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_KeyBindingWidget_C:WidgetTree.SettingsContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.17"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_KeyBindingWidget_C:WidgetTree.SettingsContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.17"
+      },
+      "Content": {
+        "ObjectName": "WBP_DomTextBlock_C'WBP_KeyBindingWidget_C:WidgetTree.WBP_DomTextBlock_C'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.33"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_2",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_KeyBindingWidget_C:WidgetTree.SettingsContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.17"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_KeyBindingWidget_C:WidgetTree.SettingsContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.17"
+      },
+      "Content": {
+        "ObjectName": "WBP_Settings_Checkbox_CustomNavigation_C'WBP_KeyBindingWidget_C:WidgetTree.ControllerVibrationToggle'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.40"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_3",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_KeyBindingWidget_C:WidgetTree.SettingsContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.17"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_KeyBindingWidget_C:WidgetTree.SettingsContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.17"
+      },
+      "Content": {
+        "ObjectName": "WBP_Settings_Slider_C'WBP_KeyBindingWidget_C:WidgetTree.GamepadAimDeadzoneSlider'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.41"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_5",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_KeyBindingWidget_C:WidgetTree.SettingsContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.17"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_KeyBindingWidget_C:WidgetTree.SettingsContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.17"
+      },
+      "Content": {
+        "ObjectName": "WBP_CallToActionWidget_C'WBP_KeyBindingWidget_C:WidgetTree.ViewControllerBindings'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.32"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_6",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_KeyBindingWidget_C:WidgetTree.SettingsContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.17"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_KeyBindingWidget_C:WidgetTree.SettingsContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.17"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox'WBP_KeyBindingWidget_C:WidgetTree.Bindings'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.16"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_7",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_KeyBindingWidget_C:WidgetTree.SettingsContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.17"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_KeyBindingWidget_C:WidgetTree.SettingsContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.17"
+      },
+      "Content": {
+        "ObjectName": "WBP_Settings_Slider_C'WBP_KeyBindingWidget_C:WidgetTree.GamepadMovementDeadzoneSlider'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.42"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_9",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_KeyBindingWidget_C:WidgetTree.SettingsContainer'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.17"
+    },
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_KeyBindingWidget_C:WidgetTree.SettingsContainer'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.17"
+      },
+      "Content": {
+        "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_KeyBindingWidget_C:WidgetTree.KBMAttackDirectionMode'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.38"
+      }
+    }
+  },
+  {
+    "Type": "WBP_CallToActionWidget_C",
+    "Name": "ViewControllerBindings",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_KeyBindingWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.52"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_DomTextBlock_C",
+    "Name": "WBP_DomTextBlock_C",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_KeyBindingWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.52"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_DomTextBlock_C",
+    "Name": "WBP_DomTextBlock_C_1",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_KeyBindingWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.52"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_KeyBindingWidget_C",
+    "Name": "Default__WBP_KeyBindingWidget_C",
+    "Class": "WidgetBlueprintGeneratedClass'1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.WBP_KeyBindingWidget_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ControllerBindingWidgetRef": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'WBP_ControllerLayout_C'",
+        "ObjectPath": "/Game/UI/Settings/SubWidgets/ControllerLayout/WBP_ControllerLayout"
+      },
+      "GamepadAttackDirectionModeTextOverrides": [
+        {
+          "Key": "EDominionPlatformType::PS5",
+          "Value": {
+            "Label": {
+              "TableId": "/Game/UI/Settings/ST_Controls.ST_Controls",
+              "Key": "AttackDirectionModeGamepad.PS5",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "TooltipTitle": {
+              "CultureInvariantString": null
+            },
+            "TooltipParagraph": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        {
+          "Key": "EDominionPlatformType::XBX",
+          "Value": {
+            "Label": {
+              "TableId": "/Game/UI/Settings/ST_Controls.ST_Controls",
+              "Key": "AttackDirectionModeGamepad.Xbox",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "TooltipTitle": {
+              "CultureInvariantString": null
+            },
+            "TooltipParagraph": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        {
+          "Key": "EDominionPlatformType::Switch2",
+          "Value": {
+            "Label": {
+              "TableId": "/Game/UI/Settings/ST_Controls.ST_Controls",
+              "Key": "AttackDirectionModeGamepad.Switch2",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "TooltipTitle": {
+              "CultureInvariantString": null
+            },
+            "TooltipParagraph": {
+              "CultureInvariantString": null
+            }
+          }
+        }
+      ],
+      "ControllerVibrationToggleTextOverrides": [
+        {
+          "Key": "EDominionPlatformType::PS5",
+          "Value": {
+            "Label": {
+              "TableId": "/Game/UI/Settings/ST_Controls.ST_Controls",
+              "Key": "ControllerVibrationToggle.PS5",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "TooltipTitle": {
+              "TableId": "/Game/UI/Settings/ST_Controls.ST_Controls",
+              "Key": "ControllerVibrationToggle.Title.PS5",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "TooltipParagraph": {
+              "TableId": "/Game/UI/Settings/ST_Controls.ST_Controls",
+              "Key": "ControllerVibrationToggle.Description.PS5",
+              "SourceString": null,
+              "LocalizedString": ""
+            }
+          }
+        },
+        {
+          "Key": "EDominionPlatformType::XBX",
+          "Value": {
+            "Label": {
+              "TableId": "/Game/UI/Settings/ST_Controls.ST_Controls",
+              "Key": "ControllerVibrationToggle.Xbox",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "TooltipTitle": {
+              "TableId": "/Game/UI/Settings/ST_Controls.ST_Controls",
+              "Key": "ControllerVibrationToggle.Title.Xbox",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "TooltipParagraph": {
+              "TableId": "/Game/UI/Settings/ST_Controls.ST_Controls",
+              "Key": "ControllerVibrationToggle.Description.Xbox",
+              "SourceString": null,
+              "LocalizedString": ""
+            }
+          }
+        },
+        {
+          "Key": "EDominionPlatformType::Switch2",
+          "Value": {
+            "Label": {
+              "TableId": "/Game/UI/Settings/ST_Controls.ST_Controls",
+              "Key": "ControllerVibrationToggle.Switch2",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "TooltipTitle": {
+              "TableId": "/Game/UI/Settings/ST_Controls.ST_Controls",
+              "Key": "ControllerVibrationToggle.Title.Switch2",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "TooltipParagraph": {
+              "TableId": "/Game/UI/Settings/ST_Controls.ST_Controls",
+              "Key": "ControllerVibrationToggle.Description.Switch2",
+              "SourceString": null,
+              "LocalizedString": ""
+            }
+          }
+        }
+      ],
+      "ViewControllerBindingsTextOverrides": [
+        {
+          "Key": "EDominionPlatformType::PS5",
+          "Value": {
+            "Label": {
+              "TableId": "/Game/UI/Settings/ST_ControllerBindings.ST_ControllerBindings",
+              "Key": "Title.PS5",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "TooltipTitle": {
+              "TableId": "/Game/UI/Settings/ST_ControllerBindings.ST_ControllerBindings",
+              "Key": "Title.PS5",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "TooltipParagraph": {
+              "TableId": "/Game/UI/Settings/ST_ControllerBindings.ST_ControllerBindings",
+              "Key": "Controller.Description.PS5",
+              "SourceString": null,
+              "LocalizedString": ""
+            }
+          }
+        },
+        {
+          "Key": "EDominionPlatformType::XBX",
+          "Value": {
+            "Label": {
+              "TableId": "/Game/UI/Settings/ST_ControllerBindings.ST_ControllerBindings",
+              "Key": "Title.Xbox",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "TooltipTitle": {
+              "TableId": "/Game/UI/Settings/ST_ControllerBindings.ST_ControllerBindings",
+              "Key": "Title.Xbox",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "TooltipParagraph": {
+              "TableId": "/Game/UI/Settings/ST_ControllerBindings.ST_ControllerBindings",
+              "Key": "Controller.Description.Xbox",
+              "SourceString": null,
+              "LocalizedString": ""
+            }
+          }
+        },
+        {
+          "Key": "EDominionPlatformType::Switch2",
+          "Value": {
+            "Label": {
+              "TableId": "/Game/UI/Settings/ST_ControllerBindings.ST_ControllerBindings",
+              "Key": "Title.Switch2",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "TooltipTitle": {
+              "TableId": "/Game/UI/Settings/ST_ControllerBindings.ST_ControllerBindings",
+              "Key": "Title.Switch2",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "TooltipParagraph": {
+              "TableId": "/Game/UI/Settings/ST_ControllerBindings.ST_ControllerBindings",
+              "Key": "Controller.Description.Switch2",
+              "SourceString": null,
+              "LocalizedString": ""
+            }
+          }
+        }
+      ],
+      "InputMapping": {
+        "ObjectName": "InputMappingContext'IMC_TopBarMenuSettings_Controls'",
+        "ObjectPath": "/Game/Gameplay/Inputs/Mappings/IMC_TopBarMenuSettings_Controls"
+      },
+      "InputMappingPriority": 10,
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "WBP_SelectorWidget_WithLabel_C",
+    "Name": "GamepadActionLayout",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_KeyBindingWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.52"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_SelectorWidget_WithLabel_C",
+    "Name": "GamepadAttackDirectionMode",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_KeyBindingWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.52"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_SelectorWidget_WithLabel_C",
+    "Name": "KBMAttackDirectionMode",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_KeyBindingWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.52"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_Settings_Checkbox_CustomNavigation_C",
+    "Name": "AdaptiveTriggerToggle",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_KeyBindingWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.52"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_Settings_Checkbox_CustomNavigation_C",
+    "Name": "ControllerVibrationToggle",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_KeyBindingWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.52"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_Settings_Slider_C",
+    "Name": "GamepadAimDeadzoneSlider",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_KeyBindingWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.52"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_Settings_Slider_C",
+    "Name": "GamepadMovementDeadzoneSlider",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_KeyBindingWidget_C:WidgetTree'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.52"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_KeyBindingWidget_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WBP_KeyBindingWidget_C:WidgetTree'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.52"
+      },
+      "bClassRequiresNativeTick": true,
+      "CookedPropertyGuids": [
+        {
+          "Key": "CommonLazyImage",
+          "Value": "2843E7A4-E85F3016-83D7D97D-205CF962"
+        }
+      ]
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'KeyBindingWidget'",
+      "ObjectPath": "/Script/Dominion"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'WBP_KeyBindingWidget_C:DoCustomNavigation'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "CommonLazyImage",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CommonLazyImage'",
+          "ObjectPath": "/Script/CommonUI"
+        }
+      }
+    ],
+    "FuncMap": {
+      "DoCustomNavigation": {
+        "ObjectName": "Function'WBP_KeyBindingWidget_C:DoCustomNavigation'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.2"
+      }
+    },
+    "ClassFlags": "CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_KeyBindingWidget_C'Default__WBP_KeyBindingWidget_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.35"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetNavigation",
+    "Name": "WidgetNavigation_0",
+    "Outer": {
+      "ObjectName": "WBP_Settings_Checkbox_CustomNavigation_C'WBP_KeyBindingWidget_C:WidgetTree.AdaptiveTriggerToggle'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.39"
+    },
+    "Class": "UScriptClass'WidgetNavigation'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Up": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Down": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      }
+    }
+  },
+  {
+    "Type": "WidgetNavigation",
+    "Name": "WidgetNavigation_0",
+    "Outer": {
+      "ObjectName": "WBP_Settings_Checkbox_CustomNavigation_C'WBP_KeyBindingWidget_C:WidgetTree.ControllerVibrationToggle'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.40"
+    },
+    "Class": "UScriptClass'WidgetNavigation'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Up": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Down": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      }
+    }
+  },
+  {
+    "Type": "WidgetNavigation",
+    "Name": "WidgetNavigation_0",
+    "Outer": {
+      "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_KeyBindingWidget_C:WidgetTree.GamepadActionLayout'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.36"
+    },
+    "Class": "UScriptClass'WidgetNavigation'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Up": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Down": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Left": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Right": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Next": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Previous": {
+        "Rule": "EUINavigationRule::Stop"
+      }
+    }
+  },
+  {
+    "Type": "WidgetNavigation",
+    "Name": "WidgetNavigation_0",
+    "Outer": {
+      "ObjectName": "WBP_Settings_Slider_C'WBP_KeyBindingWidget_C:WidgetTree.GamepadAimDeadzoneSlider'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.41"
+    },
+    "Class": "UScriptClass'WidgetNavigation'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Up": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Down": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Left": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Right": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Next": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Previous": {
+        "Rule": "EUINavigationRule::Stop"
+      }
+    }
+  },
+  {
+    "Type": "WidgetNavigation",
+    "Name": "WidgetNavigation_0",
+    "Outer": {
+      "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_KeyBindingWidget_C:WidgetTree.GamepadAttackDirectionMode'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.37"
+    },
+    "Class": "UScriptClass'WidgetNavigation'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Up": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Down": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Left": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Right": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Next": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Previous": {
+        "Rule": "EUINavigationRule::Stop"
+      }
+    }
+  },
+  {
+    "Type": "WidgetNavigation",
+    "Name": "WidgetNavigation_0",
+    "Outer": {
+      "ObjectName": "WBP_Settings_Slider_C'WBP_KeyBindingWidget_C:WidgetTree.GamepadMovementDeadzoneSlider'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.42"
+    },
+    "Class": "UScriptClass'WidgetNavigation'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Up": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Down": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Left": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Right": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Next": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Previous": {
+        "Rule": "EUINavigationRule::Stop"
+      }
+    }
+  },
+  {
+    "Type": "WidgetNavigation",
+    "Name": "WidgetNavigation_0",
+    "Outer": {
+      "ObjectName": "WBP_SelectorWidget_WithLabel_C'WBP_KeyBindingWidget_C:WidgetTree.KBMAttackDirectionMode'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.38"
+    },
+    "Class": "UScriptClass'WidgetNavigation'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Up": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Down": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      },
+      "Left": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Right": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Next": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Previous": {
+        "Rule": "EUINavigationRule::Stop"
+      }
+    }
+  },
+  {
+    "Type": "WidgetNavigation",
+    "Name": "WidgetNavigation_0",
+    "Outer": {
+      "ObjectName": "WBP_CallToActionWidget_C'WBP_KeyBindingWidget_C:WidgetTree.ViewControllerBindings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.32"
+    },
+    "Class": "UScriptClass'WidgetNavigation'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Up": {
+        "Rule": "EUINavigationRule::Custom",
+        "WidgetToFocus": "DoCustomNavigation"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WBP_KeyBindingWidget_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.43"
+    },
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "ScrollBox'WBP_KeyBindingWidget_C:WidgetTree.ScrollBox'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/UI/Settings/WBP_KeyBindingWidget.3"
+      }
+    }
+  }
+]

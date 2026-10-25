@@ -1,0 +1,593 @@
+[
+  {
+    "Type": "ConversationDatabase",
+    "Name": "QF_DR_MainQuest_Entry",
+    "Class": "UScriptClass'ConversationDatabase'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CompilerVersion": 2,
+      "ReachableNodeMap": [
+        {
+          "Key": "3A02E5D3-4DBF5A18-DECE44A7-508DD1C8",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_DR_MainQuest_Entry:ConversationEntryPointNode_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.2"
+          }
+        },
+        {
+          "Key": "F69D8C70-4670D167-99D543A7-A7699D2A",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_MainQuest_Entry:QFT_Blank_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.16"
+          }
+        },
+        {
+          "Key": "AA7CCC85-48EE083C-8977C587-278C2301",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DR_MainQuest_Entry:QFT_PromptMessage_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.29"
+          }
+        },
+        {
+          "Key": "2CEFEB22-4D8454E7-23E808B4-81933AA3",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_MainQuest_Entry:QFT_Blank_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.15"
+          }
+        },
+        {
+          "Key": "093368A0-41FCB1C4-33BF7C95-5D210750",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_MainQuest_Entry:QFT_Blank_C_6'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.23"
+          }
+        },
+        {
+          "Key": "BC1D793A-40BABDD5-E7A58399-C977401F",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_MainQuest_Entry:QFT_Blank_C_7'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.24"
+          }
+        },
+        {
+          "Key": "1CC9D136-4BB7F1C7-665B1D8D-849D68D1",
+          "Value": {
+            "ObjectName": "QFT_TriggerTeleporter_C'QF_DR_MainQuest_Entry:QFT_TriggerTeleporter_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.34"
+          }
+        },
+        {
+          "Key": "8E999066-45251E36-BF338DB2-18EE944C",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_MainQuest_Entry:QFT_Blank_C_9'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.26"
+          }
+        },
+        {
+          "Key": "297433BC-4214A816-13FA98A7-816CF2B1",
+          "Value": {
+            "ObjectName": "QFT_GiveQuest_C'QF_DR_MainQuest_Entry:QFT_GiveQuest_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.27"
+          }
+        },
+        {
+          "Key": "AAF19C21-4434C788-58FC9DBA-0E814F23",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_DR_MainQuest_Entry:QFT_SetQuestBool_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.31"
+          }
+        },
+        {
+          "Key": "397FFB63-4B2AAEBD-A24384AB-7407A49E",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_DR_MainQuest_Entry:QFT_SetQuestObjective_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.32"
+          }
+        },
+        {
+          "Key": "1660E1AA-4BDA9EBF-F809509B-C8FA9CB5",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DR_MainQuest_Entry:QFT_UpdateQuestLocation_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.36"
+          }
+        },
+        {
+          "Key": "58D032D6-46D897DF-7670CEA3-87875024",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_MainQuest_Entry:QFT_Blank_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.19"
+          }
+        },
+        {
+          "Key": "0E2A2AE6-462FC7FD-6AE611B2-C9C13009",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_DR_MainQuest_Entry:ConversationEntryPointNode_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.1"
+          }
+        },
+        {
+          "Key": "DEAEE6BE-49360F04-F100F6AF-62645ADE",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_MainQuest_Entry:QFT_Blank_C_11'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.18"
+          }
+        },
+        {
+          "Key": "3A93DBF5-40E13E7E-0452FAB2-B5E97E5F",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_MainQuest_Entry:QFT_Blank_C_5'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.22"
+          }
+        },
+        {
+          "Key": "91B40D52-4CE3303F-866A8497-6415C38A",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_MainQuest_Entry:QFT_Blank_C_8'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.25"
+          }
+        },
+        {
+          "Key": "7EDBA75D-4AAE1D11-C8493384-8CC028EE",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_MainQuest_Entry:QFT_Blank_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.21"
+          }
+        },
+        {
+          "Key": "69E58B57-4013FA3D-EC2164B8-D3EA013B",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_MainQuest_Entry:QFT_Blank_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.20"
+          }
+        },
+        {
+          "Key": "CBCE1D23-40EE18AF-889C75B0-8BA50C0B",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DR_MainQuest_Entry:QFT_UpdateQuestLocation_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.37"
+          }
+        },
+        {
+          "Key": "FDB9E8E4-4DB4BA5F-995718B6-9393169B",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DR_MainQuest_Entry:QFT_UpdateQuestLocation_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.35"
+          }
+        },
+        {
+          "Key": "81FCADB4-4F1A5BC6-2B621AB5-E2ACC940",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_DR_MainQuest_Entry:QFT_SetQuestObjective_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.33"
+          }
+        },
+        {
+          "Key": "3F33230C-4533AC84-D776E8A7-530AAC81",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_DR_MainQuest_Entry:QFT_SetQuestBool_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.30"
+          }
+        },
+        {
+          "Key": "93B4B996-47D25D5F-3CC290BD-3BC8F384",
+          "Value": {
+            "ObjectName": "QFT_ModifyQuestInt_C'QF_DR_MainQuest_Entry:QFT_ModifyQuestInt_C_7'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.28"
+          }
+        },
+        {
+          "Key": "54CA14E6-44DF9997-D83C8E86-FF864AA2",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DR_MainQuest_Entry:QFT_Blank_C_10'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.17"
+          }
+        }
+      ],
+      "EntryTags": [
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.BlackKnightsFortress.RegionEntry"
+          },
+          "DestinationList": [
+            "0E2A2AE6-462FC7FD-6AE611B2-C9C13009"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.BlackKnightsFortress.EnterDRDoor"
+          },
+          "DestinationList": [
+            "3A02E5D3-4DBF5A18-DECE44A7-508DD1C8"
+          ],
+          "EntryIdentifier": ""
+        }
+      ],
+      "InternalNodeIds": [
+        "3A02E5D3-4DBF5A18-DECE44A7-508DD1C8",
+        "F69D8C70-4670D167-99D543A7-A7699D2A",
+        "AA7CCC85-48EE083C-8977C587-278C2301",
+        "2CEFEB22-4D8454E7-23E808B4-81933AA3",
+        "093368A0-41FCB1C4-33BF7C95-5D210750",
+        "BC1D793A-40BABDD5-E7A58399-C977401F",
+        "1CC9D136-4BB7F1C7-665B1D8D-849D68D1",
+        "8E999066-45251E36-BF338DB2-18EE944C",
+        "297433BC-4214A816-13FA98A7-816CF2B1",
+        "AAF19C21-4434C788-58FC9DBA-0E814F23",
+        "397FFB63-4B2AAEBD-A24384AB-7407A49E",
+        "1660E1AA-4BDA9EBF-F809509B-C8FA9CB5",
+        "58D032D6-46D897DF-7670CEA3-87875024",
+        "0E2A2AE6-462FC7FD-6AE611B2-C9C13009",
+        "DEAEE6BE-49360F04-F100F6AF-62645ADE",
+        "3A93DBF5-40E13E7E-0452FAB2-B5E97E5F",
+        "91B40D52-4CE3303F-866A8497-6415C38A",
+        "7EDBA75D-4AAE1D11-C8493384-8CC028EE",
+        "69E58B57-4013FA3D-EC2164B8-D3EA013B",
+        "CBCE1D23-40EE18AF-889C75B0-8BA50C0B",
+        "FDB9E8E4-4DB4BA5F-995718B6-9393169B",
+        "81FCADB4-4F1A5BC6-2B621AB5-E2ACC940",
+        "3F33230C-4533AC84-D776E8A7-530AAC81",
+        "93B4B996-47D25D5F-3CC290BD-3BC8F384",
+        "54CA14E6-44DF9997-D83C8E86-FF864AA2"
+      ]
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_Entry'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.0"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.BlackKnightsFortress.RegionEntry"
+      },
+      "OutputConnections": [
+        "54CA14E6-44DF9997-D83C8E86-FF864AA2",
+        "7EDBA75D-4AAE1D11-C8493384-8CC028EE",
+        "91B40D52-4CE3303F-866A8497-6415C38A",
+        "3A93DBF5-40E13E7E-0452FAB2-B5E97E5F",
+        "DEAEE6BE-49360F04-F100F6AF-62645ADE"
+      ],
+      "Compiled_NodeGUID": "0E2A2AE6-462FC7FD-6AE611B2-C9C13009"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_Entry'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.0"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.BlackKnightsFortress.EnterDRDoor"
+      },
+      "OutputConnections": [
+        "2CEFEB22-4D8454E7-23E808B4-81933AA3",
+        "F69D8C70-4670D167-99D543A7-A7699D2A"
+      ],
+      "Compiled_NodeGUID": "3A02E5D3-4DBF5A18-DECE44A7-508DD1C8"
+    }
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_Entry'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_Entry'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_Entry'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_Entry'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_Entry'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_Entry'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_Entry'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_34",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_Entry'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_35",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_Entry'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_36",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_Entry'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_37",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_Entry'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_38",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_Entry'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_Entry'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_Entry'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_Entry'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_Entry'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_Entry'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_Entry'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_Entry'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_Entry'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_Entry'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_Entry'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_Entry'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_Entry'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveQuest_C",
+    "Name": "QFT_GiveQuest_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_Entry'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_ModifyQuestInt_C",
+    "Name": "QFT_ModifyQuestInt_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_Entry'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_Entry'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_Entry'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_Entry'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_Entry'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_Entry'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_TriggerTeleporter_C",
+    "Name": "QFT_TriggerTeleporter_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_Entry'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_Entry'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_Entry'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DR_MainQuest_Entry'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/QF_DR_MainQuest_Entry.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  }
+]

@@ -1,0 +1,2238 @@
+[
+  {
+    "Type": "ConversationChoiceNode",
+    "Name": "ConversationChoiceNode_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Class": "UScriptClass'ConversationChoiceNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultChoiceDisplayText": {
+        "TableId": "/UmbralSands/Gameplay/Quests/UmS_MainQuest/ST_UmS_MainQuest.ST_UmS_MainQuest",
+        "Key": "Player.Choice.Icthlarin.No",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "ConversationChoiceNode",
+    "Name": "ConversationChoiceNode_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Class": "UScriptClass'ConversationChoiceNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultChoiceDisplayText": {
+        "TableId": "/UmbralSands/Gameplay/Quests/UmS_MainQuest/ST_UmS_MainQuest.ST_UmS_MainQuest",
+        "Key": "Player.Choice.Icthlarin.Sure",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "ConversationDatabase",
+    "Name": "QF_UmS_MQ_Beat3",
+    "Class": "UScriptClass'ConversationDatabase'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CompilerVersion": 2,
+      "ReachableNodeMap": [
+        {
+          "Key": "FA9E5AE7-46ECFFE8-3FA98497-63439795",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_UmS_MQ_Beat3:ConversationEntryPointNode_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.3"
+          }
+        },
+        {
+          "Key": "258CD9B3-4D37AD44-D173D691-10526DFF",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MQ_Beat3:QFT_Blank_C_22'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.61"
+          }
+        },
+        {
+          "Key": "41EF1896-44936157-045D1587-7D2CF9C4",
+          "Value": {
+            "ObjectName": "QFT_ModifyQuestInt_C'QF_UmS_MQ_Beat3:QFT_ModifyQuestInt_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.78"
+          }
+        },
+        {
+          "Key": "01D4D78E-4EBB1779-2C92DC89-CC0C4516",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_UmS_MQ_Beat3:QFT_SetQuestObjective_C_7'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.121"
+          }
+        },
+        {
+          "Key": "B1AF30FC-46B8B5EF-B6D50FA7-2B98AFFC",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_UmS_MQ_Beat3:QFT_SetQuestBool_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.113"
+          }
+        },
+        {
+          "Key": "40FB0BA7-417D492F-FBC008B8-22F7880B",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_UmS_MQ_Beat3:QFT_UpdateQuestLocation_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.130"
+          }
+        },
+        {
+          "Key": "446A8E5C-4D2916D2-38D90883-7443B30B",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_UmS_MQ_Beat3:QFT_UpdateQuestLocation_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.131"
+          }
+        },
+        {
+          "Key": "BA13E68B-4D3ADBEB-F29CF6A7-B1E754D6",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MQ_Beat3:QFT_Blank_C_21'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.60"
+          }
+        },
+        {
+          "Key": "F89E022D-40CCC60A-C7BD5894-A4096D73",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_UmS_MQ_Beat3:QFT_SetQuestObjective_C_6'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.120"
+          }
+        },
+        {
+          "Key": "1FC1550A-49BCAC06-DD760A80-5E1AE9B1",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MQ_Beat3:QFT_Blank_C_20'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.59"
+          }
+        },
+        {
+          "Key": "EC2FD699-44C9165B-0AE8A9A6-EB26342A",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_UmS_MQ_Beat3:QFT_SetQuestObjective_C_5'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.119"
+          }
+        },
+        {
+          "Key": "63E72542-47ECFDF7-B49115B9-8773AF82",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MQ_Beat3:QFT_Blank_C_18'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.56"
+          }
+        },
+        {
+          "Key": "BF643139-49E1FC62-1AEC9EAC-67EFCB9D",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_UmS_MQ_Beat3:QFT_SetQuestObjective_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.116"
+          }
+        },
+        {
+          "Key": "68F46ACC-43AB9E11-2539C896-4D4CF41D",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MQ_Beat3:QFT_Blank_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.64"
+          }
+        },
+        {
+          "Key": "78D1AF64-4299DDAF-F3D6A7B1-E3E801CE",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_UmS_MQ_Beat3:ConversationEntryPointNode_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.4"
+          }
+        },
+        {
+          "Key": "8399EDB1-4E25C29C-C8254786-7DD19374",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MQ_Beat3:QFT_Blank_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.62"
+          }
+        },
+        {
+          "Key": "52F2846A-4E456677-EEF31385-E119F279",
+          "Value": {
+            "ObjectName": "ConversationLinkNode'QF_UmS_MQ_Beat3:ConversationLinkNode_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.5"
+          }
+        },
+        {
+          "Key": "EEA13442-4FC5090F-8F435DA3-F6B5F7FB",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MQ_Beat3:QFT_Blank_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.58"
+          }
+        },
+        {
+          "Key": "D4F76B31-442E2C66-544DBAB3-60D92419",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MQ_Beat3:QFT_Blank_C_9'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.75"
+          }
+        },
+        {
+          "Key": "9C5C6B4F-4BDD9430-6556598B-FD58AB38",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_UmS_MQ_Beat3:QFT_PromptMessage_C_10'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.83"
+          }
+        },
+        {
+          "Key": "FA0E5074-4DA4616A-4C8175BE-479B513F",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_UmS_MQ_Beat3:QFT_PromptMessage_C_11'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.84"
+          }
+        },
+        {
+          "Key": "690DE151-4779659D-A106C29C-BE25C681",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_UmS_MQ_Beat3:QFT_PromptMessage_C_12'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.85"
+          }
+        },
+        {
+          "Key": "40DFA4E3-4138A397-BE564E8A-19B5979F",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MQ_Beat3:QFT_Blank_C_8'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.74"
+          }
+        },
+        {
+          "Key": "9E04280C-46121F0B-12D9FF81-34387A20",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MQ_Beat3:QFT_Blank_C_45'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.70"
+          }
+        },
+        {
+          "Key": "E13AA97F-492A3BD8-347F6194-158BA5B4",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MQ_Beat3:QFT_Blank_C_44'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.69"
+          }
+        },
+        {
+          "Key": "AC230B1A-4A3EB61F-FE29B4BF-7309D92E",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_UmS_MQ_Beat3:QFT_PromptMessage_C_8'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.110"
+          }
+        },
+        {
+          "Key": "5D0341D3-4D865571-84008ABD-07A73284",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_UmS_MQ_Beat3:QFT_PromptMessage_C_9'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.111"
+          }
+        },
+        {
+          "Key": "8229C75C-4AE6C24B-F25002AD-6040E7DB",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_UmS_MQ_Beat3:QFT_PromptMessage_C_26'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.100"
+          }
+        },
+        {
+          "Key": "700E527F-4EAD5D35-F15E15AB-AD62C2C3",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MQ_Beat3:QFT_Blank_C_43'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.68"
+          }
+        },
+        {
+          "Key": "DA8E666F-41FDA2D6-ACC4FBBF-7146302C",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_UmS_MQ_Beat3:QFT_PromptMessage_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.81"
+          }
+        },
+        {
+          "Key": "10C07BE0-4ED35BAD-824421B6-E3B3EA59",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_UmS_MQ_Beat3:QFT_PromptMessage_C_24'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.98"
+          }
+        },
+        {
+          "Key": "BD7DBC8B-43122040-323DBFAB-4ACD2A1E",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MQ_Beat3:QFT_Blank_C_42'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.67"
+          }
+        },
+        {
+          "Key": "81A4ACBB-47FE2CBD-C3EAD0A4-BA50B148",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MQ_Beat3:QFT_Blank_C_48'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.72"
+          }
+        },
+        {
+          "Key": "31EE5D7D-460E52B1-1569B387-4A85E6E5",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MQ_Beat3:QFT_Blank_C_50'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.73"
+          }
+        },
+        {
+          "Key": "7FF2A228-4E6BAAF3-31F96988-239376C2",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_UmS_MQ_Beat3:QFT_PromptMessage_C_6'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.108"
+          }
+        },
+        {
+          "Key": "2DCE78F6-422B969D-D48150AC-794C8856",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_UmS_MQ_Beat3:QFT_PromptMessage_C_13'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.86"
+          }
+        },
+        {
+          "Key": "D5A4CC1C-47E5EFD4-D3065DAC-98A18127",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_UmS_MQ_Beat3:QFT_PromptMessage_C_7'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.109"
+          }
+        },
+        {
+          "Key": "39FF9F6D-42F927D0-53802996-B4AEA4E8",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_UmS_MQ_Beat3:QFT_PromptMessage_C_17'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.90"
+          }
+        },
+        {
+          "Key": "9B7E4BF1-475BDE2D-65F8B3B5-0D27641E",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_UmS_MQ_Beat3:QFT_PromptMessage_C_23'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.97"
+          }
+        },
+        {
+          "Key": "7F4324B2-416041B6-6FE83894-E962071B",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_UmS_MQ_Beat3:QFT_PromptMessage_C_18'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.91"
+          }
+        },
+        {
+          "Key": "D69A0940-47335D23-A61FDDAE-5AA566E8",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_UmS_MQ_Beat3:QFT_PromptMessage_C_25'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.99"
+          }
+        },
+        {
+          "Key": "70CAAAE1-42D10D6C-ACFC54AA-24AC7A29",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MQ_Beat3:QFT_Blank_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.54"
+          }
+        },
+        {
+          "Key": "3A838CA8-4CD44AD1-1B4F55B9-C7E169F1",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_UmS_MQ_Beat3:QFT_PromptMessage_C_47'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.106"
+          }
+        },
+        {
+          "Key": "F229DFB4-486E00F9-A796BA91-C40D7FD3",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MQ_Beat3:QFT_Blank_C_10'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.55"
+          }
+        },
+        {
+          "Key": "77854757-4B457273-D0886B94-CA7385C5",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MQ_Beat3:QFT_Blank_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.53"
+          }
+        },
+        {
+          "Key": "585A2C6F-4FBDCA41-3E0CE5A2-8E0E40E1",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_UmS_MQ_Beat3:QFT_SetQuestBool_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.112"
+          }
+        },
+        {
+          "Key": "BD8EB6C1-4980F447-E6FE34BD-ED95300C",
+          "Value": {
+            "ObjectName": "QFT_UnlockMount_C'QF_UmS_MQ_Beat3:QFT_UnlockMount_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.122"
+          }
+        },
+        {
+          "Key": "D545D3DD-4C349E4A-7DA0FA9C-D6EC9D42",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_UmS_MQ_Beat3:QFT_SetQuestObjective_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.118"
+          }
+        },
+        {
+          "Key": "6C78DD49-492E02D8-8FC6D0A5-A060DB4D",
+          "Value": {
+            "ObjectName": "QFT_GiveItemToPlayer_C'QF_UmS_MQ_Beat3:QFT_GiveItemToPlayer_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.76"
+          }
+        },
+        {
+          "Key": "DBA08B9F-493FBBF3-D49E7DB5-AA24135C",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_UmS_MQ_Beat3:QFT_UpdateQuestLocation_C_11'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.125"
+          }
+        },
+        {
+          "Key": "D06F5525-49D7B2B0-F5E2879E-816F156C",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_UmS_MQ_Beat3:QFT_UpdateQuestLocation_C_12'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.126"
+          }
+        },
+        {
+          "Key": "47347DB2-41C41D0A-F3C840B7-FEA648D6",
+          "Value": {
+            "ObjectName": "QFT_ModifyQuestInt_C'QF_UmS_MQ_Beat3:QFT_ModifyQuestInt_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.79"
+          }
+        },
+        {
+          "Key": "E7492E59-43349315-4DF82AA3-BEC5AEC0",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_UmS_MQ_Beat3:QFT_UpdateQuestLocation_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.132"
+          }
+        },
+        {
+          "Key": "32A54DFF-4139250D-3D2AE9B8-BB714D26",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_UmS_MQ_Beat3:QFT_UpdateQuestLocation_C_5'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.133"
+          }
+        },
+        {
+          "Key": "890A88EB-46E56A0E-C24CE0A5-F96659B3",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_UmS_MQ_Beat3:QFT_UpdateQuestLocation_C_8'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.135"
+          }
+        },
+        {
+          "Key": "4D9C861E-4965229A-067A40AF-1FE83BA3",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_UmS_MQ_Beat3:QFT_UpdateQuestLocation_C_9'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.136"
+          }
+        },
+        {
+          "Key": "5E33B256-41A24215-257EE7BE-0404EF4A",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_UmS_MQ_Beat3:QFT_UpdateQuestLocation_C_10'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.124"
+          }
+        },
+        {
+          "Key": "C73F4F42-4E3710CA-3F077FA4-5B5B226E",
+          "Value": {
+            "ObjectName": "QFT_ModifyVendorReputation_C'QF_UmS_MQ_Beat3:QFT_ModifyVendorReputation_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.80"
+          }
+        },
+        {
+          "Key": "C411E816-424BED45-F23DB898-BA21EEC6",
+          "Value": {
+            "ObjectName": "QFT_GiveItemToPlayer_C'QF_UmS_MQ_Beat3:QFT_GiveItemToPlayer_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.77"
+          }
+        },
+        {
+          "Key": "BC123685-465067D9-E664A1B3-6CD07B63",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MQ_Beat3:QFT_Blank_C_19'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.57"
+          }
+        },
+        {
+          "Key": "A74E02BE-43A0ABF1-DF7D2FBA-68F2D257",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_UmS_MQ_Beat3:QFT_PromptMessage_C_22'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.96"
+          }
+        },
+        {
+          "Key": "04B189A3-416B6070-AF662589-0349B5B3",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_UmS_MQ_Beat3:QFT_PromptMessage_C_21'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.95"
+          }
+        },
+        {
+          "Key": "DDA2CF2D-411B4554-3A8811BB-05104524",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_UmS_MQ_Beat3:QFT_PromptMessage_C_20'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.94"
+          }
+        },
+        {
+          "Key": "B37833FB-4A119DFF-7286F796-9D858B1B",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_UmS_MQ_Beat3:QFT_PromptMessage_C_19'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.92"
+          }
+        },
+        {
+          "Key": "06A63839-4CD29513-C3FA96B8-7B2A0A6E",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MQ_Beat3:QFT_Blank_C_46'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.71"
+          }
+        },
+        {
+          "Key": "4247CBC6-4E29204A-E0C50F99-ED362AA4",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_UmS_MQ_Beat3:QFT_PromptMessage_C_14'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.87"
+          }
+        },
+        {
+          "Key": "E26BCE3A-4F51EB96-4A88AFBD-BF31EA47",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_UmS_MQ_Beat3:QFT_PromptMessage_C_15'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.88"
+          }
+        },
+        {
+          "Key": "E8506BBB-4A519F74-9B4E0C8B-6AE2AC14",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_UmS_MQ_Beat3:QFT_PromptMessage_C_16'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.89"
+          }
+        },
+        {
+          "Key": "B05D87AD-4672B0B5-6BB296A8-B3F8D5FF",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_UmS_MQ_Beat3:QFT_PromptMessage_C_5'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.107"
+          }
+        },
+        {
+          "Key": "09D0D362-439B4C84-AAD7968B-9FF7F947",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_UmS_MQ_Beat3:QFT_PromptMessage_C_28'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.102"
+          }
+        },
+        {
+          "Key": "B1F4C0D9-4BFA36CC-6D9F2D8C-4EABE844",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_UmS_MQ_Beat3:QFT_PromptMessage_C_27'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.101"
+          }
+        },
+        {
+          "Key": "65DDAC3D-4CB269F3-86F6D98E-67A02CBF",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_UmS_MQ_Beat3:QFT_PromptMessage_C_31'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.104"
+          }
+        },
+        {
+          "Key": "3EE49E67-4682AC7A-0328A8AC-B199282E",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_UmS_MQ_Beat3:QFT_SetQuestObjective_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.117"
+          }
+        },
+        {
+          "Key": "F38FFE5C-474D963C-C06ED083-DD7651DF",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_UmS_MQ_Beat3:QFT_UpdateQuestLocation_C_13'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.127"
+          }
+        },
+        {
+          "Key": "CFC91D65-48D54596-0559998B-5C5BA86E",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_UmS_MQ_Beat3:QFT_UpdateQuestLocation_C_14'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.128"
+          }
+        },
+        {
+          "Key": "8CBB3170-470EADDD-2B8A1DBC-3BE173BE",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_UmS_MQ_Beat3:QFT_UpdateQuestLocation_C_15'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.129"
+          }
+        },
+        {
+          "Key": "17EC4127-49262BF5-AD83CA83-84537214",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_UmS_MQ_Beat3:QFT_UpdateQuestLocation_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.123"
+          }
+        },
+        {
+          "Key": "A154C626-49491684-ADBCEC99-4182A846",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_UmS_MQ_Beat3:QFT_UpdateQuestLocation_C_6'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.134"
+          }
+        },
+        {
+          "Key": "53742AD7-4C471185-C39D6C9F-8B7A2052",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_UmS_MQ_Beat3:QFT_SetQuestBool_C_9'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.115"
+          }
+        },
+        {
+          "Key": "DDACA73C-4598AA77-187739A0-F7BCD3CA",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_UmS_MQ_Beat3:QFT_SetQuestBool_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.114"
+          }
+        },
+        {
+          "Key": "8F13D91E-441204F2-1F0A80B0-D1DD9611",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MQ_Beat3:QFT_Blank_C_41'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.66"
+          }
+        },
+        {
+          "Key": "0289A9EB-4308E421-15E64096-D11A6EF8",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_UmS_MQ_Beat3:QFT_PromptMessage_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.82"
+          }
+        },
+        {
+          "Key": "E87510A5-4574C248-910958BC-44271D2B",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_UmS_MQ_Beat3:QFT_PromptMessage_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.103"
+          }
+        },
+        {
+          "Key": "5435390B-498475D7-A08381BA-F8553B80",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_UmS_MQ_Beat3:QFT_PromptMessage_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.105"
+          }
+        },
+        {
+          "Key": "7499D467-40E0A983-2334F293-D68062E2",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MQ_Beat3:QFT_Blank_C_40'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.65"
+          }
+        },
+        {
+          "Key": "F6FB7FB4-4A903E3B-5EA916B5-4E942740",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_UmS_MQ_Beat3:QFT_PromptMessage_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.93"
+          }
+        },
+        {
+          "Key": "1D2A9849-4AC5EBB9-D44CC9AF-FE5A6B84",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_UmS_MQ_Beat3:QFT_Blank_C_39'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.63"
+          }
+        }
+      ],
+      "EntryTags": [
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.UmS_MainQuest.FirstGarou.GarouCamp"
+          },
+          "DestinationList": [
+            "78D1AF64-4299DDAF-F3D6A7B1-E3E801CE"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.UmS_MainQuest.FirstGarouCampFavourIncrease"
+          },
+          "DestinationList": [
+            "FA9E5AE7-46ECFFE8-3FA98497-63439795"
+          ],
+          "EntryIdentifier": ""
+        }
+      ],
+      "ExitTags": [
+        "QuestFlow.Entry.MQ_ScornedWilderness.Garou"
+      ],
+      "InternalNodeIds": [
+        "FA9E5AE7-46ECFFE8-3FA98497-63439795",
+        "258CD9B3-4D37AD44-D173D691-10526DFF",
+        "41EF1896-44936157-045D1587-7D2CF9C4",
+        "01D4D78E-4EBB1779-2C92DC89-CC0C4516",
+        "B1AF30FC-46B8B5EF-B6D50FA7-2B98AFFC",
+        "40FB0BA7-417D492F-FBC008B8-22F7880B",
+        "446A8E5C-4D2916D2-38D90883-7443B30B",
+        "BA13E68B-4D3ADBEB-F29CF6A7-B1E754D6",
+        "F89E022D-40CCC60A-C7BD5894-A4096D73",
+        "1FC1550A-49BCAC06-DD760A80-5E1AE9B1",
+        "EC2FD699-44C9165B-0AE8A9A6-EB26342A",
+        "63E72542-47ECFDF7-B49115B9-8773AF82",
+        "BF643139-49E1FC62-1AEC9EAC-67EFCB9D",
+        "68F46ACC-43AB9E11-2539C896-4D4CF41D",
+        "78D1AF64-4299DDAF-F3D6A7B1-E3E801CE",
+        "8399EDB1-4E25C29C-C8254786-7DD19374",
+        "52F2846A-4E456677-EEF31385-E119F279",
+        "EEA13442-4FC5090F-8F435DA3-F6B5F7FB",
+        "D4F76B31-442E2C66-544DBAB3-60D92419",
+        "9C5C6B4F-4BDD9430-6556598B-FD58AB38",
+        "FA0E5074-4DA4616A-4C8175BE-479B513F",
+        "690DE151-4779659D-A106C29C-BE25C681",
+        "40DFA4E3-4138A397-BE564E8A-19B5979F",
+        "9E04280C-46121F0B-12D9FF81-34387A20",
+        "E13AA97F-492A3BD8-347F6194-158BA5B4",
+        "AC230B1A-4A3EB61F-FE29B4BF-7309D92E",
+        "5D0341D3-4D865571-84008ABD-07A73284",
+        "8229C75C-4AE6C24B-F25002AD-6040E7DB",
+        "700E527F-4EAD5D35-F15E15AB-AD62C2C3",
+        "DA8E666F-41FDA2D6-ACC4FBBF-7146302C",
+        "10C07BE0-4ED35BAD-824421B6-E3B3EA59",
+        "BD7DBC8B-43122040-323DBFAB-4ACD2A1E",
+        "81A4ACBB-47FE2CBD-C3EAD0A4-BA50B148",
+        "31EE5D7D-460E52B1-1569B387-4A85E6E5",
+        "7FF2A228-4E6BAAF3-31F96988-239376C2",
+        "2DCE78F6-422B969D-D48150AC-794C8856",
+        "D5A4CC1C-47E5EFD4-D3065DAC-98A18127",
+        "39FF9F6D-42F927D0-53802996-B4AEA4E8",
+        "9B7E4BF1-475BDE2D-65F8B3B5-0D27641E",
+        "7F4324B2-416041B6-6FE83894-E962071B",
+        "D69A0940-47335D23-A61FDDAE-5AA566E8",
+        "70CAAAE1-42D10D6C-ACFC54AA-24AC7A29",
+        "3A838CA8-4CD44AD1-1B4F55B9-C7E169F1",
+        "F229DFB4-486E00F9-A796BA91-C40D7FD3",
+        "77854757-4B457273-D0886B94-CA7385C5",
+        "585A2C6F-4FBDCA41-3E0CE5A2-8E0E40E1",
+        "BD8EB6C1-4980F447-E6FE34BD-ED95300C",
+        "D545D3DD-4C349E4A-7DA0FA9C-D6EC9D42",
+        "6C78DD49-492E02D8-8FC6D0A5-A060DB4D",
+        "DBA08B9F-493FBBF3-D49E7DB5-AA24135C",
+        "D06F5525-49D7B2B0-F5E2879E-816F156C",
+        "47347DB2-41C41D0A-F3C840B7-FEA648D6",
+        "E7492E59-43349315-4DF82AA3-BEC5AEC0",
+        "32A54DFF-4139250D-3D2AE9B8-BB714D26",
+        "890A88EB-46E56A0E-C24CE0A5-F96659B3",
+        "4D9C861E-4965229A-067A40AF-1FE83BA3",
+        "5E33B256-41A24215-257EE7BE-0404EF4A",
+        "C73F4F42-4E3710CA-3F077FA4-5B5B226E",
+        "C411E816-424BED45-F23DB898-BA21EEC6",
+        "BC123685-465067D9-E664A1B3-6CD07B63",
+        "A74E02BE-43A0ABF1-DF7D2FBA-68F2D257",
+        "04B189A3-416B6070-AF662589-0349B5B3",
+        "DDA2CF2D-411B4554-3A8811BB-05104524",
+        "B37833FB-4A119DFF-7286F796-9D858B1B",
+        "06A63839-4CD29513-C3FA96B8-7B2A0A6E",
+        "4247CBC6-4E29204A-E0C50F99-ED362AA4",
+        "E26BCE3A-4F51EB96-4A88AFBD-BF31EA47",
+        "E8506BBB-4A519F74-9B4E0C8B-6AE2AC14",
+        "B05D87AD-4672B0B5-6BB296A8-B3F8D5FF",
+        "09D0D362-439B4C84-AAD7968B-9FF7F947",
+        "B1F4C0D9-4BFA36CC-6D9F2D8C-4EABE844",
+        "65DDAC3D-4CB269F3-86F6D98E-67A02CBF",
+        "3EE49E67-4682AC7A-0328A8AC-B199282E",
+        "F38FFE5C-474D963C-C06ED083-DD7651DF",
+        "CFC91D65-48D54596-0559998B-5C5BA86E",
+        "8CBB3170-470EADDD-2B8A1DBC-3BE173BE",
+        "17EC4127-49262BF5-AD83CA83-84537214",
+        "A154C626-49491684-ADBCEC99-4182A846",
+        "53742AD7-4C471185-C39D6C9F-8B7A2052",
+        "DDACA73C-4598AA77-187739A0-F7BCD3CA",
+        "8F13D91E-441204F2-1F0A80B0-D1DD9611",
+        "0289A9EB-4308E421-15E64096-D11A6EF8",
+        "E87510A5-4574C248-910958BC-44271D2B",
+        "5435390B-498475D7-A08381BA-F8553B80",
+        "7499D467-40E0A983-2334F293-D68062E2",
+        "F6FB7FB4-4A903E3B-5EA916B5-4E942740",
+        "1D2A9849-4AC5EBB9-D44CC9AF-FE5A6B84"
+      ]
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.UmS_MainQuest.FirstGarouCampFavourIncrease"
+      },
+      "OutputConnections": [
+        "68F46ACC-43AB9E11-2539C896-4D4CF41D",
+        "63E72542-47ECFDF7-B49115B9-8773AF82",
+        "1FC1550A-49BCAC06-DD760A80-5E1AE9B1",
+        "BA13E68B-4D3ADBEB-F29CF6A7-B1E754D6",
+        "258CD9B3-4D37AD44-D173D691-10526DFF"
+      ],
+      "Compiled_NodeGUID": "FA9E5AE7-46ECFFE8-3FA98497-63439795"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.UmS_MainQuest.FirstGarou.GarouCamp"
+      },
+      "OutputConnections": [
+        "EEA13442-4FC5090F-8F435DA3-F6B5F7FB",
+        "8399EDB1-4E25C29C-C8254786-7DD19374"
+      ],
+      "Compiled_NodeGUID": "78D1AF64-4299DDAF-F3D6A7B1-E3E801CE"
+    }
+  },
+  {
+    "Type": "ConversationLinkNode",
+    "Name": "ConversationLinkNode_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Class": "UScriptClass'ConversationLinkNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RemoteEntryTag": {
+        "TagName": "QuestFlow.Entry.MQ_ScornedWilderness.Garou"
+      },
+      "Compiled_NodeGUID": "52F2846A-4E456677-EEF31385-E119F279",
+      "ParentNode": {
+        "ObjectName": "QFT_Blank_C'QF_UmS_MQ_Beat3:QFT_Blank_C_3'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.62"
+      }
+    }
+  },
+  {
+    "Type": "DialogueBarkSideEffectNode",
+    "Name": "DialogueBarkSideEffectNode_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Class": "UScriptClass'DialogueBarkSideEffectNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BarkRequestData": {
+        "BarkCategory": "EBarkCategory::Generic",
+        "BarkEmotion": {
+          "TagName": "Audio.Dialogue.Misc.Sighing"
+        },
+        "EmotionSettings": {
+          "bAllowOnlyExactMatches": true,
+          "bAllowNeutralEmotions": false
+        }
+      },
+      "SpeakerTag": {
+        "TagName": "QuestFlow.Participant.FirstGarou.GarouCamp"
+      }
+    }
+  },
+  {
+    "Type": "DialogueBarkSideEffectNode",
+    "Name": "DialogueBarkSideEffectNode_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Class": "UScriptClass'DialogueBarkSideEffectNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BarkRequestData": {
+        "BarkCategory": "EBarkCategory::Generic",
+        "BarkEmotion": {
+          "TagName": "Audio.Dialogue.Positive.Grateful"
+        },
+        "EmotionSettings": {
+          "bAllowOnlyExactMatches": true,
+          "bAllowNeutralEmotions": false
+        }
+      },
+      "SpeakerTag": {
+        "TagName": "QuestFlow.Participant.FirstGarou.GarouCamp"
+      }
+    }
+  },
+  {
+    "Type": "DialogueBarkSideEffectNode",
+    "Name": "DialogueBarkSideEffectNode_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Class": "UScriptClass'DialogueBarkSideEffectNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BarkRequestData": {
+        "BarkCategory": "EBarkCategory::Generic",
+        "BarkEmotion": {
+          "TagName": "Audio.Dialogue.Misc.Laughing"
+        },
+        "EmotionSettings": {
+          "bAllowOnlyExactMatches": true,
+          "bAllowNeutralEmotions": false
+        }
+      },
+      "SpeakerTag": {
+        "TagName": "QuestFlow.Participant.FirstGarou.GarouCamp"
+      }
+    }
+  },
+  {
+    "Type": "DialogueBarkSideEffectNode",
+    "Name": "DialogueBarkSideEffectNode_12",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Class": "UScriptClass'DialogueBarkSideEffectNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BarkRequestData": {
+        "BarkCategory": "EBarkCategory::Generic",
+        "BarkEmotion": {
+          "TagName": "Audio.Dialogue.Neutral.Informative"
+        },
+        "EmotionSettings": {
+          "bAllowOnlyExactMatches": true,
+          "bAllowNeutralEmotions": false
+        }
+      },
+      "SpeakerTag": {
+        "TagName": "QuestFlow.Participant.FirstGarou.GarouCamp"
+      }
+    }
+  },
+  {
+    "Type": "DialogueBarkSideEffectNode",
+    "Name": "DialogueBarkSideEffectNode_13",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Class": "UScriptClass'DialogueBarkSideEffectNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BarkRequestData": {
+        "BarkCategory": "EBarkCategory::Generic",
+        "BarkEmotion": {
+          "TagName": "Audio.Dialogue.Happy.Content"
+        },
+        "EmotionSettings": {
+          "bAllowOnlyExactMatches": true,
+          "bAllowNeutralEmotions": false
+        }
+      },
+      "SpeakerTag": {
+        "TagName": "QuestFlow.Participant.FirstGarou.GarouCamp"
+      }
+    }
+  },
+  {
+    "Type": "DialogueBarkSideEffectNode",
+    "Name": "DialogueBarkSideEffectNode_14",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Class": "UScriptClass'DialogueBarkSideEffectNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BarkRequestData": {
+        "BarkCategory": "EBarkCategory::Generic",
+        "BarkEmotion": {
+          "TagName": "Audio.Dialogue.Surprise"
+        },
+        "EmotionSettings": {
+          "bAllowOnlyExactMatches": true,
+          "bAllowNeutralEmotions": false
+        }
+      },
+      "SpeakerTag": {
+        "TagName": "QuestFlow.Participant.FirstGarou.GarouCamp"
+      }
+    }
+  },
+  {
+    "Type": "DialogueBarkSideEffectNode",
+    "Name": "DialogueBarkSideEffectNode_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Class": "UScriptClass'DialogueBarkSideEffectNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BarkRequestData": {
+        "BarkCategory": "EBarkCategory::Generic",
+        "BarkEmotion": {
+          "TagName": "Audio.Dialogue.Anger.Annoyed"
+        },
+        "EmotionSettings": {
+          "bAllowOnlyExactMatches": true,
+          "bAllowNeutralEmotions": false
+        }
+      },
+      "SpeakerTag": {
+        "TagName": "QuestFlow.Participant.FirstGarou.GarouCamp"
+      }
+    }
+  },
+  {
+    "Type": "DialogueBarkSideEffectNode",
+    "Name": "DialogueBarkSideEffectNode_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Class": "UScriptClass'DialogueBarkSideEffectNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BarkRequestData": {
+        "BarkCategory": "EBarkCategory::Generic",
+        "BarkEmotion": {
+          "TagName": "Audio.Dialogue.Negative.Dismissive"
+        },
+        "EmotionSettings": {
+          "bAllowOnlyExactMatches": true,
+          "bAllowNeutralEmotions": false
+        }
+      },
+      "SpeakerTag": {
+        "TagName": "QuestFlow.Participant.FirstGarou.GarouCamp"
+      }
+    }
+  },
+  {
+    "Type": "DialogueBarkSideEffectNode",
+    "Name": "DialogueBarkSideEffectNode_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Class": "UScriptClass'DialogueBarkSideEffectNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BarkRequestData": {
+        "BarkCategory": "EBarkCategory::Generic",
+        "BarkEmotion": {
+          "TagName": "Audio.Dialogue.Neutral.Reflective"
+        },
+        "EmotionSettings": {
+          "bAllowOnlyExactMatches": true,
+          "bAllowNeutralEmotions": false
+        }
+      },
+      "SpeakerTag": {
+        "TagName": "QuestFlow.Participant.FirstGarou.GarouCamp"
+      }
+    }
+  },
+  {
+    "Type": "DialogueBarkSideEffectNode",
+    "Name": "DialogueBarkSideEffectNode_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Class": "UScriptClass'DialogueBarkSideEffectNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BarkRequestData": {
+        "BarkCategory": "EBarkCategory::Generic",
+        "BarkEmotion": {
+          "TagName": "Audio.Dialogue.Anger.Annoyed"
+        },
+        "EmotionSettings": {
+          "bAllowOnlyExactMatches": true,
+          "bAllowNeutralEmotions": false
+        }
+      },
+      "SpeakerTag": {
+        "TagName": "QuestFlow.Participant.FirstGarou.GarouCamp"
+      }
+    }
+  },
+  {
+    "Type": "DialogueBarkSideEffectNode",
+    "Name": "DialogueBarkSideEffectNode_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Class": "UScriptClass'DialogueBarkSideEffectNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BarkRequestData": {
+        "BarkCategory": "EBarkCategory::Generic",
+        "BarkEmotion": {
+          "TagName": "Audio.Dialogue.Positive"
+        },
+        "EmotionSettings": {
+          "bAllowOnlyExactMatches": true,
+          "bAllowNeutralEmotions": false
+        }
+      },
+      "SpeakerTag": {
+        "TagName": "QuestFlow.Participant.FirstGarou.GarouCamp"
+      }
+    }
+  },
+  {
+    "Type": "DialogueBarkSideEffectNode",
+    "Name": "DialogueBarkSideEffectNode_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Class": "UScriptClass'DialogueBarkSideEffectNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BarkRequestData": {
+        "BarkCategory": "EBarkCategory::Generic",
+        "BarkEmotion": {
+          "TagName": "Audio.Dialogue.Misc.Laughing"
+        },
+        "EmotionSettings": {
+          "bAllowOnlyExactMatches": true,
+          "bAllowNeutralEmotions": false
+        }
+      },
+      "SpeakerTag": {
+        "TagName": "QuestFlow.Participant.FirstGarou.GarouCamp"
+      }
+    }
+  },
+  {
+    "Type": "DialogueBarkSideEffectNode",
+    "Name": "DialogueBarkSideEffectNode_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Class": "UScriptClass'DialogueBarkSideEffectNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BarkRequestData": {
+        "BarkCategory": "EBarkCategory::Generic",
+        "BarkEmotion": {
+          "TagName": "Audio.Dialogue.Misc.Yawning"
+        },
+        "EmotionSettings": {
+          "bAllowOnlyExactMatches": true,
+          "bAllowNeutralEmotions": false
+        }
+      },
+      "SpeakerTag": {
+        "TagName": "QuestFlow.Participant.FirstGarou.GarouCamp"
+      }
+    }
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerDoesntHaveSpaceForItem_C",
+    "Name": "QFR_PlayerDoesntHaveSpaceForItem_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasSpaceForItem_C",
+    "Name": "QFR_PlayerHasSpaceForItem_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_15",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_18",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_19",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_20",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_21",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_22",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_23",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_24",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_25",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_26",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_27",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_28",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_29",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_18",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_19",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_20",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_21",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_22",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_39",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_40",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_41",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_42",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_43",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_44",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_45",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_46",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_48",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_50",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveItemToPlayer_C",
+    "Name": "QFT_GiveItemToPlayer_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveItemToPlayer_C",
+    "Name": "QFT_GiveItemToPlayer_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_ModifyQuestInt_C",
+    "Name": "QFT_ModifyQuestInt_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_ModifyQuestInt_C",
+    "Name": "QFT_ModifyQuestInt_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_ModifyVendorReputation_C",
+    "Name": "QFT_ModifyVendorReputation_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_12",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_13",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_14",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_15",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_16",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_17",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_18",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_19",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_20",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_21",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_22",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_23",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_24",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_25",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_26",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_27",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_28",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_31",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_47",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UnlockMount_C",
+    "Name": "QFT_UnlockMount_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_12",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_13",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_14",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_15",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_Play2DSting_C",
+    "Name": "SEN_Play2DSting_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_Play2DSting_C",
+    "Name": "SEN_Play2DSting_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_UmS_MQ_Beat3'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Quests/UmS_MainQuest/QF_UmS_MQ_Beat3.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  }
+]

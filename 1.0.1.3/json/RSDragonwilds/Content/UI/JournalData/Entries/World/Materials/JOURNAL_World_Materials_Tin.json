@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "JournalEntryWorldData",
+    "Name": "JOURNAL_World_Materials_Tin",
+    "Class": "UScriptClass'JournalEntryWorldData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Locations": [
+        {
+          "LocationText": {
+            "TableId": "/Game/UI/ST_Localization.ST_Localization",
+            "Key": "Ghornfell",
+            "SourceString": null,
+            "LocalizedString": ""
+          },
+          "LocationID": "Ghornfell"
+        }
+      ],
+      "Materials": [
+        {
+          "MaterialID": "Tin Ore",
+          "MaterialItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_TinOre'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Metal/ITEM_Resources_TinOre"
+          }
+        },
+        {
+          "MaterialID": "Opal",
+          "MaterialItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Opal'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Gem/ITEM_Resources_Opal"
+          }
+        }
+      ],
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "TinDeposit",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "TinRock",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Journal/T_Icon_Journal_Deposits_tin.T_Icon_Journal_Deposits_tin",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::ItemFirstPickup",
+        "UnlockingItemData": {
+          "AssetPathName": "/Game/Gameplay/Items/Resources/Metal/ITEM_Resources_TinOre.ITEM_Resources_TinOre",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "Zz9Y6kdrtbpXGmWm3JghHQ",
+      "InternalName": "JOURNAL_World_Materials_Tin"
+    }
+  }
+]

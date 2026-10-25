@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "JournalEntryRecipeData",
+    "Name": "JOURNAL_Recipes_Resources_Cloth_Mystic_From_Thread_Mystic",
+    "Class": "UScriptClass'JournalEntryRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipeData": {
+        "AssetPathName": "/DowdunReach/Gameplay/Items/Textiles/RECIPE_Process_Cloth_Mystic_From_Thread_Mystic.RECIPE_Process_Cloth_Mystic_From_Thread_Mystic",
+        "SubPathString": ""
+      },
+      "ItemData": {
+        "AssetPathName": "/DowdunReach/Gameplay/Items/Textiles/ITEM_Resources_Cloth_Mystic.ITEM_Resources_Cloth_Mystic",
+        "SubPathString": ""
+      },
+      "StationTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_ProcessingStationDataTable'",
+          "ObjectPath": "/Game/Gameplay/World/Stations/DT_ProcessingStationDataTable"
+        },
+        "RowName": "Loom"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "MysticCloth",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "MysticCloth",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Journal/T_Icon_Journal_Mystic_Cloth.T_Icon_Journal_Mystic_Cloth",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RecipeUnlocked",
+        "UnlockingRecipe": {
+          "AssetPathName": "/DowdunReach/Gameplay/Items/Textiles/RECIPE_Process_Cloth_Mystic_From_Thread_Mystic.RECIPE_Process_Cloth_Mystic_From_Thread_Mystic",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "zCoj900ahBdMEEeKUtXkMA",
+      "InternalName": "JOURNAL_Recipes_Resources_Cloth_Mystic_From_Thread_Mystic"
+    }
+  }
+]

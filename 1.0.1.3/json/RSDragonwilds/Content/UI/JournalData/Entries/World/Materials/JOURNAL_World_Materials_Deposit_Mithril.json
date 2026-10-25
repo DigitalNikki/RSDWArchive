@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "JournalEntryWorldData",
+    "Name": "JOURNAL_World_Materials_Deposit_Mithril",
+    "Class": "UScriptClass'JournalEntryWorldData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Locations": [
+        {
+          "LocationText": {
+            "TableId": "/Game/UI/ST_Localization.ST_Localization",
+            "Key": "Ghornfell",
+            "SourceString": null,
+            "LocalizedString": ""
+          },
+          "LocationID": "Ghornfell"
+        }
+      ],
+      "Materials": [
+        {
+          "MaterialID": "Mithril Ore Deposit",
+          "MaterialItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_MithrilOre'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Metal/ITEM_Resources_MithrilOre"
+          }
+        },
+        {
+          "MaterialID": "Sapphire",
+          "MaterialItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Sapphire'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Gem/ITEM_Resources_Sapphire"
+          }
+        }
+      ],
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "MithrilDeposit",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "MithrilDeposit",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Journal/T_Icon_Journal_Deposits_mithril.T_Icon_Journal_Deposits_mithril",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::ItemFirstPickup",
+        "UnlockingItemData": {
+          "AssetPathName": "/Game/Gameplay/Items/Resources/Metal/ITEM_Resources_MithrilOre.ITEM_Resources_MithrilOre",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "kFZ1vEVmzsXO17CaFK46Gw",
+      "InternalName": "JOURNAL_World_Materials_MithrilOre"
+    }
+  }
+]

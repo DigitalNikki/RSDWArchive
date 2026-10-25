@@ -1,0 +1,117 @@
+[
+  {
+    "Type": "HeldContainerEquipmentData",
+    "Name": "ITEM_WateringCan_Adamant",
+    "Class": "UScriptClass'HeldContainerEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Capacity": 350,
+      "AmountDischargedPerUse": 40,
+      "AllowedFillTypes": [
+        {
+          "ObjectName": "ContainerContentDataAsset'CC_Water_Clean'",
+          "ObjectPath": "/Game/Gameplay/LiquidsAndOtherContent/CC_Water_Clean"
+        },
+        {
+          "ObjectName": "ContainerContentDataAsset'CC_Water_Dirty'",
+          "ObjectPath": "/Game/Gameplay/LiquidsAndOtherContent/CC_Water_Dirty"
+        }
+      ],
+      "ContainerEmptyContentsDescription": {
+        "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+        "Key": "HeldContainerDescription_WateringCan_Empty",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "ContainerSomeContentsDescription": {
+        "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+        "Key": "HeldContainerDescription_WateringCan_SomeContents",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "ContainerFullContentsDescription": {
+        "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+        "Key": "HeldContainerDescription_WateringCan_Full",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "HeldEquipmentActorClass": {
+        "AssetPathName": "/UmbralSands/Gameplay/Character/Player/Equipment/Held/Bucket/BP_WateringCan_Adamant.BP_WateringCan_Adamant_C",
+        "SubPathString": ""
+      },
+      "PrimaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_WateringCan_UseOneCharge_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Spells/Farming/Container/PA_WateringCan_UseOneCharge"
+      },
+      "SecondaryActionClass": {
+        "ObjectName": "Class'PlayerAction'",
+        "ObjectPath": "/Script/Dominion"
+      },
+      "AnimationPoseType": "EAnimationPoseType::Default",
+      "AnimationPosesSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Idle_Wateringcan_Poses'",
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Farming/A_PlayerM_Idle_Wateringcan_Poses"
+      },
+      "LeftHandIKBoneName": "Prop_l",
+      "BaseHeldEquipmentPowerLevelRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_PlayerWeaponPowerLevels'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels"
+        },
+        "RowName": "Weapons"
+      },
+      "Slot": "ELoadoutSlotStrategy::HeldTwoHanded",
+      "HandPreference": "EHandPreference::Right",
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Farming'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Farming"
+      },
+      "bShouldRestOnGround": true,
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+        "Key": "Name_Tool_WateringCan_T7",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+        "Key": "FlavourText_WateringCan_Adamant",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "CustomInventoryWidgetClass": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'WBP_ContainerCustomInventorySlot_C'",
+        "ObjectPath": "/Game/UI/Inventory/CustomSlots/WBP_ContainerCustomInventorySlot"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_WateringCan_Adamant_2H_01.T_Icon_WateringCan_Adamant_2H_01",
+        "SubPathString": ""
+      },
+      "CategoryClassIcon": {
+        "AssetPathName": "/Game/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Farming.T_Icon_Tag_Skill_Farming",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/UmbralSands/Art/Skeleton/Weapons/Tool/WateringCan_Adamant_2H_01/SM_WateringCan_Adamant_2H_01.SM_WateringCan_Adamant_2H_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 7,
+      "Weight": 5.5,
+      "Category": {
+        "TagName": "Item.Equipment.Tool.WateringCan"
+      },
+      "ItemFilterTags": [
+        "Item.Farming.ShowProgress"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Farming.WateringCan.Metal"
+      },
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak"
+      },
+      "PersistenceID": "N4AdMUxYQVnAKHy4JUROxg",
+      "InternalName": "tool_WateringCan_Adamant"
+    }
+  }
+]

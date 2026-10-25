@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "JournalEntryRecipeData",
+    "Name": "JOURNAL_Recipes_Leather_Dragon_Green_From_Hide_Dragon_Green",
+    "Class": "UScriptClass'JournalEntryRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipeData": {
+        "AssetPathName": "/Game/Gameplay/Items/Resources/Textiles/RECIPE_Process_Leather_Dragonhide_Green_From_Hide_Dragon_Lesser_Green.RECIPE_Process_Leather_Dragonhide_Green_From_Hide_Dragon_Lesser_Green",
+        "SubPathString": ""
+      },
+      "ItemData": {
+        "AssetPathName": "/Game/Gameplay/Items/Resources/Textiles/ITEM_Resources_Leather_Dragon_Green_Lesser.ITEM_Resources_Leather_Dragon_Green_Lesser",
+        "SubPathString": ""
+      },
+      "StationTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_ProcessingStationDataTable'",
+          "ObjectPath": "/Game/Gameplay/World/Stations/DT_ProcessingStationDataTable"
+        },
+        "RowName": "Tannery"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "GreenDragonhideLeather",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "GreenDragonhideLeather",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Journal/T_Icon_Journal_Green_Dragonhide_Leather.T_Icon_Journal_Green_Dragonhide_Leather",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RecipeUnlocked",
+        "UnlockingRecipe": {
+          "AssetPathName": "/Game/Gameplay/Items/Resources/Textiles/RECIPE_Process_Leather_Dragonhide_Green_From_Hide_Dragon_Lesser_Green.RECIPE_Process_Leather_Dragonhide_Green_From_Hide_Dragon_Lesser_Green",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "pVZab06KYGbLLK6meZfl9A",
+      "InternalName": "JOURNAL_Recipes_Resources_Leather_Dragon_Green_From_Hide_Dragon_Green"
+    }
+  }
+]

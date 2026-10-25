@@ -1,0 +1,2054 @@
+[
+  {
+    "Type": "MapIconDisplayInfoCollection",
+    "Name": "DA_MapIcons",
+    "Class": "UScriptClass'MapIconDisplayInfoCollection'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "PlaceholderMapIcon": {
+        "bIncludeInLegend": false
+      },
+      "MapIcons": [
+        {
+          "Key": "EMapIconType::LocalPlayerCharacter",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_NavIcons_Player_Self'",
+              "ObjectPath": "/Game/Art/UI/NavIcons/T_NavIcons_Player_Self"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 40.0,
+            "RotationOffset": 90.0,
+            "DistanceToShowUpOnCompass": 3.4028235E+38,
+            "Priority": 2,
+            "bShouldBePlacedBelowCompassLine": false,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": false,
+            "LegendLabelText": {
+              "CultureInvariantString": null
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::OtherPlayerCharacter",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_Map_Icon_FriendArrow_1'",
+              "ObjectPath": "/Game/Art/UI/NavIcons/T_Map_Icon_FriendArrow_1"
+            },
+            "bDifferentIconInCompass": true,
+            "TextureInCompass": {
+              "ObjectName": "Texture2D'T_Map_Icon_FriendDot'",
+              "ObjectPath": "/Game/Art/UI/NavIcons/T_Map_Icon_FriendDot"
+            },
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 40.0,
+            "RotationOffset": 90.0,
+            "DistanceToShowUpOnCompass": 3.4028235E+38,
+            "Priority": 1,
+            "bShouldBePlacedBelowCompassLine": false,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": false,
+            "LegendLabelText": {
+              "CultureInvariantString": null
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::Gravestone",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_NavIcons_Gravestone'",
+              "ObjectPath": "/Game/Art/UI/NavIcons/T_NavIcons_Gravestone"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 50.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 3.4028235E+38,
+            "Priority": 0,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": true,
+            "LegendLabelText": {
+              "TableId": "/Game/UI/HUD/ST_HUD.ST_HUD",
+              "Key": "ui.hud.map.legend.Gravestone",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::Bed",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_NavIcons_Bed'",
+              "ObjectPath": "/Game/Art/UI/NavIcons/T_NavIcons_Bed"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 50.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 3.4028235E+38,
+            "Priority": 0,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": true,
+            "LegendLabelText": {
+              "TableId": "/Game/UI/HUD/ST_HUD.ST_HUD",
+              "Key": "ui.hud.map.legend.Bed",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::ElderGate",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_NavIcons_Eldergate'",
+              "ObjectPath": "/Game/Art/UI/NavIcons/T_NavIcons_Eldergate"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 50.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 3.4028235E+38,
+            "Priority": 0,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": true,
+            "LegendLabelText": {
+              "TableId": "/Game/UI/HUD/ST_HUD.ST_HUD",
+              "Key": "ui.hud.map.legend.ElderGate",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::BossAltar",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_NavIcons_BossAlter'",
+              "ObjectPath": "/Game/Art/UI/NavIcons/T_NavIcons_BossAlter"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 50.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 3.4028235E+38,
+            "Priority": 0,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": true,
+            "LegendLabelText": {
+              "TableId": "/Game/UI/HUD/ST_HUD.ST_HUD",
+              "Key": "ui.hud.map.legend.BossAltar",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::DungeonEntrance",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_NavIcons_DungeonEntrance'",
+              "ObjectPath": "/Game/Art/UI/NavIcons/T_NavIcons_DungeonEntrance"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 50.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 5000.0,
+            "Priority": 0,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": true,
+            "LegendLabelText": {
+              "TableId": "/Game/UI/HUD/ST_HUD.ST_HUD",
+              "Key": "ui.hud.map.legend.DungeonEntrance",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::MapTower",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_NavIcons_MapTower'",
+              "ObjectPath": "/Game/Art/UI/NavIcons/T_NavIcons_MapTower"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 50.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 3.4028235E+38,
+            "Priority": 0,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": false,
+            "LegendLabelText": {
+              "CultureInvariantString": null
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::Lodestone",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_LodestoneMapIcon'",
+              "ObjectPath": "/Game/Art/UI/Icons/T_LodestoneMapIcon"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 50.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 3.4028235E+38,
+            "Priority": 5,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": true,
+            "LegendLabelText": {
+              "TableId": "/Game/UI/HUD/ST_HUD.ST_HUD",
+              "Key": "ui.hud.map.legend.Lodestone",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::Waypoint",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_NavIcons_Marker'",
+              "ObjectPath": "/Game/Art/UI/NavIcons/T_NavIcons_Marker"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 50.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 3.4028235E+38,
+            "Priority": 3,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": true,
+            "LegendLabelText": {
+              "TableId": "/Game/UI/HUD/ST_HUD.ST_HUD",
+              "Key": "ui.hud.map.legend.Waypoint",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LegendSortPriority": 1
+          }
+        },
+        {
+          "Key": "EMapIconType::PlayerPin0",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_Map_Icon_Animal'",
+              "ObjectPath": "/Game/Art/UI/NavIcons/T_Map_Icon_Animal"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 38.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 5000.0,
+            "Priority": 1,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": false,
+            "LegendLabelText": {
+              "CultureInvariantString": null
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::PlayerPin1",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_Map_Icon_Base'",
+              "ObjectPath": "/Game/Art/UI/NavIcons/T_Map_Icon_Base"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 38.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 5000.0,
+            "Priority": 1,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": false,
+            "LegendLabelText": {
+              "CultureInvariantString": null
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::PlayerPin2",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_Map_Icon_Ore'",
+              "ObjectPath": "/Game/Art/UI/NavIcons/T_Map_Icon_Ore"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 38.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 5000.0,
+            "Priority": 1,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": false,
+            "LegendLabelText": {
+              "CultureInvariantString": null
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::PlayerPin3",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_Map_Icon_Pin'",
+              "ObjectPath": "/Game/Art/UI/NavIcons/T_Map_Icon_Pin"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 38.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 5000.0,
+            "Priority": 1,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": false,
+            "LegendLabelText": {
+              "CultureInvariantString": null
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::PlayerPin4",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_Map_Icon_Plant'",
+              "ObjectPath": "/Game/Art/UI/NavIcons/T_Map_Icon_Plant"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 38.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 5000.0,
+            "Priority": 1,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": false,
+            "LegendLabelText": {
+              "CultureInvariantString": null
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::PlayerPin5",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_Map_Icon_Tree'",
+              "ObjectPath": "/Game/Art/UI/NavIcons/T_Map_Icon_Tree"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 38.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 5000.0,
+            "Priority": 1,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": false,
+            "LegendLabelText": {
+              "CultureInvariantString": null
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::QuestMainArea",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_Map_Primary_Quest_Outline'",
+              "ObjectPath": "/Game/Art/UI/Map/T_Map_Primary_Quest_Outline"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 32.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 3.4028235E+38,
+            "Priority": 0,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": true,
+            "LegendLabelText": {
+              "TableId": "/Game/UI/HUD/ST_HUD.ST_HUD",
+              "Key": "ui.hud.map.legend.QuestObjective",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::QuestSecondaryArea",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_Map_Secondary_Quest_Outline'",
+              "ObjectPath": "/Game/Art/UI/Map/T_Map_Secondary_Quest_Outline"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 32.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 3.4028235E+38,
+            "Priority": 0,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": true,
+            "LegendLabelText": {
+              "TableId": "/Game/UI/HUD/ST_HUD.ST_HUD",
+              "Key": "ui.hud.map.legend.SecondaryQUestObjective",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::QuestMain",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_NavIcons_QuestMarker'",
+              "ObjectPath": "/Game/Art/UI/NavIcons/T_NavIcons_QuestMarker"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 50.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 3.4028235E+38,
+            "Priority": 0,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": true,
+            "LegendLabelText": {
+              "TableId": "/Game/UI/HUD/ST_HUD.ST_HUD",
+              "Key": "ui.hud.map.legend.QuestObjective",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::QuestSecondary",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_NavIcons_QuestMarker_Secondary'",
+              "ObjectPath": "/Game/Art/UI/NavIcons/T_NavIcons_QuestMarker_Secondary"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 50.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 3.4028235E+38,
+            "Priority": 0,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": true,
+            "LegendLabelText": {
+              "TableId": "/Game/UI/HUD/ST_HUD.ST_HUD",
+              "Key": "ui.hud.map.legend.SecondaryQUestObjective",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::QuestMainNpc",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_Map_Primary_Quest_Icon_NPC'",
+              "ObjectPath": "/Game/Art/UI/Map/T_Map_Primary_Quest_Icon_NPC"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 64.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 3.4028235E+38,
+            "Priority": 0,
+            "bShouldBePlacedBelowCompassLine": false,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": true,
+            "LegendLabelText": {
+              "TableId": "/Game/UI/HUD/ST_HUD.ST_HUD",
+              "Key": "ui.hud.map.legend.MainNPC",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::QuestSecondaryNpc",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_Map_Secondary_Quest_Icon_NPC'",
+              "ObjectPath": "/Game/Art/UI/Map/T_Map_Secondary_Quest_Icon_NPC"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 64.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 3.4028235E+38,
+            "Priority": 0,
+            "bShouldBePlacedBelowCompassLine": false,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": true,
+            "LegendLabelText": {
+              "TableId": "/Game/UI/HUD/ST_HUD.ST_HUD",
+              "Key": "ui.hud.map.legend.SideNPC",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::OreCopper",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_Icon_Resource_Ore_Copper'",
+              "ObjectPath": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Ore_Copper"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 32.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 3.4028235E+38,
+            "Priority": 0,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": true,
+            "LegendLabelText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "CopperOre",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::OreGold",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_Icon_Resource_Ore_Gold'",
+              "ObjectPath": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Ore_Gold"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 32.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 3.4028235E+38,
+            "Priority": 0,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": true,
+            "LegendLabelText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "GoldOre",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::OreIron",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_Icon_Resource_Ore_Iron'",
+              "ObjectPath": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Ore_Iron"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 32.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 3.4028235E+38,
+            "Priority": 0,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": true,
+            "LegendLabelText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "IronOre",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::OreSilver",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_Icon_Resource_Ore_Silver'",
+              "ObjectPath": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Ore_Silver"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 32.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 3.4028235E+38,
+            "Priority": 0,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": true,
+            "LegendLabelText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "SilverOre",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::OreTin",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_Icon_Resource_Ore_Tin'",
+              "ObjectPath": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Ore_Tin"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 32.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 3.4028235E+38,
+            "Priority": 0,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": true,
+            "LegendLabelText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "TinOre",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::OreClay",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_Icon_Resources_Clay'",
+              "ObjectPath": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resources_Clay"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 32.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 3.4028235E+38,
+            "Priority": 0,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": true,
+            "LegendLabelText": {
+              "TableId": "/Game/UI/ST_Localization.ST_Localization",
+              "Key": "Clay",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::OreBlurite",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_Icon_Resource_Ore_Blurite'",
+              "ObjectPath": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Ore_Blurite"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 32.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 3.4028235E+38,
+            "Priority": 0,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": false,
+            "LegendLabelText": {
+              "CultureInvariantString": null
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::CleansingPool",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_IG_Icon_Compass_CleansingPool'",
+              "ObjectPath": "/Game/Art/UI/NavIcons/T_IG_Icon_Compass_CleansingPool"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 36.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 3.4028235E+38,
+            "Priority": 0,
+            "bShouldBePlacedBelowCompassLine": false,
+            "bShouldPulsate": true,
+            "bIncludeInLegend": true,
+            "LegendLabelText": {
+              "TableId": "/Game/Gameplay/BaseBuilding/ST_WorldInteractions.ST_WorldInteractions",
+              "Key": "Wither.CleansingPool",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::OreCoal",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_Resources_Coal'",
+              "ObjectPath": "/Game/Art/UI/Icons/T_Resources_Coal"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 32.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 3.4028235E+38,
+            "Priority": 0,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": false,
+            "LegendLabelText": {
+              "CultureInvariantString": null
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::OreMithril",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_Icon_Mithril_Ore'",
+              "ObjectPath": "/DowdunReach/Art/UI/Icons/T_Icon_Mithril_Ore"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 32.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 3.4028235E+38,
+            "Priority": 0,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": false,
+            "LegendLabelText": {
+              "CultureInvariantString": null
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::OreAdamantite",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_Icon_Adamantite_Ore'",
+              "ObjectPath": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Adamantite_Ore"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 32.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 3.4028235E+38,
+            "Priority": 0,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": false,
+            "LegendLabelText": {
+              "CultureInvariantString": null
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::OreRunite",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_Icon_Runite_Ore'",
+              "ObjectPath": "/ScornedWilderness/UI/Icons/Icons/T_Icon_Runite_Ore"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 32.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 3.4028235E+38,
+            "Priority": 0,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": false,
+            "LegendLabelText": {
+              "CultureInvariantString": null
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::AnimaVentAir",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_Rune_Air_Regular'",
+              "ObjectPath": "/Game/Art/UI/HUD/Compass_Icons/T_Rune_Air_Regular"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 32.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 3.4028235E+38,
+            "Priority": 0,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": false,
+            "LegendLabelText": {
+              "CultureInvariantString": null
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::AnimaVentAstral",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_Rune_Astral_Regular'",
+              "ObjectPath": "/Game/Art/UI/HUD/Compass_Icons/T_Rune_Astral_Regular"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 32.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 3.4028235E+38,
+            "Priority": 0,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": false,
+            "LegendLabelText": {
+              "CultureInvariantString": null
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::AnimaVentEarth",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_Rune_Earth_Regular'",
+              "ObjectPath": "/Game/Art/UI/HUD/Compass_Icons/T_Rune_Earth_Regular"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 32.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 3.4028235E+38,
+            "Priority": 0,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": false,
+            "LegendLabelText": {
+              "CultureInvariantString": null
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::AnimaVentFire",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_Rune_Fire_Regular'",
+              "ObjectPath": "/Game/Art/UI/HUD/Compass_Icons/T_Rune_Fire_Regular"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 32.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 3.4028235E+38,
+            "Priority": 0,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": false,
+            "LegendLabelText": {
+              "CultureInvariantString": null
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::AnimaVentLaw",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_Rune_Law_Regular'",
+              "ObjectPath": "/Game/Art/UI/HUD/Compass_Icons/T_Rune_Law_Regular"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 32.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 3.4028235E+38,
+            "Priority": 0,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": false,
+            "LegendLabelText": {
+              "CultureInvariantString": null
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::AnimaVentNature",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_Rune_Nature_Regular'",
+              "ObjectPath": "/Game/Art/UI/HUD/Compass_Icons/T_Rune_Nature_Regular"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 32.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 3.4028235E+38,
+            "Priority": 0,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": false,
+            "LegendLabelText": {
+              "CultureInvariantString": null
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::AnimaVentWater",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_Rune_Water_Regular'",
+              "ObjectPath": "/Game/Art/UI/HUD/Compass_Icons/T_Rune_Water_Regular"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 32.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 3.4028235E+38,
+            "Priority": 0,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": false,
+            "LegendLabelText": {
+              "CultureInvariantString": null
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::ConcentratedAnimaVentAir",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_Rune_Air_Empowered'",
+              "ObjectPath": "/Game/Art/UI/HUD/Compass_Icons/T_Rune_Air_Empowered"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 32.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 3.4028235E+38,
+            "Priority": 0,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": true,
+            "bIncludeInLegend": false,
+            "LegendLabelText": {
+              "CultureInvariantString": null
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::ConcentratedAnimaVentAstral",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_Rune_Astral_Empowered'",
+              "ObjectPath": "/Game/Art/UI/HUD/Compass_Icons/T_Rune_Astral_Empowered"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 32.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 3.4028235E+38,
+            "Priority": 0,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": true,
+            "bIncludeInLegend": false,
+            "LegendLabelText": {
+              "CultureInvariantString": null
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::ConcentratedAnimaVentEarth",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_Rune_Earth_Empowered'",
+              "ObjectPath": "/Game/Art/UI/HUD/Compass_Icons/T_Rune_Earth_Empowered"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 32.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 3.4028235E+38,
+            "Priority": 0,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": true,
+            "bIncludeInLegend": false,
+            "LegendLabelText": {
+              "CultureInvariantString": null
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::ConcentratedAnimaVentFire",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_Rune_Fire_Empowered'",
+              "ObjectPath": "/Game/Art/UI/HUD/Compass_Icons/T_Rune_Fire_Empowered"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 32.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 3.4028235E+38,
+            "Priority": 0,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": true,
+            "bIncludeInLegend": false,
+            "LegendLabelText": {
+              "CultureInvariantString": null
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::ConcentratedAnimaVentLaw",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_Rune_Law_Empowered'",
+              "ObjectPath": "/Game/Art/UI/HUD/Compass_Icons/T_Rune_Law_Empowered"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 32.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 3.4028235E+38,
+            "Priority": 0,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": true,
+            "bIncludeInLegend": false,
+            "LegendLabelText": {
+              "CultureInvariantString": null
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::ConcentratedAnimaVentNature",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_Rune_Nature_Empowered'",
+              "ObjectPath": "/Game/Art/UI/HUD/Compass_Icons/T_Rune_Nature_Empowered"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 32.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 3.4028235E+38,
+            "Priority": 0,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": true,
+            "bIncludeInLegend": false,
+            "LegendLabelText": {
+              "CultureInvariantString": null
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::ConcentratedAnimaVentWater",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_Rune_Water_Empowered'",
+              "ObjectPath": "/Game/Art/UI/HUD/Compass_Icons/T_Rune_Water_Empowered"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 32.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 3.4028235E+38,
+            "Priority": 0,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": true,
+            "bIncludeInLegend": false,
+            "LegendLabelText": {
+              "CultureInvariantString": null
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::DreamstoneFragment",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_DR_Icon_Compass_FragmentCrystal'",
+              "ObjectPath": "/Game/Art/UI/NavIcons/T_DR_Icon_Compass_FragmentCrystal"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 36.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 10000.0,
+            "Priority": 0,
+            "bShouldBePlacedBelowCompassLine": false,
+            "bShouldPulsate": true,
+            "bIncludeInLegend": false,
+            "LegendLabelText": {
+              "CultureInvariantString": null
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::MapRegionLabel",
+          "Value": {
+            "Texture": null,
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 32.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 3.4028235E+38,
+            "Priority": 0,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": true,
+            "LegendLabelText": {
+              "CultureInvariantString": null
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::QuestTask",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_NavIcons_QuestMarker_Tertiary'",
+              "ObjectPath": "/Game/Art/UI/NavIcons/T_NavIcons_QuestMarker_Tertiary"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 50.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 3.4028235E+38,
+            "Priority": 0,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": false,
+            "LegendLabelText": {
+              "CultureInvariantString": null
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::QuestTaskArea",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_Map_Tertiary_Quest_Outline'",
+              "ObjectPath": "/Game/Art/UI/Map/T_Map_Tertiary_Quest_Outline"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 32.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 3.4028235E+38,
+            "Priority": 0,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": false,
+            "LegendLabelText": {
+              "CultureInvariantString": null
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::QuestTaskNpc",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_Map_Tertiary_Quest_Icon_NPC'",
+              "ObjectPath": "/Game/Art/UI/Map/T_Map_Tertiary_Quest_Icon_NPC"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 64.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 3.4028235E+38,
+            "Priority": 0,
+            "bShouldBePlacedBelowCompassLine": false,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": true,
+            "LegendLabelText": {
+              "TableId": "/Game/UI/HUD/ST_HUD.ST_HUD",
+              "Key": "ui.hud.map.legend.MainNPC",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::NightmareCrucible",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_NavIcons_NMC'",
+              "ObjectPath": "/Game/Art/UI/NavIcons/T_NavIcons_NMC"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 50.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 5000.0,
+            "Priority": 0,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": true,
+            "LegendLabelText": {
+              "TableId": "/UmbralSands/Gameplay/Quests/UmS_MainQuest/ST_UmS_MainQuest.ST_UmS_MainQuest",
+              "Key": "NightmareCrucible.Gateway",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::FightCave",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_NavIcons_FightCaves'",
+              "ObjectPath": "/Game/Art/UI/NavIcons/T_NavIcons_FightCaves"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 50.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 5000.0,
+            "Priority": 0,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": true,
+            "LegendLabelText": {
+              "CultureInvariantString": null
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::HealthShrine",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_HealthAltar_Map_Discovered'",
+              "ObjectPath": "/Game/Art/UI/Map/T_HealthAltar_Map_Discovered"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 30.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 5000.0,
+            "Priority": 0,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": true,
+            "LegendLabelText": {
+              "TableId": "/Game/Gameplay/World/Misc/ST_HealthShrine.ST_HealthShrine",
+              "Key": "HealthShrine.Name",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::HealthShrineUnlocked",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_HealthAltar_Map_Used'",
+              "ObjectPath": "/Game/Art/UI/Map/T_HealthAltar_Map_Used"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 30.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 5000.0,
+            "Priority": 0,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": true,
+            "LegendLabelText": {
+              "TableId": "/Game/Gameplay/World/Misc/ST_HealthShrine.ST_HealthShrine",
+              "Key": "HealthShrine.MapName.Claimed",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::EMapIconType_MAX",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_Resources_CopperOre'",
+              "ObjectPath": "/Game/Art/UI/Icons/T_Resources_CopperOre"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 64.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 5000.0,
+            "Priority": 0,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": true,
+            "LegendLabelText": {
+              "CultureInvariantString": null
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::EMapIconType_MAX",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_Resources_SilverOre'",
+              "ObjectPath": "/Game/Art/UI/Icons/T_Resources_SilverOre"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 64.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 5000.0,
+            "Priority": 0,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": true,
+            "LegendLabelText": {
+              "CultureInvariantString": null
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::AgilityCourse",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_Agility_NewCourse'",
+              "ObjectPath": "/Game/Art/UI/Map/T_Agility_NewCourse"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 50.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 5000.0,
+            "Priority": 0,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": true,
+            "LegendLabelText": {
+              "TableId": "/Agility/Gameplay/World/ST_Agility_WorldObjects.ST_Agility_WorldObjects",
+              "Key": "AgilityCourseStarter.DisplayName",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::AgilityCourse_Completed",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_Agility_Complete'",
+              "ObjectPath": "/Game/Art/UI/Map/T_Agility_Complete"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 50.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 5000.0,
+            "Priority": 0,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": true,
+            "LegendLabelText": {
+              "TableId": "/Agility/Gameplay/World/ST_Agility_WorldObjects.ST_Agility_WorldObjects",
+              "Key": "AgilityCourseStarter.DisplayName",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::AgilityCourse_Bronze",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_Agility_Bronze'",
+              "ObjectPath": "/Game/Art/UI/Map/T_Agility_Bronze"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 50.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 5000.0,
+            "Priority": 0,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": true,
+            "LegendLabelText": {
+              "TableId": "/Agility/Gameplay/World/ST_Agility_WorldObjects.ST_Agility_WorldObjects",
+              "Key": "AgilityCourseStarter.DisplayName",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::AgilityCourse_Silver",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_Agility_Silver'",
+              "ObjectPath": "/Game/Art/UI/Map/T_Agility_Silver"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 50.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 5000.0,
+            "Priority": 0,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": true,
+            "LegendLabelText": {
+              "TableId": "/Agility/Gameplay/World/ST_Agility_WorldObjects.ST_Agility_WorldObjects",
+              "Key": "AgilityCourseStarter.DisplayName",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::AgilityCourse_Gold",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_Agility_Gold'",
+              "ObjectPath": "/Game/Art/UI/Map/T_Agility_Gold"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 50.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 5000.0,
+            "Priority": 0,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": true,
+            "LegendLabelText": {
+              "TableId": "/Agility/Gameplay/World/ST_Agility_WorldObjects.ST_Agility_WorldObjects",
+              "Key": "AgilityCourseStarter.DisplayName",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::KebbitBurrowCanBeUsed",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_NavIcons_Kebbit_Tunnel'",
+              "ObjectPath": "/Agility/Art/UI/Icons/KebbitBurrows/T_NavIcons_Kebbit_Tunnel"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 32.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 5000.0,
+            "Priority": 0,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": true,
+            "LegendLabelText": {
+              "TableId": "/Agility/Gameplay/World/ST_Agility_WorldObjects.ST_Agility_WorldObjects",
+              "Key": "Agility.KebbitBurrows.Name",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::KebbitBurrowActivated",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_NavIcons_Kebbit_Tunnel_Blocked'",
+              "ObjectPath": "/Agility/Art/UI/Icons/KebbitBurrows/T_NavIcons_Kebbit_Tunnel_Blocked"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 32.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 5000.0,
+            "Priority": 0,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": true,
+            "LegendLabelText": {
+              "TableId": "/Agility/Gameplay/World/ST_Agility_WorldObjects.ST_Agility_WorldObjects",
+              "Key": "Agility.KebbitBurrows.Name",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LegendSortPriority": 0
+          }
+        },
+        {
+          "Key": "EMapIconType::KebbitBurrow",
+          "Value": {
+            "Texture": {
+              "ObjectName": "Texture2D'T_NavIcons_Kebbit_Tunnel_JustFound'",
+              "ObjectPath": "/Agility/Art/UI/Icons/KebbitBurrows/T_NavIcons_Kebbit_Tunnel_JustFound"
+            },
+            "bDifferentIconInCompass": false,
+            "TextureInCompass": null,
+            "Tint": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "IconSize": 32.0,
+            "RotationOffset": 0.0,
+            "DistanceToShowUpOnCompass": 5000.0,
+            "Priority": 0,
+            "bShouldBePlacedBelowCompassLine": true,
+            "bShouldPulsate": false,
+            "bIncludeInLegend": true,
+            "LegendLabelText": {
+              "TableId": "/Agility/Gameplay/World/ST_Agility_WorldObjects.ST_Agility_WorldObjects",
+              "Key": "Agility.KebbitBurrows.Name",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "LegendSortPriority": 0
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "JournalEntryRecipeData",
+    "Name": "JOURNAL_Recipes_Potions_Focused_Attack_T2",
+    "Class": "UScriptClass'JournalEntryRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipeData": {
+        "AssetPathName": "/Game/Gameplay/Items/Consumables/Magic/RECIPE_Consumable_Potion_Focused_T2_Lesser_Attack.RECIPE_Consumable_Potion_Focused_T2_Lesser_Attack",
+        "SubPathString": ""
+      },
+      "ItemData": {
+        "AssetPathName": "/Game/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T2_Lesser_Attack.ITEM_Consumable_Potion_Focused_T2_Lesser_Attack",
+        "SubPathString": ""
+      },
+      "StationTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_ProcessingStationDataTable'",
+          "ObjectPath": "/Game/Gameplay/World/Stations/DT_ProcessingStationDataTable"
+        },
+        "RowName": "BrewingCauldron"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "27EA45C245085574D7A29BBF36544E89",
+        "SourceString": "Lesser Focused Attack Potion",
+        "LocalizedString": "Lesser Focused Attack Potion"
+      },
+      "PageDescriptions": [
+        {
+          "Description": {
+            "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+            "Key": "FocusedAttackPotion",
+            "SourceString": null,
+            "LocalizedString": ""
+          }
+        }
+      ],
+      "Image": {
+        "AssetPathName": "/Game/Art/UI/Icons/Potions/Journal_Icons/T_Icons_Journal_Lesser_Yellow_Potion.T_Icons_Journal_Lesser_Yellow_Potion",
+        "SubPathString": ""
+      },
+      "UnlockCondition": {
+        "UnlockType": "EJournalEntryUnlockType::RecipeUnlocked",
+        "UnlockingRecipe": {
+          "AssetPathName": "/Game/Gameplay/Items/Consumables/Magic/RECIPE_Consumable_Potion_Focused_T2_Lesser_Attack.RECIPE_Consumable_Potion_Focused_T2_Lesser_Attack",
+          "SubPathString": ""
+        }
+      },
+      "PersistenceID": "hzOIEkDSetsdvPGHSgrbMQ",
+      "InternalName": "JOURNAL_Recipes_Potions_Focused_Attack_T2"
+    }
+  }
+]
