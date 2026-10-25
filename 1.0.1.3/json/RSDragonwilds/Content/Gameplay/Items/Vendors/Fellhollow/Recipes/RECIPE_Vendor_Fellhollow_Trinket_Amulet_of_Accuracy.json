@@ -1,0 +1,39 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Vendor_Fellhollow_Trinket_Amulet_of_Accuracy",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Currency_SoulFragment'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Currency/ITEM_Currency_SoulFragment"
+          },
+          "Count": 350
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "BP_Consumables_RecipeUnlocker2_C'DA_Consumable_Vestige_Trinket_Amulet_of_Accuracy'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Vestiges/Trinkets/DA_Consumable_Vestige_Trinket_Amulet_of_Accuracy"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Vendor.Felhollow.Recipe.Trinket"
+      },
+      "bIgnoreNotification": true,
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
+      },
+      "SkillXPAwardedOnCraft": 40,
+      "PersistenceID": "c2IDGkC9dLivkqKXEBCuQg",
+      "InternalName": "RECIPE_Vendor_Fellhollow_Trinket_Amulet_of_Accuracy"
+    }
+  }
+]

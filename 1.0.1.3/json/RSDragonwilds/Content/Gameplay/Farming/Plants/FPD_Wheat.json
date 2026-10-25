@@ -1,0 +1,86 @@
+[
+  {
+    "Type": "FarmPlantDataAsset",
+    "Name": "FPD_Wheat",
+    "Class": "UScriptClass'FarmPlantDataAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+        "Key": "Name_Res_Wheat",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Stages": [
+        {
+          "ObjectName": "FarmPlantStageData'FPSD_Wheat_Stage0'",
+          "ObjectPath": "/Game/Gameplay/Farming/Stages/Wheat_Stages/FPSD_Wheat_Stage0"
+        },
+        {
+          "ObjectName": "FarmPlantStageData'FPSD_Wheat_Stage2'",
+          "ObjectPath": "/Game/Gameplay/Farming/Stages/Wheat_Stages/FPSD_Wheat_Stage2"
+        },
+        {
+          "ObjectName": "FarmPlantStageData'FPSD_Wheat_Harvestable'",
+          "ObjectPath": "/Game/Gameplay/Farming/Stages/Wheat_Stages/FPSD_Wheat_Harvestable"
+        }
+      ],
+      "StageDisplayTexts": [
+        {
+          "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+          "Key": "StatusText_PlantStage_Shoot",
+          "SourceString": null,
+          "LocalizedString": ""
+        },
+        {
+          "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+          "Key": "StatusText_PlantStage_Stalk",
+          "SourceString": null,
+          "LocalizedString": ""
+        },
+        {
+          "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+          "Key": "StatusText_PlantStage_Flower",
+          "SourceString": null,
+          "LocalizedString": ""
+        },
+        {
+          "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+          "Key": "StatusText_PlantStage_Harvestable",
+          "SourceString": null,
+          "LocalizedString": ""
+        }
+      ],
+      "BaseYield": 5,
+      "DiseaseChance": 0.6,
+      "HarvestableItem": {
+        "ObjectName": "ItemData'ITEM_Resources_Wheat'",
+        "ObjectPath": "/Game/Gameplay/Items/Resources/Plant/ITEM_Resources_Wheat"
+      },
+      "SeedDropPerHarvestableItem": {
+        "ItemDataClass": {
+          "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Farming/Seeds/ITEM_Farming_Seed_Wheat.ITEM_Farming_Seed_Wheat",
+          "SubPathString": ""
+        },
+        "MaximumGrouping": 99,
+        "ProbabilityOfDrop": 0.02,
+        "ProbabilityModifierAttribute": {
+          "ObjectName": "Class'SeedRecoveryChance'",
+          "ObjectPath": "/Script/Dominion"
+        }
+      },
+      "HarvestSFX": {
+        "AssetPathName": "/Game/Audio/MetasoundSources/Player/Interactions/Farming/MSS_Pl_Fa_HarvestPlant.MSS_Pl_Fa_HarvestPlant",
+        "SubPathString": ""
+      },
+      "PlantableIn": [
+        "Farming.Tiers.Tier1_Brynmoor",
+        "Farming.Tiers.Tier2_Ghornfell",
+        "Farming.Tiers.Tier3_Fellhollow",
+        "Farming.Tiers.Tier4_UmbralSands"
+      ],
+      "PersistenceID": "Ph3PYUkjywSRzpGkFIJPjg",
+      "InternalName": "FPD_Wheat"
+    }
+  }
+]

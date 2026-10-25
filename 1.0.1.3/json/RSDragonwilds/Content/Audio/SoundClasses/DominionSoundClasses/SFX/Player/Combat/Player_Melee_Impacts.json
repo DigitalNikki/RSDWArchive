@@ -1,0 +1,57 @@
+[
+  {
+    "Type": "DominionSoundClass",
+    "Name": "Player_Melee_Impacts",
+    "Class": "UScriptClass'DominionSoundClass'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MinReverbSend": 0.1,
+      "MaxReverbSend": 0.5,
+      "Properties": {
+        "Volume": 0.5956621,
+        "DefaultSubmix": {
+          "ObjectName": "SoundSubmix'Melee'",
+          "ObjectPath": "/Game/Audio/Submixes/Melee"
+        }
+      },
+      "ChildClasses": [
+        {
+          "ObjectName": "DominionSoundClass'Player_Impacts_BaseBldImpacts'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Player/Player_Impacts_BaseBldImpacts"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Player_Impacts_BodyImpacts'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Player/Player_Impacts_BodyImpacts"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Player_Impacts_PickaxeImpacts'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Player/Player_Impacts_PickaxeImpacts"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Player_Impacts_ShieldImpacts'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Player/Player_Impacts_ShieldImpacts"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Player_Impacts_WeapBlocks'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Player/Player_Impacts_WeapBlocks"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Player_Impacts_WoodCuttingImpacts'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Player/Player_Impacts_WoodCuttingImpacts"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Player_Impacts_MagicWeaponImpacts'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Player/Player_Impacts_MagicWeaponImpacts"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Player_Impacts_ShovelImpacts'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Player/Player_Impacts_ShovelImpacts"
+        }
+      ],
+      "ParentClass": {
+        "ObjectName": "DominionSoundClass'Player_Melee'",
+        "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Player/Combat/Player_Melee"
+      }
+    }
+  }
+]

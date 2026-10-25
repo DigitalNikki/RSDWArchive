@@ -1,0 +1,42 @@
+[
+  {
+    "Type": "DominionSoundClass",
+    "Name": "Boss_Kuldra",
+    "Class": "UScriptClass'DominionSoundClass'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Properties": {
+        "DefaultSubmix": {
+          "ObjectName": "SoundSubmix'SFX'",
+          "ObjectPath": "/Game/Audio/Submixes/SFX"
+        }
+      },
+      "ChildClasses": [
+        {
+          "ObjectName": "DominionSoundClass'Boss_Kuldra_Abilities'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Boss/Kuldra/Boss_Kuldra_Abilities"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Boss_Kuldra_Foley'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Boss/Kuldra/Boss_Kuldra_Foley"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Boss_Kuldra_Special'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Boss/Kuldra/Boss_Kuldra_Special"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Boss_Kuldra_Vox_Maj'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Boss/Kuldra/Boss_Kuldra_Vox_Maj"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Boss_Kuldra_Vox_Min'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Boss/Kuldra/Boss_Kuldra_Vox_Min"
+        }
+      ],
+      "ParentClass": {
+        "ObjectName": "DominionSoundClass'Boss'",
+        "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Boss/Boss"
+      }
+    }
+  }
+]

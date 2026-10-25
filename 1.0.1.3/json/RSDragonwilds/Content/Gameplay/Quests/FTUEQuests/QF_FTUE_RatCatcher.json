@@ -1,0 +1,1018 @@
+[
+  {
+    "Type": "ConversationChoiceNode",
+    "Name": "ConversationChoiceNode_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Class": "UScriptClass'ConversationChoiceNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultChoiceDisplayText": {
+        "TableId": "/Game/Gameplay/Quests/FTUEQuests/ST_FTUE.ST_FTUE",
+        "Key": "Playerchoice_TellMeAboutAshenfall",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "ConversationChoiceNode",
+    "Name": "ConversationChoiceNode_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Class": "UScriptClass'ConversationChoiceNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultChoiceDisplayText": {
+        "TableId": "/Game/Gameplay/Quests/FTUEQuests/ST_FTUE.ST_FTUE",
+        "Key": "Playerchoice_WhoAreYou",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "ConversationDatabase",
+    "Name": "QF_FTUE_RatCatcher",
+    "Class": "UScriptClass'ConversationDatabase'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CompilerVersion": 2,
+      "ReachableNodeMap": [
+        {
+          "Key": "81E05AEF-433E2CE3-93FBF69C-371F9418",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_FTUE_RatCatcher:ConversationEntryPointNode_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.3"
+          }
+        },
+        {
+          "Key": "2D80B597-49BD03B9-0CFC16BF-9409C639",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RatCatcher:QFT_Blank_C_9'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.26"
+          }
+        },
+        {
+          "Key": "51486A58-47D6FE2F-8C95B08A-6BE27799",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RatCatcher:QFT_PromptMessage_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.30"
+          }
+        },
+        {
+          "Key": "8723C9E9-477D2A3C-A1AC558D-F2049A17",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RatCatcher:QFT_PromptMessage_C_17'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.38"
+          }
+        },
+        {
+          "Key": "FAF0973A-40E3B737-6EF3FDAE-BA592CB9",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RatCatcher:QFT_PromptMessage_C_18'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.39"
+          }
+        },
+        {
+          "Key": "4429842B-491DE560-250C459D-E20F07A5",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RatCatcher:QFT_PromptMessage_C_19'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.40"
+          }
+        },
+        {
+          "Key": "7DD8D75B-4A40ABFB-03577297-FAE7F9F0",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RatCatcher:QFT_PromptMessage_C_14'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.35"
+          }
+        },
+        {
+          "Key": "B81C3D53-4A565285-33481D95-CDBF1119",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RatCatcher:QFT_PromptMessage_C_15'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.36"
+          }
+        },
+        {
+          "Key": "0FC2FC6A-4B9FCC0C-CDC506B5-6FC89C6F",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RatCatcher:QFT_PromptMessage_C_16'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.37"
+          }
+        },
+        {
+          "Key": "8C226C69-4030BCA3-601546AA-0E0B4DAE",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RatCatcher:QFT_Blank_C_8'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.25"
+          }
+        },
+        {
+          "Key": "35426B87-4BBD8D7D-01E2CFB7-0F41F66C",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RatCatcher:QFT_Blank_C_17'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.21"
+          }
+        },
+        {
+          "Key": "11DBEC8E-48ABCB10-F52F9FA6-16E2519C",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RatCatcher:QFT_PromptMessage_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.41"
+          }
+        },
+        {
+          "Key": "E5DAEB3A-4F85656B-20CF39B8-821B0730",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RatCatcher:QFT_Blank_C_16'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.20"
+          }
+        },
+        {
+          "Key": "6DD33A7F-41657146-D821DB89-CD4009EF",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RatCatcher:QFT_Blank_C_10'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.19"
+          }
+        },
+        {
+          "Key": "DD7BFE52-47B2BDE0-7CFF4CB2-8FDC72E0",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RatCatcher:QFT_PromptMessage_C_13'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.34"
+          }
+        },
+        {
+          "Key": "7EEDA103-4F1D185F-4D0468AA-CC20844A",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RatCatcher:QFT_PromptMessage_C_5'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.46"
+          }
+        },
+        {
+          "Key": "F3E6F07A-4223DC4C-E9701485-E85323C5",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RatCatcher:QFT_PromptMessage_C_6'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.47"
+          }
+        },
+        {
+          "Key": "E546BC46-47785EAE-8BF4FD93-2DBA5DD3",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RatCatcher:QFT_PromptMessage_C_8'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.49"
+          }
+        },
+        {
+          "Key": "029F3C5F-41176716-CB0D54BD-9E2DEA3D",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RatCatcher:QFT_PromptMessage_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.42"
+          }
+        },
+        {
+          "Key": "D3DDA561-4FE5FB31-B3701985-BCA99218",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_FTUE_RatCatcher:QFT_SetQuestBool_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.51"
+          }
+        },
+        {
+          "Key": "17F877D9-4C1B5FA6-1E00C3A6-0035AE7F",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_FTUE_RatCatcher:QFT_SetQuestObjective_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.53"
+          }
+        },
+        {
+          "Key": "BB25293A-4B0A715D-0A4E53BC-0FB02985",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_FTUE_RatCatcher:QFT_UpdateQuestLocation_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.54"
+          }
+        },
+        {
+          "Key": "966A6926-430E0CD1-6A524AA4-B78961EE",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_FTUE_RatCatcher:QFT_UpdateQuestLocation_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.55"
+          }
+        },
+        {
+          "Key": "811DA6E2-4122B7D2-C9D52997-51D69B7C",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_FTUE_RatCatcher:QFT_UpdateQuestLocation_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.56"
+          }
+        },
+        {
+          "Key": "024B437F-41704846-ACE24C98-CCE32AF0",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RatCatcher:QFT_PromptMessage_C_11'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.32"
+          }
+        },
+        {
+          "Key": "333E665E-4F9C73D4-771F1CB0-F6ADDAFE",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RatCatcher:QFT_Blank_C_7'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.24"
+          }
+        },
+        {
+          "Key": "85558F9E-4A493CCC-EA7F8AAC-4EDC3378",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RatCatcher:QFT_PromptMessage_C_10'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.31"
+          }
+        },
+        {
+          "Key": "AC7A39B2-4EA9B924-9587E2B4-EF55E90D",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RatCatcher:QFT_PromptMessage_C_9'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.50"
+          }
+        },
+        {
+          "Key": "50D97D6F-4E699CBE-351D2AAB-7C15D56A",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RatCatcher:QFT_PromptMessage_C_12'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.33"
+          }
+        },
+        {
+          "Key": "472AE346-4573924E-D14944B7-50402A10",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RatCatcher:QFT_PromptMessage_C_42'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.44"
+          }
+        },
+        {
+          "Key": "CFF2839F-442DD44D-AF798984-27E9CC67",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RatCatcher:QFT_PromptMessage_C_43'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.45"
+          }
+        },
+        {
+          "Key": "9E09E770-4A45097E-BC8C468C-DAF4AFFD",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RatCatcher:QFT_PromptMessage_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.43"
+          }
+        },
+        {
+          "Key": "4D8BA744-4DFA3EA0-2DDCF984-9A64BD92",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RatCatcher:QFT_Blank_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.22"
+          }
+        },
+        {
+          "Key": "B0AAF94A-450327C1-F3305C81-F390F44C",
+          "Value": {
+            "ObjectName": "QFT_CompleteQuest_C'QF_FTUE_RatCatcher:QFT_CompleteQuest_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.27"
+          }
+        },
+        {
+          "Key": "A1117E06-491D2B00-41B86BB3-D955F433",
+          "Value": {
+            "ObjectName": "QFT_GiveQuest_C'QF_FTUE_RatCatcher:QFT_GiveQuest_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.29"
+          }
+        },
+        {
+          "Key": "A79F6022-4E875B93-C2A3EEA9-0470FE39",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_FTUE_RatCatcher:QFT_SetQuestObjective_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.52"
+          }
+        },
+        {
+          "Key": "C4DAA987-426B8850-B51F4B8F-D33583C5",
+          "Value": {
+            "ObjectName": "QFT_GiveItemsToPlayer_C'QF_FTUE_RatCatcher:QFT_GiveItemsToPlayer_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.28"
+          }
+        },
+        {
+          "Key": "F1CFC657-464C136C-EEFF19A5-558D12D2",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_FTUE_RatCatcher:QFT_UpdateQuestLocation_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.57"
+          }
+        },
+        {
+          "Key": "9E441F4D-406DD2A3-C2535A86-08D2C7BA",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_FTUE_RatCatcher:QFT_UpdateQuestLocation_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.58"
+          }
+        },
+        {
+          "Key": "E2903614-4D9FB782-BC96A594-B1569F79",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_FTUE_RatCatcher:QFT_UpdateQuestLocation_C_5'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.59"
+          }
+        },
+        {
+          "Key": "EB9AE43B-49C11742-9A5934A6-6EC8C5D4",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_FTUE_RatCatcher:QFT_UpdateQuestLocation_C_6'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.60"
+          }
+        },
+        {
+          "Key": "4F676876-43252657-59C77783-2321E5D3",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_FTUE_RatCatcher:QFT_UpdateQuestLocation_C_7'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.61"
+          }
+        },
+        {
+          "Key": "28B7A52D-4A7B69F4-4D756780-56F81984",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RatCatcher:QFT_Blank_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.23"
+          }
+        },
+        {
+          "Key": "D1B0F18C-464E6177-9BA5218E-E1783642",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RatCatcher:QFT_PromptMessage_C_7'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.48"
+          }
+        },
+        {
+          "Key": "E69BFC2C-4211E6DF-25690E85-D0473865",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RatCatcher:QFT_Blank_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.18"
+          }
+        }
+      ],
+      "EntryTags": [
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.FTUEQuests.FTUERCEntryVannaka"
+          },
+          "DestinationList": [
+            "81E05AEF-433E2CE3-93FBF69C-371F9418"
+          ],
+          "EntryIdentifier": ""
+        }
+      ],
+      "InternalNodeIds": [
+        "81E05AEF-433E2CE3-93FBF69C-371F9418",
+        "2D80B597-49BD03B9-0CFC16BF-9409C639",
+        "51486A58-47D6FE2F-8C95B08A-6BE27799",
+        "8723C9E9-477D2A3C-A1AC558D-F2049A17",
+        "FAF0973A-40E3B737-6EF3FDAE-BA592CB9",
+        "4429842B-491DE560-250C459D-E20F07A5",
+        "7DD8D75B-4A40ABFB-03577297-FAE7F9F0",
+        "B81C3D53-4A565285-33481D95-CDBF1119",
+        "0FC2FC6A-4B9FCC0C-CDC506B5-6FC89C6F",
+        "8C226C69-4030BCA3-601546AA-0E0B4DAE",
+        "35426B87-4BBD8D7D-01E2CFB7-0F41F66C",
+        "11DBEC8E-48ABCB10-F52F9FA6-16E2519C",
+        "E5DAEB3A-4F85656B-20CF39B8-821B0730",
+        "6DD33A7F-41657146-D821DB89-CD4009EF",
+        "DD7BFE52-47B2BDE0-7CFF4CB2-8FDC72E0",
+        "7EEDA103-4F1D185F-4D0468AA-CC20844A",
+        "F3E6F07A-4223DC4C-E9701485-E85323C5",
+        "E546BC46-47785EAE-8BF4FD93-2DBA5DD3",
+        "029F3C5F-41176716-CB0D54BD-9E2DEA3D",
+        "D3DDA561-4FE5FB31-B3701985-BCA99218",
+        "17F877D9-4C1B5FA6-1E00C3A6-0035AE7F",
+        "BB25293A-4B0A715D-0A4E53BC-0FB02985",
+        "966A6926-430E0CD1-6A524AA4-B78961EE",
+        "811DA6E2-4122B7D2-C9D52997-51D69B7C",
+        "024B437F-41704846-ACE24C98-CCE32AF0",
+        "333E665E-4F9C73D4-771F1CB0-F6ADDAFE",
+        "85558F9E-4A493CCC-EA7F8AAC-4EDC3378",
+        "AC7A39B2-4EA9B924-9587E2B4-EF55E90D",
+        "50D97D6F-4E699CBE-351D2AAB-7C15D56A",
+        "472AE346-4573924E-D14944B7-50402A10",
+        "CFF2839F-442DD44D-AF798984-27E9CC67",
+        "9E09E770-4A45097E-BC8C468C-DAF4AFFD",
+        "4D8BA744-4DFA3EA0-2DDCF984-9A64BD92",
+        "B0AAF94A-450327C1-F3305C81-F390F44C",
+        "A1117E06-491D2B00-41B86BB3-D955F433",
+        "A79F6022-4E875B93-C2A3EEA9-0470FE39",
+        "C4DAA987-426B8850-B51F4B8F-D33583C5",
+        "F1CFC657-464C136C-EEFF19A5-558D12D2",
+        "9E441F4D-406DD2A3-C2535A86-08D2C7BA",
+        "E2903614-4D9FB782-BC96A594-B1569F79",
+        "EB9AE43B-49C11742-9A5934A6-6EC8C5D4",
+        "4F676876-43252657-59C77783-2321E5D3",
+        "28B7A52D-4A7B69F4-4D756780-56F81984",
+        "D1B0F18C-464E6177-9BA5218E-E1783642",
+        "E69BFC2C-4211E6DF-25690E85-D0473865"
+      ]
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.FTUEQuests.FTUERCEntryVannaka"
+      },
+      "OutputConnections": [
+        "8C226C69-4030BCA3-601546AA-0E0B4DAE",
+        "2D80B597-49BD03B9-0CFC16BF-9409C639"
+      ],
+      "Compiled_NodeGUID": "81E05AEF-433E2CE3-93FBF69C-371F9418"
+    }
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerDoesntHaveSpaceForItems_C",
+    "Name": "QFR_PlayerDoesntHaveSpaceForItems_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasItemAmount_C",
+    "Name": "QFR_PlayerHasItemAmount_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasItemAmount_C",
+    "Name": "QFR_PlayerHasItemAmount_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasLessThanItemAmount_C",
+    "Name": "QFR_PlayerHasLessThanItemAmount_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasSpaceForItems_C",
+    "Name": "QFR_PlayerHasSpaceForItems_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBoolsOR_C",
+    "Name": "QFR_TestQuestBoolsOR_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_16",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_17",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_CompleteQuest_C",
+    "Name": "QFT_CompleteQuest_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveItemsToPlayer_C",
+    "Name": "QFT_GiveItemsToPlayer_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveQuest_C",
+    "Name": "QFT_GiveQuest_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_12",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_13",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_14",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_15",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_16",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_17",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_18",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_19",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_42",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_43",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RatCatcher'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RatCatcher.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  }
+]

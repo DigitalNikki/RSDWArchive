@@ -1,0 +1,75 @@
+[
+  {
+    "Type": "DifficultySettingData",
+    "Name": "DA_DifficultySetting_PlayerResistancesScale",
+    "Class": "UScriptClass'DifficultySettingData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SettingName": {
+        "TableId": "/Game/Gameplay/DifficultySettings/ST_DifficultySettings.ST_DifficultySettings",
+        "Key": "DifficultySetting.PlayerResistancesScale",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "SettingTag": {
+        "TagName": "Difficulty.Player.ResistancesScale"
+      },
+      "SettingsSection": {
+        "TableId": "/Game/Gameplay/DifficultySettings/ST_DifficultySettings.ST_DifficultySettings",
+        "Key": "DifficultySettingCategory.Player",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "SettingsTooltipContent": {
+        "ObjectName": "SettingsTooltipGeneralContent'DA_DifficultySetting_PlayerResistancesScale:SettingsTooltipGeneralContent_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/DifficultySettings/Player/DA_DifficultySetting_PlayerResistancesScale.1"
+      },
+      "FrontEndSliderData": {
+        "MinValue": 0.5,
+        "MaxValue": 3.0,
+        "AmountGamepadSteps": 25,
+        "Postfix": "x"
+      },
+      "PresetDefaults": [
+        {
+          "Key": "ESurvivalDifficulty::Normal",
+          "Value": 1.0
+        },
+        {
+          "Key": "ESurvivalDifficulty::Hard",
+          "Value": 2.0
+        },
+        {
+          "Key": "ESurvivalDifficulty::Creative",
+          "Value": 1.0
+        }
+      ],
+      "PersistenceID": "oIpnPkEJbqHrd6KmgzecIQ",
+      "InternalName": "difficulty_playerresistancesscale"
+    }
+  },
+  {
+    "Type": "SettingsTooltipGeneralContent",
+    "Name": "SettingsTooltipGeneralContent_0",
+    "Outer": {
+      "ObjectName": "DifficultySettingData'DA_DifficultySetting_PlayerResistancesScale'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/DifficultySettings/Player/DA_DifficultySetting_PlayerResistancesScale.0"
+    },
+    "Class": "UScriptClass'SettingsTooltipGeneralContent'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Paragraph": {
+        "TableId": "/Game/Gameplay/DifficultySettings/ST_DifficultySettings.ST_DifficultySettings",
+        "Key": "DifficultySetting.PlayerResistancesScale.Description",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Title": {
+        "TableId": "/Game/Gameplay/DifficultySettings/ST_DifficultySettings.ST_DifficultySettings",
+        "Key": "DifficultySetting.PlayerResistancesScale",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  }
+]

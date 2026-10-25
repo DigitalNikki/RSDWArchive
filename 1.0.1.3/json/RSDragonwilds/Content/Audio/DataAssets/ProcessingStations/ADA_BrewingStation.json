@@ -1,0 +1,41 @@
+[
+  {
+    "Type": "ProcessingStationAudioData",
+    "Name": "ADA_BrewingStation",
+    "Class": "UScriptClass'ProcessingStationAudioData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "VendTagToSFXMap": [
+        {
+          "Key": {
+            "TagName": "Audio.Default"
+          },
+          "Value": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Pl_Cr_BrewingStation_Vend'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/UI/Crafting/ProcessingStation/BrewingStation/MSS_Pl_Cr_BrewingStation_Vend"
+          }
+        }
+      ],
+      "FuelAddedSFX": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Pl_Cr_Furnace_Deposit'",
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Crafting/ProcessingStation/Furnace/MSS_Pl_Cr_Furnace_Deposit"
+      },
+      "ProcessingLoopStartedSFX": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Cr_Mn_ProcessingStartUI_Ignite'",
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Crafting/ProcessingStation/ProcessingStartUI/MSS_Cr_Mn_ProcessingStartUI_Ignite"
+      },
+      "ProcessingLoopSFX": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Pl_Cr_BrewingStationLoop'",
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Crafting/ProcessingStation/BrewingStation/MSS_Pl_Cr_BrewingStationLoop"
+      },
+      "ProcessingLoopStoppedSFX": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Cr_Mn_ProcessingStopUI_Ignite'",
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Crafting/ProcessingStation/ProcessingStartUI/MSS_Cr_Mn_ProcessingStopUI_Ignite"
+      },
+      "RecipeChangedSFX": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Pl_Cr_BrewingStation_Deposit'",
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Crafting/ProcessingStation/BrewingStation/MSS_Pl_Cr_BrewingStation_Deposit"
+      }
+    }
+  }
+]

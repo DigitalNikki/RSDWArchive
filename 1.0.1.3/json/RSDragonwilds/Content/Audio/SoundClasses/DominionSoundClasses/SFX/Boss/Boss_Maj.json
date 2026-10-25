@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "DominionSoundClass",
+    "Name": "Boss_Maj",
+    "Class": "UScriptClass'DominionSoundClass'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "OcclusionMultiplier": 1.0,
+      "Properties": {
+        "DefaultSubmix": {
+          "ObjectName": "SoundSubmix'SFX'",
+          "ObjectPath": "/Game/Audio/Submixes/SFX"
+        }
+      },
+      "ChildClasses": [
+        {
+          "ObjectName": "DominionSoundClass'Boss_Vox_Maj'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Boss/Boss_Vox_Maj"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Boss_Foley_Maj'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Boss/Boss_Foley_Maj"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Boss_Combat_Maj'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Boss/Boss_Combat_Maj"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Boss_Abillities_Maj'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Boss/Boss_Abillities_Maj"
+        },
+        {
+          "ObjectName": "DominionSoundClass'BossSpecialMix'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Boss/BossSpecialMix"
+        },
+        {
+          "ObjectName": "DominionSoundClass'BossSpecialAbilityDuckMix'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Boss/BossSpecialAbilityDuckMix"
+        }
+      ],
+      "ParentClass": {
+        "ObjectName": "DominionSoundClass'Boss_Excl_DemonOrb'",
+        "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Boss/Boss_Excl_DemonOrb"
+      }
+    }
+  }
+]

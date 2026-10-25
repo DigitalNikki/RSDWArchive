@@ -1,0 +1,68 @@
+[
+  {
+    "Type": "BuildingPieceData",
+    "Name": "BUILDPIECE_Interior_PanRack",
+    "Class": "UScriptClass'BuildingPieceData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DerivedData": {
+        "AssetPathName": "/Game/Gameplay/BaseBuilding/Data/BuildingPieces_DerivedData/Furniture/Comfort/BUILDPIECE_Interior_PanRack_DerivedData.BUILDPIECE_Interior_PanRack_DerivedData",
+        "SubPathString": ""
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "AD2E88FD4EBC176A38277FB14CE8F7D9",
+        "SourceString": "Pan Rack",
+        "LocalizedString": "Pan Rack"
+      },
+      "DisplayIcon": {
+        "AssetPathName": "/Game/Art/UI/Icons/T_Icon_Pan_Rack.T_Icon_Pan_Rack",
+        "SubPathString": ""
+      },
+      "BuildableActor": {
+        "AssetPathName": "/Game/Gameplay/BaseBuilding/Actors/Props/BP_BaseBuilding_PanRack.BP_BaseBuilding_PanRack_C",
+        "SubPathString": ""
+      },
+      "Requirements": [
+        {
+          "Amount": 2,
+          "ItemData": {
+            "ObjectName": "FuelItemData'ITEM_Resources_Plank_Ash'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Wood/ITEM_Resources_Plank_Ash"
+          }
+        },
+        {
+          "Amount": 5,
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Clay_Vessel'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Mineral/ITEM_Resources_Clay_Vessel"
+          }
+        },
+        {
+          "Amount": 2,
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Clay_Decoration'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Mineral/ITEM_Resources_Clay_Decoration"
+          }
+        }
+      ],
+      "BuildingStabilityProfileRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'StabilityProfileDataTable'",
+          "ObjectPath": "/Game/Gameplay/BaseBuilding/StabilityProfileDataTable"
+        },
+        "RowName": "Tier_0_Base"
+      },
+      "BuildXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Building'",
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Building"
+        },
+        "RowName": "Build_Decoration_Tier2"
+      },
+      "RepresentationCategory": "EBuildingPieceRepresentationCategory::Lightweight",
+      "PersistenceID": "D5NKck8QWcLumQuoqe-kDQ",
+      "InternalName": "buildpiece_interior_panrack"
+    }
+  }
+]

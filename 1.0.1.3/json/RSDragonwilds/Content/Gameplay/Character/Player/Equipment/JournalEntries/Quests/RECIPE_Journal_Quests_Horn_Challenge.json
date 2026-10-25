@@ -1,0 +1,59 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Journal_Quests_Horn_Challenge",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Dragon_Tooth'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Mineral/ITEM_Resources_Dragon_Tooth"
+          },
+          "Count": 1
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Bloodwood_Sap'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Plant/ITEM_Resources_Bloodwood_Sap"
+          },
+          "Count": 1
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_BronzeBar'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Metal/ITEM_Resources_BronzeBar"
+          },
+          "Count": 5
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Masterworks_Challenge_Horn'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Masterworks/BossSummon/ITEM_Masterworks_Challenge_Horn"
+          },
+          "Count": 0
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Wood.Arrow"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting"
+        },
+        "RowName": "Craft_Smithing_Forge_Tier3"
+      },
+      "SkillXPAwardedOnCraft": 15,
+      "PersistenceID": "mJ8HXkrCL007n6--RVOKiw",
+      "InternalName": "recipe_journal_quests_horn_challenge"
+    }
+  }
+]

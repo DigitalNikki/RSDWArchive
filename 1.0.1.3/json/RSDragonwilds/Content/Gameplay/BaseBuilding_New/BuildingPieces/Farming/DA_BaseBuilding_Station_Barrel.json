@@ -1,0 +1,69 @@
+[
+  {
+    "Type": "BuildingPieceData",
+    "Name": "DA_BaseBuilding_Station_Barrel",
+    "Class": "UScriptClass'BuildingPieceData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DerivedData": {
+        "AssetPathName": "/Game/Gameplay/BaseBuilding_New/BuildingPieces_DerivedData/Farming/DA_BaseBuilding_Station_Barrel_DerivedData.DA_BaseBuilding_Station_Barrel_DerivedData",
+        "SubPathString": ""
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+        "Key": "Name_Building_Barrel",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Description": {
+        "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+        "Key": "FlavourText_Building_WaterBarrel",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "DisplayIcon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Farming_Additional_Icons/T_Icon_Small_Water_Barrel_Y.T_Icon_Small_Water_Barrel_Y",
+        "SubPathString": ""
+      },
+      "BuildableActor": {
+        "AssetPathName": "/Game/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_Barrel_Water.BP_Farm_Barrel_Water_C",
+        "SubPathString": ""
+      },
+      "Requirements": [
+        {
+          "Amount": 8,
+          "ItemData": {
+            "ObjectName": "FuelItemData'ITEM_Resources_Wood_Ash'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Wood/ITEM_Resources_Wood_Ash"
+          }
+        }
+      ],
+      "PieceTag": {
+        "TagName": "BaseBuilding.PieceType.Prop"
+      },
+      "BuildingStabilityProfileRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_StabilityProfile'",
+          "ObjectPath": "/Game/Gameplay/BaseBuilding_New/DT_StabilityProfile"
+        },
+        "RowName": "Prop"
+      },
+      "BuildXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Building'",
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Building"
+        },
+        "RowName": "Build_Foundation_Tier1"
+      },
+      "SelectionPlayerHooks": [
+        {
+          "ObjectName": "BP_FTUENotificationPlayerHook_C'PH_Stability'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/PlayerHooks/FTUE/PH_Stability"
+        }
+      ],
+      "RepresentationCategory": "EBuildingPieceRepresentationCategory::IndividuallyReplicatedAndPersistedActor",
+      "PersistenceID": "gd9aPEefHgIXVI-R93DUTQ",
+      "InternalName": "buildpiece_processingstation_barrel"
+    }
+  }
+]

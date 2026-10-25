@@ -1,0 +1,55 @@
+[
+  {
+    "Type": "SkillPerkData",
+    "Name": "PerkV2_Magic_WaterMagic",
+    "Class": "UScriptClass'SkillPerkData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "PerkName": {
+        "TableId": "/Game/Gameplay/Character/Player/PerksV2/ST_Skills_Perks.ST_Skills_Perks",
+        "Key": "Magic.WaterMagic.Name",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PerkDescription": {
+        "TableId": "/Game/Gameplay/Character/Player/PerksV2/ST_Skills_Perks.ST_Skills_Perks",
+        "Key": "Magic.WaterMagic.Desc",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "InputActionDisplay": {
+        "InputAction": {
+          "ObjectName": "InputAction'IA_SecondaryAction'",
+          "ObjectPath": "/Game/Gameplay/Inputs/Actions/Basic/IA_SecondaryAction"
+        },
+        "ActionDescription": {
+          "TableId": "/Game/UI/ST_UI_Localization.ST_UI_Localization",
+          "Key": "UseWith",
+          "SourceString": null,
+          "LocalizedString": ""
+        }
+      },
+      "SkillPerkImage": {
+        "AssetPathName": "/Game/Art/UI/Icons/Runes/T_Icons_Rune_Water.T_Icons_Rune_Water",
+        "SubPathString": ""
+      },
+      "PerkUnlockInfo": {
+        "AssociatedSkill": {
+          "AssetPathName": "/Game/Gameplay/Character/Player/Skills/SKILL_Magic.SKILL_Magic",
+          "SubPathString": ""
+        },
+        "RequiredSkillLevel": 7
+      },
+      "PerkUsageVideo": {
+        "ObjectName": "BinkMediaPlayer'BNK_Video_Magic_WaterMagic'",
+        "ObjectPath": "/Game/Movies/BNK_Video_Magic_WaterMagic"
+      },
+      "bShouldBeActivatedIfOwningFeatureDisabled": true,
+      "FeatureTag": {
+        "TagName": "Feature.MagicSkillPerks"
+      },
+      "PersistenceID": "PtRLykBLb1_D8luNpho_Dw",
+      "InternalName": "perk_magic_watermagic"
+    }
+  }
+]

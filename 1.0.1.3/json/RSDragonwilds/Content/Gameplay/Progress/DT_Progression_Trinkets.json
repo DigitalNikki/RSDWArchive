@@ -1,0 +1,791 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_Progression_Trinkets",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Object'ProgressionBundleRow'",
+        "ObjectPath": "/Script/Dominion"
+      }
+    },
+    "Rows": {
+      "Mould_Unfired": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ACTORS[ BP_Crafting_Jewelry_C ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ActorsInteractedWith",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'BP_Crafting_Jewelry_C'",
+                "ObjectPath": "/Game/Gameplay/World/Stations/BP_Crafting_Jewelry"
+              }
+            ],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Clay_Mould_Unfired'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Mineral/RECIPE_Clay_Mould_Unfired"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Mould_Fired": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Clay Mould (Unfired) ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Clay_Mould_Unfired'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Mineral/ITEM_Resources_Clay_Mould_Unfired"
+              }
+            ],
+            "Actors": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'BP_Crafting_Jewelry_C'",
+                "ObjectPath": "/Game/Gameplay/World/Stations/BP_Crafting_Jewelry"
+              }
+            ],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Process_Clay_Mould'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Mineral/RECIPE_Process_Clay_Mould"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Trinket_Inspiring_Attack": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ACTORS[ BP_Crafting_Jewelry_C ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ActorsInteractedWith",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'BP_Crafting_Jewelry_C'",
+                "ObjectPath": "/Game/Gameplay/World/Stations/BP_Crafting_Jewelry"
+              }
+            ],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Trinket_Inspiring_Attack'",
+            "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Jewellery/RECIPE_Trinket_Inspiring_Attack"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Trinket_Inspiring_Magic": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ACTORS[ BP_Crafting_Jewelry_C ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ActorsInteractedWith",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'BP_Crafting_Jewelry_C'",
+                "ObjectPath": "/Game/Gameplay/World/Stations/BP_Crafting_Jewelry"
+              }
+            ],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Trinket_Inspiring_Magic'",
+            "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Jewellery/RECIPE_Trinket_Inspiring_Magic"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Trinket_Inspiring_Ranged": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ACTORS[ BP_Crafting_Jewelry_C ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ActorsInteractedWith",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'BP_Crafting_Jewelry_C'",
+                "ObjectPath": "/Game/Gameplay/World/Stations/BP_Crafting_Jewelry"
+              }
+            ],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Trinket_Inspiring_Ranged'",
+            "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Jewellery/RECIPE_Trinket_Inspiring_Ranged"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Trinket_Inspiring_Artisan": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ACTORS[ BP_Crafting_Jewelry_C ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ActorsInteractedWith",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'BP_Crafting_Jewelry_C'",
+                "ObjectPath": "/Game/Gameplay/World/Stations/BP_Crafting_Jewelry"
+              }
+            ],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Trinket_Inspiring_Artisan'",
+            "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Jewellery/RECIPE_Trinket_Inspiring_Artisan"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Trinket_Inspiring_Mining": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ACTORS[ BP_Crafting_Jewelry_C ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ActorsInteractedWith",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'BP_Crafting_Jewelry_C'",
+                "ObjectPath": "/Game/Gameplay/World/Stations/BP_Crafting_Jewelry"
+              }
+            ],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Trinket_Inspiring_Mining'",
+            "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Jewellery/RECIPE_Trinket_Inspiring_Mining"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Trinket_Inspiring_Woodcutting": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ACTORS[ BP_Crafting_Jewelry_C ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ActorsInteractedWith",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'BP_Crafting_Jewelry_C'",
+                "ObjectPath": "/Game/Gameplay/World/Stations/BP_Crafting_Jewelry"
+              }
+            ],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Trinket_Inspiring_Woodcutting'",
+            "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Jewellery/RECIPE_Trinket_Inspiring_Woodcutting"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Trinket_Inspiring_Construction": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ACTORS[ BP_Crafting_Jewelry_C ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ActorsInteractedWith",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'BP_Crafting_Jewelry_C'",
+                "ObjectPath": "/Game/Gameplay/World/Stations/BP_Crafting_Jewelry"
+              }
+            ],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Trinket_Inspiring_Construction'",
+            "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Jewellery/RECIPE_Trinket_Inspiring_Construction"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Trinket_Inspiring_Cooking": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ACTORS[ BP_Crafting_Jewelry_C ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ActorsInteractedWith",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'BP_Crafting_Jewelry_C'",
+                "ObjectPath": "/Game/Gameplay/World/Stations/BP_Crafting_Jewelry"
+              }
+            ],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Trinket_Inspiring_Cooking'",
+            "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Jewellery/RECIPE_Trinket_Inspiring_Cooking"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Trinket_Inspiring_Runecrafting": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ACTORS[ BP_Crafting_Jewelry_C ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ActorsInteractedWith",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'BP_Crafting_Jewelry_C'",
+                "ObjectPath": "/Game/Gameplay/World/Stations/BP_Crafting_Jewelry"
+              }
+            ],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Trinket_Inspiring_Runecrafting'",
+            "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Jewellery/RECIPE_Trinket_Inspiring_Runecrafting"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Trinket_Inspiring_Farming": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ACTORS[ BP_Crafting_Jewelry_C ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ActorsInteractedWith",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'BP_Crafting_Jewelry_C'",
+                "ObjectPath": "/Game/Gameplay/World/Stations/BP_Crafting_Jewelry"
+              }
+            ],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Trinket_Inspiring_Farming'",
+            "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Jewellery/RECIPE_Trinket_Inspiring_Farming"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Trinket_Inspiring_Fishing": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ACTORS[ BP_Crafting_Jewelry_C ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ActorsInteractedWith",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'BP_Crafting_Jewelry_C'",
+                "ObjectPath": "/Game/Gameplay/World/Stations/BP_Crafting_Jewelry"
+              }
+            ],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Trinket_Inspiring_Fishing'",
+            "ObjectPath": "/Fishing/Gameplay/Character/Player/Equipment/Jewellery/RECIPE_Trinket_Inspiring_Fishing"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Trinket_Inspiring_Agility": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ACTORS[ BP_Crafting_Jewelry_C ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ActorsInteractedWith",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'BP_Crafting_Jewelry_C'",
+                "ObjectPath": "/Game/Gameplay/World/Stations/BP_Crafting_Jewelry"
+              }
+            ],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Trinket_Inspiring_Agility'",
+            "ObjectPath": "/Agility/Gameplay/Character/Player/Equipment/Jewlery/RECIPE_Trinket_Inspiring_Agility"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Trinket_Silverhawk_Agility": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Warped Feathers ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Agility_Warped_Feathers'",
+                "ObjectPath": "/Agility/Gameplay/Items/Resources/Agility/ITEM_Resources_Agility_Warped_Feathers"
+              }
+            ],
+            "Actors": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'BP_Crafting_Jewelry_C'",
+                "ObjectPath": "/Game/Gameplay/World/Stations/BP_Crafting_Jewelry"
+              }
+            ],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Trinket_Gyrhawk_Amulet'",
+            "ObjectPath": "/Agility/Gameplay/Character/Player/Equipment/Jewlery/RECIPE_Trinket_Gyrhawk_Amulet"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      }
+    }
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "Type": "SoundSubmix",
+    "Name": "Pl_Magic_Min",
+    "Class": "UScriptClass'SoundSubmix'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SubmixEffectChain": [
+        {
+          "ObjectName": "SubmixEffectDynamicsProcessorPreset'Ducker_Pl_Magic_Min'",
+          "ObjectPath": "/Game/Audio/Effects/SidechainCompressors/Ducker_Pl_Magic_Min"
+        }
+      ],
+      "ParentSubmix": {
+        "ObjectName": "SoundSubmix'SFX'",
+        "ObjectPath": "/Game/Audio/Submixes/SFX"
+      }
+    }
+  }
+]

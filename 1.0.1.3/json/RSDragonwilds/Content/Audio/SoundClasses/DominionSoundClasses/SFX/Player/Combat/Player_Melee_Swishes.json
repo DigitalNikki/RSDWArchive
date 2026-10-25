@@ -1,0 +1,22 @@
+[
+  {
+    "Type": "DominionSoundClass",
+    "Name": "Player_Melee_Swishes",
+    "Class": "UScriptClass'DominionSoundClass'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MinReverbSend": 0.075,
+      "MaxReverbSend": 0.4,
+      "Properties": {
+        "DefaultSubmix": {
+          "ObjectName": "SoundSubmix'Melee'",
+          "ObjectPath": "/Game/Audio/Submixes/Melee"
+        }
+      },
+      "ParentClass": {
+        "ObjectName": "DominionSoundClass'Player_Melee'",
+        "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Player/Combat/Player_Melee"
+      }
+    }
+  }
+]

@@ -1,0 +1,790 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ADT_Kothaar_Ket",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Object'AiAnimationAudioTableRowBase'",
+        "ObjectPath": "/Script/Dominion"
+      }
+    },
+    "Rows": {
+      "Footstep_Walk": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.Ket"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_KothaarFootsteps_Walk'",
+              "ObjectPath": "/Game/Audio/DataAssets/FootstepData/ADA_KothaarFootsteps_Walk"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "foot_r",
+          "foot_l"
+        ]
+      },
+      "BodyMove_Slow": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.Ket"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fly_Kot_Hur_BodyMove_Slow'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KothaarFaction/Hur/Hur_Foley/MSS_En_Fly_Kot_Hur_BodyMove_Slow"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Settle": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.Ket"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fly_Kot_Hur_Settle'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KothaarFaction/Hur/Hur_Foley/MSS_En_Fly_Kot_Hur_Settle"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Attack_Combo1": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.Ket"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Co_Kot_Hur_Attack_Combo1'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KothaarFaction/Hur/Hur_Combat/MSS_En_Co_Kot_Hur_Attack_Combo1"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "hand_r",
+          "hand_l"
+        ]
+      },
+      "Attack_Combo2": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.Ket"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Co_Kot_Hur_Attack_Combo2'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KothaarFaction/Hur/Hur_Combat/MSS_En_Co_Kot_Hur_Attack_Combo2"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "hand_r",
+          "hand_l"
+        ]
+      },
+      "Attack_Combo3": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.Ket"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Co_Kot_Ket_Combo3'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KothaarFaction/Ket/Ket_Combat/MSS_En_Co_Kot_Ket_Combo3"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "hand_r",
+          "hand_l"
+        ]
+      },
+      "Attack_Single1": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.Ket"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Co_Kot_Hur_Attack_Single1'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KothaarFaction/Hur/Hur_Combat/MSS_En_Co_Kot_Hur_Attack_Single1"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "hand_r",
+          "hand_l"
+        ]
+      },
+      "Attack_Single2": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.Ket"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Co_Kot_Hur_Attack_Single2'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KothaarFaction/Hur/Hur_Combat/MSS_En_Co_Kot_Hur_Attack_Single2"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "hand_r",
+          "hand_l"
+        ]
+      },
+      "Attack_Single1_Short": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.Ket"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Co_Kot_Hur_Attack_Single1_Short'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KothaarFaction/Hur/Hur_Combat/MSS_En_Co_Kot_Hur_Attack_Single1_Short"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "hand_r",
+          "hand_l"
+        ]
+      },
+      "Retaliate_Combo1": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.Ket"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Co_Kot_Hur_Retaliate_Combo1'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KothaarFaction/Hur/Hur_Combat/MSS_En_Co_Kot_Hur_Retaliate_Combo1"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "hand_r",
+          "hand_l"
+        ]
+      },
+      "Retaliate_Combo2": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.Ket"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Co_Kot_Hur_Retaliate_Combo2'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KothaarFaction/Hur/Hur_Combat/MSS_En_Co_Kot_Hur_Retaliate_Combo2"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "hand_r",
+          "hand_l"
+        ]
+      },
+      "Retaliate_Combo3": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.Ket"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Co_Kot_Hur_Retaliate_Combo3'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KothaarFaction/Hur/Hur_Combat/MSS_En_Co_Kot_Hur_Retaliate_Combo3"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "hand_r",
+          "hand_l"
+        ]
+      },
+      "Spawn": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.Ket"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Co_Kot_Hur_Spawn'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KothaarFaction/Hur/Hur_Combat/MSS_En_Co_Kot_Hur_Spawn"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Vox_Aggro": {
+        "AnimationActionType": "EAiAnimationAudioActions::Vox",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.Ket"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_Kot_Hur_Aggro'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KothaarFaction/Hur/Hur_Vox/MSS_En_Vox_Kot_Hur_Aggro"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head"
+        ]
+      },
+      "Vox_Attack": {
+        "AnimationActionType": "EAiAnimationAudioActions::Vox",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.Ket"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_Kot_Hur_Attack'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KothaarFaction/Hur/Hur_Vox/MSS_En_Vox_Kot_Hur_Attack"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head"
+        ]
+      },
+      "Vox_Windup": {
+        "AnimationActionType": "EAiAnimationAudioActions::Vox",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.Ket"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_Kot_Hur_Windup'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KothaarFaction/Hur/Hur_Vox/MSS_En_Vox_Kot_Hur_Windup"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head"
+        ]
+      },
+      "Vox_Death": {
+        "AnimationActionType": "EAiAnimationAudioActions::Vox",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.Ket"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_Kot_Hur_Death'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KothaarFaction/Hur/Hur_Vox/MSS_En_Vox_Kot_Hur_Death"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": true,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head"
+        ]
+      },
+      "Vox_Dodge": {
+        "AnimationActionType": "EAiAnimationAudioActions::Vox",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.Ket"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_Kot_Hur_Dodge'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KothaarFaction/Hur/Hur_Vox/MSS_En_Vox_Kot_Hur_Dodge"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head"
+        ]
+      },
+      "Vox_HitReact": {
+        "AnimationActionType": "EAiAnimationAudioActions::Vox",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.Ket"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_Kot_Hur_HitReact'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KothaarFaction/Hur/Hur_Vox/MSS_En_Vox_Kot_Hur_HitReact"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head"
+        ]
+      },
+      "Vox_Exhale": {
+        "AnimationActionType": "EAiAnimationAudioActions::Vox",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.Ket"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_Kot_Hur_Exhale'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KothaarFaction/Hur/Hur_Vox/MSS_En_Vox_Kot_Hur_Exhale"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head"
+        ]
+      },
+      "Chestpump": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.Ket"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fly_Kot_Hur_ChestPump'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KothaarFaction/Hur/Hur_Foley/MSS_En_Fly_Kot_Hur_ChestPump"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "spine_02"
+        ]
+      },
+      "Flurry_FinishAttack": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.Ket"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Co_Kot_Ket_Flurry_Attack_4'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KothaarFaction/Ket/Ket_Combat/MSS_En_Co_Kot_Ket_Flurry_Attack_4"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "hand_r",
+          "hand_l"
+        ]
+      },
+      "ShatterEarth": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.Ket"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Co_Kot_Ket_ShatterEarth'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KothaarFaction/Ket/Ket_Combat/MSS_En_Co_Kot_Ket_ShatterEarth"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "hand_r",
+          "hand_l"
+        ]
+      },
+      "JumpWhoosh": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.Ket"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Co_KotKet_JumpWhoosh'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KothaarFaction/Ket/Ket_Combat/MSS_En_Co_KotKet_JumpWhoosh"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "BodyFall": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.Ket"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Co_Kot_Hur_DeathImpact'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KothaarFaction/Hur/Hur_Combat/MSS_En_Co_Kot_Hur_DeathImpact"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.Ket"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_Cr_Bodyfall_Kothaar'",
+              "ObjectPath": "/Game/Audio/DataAssets/Foley/ADA_Cr_Bodyfall_Kothaar"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Attack_Swish": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.Ket"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Co_Kot_Ket_MaceSwish'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KothaarFaction/Ket/Ket_Combat/MSS_En_Co_Kot_Ket_MaceSwish"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "hand_r",
+          "hand_l"
+        ]
+      },
+      "DefensiveStance_Ending": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.Ket"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Co_Kot_Ket_DefensiveStance_Ending'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KothaarFaction/Ket/Ket_Combat/MSS_En_Co_Kot_Ket_DefensiveStance_Ending"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "DefensiveStance_Hold": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.Ket"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Co_Kot_Ket_DefensiveStance_Hold'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KothaarFaction/Ket/Ket_Combat/MSS_En_Co_Kot_Ket_DefensiveStance_Hold"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "DefensiveStance_In": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.Ket"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Co_Kot_Ket_DefensiveStance_In'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KothaarFaction/Ket/Ket_Combat/MSS_En_Co_Kot_Ket_DefensiveStance_In"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "hand_r",
+          "hand_l"
+        ]
+      },
+      "DefensiveStance_InBody": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.Ket"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Co_Kot_Ket_DefensiveStance_InBody'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KothaarFaction/Ket/Ket_Combat/MSS_En_Co_Kot_Ket_DefensiveStance_InBody"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "DefensiveStance_Out": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.Ket"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Co_Kot_Ket_DefensiveStance_Out'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KothaarFaction/Ket/Ket_Combat/MSS_En_Co_Kot_Ket_DefensiveStance_Out"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "hand_r",
+          "hand_l"
+        ]
+      },
+      "DefensiveStance_OutBody": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.Ket"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Co_Kot_Ket_DefensiveStance_OutBody'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KothaarFaction/Ket/Ket_Combat/MSS_En_Co_Kot_Ket_DefensiveStance_OutBody"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "DefensiveStance_Out_Rock": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.Ket"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_AI_KotKet_DefensiveStance_Rock_End'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KothaarFaction/Ket/Ket_Combat/MSS_AI_KotKet_DefensiveStance_Rock_End"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "DefensiveStance_Rock_Loop": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.Ket"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_AI_KotKet_DefensiveStance_Rock_Loop'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KothaarFaction/Ket/Ket_Combat/MSS_AI_KotKet_DefensiveStance_Rock_Loop"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "DefensiveStance_Rock_Single": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.Ket"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_AI_KotKet_DefensiveStance_Rock_Single'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KothaarFaction/Ket/Ket_Combat/MSS_AI_KotKet_DefensiveStance_Rock_Single"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "DefensiveStance_Rock_Start": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.Ket"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_AI_KotKet_DefensiveStance_Rock_Start'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KothaarFaction/Ket/Ket_Combat/MSS_AI_KotKet_DefensiveStance_Rock_Start"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "BlockBreaker": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.Ket"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_BlockBreakerSwing'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/MSS_Co_BlockBreakerSwing"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      }
+    }
+  }
+]

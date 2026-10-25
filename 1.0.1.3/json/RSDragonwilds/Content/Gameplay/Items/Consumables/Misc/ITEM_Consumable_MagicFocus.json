@@ -1,0 +1,69 @@
+[
+  {
+    "Type": "WhetstoneItemData",
+    "Name": "ITEM_Consumable_MagicFocus",
+    "Class": "UScriptClass'WhetstoneItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HeldEquipmentEffectData": {
+        "ObjectName": "BP_MagicFocusHeldEquipmentEffectData_C'HEED_MagicFocus'",
+        "ObjectPath": "/Game/Gameplay/Items/Consumables/Misc/HEED_MagicFocus"
+      },
+      "RequiresHeldMeleeWeaponTag": {
+        "TagName": "UI.ConsumeItem.RequiresHeldMagicWeapon"
+      },
+      "SpellData": {
+        "ObjectName": "UtilitySpellData'USD_MagicFocus'",
+        "ObjectPath": "/Game/Gameplay/UtilityMagic/PerkSpells/MagicFocus/USD_MagicFocus"
+      },
+      "UseVerb": {
+        "Namespace": "",
+        "Key": "DFB851194D19480B150367B63335AFA4",
+        "SourceString": "Hone",
+        "LocalizedString": "Hone"
+      },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Magic'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Magic"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "Magicfocus",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "MagicFocus",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Furniture_Storage/T_Icon_Magic_Focus.T_Icon_Magic_Focus",
+        "SubPathString": ""
+      },
+      "CategoryClassIcon": {
+        "AssetPathName": "/Game/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Magic.T_Icon_Tag_Skill_Magic",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Env/Props/Gameplay_Props/Magic_Focus/SM_magic_focus_01.SM_magic_focus_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 50,
+      "Weight": 5.0,
+      "Category": {
+        "TagName": "Item.Whetstone"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.WeightReduction",
+        "ItemFilter.Type.Consumable"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Magic.RuneEssence"
+      },
+      "PersistenceID": "gzOyDURSCsyX8-6Q2MSm3A",
+      "InternalName": "item_magicfocus"
+    }
+  }
+]

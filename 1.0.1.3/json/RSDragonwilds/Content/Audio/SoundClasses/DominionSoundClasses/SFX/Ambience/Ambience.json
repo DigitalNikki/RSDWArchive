@@ -1,0 +1,35 @@
+[
+  {
+    "Type": "DominionSoundClass",
+    "Name": "Ambience",
+    "Class": "UScriptClass'DominionSoundClass'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Properties": {
+        "LoadingBehavior": "ESoundWaveLoadingBehavior::LoadOnDemand",
+        "DefaultSubmix": {
+          "ObjectName": "SoundSubmix'Ambience'",
+          "ObjectPath": "/Game/Audio/Submixes/Ambience"
+        }
+      },
+      "ChildClasses": [
+        {
+          "ObjectName": "DominionSoundClass'Ambience_Enclosure_Affected'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Ambience/Ambience_Enclosure_Affected"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Ambience_Enclosure_Agnostic'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Ambience/Ambience_Enclosure_Agnostic"
+        },
+        {
+          "ObjectName": "DominionSoundClass'AnimaVent_EnclosureUnaffected'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Ambience/AnimaVent_EnclosureUnaffected"
+        }
+      ],
+      "ParentClass": {
+        "ObjectName": "DominionSoundClass'SFX'",
+        "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/SFX"
+      }
+    }
+  }
+]

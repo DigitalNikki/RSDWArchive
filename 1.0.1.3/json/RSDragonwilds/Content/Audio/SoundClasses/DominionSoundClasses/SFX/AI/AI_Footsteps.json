@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "DominionSoundClass",
+    "Name": "AI_Footsteps",
+    "Class": "UScriptClass'DominionSoundClass'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MinReverbSend": 0.1,
+      "MaxReverbSend": 0.5,
+      "OcclusionMultiplier": 1.0,
+      "Properties": {
+        "Volume": 0.17782794,
+        "DefaultSubmix": {
+          "ObjectName": "SoundSubmix'SFX'",
+          "ObjectPath": "/Game/Audio/Submixes/SFX"
+        }
+      },
+      "ChildClasses": [
+        {
+          "ObjectName": "DominionSoundClass'AI_Footstep_Garou'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/AI_Footstep_Garou"
+        }
+      ]
+    }
+  }
+]

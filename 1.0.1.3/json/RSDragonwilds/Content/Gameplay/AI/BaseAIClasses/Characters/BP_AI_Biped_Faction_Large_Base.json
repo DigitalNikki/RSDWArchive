@@ -1,0 +1,984 @@
+[
+  {
+    "Type": "AIAttributesComponent",
+    "Name": "AI Attributes Component",
+    "Outer": {
+      "ObjectName": "BP_AI_Biped_Faction_Large_Base_C'Default__BP_AI_Biped_Faction_Large_Base_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.7"
+    },
+    "Class": "UScriptClass'AIAttributesComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DamageTypeAffinities": [
+        {
+          "Key": {
+            "TagName": "DamageType.Magical"
+          },
+          "Value": "EDamageTypeAffinity::Weakness"
+        },
+        {
+          "Key": {
+            "TagName": "DamageType.Physical.Crush"
+          },
+          "Value": "EDamageTypeAffinity::Weakness"
+        },
+        {
+          "Key": {
+            "TagName": "DamageType.Physical.Stab"
+          },
+          "Value": "EDamageTypeAffinity::Resistance"
+        },
+        {
+          "Key": {
+            "TagName": "DamageType.Physical.Slash"
+          },
+          "Value": "EDamageTypeAffinity::Resistance"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "AIBlockingComponent",
+    "Name": "AIBlockingComponent_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_Biped_Faction_Large_Base_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.6"
+    },
+    "Class": "UScriptClass'AIBlockingComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BlockTag": {
+        "TagName": "Audio.Metal.Block"
+      },
+      "ActiveBlockDirectionRef": {
+        "ComponentProperty": "ActiveBlockDirection"
+      },
+      "PassiveBlockDirectionRef": {
+        "ComponentProperty": "PassiveBlockDirection"
+      },
+      "PassiveBlockAngle": 0.0,
+      "ActiveBlockAngle": 25.0,
+      "ActiveBlockSlowDownMultiplier": 0.8,
+      "ActiveBlockRotationRateMultiplier": 0.8,
+      "DamageMitigationMultiplier": 1.0,
+      "TirednessIncreasePerBlock": 0.8,
+      "TirednessThresholdToStartActiveBlocking": 0.1,
+      "BusyStateDurationAfterEnteringActiveBlock": 0.0
+    }
+  },
+  {
+    "Type": "AIDominionGameplayEffectsComponent",
+    "Name": "Gameplay Effects Component",
+    "Outer": {
+      "ObjectName": "BP_AI_Biped_Faction_Large_Base_C'Default__BP_AI_Biped_Faction_Large_Base_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.7"
+    },
+    "Class": "UScriptClass'AIDominionGameplayEffectsComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "AiHealthComponent",
+    "Name": "Health Component",
+    "Outer": {
+      "ObjectName": "BP_AI_Biped_Faction_Large_Base_C'Default__BP_AI_Biped_Faction_Large_Base_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.7"
+    },
+    "Class": "UScriptClass'AiHealthComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaxHealth": 500.0
+    }
+  },
+  {
+    "Type": "AiMovementComponent",
+    "Name": "CharMoveComp",
+    "Outer": {
+      "ObjectName": "BP_AI_Biped_Faction_Large_Base_C'Default__BP_AI_Biped_Faction_Large_Base_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.7"
+    },
+    "Class": "UScriptClass'AiMovementComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SpeedFactorIfMovingBackwards": {
+        "ObjectName": "CurveFloat'Curve_ThaneBeast_BackwardsAccelleration'",
+        "ObjectPath": "/Game/Gameplay/AI/BeastFaction/ThaneBeast/Curve_ThaneBeast_BackwardsAccelleration"
+      }
+    }
+  },
+  {
+    "Type": "AiSightSensorPositionComponent",
+    "Name": "Sight Sensor Position Component",
+    "Outer": {
+      "ObjectName": "BP_AI_Biped_Faction_Large_Base_C'Default__BP_AI_Biped_Faction_Large_Base_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.7"
+    },
+    "Class": "UScriptClass'AiSightSensorPositionComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_AI_Biped_Faction_Large_Base_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_AI_Biped_Faction_Large_Base_C:SimpleConstructionScript_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.30"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_AI_Biped_Faction_Large_Base_C:InheritableComponentHandler'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.19"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_AI_Biped_Faction_Large_Base_C:ExecuteUbergraph_BP_AI_Biped_Faction_Large_Base'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.16"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_Biped_Faction_Melee_Base_C'",
+      "ObjectPath": "/Game/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Melee_Base"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_AI_Biped_Faction_Large_Base_C:ReceiveBeginPlay'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.17"
+      },
+      {
+        "ObjectName": "Function'BP_AI_Biped_Faction_Large_Base_C:ExecuteUbergraph_BP_AI_Biped_Faction_Large_Base'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.16"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Object'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ActiveBlockDirection",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PassiveBlockDirection",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AIBlockingComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'AIBlockingComponent'",
+          "ObjectPath": "/Script/Dominion"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Shield",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_LargeBeastAttackOpportunityComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_MediumBeast_AttackOpportunityComponent_C'",
+          "ObjectPath": "/Game/Gameplay/AI/BeastFaction/MediumBeast/Attacks/BP_MediumBeast_AttackOpportunityComponent"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_AI_Biped_Faction_Large_Base": {
+        "ObjectName": "Function'BP_AI_Biped_Faction_Large_Base_C:ExecuteUbergraph_BP_AI_Biped_Faction_Large_Base'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.16"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'BP_AI_Biped_Faction_Large_Base_C:ReceiveBeginPlay'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.17"
+      }
+    },
+    "ClassFlags": "CLASS_Abstract | CLASS_Config | CLASS_NoExport | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_AI_Biped_Faction_Large_Base_C'Default__BP_AI_Biped_Faction_Large_Base_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.7"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_AI_Biped_Faction_Large_Base_C",
+    "Name": "Default__BP_AI_Biped_Faction_Large_Base_C",
+    "Class": "BlueprintGeneratedClass'1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.BP_AI_Biped_Faction_Large_Base_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {}
+    }
+  },
+  {
+    "Type": "BP_AiDeathComponent_C",
+    "Name": "BP_AiDeathComponent_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_Biped_Faction_Large_Base_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.6"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate"
+  },
+  {
+    "Type": "BP_AiHealthBarComponent_C",
+    "Name": "BP_AiHealthBarComponent_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_Biped_Faction_Large_Base_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.6"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate"
+  },
+  {
+    "Type": "BP_AiHitReactionsComponent_C",
+    "Name": "BP_AiHitReactionsComponent_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_Biped_Faction_Large_Base_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.6"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate"
+  },
+  {
+    "Type": "BP_MediumBeast_AttackOpportunityComponent_C",
+    "Name": "BP_LargeBeastAttackOpportunityComponent_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_Biped_Faction_Large_Base_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.6"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "BP_TagActivatedFX_C",
+    "Name": "TagActivatedFX",
+    "Outer": {
+      "ObjectName": "BP_AI_Biped_Faction_Large_Base_C'Default__BP_AI_Biped_Faction_Large_Base_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.7"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Outer": {
+      "ObjectName": "BP_AI_Biped_Faction_Large_Base_C'Default__BP_AI_Biped_Faction_Large_Base_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.7"
+    },
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CapsuleHalfHeight": 140.0,
+      "CapsuleRadius": 70.0
+    }
+  },
+  {
+    "Type": "DominionAIActionsComponent",
+    "Name": "DominionAIActionsComponent",
+    "Outer": {
+      "ObjectName": "BP_AI_Biped_Faction_Large_Base_C'Default__BP_AI_Biped_Faction_Large_Base_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.7"
+    },
+    "Class": "UScriptClass'DominionAIActionsComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "EnvironmentComponent",
+    "Name": "Environment Component",
+    "Outer": {
+      "ObjectName": "BP_AI_Biped_Faction_Large_Base_C'Default__BP_AI_Biped_Faction_Large_Base_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.7"
+    },
+    "Class": "UScriptClass'EnvironmentComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_AI_Biped_Faction_Large_Base",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_Biped_Faction_Large_Base_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.6"
+    },
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_Biped_Faction_Large_Base_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.6"
+    },
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'BP_AI_Biped_Faction_Melee_Base_C:ReceiveBeginPlay'",
+      "ObjectPath": "/Game/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Melee_Base"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "GameplayTagsComponent",
+    "Name": "GameplayTagsComponent",
+    "Outer": {
+      "ObjectName": "BP_AI_Biped_Faction_Large_Base_C'Default__BP_AI_Biped_Faction_Large_Base_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.7"
+    },
+    "Class": "UScriptClass'GameplayTagsComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_Biped_Faction_Large_Base_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.6"
+    },
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "BlueprintGeneratedClass'BP_AiDeathComponent_C'",
+            "ObjectPath": "/Game/Gameplay/AI/Components/BP_AiDeathComponent"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "BP_AiDeathComponent_C'BP_AI_Biped_Faction_Large_Base_C:BP_AiDeathComponent_GEN_VARIABLE'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.8"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_AI_Biped_Base_C'",
+              "ObjectPath": "/Game/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Base"
+            },
+            "SCSVariableName": "BP_AiDeathComponent",
+            "AssociatedGuid": "0CC921EB-43120990-5809CDA9-007BAF5B"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "StaticMeshComponent'BP_AI_Biped_Faction_Large_Base_C:Weapon_GEN_VARIABLE'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.33"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_AI_Biped_Base_C'",
+              "ObjectPath": "/Game/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Base"
+            },
+            "SCSVariableName": "Weapon",
+            "AssociatedGuid": "3A7ED551-4C0089F7-85CE76AD-FBBF5A2C"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "BlueprintGeneratedClass'BP_AiHitReactionsComponent_C'",
+            "ObjectPath": "/Game/Gameplay/AI/Components/BP_AiHitReactionsComponent"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "BP_AiHitReactionsComponent_C'BP_AI_Biped_Faction_Large_Base_C:BP_AiHitReactionsComponent_GEN_VARIABLE'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.10"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_AI_Biped_Base_C'",
+              "ObjectPath": "/Game/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Base"
+            },
+            "SCSVariableName": "BP_AiHitReactionsComponent",
+            "AssociatedGuid": "0B82FFF7-429B1E29-CB3BDAA2-AE6E0C2B"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "BlueprintGeneratedClass'BP_AiHealthBarComponent_C'",
+            "ObjectPath": "/Game/Gameplay/AI/Components/BP_AiHealthBarComponent"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "BP_AiHealthBarComponent_C'BP_AI_Biped_Faction_Large_Base_C:BP_AiHealthBarComponent_GEN_VARIABLE'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.9"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_AI_Biped_Base_C'",
+              "ObjectPath": "/Game/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Base"
+            },
+            "SCSVariableName": "BP_AiHealthBarComponent",
+            "AssociatedGuid": "6A8FB227-4EDA65EE-1F2AF5A1-22343270"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MeshOverlayMaterialManager",
+    "Name": "MeshOverlayMaterialManager",
+    "Outer": {
+      "ObjectName": "BP_AI_Biped_Faction_Large_Base_C'Default__BP_AI_Biped_Faction_Large_Base_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.7"
+    },
+    "Class": "UScriptClass'MeshOverlayMaterialManager'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "ActiveBlockDirection_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_Biped_Faction_Large_Base_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.6"
+    },
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 9.449906E-16,
+        "Y": 23.0,
+        "Z": 115.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 80.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_Biped_Faction_Large_Base_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.6"
+    },
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PassiveBlockDirection_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_Biped_Faction_Large_Base_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.6"
+    },
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 60.0,
+        "Y": 60.0,
+        "Z": 140.0
+      },
+      "RelativeRotation": {
+        "Pitch": 20.0,
+        "Yaw": 30.0,
+        "Roll": -105.0
+      }
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_AI_Biped_Faction_Large_Base_C:SimpleConstructionScript_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.30"
+    },
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_AI_Biped_Faction_Large_Base_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.22"
+      },
+      "VariableGUID": "1D2A580A-41ADCDDC-5DC619AA-4E66816F",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_AI_Biped_Faction_Large_Base_C:SimpleConstructionScript_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.30"
+    },
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_AI_Biped_Faction_Large_Base_C:Shield_GEN_VARIABLE'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.32"
+      },
+      "AttachToName": "prop_L",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "45747C81-45FC3B32-965C5482-FDB5736C",
+      "InternalVariableName": "Shield"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_AI_Biped_Faction_Large_Base_C:SimpleConstructionScript_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.30"
+    },
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_MediumBeast_AttackOpportunityComponent_C'",
+        "ObjectPath": "/Game/Gameplay/AI/BeastFaction/MediumBeast/Attacks/BP_MediumBeast_AttackOpportunityComponent"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_MediumBeast_AttackOpportunityComponent_C'BP_AI_Biped_Faction_Large_Base_C:BP_LargeBeastAttackOpportunityComponent_GEN_VARIABLE'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.11"
+      },
+      "VariableGUID": "3C1400FD-4AAFB44E-127841B3-153A2C57",
+      "InternalVariableName": "BP_LargeBeastAttackOpportunityComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_AI_Biped_Faction_Large_Base_C:SimpleConstructionScript_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.30"
+    },
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AIBlockingComponent'",
+        "ObjectPath": "/Script/Dominion"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AIBlockingComponent'BP_AI_Biped_Faction_Large_Base_C:AIBlockingComponent_GEN_VARIABLE'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.1"
+      },
+      "VariableGUID": "7BD61885-4FEA0A53-3DB3A0BD-1428C6BA",
+      "InternalVariableName": "AIBlockingComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_AI_Biped_Faction_Large_Base_C:SimpleConstructionScript_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.30"
+    },
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_AI_Biped_Faction_Large_Base_C:PassiveBlockDirection_GEN_VARIABLE'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.23"
+      },
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "AB9FC1E0-4766A306-F26E27A9-281C04FB",
+      "InternalVariableName": "PassiveBlockDirection"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_AI_Biped_Faction_Large_Base_C:SimpleConstructionScript_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.30"
+    },
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_AI_Biped_Faction_Large_Base_C:ActiveBlockDirection_GEN_VARIABLE'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.21"
+      },
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "6FF8A2B6-4186ECC7-462B6B8E-9988CA6B",
+      "InternalVariableName": "ActiveBlockDirection"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_Biped_Faction_Large_Base_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.6"
+    },
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_AI_Biped_Faction_Large_Base_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.26"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AI_Biped_Faction_Large_Base_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.25"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AI_Biped_Faction_Large_Base_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.27"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AI_Biped_Faction_Large_Base_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.28"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AI_Biped_Faction_Large_Base_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.29"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_AI_Biped_Faction_Large_Base_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.26"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AI_Biped_Faction_Large_Base_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.25"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AI_Biped_Faction_Large_Base_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.27"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AI_Biped_Faction_Large_Base_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.28"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AI_Biped_Faction_Large_Base_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.29"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_AI_Biped_Faction_Large_Base_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.24"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "CharacterMesh0",
+    "Outer": {
+      "ObjectName": "BP_AI_Biped_Faction_Large_Base_C'Default__BP_AI_Biped_Faction_Large_Base_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.7"
+    },
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABP_Thane_C'",
+        "ObjectPath": "/Game/Art/Skeleton/NPC/Faction/M_LRG_Beast_Thane_01/ABP_Thane"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_M_LRG_Beast_Thane_02'",
+        "ObjectPath": "/Game/Art/Skeleton/NPC/Faction/M_LRG_Beast_Thane_01/SK_M_LRG_Beast_Thane_02"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SK_M_LRG_Beast_Thane_02'",
+        "ObjectPath": "/Game/Art/Skeleton/NPC/Faction/M_LRG_Beast_Thane_01/SK_M_LRG_Beast_Thane_02"
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_AI_Biped_Faction_Large_Base_C:CollisionCylinder'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.13"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -140.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Shield_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_Biped_Faction_Large_Base_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.6"
+    },
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_M_LRG_Beast_Thane_Shield_01'",
+        "ObjectPath": "/Game/Art/Skeleton/NPC/Faction/M_LRG_Beast_Thane_Shield_01/SM_M_LRG_Beast_Thane_Shield_01"
+      },
+      "bGenerateOverlapEvents": false,
+      "CanCharacterStepUpOn": "ECanBeCharacterBase::ECB_No",
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_GameTraceChannel17",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel2",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel3",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel4",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel5",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel6",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Ai",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Player",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Building",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Ground",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Weapon_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_Biped_Faction_Large_Base_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.6"
+    },
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_M_LRG_Beast_Thane_Axe_01'",
+        "ObjectPath": "/Game/Art/Skeleton/NPC/Faction/M_LRG_Beast_Thane_Axe_01/SM_M_LRG_Beast_Thane_Axe_01"
+      }
+    }
+  },
+  {
+    "Type": "TrackedStatusEffectInstance",
+    "Name": "TrackedStatusEffectInstance_0",
+    "Outer": {
+      "ObjectName": "TrackedStatusEffectsComponent'Default__BP_AI_Biped_Faction_Large_Base_C:Tracked Status Effects Component'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.40"
+    },
+    "Class": "UScriptClass'TrackedStatusEffectInstance'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TrackedStatusEffectInstance",
+    "Name": "TrackedStatusEffectInstance_1",
+    "Outer": {
+      "ObjectName": "TrackedStatusEffectsComponent'Default__BP_AI_Biped_Faction_Large_Base_C:Tracked Status Effects Component'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.40"
+    },
+    "Class": "UScriptClass'TrackedStatusEffectInstance'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TrackedStatusEffectInstanceBleeding",
+    "Name": "TrackedStatusEffectInstanceBleeding_0",
+    "Outer": {
+      "ObjectName": "TrackedStatusEffectsComponent'Default__BP_AI_Biped_Faction_Large_Base_C:Tracked Status Effects Component'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.40"
+    },
+    "Class": "UScriptClass'TrackedStatusEffectInstanceBleeding'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TrackedStatusEffectInstanceBurning",
+    "Name": "TrackedStatusEffectInstanceBurning_0",
+    "Outer": {
+      "ObjectName": "TrackedStatusEffectsComponent'Default__BP_AI_Biped_Faction_Large_Base_C:Tracked Status Effects Component'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.40"
+    },
+    "Class": "UScriptClass'TrackedStatusEffectInstanceBurning'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TrackedStatusEffectInstancePoison",
+    "Name": "TrackedStatusEffectInstancePoison_0",
+    "Outer": {
+      "ObjectName": "TrackedStatusEffectsComponent'Default__BP_AI_Biped_Faction_Large_Base_C:Tracked Status Effects Component'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.40"
+    },
+    "Class": "UScriptClass'TrackedStatusEffectInstancePoison'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TrackedStatusEffectInstanceSlow",
+    "Name": "TrackedStatusEffectInstanceSlow_0",
+    "Outer": {
+      "ObjectName": "TrackedStatusEffectsComponent'Default__BP_AI_Biped_Faction_Large_Base_C:Tracked Status Effects Component'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.40"
+    },
+    "Class": "UScriptClass'TrackedStatusEffectInstanceSlow'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TrackedStatusEffectsComponent",
+    "Name": "Tracked Status Effects Component",
+    "Outer": {
+      "ObjectName": "BP_AI_Biped_Faction_Large_Base_C'Default__BP_AI_Biped_Faction_Large_Base_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.7"
+    },
+    "Class": "UScriptClass'TrackedStatusEffectsComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TrackedStatusEffectInstances": [
+        {
+          "ObjectName": "TrackedStatusEffectInstancePoison'Default__BP_AI_Biped_Faction_Large_Base_C:Tracked Status Effects Component.TrackedStatusEffectInstancePoison_0'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.38"
+        },
+        {
+          "ObjectName": "TrackedStatusEffectInstanceBurning'Default__BP_AI_Biped_Faction_Large_Base_C:Tracked Status Effects Component.TrackedStatusEffectInstanceBurning_0'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.37"
+        },
+        {
+          "ObjectName": "TrackedStatusEffectInstanceBleeding'Default__BP_AI_Biped_Faction_Large_Base_C:Tracked Status Effects Component.TrackedStatusEffectInstanceBleeding_0'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.36"
+        },
+        {
+          "ObjectName": "TrackedStatusEffectInstanceSlow'Default__BP_AI_Biped_Faction_Large_Base_C:Tracked Status Effects Component.TrackedStatusEffectInstanceSlow_0'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.39"
+        },
+        {
+          "ObjectName": "TrackedStatusEffectInstance'Default__BP_AI_Biped_Faction_Large_Base_C:Tracked Status Effects Component.TrackedStatusEffectInstance_0'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.34"
+        },
+        {
+          "ObjectName": "TrackedStatusEffectInstance'Default__BP_AI_Biped_Faction_Large_Base_C:Tracked Status Effects Component.TrackedStatusEffectInstance_1'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Faction_Large_Base.35"
+        }
+      ]
+    }
+  }
+]

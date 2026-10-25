@@ -1,0 +1,75 @@
+[
+  {
+    "Type": "QuestData",
+    "Name": "Quest_AMelodyRemebered",
+    "Class": "UScriptClass'QuestData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "QuestName": {
+        "TableId": "/Game/Gameplay/Quests/AMelodyRemebered/ST_AMelodyRemebered.ST_AMelodyRemebered",
+        "Key": "QuestName",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "CompletedQuestDescription": {
+        "TableId": "/Game/Gameplay/Quests/ST_QuestCompletionText.ST_QuestCompletionText",
+        "Key": "AMelodyRemembered",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "QuestRegion": "EQuestRegion::Ghornfell",
+      "QuestDescription": {
+        "TableId": "/Game/Gameplay/Quests/AMelodyRemebered/ST_AMelodyRemebered.ST_AMelodyRemebered",
+        "Key": "QuestDesc",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Objectives": [
+        {
+          "Key": "Objective1",
+          "Value": {
+            "Description": {
+              "TableId": "/Game/Gameplay/Quests/AMelodyRemebered/ST_AMelodyRemebered.ST_AMelodyRemebered",
+              "Key": "QuestObjective.1",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "SubobjectiveDescription": {
+              "CultureInvariantString": null
+            },
+            "Hint": {
+              "CultureInvariantString": null
+            },
+            "bOverrideQuestDescription": false,
+            "QuestDescriptionOverride": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        {
+          "Key": "Objective2",
+          "Value": {
+            "Description": {
+              "TableId": "/Game/Gameplay/Quests/AMelodyRemebered/ST_AMelodyRemebered.ST_AMelodyRemebered",
+              "Key": "QuestObjective.2",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "SubobjectiveDescription": {
+              "CultureInvariantString": null
+            },
+            "Hint": {
+              "CultureInvariantString": null
+            },
+            "bOverrideQuestDescription": false,
+            "QuestDescriptionOverride": {
+              "CultureInvariantString": null
+            }
+          }
+        }
+      ],
+      "PersistenceID": "O3ruOkgGHBqwIheSH_7BBg",
+      "InternalName": "Quest_AMelodyRemebered"
+    }
+  }
+]

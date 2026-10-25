@@ -1,0 +1,23 @@
+[
+  {
+    "Type": "PathSplineActionBendAlongPath",
+    "Name": "DA_PS_SpectralPath_Overworld",
+    "Class": "UScriptClass'PathSplineActionBendAlongPath'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "OffsetZ": -5.0,
+      "ScaleXY": 2.12,
+      "Meshs": [
+        {
+          "ObjectName": "StaticMesh'SM_PathDecalPlane'",
+          "ObjectPath": "/Game/Art/Env/Misc/Tools/PathAssets/SM_PathDecalPlane"
+        }
+      ],
+      "OverrideMaterial": {
+        "ObjectName": "MaterialInstanceConstant'MI_VFX_SpectralPath_Overworld'",
+        "ObjectPath": "/Game/Art/VFX/Library/Env/Fellhollow/SpectralPath/MI_VFX_SpectralPath_Overworld"
+      },
+      "ItemName": "SpectralPath"
+    }
+  }
+]

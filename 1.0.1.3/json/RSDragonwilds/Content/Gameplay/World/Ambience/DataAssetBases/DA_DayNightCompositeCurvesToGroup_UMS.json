@@ -1,0 +1,182 @@
+[
+  {
+    "Type": "CompositeGroupCurves",
+    "Name": "DA_DayNightCompositeCurvesToGroup_UMS",
+    "Class": "UScriptClass'CompositeGroupCurves'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CurvesToGroup": [
+        {
+          "CurveRow": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'CT_DayNightCompositeCurves_UMS'",
+              "ObjectPath": "/Game/Gameplay/World/Ambience/DataAssetBases/CT_DayNightCompositeCurves_UMS"
+            },
+            "RowName": "Night"
+          },
+          "Group": {
+            "ObjectName": "CompositeVariableGroup'DA_Amb_RV_Night_UMS_baseline'",
+            "ObjectPath": "/Game/Gameplay/World/Ambience/Ambiences/DA_Amb_RV_Night_UMS_baseline"
+          }
+        },
+        {
+          "CurveRow": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'CT_DayNightCompositeCurves_UMS'",
+              "ObjectPath": "/Game/Gameplay/World/Ambience/DataAssetBases/CT_DayNightCompositeCurves_UMS"
+            },
+            "RowName": "Dawn"
+          },
+          "Group": {
+            "ObjectName": "CompositeVariableGroup'DA_Amb_RV_MorningUMS'",
+            "ObjectPath": "/Game/Gameplay/World/Ambience/Ambiences/DA_Amb_RV_MorningUMS"
+          }
+        },
+        {
+          "CurveRow": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'CT_DayNightCompositeCurves_UMS'",
+              "ObjectPath": "/Game/Gameplay/World/Ambience/DataAssetBases/CT_DayNightCompositeCurves_UMS"
+            },
+            "RowName": "Day"
+          },
+          "Group": {
+            "ObjectName": "CompositeVariableGroup'DA_Amb_RV_Day_UMS'",
+            "ObjectPath": "/Game/Gameplay/World/Ambience/Ambiences/DA_Amb_RV_Day_UMS"
+          }
+        },
+        {
+          "CurveRow": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'CT_DayNightCompositeCurves_UMS'",
+              "ObjectPath": "/Game/Gameplay/World/Ambience/DataAssetBases/CT_DayNightCompositeCurves_UMS"
+            },
+            "RowName": "Golden hour"
+          },
+          "Group": {
+            "ObjectName": "CompositeVariableGroup'DA_Amb_RV_GoldenHour_UMS'",
+            "ObjectPath": "/Game/Gameplay/World/Ambience/Ambiences/DA_Amb_RV_GoldenHour_UMS"
+          }
+        },
+        {
+          "CurveRow": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'CT_DayNightCompositeCurves_UMS'",
+              "ObjectPath": "/Game/Gameplay/World/Ambience/DataAssetBases/CT_DayNightCompositeCurves_UMS"
+            },
+            "RowName": "Dawn_Fog"
+          },
+          "Group": {
+            "ObjectName": "CompositeVariableGroup'DA_AMB_Morning_Fog_UMS'",
+            "ObjectPath": "/Game/Gameplay/World/Ambience/Ambiences/DA_AMB_Morning_Fog_UMS"
+          }
+        },
+        {
+          "CurveRow": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'CT_DayNightCompositeCurves_UMS'",
+              "ObjectPath": "/Game/Gameplay/World/Ambience/DataAssetBases/CT_DayNightCompositeCurves_UMS"
+            },
+            "RowName": "Dawn_SkyColor"
+          },
+          "Group": {
+            "ObjectName": "CompositeVariableGroup'DA_AMB_Morning_SkyColor_UMS'",
+            "ObjectPath": "/Game/Gameplay/World/Ambience/Ambiences/DA_AMB_Morning_SkyColor_UMS"
+          }
+        },
+        {
+          "CurveRow": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'CT_DayNightCompositeCurves_UMS'",
+              "ObjectPath": "/Game/Gameplay/World/Ambience/DataAssetBases/CT_DayNightCompositeCurves_UMS"
+            },
+            "RowName": "GoldenHour_SkyColor"
+          },
+          "Group": {
+            "ObjectName": "CompositeVariableGroup'DA_AMB_GoldenHour_SkyColor_UMS'",
+            "ObjectPath": "/Game/Gameplay/World/Ambience/Ambiences/DA_AMB_GoldenHour_SkyColor_UMS"
+          }
+        },
+        {
+          "CurveRow": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'CT_DayNightCompositeCurves_UMS'",
+              "ObjectPath": "/Game/Gameplay/World/Ambience/DataAssetBases/CT_DayNightCompositeCurves_UMS"
+            },
+            "RowName": "GoldenHour_Fog"
+          },
+          "Group": {
+            "ObjectName": "CompositeVariableGroup'DA_AMB_GoldenHour_Fog_UMS'",
+            "ObjectPath": "/Game/Gameplay/World/Ambience/Ambiences/DA_AMB_GoldenHour_Fog_UMS"
+          }
+        },
+        {
+          "CurveRow": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'CT_DayNightCompositeCurves_UMS'",
+              "ObjectPath": "/Game/Gameplay/World/Ambience/DataAssetBases/CT_DayNightCompositeCurves_UMS"
+            },
+            "RowName": "Night_Fog"
+          },
+          "Group": {
+            "ObjectName": "CompositeVariableGroup'DA_AMB_Nighttime_Fog_UMS_baseline'",
+            "ObjectPath": "/Game/Gameplay/World/Ambience/Ambiences/DA_AMB_Nighttime_Fog_UMS_baseline"
+          }
+        },
+        {
+          "CurveRow": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'CT_DayNightCompositeCurves_UMS'",
+              "ObjectPath": "/Game/Gameplay/World/Ambience/DataAssetBases/CT_DayNightCompositeCurves_UMS"
+            },
+            "RowName": "Night_SkyColor"
+          },
+          "Group": {
+            "ObjectName": "CompositeVariableGroup'DA_AMB_Nighttime_SkyColor_UMS_baseline'",
+            "ObjectPath": "/Game/Gameplay/World/Ambience/Ambiences/DA_AMB_Nighttime_SkyColor_UMS_baseline"
+          }
+        },
+        {
+          "CurveRow": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'CT_DayNightCompositeCurves_UMS'",
+              "ObjectPath": "/Game/Gameplay/World/Ambience/DataAssetBases/CT_DayNightCompositeCurves_UMS"
+            },
+            "RowName": "Day_SkyColor"
+          },
+          "Group": {
+            "ObjectName": "CompositeVariableGroup'DA_AMB_Day_SkyColor_UMS'",
+            "ObjectPath": "/Game/Gameplay/World/Ambience/Ambiences/DA_AMB_Day_SkyColor_UMS"
+          }
+        },
+        {
+          "CurveRow": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'CT_DayNightCompositeCurves_UMS'",
+              "ObjectPath": "/Game/Gameplay/World/Ambience/DataAssetBases/CT_DayNightCompositeCurves_UMS"
+            },
+            "RowName": "Nightime_Sun_Occlusion"
+          },
+          "Group": {
+            "ObjectName": "CompositeVariableGroup'DA_AMB_Nightime_Sun_Occlusion'",
+            "ObjectPath": "/Game/Gameplay/World/Ambience/Ambiences/DA_AMB_Nightime_Sun_Occlusion"
+          }
+        },
+        {
+          "CurveRow": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'CT_DayNightCompositeCurves_UMS'",
+              "ObjectPath": "/Game/Gameplay/World/Ambience/DataAssetBases/CT_DayNightCompositeCurves_UMS"
+            },
+            "RowName": "Halo_Morning"
+          },
+          "Group": {
+            "ObjectName": "CompositeVariableGroup'DA_AMB_Halo_Morning_FH'",
+            "ObjectPath": "/Game/Gameplay/World/Ambience/Ambiences/DA_AMB_Halo_Morning_FH"
+          }
+        }
+      ],
+      "PersistenceID": "zJFyJEhn0gHjyLamBTobaQ"
+    }
+  }
+]

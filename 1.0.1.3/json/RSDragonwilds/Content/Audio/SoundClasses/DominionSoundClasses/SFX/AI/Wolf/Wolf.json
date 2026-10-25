@@ -1,0 +1,44 @@
+[
+  {
+    "Type": "DominionSoundClass",
+    "Name": "Wolf",
+    "Class": "UScriptClass'DominionSoundClass'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "OcclusionMultiplier": 1.0,
+      "Properties": {
+        "Volume": 0.56234133
+      },
+      "ChildClasses": [
+        {
+          "ObjectName": "DominionSoundClass'Wolf_Foley'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/Wolf/Wolf_Foley"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Wolf_FS'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/Wolf/Wolf_FS"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Wolf_Vox_Com_Maj'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/Wolf/Wolf_Vox_Com_Maj"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Wolf_Vox_Com_Min'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/Wolf/Wolf_Vox_Com_Min"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Wolf_Vox_NonCom_Maj'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/Wolf/Wolf_Vox_NonCom_Maj"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Wolf_Vox_NonCom_Min'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/Wolf/Wolf_Vox_NonCom_Min"
+        }
+      ],
+      "ParentClass": {
+        "ObjectName": "DominionSoundClass'AI'",
+        "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/AI"
+      }
+    }
+  }
+]

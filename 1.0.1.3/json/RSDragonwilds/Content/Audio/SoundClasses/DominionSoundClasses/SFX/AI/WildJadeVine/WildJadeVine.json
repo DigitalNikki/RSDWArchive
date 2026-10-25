@@ -1,0 +1,44 @@
+[
+  {
+    "Type": "DominionSoundClass",
+    "Name": "WildJadeVine",
+    "Class": "UScriptClass'DominionSoundClass'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "OcclusionMultiplier": 1.0,
+      "Properties": {
+        "Volume": 0.4466836
+      },
+      "ChildClasses": [
+        {
+          "ObjectName": "DominionSoundClass'WildJadeVine_Foley'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/WildJadeVine/WildJadeVine_Foley"
+        },
+        {
+          "ObjectName": "DominionSoundClass'WildJadeVine_Vox_Com_Maj'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/WildJadeVine/WildJadeVine_Vox_Com_Maj"
+        },
+        {
+          "ObjectName": "DominionSoundClass'WildJadeVine_Vox_Com_Min'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/WildJadeVine/WildJadeVine_Vox_Com_Min"
+        },
+        {
+          "ObjectName": "DominionSoundClass'WildJadeVine_Vox_NonCom_Maj'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/WildJadeVine/WildJadeVine_Vox_NonCom_Maj"
+        },
+        {
+          "ObjectName": "DominionSoundClass'WildJadeVine_Vox_NonCom_Min'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/WildJadeVine/WildJadeVine_Vox_NonCom_Min"
+        },
+        {
+          "ObjectName": "DominionSoundClass'WildJadeVine_Abilties'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/WildJadeVine/WildJadeVine_Abilties"
+        }
+      ],
+      "ParentClass": {
+        "ObjectName": "DominionSoundClass'AI'",
+        "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/AI"
+      }
+    }
+  }
+]

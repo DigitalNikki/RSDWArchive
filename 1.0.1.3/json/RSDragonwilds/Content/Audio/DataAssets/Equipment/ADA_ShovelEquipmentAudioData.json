@@ -1,0 +1,171 @@
+[
+  {
+    "Type": "BP_PlayerSurfaceCondition_C",
+    "Name": "BP_PlayerSurfaceCondition_C_0",
+    "Outer": {
+      "ObjectName": "PlayerEquipmentAnimationAudioData'ADA_ShovelEquipmentAudioData'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Audio/DataAssets/Equipment/ADA_ShovelEquipmentAudioData.2"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "BP_PlayerSurfaceCondition_C",
+    "Name": "BP_PlayerSurfaceCondition_C_1",
+    "Outer": {
+      "ObjectName": "PlayerEquipmentAnimationAudioData'ADA_ShovelEquipmentAudioData'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Audio/DataAssets/Equipment/ADA_ShovelEquipmentAudioData.2"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PlayerEquipmentAnimationAudioData",
+    "Name": "ADA_ShovelEquipmentAudioData",
+    "Class": "UScriptClass'PlayerEquipmentAnimationAudioData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "NotifyToAnimData": [
+        {
+          "Key": "Medium swing",
+          "Value": {
+            "LocalBaseSound": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Pl_Fa_ShovelDig_Wood'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Player/Interactions/Farming/Shovel_Dig/Wood/MSS_Pl_Fa_ShovelDig_Wood"
+            },
+            "RemoteBaseSound": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Pl_Fa_ShovelDig_Wood_Rem'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Player/Interactions/Farming/Shovel_Dig/Wood/MSS_Pl_Fa_ShovelDig_Wood_Rem"
+            },
+            "ConditionalSoundsSoundRule": "ESoundPlayRules::OverrideBase",
+            "ConditionalSounds": [
+              {
+                "CharacterConditionsForPlaying": [
+                  {
+                    "ObjectName": "BP_PlayerSurfaceCondition_C'ADA_ShovelEquipmentAudioData:BP_PlayerSurfaceCondition_C_0'",
+                    "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Audio/DataAssets/Equipment/ADA_ShovelEquipmentAudioData.0"
+                  }
+                ],
+                "SoundToPlay": {
+                  "SoundDelay": 0.0,
+                  "LocalSound": {
+                    "ObjectName": "DominionMetaSoundSource'MSS_Co_ImpactSoft_Warhammer_WaterImpact'",
+                    "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/Impacts_Special/MSS_Co_ImpactSoft_Warhammer_WaterImpact"
+                  },
+                  "RemoteSound": {
+                    "ObjectName": "DominionMetaSoundSource'MSS_Co_ImpactSoft_Warhammer_WaterImpact_Rem'",
+                    "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/Impacts_Special/MSS_Co_ImpactSoft_Warhammer_WaterImpact_Rem"
+                  }
+                }
+              },
+              {
+                "CharacterConditionsForPlaying": [
+                  {
+                    "ObjectName": "BP_PlayerSurfaceCondition_C'ADA_ShovelEquipmentAudioData:BP_PlayerSurfaceCondition_C_1'",
+                    "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Audio/DataAssets/Equipment/ADA_ShovelEquipmentAudioData.1"
+                  }
+                ],
+                "SoundToPlay": {
+                  "SoundDelay": 0.0,
+                  "LocalSound": {
+                    "ObjectName": "DominionMetaSoundSource'MSS_Pl_WC_TooHard_StoneBone'",
+                    "ObjectPath": "/Game/Audio/MetasoundSources/Player/Interactions/WoodCutting/MSS_Pl_WC_TooHard_StoneBone"
+                  },
+                  "RemoteSound": {
+                    "ObjectName": "DominionMetaSoundSource'MSS_Pl_WC_TooHard_StoneBone_Rem'",
+                    "ObjectPath": "/Game/Audio/MetasoundSources/Player/Interactions/WoodCutting/MSS_Pl_WC_TooHard_StoneBone_Rem"
+                  }
+                }
+              }
+            ],
+            "bIsAffectedByAmmo": false,
+            "MaterialSoundRule": "ESoundPlayRules::OverrideBase",
+            "MaterialToSoundMap": [
+              {
+                "Key": {
+                  "TagName": "Audio.Farming.Shovel.Bronze"
+                },
+                "Value": {
+                  "SoundDelay": 0.0,
+                  "LocalSound": {
+                    "ObjectName": "DominionMetaSoundSource'MSS_Pl_Fa_ShovelDig_Metal'",
+                    "ObjectPath": "/Game/Audio/MetasoundSources/Player/Interactions/Farming/Shovel_Dig/Metal/MSS_Pl_Fa_ShovelDig_Metal"
+                  },
+                  "RemoteSound": {
+                    "ObjectName": "DominionMetaSoundSource'MSS_Pl_Fa_ShovelDig2_Metal_Rem'",
+                    "ObjectPath": "/Game/Audio/MetasoundSources/Player/Interactions/Farming/Shovel_Dig/Metal/MSS_Pl_Fa_ShovelDig2_Metal_Rem"
+                  }
+                }
+              },
+              {
+                "Key": {
+                  "TagName": "Audio.Farming.Shovel.Steel"
+                },
+                "Value": {
+                  "SoundDelay": 0.0,
+                  "LocalSound": {
+                    "ObjectName": "DominionMetaSoundSource'MSS_Pl_Fa_ShovelDig_Metal'",
+                    "ObjectPath": "/Game/Audio/MetasoundSources/Player/Interactions/Farming/Shovel_Dig/Metal/MSS_Pl_Fa_ShovelDig_Metal"
+                  },
+                  "RemoteSound": {
+                    "ObjectName": "DominionMetaSoundSource'MSS_Pl_Fa_ShovelDig2_Metal_Rem'",
+                    "ObjectPath": "/Game/Audio/MetasoundSources/Player/Interactions/Farming/Shovel_Dig/Metal/MSS_Pl_Fa_ShovelDig2_Metal_Rem"
+                  }
+                }
+              }
+            ],
+            "EffectSoundRule": "ESoundPlayRules::Solo",
+            "EffectToSoundMap": [
+              {
+                "Key": {
+                  "TagName": "DamageType.Magical.Fire"
+                },
+                "Value": {
+                  "SoundDelay": 0.0,
+                  "LocalSound": {
+                    "ObjectName": "DominionMetaSoundSource'MSS_Co_FireSwing'",
+                    "ObjectPath": "/Game/Audio/MetasoundSources/Combat/MagicSwings/Fire/MSS_Co_FireSwing"
+                  },
+                  "RemoteSound": {
+                    "ObjectName": "DominionMetaSoundSource'MSS_Co_FireSwing_Rem'",
+                    "ObjectPath": "/Game/Audio/MetasoundSources/Combat/MagicSwings/Fire/MSS_Co_FireSwing_Rem"
+                  }
+                }
+              },
+              {
+                "Key": {
+                  "TagName": "DamageType.Magical.Air"
+                },
+                "Value": {
+                  "SoundDelay": 0.0,
+                  "LocalSound": {
+                    "ObjectName": "DominionMetaSoundSource'MSS_Co_AirSwing'",
+                    "ObjectPath": "/Game/Audio/MetasoundSources/Combat/MagicSwings/Air/MSS_Co_AirSwing"
+                  },
+                  "RemoteSound": {
+                    "ObjectName": "DominionMetaSoundSource'MSS_Co_AirSwing_Rem'",
+                    "ObjectPath": "/Game/Audio/MetasoundSources/Combat/MagicSwings/Air/MSS_Co_AirSwing_Rem"
+                  }
+                }
+              },
+              {
+                "Key": {
+                  "TagName": "DamageType.Magical.Water"
+                },
+                "Value": {
+                  "SoundDelay": 0.0,
+                  "LocalSound": {
+                    "ObjectName": "DominionMetaSoundSource'MSS_Co_WaterSwing'",
+                    "ObjectPath": "/Game/Audio/MetasoundSources/Combat/MagicSwings/Water/MSS_Co_WaterSwing"
+                  },
+                  "RemoteSound": {
+                    "ObjectName": "DominionMetaSoundSource'MSS_Co_WaterSwing_Rem'",
+                    "ObjectPath": "/Game/Audio/MetasoundSources/Combat/MagicSwings/Water/MSS_Co_WaterSwing_Rem"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+]

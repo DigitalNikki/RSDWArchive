@@ -1,0 +1,82 @@
+[
+  {
+    "Type": "MagicAmmoData",
+    "Name": "ITEM_Rune_Fire",
+    "Class": "UScriptClass'MagicAmmoData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BaseDamageTypes": [
+        "DamageType.Magical.Fire"
+      ],
+      "AmmoVfxElementValue": "EMagicAmmoVfxElement::Fire",
+      "AmmoCounterIcon": {
+        "ObjectName": "Texture2D'T_Icons_Rune_Fire'",
+        "ObjectPath": "/Game/Art/UI/Icons/Runes/T_Icons_Rune_Fire"
+      },
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Runecrafting'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Runecrafting"
+      },
+      "SkillPerkRequiredToEquip": {
+        "ObjectName": "SkillPerkData'PerkV2_Magic_FireMagic'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/PerksV2/Magic/PerkV2_Magic_FireMagic"
+      },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Runecrafting'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Runecrafting"
+      },
+      "Name": {
+        "TableId": "/Game/UI/ST_Localization.ST_Localization",
+        "Key": "FireRune",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "FireRune",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Rune_Fire.T_Icon_Rune_Fire",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Rune_Pouch/SM_Rune_Pouch_01.SM_Rune_Pouch_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 9999,
+      "Category": {
+        "TagName": "ItemFilter.Type.Equipment.Ammo.Rune"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Ammo.Rune"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Magic.Rune"
+      },
+      "bDropOnDeath": false,
+      "BuffDatas": [
+        {
+          "Title": {
+            "CultureInvariantString": null
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "Rune.Fire.SpecialEffect",
+            "SourceString": null,
+            "LocalizedString": ""
+          },
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "PersistenceID": "_QMgbMYhjU-9jAD_euFbyQ",
+      "InternalName": "res_rune_fire"
+    }
+  }
+]

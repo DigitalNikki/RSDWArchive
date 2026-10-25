@@ -1,0 +1,31 @@
+[
+  {
+    "Type": "FarmPlantStageData",
+    "Name": "FPSD_WeedsStage2",
+    "Class": "UScriptClass'FarmPlantStageData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Healthy": {
+        "Mesh": {
+          "ObjectName": "StaticMesh'SM_BM_Weeds_03'",
+          "ObjectPath": "/Game/Art/Env/Base_Building/Farming/Weeds/SM_BM_Weeds_03"
+        }
+      },
+      "Diseased": {
+        "Mesh": {
+          "ObjectName": "StaticMesh'SM_Placeholder_Cube'",
+          "ObjectPath": "/Game/Art/VFX/Library/Placeholder/Assets/SM_Placeholder_Cube"
+        }
+      },
+      "Dead": {
+        "Mesh": {
+          "ObjectName": "StaticMesh'SM_Item_Placeholder'",
+          "ObjectPath": "/Game/Art/Item/Resource/SM_Item_Placeholder"
+        }
+      },
+      "CyclesToGrow": 2.0,
+      "PersistenceID": "2mt9a0S4LauVoPSj6cLErA",
+      "InternalName": "FPSD_WeedsStage2"
+    }
+  }
+]

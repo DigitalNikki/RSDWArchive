@@ -1,0 +1,65 @@
+[
+  {
+    "Type": "DominionInputMode",
+    "Name": "DIM_Gameplay_LockOnTargeting",
+    "Class": "UScriptClass'DominionInputMode'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "InputConfig": "EDominionWidgetInputMode::Game",
+      "Mappings": [
+        {
+          "InputMapping": {
+            "ObjectName": "InputMappingContext'IMC_LockOnTargeting'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Mappings/IMC_LockOnTargeting"
+          },
+          "Priority": 0,
+          "DebugBuildsOnly": false
+        },
+        {
+          "InputMapping": {
+            "ObjectName": "InputMappingContext'IMC_Movement'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Mappings/IMC_Movement"
+          },
+          "Priority": 0,
+          "DebugBuildsOnly": false
+        },
+        {
+          "InputMapping": {
+            "ObjectName": "InputMappingContext'IMC_Combat'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Mappings/IMC_Combat"
+          },
+          "Priority": 1,
+          "DebugBuildsOnly": false
+        },
+        {
+          "InputMapping": {
+            "ObjectName": "InputMappingContext'IMC_GameplayUI'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Mappings/IMC_GameplayUI"
+          },
+          "Priority": 2,
+          "DebugBuildsOnly": false
+        },
+        {
+          "InputMapping": {
+            "ObjectName": "InputMappingContext'IMC_InventoryToggle'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Mappings/IMC_InventoryToggle"
+          },
+          "Priority": 0,
+          "DebugBuildsOnly": false
+        },
+        {
+          "InputMapping": {
+            "ObjectName": "InputMappingContext'IMC_DebugToggleWithPause'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Mappings/IMC_DebugToggleWithPause"
+          },
+          "Priority": 3,
+          "DebugBuildsOnly": true
+        }
+      ],
+      "bAllowInteraction": true,
+      "bCanHoldToAttackWhileModeActive": true,
+      "LegendWidgetType": "EInputLegendWidgetType::Gameplay",
+      "bEnableHorizontalMenuNavigationUsingGamepadDPad": true
+    }
+  }
+]

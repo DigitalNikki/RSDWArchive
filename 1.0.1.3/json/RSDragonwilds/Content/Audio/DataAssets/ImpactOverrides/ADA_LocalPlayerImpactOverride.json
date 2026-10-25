@@ -1,0 +1,24 @@
+[
+  {
+    "Type": "ImpactAudioOverrideData",
+    "Name": "ADA_LocalPlayerImpactOverride",
+    "Class": "UScriptClass'ImpactAudioOverrideData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SoundClass": {
+        "ObjectName": "DominionSoundClass'Player_Melee_Impacts'",
+        "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Player/Combat/Player_Melee_Impacts"
+      },
+      "AttenuationSettings": {
+        "ObjectName": "SoundAttenuation'ATT_Pl_LocalCombat'",
+        "ObjectPath": "/Game/Audio/AttenuationSharesets/Pl_LocalCombat/ATT_Pl_LocalCombat"
+      },
+      "ConcurrencySettings": [
+        {
+          "ObjectName": "SoundConcurrency'Player_Local_Impacts_SC'",
+          "ObjectPath": "/Game/Audio/ConcurrencySettings/Player_Local_Impacts_SC"
+        }
+      ]
+    }
+  }
+]

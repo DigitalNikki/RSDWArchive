@@ -1,0 +1,90 @@
+[
+  {
+    "Type": "InputMappingContext",
+    "Name": "IMC_PauseMenu",
+    "Class": "UScriptClass'InputMappingContext'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Mappings": [
+        {
+          "Triggers": [],
+          "Modifiers": [],
+          "Action": {
+            "ObjectName": "InputAction'IA_UnstuckCharacter_Held'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Actions/UI/IA_UnstuckCharacter_Held"
+          },
+          "Key": {
+            "KeyName": "X"
+          },
+          "SettingBehavior": "EPlayerMappableKeySettingBehaviors::InheritSettingsFromAction",
+          "PlayerMappableKeySettings": null
+        },
+        {
+          "Triggers": [],
+          "Modifiers": [],
+          "Action": {
+            "ObjectName": "InputAction'IA_UnstuckCharacter_Held'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Actions/UI/IA_UnstuckCharacter_Held"
+          },
+          "Key": {
+            "KeyName": "Gamepad_FaceButton_Top"
+          },
+          "SettingBehavior": "EPlayerMappableKeySettingBehaviors::InheritSettingsFromAction",
+          "PlayerMappableKeySettings": null
+        },
+        {
+          "Triggers": [],
+          "Modifiers": [],
+          "Action": {
+            "ObjectName": "InputAction'IA_UI_GenericBack'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Actions/UI/IA_UI_GenericBack"
+          },
+          "Key": {
+            "KeyName": "Escape"
+          },
+          "SettingBehavior": "EPlayerMappableKeySettingBehaviors::InheritSettingsFromAction",
+          "PlayerMappableKeySettings": null
+        },
+        {
+          "Triggers": [],
+          "Modifiers": [],
+          "Action": {
+            "ObjectName": "InputAction'IA_UI_GenericBack'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Actions/UI/IA_UI_GenericBack"
+          },
+          "Key": {
+            "KeyName": "Gamepad_FaceButton_Right"
+          },
+          "SettingBehavior": "EPlayerMappableKeySettingBehaviors::InheritSettingsFromAction",
+          "PlayerMappableKeySettings": null
+        },
+        {
+          "Triggers": [],
+          "Modifiers": [],
+          "Action": {
+            "ObjectName": "InputAction'IA_UI_GenericBack'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Actions/UI/IA_UI_GenericBack"
+          },
+          "Key": {
+            "KeyName": "Gamepad_Special_Right"
+          },
+          "SettingBehavior": "EPlayerMappableKeySettingBehaviors::InheritSettingsFromAction",
+          "PlayerMappableKeySettings": null
+        },
+        {
+          "Triggers": [],
+          "Modifiers": [],
+          "Action": {
+            "ObjectName": "InputAction'IA_UI_GenericAccept'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Actions/UI/IA_UI_GenericAccept"
+          },
+          "Key": {
+            "KeyName": "Gamepad_FaceButton_Bottom"
+          },
+          "SettingBehavior": "EPlayerMappableKeySettingBehaviors::InheritSettingsFromAction",
+          "PlayerMappableKeySettings": null
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "Type": "BuildingPieceData",
+    "Name": "DA_T3_Beam_Thin_Medium_Steep",
+    "Class": "UScriptClass'BuildingPieceData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DerivedData": {
+        "AssetPathName": "/Game/Gameplay/BaseBuilding_New/BuildingPieces_DerivedData/Tier3_Fellhollow/Beams/DA_T3_Beam_Thin_Medium_Steep_DerivedData.DA_T3_Beam_Thin_Medium_Steep_DerivedData",
+        "SubPathString": ""
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "E528617B4AAF2B89CDBE7FB24B1F9759",
+        "SourceString": "SHORT 60° THIN BEAM",
+        "LocalizedString": "SHORT 60° THIN BEAM"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "EE8CD24A4B3616862526FBBF6F8835B1",
+        "SourceString": "Used to create a frame for structures and improve their stability.",
+        "LocalizedString": "Used to create a frame for structures and improve their stability."
+      },
+      "Category": {
+        "TagName": "BaseBuilding.Category.Beam"
+      },
+      "DisplayIcon": {
+        "AssetPathName": "/Game/Art/UI/Icons/T3_Buildings_Icons/T3_Beams/T_Icon_BB_T3_Beam_Thin_Med_Steep.T_Icon_BB_T3_Beam_Thin_Med_Steep",
+        "SubPathString": ""
+      },
+      "BuildableActor": {
+        "AssetPathName": "/Game/Gameplay/BaseBuilding_New/BuildingPieces/Tier3_Fellhollow/Beams/BP_T3_Beam_Thin_Medium_Steep.BP_T3_Beam_Thin_Medium_Steep_C",
+        "SubPathString": ""
+      },
+      "Requirements": [
+        {
+          "Amount": 1,
+          "ItemData": {
+            "ObjectName": "FuelItemData'ITEM_Resources_Plank_Oak'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Wood/ITEM_Resources_Plank_Oak"
+          }
+        },
+        {
+          "Amount": 1,
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Stone_Block'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Mineral/ITEM_Resources_Stone_Block"
+          }
+        }
+      ],
+      "ConstructionXPOnBuild": 30,
+      "PieceTag": {
+        "TagName": "BaseBuilding.PieceType.Beam"
+      },
+      "BuildingStabilityProfileRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_StabilityProfile'",
+          "ObjectPath": "/Game/Gameplay/BaseBuilding_New/DT_StabilityProfile"
+        },
+        "RowName": "Tier2_Beam"
+      },
+      "BuildXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Building'",
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Building"
+        },
+        "RowName": "Build_Beam_Tier3_Med"
+      },
+      "SelectionPlayerHooks": [
+        {
+          "ObjectName": "BP_FTUENotificationPlayerHook_C'PH_UnlockedFirstBuildingBeam'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/PlayerHooks/FTUE/PH_UnlockedFirstBuildingBeam"
+        }
+      ],
+      "RepresentationCategory": "EBuildingPieceRepresentationCategory::Lightweight",
+      "PersistenceID": "rzwkkUoDkBsT6o2MOZF77Q"
+    }
+  }
+]

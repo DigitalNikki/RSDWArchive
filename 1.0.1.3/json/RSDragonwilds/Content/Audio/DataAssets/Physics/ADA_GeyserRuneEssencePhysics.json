@@ -1,0 +1,65 @@
+[
+  {
+    "Type": "PhysicsComponentAudioData",
+    "Name": "ADA_GeyserRuneEssencePhysics",
+    "Class": "UScriptClass'PhysicsComponentAudioData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "GroundCrashSFXMap": [
+        {
+          "Threshold": 100.0,
+          "SoundToPlay": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Pl_Mi_RuneEssenceLand'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Player/Interactions/Mining/MSS_Pl_Mi_RuneEssenceLand"
+          },
+          "NiagaraSystem": {
+            "ObjectName": "NiagaraSystem'NS_VaultGuardian_GroundSmash'",
+            "ObjectPath": "/Game/Art/VFX/Library/Character/VaultGuardian/GroundSmash/NS_VaultGuardian_GroundSmash"
+          }
+        }
+      ],
+      "NonGroundCrashSFXMap": [
+        {
+          "Threshold": 60.0,
+          "SoundToPlay": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Pl_Mi_RuneEssenceLand'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Player/Interactions/Mining/MSS_Pl_Mi_RuneEssenceLand"
+          },
+          "NiagaraSystem": null
+        }
+      ],
+      "ImpactSFXCooldown": 0.05,
+      "SpawnVFX": {
+        "ObjectName": "NiagaraSystem'NS_RuneGeyser_Impact'",
+        "ObjectPath": "/Game/Art/VFX/Library/Env/MagicWell/NS_RuneGeyser_Impact"
+      },
+      "ProjectileImpactSFX": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Pl_Mi_RuneEssence_SkyImpact'",
+        "ObjectPath": "/Game/Audio/MetasoundSources/Player/Interactions/Mining/MSS_Pl_Mi_RuneEssence_SkyImpact"
+      },
+      "GroundImpactDefinitions": [
+        {
+          "Threshold": 10000.0,
+          "SoundToPlay": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Pl_Mi_RuneEssenceLand'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Player/Interactions/Mining/MSS_Pl_Mi_RuneEssenceLand"
+          },
+          "NiagaraSystem": {
+            "ObjectName": "NiagaraSystem'NS_VaultGuardian_GroundSmash'",
+            "ObjectPath": "/Game/Art/VFX/Library/Character/VaultGuardian/GroundSmash/NS_VaultGuardian_GroundSmash"
+          }
+        }
+      ],
+      "NonGroundImpactDefinitions": [
+        {
+          "Threshold": 3600.0,
+          "SoundToPlay": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Pl_Mi_RuneEssenceLand'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Player/Interactions/Mining/MSS_Pl_Mi_RuneEssenceLand"
+          },
+          "NiagaraSystem": null
+        }
+      ]
+    }
+  }
+]

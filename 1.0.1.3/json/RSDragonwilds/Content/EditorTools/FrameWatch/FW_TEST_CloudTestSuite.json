@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "FrameActionBase",
+    "Name": "FW_TEST_CloudTestSuite",
+    "Class": "UScriptClass'FrameActionBase'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TestName": "CloudTestSuite",
+      "TaskToPerform": [
+        {
+          "ObjectName": "FW_SetRenderSate'FW_Action_SetBasicRenderState'",
+          "ObjectPath": "/FrameWatch/Test/FW_Action_SetBasicRenderState"
+        },
+        {
+          "ObjectName": "FW_GoToLocation'FS_Task_GoToLocation'",
+          "ObjectPath": "/FrameWatch/Test/FS_Task_GoToLocation"
+        },
+        {
+          "ObjectName": "FW_SetTimeOfDay'FW_CloudTestSuite_Time'",
+          "ObjectPath": "/Game/EditorTools/FrameWatch/FW_CloudTestSuite_Time"
+        },
+        {
+          "ObjectName": "FW_SetWeatherState'FW_CloudTestSuite_Weather'",
+          "ObjectPath": "/Game/EditorTools/FrameWatch/FW_CloudTestSuite_Weather"
+        },
+        {
+          "ObjectName": "FW_CaptureFrame'FW_CloudTestSuite_CaptureFrame'",
+          "ObjectPath": "/Game/EditorTools/FrameWatch/FW_CloudTestSuite_CaptureFrame"
+        }
+      ]
+    }
+  }
+]

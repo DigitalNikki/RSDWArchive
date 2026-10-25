@@ -1,0 +1,188 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GE_Windstep_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'DominionStatusEffectData'",
+      "ObjectPath": "/Script/Dominion"
+    },
+    "ClassFlags": "CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GE_Windstep_C'Default__GE_Windstep_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Windstep/GE_Windstep.8"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GE_ModifyAirControl_C",
+    "Name": "GE_ModifyAirControl_C_0",
+    "Outer": {
+      "ObjectName": "GE_Windstep_C'Default__GE_Windstep_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Windstep/GE_Windstep.8"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "GE_ModifyFallDamageMultiplier_C",
+    "Name": "GE_ModifyFallDamageMultiplier_C_0",
+    "Outer": {
+      "ObjectName": "GE_Windstep_C'Default__GE_Windstep_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Windstep/GE_Windstep.8"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "GE_ModifyGravityScale_C",
+    "Name": "GE_ModifyGravityScale_C_0",
+    "Outer": {
+      "ObjectName": "GE_Windstep_C'Default__GE_Windstep_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Windstep/GE_Windstep.8"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "GE_ModifyJumpHeight_C",
+    "Name": "GE_ModifyJumpHeight_C_1",
+    "Outer": {
+      "ObjectName": "GE_Windstep_C'Default__GE_Windstep_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Windstep/GE_Windstep.8"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "GE_ModifyMaxFallDamageHeight_C",
+    "Name": "GE_ModifyMaxFallDamageHeight_C_0",
+    "Outer": {
+      "ObjectName": "GE_Windstep_C'Default__GE_Windstep_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Windstep/GE_Windstep.8"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "GE_ModifyMinFallDamageHeight_C",
+    "Name": "GE_ModifyMinFallDamageHeight_C_0",
+    "Outer": {
+      "ObjectName": "GE_ModifyJumpHeight_C'Default__GE_Windstep_C:GE_ModifyJumpHeight_C_1'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Windstep/GE_Windstep.4"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "GE_ModifyMinFallDamageHeight_C",
+    "Name": "GE_ModifyMinFallDamageHeight_C_0",
+    "Outer": {
+      "ObjectName": "GE_Windstep_C'Default__GE_Windstep_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Windstep/GE_Windstep.8"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "GE_Windstep_C",
+    "Name": "Default__GE_Windstep_C",
+    "Class": "BlueprintGeneratedClass'1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Windstep/GE_Windstep.GE_Windstep_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": {
+        "TableId": "/Game/UI/ST_Localization.ST_Localization",
+        "Key": "Windstep",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "DevName": "spell_windstep",
+      "IdTag": {
+        "TagName": "Player.Spell.WindStep"
+      },
+      "AddTags": [
+        "Player.Spell.WindStep"
+      ],
+      "Data": {
+        "DurationType": "EDominionGameplayEffectDurationType::Infinite"
+      },
+      "ChildGEsGroups": [
+        {
+          "bActivateImmediately": true,
+          "ActivationMinValue": {
+            "Source": "EAttributeOrFloatSource::Manual",
+            "Attribute": null,
+            "DeveloperSettingLookupName": "None",
+            "DataTableRowHandle": {
+              "DataTable": null,
+              "RowName": "None"
+            },
+            "Value": 0.0
+          },
+          "bHasActivationMaxValue": false,
+          "ActivationMaxValue": {
+            "Source": "EAttributeOrFloatSource::Manual",
+            "Attribute": null,
+            "DeveloperSettingLookupName": "None",
+            "DataTableRowHandle": {
+              "DataTable": null,
+              "RowName": "None"
+            },
+            "Value": 0.0
+          },
+          "bHasDifferentDeactivationValue": false,
+          "DeactivationValue": {
+            "Source": "EAttributeOrFloatSource::Manual",
+            "Attribute": null,
+            "DeveloperSettingLookupName": "None",
+            "DataTableRowHandle": {
+              "DataTable": null,
+              "RowName": "None"
+            },
+            "Value": 0.0
+          },
+          "ChildGEs": [
+            {
+              "Effect": {
+                "ObjectName": "GE_ModifyGravityScale_C'Default__GE_Windstep_C:GE_ModifyGravityScale_C_0'",
+                "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Windstep/GE_Windstep.3"
+              }
+            },
+            {
+              "Effect": {
+                "ObjectName": "GE_ModifyAirControl_C'Default__GE_Windstep_C:GE_ModifyAirControl_C_0'",
+                "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Windstep/GE_Windstep.1"
+              }
+            },
+            {
+              "Effect": {
+                "ObjectName": "GE_ModifyJumpHeight_C'Default__GE_Windstep_C:GE_ModifyJumpHeight_C_1'",
+                "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Windstep/GE_Windstep.4"
+              }
+            },
+            {
+              "Effect": {
+                "ObjectName": "GE_ModifyFallDamageMultiplier_C'Default__GE_Windstep_C:GE_ModifyFallDamageMultiplier_C_0'",
+                "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Windstep/GE_Windstep.2"
+              }
+            },
+            {
+              "Effect": {
+                "ObjectName": "GE_ModifyMinFallDamageHeight_C'Default__GE_Windstep_C:GE_ModifyMinFallDamageHeight_C_0'",
+                "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Windstep/GE_Windstep.7"
+              }
+            },
+            {
+              "Effect": {
+                "ObjectName": "GE_ModifyMaxFallDamageHeight_C'Default__GE_Windstep_C:GE_ModifyMaxFallDamageHeight_C_0'",
+                "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Windstep/GE_Windstep.5"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

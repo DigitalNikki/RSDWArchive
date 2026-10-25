@@ -1,0 +1,60 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GE_HuntersSense_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'HuntersSenseEffectData'",
+      "ObjectPath": "/Script/Dominion"
+    },
+    "ClassFlags": "CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GE_HuntersSense_C'Default__GE_HuntersSense_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/GameplayEffects/Skills/Ranged/GE_HuntersSense.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GE_HuntersSense_C",
+    "Name": "Default__GE_HuntersSense_C",
+    "Class": "BlueprintGeneratedClass'1.0.1.3/RSDragonwilds/Content/Gameplay/GameplayEffects/Skills/Ranged/GE_HuntersSense.GE_HuntersSense_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LingerDuration": 5.0,
+      "WindUpDuration": 3.0,
+      "HuntersSenseParamsCollection": {
+        "ObjectName": "MaterialParameterCollection'MPC_Global'",
+        "ObjectPath": "/Game/Materials/ParamCollection/MPC_Global"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Character/Player/PerksV2/ST_Skills_Perks.ST_Skills_Perks",
+        "Key": "Ranged.HuntersSense.Name",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "DevName": "perk_ranged_hunters_sense",
+      "InstanceClass": {
+        "ObjectName": "BlueprintGeneratedClass'GE_HuntersSense_Instance_C'",
+        "ObjectPath": "/Game/Gameplay/GameplayEffects/Skills/Ranged/GE_HuntersSense_Instance"
+      },
+      "bSingleInstance": true,
+      "Data": {
+        "DurationType": "EDominionGameplayEffectDurationType::Infinite",
+        "bCanTickPeriodically": true,
+        "PeriodicInterval": {
+          "Value": 0.1
+        }
+      },
+      "bShouldReplicate": true
+    }
+  }
+]

@@ -1,0 +1,185 @@
+[
+  {
+    "Type": "DominionPlayerMappableKeySetting",
+    "Name": "DominionPlayerMappableKeySetting_2",
+    "Outer": {
+      "ObjectName": "InputMappingContext'IMC_TopBarMenuSettings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Inputs/Mappings/IMC_TopBarMenuSettings.2"
+    },
+    "Class": "UScriptClass'DominionPlayerMappableKeySetting'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AlternateInputMappingNames": [
+        "TabSubLeft"
+      ],
+      "InputType": "EKeyMappingSettingsInputType::Gamepad",
+      "Name": "TabSubLeftGamepad",
+      "DisplayName": {
+        "TableId": "/Game/UI/Settings/ST_Controls.ST_Controls",
+        "Key": "TabSecondaryLeft",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "DominionPlayerMappableKeySetting",
+    "Name": "DominionPlayerMappableKeySetting_3",
+    "Outer": {
+      "ObjectName": "InputMappingContext'IMC_TopBarMenuSettings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Inputs/Mappings/IMC_TopBarMenuSettings.2"
+    },
+    "Class": "UScriptClass'DominionPlayerMappableKeySetting'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AlternateInputMappingNames": [
+        "TabSubRight"
+      ],
+      "InputType": "EKeyMappingSettingsInputType::Gamepad",
+      "Name": "TabSubRightGamepad",
+      "DisplayName": {
+        "TableId": "/Game/UI/Settings/ST_Controls.ST_Controls",
+        "Key": "TabSecondaryRight",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "InputMappingContext",
+    "Name": "IMC_TopBarMenuSettings",
+    "Class": "UScriptClass'InputMappingContext'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Mappings": [
+        {
+          "Triggers": [
+            {
+              "ObjectName": "InputTriggerPressed'IMC_TopBarMenuSettings:InputTriggerPressed_0'",
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Inputs/Mappings/IMC_TopBarMenuSettings.3"
+            }
+          ],
+          "Modifiers": [],
+          "Action": {
+            "ObjectName": "InputAction'IA_UI_GenericSubTabLeft'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Actions/UI/IA_UI_GenericSubTabLeft"
+          },
+          "Key": {
+            "KeyName": "Gamepad_LeftTrigger"
+          },
+          "SettingBehavior": "EPlayerMappableKeySettingBehaviors::OverrideSettings",
+          "PlayerMappableKeySettings": {
+            "ObjectName": "DominionPlayerMappableKeySetting'IMC_TopBarMenuSettings:DominionPlayerMappableKeySetting_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Inputs/Mappings/IMC_TopBarMenuSettings.0"
+          }
+        },
+        {
+          "Triggers": [
+            {
+              "ObjectName": "InputTriggerPressed'IMC_TopBarMenuSettings:InputTriggerPressed_1'",
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Inputs/Mappings/IMC_TopBarMenuSettings.4"
+            }
+          ],
+          "Modifiers": [],
+          "Action": {
+            "ObjectName": "InputAction'IA_UI_GenericSubTabRight'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Actions/UI/IA_UI_GenericSubTabRight"
+          },
+          "Key": {
+            "KeyName": "Gamepad_RightTrigger"
+          },
+          "SettingBehavior": "EPlayerMappableKeySettingBehaviors::OverrideSettings",
+          "PlayerMappableKeySettings": {
+            "ObjectName": "DominionPlayerMappableKeySetting'IMC_TopBarMenuSettings:DominionPlayerMappableKeySetting_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Inputs/Mappings/IMC_TopBarMenuSettings.1"
+          }
+        },
+        {
+          "Triggers": [],
+          "Modifiers": [],
+          "Action": {
+            "ObjectName": "InputAction'IA_UI_GenericBack'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Actions/UI/IA_UI_GenericBack"
+          },
+          "Key": {
+            "KeyName": "Escape"
+          },
+          "SettingBehavior": "EPlayerMappableKeySettingBehaviors::InheritSettingsFromAction",
+          "PlayerMappableKeySettings": null
+        },
+        {
+          "Triggers": [],
+          "Modifiers": [],
+          "Action": {
+            "ObjectName": "InputAction'IA_UI_GenericBack'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Actions/UI/IA_UI_GenericBack"
+          },
+          "Key": {
+            "KeyName": "Gamepad_FaceButton_Right"
+          },
+          "SettingBehavior": "EPlayerMappableKeySettingBehaviors::InheritSettingsFromAction",
+          "PlayerMappableKeySettings": null
+        },
+        {
+          "Triggers": [],
+          "Modifiers": [],
+          "Action": {
+            "ObjectName": "InputAction'IA_Settings_Apply'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Actions/UI/IA_Settings_Apply"
+          },
+          "Key": {
+            "KeyName": "F"
+          },
+          "SettingBehavior": "EPlayerMappableKeySettingBehaviors::InheritSettingsFromAction",
+          "PlayerMappableKeySettings": null
+        },
+        {
+          "Triggers": [],
+          "Modifiers": [],
+          "Action": {
+            "ObjectName": "InputAction'IA_Settings_Apply'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Actions/UI/IA_Settings_Apply"
+          },
+          "Key": {
+            "KeyName": "Gamepad_FaceButton_Left"
+          },
+          "SettingBehavior": "EPlayerMappableKeySettingBehaviors::InheritSettingsFromAction",
+          "PlayerMappableKeySettings": null
+        },
+        {
+          "Triggers": [],
+          "Modifiers": [],
+          "Action": {
+            "ObjectName": "InputAction'IA_Settings_ResetControls'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Actions/UI/IA_Settings_ResetControls"
+          },
+          "Key": {
+            "KeyName": "R"
+          },
+          "SettingBehavior": "EPlayerMappableKeySettingBehaviors::InheritSettingsFromAction",
+          "PlayerMappableKeySettings": null
+        }
+      ]
+    }
+  },
+  {
+    "Type": "InputTriggerPressed",
+    "Name": "InputTriggerPressed_0",
+    "Outer": {
+      "ObjectName": "InputMappingContext'IMC_TopBarMenuSettings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Inputs/Mappings/IMC_TopBarMenuSettings.2"
+    },
+    "Class": "UScriptClass'InputTriggerPressed'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "InputTriggerPressed",
+    "Name": "InputTriggerPressed_1",
+    "Outer": {
+      "ObjectName": "InputMappingContext'IMC_TopBarMenuSettings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Inputs/Mappings/IMC_TopBarMenuSettings.2"
+    },
+    "Class": "UScriptClass'InputTriggerPressed'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  }
+]

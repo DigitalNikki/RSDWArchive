@@ -1,0 +1,171 @@
+[
+  {
+    "Type": "BuildingPieceDerivedData",
+    "Name": "BUILDPIECE_CraftingStation_Cooking_DerivedData",
+    "Class": "UScriptClass'BuildingPieceDerivedData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "NativeComponents": {
+        "ComponentContainers": [
+          {
+            "MaxHealth": 750.0,
+            "bCanDie": true,
+            "PrivateWorld": null,
+            "PrivateOwner": {}
+          },
+          {
+            "Plugs": [],
+            "bUseSocketsForPlugGeneration": true,
+            "PlugProfileDataTable": {
+              "ObjectName": "DataTable'DT_PlugProfile'",
+              "ObjectPath": "/Game/Gameplay/BaseBuilding_New/DT_PlugProfile"
+            },
+            "SnappingRadius": 80.0,
+            "SnappingRadiusInBasicSnappingMode": 200.0,
+            "PrivateWorld": null,
+            "PrivateOwner": {}
+          },
+          {
+            "DamageTypeMultipliers": [
+              {
+                "DamageType": {
+                  "TagName": "DamageType.DragonWorldEvent"
+                },
+                "DamageMultiplier": 0.0
+              }
+            ],
+            "DefaultSkillUsedToDamageThisActor": null,
+            "DamageModifiers": [],
+            "DamagedByDurabilityMultiplier": 1.0,
+            "bCanReceiveCriticalHits": false,
+            "bShowDamageFloaties": true,
+            "bCanTakeDamage": true,
+            "AppliedFatalDamageEvents": [],
+            "bAwardsXPThroughPlayerDamageComponent": true,
+            "PrivateWorld": null,
+            "PrivateOwner": {}
+          }
+        ]
+      },
+      "InstigatorBuiltSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Pl_Cr_CookingRange_Placement'",
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Crafting/Placement/MSS_Pl_Cr_CookingRange_Placement"
+      },
+      "NonInstigatorBuiltSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Pl_Cr_CookingRange_Placement_Rem'",
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Crafting/Placement/MSS_Pl_Cr_CookingRange_Placement_Rem"
+      },
+      "InstigatorGhostBuiltSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Pl_Bu_GhostBuild'",
+        "ObjectPath": "/Game/Audio/MetasoundSources/Player/Interactions/BaseBuilding/GhostBuild/MSS_Pl_Bu_GhostBuild"
+      },
+      "NonInstigatorGhostBuiltSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Pl_Bu_GhostBuild_Rem'",
+        "ObjectPath": "/Game/Audio/MetasoundSources/Player/Interactions/BaseBuilding/GhostBuild/MSS_Pl_Bu_GhostBuild_Rem"
+      },
+      "InstigatorPartiallyCompletedSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Mn_Inventory_ItemDropMove_WoodChunky'",
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Menu/Inventory/Drops/MSS_UI_Mn_Inventory_ItemDropMove_WoodChunky"
+      },
+      "InstigatorRepairedSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Pl_Bu_Repair'",
+        "ObjectPath": "/Game/Audio/MetasoundSources/Player/Interactions/BaseBuilding/Repair/MSS_Pl_Bu_Repair"
+      },
+      "TagToImpactFXOverrideDataSoftPtr": [
+        {
+          "Key": {
+            "TagName": "Audio.Default"
+          },
+          "Value": {
+            "AssetPathName": "/Game/Audio/DataAssets/ThresholdImpactFXOverrideData/ADA_WoodBuildingPiece_thresholdImpactFXOverrideData.ADA_WoodBuildingPiece_thresholdImpactFXOverrideData",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "BuildingDestructionSounds": [
+        {
+          "Key": "EBuildingDestroySound::DestroyedByLocalPlayer",
+          "Value": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Pl_Bu_Destroy_Furniture_Metal'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Player/Interactions/BaseBuilding/Furniture_Destruction/MSS_Pl_Bu_Destroy_Furniture_Metal"
+          }
+        },
+        {
+          "Key": "EBuildingDestroySound::DestroyedByRemotePlayer",
+          "Value": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Pl_Bu_Destroy_Furniture_Metal_Rem'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Player/Interactions/BaseBuilding/Furniture_Destruction/MSS_Pl_Bu_Destroy_Furniture_Metal_Rem"
+          }
+        },
+        {
+          "Key": "EBuildingDestroySound::DestroyedByDamage",
+          "Value": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Pl_Bu_Destroy_Furniture_Metal_Rem'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Player/Interactions/BaseBuilding/Furniture_Destruction/MSS_Pl_Bu_Destroy_Furniture_Metal_Rem"
+          }
+        },
+        {
+          "Key": "EBuildingDestroySound::CollapsedFromInstability",
+          "Value": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Pl_Bu_Destroy_Furniture_Metal_Rem'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Player/Interactions/BaseBuilding/Furniture_Destruction/MSS_Pl_Bu_Destroy_Furniture_Metal_Rem"
+          }
+        }
+      ],
+      "PlacementProfileRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'PlacementProfileDataTable'",
+          "ObjectPath": "/Game/Gameplay/BaseBuilding/PlacementProfileDataTable"
+        },
+        "RowName": "FloorPropNonOverlapProfile"
+      },
+      "PlugVisualizationComponentTemplate": {
+        "ObjectName": "InstancedStaticMeshComponent'BUILDPIECE_CraftingStation_Cooking_DerivedData:InstancedStaticMeshComponent_1'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Data/BuildingPieces_DerivedData/Structures/Crafting/BUILDPIECE_CraftingStation_Cooking_DerivedData.1"
+      },
+      "BuildingPieceLocalBounds": {
+        "Origin": {
+          "X": 14.407448,
+          "Y": 9.758739,
+          "Z": 107.54074
+        },
+        "BoxExtent": {
+          "X": 136.84607,
+          "Y": 49.424618,
+          "Z": 107.54074
+        },
+        "SphereRadius": 180.92720245981903
+      },
+      "PlacementZOffset": -1.0
+    }
+  },
+  {
+    "Type": "InstancedStaticMeshComponent",
+    "Name": "InstancedStaticMeshComponent_1",
+    "Outer": {
+      "ObjectName": "BuildingPieceDerivedData'BUILDPIECE_CraftingStation_Cooking_DerivedData'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Data/BuildingPieces_DerivedData/Structures/Crafting/BUILDPIECE_CraftingStation_Cooking_DerivedData.0"
+    },
+    "Class": "UScriptClass'InstancedStaticMeshComponent'",
+    "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "NumCustomDataFloats": 1,
+      "InstancingRandomSeed": 20809,
+      "CachedBounds[1]": {
+        "Value": {
+          "Origin": {
+            "X": 0.0,
+            "Y": 100.3014,
+            "Z": -5.5358805E-07
+          }
+        }
+      },
+      "CastShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "Custom"
+      },
+      "bUseAttachParentBound": true
+    }
+  }
+]

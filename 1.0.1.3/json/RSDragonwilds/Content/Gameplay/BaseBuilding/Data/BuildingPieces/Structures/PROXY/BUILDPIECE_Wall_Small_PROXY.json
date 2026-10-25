@@ -1,0 +1,58 @@
+[
+  {
+    "Type": "BuildingPieceData",
+    "Name": "BUILDPIECE_Wall_Small_PROXY",
+    "Class": "UScriptClass'BuildingPieceData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DerivedData": {
+        "AssetPathName": "/Game/Gameplay/BaseBuilding/Data/BuildingPieces_DerivedData/Structures/PROXY/BUILDPIECE_Wall_Small_PROXY_DerivedData.BUILDPIECE_Wall_Small_PROXY_DerivedData",
+        "SubPathString": ""
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "4320BDA749F8A7A8018C21B2870B1EB3",
+        "SourceString": "Wall (small)",
+        "LocalizedString": "Wall (small)"
+      },
+      "DisplayIcon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Building_Pieces_PROXY/T_Icon_BaseBuilding_Proxy_Wall_Small.T_Icon_BaseBuilding_Proxy_Wall_Small",
+        "SubPathString": ""
+      },
+      "BuildableActor": {
+        "AssetPathName": "/Game/Gameplay/BaseBuilding/Actors/ProxyMeshes/PROXY_BP_BaseBuilding_Wall_Small.PROXY_BP_BaseBuilding_Wall_Small_C",
+        "SubPathString": ""
+      },
+      "Requirements": [
+        {
+          "Amount": 4,
+          "ItemData": {
+            "ObjectName": "FuelItemData'ITEM_Resources_Plank_Ash'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Wood/ITEM_Resources_Plank_Ash"
+          }
+        }
+      ],
+      "ConstructionXPOnBuild": 25,
+      "PieceTag": {
+        "TagName": "BaseBuilding.PieceType.Base"
+      },
+      "BuildingStabilityProfileRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'StabilityProfileDataTable'",
+          "ObjectPath": "/Game/Gameplay/BaseBuilding/StabilityProfileDataTable"
+        },
+        "RowName": "Tier_0_Base"
+      },
+      "BuildXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Building'",
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Building"
+        },
+        "RowName": "Build_Wall_Tier1"
+      },
+      "RepresentationCategory": "EBuildingPieceRepresentationCategory::Lightweight",
+      "PersistenceID": "aSBQukHcpRcppgmojEeZ9A",
+      "InternalName": "buildpiece_wall_small_PROXY"
+    }
+  }
+]

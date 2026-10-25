@@ -1,0 +1,1175 @@
+[
+  {
+    "Type": "AIAttributesComponent",
+    "Name": "AI Attributes Component",
+    "Outer": {
+      "ObjectName": "BP_AI_MeleeGoblin_Character_C'Default__BP_AI_MeleeGoblin_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.7"
+    },
+    "Class": "UScriptClass'AIAttributesComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DamageTypeAffinities": [
+        {
+          "Key": {
+            "TagName": "DamageType.Magical.Fire"
+          },
+          "Value": "EDamageTypeAffinity::Weakness"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "AIAudioManagerComponent",
+    "Name": "AIAudioManager_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_MeleeGoblin_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.6"
+    },
+    "Class": "UScriptClass'AIAudioManagerComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Properties": {
+      "IdleSoundToPlay": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Goblin_Distant_Idle_Call'",
+        "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Distant_Idle/MSS_Cr_Vox_Goblin_Distant_Idle_Call"
+      },
+      "CharacterAudioManagerData": {
+        "ObjectName": "CharacterAudioManagerData'ADA_GoblinCharacterData'",
+        "ObjectPath": "/Game/Audio/DataAssets/Characters/ADA_GoblinCharacterData"
+      }
+    }
+  },
+  {
+    "Type": "AIDominionGameplayEffectsComponent",
+    "Name": "Gameplay Effects Component",
+    "Outer": {
+      "ObjectName": "BP_AI_MeleeGoblin_Character_C'Default__BP_AI_MeleeGoblin_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.7"
+    },
+    "Class": "UScriptClass'AIDominionGameplayEffectsComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "AiHealthComponent",
+    "Name": "Health Component",
+    "Outer": {
+      "ObjectName": "BP_AI_MeleeGoblin_Character_C'Default__BP_AI_MeleeGoblin_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.7"
+    },
+    "Class": "UScriptClass'AiHealthComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaxHealth": 150.0
+    }
+  },
+  {
+    "Type": "AiMovementComponent",
+    "Name": "CharMoveComp",
+    "Outer": {
+      "ObjectName": "BP_AI_MeleeGoblin_Character_C'Default__BP_AI_MeleeGoblin_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.7"
+    },
+    "Class": "UScriptClass'AiMovementComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "NavAgentName": "Default",
+      "MoveSpeedMultiplierWhenFullySlowed": 0.42,
+      "bEnableLocomotionAnimation": true,
+      "AlertnessStatesToRotationTable": [
+        {
+          "Key": "EAlertnessState::AMBIENT",
+          "Value": {
+            "ObjectName": "DataTable'DT_MeleeGoblin_Rotation'",
+            "ObjectPath": "/Game/Gameplay/AI/GoblinFaction/MeleeGoblin/Actions/Movement/DT_MeleeGoblin_Rotation"
+          }
+        },
+        {
+          "Key": "EAlertnessState::TRANSITION_TO_SUSPICIOUS",
+          "Value": {
+            "ObjectName": "DataTable'DT_MeleeGoblin_AlertRotation'",
+            "ObjectPath": "/Game/Gameplay/AI/GoblinFaction/MeleeGoblin/Actions/Movement/DT_MeleeGoblin_AlertRotation"
+          }
+        },
+        {
+          "Key": "EAlertnessState::SUSPICIOUS",
+          "Value": {
+            "ObjectName": "DataTable'DT_MeleeGoblin_AlertRotation'",
+            "ObjectPath": "/Game/Gameplay/AI/GoblinFaction/MeleeGoblin/Actions/Movement/DT_MeleeGoblin_AlertRotation"
+          }
+        },
+        {
+          "Key": "EAlertnessState::TRANSITION_TO_COMBAT",
+          "Value": {
+            "ObjectName": "DataTable'DT_MeleeGoblin_AlertRotation'",
+            "ObjectPath": "/Game/Gameplay/AI/GoblinFaction/MeleeGoblin/Actions/Movement/DT_MeleeGoblin_AlertRotation"
+          }
+        },
+        {
+          "Key": "EAlertnessState::COMBAT",
+          "Value": {
+            "ObjectName": "DataTable'DT_MeleeGoblin_AlertRotation'",
+            "ObjectPath": "/Game/Gameplay/AI/GoblinFaction/MeleeGoblin/Actions/Movement/DT_MeleeGoblin_AlertRotation"
+          }
+        },
+        {
+          "Key": "EAlertnessState::LOST_TARGET",
+          "Value": {
+            "ObjectName": "DataTable'DT_MeleeGoblin_Rotation'",
+            "ObjectPath": "/Game/Gameplay/AI/GoblinFaction/MeleeGoblin/Actions/Movement/DT_MeleeGoblin_Rotation"
+          }
+        },
+        {
+          "Key": "EAlertnessState::TRANSITION_TO_AMBIENT",
+          "Value": {
+            "ObjectName": "DataTable'DT_MeleeGoblin_Rotation'",
+            "ObjectPath": "/Game/Gameplay/AI/GoblinFaction/MeleeGoblin/Actions/Movement/DT_MeleeGoblin_Rotation"
+          }
+        }
+      ],
+      "MaxStepHeight": 100.0,
+      "WalkableFloorAngle": 90.0,
+      "WalkableFloorZ": -4.371139E-08,
+      "MaxAcceleration": 1000.0,
+      "NavMovementProperties": {
+        "bUpdateNavAgentWithOwnersCollision": false
+      },
+      "NavAgentProps": {
+        "AgentRadius": 30.0,
+        "AgentHeight": 150.0,
+        "PreferredNavData": {
+          "AssetPathName": "/Script/NavigationSystem.RecastNavMesh",
+          "SubPathString": ""
+        }
+      }
+    }
+  },
+  {
+    "Type": "AiSightSensorPositionComponent",
+    "Name": "Sight Sensor Position Component",
+    "Outer": {
+      "ObjectName": "BP_AI_MeleeGoblin_Character_C'Default__BP_AI_MeleeGoblin_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.7"
+    },
+    "Class": "UScriptClass'AiSightSensorPositionComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_AI_MeleeGoblin_Character_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_AI_MeleeGoblin_Character_C:SimpleConstructionScript_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.35"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_AI_MeleeGoblin_Character_C:InheritableComponentHandler'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.27"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_AI_MeleeGoblin_Character_C:ExecuteUbergraph_BP_AI_MeleeGoblin_Character'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.19"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_Biped_Base_C'",
+      "ObjectPath": "/Game/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Base"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_AI_MeleeGoblin_Character_C:RandomizeSkinTone'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.21"
+      },
+      {
+        "ObjectName": "Function'BP_AI_MeleeGoblin_Character_C:RandomizeHelmet'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.20"
+      },
+      {
+        "ObjectName": "Function'BP_AI_MeleeGoblin_Character_C:ReceiveBeginPlay'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.22"
+      },
+      {
+        "ObjectName": "Function'BP_AI_MeleeGoblin_Character_C:ExecuteUbergraph_BP_AI_MeleeGoblin_Character'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.19"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Object'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "WeakPoint_Head",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SphereComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_MeleeGoblin_AiCombatModeInitiator",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_MeleeGoblin_AiCombatModeInitiator_C'",
+          "ObjectPath": "/Game/Gameplay/AI/Components/BP_MeleeGoblin_AiCombatModeInitiator"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_MeleeGoblinAttackOpportunityComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_MeleeGoblin_AttackOpportunityComponent_C'",
+          "ObjectPath": "/Game/Gameplay/AI/GoblinFaction/MeleeGoblin/Attacks/BP_MeleeGoblin_AttackOpportunityComponent"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_AI_MeleeGoblin_Character": {
+        "ObjectName": "Function'BP_AI_MeleeGoblin_Character_C:ExecuteUbergraph_BP_AI_MeleeGoblin_Character'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.19"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'BP_AI_MeleeGoblin_Character_C:ReceiveBeginPlay'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.22"
+      },
+      "RandomizeHelmet": {
+        "ObjectName": "Function'BP_AI_MeleeGoblin_Character_C:RandomizeHelmet'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.20"
+      },
+      "RandomizeSkinTone": {
+        "ObjectName": "Function'BP_AI_MeleeGoblin_Character_C:RandomizeSkinTone'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.21"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_NoExport | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_AI_MeleeGoblin_Character_C'Default__BP_AI_MeleeGoblin_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.7"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_AI_MeleeGoblin_Character_C",
+    "Name": "Default__BP_AI_MeleeGoblin_Character_C",
+    "Class": "BlueprintGeneratedClass'1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.BP_AI_MeleeGoblin_Character_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {}
+    }
+  },
+  {
+    "Type": "BP_AiDeathComponent_C",
+    "Name": "BP_AiDeathComponent_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_MeleeGoblin_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.6"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate"
+  },
+  {
+    "Type": "BP_AiHealthBarComponent_C",
+    "Name": "BP_AiHealthBarComponent_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_MeleeGoblin_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.6"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate"
+  },
+  {
+    "Type": "BP_AiHitPointsComponent_C",
+    "Name": "BP_AiHitPointsComponent_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_MeleeGoblin_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.6"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate"
+  },
+  {
+    "Type": "BP_MeleeGoblin_AiCombatModeInitiator_C",
+    "Name": "BP_MeleeGoblin_AiCombatModeInitiator_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_MeleeGoblin_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.6"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "BP_MeleeGoblin_AttackOpportunityComponent_C",
+    "Name": "BP_MeleeGoblinAttackOpportunityComponent_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_MeleeGoblin_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.6"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "BP_TagActivatedFX_C",
+    "Name": "TagActivatedFX",
+    "Outer": {
+      "ObjectName": "BP_AI_MeleeGoblin_Character_C'Default__BP_AI_MeleeGoblin_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.7"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Outer": {
+      "ObjectName": "BP_AI_MeleeGoblin_Character_C'Default__BP_AI_MeleeGoblin_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.7"
+    },
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CapsuleHalfHeight": 95.0,
+      "CapsuleRadius": 35.0,
+      "bCanEverAffectNavigation": false
+    }
+  },
+  {
+    "Type": "CombatModeArea",
+    "Name": "CombatModeArea_0",
+    "Outer": {
+      "ObjectName": "BP_MeleeGoblin_AiCombatModeInitiator_C'BP_AI_MeleeGoblin_Character_C:BP_MeleeGoblin_AiCombatModeInitiator_GEN_VARIABLE'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.11"
+    },
+    "Class": "UScriptClass'CombatModeArea'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Shape": {
+        "ObjectName": "DominionShape_Sphere'BP_AI_MeleeGoblin_Character_C:BP_MeleeGoblin_AiCombatModeInitiator_GEN_VARIABLE.CombatModeArea_0.DominionShape_Sphere_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.17"
+      }
+    }
+  },
+  {
+    "Type": "DominionAIActionsComponent",
+    "Name": "DominionAIActionsComponent",
+    "Outer": {
+      "ObjectName": "BP_AI_MeleeGoblin_Character_C'Default__BP_AI_MeleeGoblin_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.7"
+    },
+    "Class": "UScriptClass'DominionAIActionsComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "DominionShape_Sphere",
+    "Name": "DominionShape_Sphere_0",
+    "Outer": {
+      "ObjectName": "CombatModeArea'BP_AI_MeleeGoblin_Character_C:BP_MeleeGoblin_AiCombatModeInitiator_GEN_VARIABLE.CombatModeArea_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.15"
+    },
+    "Class": "UScriptClass'DominionShape_Sphere'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "EnvironmentComponent",
+    "Name": "Environment Component",
+    "Outer": {
+      "ObjectName": "BP_AI_MeleeGoblin_Character_C'Default__BP_AI_MeleeGoblin_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.7"
+    },
+    "Class": "UScriptClass'EnvironmentComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_AI_MeleeGoblin_Character",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_MeleeGoblin_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.6"
+    },
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "RandomizeHelmet",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_MeleeGoblin_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.6"
+    },
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "RadnomizeHelmets",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_RandomBool_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_RandomBool_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "RandomizeSkinTone",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_MeleeGoblin_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.6"
+    },
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_RandomFloatInRange_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_SetCustomPrimitiveDataFloat_Value_ImplicitCast",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_MeleeGoblin_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.6"
+    },
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'BP_AI_Biped_Base_C:ReceiveBeginPlay'",
+      "ObjectPath": "/Game/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Base"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "GameplayTagsComponent",
+    "Name": "GameplayTagsComponent",
+    "Outer": {
+      "ObjectName": "BP_AI_MeleeGoblin_Character_C'Default__BP_AI_MeleeGoblin_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.7"
+    },
+    "Class": "UScriptClass'GameplayTagsComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "HitPointDamageMultiplierModule",
+    "Name": "HitPointDamageMultiplierModule_0",
+    "Outer": {
+      "ObjectName": "BP_AiHitPointsComponent_C'BP_AI_MeleeGoblin_Character_C:BP_AiHitPointsComponent_GEN_VARIABLE'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.10"
+    },
+    "Class": "UScriptClass'HitPointDamageMultiplierModule'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Multiplier": 1.25
+    }
+  },
+  {
+    "Type": "HitPointDamageMultiplierModule",
+    "Name": "HitPointDamageMultiplierModule_1",
+    "Outer": {
+      "ObjectName": "BP_AiHitPointsComponent_C'BP_AI_MeleeGoblin_Character_C:BP_AiHitPointsComponent_GEN_VARIABLE'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.10"
+    },
+    "Class": "UScriptClass'HitPointDamageMultiplierModule'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Multiplier": 0.25
+    }
+  },
+  {
+    "Type": "HitPointTypeModule",
+    "Name": "HitPointTypeModule_0",
+    "Outer": {
+      "ObjectName": "BP_AiHitPointsComponent_C'BP_AI_MeleeGoblin_Character_C:BP_AiHitPointsComponent_GEN_VARIABLE'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.10"
+    },
+    "Class": "UScriptClass'HitPointTypeModule'",
+    "Flags": "RF_Public | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_MeleeGoblin_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.6"
+    },
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "BlueprintGeneratedClass'BP_AiDeathComponent_C'",
+            "ObjectPath": "/Game/Gameplay/AI/Components/BP_AiDeathComponent"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "BP_AiDeathComponent_C'BP_AI_MeleeGoblin_Character_C:BP_AiDeathComponent_GEN_VARIABLE'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.8"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_AI_Biped_Base_C'",
+              "ObjectPath": "/Game/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Base"
+            },
+            "SCSVariableName": "BP_AiDeathComponent",
+            "AssociatedGuid": "0CC921EB-43120990-5809CDA9-007BAF5B"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "StaticMeshComponent'BP_AI_MeleeGoblin_Character_C:Weapon_GEN_VARIABLE'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.38"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_AI_Biped_Base_C'",
+              "ObjectPath": "/Game/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Base"
+            },
+            "SCSVariableName": "Weapon",
+            "AssociatedGuid": "3A7ED551-4C0089F7-85CE76AD-FBBF5A2C"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'LootDropComponent'",
+            "ObjectPath": "/Script/Dominion"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "LootDropComponent'BP_AI_MeleeGoblin_Character_C:LootDrop_GEN_VARIABLE'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.28"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_AI_Biped_Base_C'",
+              "ObjectPath": "/Game/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Base"
+            },
+            "SCSVariableName": "LootDrop",
+            "AssociatedGuid": "E788FAC4-403B8549-0048D999-D6CFFA57"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "BlueprintGeneratedClass'BP_AiHitPointsComponent_C'",
+            "ObjectPath": "/Game/Gameplay/AI/Components/BP_AiHitPointsComponent"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "BP_AiHitPointsComponent_C'BP_AI_MeleeGoblin_Character_C:BP_AiHitPointsComponent_GEN_VARIABLE'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.10"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_AI_Biped_Base_C'",
+              "ObjectPath": "/Game/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Base"
+            },
+            "SCSVariableName": "BP_AiHitPointsComponent",
+            "AssociatedGuid": "4C173E0F-43676F3E-9ECDF0B3-5A6DE610"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "BlueprintGeneratedClass'BP_AiHealthBarComponent_C'",
+            "ObjectPath": "/Game/Gameplay/AI/Components/BP_AiHealthBarComponent"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "BP_AiHealthBarComponent_C'BP_AI_MeleeGoblin_Character_C:BP_AiHealthBarComponent_GEN_VARIABLE'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.9"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_AI_Biped_Base_C'",
+              "ObjectPath": "/Game/Gameplay/AI/BaseAIClasses/Characters/BP_AI_Biped_Base"
+            },
+            "SCSVariableName": "BP_AiHealthBarComponent",
+            "AssociatedGuid": "6A8FB227-4EDA65EE-1F2AF5A1-22343270"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'AIAudioManagerComponent'",
+            "ObjectPath": "/Script/Dominion"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "AIAudioManagerComponent'BP_AI_MeleeGoblin_Character_C:AIAudioManager_GEN_VARIABLE'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.1"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_DominionAICharacter_C'",
+              "ObjectPath": "/Game/Gameplay/AI/BP_DominionAICharacter"
+            },
+            "SCSVariableName": "AIAudioManager",
+            "AssociatedGuid": "A67185B4-4154555F-CC1F3980-144D6B0F"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "LootDropComponent",
+    "Name": "LootDrop_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_MeleeGoblin_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.6"
+    },
+    "Class": "UScriptClass'LootDropComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Properties": {
+      "EnemyTableRowHandle": {
+        "RowName": "MeleeGoblin"
+      }
+    }
+  },
+  {
+    "Type": "MeshOverlayMaterialManager",
+    "Name": "MeshOverlayMaterialManager",
+    "Outer": {
+      "ObjectName": "BP_AI_MeleeGoblin_Character_C'Default__BP_AI_MeleeGoblin_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.7"
+    },
+    "Class": "UScriptClass'MeshOverlayMaterialManager'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_MeleeGoblin_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.6"
+    },
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_AI_MeleeGoblin_Character_C:SimpleConstructionScript_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.35"
+    },
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_AI_MeleeGoblin_Character_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.30"
+      },
+      "VariableGUID": "1D2A580A-41ADCDDC-5DC619AA-4E66816F",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_AI_MeleeGoblin_Character_C:SimpleConstructionScript_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.35"
+    },
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_MeleeGoblin_AttackOpportunityComponent_C'",
+        "ObjectPath": "/Game/Gameplay/AI/GoblinFaction/MeleeGoblin/Attacks/BP_MeleeGoblin_AttackOpportunityComponent"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_MeleeGoblin_AttackOpportunityComponent_C'BP_AI_MeleeGoblin_Character_C:BP_MeleeGoblinAttackOpportunityComponent_GEN_VARIABLE'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.12"
+      },
+      "VariableGUID": "6BD88F07-4F37ED33-DDFDA1BC-71DD7052",
+      "InternalVariableName": "BP_MeleeGoblinAttackOpportunityComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_AI_MeleeGoblin_Character_C:SimpleConstructionScript_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.35"
+    },
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_MeleeGoblin_AiCombatModeInitiator_C'",
+        "ObjectPath": "/Game/Gameplay/AI/Components/BP_MeleeGoblin_AiCombatModeInitiator"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_MeleeGoblin_AiCombatModeInitiator_C'BP_AI_MeleeGoblin_Character_C:BP_MeleeGoblin_AiCombatModeInitiator_GEN_VARIABLE'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.11"
+      },
+      "VariableGUID": "04EE8354-4E596F5C-D0DBCB84-21CA517A",
+      "InternalVariableName": "BP_MeleeGoblin_AiCombatModeInitiator"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_AI_MeleeGoblin_Character_C:SimpleConstructionScript_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.35"
+    },
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SphereComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SphereComponent'BP_AI_MeleeGoblin_Character_C:WeakPoint_Head_GEN_VARIABLE'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.37"
+      },
+      "AttachToName": "head",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "6DF29A9A-4CFB5F47-C66CBCBE-76B249E1",
+      "InternalVariableName": "WeakPoint_Head"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_MeleeGoblin_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.6"
+    },
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_AI_MeleeGoblin_Character_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.32"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AI_MeleeGoblin_Character_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.33"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AI_MeleeGoblin_Character_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.34"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_AI_MeleeGoblin_Character_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.32"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AI_MeleeGoblin_Character_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.33"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AI_MeleeGoblin_Character_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.34"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_AI_MeleeGoblin_Character_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.31"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "CharacterMesh0",
+    "Outer": {
+      "ObjectName": "BP_AI_MeleeGoblin_Character_C'Default__BP_AI_MeleeGoblin_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.7"
+    },
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABP_M_MED_Goblin_Melee_01_C'",
+        "ObjectPath": "/Game/Art/Skeleton/NPC/Humanoid/M_MED_Goblin_Melee_01/ABP_M_MED_Goblin_Melee_01"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_M_MED_Goblin_Melee_01'",
+        "ObjectPath": "/Game/Art/Skeleton/NPC/Humanoid/M_MED_Goblin_Melee_01/SK_M_MED_Goblin_Melee_01"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SK_M_MED_Goblin_Melee_01'",
+        "ObjectPath": "/Game/Art/Skeleton/NPC/Humanoid/M_MED_Goblin_Melee_01/SK_M_MED_Goblin_Melee_01"
+      },
+      "OverrideMaterials": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Goblin_Melee_FurTuffs'",
+          "ObjectPath": "/Game/Art/Skeleton/NPC/Humanoid/M_MED_Goblin_Melee_01/Materials/MI_Goblin_Melee_FurTuffs"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_GoblinBody'",
+          "ObjectPath": "/Game/Art/Skeleton/NPC/Humanoid/M_MED_Goblin_Melee_01/Materials/MI_GoblinBody"
+        }
+      ],
+      "CustomPrimitiveData": {
+        "Data": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_AI_MeleeGoblin_Character_C:CollisionCylinder'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.14"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -95.0
+      }
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "WeakPoint_Head_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_MeleeGoblin_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.6"
+    },
+    "Class": "UScriptClass'SphereComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SphereRadius": 26.0,
+      "bUseSystemDefaultObstacleAreaClass": false,
+      "AreaClassOverride": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_Pawn",
+        "CollisionProfileName": "AiMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Ai",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Player",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile_Arrow",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 7.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Weapon_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_MeleeGoblin_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.6"
+    },
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Goblin_1H_Axe_01'",
+        "ObjectPath": "/Game/Art/Skeleton/Weapons/Faction/Goblin_1H_Axe_01/SM_Goblin_1H_Axe_01"
+      },
+      "bEvaluateWorldPositionOffsetInRayTracing": true,
+      "bAffectDistanceFieldLighting": false,
+      "bCanEverAffectNavigation": false
+    }
+  },
+  {
+    "Type": "TrackedStatusEffectInstance",
+    "Name": "TrackedStatusEffectInstance_0",
+    "Outer": {
+      "ObjectName": "TrackedStatusEffectsComponent'Default__BP_AI_MeleeGoblin_Character_C:Tracked Status Effects Component'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.46"
+    },
+    "Class": "UScriptClass'TrackedStatusEffectInstance'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TrackedStatusEffectInstance",
+    "Name": "TrackedStatusEffectInstance_1",
+    "Outer": {
+      "ObjectName": "TrackedStatusEffectsComponent'Default__BP_AI_MeleeGoblin_Character_C:Tracked Status Effects Component'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.46"
+    },
+    "Class": "UScriptClass'TrackedStatusEffectInstance'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TrackedStatusEffectInstanceBleeding",
+    "Name": "TrackedStatusEffectInstanceBleeding_0",
+    "Outer": {
+      "ObjectName": "TrackedStatusEffectsComponent'Default__BP_AI_MeleeGoblin_Character_C:Tracked Status Effects Component'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.46"
+    },
+    "Class": "UScriptClass'TrackedStatusEffectInstanceBleeding'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TrackedStatusEffectInstanceBurning",
+    "Name": "TrackedStatusEffectInstanceBurning_0",
+    "Outer": {
+      "ObjectName": "TrackedStatusEffectsComponent'Default__BP_AI_MeleeGoblin_Character_C:Tracked Status Effects Component'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.46"
+    },
+    "Class": "UScriptClass'TrackedStatusEffectInstanceBurning'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TrackedStatusEffectInstanceHamstrung",
+    "Name": "TrackedStatusEffectInstanceHamstrung_0",
+    "Outer": {
+      "ObjectName": "TrackedStatusEffectsComponent'Default__BP_AI_MeleeGoblin_Character_C:Tracked Status Effects Component'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.46"
+    },
+    "Class": "UScriptClass'TrackedStatusEffectInstanceHamstrung'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bOnlyActivateHUDInstanceAtMax": true,
+      "bPreventStatusIncreaseOnceMaxIsReached": true,
+      "Config": {
+        "Thresholds": [
+          {
+            "GameplayEffect": {
+              "ObjectName": "BlueprintGeneratedClass'GE_Hamstrung_Active_30Percent_C'",
+              "ObjectPath": "/Game/Gameplay/GameplayEffects/StatusEffects/GE_Hamstrung_Active_30Percent"
+            },
+            "ActivationThreshold": 33.333,
+            "DeactivationThreshold": 0.0,
+            "bUseReductionDelayOverride": true,
+            "ReductionDelayOverride": 3.5
+          },
+          {
+            "GameplayEffect": {
+              "ObjectName": "BlueprintGeneratedClass'GE_Hamstrung_Active_20Percent_C'",
+              "ObjectPath": "/Game/Gameplay/GameplayEffects/StatusEffects/GE_Hamstrung_Active_20Percent"
+            },
+            "ActivationThreshold": 66.666,
+            "DeactivationThreshold": 0.0,
+            "bUseReductionDelayOverride": true,
+            "ReductionDelayOverride": 3.5
+          },
+          {
+            "GameplayEffect": {
+              "ObjectName": "BlueprintGeneratedClass'GE_Hamstrung_Active_10Percent_C'",
+              "ObjectPath": "/Game/Gameplay/GameplayEffects/StatusEffects/GE_Hamstrung_Active_10Percent"
+            },
+            "ActivationThreshold": 100.0,
+            "DeactivationThreshold": 0.0,
+            "bUseReductionDelayOverride": true,
+            "ReductionDelayOverride": 7.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "TrackedStatusEffectInstancePoison",
+    "Name": "TrackedStatusEffectInstancePoison_0",
+    "Outer": {
+      "ObjectName": "TrackedStatusEffectsComponent'Default__BP_AI_MeleeGoblin_Character_C:Tracked Status Effects Component'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.46"
+    },
+    "Class": "UScriptClass'TrackedStatusEffectInstancePoison'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TrackedStatusEffectInstanceSlow",
+    "Name": "TrackedStatusEffectInstanceSlow_0",
+    "Outer": {
+      "ObjectName": "TrackedStatusEffectsComponent'Default__BP_AI_MeleeGoblin_Character_C:Tracked Status Effects Component'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.46"
+    },
+    "Class": "UScriptClass'TrackedStatusEffectInstanceSlow'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TrackedStatusEffectsComponent",
+    "Name": "Tracked Status Effects Component",
+    "Outer": {
+      "ObjectName": "BP_AI_MeleeGoblin_Character_C'Default__BP_AI_MeleeGoblin_Character_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.7"
+    },
+    "Class": "UScriptClass'TrackedStatusEffectsComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TrackedStatusEffectInstances": [
+        {
+          "ObjectName": "TrackedStatusEffectInstancePoison'Default__BP_AI_MeleeGoblin_Character_C:Tracked Status Effects Component.TrackedStatusEffectInstancePoison_0'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.44"
+        },
+        {
+          "ObjectName": "TrackedStatusEffectInstanceBurning'Default__BP_AI_MeleeGoblin_Character_C:Tracked Status Effects Component.TrackedStatusEffectInstanceBurning_0'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.42"
+        },
+        {
+          "ObjectName": "TrackedStatusEffectInstanceBleeding'Default__BP_AI_MeleeGoblin_Character_C:Tracked Status Effects Component.TrackedStatusEffectInstanceBleeding_0'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.41"
+        },
+        {
+          "ObjectName": "TrackedStatusEffectInstanceSlow'Default__BP_AI_MeleeGoblin_Character_C:Tracked Status Effects Component.TrackedStatusEffectInstanceSlow_0'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.45"
+        },
+        {
+          "ObjectName": "TrackedStatusEffectInstance'Default__BP_AI_MeleeGoblin_Character_C:Tracked Status Effects Component.TrackedStatusEffectInstance_0'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.39"
+        },
+        {
+          "ObjectName": "TrackedStatusEffectInstance'Default__BP_AI_MeleeGoblin_Character_C:Tracked Status Effects Component.TrackedStatusEffectInstance_1'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.40"
+        },
+        {
+          "ObjectName": "TrackedStatusEffectInstanceHamstrung'Default__BP_AI_MeleeGoblin_Character_C:Tracked Status Effects Component.TrackedStatusEffectInstanceHamstrung_0'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/GoblinFaction/MeleeGoblin/BP_AI_MeleeGoblin_Character.43"
+        }
+      ]
+    }
+  }
+]

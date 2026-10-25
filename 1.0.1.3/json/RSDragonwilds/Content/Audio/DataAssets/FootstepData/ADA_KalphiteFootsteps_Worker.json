@@ -1,0 +1,340 @@
+[
+  {
+    "Type": "FootstepData",
+    "Name": "ADA_KalphiteFootsteps_Worker",
+    "Class": "UScriptClass'FootstepData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SurfaceTypeToSoundMap": [
+        {
+          "Key": "SurfaceType1",
+          "Value": {
+            "FootstepSoundLocal": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_Wolf_FS'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Wolf/Wolf_Foley/MSS_En_Fo_Wolf_FS"
+            },
+            "FootstepSoundRemote": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_Wolf_FS'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Wolf/Wolf_Foley/MSS_En_Fo_Wolf_FS"
+            },
+            "FootstepVFX": {
+              "ObjectName": "NiagaraSystem'NS_Footstep_Grass_Medium'",
+              "ObjectPath": "/Game/Art/VFX/Library/Character/Shared/Footsteps/Medium/NS_Footstep_Grass_Medium"
+            }
+          }
+        },
+        {
+          "Key": "SurfaceType2",
+          "Value": {
+            "FootstepSoundLocal": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_Wolf_FS'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Wolf/Wolf_Foley/MSS_En_Fo_Wolf_FS"
+            },
+            "FootstepSoundRemote": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_Wolf_FS'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Wolf/Wolf_Foley/MSS_En_Fo_Wolf_FS"
+            },
+            "FootstepVFX": {
+              "ObjectName": "NiagaraSystem'NS_Footstep_Grass_Medium'",
+              "ObjectPath": "/Game/Art/VFX/Library/Character/Shared/Footsteps/Medium/NS_Footstep_Grass_Medium"
+            }
+          }
+        },
+        {
+          "Key": "SurfaceType5",
+          "Value": {
+            "FootstepSoundLocal": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_Wolf_FS'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Wolf/Wolf_Foley/MSS_En_Fo_Wolf_FS"
+            },
+            "FootstepSoundRemote": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_Wolf_FS'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Wolf/Wolf_Foley/MSS_En_Fo_Wolf_FS"
+            },
+            "FootstepVFX": {
+              "ObjectName": "NiagaraSystem'NS_Footstep_Stone_Medium'",
+              "ObjectPath": "/Game/Art/VFX/Library/Character/Shared/Footsteps/Medium/NS_Footstep_Stone_Medium"
+            }
+          }
+        },
+        {
+          "Key": "SurfaceType9",
+          "Value": {
+            "FootstepSoundLocal": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_Wolf_FS'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Wolf/Wolf_Foley/MSS_En_Fo_Wolf_FS"
+            },
+            "FootstepSoundRemote": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_Wolf_FS'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Wolf/Wolf_Foley/MSS_En_Fo_Wolf_FS"
+            },
+            "FootstepVFX": {
+              "ObjectName": "NiagaraSystem'NS_Footstep_Dirt_Medium'",
+              "ObjectPath": "/Game/Art/VFX/Library/Character/Shared/Footsteps/Medium/NS_Footstep_Dirt_Medium"
+            }
+          }
+        },
+        {
+          "Key": "SurfaceType3",
+          "Value": {
+            "FootstepSoundLocal": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_Wolf_FS'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Wolf/Wolf_Foley/MSS_En_Fo_Wolf_FS"
+            },
+            "FootstepSoundRemote": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_Wolf_FS'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Wolf/Wolf_Foley/MSS_En_Fo_Wolf_FS"
+            },
+            "FootstepVFX": {
+              "ObjectName": "NiagaraSystem'NS_Footstep_Dirt_Medium'",
+              "ObjectPath": "/Game/Art/VFX/Library/Character/Shared/Footsteps/Medium/NS_Footstep_Dirt_Medium"
+            }
+          }
+        },
+        {
+          "Key": "SurfaceType4",
+          "Value": {
+            "FootstepSoundLocal": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_Wolf_FS_Dirt'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Wolf/Wolf_Foley/MSS_En_Fo_Wolf_FS_Dirt"
+            },
+            "FootstepSoundRemote": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_Wolf_FS_Dirt'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Wolf/Wolf_Foley/MSS_En_Fo_Wolf_FS_Dirt"
+            },
+            "FootstepVFX": {
+              "ObjectName": "NiagaraSystem'NS_Footstep_Mud_Medium'",
+              "ObjectPath": "/Game/Art/VFX/Library/Character/Shared/Footsteps/Medium/NS_Footstep_Mud_Medium"
+            }
+          }
+        },
+        {
+          "Key": "SurfaceType6",
+          "Value": {
+            "FootstepSoundLocal": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_Wolf_FS'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Wolf/Wolf_Foley/MSS_En_Fo_Wolf_FS"
+            },
+            "FootstepSoundRemote": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_Wolf_FS'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Wolf/Wolf_Foley/MSS_En_Fo_Wolf_FS"
+            },
+            "FootstepVFX": {
+              "ObjectName": "NiagaraSystem'NS_Footstep_Grass_Medium'",
+              "ObjectPath": "/Game/Art/VFX/Library/Character/Shared/Footsteps/Medium/NS_Footstep_Grass_Medium"
+            }
+          }
+        },
+        {
+          "Key": "SurfaceType7",
+          "Value": {
+            "FootstepSoundLocal": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_Wolf_FS_Dirt'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Wolf/Wolf_Foley/MSS_En_Fo_Wolf_FS_Dirt"
+            },
+            "FootstepSoundRemote": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_Wolf_FS_Dirt'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Wolf/Wolf_Foley/MSS_En_Fo_Wolf_FS_Dirt"
+            },
+            "FootstepVFX": {
+              "ObjectName": "NiagaraSystem'NS_Footstep_Dirt_Medium'",
+              "ObjectPath": "/Game/Art/VFX/Library/Character/Shared/Footsteps/Medium/NS_Footstep_Dirt_Medium"
+            }
+          }
+        },
+        {
+          "Key": "SurfaceType8",
+          "Value": {
+            "FootstepSoundLocal": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Fo_Wolf_Footstep_Water'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Wolf/Wolf_Foley/MSS_Cr_Fo_Wolf_Footstep_Water"
+            },
+            "FootstepSoundRemote": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Fo_Wolf_Footstep_Water'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Wolf/Wolf_Foley/MSS_Cr_Fo_Wolf_Footstep_Water"
+            },
+            "FootstepVFX": {
+              "ObjectName": "NiagaraSystem'NS_Footstep_Water_Medium'",
+              "ObjectPath": "/Game/Art/VFX/Library/Character/Shared/Footsteps/Medium/NS_Footstep_Water_Medium"
+            }
+          }
+        },
+        {
+          "Key": "SurfaceType21",
+          "Value": {
+            "FootstepSoundLocal": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Fo_Wolf_Footstep_Water'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Wolf/Wolf_Foley/MSS_Cr_Fo_Wolf_Footstep_Water"
+            },
+            "FootstepSoundRemote": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Fo_Wolf_Footstep_Water'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Wolf/Wolf_Foley/MSS_Cr_Fo_Wolf_Footstep_Water"
+            },
+            "FootstepVFX": {
+              "ObjectName": "NiagaraSystem'NS_Footstep_Water_Medium'",
+              "ObjectPath": "/Game/Art/VFX/Library/Character/Shared/Footsteps/Medium/NS_Footstep_Water_Medium"
+            }
+          }
+        },
+        {
+          "Key": "SurfaceType12",
+          "Value": {
+            "FootstepSoundLocal": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_Wolf_FS_Dirt'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Wolf/Wolf_Foley/MSS_En_Fo_Wolf_FS_Dirt"
+            },
+            "FootstepSoundRemote": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_Wolf_FS_Dirt'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Wolf/Wolf_Foley/MSS_En_Fo_Wolf_FS_Dirt"
+            },
+            "FootstepVFX": {
+              "ObjectName": "NiagaraSystem'NS_Footstep_Dirt_Medium'",
+              "ObjectPath": "/Game/Art/VFX/Library/Character/Shared/Footsteps/Medium/NS_Footstep_Dirt_Medium"
+            }
+          }
+        },
+        {
+          "Key": "SurfaceType23",
+          "Value": {
+            "FootstepSoundLocal": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_Wolf_FS_Dirt'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Wolf/Wolf_Foley/MSS_En_Fo_Wolf_FS_Dirt"
+            },
+            "FootstepSoundRemote": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_Wolf_FS_Dirt'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Wolf/Wolf_Foley/MSS_En_Fo_Wolf_FS_Dirt"
+            },
+            "FootstepVFX": {
+              "ObjectName": "NiagaraSystem'NS_Footstep_Mud_Medium'",
+              "ObjectPath": "/Game/Art/VFX/Library/Character/Shared/Footsteps/Medium/NS_Footstep_Mud_Medium"
+            }
+          }
+        },
+        {
+          "Key": "SurfaceType13",
+          "Value": {
+            "FootstepSoundLocal": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_Wolf_FS'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Wolf/Wolf_Foley/MSS_En_Fo_Wolf_FS"
+            },
+            "FootstepSoundRemote": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_Wolf_FS'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Wolf/Wolf_Foley/MSS_En_Fo_Wolf_FS"
+            },
+            "FootstepVFX": {
+              "ObjectName": "NiagaraSystem'NS_Footstep_Leaves_Medium'",
+              "ObjectPath": "/Game/Art/VFX/Library/Character/Shared/Footsteps/Medium/NS_Footstep_Leaves_Medium"
+            }
+          }
+        },
+        {
+          "Key": "SurfaceType28",
+          "Value": {
+            "FootstepSoundLocal": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_Wolf_FS'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Wolf/Wolf_Foley/MSS_En_Fo_Wolf_FS"
+            },
+            "FootstepSoundRemote": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_Wolf_FS'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Wolf/Wolf_Foley/MSS_En_Fo_Wolf_FS"
+            },
+            "FootstepVFX": {
+              "ObjectName": "NiagaraSystem'NS_Footstep_Stone_Medium'",
+              "ObjectPath": "/Game/Art/VFX/Library/Character/Shared/Footsteps/Medium/NS_Footstep_Stone_Medium"
+            }
+          }
+        },
+        {
+          "Key": "SurfaceType26",
+          "Value": {
+            "FootstepSoundLocal": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_Wolf_FS'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Wolf/Wolf_Foley/MSS_En_Fo_Wolf_FS"
+            },
+            "FootstepSoundRemote": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_Wolf_FS'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Wolf/Wolf_Foley/MSS_En_Fo_Wolf_FS"
+            },
+            "FootstepVFX": {
+              "ObjectName": "NiagaraSystem'NS_Footstep_Stone_Medium'",
+              "ObjectPath": "/Game/Art/VFX/Library/Character/Shared/Footsteps/Medium/NS_Footstep_Stone_Medium"
+            }
+          }
+        },
+        {
+          "Key": "SurfaceType16",
+          "Value": {
+            "FootstepSoundLocal": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_Wolf_FS'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Wolf/Wolf_Foley/MSS_En_Fo_Wolf_FS"
+            },
+            "FootstepSoundRemote": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_Wolf_FS'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Wolf/Wolf_Foley/MSS_En_Fo_Wolf_FS"
+            },
+            "FootstepVFX": {
+              "ObjectName": "NiagaraSystem'NS_Footstep_Stone_Medium'",
+              "ObjectPath": "/Game/Art/VFX/Library/Character/Shared/Footsteps/Medium/NS_Footstep_Stone_Medium"
+            }
+          }
+        },
+        {
+          "Key": "SurfaceType33",
+          "Value": {
+            "FootstepSoundLocal": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_Wolf_FS'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Wolf/Wolf_Foley/MSS_En_Fo_Wolf_FS"
+            },
+            "FootstepSoundRemote": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_Wolf_FS'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Wolf/Wolf_Foley/MSS_En_Fo_Wolf_FS"
+            },
+            "FootstepVFX": null
+          }
+        },
+        {
+          "Key": "SurfaceType14",
+          "Value": {
+            "FootstepSoundLocal": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_Wolf_FS'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Wolf/Wolf_Foley/MSS_En_Fo_Wolf_FS"
+            },
+            "FootstepSoundRemote": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_Wolf_FS'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Wolf/Wolf_Foley/MSS_En_Fo_Wolf_FS"
+            },
+            "FootstepVFX": {
+              "ObjectName": "NiagaraSystem'NS_Footstep_Sand_Kalphite_Worker'",
+              "ObjectPath": "/UmbralSands/Art/VFX/Library/Character/Shared/Footsteps/NS_Footstep_Sand_Kalphite_Worker"
+            }
+          }
+        },
+        {
+          "Key": "SurfaceType15",
+          "Value": {
+            "FootstepSoundLocal": null,
+            "FootstepSoundRemote": null,
+            "FootstepVFX": {
+              "ObjectName": "NiagaraSystem'NS_Footstep_Sand_Kalphite_Worker'",
+              "ObjectPath": "/UmbralSands/Art/VFX/Library/Character/Shared/Footsteps/NS_Footstep_Sand_Kalphite_Worker"
+            }
+          }
+        },
+        {
+          "Key": "SurfaceType_Default",
+          "Value": {
+            "FootstepSoundLocal": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_KalphiteWorker_Footstep_Single'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KalphiteFaction/KalphiteWorker/Foley/MSS_En_Fo_KalphiteWorker_Footstep_Single"
+            },
+            "FootstepSoundRemote": null,
+            "FootstepVFX": {
+              "ObjectName": "NiagaraSystem'NS_Footstep_Sand_Kalphite_Worker'",
+              "ObjectPath": "/UmbralSands/Art/VFX/Library/Character/Shared/Footsteps/NS_Footstep_Sand_Kalphite_Worker"
+            }
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,726 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ADT_AI_ZamorakianMage",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Object'AiAnimationAudioTableRowBase'",
+        "ObjectPath": "/Script/Dominion"
+      }
+    },
+    "Rows": {
+      "Movement_Slow": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.ZamorakianMage"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_ZamorakianMage_move_slow'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/ZamorakianMage/Foley/MSS_En_Fo_ZamorakianMage_move_slow"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.ZamorakianMage"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_Cr_Bodyfall_Med'",
+              "ObjectPath": "/Game/Audio/DataAssets/Foley/ADA_Cr_Bodyfall_Med"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Movement_Fast": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.ZamorakianMage"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_ZamorakianMage_move_fast'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/ZamorakianMage/Foley/MSS_En_Fo_ZamorakianMage_move_fast"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.ZamorakianMage"
+            },
+            "Value": null
+          }
+        ],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Movement_Walk": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.ZamorakianMage"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_ZamorakianMage_move_Walk'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/ZamorakianMage/Foley/MSS_En_Fo_ZamorakianMage_move_Walk"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Movement_Run": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.ZamorakianMage"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_ZamorakianMage_move_Run'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/ZamorakianMage/Foley/MSS_En_Fo_ZamorakianMage_move_Run"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Footsteps_Walk": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.ZamorakianMage"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_ZamorakianMageFootsteps_Walk'",
+              "ObjectPath": "/Game/Audio/DataAssets/FootstepData/ADA_ZamorakianMageFootsteps_Walk"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "foot_l",
+          "foot_r"
+        ]
+      },
+      "Footsteps_Run": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.ZamorakianMage"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_ZamorakianMageFootsteps_Run'",
+              "ObjectPath": "/Game/Audio/DataAssets/FootstepData/ADA_ZamorakianMageFootsteps_Run"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "foot_l",
+          "foot_r"
+        ]
+      },
+      "Bodyfall_Med": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.ZamorakianMage"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_Cr_Bodyfall_Med'",
+              "ObjectPath": "/Game/Audio/DataAssets/Foley/ADA_Cr_Bodyfall_Med"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Vox_AggroLaugh": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.ZamorakianMage"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_ZamorakianMageV2_Combat_Cackle'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/ZamorakianMage/Vox_V2/MSS_En_Vox_ZamorakianMageV2_Combat_Cackle"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Vox_AggroLaugh_Short": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.ZamorakianMage"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_ZamorakianMageV2_Combat_Cackle'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/ZamorakianMage/Vox_V2/MSS_En_Vox_ZamorakianMageV2_Combat_Cackle"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Vox_Aggro_Roar": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.ZamorakianMage"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_ZamorakianMageV2_Aggro_Roar'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/ZamorakianMage/Vox_V2/MSS_En_Vox_ZamorakianMageV2_Aggro_Roar"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Vox_Death": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.ZamorakianMage"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_ZamorakianMageV2_Death'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/ZamorakianMage/Vox_V2/MSS_En_Vox_ZamorakianMageV2_Death"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": true,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Vox_Death_Short": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.ZamorakianMage"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_ZamorakianMageV2_Death_short'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/ZamorakianMage/Vox_V2/MSS_En_Vox_ZamorakianMageV2_Death_short"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": true,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Vox_Effort_Short": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.ZamorakianMage"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_ZamorakianMageV2_Effort_Short'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/ZamorakianMage/Vox_V2/MSS_En_Vox_ZamorakianMageV2_Effort_Short"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Vox_Giggle": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.ZamorakianMage"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_ZamorakianMageV2_Giggle'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/ZamorakianMage/Vox_V2/MSS_En_Vox_ZamorakianMageV2_Giggle"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Vox_Hitreact": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.ZamorakianMage"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_ZamorakianMageV2_Hitreact'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/ZamorakianMage/Vox_V2/MSS_En_Vox_ZamorakianMageV2_Hitreact"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Vox_SpellCast": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.ZamorakianMage"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_ZamorakianMageV2_Spell_Cast'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/ZamorakianMage/Vox_V2/MSS_En_Vox_ZamorakianMageV2_Spell_Cast"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Vox_SpellLaunch": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.ZamorakianMage"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_ZamorakianMageV2_Spell_Launch'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/ZamorakianMage/Vox_V2/MSS_En_Vox_ZamorakianMageV2_Spell_Launch"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Vox_DLG_Aggro": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.ZamorakianMage"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_ZamorakianMageV2_DLG_Aggro'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/ZamorakianMage/Vox_V2/MSS_En_Vox_ZamorakianMageV2_DLG_Aggro"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Vox_DLG_Alert": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.ZamorakianMage"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_ZamorakianMageV2_DLG_Alert'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/ZamorakianMage/Vox_V2/MSS_En_Vox_ZamorakianMageV2_DLG_Alert"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": true,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Vox_DLG_Idle": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.ZamorakianMage"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_ZamorakianMageV2_DLG_Idle'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/ZamorakianMage/Vox_V2/MSS_En_Vox_ZamorakianMageV2_DLG_Idle"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Vox_DLG_Suspicious": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.ZamorakianMage"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_ZamorakianMageV2_DLG_Suspicious'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/ZamorakianMage/Vox_V2/MSS_En_Vox_ZamorakianMageV2_DLG_Suspicious"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": true,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Swing_Light": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.ZamorakianMage"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_SwishFast_Rem'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/Swish_Rem/MSS_Co_SwishFast_Rem"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Footstep_Walk": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.ZamorakianMage"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_ZamorakianMageFootsteps_Walk'",
+              "ObjectPath": "/Game/Audio/DataAssets/FootstepData/ADA_ZamorakianMageFootsteps_Walk"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "foot_l",
+          "foot_r"
+        ]
+      },
+      "ABL_Cinderbolt_Windup": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.ZamorakianMage"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Ab_ZamMage_FireStrike_Charge_Rem'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/ZamorakianMage/Abilities/MSS_En_Ab_ZamMage_FireStrike_Charge_Rem"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "ABL_Cinderbolt_Launch": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.ZamorakianMage"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Ab_ZamMage_FireStrike_Launch_Rem'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/ZamorakianMage/Abilities/MSS_En_Ab_ZamMage_FireStrike_Launch_Rem"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "ABL_FlamesOfZamorak_Cast": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.ZamorakianMage"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Ab_ZamMage_FlamesOfZamorak_Cast_Rem'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/ZamorakianMage/Abilities/MSS_En_Ab_ZamMage_FlamesOfZamorak_Cast_Rem"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "ABL_FlamesOfZamorak_Release": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.ZamorakianMage"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Ab_ZamMage_FlamesOfZamorak_CastRelease_Rem'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/ZamorakianMage/Abilities/MSS_En_Ab_ZamMage_FlamesOfZamorak_CastRelease_Rem"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "ABL_FlamesOfZamorak_Riser": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.ZamorakianMage"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Ab_ZamMage_FlamesOfZamorak_CastRiser_Rem'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/ZamorakianMage/Abilities/MSS_En_Ab_ZamMage_FlamesOfZamorak_CastRiser_Rem"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "ABL_HealthDrain_Cast": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.ZamorakianMage"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Ab_ZamMage_HealthDrain_Cast'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/ZamorakianMage/Abilities/MSS_En_Ab_ZamMage_HealthDrain_Cast"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "ABL_HealthDrain_Launch": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.ZamorakianMage"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Ab_ZamMage_HealthDrain_Launch'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/ZamorakianMage/Abilities/MSS_En_Ab_ZamMage_HealthDrain_Launch"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "ABL_HealthDrain_Release": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.ZamorakianMage"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Ab_ZamMage_HealthDrain_Launch'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/ZamorakianMage/Abilities/MSS_En_Ab_ZamMage_HealthDrain_Launch"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "ABL_HealthDrain_Movement": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.ZamorakianMage"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Ab_ZamMage_HealthDrain_Mvmnt'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/ZamorakianMage/Abilities/MSS_En_Ab_ZamMage_HealthDrain_Mvmnt"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "ABL_Teleport_Windup": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.ZamorakianMage"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Ab_ZamMage_Teleport_Windup'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/ZamorakianMage/Abilities/MSS_En_Ab_ZamMage_Teleport_Windup"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "ABL_Teleport_Launch": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.ZamorakianMage"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Ab_ZamMage_Teleport_Launch'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/ZamorakianMage/Abilities/MSS_En_Ab_ZamMage_Teleport_Launch"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "ABL_Teleport_Movement": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.ZamorakianMage"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Ab_ZamMage_Teleport_Movement'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/ZamorakianMage/Abilities/MSS_En_Ab_ZamMage_Teleport_Movement"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "ABL_Teleport_Swirl": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.ZamorakianMage"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Ab_ZamMage_Teleport_Swirl'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/ZamorakianMage/Abilities/MSS_En_Ab_ZamMage_Teleport_Swirl"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      }
+    }
+  }
+]

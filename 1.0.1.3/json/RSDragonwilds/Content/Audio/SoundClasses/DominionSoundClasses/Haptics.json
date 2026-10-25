@@ -1,0 +1,22 @@
+[
+  {
+    "Type": "DominionSoundClass",
+    "Name": "Haptics",
+    "Class": "UScriptClass'DominionSoundClass'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Properties": {
+        "DefaultSubmix": {
+          "ObjectName": "SoundSubmix'NoMasterOut'",
+          "ObjectPath": "/Game/Audio/Submixes/NoMasterOut"
+        }
+      },
+      "ChildClasses": [
+        {
+          "ObjectName": "DominionSoundClass'Haptics_Boss'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/Haptics/Haptics_Boss"
+        }
+      ]
+    }
+  }
+]

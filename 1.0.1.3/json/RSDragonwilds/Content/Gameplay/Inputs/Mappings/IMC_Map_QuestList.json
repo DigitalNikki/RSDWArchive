@@ -1,0 +1,187 @@
+[
+  {
+    "Type": "DominionPlayerMappableKeySetting",
+    "Name": "DominionPlayerMappableKeySetting_1",
+    "Outer": {
+      "ObjectName": "InputMappingContext'IMC_Map_QuestList'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Inputs/Mappings/IMC_Map_QuestList.2"
+    },
+    "Class": "UScriptClass'DominionPlayerMappableKeySetting'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AlternateInputMappingNames": [
+        "QuestListTrackQuest"
+      ],
+      "InputType": "EKeyMappingSettingsInputType::Gamepad",
+      "Name": "QuestListTrackQuestGamepad",
+      "DisplayName": {
+        "TableId": "/Game/UI/Settings/ST_Controls.ST_Controls",
+        "Key": "MapTrackQuest",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "DominionPlayerMappableKeySetting",
+    "Name": "DominionPlayerMappableKeySetting_2",
+    "Outer": {
+      "ObjectName": "InputMappingContext'IMC_Map_QuestList'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Inputs/Mappings/IMC_Map_QuestList.2"
+    },
+    "Class": "UScriptClass'DominionPlayerMappableKeySetting'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AlternateInputMappingNames": [
+        "QuestListTrackQuestGamepad"
+      ],
+      "bHideFromList": true,
+      "InputType": "EKeyMappingSettingsInputType::KeyboardMouse",
+      "Name": "QuestListTrackQuest",
+      "DisplayName": {
+        "TableId": "/Game/UI/Settings/ST_Controls.ST_Controls",
+        "Key": "MapTrackQuest",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "InputMappingContext",
+    "Name": "IMC_Map_QuestList",
+    "Class": "UScriptClass'InputMappingContext'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Mappings": [
+        {
+          "Triggers": [],
+          "Modifiers": [],
+          "Action": {
+            "ObjectName": "InputAction'IA_Map_TrackQuest'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Actions/Map/IA_Map_TrackQuest"
+          },
+          "Key": {
+            "KeyName": "Gamepad_FaceButton_Left"
+          },
+          "SettingBehavior": "EPlayerMappableKeySettingBehaviors::OverrideSettings",
+          "PlayerMappableKeySettings": {
+            "ObjectName": "DominionPlayerMappableKeySetting'IMC_Map_QuestList:DominionPlayerMappableKeySetting_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Inputs/Mappings/IMC_Map_QuestList.0"
+          }
+        },
+        {
+          "Triggers": [
+            {
+              "ObjectName": "InputTriggerPressed'IMC_Map_QuestList:InputTriggerPressed_0'",
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Inputs/Mappings/IMC_Map_QuestList.3"
+            }
+          ],
+          "Modifiers": [],
+          "Action": {
+            "ObjectName": "InputAction'IA_Map_TrackQuest'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Actions/Map/IA_Map_TrackQuest"
+          },
+          "Key": {
+            "KeyName": "AnyKey"
+          },
+          "SettingBehavior": "EPlayerMappableKeySettingBehaviors::OverrideSettings",
+          "PlayerMappableKeySettings": {
+            "ObjectName": "DominionPlayerMappableKeySetting'IMC_Map_QuestList:DominionPlayerMappableKeySetting_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Inputs/Mappings/IMC_Map_QuestList.1"
+          }
+        },
+        {
+          "Triggers": [],
+          "Modifiers": [],
+          "Action": {
+            "ObjectName": "InputAction'IA_UI_GenericSubTabLeft'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Actions/UI/IA_UI_GenericSubTabLeft"
+          },
+          "Key": {
+            "KeyName": "A"
+          },
+          "SettingBehavior": "EPlayerMappableKeySettingBehaviors::InheritSettingsFromAction",
+          "PlayerMappableKeySettings": null
+        },
+        {
+          "Triggers": [],
+          "Modifiers": [],
+          "Action": {
+            "ObjectName": "InputAction'IA_UI_GenericSubTabRight'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Actions/UI/IA_UI_GenericSubTabRight"
+          },
+          "Key": {
+            "KeyName": "D"
+          },
+          "SettingBehavior": "EPlayerMappableKeySettingBehaviors::InheritSettingsFromAction",
+          "PlayerMappableKeySettings": null
+        },
+        {
+          "Triggers": [],
+          "Modifiers": [],
+          "Action": {
+            "ObjectName": "InputAction'IA_UI_GenericSubTabLeft'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Actions/UI/IA_UI_GenericSubTabLeft"
+          },
+          "Key": {
+            "KeyName": "Gamepad_LeftTriggerAxis"
+          },
+          "SettingBehavior": "EPlayerMappableKeySettingBehaviors::InheritSettingsFromAction",
+          "PlayerMappableKeySettings": null
+        },
+        {
+          "Triggers": [],
+          "Modifiers": [],
+          "Action": {
+            "ObjectName": "InputAction'IA_UI_GenericSubTabRight'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Actions/UI/IA_UI_GenericSubTabRight"
+          },
+          "Key": {
+            "KeyName": "Gamepad_RightTriggerAxis"
+          },
+          "SettingBehavior": "EPlayerMappableKeySettingBehaviors::InheritSettingsFromAction",
+          "PlayerMappableKeySettings": null
+        },
+        {
+          "Triggers": [],
+          "Modifiers": [],
+          "Action": {
+            "ObjectName": "InputAction'IA_Map_CollapseQuestList'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Actions/Map/IA_Map_CollapseQuestList"
+          },
+          "Key": {
+            "KeyName": "Gamepad_DPad_Left"
+          },
+          "SettingBehavior": "EPlayerMappableKeySettingBehaviors::InheritSettingsFromAction",
+          "PlayerMappableKeySettings": null
+        },
+        {
+          "Triggers": [],
+          "Modifiers": [],
+          "Action": {
+            "ObjectName": "InputAction'IA_Map_ExpandQuestList'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Actions/Map/IA_Map_ExpandQuestList"
+          },
+          "Key": {
+            "KeyName": "Gamepad_DPad_Right"
+          },
+          "SettingBehavior": "EPlayerMappableKeySettingBehaviors::InheritSettingsFromAction",
+          "PlayerMappableKeySettings": null
+        }
+      ]
+    }
+  },
+  {
+    "Type": "InputTriggerPressed",
+    "Name": "InputTriggerPressed_0",
+    "Outer": {
+      "ObjectName": "InputMappingContext'IMC_Map_QuestList'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Inputs/Mappings/IMC_Map_QuestList.2"
+    },
+    "Class": "UScriptClass'InputTriggerPressed'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ActuationThreshold": 2.0
+    }
+  }
+]

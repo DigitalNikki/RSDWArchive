@@ -1,0 +1,37 @@
+[
+  {
+    "Type": "DominionSoundClass",
+    "Name": "AI_Vox_Maj",
+    "Class": "UScriptClass'DominionSoundClass'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MinReverbSend": 0.2,
+      "MaxReverbSend": 0.6,
+      "OcclusionMultiplier": 1.0,
+      "Properties": {
+        "DefaultSubmix": {
+          "ObjectName": "SoundSubmix'AI_Vox'",
+          "ObjectPath": "/Game/Audio/Submixes/AI_Vox"
+        }
+      },
+      "ChildClasses": [
+        {
+          "ObjectName": "DominionSoundClass'AI_Vox_Combat_maj'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/AI_Vox_Combat_maj"
+        },
+        {
+          "ObjectName": "DominionSoundClass'AI_Vox_NonCombat_Maj'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/AI_Vox_NonCombat_Maj"
+        },
+        {
+          "ObjectName": "DominionSoundClass'AI_Vox_Maj_Wolf'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/AI_Vox_Maj_Wolf"
+        }
+      ],
+      "ParentClass": {
+        "ObjectName": "DominionSoundClass'AI'",
+        "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/AI"
+      }
+    }
+  }
+]

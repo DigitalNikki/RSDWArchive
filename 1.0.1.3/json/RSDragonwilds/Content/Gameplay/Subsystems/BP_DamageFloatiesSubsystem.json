@@ -1,0 +1,192 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_DamageFloatiesSubsystem_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'DamageFloatiesSubsystem'",
+      "ObjectPath": "/Script/Dominion"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_DamageFloatiesSubsystem_C'Default__BP_DamageFloatiesSubsystem_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Subsystems/BP_DamageFloatiesSubsystem.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_DamageFloatiesSubsystem_C",
+    "Name": "Default__BP_DamageFloatiesSubsystem_C",
+    "Class": "BlueprintGeneratedClass'1.0.1.3/RSDragonwilds/Content/Gameplay/Subsystems/BP_DamageFloatiesSubsystem.BP_DamageFloatiesSubsystem_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bShouldCreate": true,
+      "DistanceFloatieOffsetCurve": {
+        "ObjectName": "CurveFloat'CF_FloatingDamage_VerticalOffset'",
+        "ObjectPath": "/Game/UI/Floaties/CF_FloatingDamage_VerticalOffset"
+      },
+      "TagConfigs": [
+        {
+          "Key": {
+            "TagName": "UI.Floatie.Critical"
+          },
+          "Value": {
+            "Modifiers": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'UI_FE_Color_Neutral_C'",
+                "ObjectPath": "/Game/UI/Floaties/Modifiers/UI_FE_Color_Neutral"
+              },
+              {
+                "ObjectName": "BlueprintGeneratedClass'UE_FE_Type_Critical_C'",
+                "ObjectPath": "/Game/UI/Floaties/Modifiers/UE_FE_Type_Critical"
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "TagName": "UI.Floatie.Weak"
+          },
+          "Value": {
+            "Modifiers": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'UI_FE_Color_Neutral_C'",
+                "ObjectPath": "/Game/UI/Floaties/Modifiers/UI_FE_Color_Neutral"
+              },
+              {
+                "ObjectName": "BlueprintGeneratedClass'UE_FE_Type_Weak_C'",
+                "ObjectPath": "/Game/UI/Floaties/Modifiers/UE_FE_Type_Weak"
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "TagName": "UI.Floatie.Resistant"
+          },
+          "Value": {
+            "Modifiers": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'UI_FE_Color_Neutral_C'",
+                "ObjectPath": "/Game/UI/Floaties/Modifiers/UI_FE_Color_Neutral"
+              },
+              {
+                "ObjectName": "BlueprintGeneratedClass'UE_FE_Type_Resistant_C'",
+                "ObjectPath": "/Game/UI/Floaties/Modifiers/UE_FE_Type_Resistant"
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "TagName": "UI.Floatie.Neutral"
+          },
+          "Value": {
+            "Modifiers": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'UI_FE_Color_Neutral_C'",
+                "ObjectPath": "/Game/UI/Floaties/Modifiers/UI_FE_Color_Neutral"
+              },
+              {
+                "ObjectName": "BlueprintGeneratedClass'UE_FE_Type_Neutral_C'",
+                "ObjectPath": "/Game/UI/Floaties/Modifiers/UE_FE_Type_Neutral"
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "TagName": "UI.Floatie.Poison"
+          },
+          "Value": {
+            "Modifiers": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'UE_FE_Type_Poison_C'",
+                "ObjectPath": "/Game/UI/Floaties/Modifiers/UE_FE_Type_Poison"
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "TagName": "UI.Floatie.Burn"
+          },
+          "Value": {
+            "Modifiers": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'UE_FE_Type_Burning_C'",
+                "ObjectPath": "/Game/UI/Floaties/Modifiers/UE_FE_Type_Burning"
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "TagName": "UI.Floatie.Bleed"
+          },
+          "Value": {
+            "Modifiers": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'UE_FE_Type_Bleed_C'",
+                "ObjectPath": "/Game/UI/Floaties/Modifiers/UE_FE_Type_Bleed"
+              }
+            ]
+          }
+        }
+      ],
+      "DamageWidgetClass": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'WBP_FloatingDamage_C'",
+        "ObjectPath": "/Game/UI/Floaties/WBP_FloatingDamage"
+      },
+      "TextWidgetClass": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'WBP_FloatingText_C'",
+        "ObjectPath": "/Game/UI/Floaties/WBP_FloatingText"
+      },
+      "BurningStatusEffectText": {
+        "TableId": "/Game/UI/HUD/ST_HUD.ST_HUD",
+        "Key": "ui.hud.floatie.statusEffect.Burning",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PoisonStatusEffectText": {
+        "TableId": "/Game/UI/HUD/ST_HUD.ST_HUD",
+        "Key": "ui.hud.floatie.statusEffect.Poison",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "BleedStatusEffectText": {
+        "TableId": "/Game/UI/HUD/ST_HUD.ST_HUD",
+        "Key": "ui.hud.floatie.statusEffect.Bleed",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "ImmuneStatusEffectText": {
+        "TableId": "/Game/UI/HUD/ST_HUD.ST_HUD",
+        "Key": "ui.hud.floaties.statuseffect.Immune",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "SlowedStatusEffectText": {
+        "TableId": "/Game/UI/HUD/ST_HUD.ST_HUD",
+        "Key": "ui.hud.floaties.statusEffect.Slowed",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "HamstrungStatusEffectText": {
+        "TableId": "/Game/UI/HUD/ST_HUD.ST_HUD",
+        "Key": "ui.hud.floaties.statusEffect.Hamstrung",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  }
+]

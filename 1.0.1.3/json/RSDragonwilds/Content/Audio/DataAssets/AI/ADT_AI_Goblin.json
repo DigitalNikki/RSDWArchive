@@ -1,0 +1,879 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ADT_AI_Goblin",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Object'AiAnimationAudioTableRowBase'",
+        "ObjectPath": "/Script/Dominion"
+      }
+    },
+    "Rows": {
+      "Hurt_Idle": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Goblin"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Qst_En_Fo_Goblin_Hurt_Idle'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/GoblinFaction/Goblin_Foley/Idle/MSS_Qst_En_Fo_Goblin_Hurt_Idle"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Hurt_Idle_BreatheIn": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Goblin"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_Goblin_Hurt_Idle_Breath_In'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/GoblinFaction/Goblin_Foley/Idle/MSS_En_Fo_Goblin_Hurt_Idle_Breath_In"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Goblin.Runt"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_GoblinRunt_BreathIn'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/GoblinFaction/GoblinRunt_Vox/Breath/MSS_En_Vox_GoblinRunt_BreathIn"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Hurt_Idle_BreatheOut": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Goblin"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_Goblin_Hurt_Idle_Breath_Out'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/GoblinFaction/Goblin_Foley/Idle/MSS_En_Fo_Goblin_Hurt_Idle_Breath_Out"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Goblin.Runt"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_GoblinRunt_BreathOut'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/GoblinFaction/GoblinRunt_Vox/Breath/MSS_En_Vox_GoblinRunt_BreathOut"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Move_Fast": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Goblin"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_Goblin_move_fast'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/GoblinFaction/Goblin_Foley/Movement/MSS_En_Fo_Goblin_move_fast"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Goblin.Runt"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_Goblin_Runt_move_fast'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/GoblinFaction/Goblin_Foley/Movement/MSS_En_Fo_Goblin_Runt_move_fast"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Move_Slow": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Goblin"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_Goblin_move_slow'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/GoblinFaction/Goblin_Foley/Movement/MSS_En_Fo_Goblin_move_slow"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Goblin.Runt"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_Goblin_Runt_move_slow'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/GoblinFaction/Goblin_Foley/Movement/MSS_En_Fo_Goblin_Runt_move_slow"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Scratch": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Goblin"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_Goblin_scratch'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/GoblinFaction/Goblin_Foley/Movement/MSS_En_Fo_Goblin_scratch"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Whoosh": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Goblin.Melee"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_MeleeGoblin_Whoosh_AxeSwing'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/GoblinFaction/Goblin_Foley/Movement/MSS_En_Fo_MeleeGoblin_Whoosh_AxeSwing"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "BodyFall": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Goblin"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Pl_Fo_Goblin_Bodyfall'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/GoblinFaction/Goblin_Foley/Movement/MSS_Pl_Fo_Goblin_Bodyfall"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": true,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Vox_BreathIn": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Goblin"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_Goblin_BreathIn'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/GoblinFaction/Goblin_Vox/Breath/MSS_En_Vox_Goblin_BreathIn"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Goblin.Runt"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_GoblinRunt_BreathIn'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/GoblinFaction/GoblinRunt_Vox/Breath/MSS_En_Vox_GoblinRunt_BreathIn"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Vox_BreathInLoco": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Goblin"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_Goblin_BreathIn_Loco'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/GoblinFaction/Goblin_Vox/Breath/MSS_En_Vox_Goblin_BreathIn_Loco"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Goblin.Runt"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_GoblinRunt_BreathIn_Loco'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/GoblinFaction/GoblinRunt_Vox/Breath/MSS_En_Vox_GoblinRunt_BreathIn_Loco"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Vox_BreathOut": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Goblin"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_Goblin_BreathOut'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/GoblinFaction/Goblin_Vox/Breath/MSS_En_Vox_Goblin_BreathOut"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Goblin.Runt"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_GoblinRunt_BreathOut'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/GoblinFaction/GoblinRunt_Vox/Breath/MSS_En_Vox_GoblinRunt_BreathOut"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Vox_BreathOutLoco": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Goblin"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_Goblin_BreathOut_Loco'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/GoblinFaction/Goblin_Vox/Breath/MSS_En_Vox_Goblin_BreathOut_Loco"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Goblin.Runt"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_GoblinRunt_BreathOut_Loco'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/GoblinFaction/GoblinRunt_Vox/Breath/MSS_En_Vox_GoblinRunt_BreathOut_Loco"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Vox_Snort": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Goblin"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_Goblin_Snort'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/GoblinFaction/Goblin_Vox/Breath/MSS_En_Vox_Goblin_Snort"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Goblin.Runt"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_GoblinRunt_Snort'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/GoblinFaction/GoblinRunt_Vox/Breath/MSS_En_Vox_GoblinRunt_Snort"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Vox_Death": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Goblin"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_Goblin_Death'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/GoblinFaction/Goblin_Vox/Death/MSS_En_Vox_Goblin_Death"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Goblin.Runt"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_GoblinRunt_Death'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/GoblinFaction/GoblinRunt_Vox/Death/MSS_En_Vox_GoblinRunt_Death"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": true,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Vox_GenericEffort_Long": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Goblin"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_Goblin_GenericEffort_Long'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/GoblinFaction/Goblin_Vox/Effort/MSS_En_Vox_Goblin_GenericEffort_Long"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Goblin.Runt"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_GoblinRunt_GenericEffort_Long'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/GoblinFaction/GoblinRunt_Vox/Effort/MSS_En_Vox_GoblinRunt_GenericEffort_Long"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Vox_GenericEffort_Med": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Goblin"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_Goblin_GenericEffort_Med'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/GoblinFaction/Goblin_Vox/Effort/MSS_En_Vox_Goblin_GenericEffort_Med"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Goblin.Runt"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_GoblinRunt_GenericEffort_Med'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/GoblinFaction/GoblinRunt_Vox/Effort/MSS_En_Vox_GoblinRunt_GenericEffort_Med"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Vox_GenericEffort_Short": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Goblin"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_Goblin_GenericEffort_Short'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/GoblinFaction/Goblin_Vox/Effort/MSS_En_Vox_Goblin_GenericEffort_Short"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Goblin.Runt"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_GoblinRunt_GenericEffort_Short'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/GoblinFaction/GoblinRunt_Vox/Effort/MSS_En_Vox_GoblinRunt_GenericEffort_Short"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Vox_Giggle": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Goblin"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_Goblin_Giggle'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/GoblinFaction/Goblin_Vox/Giggle/MSS_En_Vox_Goblin_Giggle"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Goblin.Runt"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_GoblinRunt_Giggle'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/GoblinFaction/GoblinRunt_Vox/Giggle/MSS_En_Vox_GoblinRunt_Giggle"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Vox_GiggleLoco": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Goblin"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_Goblin_Giggle_Loco'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/GoblinFaction/Goblin_Vox/Giggle/MSS_En_Vox_Goblin_Giggle_Loco"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Goblin.Runt"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_GoblinRunt_Giggle_Loco'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/GoblinFaction/GoblinRunt_Vox/Giggle/MSS_En_Vox_GoblinRunt_Giggle_Loco"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Vox_HitReact": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Goblin"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_Goblin_HitReact'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/GoblinFaction/Goblin_Vox/HitReact/MSS_En_Vox_Goblin_HitReact"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Goblin.Runt"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_GoblinRunt_HitReact'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/GoblinFaction/GoblinRunt_Vox/HitReact/MSS_En_Vox_GoblinRunt_HitReact"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Vox_Idle_Worried_Exclaim": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Goblin"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_Goblin_Idle_Worried_Exclaim'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/GoblinFaction/Goblin_Vox/Snarl/MSS_En_Vox_Goblin_Idle_Worried_Exclaim"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Goblin.Runt"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_GoblinRunt_Idle_Worried_Exclaim'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/GoblinFaction/GoblinRunt_Vox/Snarl/MSS_En_Vox_GoblinRunt_Idle_Worried_Exclaim"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Vox_Short_Snarl": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Goblin"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_Goblin_Short_Snarl'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/GoblinFaction/Goblin_Vox/Snarl/MSS_En_Vox_Goblin_Short_Snarl"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Goblin.Runt"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_GoblinRunt_Short_Snarl'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/GoblinFaction/GoblinRunt_Vox/Snarl/MSS_En_Vox_GoblinRunt_Short_Snarl"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Vox_Snarl": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Goblin"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_Goblin_Snarl'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/GoblinFaction/Goblin_Vox/Snarl/MSS_En_Vox_Goblin_Snarl"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Goblin.Runt"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_GoblinRunt_Snarl'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/GoblinFaction/GoblinRunt_Vox/Snarl/MSS_En_Vox_GoblinRunt_Snarl"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Vox_Suspicious_Snarl": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Goblin"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_Goblin_Suspicious_Snarl'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/GoblinFaction/Goblin_Vox/Snarl/MSS_En_Vox_Goblin_Suspicious_Snarl"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Goblin.Runt"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_GoblinRunt_Suspicious_Snarl'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/GoblinFaction/GoblinRunt_Vox/Snarl/MSS_En_Vox_GoblinRunt_Suspicious_Snarl"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Vox_Warcry_Long": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Goblin"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_Goblin_Warcry_Long'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/GoblinFaction/Goblin_Vox/Warcry/MSS_En_Vox_Goblin_Warcry_Long"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Goblin.Runt"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_GoblinRunt_Warcry_Long'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/GoblinFaction/GoblinRunt_Vox/Warcry/MSS_En_Vox_GoblinRunt_Warcry_Long"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Vox_Warcry_Short": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Goblin"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_Goblin_Warcry_Short'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/GoblinFaction/Goblin_Vox/Warcry/MSS_En_Vox_Goblin_Warcry_Short"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Goblin.Runt"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_GoblinRunt_Warcry_Short'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/GoblinFaction/GoblinRunt_Vox/Warcry/MSS_En_Vox_GoblinRunt_Warcry_Short"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Bow_Draw": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Goblin.Ranged"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_Ra_LongBow_Draw'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Ranged/MSS_Co_Ra_LongBow_Draw"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Bow_Fire": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Goblin.Ranged"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_Ra_LongBow_Fire_Local'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Ranged/MSS_Co_Ra_LongBow_Fire_Local"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Vox_Snort2": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Goblin"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Co_Abyssal_Demon_FS_Grass_Soft_Run'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Foley/MSS_BC_En_Co_Abyssal_Demon_FS_Grass_Soft_Run"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Footsteps_Walk": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Goblin"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_GoblinFootsteps_Walk'",
+              "ObjectPath": "/Game/Audio/DataAssets/FootstepData/ADA_GoblinFootsteps_Walk"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Footsteps_Run": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Goblin"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_GoblinFootsteps_Run'",
+              "ObjectPath": "/Game/Audio/DataAssets/FootstepData/ADA_GoblinFootsteps_Run"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Bodyfall_med": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Goblin"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_Cr_Bodyfall_Med'",
+              "ObjectPath": "/Game/Audio/DataAssets/Foley/ADA_Cr_Bodyfall_Med"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "GoblinFishing_Splash": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Goblin"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Pl_Fo_DowdunGoblin_Fishing_Splash_Small'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/NPC/DowdunGoblins/MSS_Pl_Fo_DowdunGoblin_Fishing_Splash_Small"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": true,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "GoblinFishing_Splash_LRG": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Goblin"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Pl_Fo_DowdunGoblin_Fishing_Splash_Large'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/NPC/DowdunGoblins/MSS_Pl_Fo_DowdunGoblin_Fishing_Splash_Large"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": true,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "GoblinFishing_FootStab": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Goblin"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_Dowdungoblin_Stab_Foot'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/NPC/DowdunGoblins/MSS_Co_Dowdungoblin_Stab_Foot"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": true,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      }
+    }
+  }
+]

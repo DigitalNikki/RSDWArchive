@@ -1,0 +1,58 @@
+[
+  {
+    "Type": "DominionInputMode",
+    "Name": "DIM_Mounted",
+    "Class": "UScriptClass'DominionInputMode'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "InputConfig": "EDominionWidgetInputMode::Game",
+      "Mappings": [
+        {
+          "InputMapping": {
+            "ObjectName": "InputMappingContext'IMC_Camera'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Mappings/IMC_Camera"
+          },
+          "Priority": 0,
+          "DebugBuildsOnly": false
+        },
+        {
+          "InputMapping": {
+            "ObjectName": "InputMappingContext'IMC_MountedMovement'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Mappings/IMC_MountedMovement"
+          },
+          "Priority": 0,
+          "DebugBuildsOnly": false
+        },
+        {
+          "InputMapping": {
+            "ObjectName": "InputMappingContext'IMC_MountedUI'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Mappings/IMC_MountedUI"
+          },
+          "Priority": 2,
+          "DebugBuildsOnly": false
+        },
+        {
+          "InputMapping": {
+            "ObjectName": "InputMappingContext'IMC_InventoryToggle'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Mappings/IMC_InventoryToggle"
+          },
+          "Priority": 0,
+          "DebugBuildsOnly": false
+        },
+        {
+          "InputMapping": {
+            "ObjectName": "InputMappingContext'IMC_DebugToggleWithPause'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Mappings/IMC_DebugToggleWithPause"
+          },
+          "Priority": 3,
+          "DebugBuildsOnly": true
+        }
+      ],
+      "bIsEmoteMenuAllowedToOpen": false,
+      "bIsSpellcastingMenuAllowedToOpen": false,
+      "LegendWidgetType": "EInputLegendWidgetType::Gameplay",
+      "bEnableHorizontalMenuNavigationUsingGamepadDPad": true,
+      "bEnableQuickAccessPrompt": true
+    }
+  }
+]

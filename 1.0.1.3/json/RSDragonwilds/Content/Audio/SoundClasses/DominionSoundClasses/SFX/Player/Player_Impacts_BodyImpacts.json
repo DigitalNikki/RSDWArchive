@@ -1,0 +1,22 @@
+[
+  {
+    "Type": "DominionSoundClass",
+    "Name": "Player_Impacts_BodyImpacts",
+    "Class": "UScriptClass'DominionSoundClass'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MinReverbSend": 0.1,
+      "MaxReverbSend": 0.5,
+      "Properties": {
+        "DefaultSubmix": {
+          "ObjectName": "SoundSubmix'Melee'",
+          "ObjectPath": "/Game/Audio/Submixes/Melee"
+        }
+      },
+      "ParentClass": {
+        "ObjectName": "DominionSoundClass'Player_Melee_Impacts'",
+        "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Player/Combat/Player_Melee_Impacts"
+      }
+    }
+  }
+]

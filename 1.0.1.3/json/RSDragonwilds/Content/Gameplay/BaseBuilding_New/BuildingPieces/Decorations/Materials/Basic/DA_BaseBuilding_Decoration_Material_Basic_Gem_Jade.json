@@ -1,0 +1,56 @@
+[
+  {
+    "Type": "BuildingPieceData",
+    "Name": "DA_BaseBuilding_Decoration_Material_Basic_Gem_Jade",
+    "Class": "UScriptClass'BuildingPieceData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DerivedData": {
+        "AssetPathName": "/Game/Gameplay/BaseBuilding_New/BuildingPieces_DerivedData/Decorations/Materials/Basic/DA_BaseBuilding_Decoration_Material_Basic_Gem_Jade_DerivedData.DA_BaseBuilding_Decoration_Material_Basic_Gem_Jade_DerivedData",
+        "SubPathString": ""
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "Jade",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "DisplayIcon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Jade.T_Icon_Jade",
+        "SubPathString": ""
+      },
+      "BuildableActor": {
+        "AssetPathName": "/Game/Gameplay/BaseBuilding_New/BuildingPieces/Decorations/Materials/Basic/BP_BaseBuilding_Decoration_Material_Basic_Gem_Jade.BP_BaseBuilding_Decoration_Material_Basic_Gem_Jade_C",
+        "SubPathString": ""
+      },
+      "Requirements": [
+        {
+          "Amount": 1,
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Jade'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Gem/ITEM_Resources_Jade"
+          }
+        }
+      ],
+      "PieceTag": {
+        "TagName": "BaseBuilding.PieceType.Prop"
+      },
+      "BuildingStabilityProfileRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_StabilityProfile'",
+          "ObjectPath": "/Game/Gameplay/BaseBuilding_New/DT_StabilityProfile"
+        },
+        "RowName": "Prop"
+      },
+      "BuildXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Building'",
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Building"
+        },
+        "RowName": "Build_Decoration_Tier1"
+      },
+      "RepresentationCategory": "EBuildingPieceRepresentationCategory::Lightweight",
+      "PersistenceID": "Z5-gO0-sX9GCN5ej1WQRqw"
+    }
+  }
+]

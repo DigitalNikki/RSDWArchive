@@ -1,0 +1,405 @@
+[
+  {
+    "Type": "AnimNotify_PlayNiagaraEffect",
+    "Name": "AnimNotify_PlayNiagaraEffect_0",
+    "Outer": {
+      "ObjectName": "AnimSequence'A_NPC_AbyssalDemon_AbyssalSlash_02'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Art/Animation/NPC_AbyssalDemon/Attack/A_NPC_AbyssalDemon_AbyssalSlash_02.4"
+    },
+    "Class": "UScriptClass'AnimNotify_PlayNiagaraEffect'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Template": {
+        "ObjectName": "NiagaraSystem'NS_AbyssalSlash_Ground'",
+        "ObjectPath": "/Game/Art/VFX/Library/AbyssalDemonFX/Export/AbyssalSlashFX/NS_AbyssalSlash_Ground"
+      },
+      "LocationOffset": {
+        "X": 0.0,
+        "Y": 300.0,
+        "Z": 1.0
+      },
+      "Attached": false
+    }
+  },
+  {
+    "Type": "AnimNotifyState_TimedNiagaraEffectAdvanced",
+    "Name": "AnimNotifyState_TimedNiagaraEffectAdvanced_0",
+    "Outer": {
+      "ObjectName": "AnimSequence'A_NPC_AbyssalDemon_AbyssalSlash_02'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Art/Animation/NPC_AbyssalDemon/Attack/A_NPC_AbyssalDemon_AbyssalSlash_02.4"
+    },
+    "Class": "UScriptClass'AnimNotifyState_TimedNiagaraEffectAdvanced'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bApplyRateScaleToProgress": false,
+      "Template": {
+        "ObjectName": "NiagaraSystem'NS_AbyssalDemon_Orb_EnergyLoop'",
+        "ObjectPath": "/Game/Art/VFX/Library/AbyssalDemonFX/Export/AbyssalOrb/NS_AbyssalDemon_Orb_EnergyLoop"
+      },
+      "SocketName": "s_warpFX",
+      "LocationOffset": {
+        "X": 50.0,
+        "Y": 50.0,
+        "Z": 0.0
+      },
+      "bDestroyAtEnd": true
+    }
+  },
+  {
+    "Type": "AnimNotifyState_TimedNiagaraEffectAdvanced",
+    "Name": "AnimNotifyState_TimedNiagaraEffectAdvanced_3",
+    "Outer": {
+      "ObjectName": "AnimSequence'A_NPC_AbyssalDemon_AbyssalSlash_02'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Art/Animation/NPC_AbyssalDemon/Attack/A_NPC_AbyssalDemon_AbyssalSlash_02.4"
+    },
+    "Class": "UScriptClass'AnimNotifyState_TimedNiagaraEffectAdvanced'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bApplyRateScaleToProgress": false,
+      "Template": {
+        "ObjectName": "NiagaraSystem'NS_AbyssalDemon_SliceTrailHeavy'",
+        "ObjectPath": "/Game/Art/VFX/Library/AbyssalDemonFX/Export/AbyssalSlashFX/NS_AbyssalDemon_SliceTrailHeavy"
+      },
+      "SocketName": "hand_l"
+    }
+  },
+  {
+    "Type": "AnimNotifyState_TimedNiagaraEffectAdvanced",
+    "Name": "AnimNotifyState_TimedNiagaraEffectAdvanced_4",
+    "Outer": {
+      "ObjectName": "AnimSequence'A_NPC_AbyssalDemon_AbyssalSlash_02'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Art/Animation/NPC_AbyssalDemon/Attack/A_NPC_AbyssalDemon_AbyssalSlash_02.4"
+    },
+    "Class": "UScriptClass'AnimNotifyState_TimedNiagaraEffectAdvanced'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bApplyRateScaleToProgress": false,
+      "Template": {
+        "ObjectName": "NiagaraSystem'NS_AbyssalDemon_Orb_EnergyLoop'",
+        "ObjectPath": "/Game/Art/VFX/Library/AbyssalDemonFX/Export/AbyssalOrb/NS_AbyssalDemon_Orb_EnergyLoop"
+      },
+      "SocketName": "hand_l",
+      "LocationOffset": {
+        "X": 50.0,
+        "Y": 50.0,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "AnimSequence",
+    "Name": "A_NPC_AbyssalDemon_AbyssalSlash_02",
+    "Class": "UScriptClass'AnimSequence'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BoneCompressionSettings": {
+        "ObjectName": "AnimBoneCompressionSettings'DefaultAnimBoneCompressionSettings'",
+        "ObjectPath": "/Engine/Animation/DefaultAnimBoneCompressionSettings"
+      },
+      "CurveCompressionSettings": {
+        "ObjectName": "AnimCurveCompressionSettings'DefaultAnimCurveCompressionSettings'",
+        "ObjectPath": "/Engine/Animation/DefaultAnimCurveCompressionSettings"
+      },
+      "VariableFrameStrippingSettings": {
+        "ObjectName": "VariableFrameStrippingSettings'DefaultVariableFrameStrippingSettings'",
+        "ObjectPath": "/Engine/Animation/DefaultVariableFrameStrippingSettings"
+      },
+      "bEnableRootMotion": true,
+      "Notifies": [
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TimedNiagaraEffectAdvanced",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "AnimNotifyState_TimedNiagaraEffectAdvanced'A_NPC_AbyssalDemon_AbyssalSlash_02:AnimNotifyState_TimedNiagaraEffectAdvanced_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Art/Animation/NPC_AbyssalDemon/Attack/A_NPC_AbyssalDemon_AbyssalSlash_02.3"
+          },
+          "Duration": 3.8666666,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 3.8666666,
+            "LinkValue": 3.8666666,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'A_NPC_AbyssalDemon_AbyssalSlash_02'",
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Art/Animation/NPC_AbyssalDemon/Attack/A_NPC_AbyssalDemon_AbyssalSlash_02.4"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bCanBeFilteredViaRequest": true,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 2,
+          "LinkedMontage": null,
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.8666666,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'A_NPC_AbyssalDemon_AbyssalSlash_02'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Art/Animation/NPC_AbyssalDemon/Attack/A_NPC_AbyssalDemon_AbyssalSlash_02.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TimedNiagaraEffectAdvanced",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "AnimNotifyState_TimedNiagaraEffectAdvanced'A_NPC_AbyssalDemon_AbyssalSlash_02:AnimNotifyState_TimedNiagaraEffectAdvanced_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Art/Animation/NPC_AbyssalDemon/Attack/A_NPC_AbyssalDemon_AbyssalSlash_02.1"
+          },
+          "Duration": 3.8666666,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 3.8666666,
+            "LinkValue": 3.8666666,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'A_NPC_AbyssalDemon_AbyssalSlash_02'",
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Art/Animation/NPC_AbyssalDemon/Attack/A_NPC_AbyssalDemon_AbyssalSlash_02.4"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bCanBeFilteredViaRequest": true,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 3,
+          "LinkedMontage": null,
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.8666666,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'A_NPC_AbyssalDemon_AbyssalSlash_02'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Art/Animation/NPC_AbyssalDemon/Attack/A_NPC_AbyssalDemon_AbyssalSlash_02.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "PlayNiagaraEffect",
+          "Notify": {
+            "ObjectName": "AnimNotify_PlayNiagaraEffect'A_NPC_AbyssalDemon_AbyssalSlash_02:AnimNotify_PlayNiagaraEffect_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Art/Animation/NPC_AbyssalDemon/Attack/A_NPC_AbyssalDemon_AbyssalSlash_02.0"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.48818126,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bCanBeFilteredViaRequest": true,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 4,
+          "LinkedMontage": null,
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.8666666,
+          "LinkValue": 0.48818126,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'A_NPC_AbyssalDemon_AbyssalSlash_02'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Art/Animation/NPC_AbyssalDemon/Attack/A_NPC_AbyssalDemon_AbyssalSlash_02.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TimedNiagaraEffectAdvanced",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "AnimNotifyState_TimedNiagaraEffectAdvanced'A_NPC_AbyssalDemon_AbyssalSlash_02:AnimNotifyState_TimedNiagaraEffectAdvanced_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Art/Animation/NPC_AbyssalDemon/Attack/A_NPC_AbyssalDemon_AbyssalSlash_02.2"
+          },
+          "Duration": 0.093875766,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 3.8666666,
+            "LinkValue": 0.9018019,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'A_NPC_AbyssalDemon_AbyssalSlash_02'",
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Art/Animation/NPC_AbyssalDemon/Attack/A_NPC_AbyssalDemon_AbyssalSlash_02.4"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bCanBeFilteredViaRequest": true,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 2,
+          "LinkedMontage": null,
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.8666666,
+          "LinkValue": 0.8079261,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'A_NPC_AbyssalDemon_AbyssalSlash_02'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Art/Animation/NPC_AbyssalDemon/Attack/A_NPC_AbyssalDemon_AbyssalSlash_02.4"
+          }
+        }
+      ],
+      "SequenceLength": 3.8666666,
+      "Skeleton": {
+        "ObjectName": "Skeleton'SKEL_Abyssal_Demon_01'",
+        "ObjectPath": "/Game/Art/Skeleton/NPC/Insectoid/Abyssal_Demon_01/SKEL_Abyssal_Demon_01"
+      },
+      "AssetUserData": [
+        null
+      ]
+    },
+    "SkeletonGuid": "2A96A52E-47163203-B43E4DAD-A1BD7075",
+    "CompressedTrackToSkeletonMapTable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      68,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      69,
+      21,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57
+    ],
+    "CompressedCurveNames": [
+      {
+        "DisplayName": "LegIK_BL"
+      },
+      {
+        "DisplayName": "LegIK_BR"
+      },
+      {
+        "DisplayName": "LegIK_FL"
+      },
+      {
+        "DisplayName": "LegIK_FR"
+      }
+    ],
+    "CompressedRawDataSize": 390064
+  }
+]

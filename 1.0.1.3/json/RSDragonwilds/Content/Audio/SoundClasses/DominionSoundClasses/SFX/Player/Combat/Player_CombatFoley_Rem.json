@@ -1,0 +1,24 @@
+[
+  {
+    "Type": "DominionSoundClass",
+    "Name": "Player_CombatFoley_Rem",
+    "Class": "UScriptClass'DominionSoundClass'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MinReverbSend": 0.07,
+      "MaxReverbSend": 0.3,
+      "OcclusionMultiplier": 1.0,
+      "Properties": {
+        "Volume": 0.1,
+        "DefaultSubmix": {
+          "ObjectName": "SoundSubmix'SFX'",
+          "ObjectPath": "/Game/Audio/Submixes/SFX"
+        }
+      },
+      "ParentClass": {
+        "ObjectName": "DominionSoundClass'Player'",
+        "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Player/Player"
+      }
+    }
+  }
+]

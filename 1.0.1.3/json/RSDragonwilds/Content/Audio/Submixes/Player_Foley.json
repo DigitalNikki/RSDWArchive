@@ -1,0 +1,20 @@
+[
+  {
+    "Type": "SoundSubmix",
+    "Name": "Player_Foley",
+    "Class": "UScriptClass'SoundSubmix'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SubmixEffectChain": [
+        {
+          "ObjectName": "SubmixEffectDynamicsProcessorPreset'Foley_Compressor'",
+          "ObjectPath": "/Game/Audio/Effects/Foley_Compressor"
+        }
+      ],
+      "ParentSubmix": {
+        "ObjectName": "SoundSubmix'SFX'",
+        "ObjectPath": "/Game/Audio/Submixes/SFX"
+      }
+    }
+  }
+]

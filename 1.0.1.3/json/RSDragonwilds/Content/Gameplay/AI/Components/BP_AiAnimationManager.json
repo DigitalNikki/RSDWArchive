@@ -1,0 +1,53 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_AiAnimationManager_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'AiAnimationManager'",
+      "ObjectPath": "/Script/Dominion"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_AiAnimationManager_C'Default__BP_AiAnimationManager_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/Components/BP_AiAnimationManager.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_AiAnimationManager_C",
+    "Name": "Default__BP_AiAnimationManager_C",
+    "Class": "BlueprintGeneratedClass'1.0.1.3/RSDragonwilds/Content/Gameplay/AI/Components/BP_AiAnimationManager.BP_AiAnimationManager_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AnimatedWalkSpeedMult": 0.44,
+      "StrideBlendNWalk": {
+        "ObjectName": "CurveFloat'C_StrideBlend_N_Walk'",
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Curves/C_StrideBlend_N_Walk"
+      },
+      "StrideBlendNRun": {
+        "ObjectName": "CurveFloat'C_StrideBlend_N_Run'",
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Curves/C_StrideBlend_N_Run"
+      },
+      "YawOffsetFB": {
+        "ObjectName": "CurveVector'YawOffset_FB'",
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Curves/YawOffset_FB"
+      },
+      "YawOffsetLR": {
+        "ObjectName": "CurveVector'YawOffset_LR'",
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Curves/YawOffset_LR"
+      },
+      "RotateMinThreshold": -2.0,
+      "RotateMaxThreshold": 2.0
+    }
+  }
+]

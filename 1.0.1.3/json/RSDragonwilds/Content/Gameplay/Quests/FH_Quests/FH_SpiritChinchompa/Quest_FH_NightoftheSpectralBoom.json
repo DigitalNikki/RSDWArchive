@@ -1,0 +1,75 @@
+[
+  {
+    "Type": "QuestData",
+    "Name": "Quest_FH_NightoftheSpectralBoom",
+    "Class": "UScriptClass'QuestData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "QuestName": {
+        "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/ST_FH_SpiritChinchompa.ST_FH_SpiritChinchompa",
+        "Key": "Quest.Name",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "CompletedQuestDescription": {
+        "TableId": "/Game/Gameplay/Quests/ST_QuestCompletionText.ST_QuestCompletionText",
+        "Key": "ThingsThatGoBoomInTheNight",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "QuestRegion": "EQuestRegion::Fellhollow",
+      "QuestDescription": {
+        "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/ST_FH_SpiritChinchompa.ST_FH_SpiritChinchompa",
+        "Key": "Quest.Description",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Objectives": [
+        {
+          "Key": "FindSpectralChinchompaSkulls",
+          "Value": {
+            "Description": {
+              "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/ST_FH_SpiritChinchompa.ST_FH_SpiritChinchompa",
+              "Key": "Objective.GatherSkulls",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "SubobjectiveDescription": {
+              "CultureInvariantString": null
+            },
+            "Hint": {
+              "CultureInvariantString": null
+            },
+            "bOverrideQuestDescription": false,
+            "QuestDescriptionOverride": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        {
+          "Key": "SpeaktoVannaka",
+          "Value": {
+            "Description": {
+              "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/ST_FH_SpiritChinchompa.ST_FH_SpiritChinchompa",
+              "Key": "Objective.SpeakToVannaka",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "SubobjectiveDescription": {
+              "CultureInvariantString": null
+            },
+            "Hint": {
+              "CultureInvariantString": null
+            },
+            "bOverrideQuestDescription": false,
+            "QuestDescriptionOverride": {
+              "CultureInvariantString": null
+            }
+          }
+        }
+      ],
+      "PersistenceID": "wwEK50EPipTecO20yTquSQ",
+      "InternalName": "FH_NightoftheSpectralBoom"
+    }
+  }
+]

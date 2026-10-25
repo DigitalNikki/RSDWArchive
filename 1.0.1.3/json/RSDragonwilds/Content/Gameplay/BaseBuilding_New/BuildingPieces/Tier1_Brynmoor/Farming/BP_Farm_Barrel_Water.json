@@ -1,0 +1,519 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Farm_Barrel_Water_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DynamicBindingObjects": [
+        {
+          "ObjectName": "ComponentDelegateBinding'BP_Farm_Barrel_Water_C:ComponentDelegateBinding_0'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_Barrel_Water.5"
+        }
+      ],
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Farm_Barrel_Water_C:SimpleConstructionScript_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_Barrel_Water.17"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_Farm_Barrel_Water_C:ExecuteUbergraph_BP_Farm_Barrel_Water'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_Barrel_Water.9"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_T1_BasePiece_C'",
+      "ObjectPath": "/Game/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/BP_T1_BasePiece"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_Farm_Barrel_Water_C:BndEvt__BP_Farm_Barrel_Water_ContainerInteraction_K2Node_ComponentBoundEvent_0_OnInteraction__DelegateSignature'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_Barrel_Water.8"
+      },
+      {
+        "ObjectName": "Function'BP_Farm_Barrel_Water_C:ExecuteUbergraph_BP_Farm_Barrel_Water'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_Barrel_Water.9"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Object'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ContainerInteraction",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ContainerInteractionComponent'",
+          "ObjectPath": "/Script/Dominion"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Container",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ContainerComponent'",
+          "ObjectPath": "/Script/Dominion"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_Farm_Barrel_Water": {
+        "ObjectName": "Function'BP_Farm_Barrel_Water_C:ExecuteUbergraph_BP_Farm_Barrel_Water'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_Barrel_Water.9"
+      },
+      "BndEvt__BP_Farm_Barrel_Water_ContainerInteraction_K2Node_ComponentBoundEvent_0_OnInteraction__DelegateSignature": {
+        "ObjectName": "Function'BP_Farm_Barrel_Water_C:BndEvt__BP_Farm_Barrel_Water_ContainerInteraction_K2Node_ComponentBoundEvent_0_OnInteraction__DelegateSignature'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_Barrel_Water.8"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_NoExport | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Farm_Barrel_Water_C'Default__BP_Farm_Barrel_Water_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_Barrel_Water.2"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "BoxComponent",
+    "Outer": {
+      "ObjectName": "BP_Farm_Barrel_Water_C'Default__BP_Farm_Barrel_Water_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_Barrel_Water.2"
+    },
+    "Class": "UScriptClass'BoxComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BoxExtent": {
+        "X": 60.0,
+        "Y": 60.0,
+        "Z": 70.0
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_Farm_Barrel_Water_C:Root'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_Barrel_Water.13"
+      },
+      "RelativeLocation": {
+        "X": 5.8268965E-06,
+        "Y": 2.842171E-14,
+        "Z": 69.73154
+      }
+    }
+  },
+  {
+    "Type": "BP_Farm_Barrel_Water_C",
+    "Name": "Default__BP_Farm_Barrel_Water_C",
+    "Class": "BlueprintGeneratedClass'1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_Barrel_Water.BP_Farm_Barrel_Water_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {}
+    }
+  },
+  {
+    "Type": "BuildingDamageComponent",
+    "Name": "BaseBuildingDamageComponent",
+    "Outer": {
+      "ObjectName": "BP_Farm_Barrel_Water_C'Default__BP_Farm_Barrel_Water_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_Barrel_Water.2"
+    },
+    "Class": "UScriptClass'BuildingDamageComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "BuildingSnapComponent",
+    "Name": "BuildingSnapComponent",
+    "Outer": {
+      "ObjectName": "BP_Farm_Barrel_Water_C'Default__BP_Farm_Barrel_Water_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_Barrel_Water.2"
+    },
+    "Class": "UScriptClass'BuildingSnapComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "ComponentDelegateBinding",
+    "Name": "ComponentDelegateBinding_0",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Farm_Barrel_Water_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_Barrel_Water.0"
+    },
+    "Class": "UScriptClass'ComponentDelegateBinding'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentDelegateBindings": [
+        {
+          "ComponentPropertyName": "ContainerInteraction",
+          "DelegatePropertyName": "OnSecondaryInteractionEvent",
+          "FunctionNameToBind": "BndEvt__BP_Farm_Barrel_Water_ContainerInteraction_K2Node_ComponentBoundEvent_0_OnInteraction__DelegateSignature"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ContainerComponent",
+    "Name": "Container_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Farm_Barrel_Water_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_Barrel_Water.0"
+    },
+    "Class": "UScriptClass'ContainerComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "InteractionComponentRef": {
+        "ComponentProperty": "ContainerInteraction"
+      },
+      "AllowedFillTypes": [
+        {
+          "ObjectName": "ContainerContentDataAsset'CC_Water_Clean'",
+          "ObjectPath": "/Game/Gameplay/LiquidsAndOtherContent/CC_Water_Clean"
+        },
+        {
+          "ObjectName": "ContainerContentDataAsset'CC_Water_Dirty'",
+          "ObjectPath": "/Game/Gameplay/LiquidsAndOtherContent/CC_Water_Dirty"
+        }
+      ],
+      "Capacity": 500,
+      "ContainerInteraction": "EContainerInteraction::TransferFromComponentToPlayerInventory",
+      "ContainerStatusDisplayText": {
+        "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+        "Key": "StatusText_WaterBarrel",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "ContainerInteractionComponent",
+    "Name": "ContainerInteraction_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Farm_Barrel_Water_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_Barrel_Water.0"
+    },
+    "Class": "UScriptClass'ContainerInteractionComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ContainerComponentEmptyNotificationTag": {
+        "TagName": "UI.Notification.Farming.WaterBarrel.Empty"
+      },
+      "ContainerComponentFullNotificationTag": {
+        "TagName": "UI.Notification.Farming.WaterBarrel.BarrelAlreadyFull"
+      },
+      "NoPlayerContainerToTransferFromNotificationTag": {
+        "TagName": "UI.Notification.Farming.WaterBarrel.NothingInInventoryToFillBarelWith"
+      },
+      "HoldingContainerComponentRef": {
+        "ComponentProperty": "Container"
+      },
+      "ContainerInteraction": "EContainerInteraction::TransferFromComponentToPlayerInventory",
+      "InteractionPrompt": {
+        "TableId": "/Game/UI/Settings/ST_Controls.ST_Controls",
+        "Key": "Interact",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "bHasSecondaryInteraction": true,
+      "SecondaryInteractionPrompt": {
+        "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+        "Key": "InteractionPrompt.FillWateringCan",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PlayerAnimMontage": {
+        "ObjectName": "AnimMontage'AM_PlayerM_Interact_Take'",
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Interact/AM_PlayerM_Interact_Take"
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__BP_Farm_Barrel_Water_ContainerInteraction_K2Node_ComponentBoundEvent_0_OnInteraction__DelegateSignature",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Farm_Barrel_Water_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_Barrel_Water.0"
+    },
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Player",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'DominionPlayerCharacter'",
+          "ObjectPath": "/Script/Dominion"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_Farm_Barrel_Water",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Farm_Barrel_Water_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_Barrel_Water.0"
+    },
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_Player",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'DominionPlayerCharacter'",
+          "ObjectPath": "/Script/Dominion"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsLocallyControlled_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "HealthComponent",
+    "Name": "HealthComponent",
+    "Outer": {
+      "ObjectName": "BP_Farm_Barrel_Water_C'Default__BP_Farm_Barrel_Water_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_Barrel_Water.2"
+    },
+    "Class": "UScriptClass'HealthComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaxHealth": 200.0
+    }
+  },
+  {
+    "Type": "InteractionComponent",
+    "Name": "CompleteGhostInteractionComponent",
+    "Outer": {
+      "ObjectName": "BP_Farm_Barrel_Water_C'Default__BP_Farm_Barrel_Water_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_Barrel_Water.2"
+    },
+    "Class": "UScriptClass'InteractionComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "OnInteractionEvent": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_Farm_Barrel_Water_C'Default__BP_Farm_Barrel_Water_C'",
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_Barrel_Water.2"
+            },
+            "FunctionName": "OnInteract"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_Farm_Barrel_Water_C:Root'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_Barrel_Water.13"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Farm_Barrel_Water_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_Barrel_Water.0"
+    },
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Root",
+    "Outer": {
+      "ObjectName": "BP_Farm_Barrel_Water_C'Default__BP_Farm_Barrel_Water_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_Barrel_Water.2"
+    },
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Farm_Barrel_Water_C:SimpleConstructionScript_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_Barrel_Water.17"
+    },
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Farm_Barrel_Water_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_Barrel_Water.12"
+      },
+      "VariableGUID": "C7CD55AF-4EC317B0-6D53EFA0-DA39D9BB",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Farm_Barrel_Water_C:SimpleConstructionScript_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_Barrel_Water.17"
+    },
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ContainerComponent'",
+        "ObjectPath": "/Script/Dominion"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ContainerComponent'BP_Farm_Barrel_Water_C:Container_GEN_VARIABLE'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_Barrel_Water.6"
+      },
+      "VariableGUID": "8B1C8A91-428B87E0-0014EB86-93F00E84",
+      "InternalVariableName": "Container"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Farm_Barrel_Water_C:SimpleConstructionScript_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_Barrel_Water.17"
+    },
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ContainerInteractionComponent'",
+        "ObjectPath": "/Script/Dominion"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ContainerInteractionComponent'BP_Farm_Barrel_Water_C:ContainerInteraction_GEN_VARIABLE'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_Barrel_Water.7"
+      },
+      "ParentComponentOrVariableName": "BoxComponent",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "8EA8425F-4A37C7C0-DCBA83BC-844D4EB8",
+      "InternalVariableName": "ContainerInteraction"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Farm_Barrel_Water_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_Barrel_Water.0"
+    },
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_Farm_Barrel_Water_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_Barrel_Water.15"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Farm_Barrel_Water_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_Barrel_Water.16"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_Farm_Barrel_Water_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_Barrel_Water.15"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Farm_Barrel_Water_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_Barrel_Water.16"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Farm_Barrel_Water_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_Barrel_Water.14"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Mesh",
+    "Outer": {
+      "ObjectName": "BP_Farm_Barrel_Water_C'Default__BP_Farm_Barrel_Water_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_Barrel_Water.2"
+    },
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_WaterBarrel_01'",
+        "ObjectPath": "/Game/Art/Env/Base_Building/Farming/Water_Barrel/SM_WaterBarrel_01"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_RainPurifier_02'",
+          "ObjectPath": "/Game/Art/Env/Base_Building/Farming/RainPurifier/Materials/MI_RainPurifier_02"
+        }
+      ],
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_Farm_Barrel_Water_C:Root'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_Barrel_Water.13"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -9.917637
+      }
+    }
+  }
+]

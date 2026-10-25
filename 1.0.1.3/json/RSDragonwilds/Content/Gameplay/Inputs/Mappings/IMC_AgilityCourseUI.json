@@ -1,0 +1,124 @@
+[
+  {
+    "Type": "DominionPlayerMappableKeySetting",
+    "Name": "DominionPlayerMappableKeySetting_6",
+    "Outer": {
+      "ObjectName": "InputMappingContext'IMC_AgilityCourseUI'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Inputs/Mappings/IMC_AgilityCourseUI.2"
+    },
+    "Class": "UScriptClass'DominionPlayerMappableKeySetting'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AlternateInputMappingNames": [
+        "SprintGamepad"
+      ],
+      "InputType": "EKeyMappingSettingsInputType::KeyboardMouse",
+      "DisplayCategoryData": {
+        "ObjectName": "KeyBindingCategoryDataAsset'DA_KeyBindingCategory_Movement'",
+        "ObjectPath": "/Game/UI/Settings/KeyBindingCategories/DA_KeyBindingCategory_Movement"
+      },
+      "Name": "Sprint",
+      "DisplayName": {
+        "TableId": "/Game/UI/Settings/ST_Controls.ST_Controls",
+        "Key": "MovementSprint",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "DominionPlayerMappableKeySetting",
+    "Name": "DominionPlayerMappableKeySetting_7",
+    "Outer": {
+      "ObjectName": "InputMappingContext'IMC_AgilityCourseUI'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Inputs/Mappings/IMC_AgilityCourseUI.2"
+    },
+    "Class": "UScriptClass'DominionPlayerMappableKeySetting'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AlternateInputMappingNames": [
+        "Sprint"
+      ],
+      "InputType": "EKeyMappingSettingsInputType::Gamepad",
+      "DisplayCategoryData": {
+        "ObjectName": "KeyBindingCategoryDataAsset'DA_KeyBindingCategory_Movement'",
+        "ObjectPath": "/Game/UI/Settings/KeyBindingCategories/DA_KeyBindingCategory_Movement"
+      },
+      "Name": "SprintGamepad",
+      "DisplayName": {
+        "TableId": "/Game/UI/Settings/ST_Controls.ST_Controls",
+        "Key": "MovementSprint",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "InputMappingContext",
+    "Name": "IMC_AgilityCourseUI",
+    "Class": "UScriptClass'InputMappingContext'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Mappings": [
+        {
+          "Triggers": [],
+          "Modifiers": [],
+          "Action": {
+            "ObjectName": "InputAction'IA_AgilityCourse_Banner_Primary'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Actions/Agility/IA_AgilityCourse_Banner_Primary"
+          },
+          "Key": {
+            "KeyName": "Gamepad_FaceButton_Bottom"
+          },
+          "SettingBehavior": "EPlayerMappableKeySettingBehaviors::InheritSettingsFromAction",
+          "PlayerMappableKeySettings": null
+        },
+        {
+          "Triggers": [],
+          "Modifiers": [],
+          "Action": {
+            "ObjectName": "InputAction'IA_AgilityCourse_Banner_Secondary'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Actions/Agility/IA_AgilityCourse_Banner_Secondary"
+          },
+          "Key": {
+            "KeyName": "Gamepad_FaceButton_Right"
+          },
+          "SettingBehavior": "EPlayerMappableKeySettingBehaviors::InheritSettingsFromAction",
+          "PlayerMappableKeySettings": null
+        },
+        {
+          "Triggers": [],
+          "Modifiers": [],
+          "Action": {
+            "ObjectName": "InputAction'IA_Player_Sprint'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Actions/Basic/IA_Player_Sprint"
+          },
+          "Key": {
+            "KeyName": "LeftShift"
+          },
+          "SettingBehavior": "EPlayerMappableKeySettingBehaviors::OverrideSettings",
+          "PlayerMappableKeySettings": {
+            "ObjectName": "DominionPlayerMappableKeySetting'IMC_AgilityCourseUI:DominionPlayerMappableKeySetting_6'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Inputs/Mappings/IMC_AgilityCourseUI.0"
+          }
+        },
+        {
+          "Triggers": [],
+          "Modifiers": [],
+          "Action": {
+            "ObjectName": "InputAction'IA_Player_Sprint'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Actions/Basic/IA_Player_Sprint"
+          },
+          "Key": {
+            "KeyName": "Gamepad_LeftThumbstick"
+          },
+          "SettingBehavior": "EPlayerMappableKeySettingBehaviors::OverrideSettings",
+          "PlayerMappableKeySettings": {
+            "ObjectName": "DominionPlayerMappableKeySetting'IMC_AgilityCourseUI:DominionPlayerMappableKeySetting_7'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Inputs/Mappings/IMC_AgilityCourseUI.1"
+          }
+        }
+      ]
+    }
+  }
+]

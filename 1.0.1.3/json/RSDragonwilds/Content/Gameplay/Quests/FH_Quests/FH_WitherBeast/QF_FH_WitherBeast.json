@@ -1,0 +1,1547 @@
+[
+  {
+    "Type": "ConversationChoiceNode",
+    "Name": "ConversationChoiceNode_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Class": "UScriptClass'ConversationChoiceNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultChoiceDisplayText": {
+        "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/ST_FH_SpiritChinchompa.ST_FH_SpiritChinchompa",
+        "Key": "PlayerChoice.AskAboutNatureSpirits",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "ConversationChoiceNode",
+    "Name": "ConversationChoiceNode_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Class": "UScriptClass'ConversationChoiceNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultChoiceDisplayText": {
+        "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/ST_FH_SpiritChinchompa.ST_FH_SpiritChinchompa",
+        "Key": "PlayerChoice.AskAboutChinchompas",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "ConversationDatabase",
+    "Name": "QF_FH_WitherBeast",
+    "Class": "UScriptClass'ConversationDatabase'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CompilerVersion": 2,
+      "ReachableNodeMap": [
+        {
+          "Key": "861E6A03-4DA32DF6-E54F079A-558A3E09",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_FH_WitherBeast:ConversationEntryPointNode_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.3"
+          }
+        },
+        {
+          "Key": "56AB2B3F-40332119-4FF707AD-40E2E853",
+          "Value": {
+            "ObjectName": "QFT_GiveQuest_C'QF_FH_WitherBeast:QFT_GiveQuest_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.47"
+          }
+        },
+        {
+          "Key": "CA566F59-43D5E801-398B539C-148A31C8",
+          "Value": {
+            "ObjectName": "QFT_GiveQuest_C'QF_FH_WitherBeast:QFT_GiveQuest_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.45"
+          }
+        },
+        {
+          "Key": "C5535E2F-486901C8-18BC3593-44F66B2D",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_FH_WitherBeast:QFT_SetQuestObjective_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.75"
+          }
+        },
+        {
+          "Key": "5526B9DE-435FE97D-2F042D81-32DC1C58",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_FH_WitherBeast:QFT_UpdateQuestLocation_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.82"
+          }
+        },
+        {
+          "Key": "D577BC2D-40D99DA4-8DFF3EBB-DF27CBAC",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_FH_WitherBeast:ConversationEntryPointNode_5'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.4"
+          }
+        },
+        {
+          "Key": "0733662E-40A5978B-757D73A3-3BAB5D42",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_WitherBeast:QFT_Blank_C_22'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.31"
+          }
+        },
+        {
+          "Key": "640B4475-4E054A9B-DC8BF99F-D4B2A95E",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_WitherBeast:QFT_PromptMessage_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.48"
+          }
+        },
+        {
+          "Key": "164CF454-4994DA75-153D8DA5-5D8BF047",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_WitherBeast:QFT_Blank_C_7'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.40"
+          }
+        },
+        {
+          "Key": "A1675424-4C3AEB6C-03CE1DBB-C434EB34",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_WitherBeast:QFT_Blank_C_15'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.29"
+          }
+        },
+        {
+          "Key": "29653EEC-496F185B-9E2522A8-4C90A157",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_WitherBeast:QFT_PromptMessage_C_11'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.50"
+          }
+        },
+        {
+          "Key": "5A769BA2-4D1C3A35-BF3E7CAB-E8382CAD",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_WitherBeast:QFT_Blank_C_14'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.28"
+          }
+        },
+        {
+          "Key": "317A781E-47589D17-8C67ADA3-52A9D54F",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_WitherBeast:QFT_Blank_C_26'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.35"
+          }
+        },
+        {
+          "Key": "2B868BB8-42A019F0-012421AC-7C97CBA4",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_WitherBeast:QFT_PromptMessage_C_65'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.64"
+          }
+        },
+        {
+          "Key": "EF3CFA15-4CA86CDB-EA93629B-EFEB2083",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_WitherBeast:QFT_PromptMessage_C_66'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.65"
+          }
+        },
+        {
+          "Key": "75967869-4F73C26E-B4503294-3236AE27",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_WitherBeast:QFT_PromptMessage_C_67'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.66"
+          }
+        },
+        {
+          "Key": "C70C9CA0-46CA1FD3-3DA631AB-4882113D",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_WitherBeast:QFT_Blank_C_25'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.34"
+          }
+        },
+        {
+          "Key": "2EB99983-4D3AAD47-9E4C1195-26D2F458",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_WitherBeast:QFT_PromptMessage_C_64'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.63"
+          }
+        },
+        {
+          "Key": "9717A2E6-49A22EEF-0BC5148A-02847324",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_WitherBeast:QFT_Blank_C_24'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.33"
+          }
+        },
+        {
+          "Key": "1BA92A7F-43157345-41D7C6A2-5682D403",
+          "Value": {
+            "ObjectName": "QFT_TakeItemAmountFromPlayer_C'QF_FH_WitherBeast:QFT_TakeItemAmountFromPlayer_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.78"
+          }
+        },
+        {
+          "Key": "F24B26A6-405DAF44-5EA330B4-4A12FD81",
+          "Value": {
+            "ObjectName": "QFT_GiveItemsToPlayer_C'QF_FH_WitherBeast:QFT_GiveItemsToPlayer_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.44"
+          }
+        },
+        {
+          "Key": "98DF6E1F-448B4D39-86DEAF8B-A0D5F936",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_WitherBeast:QFT_Blank_C_9'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.42"
+          }
+        },
+        {
+          "Key": "86315A55-476767AC-0A6B7EBD-80A24A62",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_WitherBeast:QFT_PromptMessage_C_52'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.61"
+          }
+        },
+        {
+          "Key": "46AA68E2-49ECE4A2-556651AB-5018B6C5",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_WitherBeast:QFT_PromptMessage_C_53'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.62"
+          }
+        },
+        {
+          "Key": "26281DAD-472B0E6F-ABC1FCAD-F5F359F8",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_WitherBeast:QFT_Blank_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.25"
+          }
+        },
+        {
+          "Key": "89B18157-4353A559-C423EB81-4E9686FE",
+          "Value": {
+            "ObjectName": "ConversationLinkNode'QF_FH_WitherBeast:ConversationLinkNode_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.5"
+          }
+        },
+        {
+          "Key": "52425157-4B25A594-DE23F1BF-44422E76",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_WitherBeast:QFT_Blank_C_23'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.32"
+          }
+        },
+        {
+          "Key": "C0B629DA-4648E5FD-1D8615A1-3CE1B6CF",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_WitherBeast:QFT_Blank_C_13'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.27"
+          }
+        },
+        {
+          "Key": "6A466652-4435931D-7FA6969E-6140E094",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_WitherBeast:QFT_PromptMessage_C_71'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.70"
+          }
+        },
+        {
+          "Key": "F63C3DA9-4F87FF76-AD1B54B6-9C18CDB3",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_WitherBeast:QFT_PromptMessage_C_70'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.69"
+          }
+        },
+        {
+          "Key": "18A452DC-43E04C5B-41A05FA0-598FFD6B",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_WitherBeast:QFT_PromptMessage_C_48'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.59"
+          }
+        },
+        {
+          "Key": "718CC3F2-410F6AE3-5B5BFDA7-4D1AAA0A",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_WitherBeast:QFT_PromptMessage_C_69'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.68"
+          }
+        },
+        {
+          "Key": "1BA91004-4C4B8784-DFE16FA2-5742C4D5",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_WitherBeast:QFT_PromptMessage_C_68'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.67"
+          }
+        },
+        {
+          "Key": "177E655F-4FB9DE78-291B4BB5-CE00461A",
+          "Value": {
+            "ObjectName": "QFT_GiveQuest_C'QF_FH_WitherBeast:QFT_GiveQuest_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.46"
+          }
+        },
+        {
+          "Key": "EAB0B13D-460C4C77-F2A566BC-C1150861",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_FH_WitherBeast:QFT_SetQuestObjective_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.76"
+          }
+        },
+        {
+          "Key": "4661D248-40988B4B-50A934B7-C52B4384",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_FH_WitherBeast:QFT_SetQuestBool_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.73"
+          }
+        },
+        {
+          "Key": "13619666-421B0DA1-8748579A-378DF6C8",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_FH_WitherBeast:QFT_UpdateQuestLocation_C_5'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.83"
+          }
+        },
+        {
+          "Key": "0B0BF5B3-44CB0690-3D8045B1-E39284F5",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_WitherBeast:QFT_Blank_C_8'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.41"
+          }
+        },
+        {
+          "Key": "E46DB76A-40B7B214-922850A2-AB2B0648",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_WitherBeast:QFT_Blank_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.30"
+          }
+        },
+        {
+          "Key": "B624C70B-435AC75A-411767A2-0E889D0E",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_WitherBeast:QFT_PromptMessage_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.49"
+          }
+        },
+        {
+          "Key": "DF30D252-49D1A2A9-DBE80085-82BF61BA",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_WitherBeast:QFT_PromptMessage_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.53"
+          }
+        },
+        {
+          "Key": "9D1BE008-4D7303A2-D73A6781-DCF21361",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_WitherBeast:QFT_PromptMessage_C_8'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.71"
+          }
+        },
+        {
+          "Key": "338BE20D-4D8741DF-07E15E9E-927F3D92",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_WitherBeast:QFT_Blank_C_6'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.39"
+          }
+        },
+        {
+          "Key": "0624B65D-477923A6-23A2E991-F15538C3",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_WitherBeast:QFT_PromptMessage_C_23'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.56"
+          }
+        },
+        {
+          "Key": "9F8FA97A-4C608992-CD20F4A5-F7BA29D3",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_FH_WitherBeast:QFT_SetQuestBool_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.72"
+          }
+        },
+        {
+          "Key": "92DEEC69-490F3E16-9D50C9A6-291A2C20",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_FH_WitherBeast:QFT_SetQuestObjective_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.74"
+          }
+        },
+        {
+          "Key": "10B0D9BC-472BFD25-9873B0A9-B78CA57A",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_FH_WitherBeast:QFT_UpdateQuestLocation_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.81"
+          }
+        },
+        {
+          "Key": "BFBB31CF-4703E43C-F6860EA6-25DAA094",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_WitherBeast:QFT_Blank_C_5'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.38"
+          }
+        },
+        {
+          "Key": "51898B4A-4CF781E9-EBB8A185-780A5CAE",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_WitherBeast:QFT_PromptMessage_C_5'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.60"
+          }
+        },
+        {
+          "Key": "958A4893-48BE34C8-AA904086-63437DA1",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_WitherBeast:QFT_PromptMessage_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.57"
+          }
+        },
+        {
+          "Key": "8346EEFA-49E5F502-95C6528F-976B36B3",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_WitherBeast:QFT_PromptMessage_C_21'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.54"
+          }
+        },
+        {
+          "Key": "F9EE22A3-47A08B12-34354AA2-E3FBFFE4",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_WitherBeast:QFT_PromptMessage_C_22'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.55"
+          }
+        },
+        {
+          "Key": "60D273FE-4C56F682-AB0CEFAB-46C6DAD8",
+          "Value": {
+            "ObjectName": "QFT_TakeItemAmountFromPlayer_C'QF_FH_WitherBeast:QFT_TakeItemAmountFromPlayer_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.77"
+          }
+        },
+        {
+          "Key": "40BDB2CF-4B3525E5-DD02A49F-1B8CF654",
+          "Value": {
+            "ObjectName": "QFT_CompleteQuest_C'QF_FH_WitherBeast:QFT_CompleteQuest_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.43"
+          }
+        },
+        {
+          "Key": "4FC60CB9-4568EEF0-4A9239B6-AF2B0048",
+          "Value": {
+            "ObjectName": "QFT_UnlockMount_C'QF_FH_WitherBeast:QFT_UnlockMount_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.79"
+          }
+        },
+        {
+          "Key": "8EA6E295-49DF6316-A61A95B8-0AC110E3",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_FH_WitherBeast:QFT_UpdateQuestLocation_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.80"
+          }
+        },
+        {
+          "Key": "9C749677-4B1FD777-398FDE92-3C9614B5",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_WitherBeast:QFT_Blank_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.26"
+          }
+        },
+        {
+          "Key": "BDEC61C0-427B57B1-856E6082-E31FAE94",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_WitherBeast:QFT_Blank_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.37"
+          }
+        },
+        {
+          "Key": "DDCE4D42-4124692F-0B1A4395-9737AFCC",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_WitherBeast:QFT_PromptMessage_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.58"
+          }
+        },
+        {
+          "Key": "518ABC7D-46B13A14-889149B8-AD1B90ED",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_WitherBeast:QFT_PromptMessage_C_16'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.51"
+          }
+        },
+        {
+          "Key": "0C24741F-479D790F-8BFC23B6-DEEDE5B5",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_WitherBeast:QFT_PromptMessage_C_17'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.52"
+          }
+        },
+        {
+          "Key": "C66CC706-481D999A-D54E7EB6-E2154841",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_WitherBeast:QFT_Blank_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.36"
+          }
+        }
+      ],
+      "EntryTags": [
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.FHWitherBeast.Vannaka"
+          },
+          "DestinationList": [
+            "D577BC2D-40D99DA4-8DFF3EBB-DF27CBAC"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.FHWitherBeast.GetHeart"
+          },
+          "DestinationList": [
+            "861E6A03-4DA32DF6-E54F079A-558A3E09"
+          ],
+          "EntryIdentifier": ""
+        }
+      ],
+      "ExitTags": [
+        "QuestFlow.Entry.NightofSpectralBoom"
+      ],
+      "InternalNodeIds": [
+        "861E6A03-4DA32DF6-E54F079A-558A3E09",
+        "56AB2B3F-40332119-4FF707AD-40E2E853",
+        "CA566F59-43D5E801-398B539C-148A31C8",
+        "C5535E2F-486901C8-18BC3593-44F66B2D",
+        "5526B9DE-435FE97D-2F042D81-32DC1C58",
+        "D577BC2D-40D99DA4-8DFF3EBB-DF27CBAC",
+        "0733662E-40A5978B-757D73A3-3BAB5D42",
+        "640B4475-4E054A9B-DC8BF99F-D4B2A95E",
+        "164CF454-4994DA75-153D8DA5-5D8BF047",
+        "A1675424-4C3AEB6C-03CE1DBB-C434EB34",
+        "29653EEC-496F185B-9E2522A8-4C90A157",
+        "5A769BA2-4D1C3A35-BF3E7CAB-E8382CAD",
+        "317A781E-47589D17-8C67ADA3-52A9D54F",
+        "2B868BB8-42A019F0-012421AC-7C97CBA4",
+        "EF3CFA15-4CA86CDB-EA93629B-EFEB2083",
+        "75967869-4F73C26E-B4503294-3236AE27",
+        "C70C9CA0-46CA1FD3-3DA631AB-4882113D",
+        "2EB99983-4D3AAD47-9E4C1195-26D2F458",
+        "9717A2E6-49A22EEF-0BC5148A-02847324",
+        "1BA92A7F-43157345-41D7C6A2-5682D403",
+        "F24B26A6-405DAF44-5EA330B4-4A12FD81",
+        "98DF6E1F-448B4D39-86DEAF8B-A0D5F936",
+        "86315A55-476767AC-0A6B7EBD-80A24A62",
+        "46AA68E2-49ECE4A2-556651AB-5018B6C5",
+        "26281DAD-472B0E6F-ABC1FCAD-F5F359F8",
+        "89B18157-4353A559-C423EB81-4E9686FE",
+        "52425157-4B25A594-DE23F1BF-44422E76",
+        "C0B629DA-4648E5FD-1D8615A1-3CE1B6CF",
+        "6A466652-4435931D-7FA6969E-6140E094",
+        "F63C3DA9-4F87FF76-AD1B54B6-9C18CDB3",
+        "18A452DC-43E04C5B-41A05FA0-598FFD6B",
+        "718CC3F2-410F6AE3-5B5BFDA7-4D1AAA0A",
+        "1BA91004-4C4B8784-DFE16FA2-5742C4D5",
+        "177E655F-4FB9DE78-291B4BB5-CE00461A",
+        "EAB0B13D-460C4C77-F2A566BC-C1150861",
+        "4661D248-40988B4B-50A934B7-C52B4384",
+        "13619666-421B0DA1-8748579A-378DF6C8",
+        "0B0BF5B3-44CB0690-3D8045B1-E39284F5",
+        "E46DB76A-40B7B214-922850A2-AB2B0648",
+        "B624C70B-435AC75A-411767A2-0E889D0E",
+        "DF30D252-49D1A2A9-DBE80085-82BF61BA",
+        "9D1BE008-4D7303A2-D73A6781-DCF21361",
+        "338BE20D-4D8741DF-07E15E9E-927F3D92",
+        "0624B65D-477923A6-23A2E991-F15538C3",
+        "9F8FA97A-4C608992-CD20F4A5-F7BA29D3",
+        "92DEEC69-490F3E16-9D50C9A6-291A2C20",
+        "10B0D9BC-472BFD25-9873B0A9-B78CA57A",
+        "BFBB31CF-4703E43C-F6860EA6-25DAA094",
+        "51898B4A-4CF781E9-EBB8A185-780A5CAE",
+        "958A4893-48BE34C8-AA904086-63437DA1",
+        "8346EEFA-49E5F502-95C6528F-976B36B3",
+        "F9EE22A3-47A08B12-34354AA2-E3FBFFE4",
+        "60D273FE-4C56F682-AB0CEFAB-46C6DAD8",
+        "40BDB2CF-4B3525E5-DD02A49F-1B8CF654",
+        "4FC60CB9-4568EEF0-4A9239B6-AF2B0048",
+        "8EA6E295-49DF6316-A61A95B8-0AC110E3",
+        "9C749677-4B1FD777-398FDE92-3C9614B5",
+        "BDEC61C0-427B57B1-856E6082-E31FAE94",
+        "DDCE4D42-4124692F-0B1A4395-9737AFCC",
+        "518ABC7D-46B13A14-889149B8-AD1B90ED",
+        "0C24741F-479D790F-8BFC23B6-DEEDE5B5",
+        "C66CC706-481D999A-D54E7EB6-E2154841"
+      ]
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.FHWitherBeast.GetHeart"
+      },
+      "OutputConnections": [
+        "56AB2B3F-40332119-4FF707AD-40E2E853"
+      ],
+      "Compiled_NodeGUID": "861E6A03-4DA32DF6-E54F079A-558A3E09"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.FHWitherBeast.Vannaka"
+      },
+      "OutputConnections": [
+        "52425157-4B25A594-DE23F1BF-44422E76",
+        "0733662E-40A5978B-757D73A3-3BAB5D42"
+      ],
+      "Compiled_NodeGUID": "D577BC2D-40D99DA4-8DFF3EBB-DF27CBAC"
+    }
+  },
+  {
+    "Type": "ConversationLinkNode",
+    "Name": "ConversationLinkNode_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Class": "UScriptClass'ConversationLinkNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RemoteEntryTag": {
+        "TagName": "QuestFlow.Entry.NightofSpectralBoom"
+      },
+      "Compiled_NodeGUID": "89B18157-4353A559-C423EB81-4E9686FE",
+      "ParentNode": {
+        "ObjectName": "QFT_Blank_C'QF_FH_WitherBeast:QFT_Blank_C_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.25"
+      }
+    }
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerDoesntHaveSpaceForItem_C",
+    "Name": "QFR_PlayerDoesntHaveSpaceForItem_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasItemAmount_C",
+    "Name": "QFR_PlayerHasItemAmount_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasItemAmount_C",
+    "Name": "QFR_PlayerHasItemAmount_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasItemAmount_C",
+    "Name": "QFR_PlayerHasItemAmount_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasItemAmount_C",
+    "Name": "QFR_PlayerHasItemAmount_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasItemAmount_C",
+    "Name": "QFR_PlayerHasItemAmount_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasLessThanItemAmount_C",
+    "Name": "QFR_PlayerHasLessThanItemAmount_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasLessThanItemAmount_C",
+    "Name": "QFR_PlayerHasLessThanItemAmount_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasLessThanItemAmount_C",
+    "Name": "QFR_PlayerHasLessThanItemAmount_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasLessThanItemAmount_C",
+    "Name": "QFR_PlayerHasLessThanItemAmount_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasLessThanItemAmount_C",
+    "Name": "QFR_PlayerHasLessThanItemAmount_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasSpaceForItem_C",
+    "Name": "QFR_PlayerHasSpaceForItem_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_13",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_14",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_15",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_22",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_23",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_24",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_25",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_26",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_CompleteQuest_C",
+    "Name": "QFT_CompleteQuest_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveItemsToPlayer_C",
+    "Name": "QFT_GiveItemsToPlayer_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveQuest_C",
+    "Name": "QFT_GiveQuest_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveQuest_C",
+    "Name": "QFT_GiveQuest_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveQuest_C",
+    "Name": "QFT_GiveQuest_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_16",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_17",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_21",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_22",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_23",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_48",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_52",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_53",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_64",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_65",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_66",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_67",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_68",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_69",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_70",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_71",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_TakeItemAmountFromPlayer_C",
+    "Name": "QFT_TakeItemAmountFromPlayer_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_TakeItemAmountFromPlayer_C",
+    "Name": "QFT_TakeItemAmountFromPlayer_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UnlockMount_C",
+    "Name": "QFT_UnlockMount_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_Play2DSting_C",
+    "Name": "SEN_Play2DSting_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_Play2DSting_C",
+    "Name": "SEN_Play2DSting_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_13",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_14",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_20",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_26",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_28",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_57",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_58",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_73",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_74",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_75",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_76",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_78",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_80",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_82",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_84",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_WitherBeast'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_WitherBeast/QF_FH_WitherBeast.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  }
+]

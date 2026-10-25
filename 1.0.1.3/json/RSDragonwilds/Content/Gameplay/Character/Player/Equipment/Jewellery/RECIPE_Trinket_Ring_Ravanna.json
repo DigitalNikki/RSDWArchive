@@ -1,0 +1,67 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Trinket_Ring_Ravanna",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Clay_Mould'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Mineral/ITEM_Resources_Clay_Mould"
+          },
+          "Count": 1
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_SilverBar'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Metal/ITEM_Resources_SilverBar"
+          },
+          "Count": 2
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Red_Topaz'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Gem/ITEM_Resources_Red_Topaz"
+          },
+          "Count": 2
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_VaultShard'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Magic/ITEM_Resources_VaultShard"
+          },
+          "Count": 3
+        }
+      ],
+      "RepairItemReplacements": [
+        {
+          "OriginalItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Clay_Mould'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Mineral/ITEM_Resources_Clay_Mould"
+          },
+          "NewItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_VaultShard'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Magic/ITEM_Resources_VaultShard"
+          },
+          "NewCount": 5
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "TrinketItemData'ITEM_Trinket_Ravannas_Ring'",
+            "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Jewellery/ITEM_Trinket_Ravannas_Ring"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Magic.Trinket"
+      },
+      "PersistenceID": "UufnwENDSDFYKSG9v8yO8g",
+      "InternalName": "recipe_trinket_ring_ravanna"
+    }
+  }
+]

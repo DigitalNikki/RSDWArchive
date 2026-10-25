@@ -1,0 +1,1846 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_Attributes_Player",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Object'AttributeDefaultsRow'",
+        "ObjectPath": "/Script/Dominion"
+      }
+    },
+    "Rows": {
+      "Health": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_Health'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_Health"
+        },
+        "StartingValue": "100",
+        "DifficultySettingScaleTag": {
+          "TagName": "Difficulty.Player.HealthScale"
+        }
+      },
+      "MaxHealth": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_MaxHealth'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_MaxHealth"
+        },
+        "StartingValue": "100",
+        "DifficultySettingScaleTag": {
+          "TagName": "Difficulty.Player.HealthScale"
+        }
+      },
+      "HealthRegenTick": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_HealthRegenTick'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_HealthRegenTick"
+        },
+        "StartingValue": "1.0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "DamageProxy": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_DamageProxy'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_DamageProxy"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "DamageProxy_NoDeath": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_DamageProxy_NoDeath'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_DamageProxy_NoDeath"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "Stamina": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_Stamina'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_Stamina"
+        },
+        "StartingValue": "100",
+        "DifficultySettingScaleTag": {
+          "TagName": "Difficulty.Player.StaminaScale"
+        }
+      },
+      "MaxStamina": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_MaxStamina'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_MaxStamina"
+        },
+        "StartingValue": "100",
+        "DifficultySettingScaleTag": {
+          "TagName": "Difficulty.Player.StaminaScale"
+        }
+      },
+      "StaminaRegen": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_StaminaRegen'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_StaminaRegen"
+        },
+        "StartingValue": "6",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "StaminaRegenDelay": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_StaminaRegenDelay'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_StaminaRegenDelay"
+        },
+        "StartingValue": "1.0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "StaminaRegenTick": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_StaminaRegenTick'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_StaminaRegenTick"
+        },
+        "StartingValue": ".05",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "StaminaSprintDrain": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_StaminaSprintDrain'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_StaminaSprintDrain"
+        },
+        "StartingValue": "-0.125",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "JumpStaminaCost": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_JumpStaminaCost'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_JumpStaminaCost"
+        },
+        "StartingValue": "10",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "EvadeStaminaCost": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_EvadeStaminaCost'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_EvadeStaminaCost"
+        },
+        "StartingValue": "15",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "RunSpeed": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_RunSpeed'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_RunSpeed"
+        },
+        "StartingValue": "450",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "SprintSpeed": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_SprintSpeed'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_SprintSpeed"
+        },
+        "StartingValue": "680",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "MovementSpeedMultiplier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_MovementSpeedMultiplier'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_MovementSpeedMultiplier"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "XpModifier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_XpModifier'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_XpModifier"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "DamageModifier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_DamageModifier'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_DamageModifier"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "PeriodicInterval": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_PeriodicInterval'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_PeriodicInterval"
+        },
+        "StartingValue": "0.33",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "BleedingDamage": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_ATT_StatusBleeding_Damage'",
+          "ObjectPath": "/Game/Gameplay/Attributes/StatusEffects/DA_ATT_StatusBleeding_Damage"
+        },
+        "StartingValue": "-1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "GravityScale": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_GravityScale'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_GravityScale"
+        },
+        "StartingValue": "1.85",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "JumpHeight": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_JumpHeight'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_JumpHeight"
+        },
+        "StartingValue": "180",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "MaxCarryWeight": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_CarryWeightMax'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_CarryWeightMax"
+        },
+        "StartingValue": "400",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "AirControl": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_AirControl'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_AirControl"
+        },
+        "StartingValue": "0.5",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "BlockDamageModifier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_BlockDamageModifier'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_BlockDamageModifier"
+        },
+        "StartingValue": "1.0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "BlockStaminaCostModifier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_BlockStaminaCostModifier'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_BlockStaminaCostModifier"
+        },
+        "StartingValue": "1.0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "BlockStaminaRegenPenalty": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_BlockStaminaRegenPenalty'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_BlockStaminaRegenPenalty"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "BlockStaminaRegenPenaltyModifier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_BlockStaminaRegenPenaltyModifier'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_BlockStaminaRegenPenaltyModifier"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "MagicAttackDurabilityLossModifier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_MagicAttackDurabilityLossModifier'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_MagicAttackDurabilityLossModifier"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "MagicAttackRuneRefundChance": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_MagicAttackRuneRefundChance'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_MagicAttackRuneRefundChance"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "MagicAttackSpeedModifier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_MagicAttackSpeed'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_MagicAttackSpeed"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "MagicAttackStaminaCostModifier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_MagicAttackStaminaCostModifier'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_MagicAttackStaminaCostModifier"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "MagicAttackMaxConjuringTimeMultiplier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_MagicAttackMaxConjuringTimeMultiplier'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_MagicAttackMaxConjuringTimeMultiplier"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "MeleeAttackStaminaCostMultiplier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_MeleeAttackStaminaCostModifier'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_MeleeAttackStaminaCostModifier"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "MeleeAttackDurabilityLossModifier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_MeleeAttackDurabilityLossModifier'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_MeleeAttackDurabilityLossModifier"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "RangedAttackStaminaCostModifier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_RangedAttackStaminaCostModifier'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_RangedAttackStaminaCostModifier"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "RangedAttackZoomModifier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_RangedAttackZoom'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_RangedAttackZoom"
+        },
+        "StartingValue": "1.05",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "RangedAttackDrawTimeModifier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_RangedAttackDrawTime'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_RangedAttackDrawTime"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "RangedDamagesMultiplier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_RangedDamagesMultiplier'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_RangedDamagesMultiplier"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "WeakPointsDamageMultipliers": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_WeakPointsDamageMultiplier'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_WeakPointsDamageMultiplier"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "MiningStaminaCostModifier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_MiningStaminaCostModifier'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_MiningStaminaCostModifier"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "MiningSwingSpeedMultiplier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_MiningSwingSpeedMultiplier'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_MiningSwingSpeedMultiplier"
+        },
+        "StartingValue": "0.92",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "LoggingStaminaCostModifier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_WoodcuttingStaminaCostModifier'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_WoodcuttingStaminaCostModifier"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "LoggingSwingSpeedMultiplier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_WoodcuttingSwingSpeedMultiplier'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_WoodcuttingSwingSpeedMultiplier"
+        },
+        "StartingValue": "0.92",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "CriticalHitChanceBase": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_CriticalHitChanceBase'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_CriticalHitChanceBase"
+        },
+        "StartingValue": "0.01",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "CriticalHitChanceMultiplier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_CriticalHitChanceMultiplier'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_CriticalHitChanceMultiplier"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "MiningCriticalHitChanceBase": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_MiningCriticalHitChanceBase'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_MiningCriticalHitChanceBase"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "MaxCriticalHitChance": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_MaxCriticalHitChance'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_MaxCriticalHitChance"
+        },
+        "StartingValue": "0.66",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "CriticalHitMagicAttackAddition": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_MagicBonusCriticalChance'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_MagicBonusCriticalChance"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "CriticalHitMeleeAttackAddition": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_CriticalHitChanceMeleeAddition'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_CriticalHitChanceMeleeAddition"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "CriticalHitDamageFactorBase": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_CriticalHitDamageFactorBase'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_CriticalHitDamageFactorBase"
+        },
+        "StartingValue": "1.25",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "MiningCriticalHitDamageFactorBase": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_MiningCriticalHitDamageFactorBase'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_MiningCriticalHitDamageFactorBase"
+        },
+        "StartingValue": "2",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "Sneakiness": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_Sneakiness'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_Sneakiness"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "SneakMoveSpeedBonus": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_SneakMovementSpeedBonus'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_SneakMovementSpeedBonus"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "ExtraPotionChance": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_ExtraPotionChance'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_ExtraPotionChance"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "ExtraPotionDuration": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_PotionBuffDuration'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_PotionBuffDuration"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "ExtraFoodChance": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_ExtraFoodChance'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_ExtraFoodChance"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "ExtraFoodDuration": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_FoodBuffDuration'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_FoodBuffDuration"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "ArtisanRepairCostRefundChance": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_ArtisanRepairCostRefundChance'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_ArtisanRepairCostRefundChance"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "RunecraftingRepairCostRefundChance": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_RunecraftingRepairCostRefundChance'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_RunecraftingRepairCostRefundChance"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "DamageNegation": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_DamageNegation'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_DamageNegation"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "BaseDefense": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_Defense_Base'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_Defense_Base"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "MagicResistance": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_Resistance_Magic'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_Resistance_Magic"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "MeleeResistance": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_Resistance_Melee'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_Resistance_Melee"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "RangedResistance": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_Resistance_Ranged'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_Resistance_Ranged"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "DurabilityLossModifier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_DurabilityLossModifier'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_DurabilityLossModifier"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "StaggeredTargetDamageMultiplier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_StaggeredTargetDamageModifier'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_StaggeredTargetDamageModifier"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "DeliciousFoodChance": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_DeliciousFoodChance'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_DeliciousFoodChance"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "FallDamageMultiplier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_FallDamageMultiplier'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_FallDamageMultiplier"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "FireResistance": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_Resistance_Fire'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_Resistance_Fire"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "PoisonResistance": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_Resistance_Poison'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_Resistance_Poison"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "BleedingResistance": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_Resistance_Bleeding'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_Resistance_Bleeding"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "ShockResistance": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_Resistance_Shock'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_Resistance_Shock"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "PoisonBuildUp": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_Poison_BuildUp'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_Poison_BuildUp"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "BleedingBuildUp": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_Bleeding_BuildUp'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_Bleeding_BuildUp"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "ColdBuildUp": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_Cold_BuildUp'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_Cold_BuildUp"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "AdditionalWarmth": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_AdditionalWarmth'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_AdditionalWarmth"
+        },
+        "StartingValue": "3",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "MeleeAttackSpeedMultiplier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_MeleeAttackSpeedMultiplier'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_MeleeAttackSpeedMultiplier"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "ToxicityReductionRatePerInGameHour": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_ToxicityReductionRate'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_ToxicityReductionRate"
+        },
+        "StartingValue": "15",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "ToxicityReductionRateFromMaxPerInGameHour": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_ToxicityReductionRateFromMax'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_ToxicityReductionRateFromMax"
+        },
+        "StartingValue": "1200",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "ToxicityRateCooldownInGameHours": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_ToxicityReductionCooldown'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_ToxicityReductionCooldown"
+        },
+        "StartingValue": "0.083",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "EnduranceReductionRatePerInGameHour": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_EnduranceReductionRate'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_EnduranceReductionRate"
+        },
+        "StartingValue": "0.75",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "MaxSustenance": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_MaxSustenance'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_MaxSustenance"
+        },
+        "StartingValue": "100",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "MaxHydration": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_MaxHydration'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_MaxHydration"
+        },
+        "StartingValue": "100",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "SustenanceDecayMultiplier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_SustenanceDecayMultiplier'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_SustenanceDecayMultiplier"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "HydrationDecayMultiplier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_HydrationDecayMultiplier'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_HydrationDecayMultiplier"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "EnduranceDecayMultiplier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_EnduranceDecayMultiplier'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_EnduranceDecayMultiplier"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "ArtisanXpModifier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_ArtisanXpModifier'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_ArtisanXpModifier"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "AttackXpModifier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_AttackXpModifier'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_AttackXpModifier"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "ConstructionXpModifier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_ConstructionXpModifier'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_ConstructionXpModifier"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "MiningXpModifier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_MiningXpModifier'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_MiningXpModifier"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "RunecraftingXpModifier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_RunecraftingXpModifier'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_RunecraftingXpModifier"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "WoodcuttingXpModifier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_WoodcuttingXpModifier'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_WoodcuttingXpModifier"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "CookingXpModifier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_CookingXpModifier'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_CookingXpModifier"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "RangedAttackProjectileRefundChance": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_RangedAttackProjectileRefundChance'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_RangedAttackProjectileRefundChance"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "DragonFireMultiplier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_DragonFireDamageMultiplier'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DamageType/DA_Attribute_DragonFireDamageMultiplier"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "ChanceToBurnFoodLevel1": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_ChanceToBurnFood_Level1'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_ChanceToBurnFood_Level1"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "ChanceToBurnFoodLevel2": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_ChanceToBurnFood_Level2'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_ChanceToBurnFood_Level2"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "ChanceToBurnFoodLevel3": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_ChanceToBurnFood_Level3'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_ChanceToBurnFood_Level3"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "ChanceToBurnFoodLevel4": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_ChanceToBurnFood_Level4'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_ChanceToBurnFood_Level4"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "ChanceToBurnFoodLevel5": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_ChanceToBurnFood_Level5'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_ChanceToBurnFood_Level5"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "ChanceToBurnFoodLevel6": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_ATT_ChanceToBurnFood_Level6'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_ATT_ChanceToBurnFood_Level6"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "SeedRecoveryChance": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_SeedDropChance'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_SeedDropChance"
+        },
+        "StartingValue": "0.0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "RangedXpModifier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_RangedXpModifier'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_RangedXpModifier"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "MagicXpModifier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_MagicXpModifier'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_MagicXpModifier"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "DamageModifierByReceiverTypeUndead": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_DamageModifierByReceiverTypeUndead'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_DamageModifierByReceiverTypeUndead"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "DamageModifierByReceiverTypeSpectral": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_DamageModifierByReceiverTypeSpectral'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_DamageModifierByReceiverTypeSpectral"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "DamageModifierByReceiverTypeWolf": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_DamageModifierByReceiverTypeWolf'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_DamageModifierByReceiverTypeWolf"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "DamageModifierByReceiverTypeMage": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_DamageModifierByReceiverTypeMage'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_DamageModifierByReceiverTypeMage"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "DamageModifierByReceiverTypeDemon": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_DamageModifierByReceiverTypeDemon'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_DamageModifierByReceiverTypeDemon"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "DamageModifierByReceiverTypeDragon": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_DamageModifierByReceiverTypeDragon'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_DamageModifierByReceiverTypeDragon"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "MeleeDamgesMultiplier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_MeleeDamagesMultiplier'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_MeleeDamagesMultiplier"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "MagicDamagesMultiplier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_MagicDamagesMultiplier'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_MagicDamagesMultiplier"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "AggroRangeMultiplier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_ThreatRangeModifier_Wildlife'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_ThreatRangeModifier_Wildlife"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "WitherBuildUp": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_Wither_BuildUp'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_Wither_BuildUp"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "WeakPointCriticalDamageMultiplier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_WeakPointCriticalDamagesMultiplier'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_WeakPointCriticalDamagesMultiplier"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "FreeSiphonChange": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_FreeSiphonChance'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_FreeSiphonChance"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "FarmingXpModifier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_FarmingXpModifier'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_FarmingXpModifier"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "AgilityXpModifier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_AgilityXpModifier'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_AgilityXpModifier"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "FishingXpModifier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_FishingXpModifier'",
+          "ObjectPath": "/Fishing/Gameplay/Attributes/DA_Attribute_FishingXpModifier"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "FishingIncreasedCatchChance": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_FishingIncreasedCatchChance'",
+          "ObjectPath": "/Fishing/Gameplay/GameplayEffects/Buffs/DA_Attribute_FishingIncreasedCatchChance"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "FishingStaminaDrainRate": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_FishingStaminaDrainRate'",
+          "ObjectPath": "/Fishing/Gameplay/GameplayEffects/Buffs/DA_Attribute_FishingStaminaDrainRate"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "FishingReduceJunkChance": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_ReduceJunkChance'",
+          "ObjectPath": "/Fishing/Gameplay/GameplayEffects/Buffs/DA_Attribute_ReduceJunkChance"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "FishingPristineModifier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_PristineModifier'",
+          "ObjectPath": "/Fishing/Gameplay/GameplayEffects/Buffs/DA_Attribute_PristineModifier"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "MagicRuneCostMultiplier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_MagicAttackRuneCostMultiplier'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_MagicAttackRuneCostMultiplier"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "AllCombatStylesDamageMultiplier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_AllStylesDamageMultiplier'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_AllStylesDamageMultiplier"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "BurningBuildUp": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_Burning_BuildUp'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_Burning_BuildUp"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "DamageAdditiveModifierTwoHandedWeapons": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_AdditiveDamageModifier_DamageWith2HandedWeapons'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_AdditiveDamageModifier_DamageWith2HandedWeapons"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "DamageAdditiveModifierOneHandedWeapons": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_AdditiveDamageModifier_DamageWith1HandedWeapons'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_AdditiveDamageModifier_DamageWith1HandedWeapons"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "WardingFish": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_WardingFish'",
+          "ObjectPath": "/Fishing/Gameplay/GameplayEffects/Buffs/DA_Attribute_WardingFish"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "RunecraftingAttunementPhaseDuration": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_RunecraftingAttunementPhaseDuration'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_RunecraftingAttunementPhaseDuration"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "RunecraftingInfusionPhaseDuration": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_RunecraftingInfusionPhaseDuration'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_RunecraftingInfusionPhaseDuration"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "FireTypeMagicDamageMultiplier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_OutgoingDamageTypeFire'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DamageType/DA_Attribute_OutgoingDamageTypeFire"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "AirTypeMagicDamageMultiplier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_OutgoingDamageTypeAir'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DamageType/DA_Attribute_OutgoingDamageTypeAir"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "EarthTypeMagicDamageMultiplier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_OutgoingDamageTypeEarth'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DamageType/DA_Attribute_OutgoingDamageTypeEarth"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "WaterTypeDamageMultiplier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_OutgoingDamageTypeWater'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DamageType/DA_Attribute_OutgoingDamageTypeWater"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "AdditiveDamageModifierStaff": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_AdditiveDamageModifier_DamageWithStaff'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_AdditiveDamageModifier_DamageWithStaff"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "CriticalRangedDamageMultiplier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_CriticalRangedDamageMultiplier'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_CriticalRangedDamageMultiplier"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "DamageModifierPlayerAttackingUnalertedAI": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_DamageModifierPlayerAttackingUnalertedAI'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_DamageModifierPlayerAttackingUnalertedAI"
+        },
+        "StartingValue": "1.0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "BurnTypeMagicDamageMultiplier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_OutgoingDamageTypeBurn'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DamageType/DA_Attribute_OutgoingDamageTypeBurn"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "WoodcuttingDropAmount": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_WoodcuttingDropAmount'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_WoodcuttingDropAmount"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "FishingKeepFishInNodeChance": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_KeepFishInNode'",
+          "ObjectPath": "/Fishing/Gameplay/GameplayEffects/Buffs/DA_Attribute_KeepFishInNode"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "WoodcuttingSpecialItemDropChance": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_WoodcuttingSpecialItemDropChance'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_WoodcuttingSpecialItemDropChance"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "WoodcuttingCriticalHitChanceBase": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_WoodcuttingCriticalHitChanceBase'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_WoodcuttingCriticalHitChanceBase"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "WoodcuttingCriticalHitDamageFactorBase": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_WoodcuttingCriticalHitDamageFactorBase'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_WoodcuttingCriticalHitDamageFactorBase"
+        },
+        "StartingValue": "2",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "Skillcape_Runecrafting_AnimaVentMultiplier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_RunecraftingAnimaVentMultiplier'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_RunecraftingAnimaVentMultiplier"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "Skillcape_Farming_InfinitePlantCurePotion": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_Farming_InfinitePlantCurePotion'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_Farming_InfinitePlantCurePotion"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "RangedAttackProjectileRefundMagnetizationDistance": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_RangedAttackProjectileRefundMagnetizationDistance'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_RangedAttackProjectileRefundMagnetizationDistance"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "Skillcape_Construction_NoCostBuildingChance": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_Construction_NoCostBuildingChance'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_Construction_NoCostBuildingChance"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "Skillcape_Woodcutting_ProcChanceBase": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_WoodcuttingSkillcapeProcChanceBase'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_WoodcuttingSkillcapeProcChanceBase"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "Skillcape_Mining_ProcChanceBase": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_MiningSkillcapeProcChanceBase'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_MiningSkillcapeProcChanceBase"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "ScorchBuildUp": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_Scorch_Buildup'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_Scorch_Buildup"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "SoulScourgeBuildUp": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_SoulScourge_BuildUp'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_SoulScourge_BuildUp"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "ShockedBuildup": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_Shocked_Buildup'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_Shocked_Buildup"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "Skillcape_Cooking_NoBurntItems": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_CookingSkillcapeNoBurntItems'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_CookingSkillcapeNoBurntItems"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "Skillcape_MeleeAttack_NoStaminaCostChance": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_MeleeAttack_NoStaminaCostChance'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_MeleeAttack_NoStaminaCostChance"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "Skillcape_RangeAttack_NoStaminaCostChance": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_RangeAttack_NoStaminaCostChance'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_RangeAttack_NoStaminaCostChance"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "Skillcape_MagicAttack_NoStaminaCostChance": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_MagicAttack_NoStaminaCostChance'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_MagicAttack_NoStaminaCostChance"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "ConfuseRuneCostMultiplier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_ATT_ConfuseRuneCostMultiplier'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_ATT_ConfuseRuneCostMultiplier"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "Skillcape_Artisan_CraftingNoCostChance": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_Artisan_CraftingNoCostChance'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_Artisan_CraftingNoCostChance"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "Skillcape_Construction_NoRepairCostChance": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_Construction_NoCostRepairingChance'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_Construction_NoCostRepairingChance"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "MountRunSpeed": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_MountRunSpeed'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_MountRunSpeed"
+        },
+        "StartingValue": "610",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "MountSprintSpeed": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_MountSprintSpeed'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_MountSprintSpeed"
+        },
+        "StartingValue": "910",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "MiningDropAmount": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_MiningDropAmount'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_MiningDropAmount"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "SkillsNecklaceTriggerChance": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_SkillsNecklace_TriggerChance'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_SkillsNecklace_TriggerChance"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "OverEatingDecay": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_OverEatingDecay'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_OverEatingDecay"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "DoubleJumpStaminaCost": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_DoubleJumpStaminaCost'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_DoubleJumpStaminaCost"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "DamageModifierByReceiverTypeKalphite": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_DamageModifierByReceiverTypeKalphite'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_DamageModifierByReceiverTypeKalphite"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "CriticalMeleeDamageMultiplier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_CriticalMeleeDamageMultiplier'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_CriticalMeleeDamageMultiplier"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "CriticalMagicDamageMultiplier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_CriticalMagicDamageMultiplier'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_CriticalMagicDamageMultiplier"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "SpecialCharge": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_SpecialCharge'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_SpecialCharge"
+        },
+        "StartingValue": "100",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "MaxSpecialCharge": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_MaxSpecialCharge'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_MaxSpecialCharge"
+        },
+        "StartingValue": "100",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "SpecialChargeRegen": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_SpecialChargeRegen'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_SpecialChargeRegen"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "SpecialChargeRegenDelay": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_SpecialChargeRegenDelay'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_SpecialChargeRegenDelay"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "SpecialChargeRegenTick": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_SpecialChargeRegenTick'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_SpecialChargeRegenTick"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "SoulScorgeDecay": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_SoulScourgeDecay'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_SoulScourgeDecay"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "RangedAttackRandomEffectProcChanceMultiplier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_RangedAttackRandomEffectProcChanceMultiplier'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_RangedAttackRandomEffectProcChanceMultiplier"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "StaminaCostMultiplier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_StaminaCostMultiplier'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_StaminaCostMultiplier"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "WindstepRuneCostMultiplier": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_ATT_WindstepRuneCostMultiplier'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_ATT_WindstepRuneCostMultiplier"
+        },
+        "StartingValue": "1",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "BlockedStamina": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_StaminaBlocked'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_StaminaBlocked"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "FishingInstantCatchChance": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_InstantCatch'",
+          "ObjectPath": "/Fishing/Gameplay/GameplayEffects/Buffs/DA_Attribute_InstantCatch"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "EarthTypeMagic_ArmorBuildup": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_EarthTypeMagic_ArmorBuildup'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_EarthTypeMagic_ArmorBuildup"
+        },
+        "StartingValue": "0",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      },
+      "EarthTypeMagic_ArmorBuildup_Max": {
+        "Attribute": {
+          "ObjectName": "DominionAttributeData'DA_Attribute_EarthTypeMagic_MaxArmorBuildup'",
+          "ObjectPath": "/Game/Gameplay/Attributes/DA_Attribute_EarthTypeMagic_MaxArmorBuildup"
+        },
+        "StartingValue": "300",
+        "DifficultySettingScaleTag": {
+          "TagName": "None"
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,1145 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ADT_AI_Garou",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Object'AiAnimationAudioTableRowBase'",
+        "ObjectPath": "/Script/Dominion"
+      }
+    },
+    "Rows": {
+      "Shield_Impact_Ground": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou.Thane"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_Thane_Shield_Impact_Ground_Rem'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/BeastFaction/Thane/MSS_Co_Thane_Shield_Impact_Ground_Rem"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Shield_Impact_Water": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou.Thane"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_Thane_Shield_Impact_WaterImpact_Rem'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/BeastFaction/Thane/MSS_Co_Thane_Shield_Impact_WaterImpact_Rem"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Shield_Handling": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou.Thane"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_Thane_ShieldHandling'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/BeastFaction/Thane/MSS_En_Fo_Thane_ShieldHandling"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Shield_Swing": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou.Thane"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_Thane_ShieldSwing'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/BeastFaction/Thane/MSS_En_Fo_Thane_ShieldSwing"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Shield_Impact_Metal_Small": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_ShieldImpact_MetalSmall_MetalShield'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/Shields/MSS_Co_ShieldImpact_MetalSmall_MetalShield"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Shield_Impact_Metal_Med": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_ShieldImpact_MetalMed_MetalShield'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/Shields/MSS_Co_ShieldImpact_MetalMed_MetalShield"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Block_Broken": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_EnemyBlockBroken'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/MSS_Co_EnemyBlockBroken"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Block_Break_Swing": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_BlockBreakerSwing'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/MSS_Co_BlockBreakerSwing"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Death_Bodyfall": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_MedBeast_DeathBodyFall'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/BeastFaction/MediumBeast/MedBeast_Foley/Death/MSS_En_Fo_MedBeast_DeathBodyFall"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": true,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Death": {
+        "AnimationActionType": "EAiAnimationAudioActions::Vox",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_MedBeast_Death'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/BeastFaction/MediumBeast/MedBeast_Vox/Death/MSS_En_Vox_MedBeast_Death"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": true,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Idle_Break_Scratch": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_MedBeast_IdleBreakScratch'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/BeastFaction/MediumBeast/MedBeast_Foley/Idle/MSS_En_Fo_MedBeast_IdleBreakScratch"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Idle_Mace": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_MedBeast_IdleMace'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/BeastFaction/MediumBeast/MedBeast_Foley/Idle/MSS_En_Fo_MedBeast_IdleMace"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Idle_Shake": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_MedBeast_IdleShake'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/BeastFaction/MediumBeast/MedBeast_Foley/Idle/MSS_En_Fo_MedBeast_IdleShake"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Idle_Stroke": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_MedBeast_IdleStroke'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/BeastFaction/MediumBeast/MedBeast_Foley/Idle/MSS_En_Fo_MedBeast_IdleStroke"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Idle": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_Beast_Idle'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/BeastFaction/MediumBeast/MedBeast_Vox/Idle/MSS_En_Vox_Beast_Idle"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Idle_Run": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_Beast_RunIdles'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/BeastFaction/MediumBeast/MedBeast_Vox/Breath/MSS_En_Vox_Beast_RunIdles"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Idle_Long": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_MedBeast_IdleLong'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/BeastFaction/MediumBeast/MedBeast_Vox/Idle/MSS_En_Vox_MedBeast_IdleLong"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Mace_FoleyTaunt_Break": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_MedBeast_MaceFoleyTaunt_Break'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/BeastFaction/MediumBeast/MedBeast_Foley/Taunt/MSS_En_Fo_MedBeast_MaceFoleyTaunt_Break"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Move_fast": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_MedBeast_move_fast'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/BeastFaction/MediumBeast/MedBeast_Foley/GenericMoves/MSS_En_Fo_MedBeast_move_fast"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Move_Slow": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_MedBeast_move_slow'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/BeastFaction/MediumBeast/MedBeast_Foley/GenericMoves/MSS_En_Fo_MedBeast_move_slow"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Magic_Impact": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou.MagicBeast"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Magic_Garou_MagicImpact'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/BeastFaction/Magic/MSS_En_Magic_Garou_MagicImpact"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Magic_PassBy": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou.MagicBeast"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Magic_Garou_MagicImpact'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/BeastFaction/Magic/MSS_En_Magic_Garou_MagicImpact"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Spell_Grunt": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_MedBeast_SpellGrunts'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/BeastFaction/MediumBeast/MedBeast_Vox/Attack/MSS_En_Vox_MedBeast_SpellGrunts"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "GarouPride_Cast": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou.MagicBeast"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Magic_Garou_GarouPride_Cast'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/BeastFaction/Magic/MSS_En_Magic_Garou_GarouPride_Cast"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "GarouPride_Charge": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou.MagicBeast"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Magic_Garou_GarouPride_Charge'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/BeastFaction/Magic/MSS_En_Magic_Garou_GarouPride_Charge"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "NatureBolt_Cast": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou.MagicBeast"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Magic_Garou_NatureBolt_Cast'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/BeastFaction/Magic/MSS_En_Magic_Garou_NatureBolt_Cast"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "NatureBolt_Charge": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou.MagicBeast"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Magic_Garou_NatureBolt_Charge'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/BeastFaction/Magic/MSS_En_Magic_Garou_NatureBolt_Charge"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "VenomFang_Cast": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou.MagicBeast"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Magic_Garou_VenomFang_Cast'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/BeastFaction/Magic/MSS_En_Magic_Garou_VenomFang_Cast"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "VenomFang_Charge": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou.MagicBeast"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Magic_Garou_VenomFang_Charge'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/BeastFaction/Magic/MSS_En_Magic_Garou_VenomFang_Charge"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "BreathIn": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou.Thane"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_Thane_BreathIn'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/BeastFaction/MediumBeast/MedBeast_Vox/Breath/MSS_En_Vox_Thane_BreathIn"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "BreathOut": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou.Thane"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_Thane_BreathOut'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/BeastFaction/MediumBeast/MedBeast_Vox/Breath/MSS_En_Vox_Thane_BreathOut"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "BreathIn_Run": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_Garou_BreathIn_Run'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/BeastFaction/MediumBeast/MedBeast_Vox/Breath/MSS_En_Vox_Garou_BreathIn_Run"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "BreathOut_Run": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_Garou_BreathOut_Run'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/BeastFaction/MediumBeast/MedBeast_Vox/Breath/MSS_En_Vox_Garou_BreathOut_Run"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "BreathIn_Walk": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_Garou_BreathIn_Walk'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/BeastFaction/MediumBeast/MedBeast_Vox/Breath/MSS_En_Vox_Garou_BreathIn_Walk"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "BreathOut_Walk": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_Garou_BreathOut_Walk'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/BeastFaction/MediumBeast/MedBeast_Vox/Breath/MSS_En_Vox_Garou_BreathOut_Walk"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Aggro": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_MedBeast_Aggro'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/BeastFaction/MediumBeast/MedBeast_Vox/Aggro/MSS_En_Vox_MedBeast_Aggro"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou.Thane"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_MedBeast_Aggro_Thane'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/BeastFaction/MediumBeast/MedBeast_Vox/Aggro/MSS_En_Vox_MedBeast_Aggro_Thane"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Aggro_Long": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_MedBeast_Aggro_Long'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/BeastFaction/MediumBeast/MedBeast_Vox/Aggro/MSS_En_Vox_MedBeast_Aggro_Long"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Effort_Arrow": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou.RangedBeast"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_MedBeast_ArrowEffort'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/BeastFaction/MediumBeast/MedBeast_Vox/Attack/MSS_En_Vox_MedBeast_ArrowEffort"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Effort_Generic": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_MedBeast_GenericEffort'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/BeastFaction/MediumBeast/MedBeast_Vox/Attack/MSS_En_Vox_MedBeast_GenericEffort"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Effort_Generic_Long": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_MedBeast_GenericEffortLong'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/BeastFaction/MediumBeast/MedBeast_Vox/Attack/MSS_En_Vox_MedBeast_GenericEffortLong"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Effort_Spell": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_MedBeast_SpellEffort'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/BeastFaction/MediumBeast/MedBeast_Vox/Attack/MSS_En_Vox_MedBeast_SpellEffort"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Dodge": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_MedBeast_Dodge'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/BeastFaction/MediumBeast/MedBeast_Vox/Dodge/MSS_En_Vox_MedBeast_Dodge"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "HitReact": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_MedBeast_HitReact'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/BeastFaction/MediumBeast/MedBeast_Vox/HitReact/MSS_En_Vox_MedBeast_HitReact"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "HitReact_Short": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_MedBeast_HitReactShort'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/BeastFaction/MediumBeast/MedBeast_Vox/HitReact/MSS_En_Vox_MedBeast_HitReactShort"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "HitReact_Block": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou.Thane"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_Thane_Block_React'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/BeastFaction/Thane/MSS_En_Vox_Thane_Block_React"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Howl": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_MedBeast_Howl'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/BeastFaction/MediumBeast/MedBeast_Vox/Aggro/MSS_En_Vox_MedBeast_Howl"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Howl_Laugh": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou.Thane"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_Thane_Howl_Laugh'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/BeastFaction/MediumBeast/MedBeast_Vox/Aggro/MSS_En_Vox_Thane_Howl_Laugh"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Howl_Long": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou.Thane"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_Thane_Howl_Long'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/BeastFaction/MediumBeast/MedBeast_Vox/Aggro/MSS_En_Vox_Thane_Howl_Long"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Howl_Short": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou.Thane"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_Thane_Howl_Short'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/BeastFaction/MediumBeast/MedBeast_Vox/Aggro/MSS_En_Vox_Thane_Howl_Short"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Bow_Draw": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou.RangedBeast"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_Ra_LongBow_Draw'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Ranged/MSS_Co_Ra_LongBow_Draw"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Bow_Fire": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou.RangedBeast"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_Ra_LongBow_Fire_Local'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Ranged/MSS_Co_Ra_LongBow_Fire_Local"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Kick_Swish": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_GarouKick_Swish'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/Swish/MSS_Co_GarouKick_Swish"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "SpinSwish": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Co_Garou_SpinFlurry'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/BeastFaction/ElectricSpinningGarou/MSS_Cr_Co_Garou_SpinFlurry"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou.MediumElectric"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Co_Garou_Electric_AttackSpin'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/BeastFaction/ElectricSpinningGarou/MSS_Cr_Co_Garou_Electric_AttackSpin"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "OldSwish": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_Garou_OldSwish'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/Swish/MSS_Co_Garou_OldSwish"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou.MediumElectric"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Co_Garou_Electric_AttackSwish'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/BeastFaction/ElectricSpinningGarou/MSS_Cr_Co_Garou_Electric_AttackSwish"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Footsteps_Quiet": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_MedBeastFootsteps_Quiet'",
+              "ObjectPath": "/Game/Audio/DataAssets/FootstepData/ADA_MedBeastFootsteps_Quiet"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Footsteps_Walk": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_MedBeastFootsteps_Walk'",
+              "ObjectPath": "/Game/Audio/DataAssets/FootstepData/ADA_MedBeastFootsteps_Walk"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Footsteps_Run": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_MedBeastFootsteps_Run'",
+              "ObjectPath": "/Game/Audio/DataAssets/FootstepData/ADA_MedBeastFootsteps_Run"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "BodyFall": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Garou"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_Cr_Bodyfall_Med'",
+              "ObjectPath": "/Game/Audio/DataAssets/Foley/ADA_Cr_Bodyfall_Med"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      }
+    }
+  }
+]

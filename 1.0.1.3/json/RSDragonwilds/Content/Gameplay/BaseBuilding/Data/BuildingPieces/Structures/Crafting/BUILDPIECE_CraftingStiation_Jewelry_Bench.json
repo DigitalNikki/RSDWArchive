@@ -1,0 +1,95 @@
+[
+  {
+    "Type": "BuildingPieceData",
+    "Name": "BUILDPIECE_CraftingStiation_Jewelry_Bench",
+    "Class": "UScriptClass'BuildingPieceData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DerivedData": {
+        "AssetPathName": "/Game/Gameplay/BaseBuilding/Data/BuildingPieces_DerivedData/Structures/Crafting/BUILDPIECE_CraftingStiation_Jewelry_Bench_DerivedData.BUILDPIECE_CraftingStiation_Jewelry_Bench_DerivedData",
+        "SubPathString": ""
+      },
+      "DisplayName": {
+        "TableId": "/Game/UI/Crafting/ST_Crafting.ST_Crafting",
+        "Key": "JewelersBench",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Description": {
+        "TableId": "/Game/UI/Crafting/ST_Crafting.ST_Crafting",
+        "Key": "JewelersBench.Description",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Category": {
+        "TagName": "BaseBuilding.Category.StationUpgrade"
+      },
+      "DisplayIcon": {
+        "AssetPathName": "/Game/Art/UI/Icons/T3_Buildings_Icons/Crafting_Stations/T_Icon_Jeweller_Bench.T_Icon_Jeweller_Bench",
+        "SubPathString": ""
+      },
+      "BuildableActor": {
+        "AssetPathName": "/Game/Gameplay/World/Stations/BP_Crafting_Jewelry.BP_Crafting_Jewelry_C",
+        "SubPathString": ""
+      },
+      "Requirements": [
+        {
+          "Amount": 12,
+          "ItemData": {
+            "ObjectName": "FuelItemData'ITEM_Resources_Plank_Oak'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Wood/ITEM_Resources_Plank_Oak"
+          }
+        },
+        {
+          "Amount": 8,
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Ground_Sandstone'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Mineral/ITEM_Resources_Ground_Sandstone"
+          }
+        },
+        {
+          "Amount": 2,
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_GoldBar'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Metal/ITEM_Resources_GoldBar"
+          }
+        },
+        {
+          "Amount": 2,
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_SilverBar'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Metal/ITEM_Resources_SilverBar"
+          }
+        },
+        {
+          "Amount": 1,
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_VaultCore'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Magic/ITEM_Resources_VaultCore"
+          }
+        }
+      ],
+      "ConstructionXPOnBuild": 200,
+      "PieceTag": {
+        "TagName": "BaseBuilding.PieceType.Prop"
+      },
+      "BuildingStabilityProfileRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'StabilityProfileDataTable'",
+          "ObjectPath": "/Game/Gameplay/BaseBuilding/StabilityProfileDataTable"
+        },
+        "RowName": "Prop"
+      },
+      "BuildXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Building'",
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Building"
+        },
+        "RowName": "Build_Improvement"
+      },
+      "RepresentationCategory": "EBuildingPieceRepresentationCategory::IndividuallyReplicatedAndPersistedActor",
+      "PersistenceID": "dD_kikel9Z1bEpCO5KinUg",
+      "InternalName": "buildpiece_craftingstation_jewelry"
+    }
+  }
+]

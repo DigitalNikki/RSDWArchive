@@ -1,0 +1,78 @@
+[
+  {
+    "Type": "MagicAmmoData",
+    "Name": "ITEM_Rune_Air",
+    "Class": "UScriptClass'MagicAmmoData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BaseDamageTypes": [
+        "DamageType.Magical.Air"
+      ],
+      "AmmoVfxElementValue": "EMagicAmmoVfxElement::Air",
+      "AmmoCounterIcon": {
+        "ObjectName": "Texture2D'T_Icons_Rune_Air'",
+        "ObjectPath": "/Game/Art/UI/Icons/Runes/T_Icons_Rune_Air"
+      },
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Runecrafting'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Runecrafting"
+      },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Runecrafting'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Runecrafting"
+      },
+      "Name": {
+        "TableId": "/Game/UI/ST_Localization.ST_Localization",
+        "Key": "AirRune",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "Airrune",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Rune_Air.T_Icon_Rune_Air",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Rune_Pouch/SM_Rune_Pouch_01.SM_Rune_Pouch_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 9999,
+      "Category": {
+        "TagName": "ItemFilter.Type.Equipment.Ammo.Rune"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Ammo.Rune"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Magic.Rune"
+      },
+      "bDropOnDeath": false,
+      "BuffDatas": [
+        {
+          "Title": {
+            "CultureInvariantString": null
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "Rune.Air.SpecialEffect",
+            "SourceString": null,
+            "LocalizedString": ""
+          },
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "PersistenceID": "Dvo6TE2d7YNnoni8XbKYzw",
+      "InternalName": "res_rune_air"
+    }
+  }
+]

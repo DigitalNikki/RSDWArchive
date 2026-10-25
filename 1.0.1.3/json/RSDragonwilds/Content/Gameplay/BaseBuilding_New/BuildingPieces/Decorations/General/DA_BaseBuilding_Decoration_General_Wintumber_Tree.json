@@ -1,0 +1,71 @@
+[
+  {
+    "Type": "BuildingPieceData",
+    "Name": "DA_BaseBuilding_Decoration_General_Wintumber_Tree",
+    "Class": "UScriptClass'BuildingPieceData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DerivedData": {
+        "AssetPathName": "/Game/Gameplay/BaseBuilding_New/BuildingPieces_DerivedData/Decorations/General/DA_BaseBuilding_Decoration_General_Wintumber_Tree_DerivedData.DA_BaseBuilding_Decoration_General_Wintumber_Tree_DerivedData",
+        "SubPathString": ""
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "WintumberTree",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "DisplayIcon": {
+        "AssetPathName": "/Game/Art/UI/Icons/ProceduralThumbnails/T_BP_BaseBuilding_Decoration_Plants_Potted_Wintumber_Tree.T_BP_BaseBuilding_Decoration_Plants_Potted_Wintumber_Tree",
+        "SubPathString": ""
+      },
+      "BuildableActor": {
+        "AssetPathName": "/Game/Gameplay/BaseBuilding_New/BuildingPieces/Decorations/Plants/BP_BaseBuilding_Decoration_Plants_Potted_Wintumber_Tree.BP_BaseBuilding_Decoration_Plants_Potted_Wintumber_Tree_C",
+        "SubPathString": ""
+      },
+      "Requirements": [
+        {
+          "Amount": 12,
+          "ItemData": {
+            "ObjectName": "FuelItemData'ITEM_Resources_Wood_Ash'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Wood/ITEM_Resources_Wood_Ash"
+          }
+        },
+        {
+          "Amount": 6,
+          "ItemData": {
+            "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fruit_Redberry'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Fruit_Redberry"
+          }
+        },
+        {
+          "Amount": 3,
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Coarse_Animal_Fur'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_Coarse_Animal_Fur"
+          }
+        }
+      ],
+      "ConstructionXPOnBuild": 1,
+      "PieceTag": {
+        "TagName": "BaseBuilding.PieceType.Prop"
+      },
+      "BuildingStabilityProfileRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_StabilityProfile'",
+          "ObjectPath": "/Game/Gameplay/BaseBuilding_New/DT_StabilityProfile"
+        },
+        "RowName": "Prop"
+      },
+      "BuildXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Building'",
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Building"
+        },
+        "RowName": "Build_Decoration_Tier1"
+      },
+      "RepresentationCategory": "EBuildingPieceRepresentationCategory::Lightweight",
+      "PersistenceID": "k7DIbEMILw4uVF-xOGVpZQ"
+    }
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "Type": "DominionSoundClass",
+    "Name": "Player_Magic_Maj",
+    "Class": "UScriptClass'DominionSoundClass'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MinReverbSend": 0.05,
+      "MaxReverbSend": 0.3,
+      "Properties": {
+        "Volume": 0.56234133,
+        "DefaultSubmix": {
+          "ObjectName": "SoundSubmix'SFX'",
+          "ObjectPath": "/Game/Audio/Submixes/SFX"
+        }
+      },
+      "ChildClasses": [
+        {
+          "ObjectName": "DominionSoundClass'Player_Magic_Maj_Combat'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Player/Combat/Player_Magic_Maj_Combat"
+        },
+        {
+          "ObjectName": "DominionSoundClass'TempestShieldHandling'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Player/TempestShieldHandling"
+        },
+        {
+          "ObjectName": "DominionSoundClass'TempestShieldPulsing'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Player/TempestShieldPulsing"
+        },
+        {
+          "ObjectName": "DominionSoundClass'AnimaSiphonLocal'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Player/AnimaSiphonLocal"
+        }
+      ],
+      "ParentClass": {
+        "ObjectName": "DominionSoundClass'Player'",
+        "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Player/Player"
+      }
+    }
+  }
+]

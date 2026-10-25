@@ -1,0 +1,28 @@
+[
+  {
+    "Type": "DominionSoundClass",
+    "Name": "DOM_Master",
+    "Class": "UScriptClass'DominionSoundClass'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Properties": {
+        "Volume": 1.584576,
+        "LoadingBehavior": "ESoundWaveLoadingBehavior::PrimeOnLoad"
+      },
+      "ChildClasses": [
+        {
+          "ObjectName": "DominionSoundClass'VO'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/VO/VO"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Music'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/Music/Music"
+        },
+        {
+          "ObjectName": "DominionSoundClass'SFX'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/SFX"
+        }
+      ]
+    }
+  }
+]

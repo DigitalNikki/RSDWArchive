@@ -1,0 +1,63 @@
+[
+  {
+    "Type": "BuildingPieceData",
+    "Name": "DA_BaseBuilding_Decoration_Literature_Book_Tome_Woodcutting",
+    "Class": "UScriptClass'BuildingPieceData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DerivedData": {
+        "AssetPathName": "/Game/Gameplay/BaseBuilding_New/BuildingPieces_DerivedData/Decorations/Literature/DA_BaseBuilding_Decoration_Literature_Book_Tome_Woodcutting_DerivedData.DA_BaseBuilding_Decoration_Literature_Book_Tome_Woodcutting_DerivedData",
+        "SubPathString": ""
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/BaseBuilding_New/BuildingPieces/ST_BuildingPieces.ST_BuildingPieces",
+        "Key": "Decoration.SkillTomeWoodcutting.Name",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "DisplayIcon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Skill_Tomes_Concept_Art/T_Icon_Skill_Tome_Woodcutting.T_Icon_Skill_Tome_Woodcutting",
+        "SubPathString": ""
+      },
+      "BuildableActor": {
+        "AssetPathName": "/Game/Gameplay/BaseBuilding_New/BuildingPieces/Decorations/Literature/BP_BaseBuilding_Decoration_Literature_Book_Tome_Woodcutting.BP_BaseBuilding_Decoration_Literature_Book_Tome_Woodcutting_C",
+        "SubPathString": ""
+      },
+      "Requirements": [
+        {
+          "Amount": 1,
+          "ItemData": {
+            "ObjectName": "FuelItemData'ITEM_Resources_Wood_Ash'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Wood/ITEM_Resources_Wood_Ash"
+          }
+        },
+        {
+          "Amount": 1,
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Leather'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Textiles/ITEM_Resources_Leather"
+          }
+        }
+      ],
+      "PieceTag": {
+        "TagName": "BaseBuilding.PieceType.Prop"
+      },
+      "BuildingStabilityProfileRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_StabilityProfile'",
+          "ObjectPath": "/Game/Gameplay/BaseBuilding_New/DT_StabilityProfile"
+        },
+        "RowName": "Prop"
+      },
+      "BuildXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Building'",
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Building"
+        },
+        "RowName": "Build_Decoration_Tier1"
+      },
+      "RepresentationCategory": "EBuildingPieceRepresentationCategory::Lightweight",
+      "PersistenceID": "ALVA3U0AvVYYg_yhXDqOGg"
+    }
+  }
+]

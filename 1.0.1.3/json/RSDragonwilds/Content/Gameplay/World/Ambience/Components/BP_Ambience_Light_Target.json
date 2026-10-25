@@ -1,0 +1,102 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Ambience_Light_Target_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'LightVariablesBindingComponent'",
+      "ObjectPath": "/Script/Dominion"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Light",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'LightComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Directional Light",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'DirectionalLightComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Ambience_Light_Target_C'Default__BP_Ambience_Light_Target_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/World/Ambience/Components/BP_Ambience_Light_Target.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Ambience_Light_Target_C",
+    "Name": "Default__BP_Ambience_Light_Target_C",
+    "Class": "BlueprintGeneratedClass'1.0.1.3/RSDragonwilds/Content/Gameplay/World/Ambience/Components/BP_Ambience_Light_Target.BP_Ambience_Light_Target_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "IntensityRef": {
+        "ObjectName": "CompositePairFloat'AMB_Sun_Light_Intensity_N'",
+        "ObjectPath": "/Game/Gameplay/World/Ambience/Properties/AMB_Sun_Light_Intensity_N"
+      },
+      "TemperatureRef": {
+        "ObjectName": "CompositePairFloat'AMB_Sun_Temperature'",
+        "ObjectPath": "/Game/Gameplay/World/Ambience/Properties/AMB_Sun_Temperature"
+      },
+      "OcclusionRef": {
+        "ObjectName": "CompositePairFloat'AMB_Sun_OcclusionDepth'",
+        "ObjectPath": "/Game/Gameplay/World/Ambience/Properties/AMB_Sun_OcclusionDepth"
+      },
+      "BloomScaleRef": {
+        "ObjectName": "CompositePairFloat'AMB_Sun_BloomScale'",
+        "ObjectPath": "/Game/Gameplay/World/Ambience/Properties/AMB_Sun_BloomScale"
+      },
+      "ShadowAmountRef": {
+        "ObjectName": "CompositePairFloat'AMB_Sun_ShadowAmount'",
+        "ObjectPath": "/Game/Gameplay/World/Ambience/Properties/AMB_Sun_ShadowAmount"
+      },
+      "IndirectStengthRef": {
+        "ObjectName": "CompositePairFloat'AMB_Sun_InderectStr'",
+        "ObjectPath": "/Game/Gameplay/World/Ambience/Properties/AMB_Sun_InderectStr"
+      },
+      "CloudShadowIntensityRef": {
+        "ObjectName": "CompositePairFloat'AMB_Cloud_StrengthOnSurface'",
+        "ObjectPath": "/Game/Gameplay/World/Ambience/Properties/AMB_Cloud_StrengthOnSurface"
+      },
+      "ShadowBiasRef": {
+        "ObjectName": "CompositePairFloat'AMB_Sun_ShadowBias'",
+        "ObjectPath": "/Game/Gameplay/World/Ambience/Properties/AMB_Sun_ShadowBias"
+      },
+      "LightShaftDirectionRef": {
+        "ObjectName": "CompositePairVector3'AMB_MoonVectorFOG'",
+        "ObjectPath": "/Game/Gameplay/World/Ambience/Properties/AMB_MoonVectorFOG"
+      },
+      "TransformRef": {
+        "ObjectName": "CompositePairTransform'AMB_Sun_Transform_N'",
+        "ObjectPath": "/Game/Gameplay/World/Ambience/Properties/AMB_Sun_Transform_N"
+      },
+      "TransformRefOffset": {
+        "ObjectName": "CompositePairTransform'AMB_Sun_TransformOffset_N'",
+        "ObjectPath": "/Game/Gameplay/World/Ambience/Properties/AMB_Sun_TransformOffset_N"
+      }
+    }
+  }
+]

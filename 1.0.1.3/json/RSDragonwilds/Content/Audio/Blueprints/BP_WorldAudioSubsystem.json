@@ -1,0 +1,103 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_WorldAudioSubsystem_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'WorldAudioSubsystem'",
+      "ObjectPath": "/Script/Dominion"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_WorldAudioSubsystem_C'Default__BP_WorldAudioSubsystem_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Audio/Blueprints/BP_WorldAudioSubsystem.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_WorldAudioSubsystem_C",
+    "Name": "Default__BP_WorldAudioSubsystem_C",
+    "Class": "BlueprintGeneratedClass'1.0.1.3/RSDragonwilds/Content/Audio/Blueprints/BP_WorldAudioSubsystem.BP_WorldAudioSubsystem_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WorldAudioData": {
+        "ObjectName": "WorldAudioData'ADA_WorldAudioData'",
+        "ObjectPath": "/Game/Audio/DataAssets/ADA_WorldAudioData"
+      },
+      "AudioWindData": {
+        "ObjectName": "AudioWindData'ADA_AudioWindData'",
+        "ObjectPath": "/Game/Audio/DataAssets/ADA_AudioWindData"
+      },
+      "bShouldCreate": true,
+      "SoundMixers": [
+        {
+          "Key": "EAudioSettingsMixerType::VoiceOver",
+          "Value": {
+            "ObjectName": "SoundMix'Mix_VO'",
+            "ObjectPath": "/Game/Audio/SoundMixes/Mix_VO"
+          }
+        },
+        {
+          "Key": "EAudioSettingsMixerType::Music",
+          "Value": {
+            "ObjectName": "SoundMix'Mix_Music'",
+            "ObjectPath": "/Game/Audio/SoundMixes/Mix_Music"
+          }
+        },
+        {
+          "Key": "EAudioSettingsMixerType::SFX",
+          "Value": {
+            "ObjectName": "SoundMix'Mix_SFX'",
+            "ObjectPath": "/Game/Audio/SoundMixes/Mix_SFX"
+          }
+        },
+        {
+          "Key": "EAudioSettingsMixerType::Master",
+          "Value": {
+            "ObjectName": "SoundMix'Mix_Master'",
+            "ObjectPath": "/Game/Audio/SoundMixes/Mix_Master"
+          }
+        }
+      ],
+      "SoundClasses": [
+        {
+          "Key": "EAudioSettingsMixerType::VoiceOver",
+          "Value": {
+            "ObjectName": "DominionSoundClass'VO'",
+            "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/VO/VO"
+          }
+        },
+        {
+          "Key": "EAudioSettingsMixerType::SFX",
+          "Value": {
+            "ObjectName": "DominionSoundClass'SFX'",
+            "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/SFX"
+          }
+        },
+        {
+          "Key": "EAudioSettingsMixerType::Music",
+          "Value": {
+            "ObjectName": "DominionSoundClass'Music'",
+            "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/Music/Music"
+          }
+        },
+        {
+          "Key": "EAudioSettingsMixerType::Master",
+          "Value": {
+            "ObjectName": "DominionSoundClass'DOM_Master'",
+            "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/DOM_Master"
+          }
+        }
+      ]
+    }
+  }
+]

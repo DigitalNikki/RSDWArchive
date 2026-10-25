@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "DominionInputMode",
+    "Name": "DIM_RadialMenu",
+    "Class": "UScriptClass'DominionInputMode'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "InputConfig": "EDominionWidgetInputMode::GameAndMenu",
+      "Mappings": [
+        {
+          "InputMapping": {
+            "ObjectName": "InputMappingContext'IMC_Movement'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Mappings/IMC_Movement"
+          },
+          "Priority": 0,
+          "DebugBuildsOnly": false
+        },
+        {
+          "InputMapping": {
+            "ObjectName": "InputMappingContext'IMC_DebugToggle'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Mappings/IMC_DebugToggle"
+          },
+          "Priority": 3,
+          "DebugBuildsOnly": true
+        },
+        {
+          "InputMapping": {
+            "ObjectName": "InputMappingContext'IMC_UI_Generic'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Mappings/IMC_UI_Generic"
+          },
+          "Priority": 2,
+          "DebugBuildsOnly": false
+        },
+        {
+          "InputMapping": {
+            "ObjectName": "InputMappingContext'IMC_RadialSelection'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Mappings/IMC_RadialSelection"
+          },
+          "Priority": 3,
+          "DebugBuildsOnly": false
+        },
+        {
+          "InputMapping": {
+            "ObjectName": "InputMappingContext'IMC_SpellsUI'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Mappings/IMC_SpellsUI"
+          },
+          "Priority": 3,
+          "DebugBuildsOnly": false
+        }
+      ],
+      "LegendWidgetType": "EInputLegendWidgetType::RadialMenu"
+    }
+  }
+]

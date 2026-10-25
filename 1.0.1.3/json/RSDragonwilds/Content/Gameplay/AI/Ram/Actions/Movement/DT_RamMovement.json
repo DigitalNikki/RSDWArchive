@@ -1,0 +1,76 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_RamMovement",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Object'AiMovementAnimationData'",
+        "ObjectPath": "/Script/Dominion"
+      }
+    },
+    "Rows": {
+      "LeapBack": {
+        "AnimationMontage": {
+          "ObjectName": "AnimMontage'AM_Ram_Hop_Bck'",
+          "ObjectPath": "/Game/Gameplay/AI/Ram/Actions/Movement/AM_Ram_Hop_Bck"
+        },
+        "Likelihood": {
+          "ObjectName": "BlueprintGeneratedClass'DefaultLikelihood_C'",
+          "ObjectPath": "/Game/Gameplay/AI/BehaviourShared/Likelihood/DefaultLikelihood"
+        },
+        "MaxDisplacementDist": 500.0,
+        "bEnabled": true
+      },
+      "LeapBackRight": {
+        "AnimationMontage": {
+          "ObjectName": "AnimMontage'AM_Ram_Hop_Rt_Bck'",
+          "ObjectPath": "/Game/Gameplay/AI/Ram/Actions/Movement/AM_Ram_Hop_Rt_Bck"
+        },
+        "Likelihood": {
+          "ObjectName": "BlueprintGeneratedClass'DefaultLikelihood_C'",
+          "ObjectPath": "/Game/Gameplay/AI/BehaviourShared/Likelihood/DefaultLikelihood"
+        },
+        "MaxDisplacementDist": 200.0,
+        "bEnabled": true
+      },
+      "LeapBackLeft": {
+        "AnimationMontage": {
+          "ObjectName": "AnimMontage'AM_Ram_Hop_LF_Bck'",
+          "ObjectPath": "/Game/Gameplay/AI/Ram/Actions/Movement/AM_Ram_Hop_LF_Bck"
+        },
+        "Likelihood": {
+          "ObjectName": "BlueprintGeneratedClass'DefaultLikelihood_C'",
+          "ObjectPath": "/Game/Gameplay/AI/BehaviourShared/Likelihood/DefaultLikelihood"
+        },
+        "MaxDisplacementDist": 200.0,
+        "bEnabled": true
+      },
+      "LeapRight": {
+        "AnimationMontage": {
+          "ObjectName": "AnimMontage'AM_Ram_Hop_Rt'",
+          "ObjectPath": "/Game/Gameplay/AI/Ram/Actions/Movement/AM_Ram_Hop_Rt"
+        },
+        "Likelihood": {
+          "ObjectName": "BlueprintGeneratedClass'DefaultLikelihood_C'",
+          "ObjectPath": "/Game/Gameplay/AI/BehaviourShared/Likelihood/DefaultLikelihood"
+        },
+        "MaxDisplacementDist": 200.0,
+        "bEnabled": true
+      },
+      "LeapLeft": {
+        "AnimationMontage": {
+          "ObjectName": "AnimMontage'AM_Ram_Hop_LF'",
+          "ObjectPath": "/Game/Gameplay/AI/Ram/Actions/Movement/AM_Ram_Hop_LF"
+        },
+        "Likelihood": {
+          "ObjectName": "BlueprintGeneratedClass'DefaultLikelihood_C'",
+          "ObjectPath": "/Game/Gameplay/AI/BehaviourShared/Likelihood/DefaultLikelihood"
+        },
+        "MaxDisplacementDist": 200.0,
+        "bEnabled": true
+      }
+    }
+  }
+]

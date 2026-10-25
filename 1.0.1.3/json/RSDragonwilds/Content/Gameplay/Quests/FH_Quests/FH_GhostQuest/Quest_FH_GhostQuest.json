@@ -1,0 +1,138 @@
+[
+  {
+    "Type": "QuestData",
+    "Name": "Quest_FH_GhostQuest",
+    "Class": "UScriptClass'QuestData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "QuestName": {
+        "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_GhostQuest/ST_FH_GhostQuest.ST_FH_GhostQuest",
+        "Key": "Quest.Name",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "CompletedQuestDescription": {
+        "TableId": "/Game/Gameplay/Quests/ST_QuestCompletionText.ST_QuestCompletionText",
+        "Key": "EvenMoreRestlessGhosts",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "QuestRegion": "EQuestRegion::Fellhollow",
+      "QuestDescription": {
+        "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_GhostQuest/ST_FH_GhostQuest.ST_FH_GhostQuest",
+        "Key": "Quest.Description",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Objectives": [
+        {
+          "Key": "FindGhosts0/3",
+          "Value": {
+            "Description": {
+              "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_GhostQuest/ST_FH_GhostQuest.ST_FH_GhostQuest",
+              "Key": "Objective.FindGhosts.1",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "SubobjectiveDescription": {
+              "CultureInvariantString": null
+            },
+            "Hint": {
+              "CultureInvariantString": null
+            },
+            "bOverrideQuestDescription": false,
+            "QuestDescriptionOverride": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        {
+          "Key": "FindGhosts1/3",
+          "Value": {
+            "Description": {
+              "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_GhostQuest/ST_FH_GhostQuest.ST_FH_GhostQuest",
+              "Key": "Objective.FindGhosts.2",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "SubobjectiveDescription": {
+              "CultureInvariantString": null
+            },
+            "Hint": {
+              "CultureInvariantString": null
+            },
+            "bOverrideQuestDescription": false,
+            "QuestDescriptionOverride": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        {
+          "Key": "FindGhosts2/3",
+          "Value": {
+            "Description": {
+              "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_GhostQuest/ST_FH_GhostQuest.ST_FH_GhostQuest",
+              "Key": "Objective.FindGhosts.3",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "SubobjectiveDescription": {
+              "CultureInvariantString": null
+            },
+            "Hint": {
+              "CultureInvariantString": null
+            },
+            "bOverrideQuestDescription": false,
+            "QuestDescriptionOverride": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        {
+          "Key": "BackToZanik",
+          "Value": {
+            "Description": {
+              "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_GhostQuest/ST_FH_GhostQuest.ST_FH_GhostQuest",
+              "Key": "Objective.ReturnToZanik",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "SubobjectiveDescription": {
+              "CultureInvariantString": null
+            },
+            "Hint": {
+              "CultureInvariantString": null
+            },
+            "bOverrideQuestDescription": false,
+            "QuestDescriptionOverride": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        {
+          "Key": "BackToZanikNotSpokenToZanik",
+          "Value": {
+            "Description": {
+              "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_GhostQuest/ST_FH_GhostQuest.ST_FH_GhostQuest",
+              "Key": "Objective.FindZanikNotSpokenYet",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "SubobjectiveDescription": {
+              "CultureInvariantString": null
+            },
+            "Hint": {
+              "CultureInvariantString": null
+            },
+            "bOverrideQuestDescription": false,
+            "QuestDescriptionOverride": {
+              "CultureInvariantString": null
+            }
+          }
+        }
+      ],
+      "PersistenceID": "4QQuNkR6spTCXC6zj6VqxQ",
+      "InternalName": "FH_GhostQuest"
+    }
+  }
+]

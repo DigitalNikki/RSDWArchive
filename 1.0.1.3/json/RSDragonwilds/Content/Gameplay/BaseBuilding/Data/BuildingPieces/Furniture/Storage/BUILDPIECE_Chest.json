@@ -1,0 +1,70 @@
+[
+  {
+    "Type": "BuildingPieceData",
+    "Name": "BUILDPIECE_Chest",
+    "Class": "UScriptClass'BuildingPieceData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DerivedData": {
+        "AssetPathName": "/Game/Gameplay/BaseBuilding/Data/BuildingPieces_DerivedData/Furniture/Storage/BUILDPIECE_Chest_DerivedData.BUILDPIECE_Chest_DerivedData",
+        "SubPathString": ""
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/BaseBuilding/Data/BuildingPieces/Furniture/ST_BuildingPieces_Furniture.ST_BuildingPieces_Furniture",
+        "Key": "OakChest.Name",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Description": {
+        "TableId": "/Game/Gameplay/BaseBuilding/Data/BuildingPieces/Furniture/ST_BuildingPieces_Furniture.ST_BuildingPieces_Furniture",
+        "Key": "LargeChest.Description",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "DisplayIcon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Furniture_Storage/T_Icon_Storage_Chest_01v2.T_Icon_Storage_Chest_01v2",
+        "SubPathString": ""
+      },
+      "BuildableActor": {
+        "AssetPathName": "/Game/Gameplay/BaseBuilding/Actors/Props/BP_BaseBuilding_Chest.BP_BaseBuilding_Chest_C",
+        "SubPathString": ""
+      },
+      "Requirements": [
+        {
+          "Amount": 16,
+          "ItemData": {
+            "ObjectName": "FuelItemData'ITEM_Resources_Wood_Oak'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Wood/ITEM_Resources_Wood_Oak"
+          }
+        },
+        {
+          "Amount": 2,
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_BronzeBar'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Metal/ITEM_Resources_BronzeBar"
+          }
+        }
+      ],
+      "PieceTag": {
+        "TagName": "BaseBuilding.PieceType.Prop"
+      },
+      "BuildingStabilityProfileRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_StabilityProfile'",
+          "ObjectPath": "/Game/Gameplay/BaseBuilding_New/DT_StabilityProfile"
+        },
+        "RowName": "Prop"
+      },
+      "BuildXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Building'",
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Building"
+        },
+        "RowName": "Build_Storage_Tier2"
+      },
+      "RepresentationCategory": "EBuildingPieceRepresentationCategory::IndividuallyReplicatedAndPersistedActor",
+      "PersistenceID": "pR_Kj7yG40GHbn07sUN5Fg",
+      "InternalName": "buildpiece_chest"
+    }
+  }
+]

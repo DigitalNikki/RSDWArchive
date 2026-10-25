@@ -1,0 +1,24 @@
+[
+  {
+    "Type": "ImpactAudioOverrideData",
+    "Name": "ADA_AIImpactOverride",
+    "Class": "UScriptClass'ImpactAudioOverrideData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SoundClass": {
+        "ObjectName": "DominionSoundClass'AI_Melee'",
+        "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/AI_Melee"
+      },
+      "AttenuationSettings": {
+        "ObjectName": "SoundAttenuation'ATT_Sphere_Natural_40m'",
+        "ObjectPath": "/Game/Audio/AttenuationSharesets/Sphere/ATT_Sphere_Natural_40m"
+      },
+      "ConcurrencySettings": [
+        {
+          "ObjectName": "SoundConcurrency'Enemy_Impacts_SC'",
+          "ObjectPath": "/Game/Audio/ConcurrencySettings/Enemy_Impacts_SC"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,103 @@
+[
+  {
+    "Type": "DominionPlayerMappableKeySetting",
+    "Name": "DominionPlayerMappableKeySetting_0",
+    "Outer": {
+      "ObjectName": "InputMappingContext'IMC_InventoryToggle'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Inputs/Mappings/IMC_InventoryToggle.2"
+    },
+    "Class": "UScriptClass'DominionPlayerMappableKeySetting'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LinkedMappingNames": [
+        "InventoryToggleDummy"
+      ],
+      "AlternateInputMappingNames": [
+        "InventoryToggleGamepad"
+      ],
+      "InputType": "EKeyMappingSettingsInputType::KeyboardMouse",
+      "DisplayCategoryData": {
+        "ObjectName": "KeyBindingCategoryDataAsset'DA_KeyBindingCategory_Interaction'",
+        "ObjectPath": "/Game/UI/Settings/KeyBindingCategories/DA_KeyBindingCategory_Interaction"
+      },
+      "SortingOrder": 80,
+      "Name": "InventoryToggle",
+      "DisplayName": {
+        "TableId": "/Game/UI/Settings/ST_Controls.ST_Controls",
+        "Key": "InventoryToggle",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "DominionPlayerMappableKeySetting",
+    "Name": "DominionPlayerMappableKeySetting_1",
+    "Outer": {
+      "ObjectName": "InputMappingContext'IMC_InventoryToggle'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Inputs/Mappings/IMC_InventoryToggle.2"
+    },
+    "Class": "UScriptClass'DominionPlayerMappableKeySetting'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AlternateInputMappingNames": [
+        "InventoryToggle"
+      ],
+      "InputType": "EKeyMappingSettingsInputType::Gamepad",
+      "DisplayCategoryData": {
+        "ObjectName": "KeyBindingCategoryDataAsset'DA_KeyBindingCategory_Interaction'",
+        "ObjectPath": "/Game/UI/Settings/KeyBindingCategories/DA_KeyBindingCategory_Interaction"
+      },
+      "SortingOrder": 80,
+      "Name": "InventoryToggleGamepad",
+      "DisplayName": {
+        "TableId": "/Game/UI/Settings/ST_Controls.ST_Controls",
+        "Key": "InventoryToggle",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "InputMappingContext",
+    "Name": "IMC_InventoryToggle",
+    "Class": "UScriptClass'InputMappingContext'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Mappings": [
+        {
+          "Triggers": [],
+          "Modifiers": [],
+          "Action": {
+            "ObjectName": "InputAction'IA_InventoryMenu'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Actions/UI/IA_InventoryMenu"
+          },
+          "Key": {
+            "KeyName": "Tab"
+          },
+          "SettingBehavior": "EPlayerMappableKeySettingBehaviors::OverrideSettings",
+          "PlayerMappableKeySettings": {
+            "ObjectName": "DominionPlayerMappableKeySetting'IMC_InventoryToggle:DominionPlayerMappableKeySetting_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Inputs/Mappings/IMC_InventoryToggle.0"
+          }
+        },
+        {
+          "Triggers": [],
+          "Modifiers": [],
+          "Action": {
+            "ObjectName": "InputAction'IA_InventoryMenu'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Actions/UI/IA_InventoryMenu"
+          },
+          "Key": {
+            "KeyName": "Gamepad_DPad_Up"
+          },
+          "SettingBehavior": "EPlayerMappableKeySettingBehaviors::OverrideSettings",
+          "PlayerMappableKeySettings": {
+            "ObjectName": "DominionPlayerMappableKeySetting'IMC_InventoryToggle:DominionPlayerMappableKeySetting_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Inputs/Mappings/IMC_InventoryToggle.1"
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "Type": "DominionSoundClass",
+    "Name": "Player_Ranged_Misc",
+    "Class": "UScriptClass'DominionSoundClass'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MinReverbSend": 0.07,
+      "MaxReverbSend": 0.3,
+      "Properties": {
+        "DefaultSubmix": {
+          "ObjectName": "SoundSubmix'SFX'",
+          "ObjectPath": "/Game/Audio/Submixes/SFX"
+        }
+      },
+      "ParentClass": {
+        "ObjectName": "DominionSoundClass'Player_Ranged'",
+        "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Player/Combat/Player_Ranged"
+      }
+    }
+  }
+]

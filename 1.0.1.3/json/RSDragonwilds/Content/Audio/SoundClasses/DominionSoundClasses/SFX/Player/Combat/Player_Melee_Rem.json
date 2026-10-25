@@ -1,0 +1,32 @@
+[
+  {
+    "Type": "DominionSoundClass",
+    "Name": "Player_Melee_Rem",
+    "Class": "UScriptClass'DominionSoundClass'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "OcclusionMultiplier": 1.0,
+      "Properties": {
+        "Volume": 0.56234133,
+        "DefaultSubmix": {
+          "ObjectName": "SoundSubmix'SFX'",
+          "ObjectPath": "/Game/Audio/Submixes/SFX"
+        }
+      },
+      "ChildClasses": [
+        {
+          "ObjectName": "DominionSoundClass'Player_Melee_Impacts_Rem'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Player/Combat/Player_Melee_Impacts_Rem"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Player_Melee_Swishes_Rem'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Player/Combat/Player_Melee_Swishes_Rem"
+        }
+      ],
+      "ParentClass": {
+        "ObjectName": "DominionSoundClass'Player'",
+        "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Player/Player"
+      }
+    }
+  }
+]

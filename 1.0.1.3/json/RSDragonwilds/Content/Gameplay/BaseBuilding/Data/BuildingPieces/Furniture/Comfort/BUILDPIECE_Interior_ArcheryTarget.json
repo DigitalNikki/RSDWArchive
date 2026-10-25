@@ -1,0 +1,70 @@
+[
+  {
+    "Type": "BuildingPieceData",
+    "Name": "BUILDPIECE_Interior_ArcheryTarget",
+    "Class": "UScriptClass'BuildingPieceData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DerivedData": {
+        "AssetPathName": "/Game/Gameplay/BaseBuilding/Data/BuildingPieces_DerivedData/Furniture/Comfort/BUILDPIECE_Interior_ArcheryTarget_DerivedData.BUILDPIECE_Interior_ArcheryTarget_DerivedData",
+        "SubPathString": ""
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/BaseBuilding/Data/BuildingPieces/Furniture/ST_BuildingPieces_Furniture.ST_BuildingPieces_Furniture",
+        "Key": "ArcheryTarget.Name",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Description": {
+        "TableId": "/Game/Gameplay/BaseBuilding/Data/BuildingPieces/Furniture/ST_BuildingPieces_Furniture.ST_BuildingPieces_Furniture",
+        "Key": "ArcheryTarget.Description",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "DisplayIcon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Ranged/T_Icon_Archery_Target.T_Icon_Archery_Target",
+        "SubPathString": ""
+      },
+      "BuildableActor": {
+        "AssetPathName": "/Game/Gameplay/BaseBuilding/Actors/Props/BP_BaseBuilding_ArcheryTarget.BP_BaseBuilding_ArcheryTarget_C",
+        "SubPathString": ""
+      },
+      "Requirements": [
+        {
+          "Amount": 6,
+          "ItemData": {
+            "ObjectName": "FuelItemData'ITEM_Resources_Plank_Ash'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Wood/ITEM_Resources_Plank_Ash"
+          }
+        },
+        {
+          "Amount": 3,
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Flax'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Plant/ITEM_Resources_Flax"
+          }
+        }
+      ],
+      "PieceTag": {
+        "TagName": "BaseBuilding.PieceType.Prop"
+      },
+      "BuildingStabilityProfileRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'StabilityProfileDataTable'",
+          "ObjectPath": "/Game/Gameplay/BaseBuilding/StabilityProfileDataTable"
+        },
+        "RowName": "Prop"
+      },
+      "BuildXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Building'",
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Building"
+        },
+        "RowName": "Build_Decoration_Tier2"
+      },
+      "RepresentationCategory": "EBuildingPieceRepresentationCategory::IndividuallyReplicatedAndPersistedActor",
+      "PersistenceID": "yue2Ek35DcaDq42gsR81cg",
+      "InternalName": "buildpiece_interior_archerytarget"
+    }
+  }
+]

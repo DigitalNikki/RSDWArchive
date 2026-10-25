@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "WhetstoneItemData",
+    "Name": "ITEM_Consumable_WeaponPoison",
+    "Class": "UScriptClass'WhetstoneItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HeldEquipmentEffectData": {
+        "ObjectName": "BP_WhetstoneHeldEquipmentEffectData_C'HEED_WeaponPoison'",
+        "ObjectPath": "/Game/Gameplay/Items/Consumables/Misc/HEED_WeaponPoison"
+      },
+      "RequiresHeldMeleeWeaponTag": {
+        "TagName": "UI.ConsumeItem.RequiresHeldMeleeWeapon"
+      },
+      "SpellData": {
+        "ObjectName": "UtilitySpellData'USD_WeaponPoison'",
+        "ObjectPath": "/Game/Gameplay/UtilityMagic/PerkSpells/WeaponPoison/USD_WeaponPoison"
+      },
+      "UseVerb": {
+        "Namespace": "",
+        "Key": "AAC2812E475BBC6FCBAB41B4BF0746FF",
+        "SourceString": "Hone",
+        "LocalizedString": "Hone"
+      },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Ranged'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Ranged"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "WeaponPoison",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "WeaponPoison",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Ranged/T_Icon_Weapon_Poison.T_Icon_Weapon_Poison",
+        "SubPathString": ""
+      },
+      "CategoryClassIcon": {
+        "AssetPathName": "/Game/Art/UI/Icons/StatusEffects/T_Icon_Sml_Poison.T_Icon_Sml_Poison",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Liquid_Container/SM_Wrapped_Liquid_Container_01.SM_Wrapped_Liquid_Container_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 50,
+      "Weight": 1.0,
+      "Category": {
+        "TagName": "Item.Whetstone"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.WeightReduction",
+        "ItemFilter.Type.Consumable"
+      ],
+      "PersistenceID": "0h15KUoKwZakrXihaEqoqg",
+      "InternalName": "item_weaponpoison"
+    }
+  }
+]

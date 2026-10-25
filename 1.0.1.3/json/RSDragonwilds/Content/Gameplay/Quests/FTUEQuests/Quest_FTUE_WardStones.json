@@ -1,0 +1,91 @@
+[
+  {
+    "Type": "QuestData",
+    "Name": "Quest_FTUE_WardStones",
+    "Class": "UScriptClass'QuestData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "QuestName": {
+        "TableId": "/Game/Gameplay/Quests/FTUEQuests/ST_FTUE.ST_FTUE",
+        "Key": "WS_QuestName",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "bHideInQuestList": true,
+      "bShouldShowInCompletedQuestList": false,
+      "QuestDescription": {
+        "TableId": "/Game/Gameplay/Quests/FTUEQuests/ST_FTUE.ST_FTUE",
+        "Key": "WS_QuestDesc",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Objectives": [
+        {
+          "Key": "Objective1",
+          "Value": {
+            "Description": {
+              "TableId": "/Game/Gameplay/Quests/FTUEQuests/ST_FTUE.ST_FTUE",
+              "Key": "WS_WiseOldMan_Objective1",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "SubobjectiveDescription": {
+              "CultureInvariantString": null
+            },
+            "Hint": {
+              "CultureInvariantString": null
+            },
+            "bOverrideQuestDescription": false,
+            "QuestDescriptionOverride": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        {
+          "Key": "Objective2",
+          "Value": {
+            "Description": {
+              "TableId": "/Game/Gameplay/Quests/FTUEQuests/ST_FTUE.ST_FTUE",
+              "Key": "WS_WiseOldMan_Objective2",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "SubobjectiveDescription": {
+              "CultureInvariantString": null
+            },
+            "Hint": {
+              "CultureInvariantString": null
+            },
+            "bOverrideQuestDescription": false,
+            "QuestDescriptionOverride": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        {
+          "Key": "Objective3",
+          "Value": {
+            "Description": {
+              "TableId": "/Game/Gameplay/Quests/FTUEQuests/ST_FTUE.ST_FTUE",
+              "Key": "WS_WiseOldMan_Objective3",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "SubobjectiveDescription": {
+              "CultureInvariantString": null
+            },
+            "Hint": {
+              "CultureInvariantString": null
+            },
+            "bOverrideQuestDescription": false,
+            "QuestDescriptionOverride": {
+              "CultureInvariantString": null
+            }
+          }
+        }
+      ],
+      "PersistenceID": "DSGuYE-gPNCI1yCzvZhT8Q",
+      "InternalName": "ftue_ws"
+    }
+  }
+]

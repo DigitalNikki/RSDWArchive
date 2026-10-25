@@ -1,0 +1,87 @@
+[
+  {
+    "Type": "FarmPlantDataAsset",
+    "Name": "FPD_SwampWeed",
+    "Class": "UScriptClass'FarmPlantDataAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "Swampweed",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Tier": 2.5,
+      "Stages": [
+        {
+          "ObjectName": "FarmPlantStageData'FPSD_Swampweed_Stage_1'",
+          "ObjectPath": "/Game/Gameplay/Farming/Stages/Herb_Stages/Swampweed_Stages/FPSD_Swampweed_Stage_1"
+        },
+        {
+          "ObjectName": "FarmPlantStageData'FPSD_Swampweed_Stage_2'",
+          "ObjectPath": "/Game/Gameplay/Farming/Stages/Herb_Stages/Swampweed_Stages/FPSD_Swampweed_Stage_2"
+        },
+        {
+          "ObjectName": "FarmPlantStageData'FPSD_Swampweed_Stage_Harvestable'",
+          "ObjectPath": "/Game/Gameplay/Farming/Stages/Herb_Stages/Swampweed_Stages/FPSD_Swampweed_Stage_Harvestable"
+        }
+      ],
+      "StageDisplayTexts": [
+        {
+          "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+          "Key": "StatusText_PlantStage_Shoot",
+          "SourceString": null,
+          "LocalizedString": ""
+        },
+        {
+          "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+          "Key": "StatusText_PlantStage_Stalk",
+          "SourceString": null,
+          "LocalizedString": ""
+        },
+        {
+          "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+          "Key": "StatusText_PlantStage_Flower",
+          "SourceString": null,
+          "LocalizedString": ""
+        },
+        {
+          "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+          "Key": "StatusText_PlantStage_Harvestable",
+          "SourceString": null,
+          "LocalizedString": ""
+        }
+      ],
+      "BaseYield": 5,
+      "DiseaseChance": 0.4,
+      "HarvestableItem": {
+        "ObjectName": "ItemData'ITEM_SwampWeed'",
+        "ObjectPath": "/Game/Gameplay/Items/Resources/Herb/ITEM_SwampWeed"
+      },
+      "SeedDropPerHarvestableItem": {
+        "ItemDataClass": {
+          "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Farming/Seeds/ITEM_Farming_Seed_SwampWeed.ITEM_Farming_Seed_SwampWeed",
+          "SubPathString": ""
+        },
+        "MaximumGrouping": 99,
+        "ProbabilityOfDrop": 0.02,
+        "ProbabilityModifierAttribute": {
+          "ObjectName": "Class'SeedRecoveryChance'",
+          "ObjectPath": "/Script/Dominion"
+        }
+      },
+      "HarvestSFX": {
+        "AssetPathName": "/Game/Audio/MetasoundSources/Player/Interactions/Farming/MSS_Pl_Fa_HarvestPlant.MSS_Pl_Fa_HarvestPlant",
+        "SubPathString": ""
+      },
+      "PlantableIn": [
+        "Farming.Tiers.Tier2_Ghornfell",
+        "Farming.Tiers.Tier3_Fellhollow",
+        "Farming.Tiers.Tier4_UmbralSands"
+      ],
+      "HarvestXpFactor": 2.5,
+      "PersistenceID": "MCkfPk0WpBgmdGqRIBSdZA",
+      "InternalName": "FPD_SwampWeed"
+    }
+  }
+]

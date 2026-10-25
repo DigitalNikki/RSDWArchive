@@ -1,0 +1,51 @@
+[
+  {
+    "Type": "InputMappingContext",
+    "Name": "IMC_ServerManagement",
+    "Class": "UScriptClass'InputMappingContext'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Mappings": [
+        {
+          "Triggers": [],
+          "Modifiers": [],
+          "Action": {
+            "ObjectName": "InputAction'IA_Settings_BanPlayer'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Actions/UI/IA_Settings_BanPlayer"
+          },
+          "Key": {
+            "KeyName": "Gamepad_FaceButton_Top"
+          },
+          "SettingBehavior": "EPlayerMappableKeySettingBehaviors::InheritSettingsFromAction",
+          "PlayerMappableKeySettings": null
+        },
+        {
+          "Triggers": [],
+          "Modifiers": [],
+          "Action": {
+            "ObjectName": "InputAction'IA_Settings_UnBanPlayer'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Actions/UI/IA_Settings_UnBanPlayer"
+          },
+          "Key": {
+            "KeyName": "Gamepad_Special_Left"
+          },
+          "SettingBehavior": "EPlayerMappableKeySettingBehaviors::InheritSettingsFromAction",
+          "PlayerMappableKeySettings": null
+        },
+        {
+          "Triggers": [],
+          "Modifiers": [],
+          "Action": {
+            "ObjectName": "InputAction'IA_Settings_KickPlayer'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Actions/UI/IA_Settings_KickPlayer"
+          },
+          "Key": {
+            "KeyName": "Gamepad_FaceButton_Left"
+          },
+          "SettingBehavior": "EPlayerMappableKeySettingBehaviors::InheritSettingsFromAction",
+          "PlayerMappableKeySettings": null
+        }
+      ]
+    }
+  }
+]

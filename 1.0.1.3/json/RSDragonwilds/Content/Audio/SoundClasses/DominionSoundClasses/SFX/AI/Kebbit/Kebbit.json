@@ -1,0 +1,46 @@
+[
+  {
+    "Type": "DominionSoundClass",
+    "Name": "Kebbit",
+    "Class": "UScriptClass'DominionSoundClass'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MinReverbSend": 0.1,
+      "MaxReverbSend": 0.5,
+      "OcclusionMultiplier": 1.0,
+      "Properties": {
+        "Volume": 0.64376706
+      },
+      "ChildClasses": [
+        {
+          "ObjectName": "DominionSoundClass'Kebbit_Foley'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/Kebbit/Kebbit_Foley"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Kebbit_FS'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/Kebbit/Kebbit_FS"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Kebbit_Vox_Com_Maj'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/Kebbit/Kebbit_Vox_Com_Maj"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Kebbit_Vox_Com_Min'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/Kebbit/Kebbit_Vox_Com_Min"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Kebbit_Vox_NonCom_Maj'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/Kebbit/Kebbit_Vox_NonCom_Maj"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Kebbit_Vox_NonCom_Min'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/Kebbit/Kebbit_Vox_NonCom_Min"
+        }
+      ],
+      "ParentClass": {
+        "ObjectName": "DominionSoundClass'AI'",
+        "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/AI"
+      }
+    }
+  }
+]

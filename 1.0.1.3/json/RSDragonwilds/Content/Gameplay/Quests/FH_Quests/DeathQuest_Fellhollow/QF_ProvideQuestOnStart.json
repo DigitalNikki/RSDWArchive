@@ -1,0 +1,104 @@
+[
+  {
+    "Type": "ConversationDatabase",
+    "Name": "QF_ProvideQuestOnStart",
+    "Class": "UScriptClass'ConversationDatabase'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CompilerVersion": 2,
+      "ReachableNodeMap": [
+        {
+          "Key": "302F0925-44D84938-533E5D82-70407287",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_ProvideQuestOnStart:ConversationEntryPointNode_14'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_ProvideQuestOnStart.1"
+          }
+        },
+        {
+          "Key": "F04FBB95-423245F8-20400696-80B8A504",
+          "Value": {
+            "ObjectName": "QFT_GiveQuest_C'QF_ProvideQuestOnStart:QFT_GiveQuest_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_ProvideQuestOnStart.2"
+          }
+        },
+        {
+          "Key": "E24051C2-4811D387-41B117B2-C6D2A2DD",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_ProvideQuestOnStart:QFT_SetQuestObjective_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_ProvideQuestOnStart.3"
+          }
+        },
+        {
+          "Key": "2C2712AE-4802578C-53F5848F-5C20032C",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_ProvideQuestOnStart:QFT_UpdateQuestLocation_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_ProvideQuestOnStart.4"
+          }
+        }
+      ],
+      "EntryTags": [
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.DeathQuestMain.AutoGiveQuest"
+          },
+          "DestinationList": [
+            "302F0925-44D84938-533E5D82-70407287"
+          ],
+          "EntryIdentifier": ""
+        }
+      ],
+      "InternalNodeIds": [
+        "302F0925-44D84938-533E5D82-70407287",
+        "F04FBB95-423245F8-20400696-80B8A504",
+        "E24051C2-4811D387-41B117B2-C6D2A2DD",
+        "2C2712AE-4802578C-53F5848F-5C20032C"
+      ]
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_14",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ProvideQuestOnStart'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_ProvideQuestOnStart.0"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.DeathQuestMain.AutoGiveQuest"
+      },
+      "OutputConnections": [
+        "F04FBB95-423245F8-20400696-80B8A504"
+      ],
+      "Compiled_NodeGUID": "302F0925-44D84938-533E5D82-70407287"
+    }
+  },
+  {
+    "Type": "QFT_GiveQuest_C",
+    "Name": "QFT_GiveQuest_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ProvideQuestOnStart'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_ProvideQuestOnStart.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ProvideQuestOnStart'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_ProvideQuestOnStart.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ProvideQuestOnStart'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_ProvideQuestOnStart.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "Type": "FTUENotificationData",
+    "Name": "FTUE_AccessInventory",
+    "Class": "UScriptClass'FTUENotificationData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "TableId": "/Game/Gameplay/FTUE/Strings/ST_FTUENotifications.ST_FTUENotifications",
+        "Key": "UI.FTUE.AccessInventory",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "TextFormatTokenToTextGenerators": [
+        {
+          "Key": "InventoryButton",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'BP_FTUEDescribeInventoryButtonAsRichText_C'",
+            "ObjectPath": "/Game/Gameplay/FTUE/Strings/BP_FTUEDescribeInventoryButtonAsRichText"
+          }
+        }
+      ],
+      "PersistenceID": "Xa8yB0sKoWB6sKaCAFjL_w",
+      "InternalName": "ftue_accessinventory"
+    }
+  }
+]

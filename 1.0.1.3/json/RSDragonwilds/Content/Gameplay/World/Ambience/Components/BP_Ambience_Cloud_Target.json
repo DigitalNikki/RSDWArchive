@@ -1,0 +1,151 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Ambience_Cloud_Target_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'CloudVariablesBindingComponent'",
+      "ObjectPath": "/Script/Dominion"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Ambience_Cloud_Target_C'Default__BP_Ambience_Cloud_Target_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/World/Ambience/Components/BP_Ambience_Cloud_Target.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Ambience_Cloud_Target_C",
+    "Name": "Default__BP_Ambience_Cloud_Target_C",
+    "Class": "BlueprintGeneratedClass'1.0.1.3/RSDragonwilds/Content/Gameplay/World/Ambience/Components/BP_Ambience_Cloud_Target.BP_Ambience_Cloud_Target_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayerHeightKeyRef": {
+        "ObjectName": "CompositePairFloat'AMB_VolCloud_Thickness'",
+        "ObjectPath": "/Game/Gameplay/World/Ambience/Properties/AMB_VolCloud_Thickness"
+      },
+      "LayerBottomAltitudeRef": {
+        "ObjectName": "CompositePairFloat'AMB_Altitude'",
+        "ObjectPath": "/Game/Gameplay/World/Ambience/Properties/AMB_Altitude"
+      },
+      "FloatsToMaterials": [
+        {
+          "CompositeVariable": {
+            "ObjectName": "CompositePairFloat'AMB_VolCloud_Stratocumulus_Coverage_A'",
+            "ObjectPath": "/Game/Gameplay/World/Ambience/Properties/AMB_VolCloud_Stratocumulus_Coverage_A"
+          },
+          "ParamName": "Stratocumulus_Coverage_A"
+        },
+        {
+          "CompositeVariable": {
+            "ObjectName": "CompositePairFloat'AMB_VolCloud_Cumulus_Coverage_A'",
+            "ObjectPath": "/Game/Gameplay/World/Ambience/Properties/AMB_VolCloud_Cumulus_Coverage_A"
+          },
+          "ParamName": "Cumulus_Coverage_A"
+        },
+        {
+          "CompositeVariable": {
+            "ObjectName": "CompositePairFloat'AMB_VolCloud_Stratus_Coverage_A'",
+            "ObjectPath": "/Game/Gameplay/World/Ambience/Properties/AMB_VolCloud_Stratus_Coverage_A"
+          },
+          "ParamName": "Stratus_Coverage_A"
+        },
+        {
+          "CompositeVariable": {
+            "ObjectName": "CompositePairFloat'AMB_VolCloud_Cirrus_Coverage_A'",
+            "ObjectPath": "/Game/Gameplay/World/Ambience/Properties/AMB_VolCloud_Cirrus_Coverage_A"
+          },
+          "ParamName": "Cirrus_Coverage_A"
+        },
+        {
+          "CompositeVariable": {
+            "ObjectName": "CompositePairFloat'AMB_VolCloud_Stratus_Density_A'",
+            "ObjectPath": "/Game/Gameplay/World/Ambience/Properties/AMB_VolCloud_Stratus_Density_A"
+          },
+          "ParamName": "Stratus_Density_A"
+        },
+        {
+          "CompositeVariable": {
+            "ObjectName": "CompositePairFloat'AMB_VolCloud_Cumulus_Density_A'",
+            "ObjectPath": "/Game/Gameplay/World/Ambience/Properties/AMB_VolCloud_Cumulus_Density_A"
+          },
+          "ParamName": "Cumulus_Density_A"
+        },
+        {
+          "CompositeVariable": {
+            "ObjectName": "CompositePairFloat'AMB_VolCloud_Stratocumulus_Density_A'",
+            "ObjectPath": "/Game/Gameplay/World/Ambience/Properties/AMB_VolCloud_Stratocumulus_Density_A"
+          },
+          "ParamName": "Stratocumulus_Density_A"
+        },
+        {
+          "CompositeVariable": {
+            "ObjectName": "CompositePairFloat'AMB_VolCloud_Turbolence'",
+            "ObjectPath": "/Game/Gameplay/World/Ambience/Properties/AMB_VolCloud_Turbolence"
+          },
+          "ParamName": "Turbolence"
+        },
+        {
+          "CompositeVariable": {
+            "ObjectName": "CompositePairFloat'AMB_VolCloud_CirrocumulusToCirrostratus'",
+            "ObjectPath": "/Game/Gameplay/World/Ambience/Properties/AMB_VolCloud_CirrocumulusToCirrostratus"
+          },
+          "ParamName": "CirrocumulusToCirrostratus"
+        },
+        {
+          "CompositeVariable": {
+            "ObjectName": "CompositePairFloat'AMB_VolCloud_Cirrus_Density_A'",
+            "ObjectPath": "/Game/Gameplay/World/Ambience/Properties/AMB_VolCloud_Cirrus_Density_A"
+          },
+          "ParamName": "Cirrus_Density_A"
+        },
+        {
+          "CompositeVariable": {
+            "ObjectName": "CompositePairFloat'AMB_VolCloud_Cirrostratus_StripeSize'",
+            "ObjectPath": "/Game/Gameplay/World/Ambience/Properties/AMB_VolCloud_Cirrostratus_StripeSize"
+          },
+          "ParamName": "Cirrostratus_StripeSize"
+        },
+        {
+          "CompositeVariable": {
+            "ObjectName": "CompositePairFloat'AMB_VolCloud_Cirrostratus_SineScale'",
+            "ObjectPath": "/Game/Gameplay/World/Ambience/Properties/AMB_VolCloud_Cirrostratus_SineScale"
+          },
+          "ParamName": "Cirrostratus_SineScale"
+        },
+        {
+          "CompositeVariable": {
+            "ObjectName": "CompositePairFloat'AMB_VolCloud_Cirrostratus_SineFreq'",
+            "ObjectPath": "/Game/Gameplay/World/Ambience/Properties/AMB_VolCloud_Cirrostratus_SineFreq"
+          },
+          "ParamName": "Cirrostratus_SineFreq"
+        }
+      ],
+      "ColorsToMaterials": [
+        {
+          "CompositeVariable": {
+            "ObjectName": "CompositePairColor'AMB_VolCloud_Color'",
+            "ObjectPath": "/Game/Gameplay/World/Ambience/Properties/AMB_VolCloud_Color"
+          },
+          "ParamName": "CloudColor"
+        },
+        {
+          "CompositeVariable": {
+            "ObjectName": "CompositePairColor'AMB_VolCloud_Wind'",
+            "ObjectPath": "/Game/Gameplay/World/Ambience/Properties/AMB_VolCloud_Wind"
+          },
+          "ParamName": "Wind1"
+        }
+      ]
+    }
+  }
+]

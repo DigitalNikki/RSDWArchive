@@ -1,0 +1,112 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_PlayerRangedAttackCollection_Crossbow_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'PlayerRangedAttackCollection'",
+      "ObjectPath": "/Script/Dominion"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_PlayerRangedAttackCollection_Crossbow_C'Default__BP_PlayerRangedAttackCollection_Crossbow_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Crossbow/BP_PlayerRangedAttackCollection_Crossbow.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_PlayerRangedAttackCollection_Crossbow_C",
+    "Name": "Default__BP_PlayerRangedAttackCollection_Crossbow_C",
+    "Class": "BlueprintGeneratedClass'1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Crossbow/BP_PlayerRangedAttackCollection_Crossbow.BP_PlayerRangedAttackCollection_Crossbow_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "QuickAttackData": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Player_Crossbow_Quickshot_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Crossbow/BP_Player_Crossbow_Quickshot"
+      },
+      "bAllowMovementDuringQuickAttack": true,
+      "QuickAttackWeakPointGameplayEffects": {
+        "GameplayEffects": [
+          {
+            "ObjectName": "GE_StatusEffect_Hamstrung_Add35_C'Default__BP_PlayerRangedAttackCollection_Crossbow_C:GE_StatusEffect_Hamstrung_Add35_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Crossbow/BP_PlayerRangedAttackCollection_Crossbow.2"
+          }
+        ],
+        "WeakPointTags": [
+          {
+            "TagName": "Player.Status.Hamstrung"
+          }
+        ]
+      },
+      "LaunchSpeedCurve": {
+        "ObjectName": "CurveFloat'Curve_Crossbow_LaunchSpeed'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Crossbow/Curve_Crossbow_LaunchSpeed"
+      },
+      "OverrideGravityZCurve": {
+        "ObjectName": "CurveFloat'Curve_Crossbow_OverrideGravityZ'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Crossbow/Curve_Crossbow_OverrideGravityZ"
+      },
+      "DamageMultiplierCurve": {
+        "ObjectName": "CurveFloat'Curve_Crossbow_DamageMultiplier'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Crossbow/Curve_Crossbow_DamageMultiplier"
+      },
+      "ForceMultiplierCurve": {
+        "ObjectName": "CurveFloat'Curve_Crossbow_ForceMultiplier'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Crossbow/Curve_Crossbow_ForceMultiplier"
+      },
+      "MaxChargeUpDuration": 0.75,
+      "TimeBeforeFullAccuracy": 1.0,
+      "TimeAtFullStrength": 6.0,
+      "AccuracyLossWhenStrained": 4.0,
+      "AccuracyLossControlCurve": {
+        "ObjectName": "CurveFloat'Curve_CrossBowAccuracyLossControlCurve'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Crossbow/Curve_CrossBowAccuracyLossControlCurve"
+      },
+      "BaseStrainedCameraShake": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Feedback_RangedCombatStrainedCameraShake_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/BP_Feedback_RangedCombatStrainedCameraShake"
+      },
+      "CameraShakeControlCurve": {
+        "ObjectName": "CurveFloat'Curve_CrossBowCameraShakeControlCurve'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Crossbow/Curve_CrossBowCameraShakeControlCurve"
+      },
+      "WobbleControlCurve": {
+        "ObjectName": "CurveFloat'Curve_CrossBowReticleWobbleControlCurve'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Crossbow/Curve_CrossBowReticleWobbleControlCurve"
+      },
+      "SpecialAttackData": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Player_Crossbow_Punishingshot_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Crossbow/BP_Player_Crossbow_Punishingshot"
+      },
+      "bAllowMovementDuringSpecialAttack": true,
+      "SpecialAttackReloadInfo": {
+        "bShouldPreventAttackIfWeaponIsBeingNormalReloaded": false
+      },
+      "bShouldOverrideChanceOfRandomlyApplyingEffectOnSpecialAttackLaunch": true,
+      "ChanceOfRandomlyApplyingEffectOnSpecialAttackLaunchOverride": 100.0,
+      "bShouldEnableCustomCameraModeDuringSpecialAttack": true,
+      "SpecialAttackAimModeAimingCameraProfile": {
+        "ObjectName": "CameraProfile'DA_AimModeCrossbowPunishingshotCameraProfile'",
+        "ObjectPath": "/Game/Gameplay/Character/Data/DA_AimModeCrossbowPunishingshotCameraProfile"
+      }
+    }
+  },
+  {
+    "Type": "GE_StatusEffect_Hamstrung_Add35_C",
+    "Name": "GE_StatusEffect_Hamstrung_Add35_C_0",
+    "Outer": {
+      "ObjectName": "BP_PlayerRangedAttackCollection_Crossbow_C'Default__BP_PlayerRangedAttackCollection_Crossbow_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Crossbow/BP_PlayerRangedAttackCollection_Crossbow.1"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  }
+]

@@ -1,0 +1,710 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_Progression_Vendors",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Object'ProgressionBundleRow'",
+        "ObjectPath": "/Script/Dominion"
+      }
+    },
+    "Rows": {
+      "Vendor_Fellhollow": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ANY ITEMS[ Soul Fragment ]    OR    ALL ACTORS[ BP_NPC_Death_C ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AnyMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Currency_SoulFragment'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Currency/ITEM_Currency_SoulFragment"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": true,
+          "Operator": "EUnlockMatchOperator::OR",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ActorsInteractedWith",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'BP_NPC_Death_C'",
+                "ObjectPath": "/Game/Gameplay/NPCs/Fellhollow_NPCs/BP_NPC_Death"
+              }
+            ],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Vendor_Fellhollow_Cape_Adventurers_Blue'",
+            "ObjectPath": "/Game/Gameplay/Items/Vendors/Fellhollow/Recipes/RECIPE_Vendor_Fellhollow_Cape_Adventurers_Blue"
+          },
+          {
+            "ObjectName": "RecipeData'RECIPE_Vendor_Fellhollow_Cape_Adventurers_Red'",
+            "ObjectPath": "/Game/Gameplay/Items/Vendors/Fellhollow/Recipes/RECIPE_Vendor_Fellhollow_Cape_Adventurers_Red"
+          },
+          {
+            "ObjectName": "RecipeData'RECIPE_Vendor_Fellhollow_Cape_Adventurers_Yellow'",
+            "ObjectPath": "/Game/Gameplay/Items/Vendors/Fellhollow/Recipes/RECIPE_Vendor_Fellhollow_Cape_Adventurers_Yellow"
+          },
+          {
+            "ObjectName": "RecipeData'RECIPE_Vendor_Fellhollow_Cape_Adventurers_Purple'",
+            "ObjectPath": "/Game/Gameplay/Items/Vendors/Fellhollow/Recipes/RECIPE_Vendor_Fellhollow_Cape_Adventurers_Purple"
+          },
+          {
+            "ObjectName": "RecipeData'RECIPE_Vendor_Fellhollow_Cape_Adventurers_Green'",
+            "ObjectPath": "/Game/Gameplay/Items/Vendors/Fellhollow/Recipes/RECIPE_Vendor_Fellhollow_Cape_Adventurers_Green"
+          },
+          {
+            "ObjectName": "RecipeData'RECIPE_Vendor_Fellhollow_Cape_Adventurers_Black'",
+            "ObjectPath": "/Game/Gameplay/Items/Vendors/Fellhollow/Recipes/RECIPE_Vendor_Fellhollow_Cape_Adventurers_Black"
+          },
+          {
+            "ObjectName": "RecipeData'RECIPE_Vendor_Fellhollow_Cape_Adventurers_Orange'",
+            "ObjectPath": "/Game/Gameplay/Items/Vendors/Fellhollow/Recipes/RECIPE_Vendor_Fellhollow_Cape_Adventurers_Orange"
+          },
+          {
+            "ObjectName": "RecipeData'RECIPE_Vendor_Fellhollow_Cape_Adventurers_Pink'",
+            "ObjectPath": "/Game/Gameplay/Items/Vendors/Fellhollow/Recipes/RECIPE_Vendor_Fellhollow_Cape_Adventurers_Pink"
+          },
+          {
+            "ObjectName": "RecipeData'RECIPE_Vendor_Fellhollow_Armour_Head_White'",
+            "ObjectPath": "/Game/Gameplay/Items/Vendors/Fellhollow/Recipes/RECIPE_Vendor_Fellhollow_Armour_Head_White"
+          },
+          {
+            "ObjectName": "RecipeData'RECIPE_Vendor_Fellhollow_Armour_Body_White'",
+            "ObjectPath": "/Game/Gameplay/Items/Vendors/Fellhollow/Recipes/RECIPE_Vendor_Fellhollow_Armour_Body_White"
+          },
+          {
+            "ObjectName": "RecipeData'RECIPE_Vendor_Fellhollow_Armour_Legs_White'",
+            "ObjectPath": "/Game/Gameplay/Items/Vendors/Fellhollow/Recipes/RECIPE_Vendor_Fellhollow_Armour_Legs_White"
+          },
+          {
+            "ObjectName": "RecipeData'RECIPE_Vendor_Fellhollow_Armour_Head_Ranger'",
+            "ObjectPath": "/Game/Gameplay/Items/Vendors/Fellhollow/Recipes/RECIPE_Vendor_Fellhollow_Armour_Head_Ranger"
+          },
+          {
+            "ObjectName": "RecipeData'RECIPE_Vendor_Fellhollow_Armour_Body_Ranger'",
+            "ObjectPath": "/Game/Gameplay/Items/Vendors/Fellhollow/Recipes/RECIPE_Vendor_Fellhollow_Armour_Body_Ranger"
+          },
+          {
+            "ObjectName": "RecipeData'RECIPE_Vendor_Fellhollow_Armour_Legs_Ranger'",
+            "ObjectPath": "/Game/Gameplay/Items/Vendors/Fellhollow/Recipes/RECIPE_Vendor_Fellhollow_Armour_Legs_Ranger"
+          },
+          {
+            "ObjectName": "RecipeData'RECIPE_Vendor_Fellhollow_Armour_Head_Necromancer'",
+            "ObjectPath": "/Game/Gameplay/Items/Vendors/Fellhollow/Recipes/RECIPE_Vendor_Fellhollow_Armour_Head_Necromancer"
+          },
+          {
+            "ObjectName": "RecipeData'RECIPE_Vendor_Fellhollow_Armour_Body_Necromancer'",
+            "ObjectPath": "/Game/Gameplay/Items/Vendors/Fellhollow/Recipes/RECIPE_Vendor_Fellhollow_Armour_Body_Necromancer"
+          },
+          {
+            "ObjectName": "RecipeData'RECIPE_Vendor_Fellhollow_Armour_Legs_Necromancer'",
+            "ObjectPath": "/Game/Gameplay/Items/Vendors/Fellhollow/Recipes/RECIPE_Vendor_Fellhollow_Armour_Legs_Necromancer"
+          },
+          {
+            "ObjectName": "RecipeData'RECIPE_Vendor_Fellhollow_Trinket_Ring_of_Life'",
+            "ObjectPath": "/Game/Gameplay/Items/Vendors/Fellhollow/Recipes/RECIPE_Vendor_Fellhollow_Trinket_Ring_of_Life"
+          },
+          {
+            "ObjectName": "RecipeData'RECIPE_Vendor_Fellhollow_Trinket_Amulet_of_Strength'",
+            "ObjectPath": "/Game/Gameplay/Items/Vendors/Fellhollow/Recipes/RECIPE_Vendor_Fellhollow_Trinket_Amulet_of_Strength"
+          },
+          {
+            "ObjectName": "RecipeData'RECIPE_Vendor_Fellhollow_Trinket_Amulet_of_Defence'",
+            "ObjectPath": "/Game/Gameplay/Items/Vendors/Fellhollow/Recipes/RECIPE_Vendor_Fellhollow_Trinket_Amulet_of_Defence"
+          },
+          {
+            "ObjectName": "RecipeData'RECIPE_Vendor_Fellhollow_Trinket_Amulet_of_Accuracy'",
+            "ObjectPath": "/Game/Gameplay/Items/Vendors/Fellhollow/Recipes/RECIPE_Vendor_Fellhollow_Trinket_Amulet_of_Accuracy"
+          },
+          {
+            "ObjectName": "RecipeData'RECIPE_Vendor_Fellhollow_Trinket_Amulet_of_Magic'",
+            "ObjectPath": "/Game/Gameplay/Items/Vendors/Fellhollow/Recipes/RECIPE_Vendor_Fellhollow_Trinket_Amulet_of_Magic"
+          },
+          {
+            "ObjectName": "RecipeData'RECIPE_Vendor_Fellhollow_Cape_Adventurers_White'",
+            "ObjectPath": "/Game/Gameplay/Items/Vendors/Fellhollow/Recipes/RECIPE_Vendor_Fellhollow_Cape_Adventurers_White"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_FH_Mount_Terrorbird_01_01'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_FH_Mount_Terrorbird_01_01"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_FH_Mount_Terrorbird_01_05'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_FH_Mount_Terrorbird_01_05"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Vendor_Fellhollow_SalveCrystal": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ANY ITEMS[ <MISSING STRING TABLE ENTRY>, Salve Amulet ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AnyMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Salve_Crystal'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Key/ITEM_Resources_Salve_Crystal"
+              },
+              {
+                "ObjectName": "TrinketItemData'ITEM_Trinket_Quest_Salve_Amulet'",
+                "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Jewellery/ITEM_Trinket_Quest_Salve_Amulet"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Vendor_Fellhollow_Salve_Crystal'",
+            "ObjectPath": "/Game/Gameplay/Items/Vendors/Fellhollow/Recipes/RECIPE_Vendor_Fellhollow_Salve_Crystal"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Vendor_DowdunReach": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ANY ITEMS[ Infernal Fragment ]    OR    ALL ACTORS[ BP_NPC_PostiePete_Dowdun_C ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AnyMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Currency_DreamShard'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/ITEM_Resources_Currency_DreamShard"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": true,
+          "Operator": "EUnlockMatchOperator::OR",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ActorsInteractedWith",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'BP_NPC_PostiePete_Dowdun_C'",
+                "ObjectPath": "/DowdunReach/Gameplay/NPCS/BP_NPC_PostiePete_Dowdun"
+              }
+            ],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Vendor_DowdunReach_Armour_Body_Black'",
+            "ObjectPath": "/Game/Gameplay/Items/Vendors/DowdunReach/Recipes/RECIPE_Vendor_DowdunReach_Armour_Body_Black"
+          },
+          {
+            "ObjectName": "RecipeData'RECIPE_Vendor_DowdunReach_Armour_Body_BlackRanger'",
+            "ObjectPath": "/Game/Gameplay/Items/Vendors/DowdunReach/Recipes/RECIPE_Vendor_DowdunReach_Armour_Body_BlackRanger"
+          },
+          {
+            "ObjectName": "RecipeData'RECIPE_Vendor_DowdunReach_Armour_Body_Zamorak'",
+            "ObjectPath": "/Game/Gameplay/Items/Vendors/DowdunReach/Recipes/RECIPE_Vendor_DowdunReach_Armour_Body_Zamorak"
+          },
+          {
+            "ObjectName": "RecipeData'RECIPE_Vendor_DowdunReach_Armour_Head_Black'",
+            "ObjectPath": "/Game/Gameplay/Items/Vendors/DowdunReach/Recipes/RECIPE_Vendor_DowdunReach_Armour_Head_Black"
+          },
+          {
+            "ObjectName": "RecipeData'RECIPE_Vendor_DowdunReach_Armour_Head_BlackRanger'",
+            "ObjectPath": "/Game/Gameplay/Items/Vendors/DowdunReach/Recipes/RECIPE_Vendor_DowdunReach_Armour_Head_BlackRanger"
+          },
+          {
+            "ObjectName": "RecipeData'RECIPE_Vendor_DowdunReach_Armour_Head_Zamorak'",
+            "ObjectPath": "/Game/Gameplay/Items/Vendors/DowdunReach/Recipes/RECIPE_Vendor_DowdunReach_Armour_Head_Zamorak"
+          },
+          {
+            "ObjectName": "RecipeData'RECIPE_Vendor_DowdunReach_Armour_Legs_Black'",
+            "ObjectPath": "/Game/Gameplay/Items/Vendors/DowdunReach/Recipes/RECIPE_Vendor_DowdunReach_Armour_Legs_Black"
+          },
+          {
+            "ObjectName": "RecipeData'RECIPE_Vendor_DowdunReach_Armour_Legs_BlackRanger'",
+            "ObjectPath": "/Game/Gameplay/Items/Vendors/DowdunReach/Recipes/RECIPE_Vendor_DowdunReach_Armour_Legs_BlackRanger"
+          },
+          {
+            "ObjectName": "RecipeData'RECIPE_Vendor_DowdunReach_Armour_Legs_Zamorak'",
+            "ObjectPath": "/Game/Gameplay/Items/Vendors/DowdunReach/Recipes/RECIPE_Vendor_DowdunReach_Armour_Legs_Zamorak"
+          },
+          {
+            "ObjectName": "RecipeData'RECIPE_Vendor_DowdunReach_Trinket_Symbol_Unholy'",
+            "ObjectPath": "/Game/Gameplay/Items/Vendors/DowdunReach/Recipes/RECIPE_Vendor_DowdunReach_Trinket_Symbol_Unholy"
+          },
+          {
+            "ObjectName": "RecipeData'RECIPE_Vendor_DowdunReach_Weapon_Crossbow_Black'",
+            "ObjectPath": "/Game/Gameplay/Items/Vendors/DowdunReach/Recipes/RECIPE_Vendor_DowdunReach_Weapon_Crossbow_Black"
+          },
+          {
+            "ObjectName": "RecipeData'RECIPE_Vendor_DowdunReach_Weapon_Greataxe_Black'",
+            "ObjectPath": "/Game/Gameplay/Items/Vendors/DowdunReach/Recipes/RECIPE_Vendor_DowdunReach_Weapon_Greataxe_Black"
+          },
+          {
+            "ObjectName": "RecipeData'RECIPE_Vendor_DowdunReach_Weapon_Shield_Black'",
+            "ObjectPath": "/Game/Gameplay/Items/Vendors/DowdunReach/Recipes/RECIPE_Vendor_DowdunReach_Weapon_Shield_Black"
+          },
+          {
+            "ObjectName": "RecipeData'RECIPE_Vendor_DowdunReach_Weapon_Staff_Subjugation'",
+            "ObjectPath": "/Game/Gameplay/Items/Vendors/DowdunReach/Recipes/RECIPE_Vendor_DowdunReach_Weapon_Staff_Subjugation"
+          },
+          {
+            "ObjectName": "RecipeData'RECIPE_Vendor_DowdunReach_Weapon_Sword_Black'",
+            "ObjectPath": "/Game/Gameplay/Items/Vendors/DowdunReach/Recipes/RECIPE_Vendor_DowdunReach_Weapon_Sword_Black"
+          },
+          {
+            "ObjectName": "RecipeData'RECIPE_Vendor_DowdunReach_Cape_PinkDyad'",
+            "ObjectPath": "/Game/Gameplay/Items/Vendors/DowdunReach/Recipes/RECIPE_Vendor_DowdunReach_Cape_PinkDyad"
+          },
+          {
+            "ObjectName": "RecipeData'RECIPE_Vendor_DowdunReach_Cape_YellowDyad'",
+            "ObjectPath": "/Game/Gameplay/Items/Vendors/DowdunReach/Recipes/RECIPE_Vendor_DowdunReach_Cape_YellowDyad"
+          },
+          {
+            "ObjectName": "RecipeData'RECIPE_Vendor_DowdunReach_Cape_BlueDyad'",
+            "ObjectPath": "/Game/Gameplay/Items/Vendors/DowdunReach/Recipes/RECIPE_Vendor_DowdunReach_Cape_BlueDyad"
+          },
+          {
+            "ObjectName": "RecipeData'RECIPE_Vendor_DowdunReach_Cape_GreenDyad'",
+            "ObjectPath": "/Game/Gameplay/Items/Vendors/DowdunReach/Recipes/RECIPE_Vendor_DowdunReach_Cape_GreenDyad"
+          },
+          {
+            "ObjectName": "RecipeData'RECIPE_Vendor_DowdunReach_Cape_RedDyad'",
+            "ObjectPath": "/Game/Gameplay/Items/Vendors/DowdunReach/Recipes/RECIPE_Vendor_DowdunReach_Cape_RedDyad"
+          },
+          {
+            "ObjectName": "RecipeData'RECIPE_Vendor_DowdunReach_Cape_PinkHex'",
+            "ObjectPath": "/Game/Gameplay/Items/Vendors/DowdunReach/Recipes/RECIPE_Vendor_DowdunReach_Cape_PinkHex"
+          },
+          {
+            "ObjectName": "RecipeData'RECIPE_Vendor_DowdunReach_Cape_YellowHex'",
+            "ObjectPath": "/Game/Gameplay/Items/Vendors/DowdunReach/Recipes/RECIPE_Vendor_DowdunReach_Cape_YellowHex"
+          },
+          {
+            "ObjectName": "RecipeData'RECIPE_Vendor_DowdunReach_Cape_BlueHex'",
+            "ObjectPath": "/Game/Gameplay/Items/Vendors/DowdunReach/Recipes/RECIPE_Vendor_DowdunReach_Cape_BlueHex"
+          },
+          {
+            "ObjectName": "RecipeData'RECIPE_Vendor_DowdunReach_Cape_GreenHex'",
+            "ObjectPath": "/Game/Gameplay/Items/Vendors/DowdunReach/Recipes/RECIPE_Vendor_DowdunReach_Cape_GreenHex"
+          },
+          {
+            "ObjectName": "RecipeData'RECIPE_Vendor_DowdunReach_Cape_RedHex'",
+            "ObjectPath": "/Game/Gameplay/Items/Vendors/DowdunReach/Recipes/RECIPE_Vendor_DowdunReach_Cape_RedHex"
+          },
+          {
+            "ObjectName": "RecipeData'RECIPE_Vendor_DowdunReach_Pack_Decoration_Flags_Armadyl'",
+            "ObjectPath": "/Game/Gameplay/Items/Vendors/DowdunReach/Recipes/RECIPE_Vendor_DowdunReach_Pack_Decoration_Flags_Armadyl"
+          },
+          {
+            "ObjectName": "RecipeData'RECIPE_Vendor_DowdunReach_Pack_Decoration_Flags_Bandos'",
+            "ObjectPath": "/Game/Gameplay/Items/Vendors/DowdunReach/Recipes/RECIPE_Vendor_DowdunReach_Pack_Decoration_Flags_Bandos"
+          },
+          {
+            "ObjectName": "RecipeData'RECIPE_Vendor_DowdunReach_Pack_Decoration_Flags_Guthix'",
+            "ObjectPath": "/Game/Gameplay/Items/Vendors/DowdunReach/Recipes/RECIPE_Vendor_DowdunReach_Pack_Decoration_Flags_Guthix"
+          },
+          {
+            "ObjectName": "RecipeData'RECIPE_Vendor_DowdunReach_Pack_Decoration_Flags_Saradonim'",
+            "ObjectPath": "/Game/Gameplay/Items/Vendors/DowdunReach/Recipes/RECIPE_Vendor_DowdunReach_Pack_Decoration_Flags_Saradonim"
+          },
+          {
+            "ObjectName": "RecipeData'RECIPE_Vendor_DowdunReach_Pack_Decoration_Flags_Zamorak'",
+            "ObjectPath": "/Game/Gameplay/Items/Vendors/DowdunReach/Recipes/RECIPE_Vendor_DowdunReach_Pack_Decoration_Flags_Zamorak"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_DR_Mount_Terrorbird_02_01'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_DR_Mount_Terrorbird_02_01"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_DR_Mount_Terrorbird_02_05'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_DR_Mount_Terrorbird_02_05"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Vendor_UmS": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Stone ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Stone'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Mineral/ITEM_Resources_Stone"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Misc_DihydrogenMonoxide'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Misc_DihydrogenMonoxide"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Cloth_Garou'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Cloth_Garou"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Mineral_Stone'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Mineral_Stone"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Mineral_Sandstone'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Mineral_Sandstone"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Mineral_Limestone'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Mineral_Limestone"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Mineral_Granite'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Mineral_Granite"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Ore_Clay'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Ore_Clay"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Ore_Coal'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Ore_Coal"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Ore_Copper'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Ore_Copper"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Ore_Gold'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Ore_Gold"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Ore_Iron'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Ore_Iron"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Ore_Mithril'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Ore_Mithril"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Ore_Silver'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Ore_Silver"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Ore_Tin'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Ore_Tin"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Wood_Ash'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Wood_Ash"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Wood_Blight'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Wood_Blight"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Wood_Maple'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Wood_Maple"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Wood_Oak'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Wood_Oak"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Wood_Willow'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Wood_Willow"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Meat_Stringy'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Meat_Stringy"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Meat_Game'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Meat_Game"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Meat_Farm'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Meat_Farm"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Meat_Egg'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Meat_Egg"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Meat_Bird'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Meat_Bird"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Meat_Bestial'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Meat_Bestial"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Hide_Fleece'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Hide_Fleece"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Hide_Draconic'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Hide_Draconic"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Hide_Animal'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Hide_Animal"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Food_Wheat'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Food_Wheat"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Food_Watermelon'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Food_Watermelon"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Food_Redberry'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Food_Redberry"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Food_Pumpkin'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Food_Pumpkin"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Food_Potato'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Food_Potato"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Food_Onion'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Food_Onion"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Food_MapleSap'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Food_MapleSap"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Food_Dwellberry'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Food_Dwellberry"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Food_Cadavaberry'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Food_Cadavaberry"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Food_Cabbage'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Food_Cabbage"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Plant_BittercapMushroom'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Plant_BittercapMushroom"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Plant_Flax'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Plant_Flax"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Plant_Harralander'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Plant_Harralander"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Plant_Irit'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Plant_Irit"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Plant_Marrentill'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Plant_Marrentill"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Plant_Plant_Bulb_Shocking'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Plant_Plant_Bulb_Shocking"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Plant_Plant_CorpseCotton'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Plant_Plant_CorpseCotton"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Plant_Plant_SwampWeed'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Plant_Plant_SwampWeed"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Plant_Snapdragon'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Plant_Snapdragon"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Plant_Toadflax'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Plant_Toadflax"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Vestige_Armour_T7_Body_KalphiteCarapace'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Vestige_Armour_T7_Body_KalphiteCarapace"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Vestige_Armour_T7_Body_LunarGarouMage'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Vestige_Armour_T7_Body_LunarGarouMage"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Vestige_Armour_T7_Body_Obsidian'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Vestige_Armour_T7_Body_Obsidian"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Vestige_Armour_T7_Head_KalphiteCarapace'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Vestige_Armour_T7_Head_KalphiteCarapace"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Vestige_Armour_T7_Head_LunarGarouMage'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Vestige_Armour_T7_Head_LunarGarouMage"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Vestige_Armour_T7_Head_Obsidian'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Vestige_Armour_T7_Head_Obsidian"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Vestige_Armour_T7_Legs_KalphiteCarapace'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Vestige_Armour_T7_Legs_KalphiteCarapace"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Vestige_Armour_T7_Legs_LunarGarouMage'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Vestige_Armour_T7_Legs_LunarGarouMage"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Vestige_Armour_T7_Legs_Obsidian'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Vestige_Armour_T7_Legs_Obsidian"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Plant_AnimaInfusedBark'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Plant_AnimaInfusedBark"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Plant_SwampTar'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Plant_SwampTar"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Plant_Tea_Leaves'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Plant_Tea_Leaves"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Vestige_Armour_T7_Body_Desert'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Vestige_Armour_T7_Body_Desert"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Vestige_Armour_T7_Head_Desert'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Vestige_Armour_T7_Head_Desert"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Buy_Vestige_Armour_T7_Legs_Desert'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Buy_Vestige_Armour_T7_Legs_Desert"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Mount_Terrorbird_03_01'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Mount_Terrorbird_03_01"
+          },
+          {
+            "ObjectName": "RecipeData'DA_Recipe_Vendor_UmS_Mount_Terrorbird_03_05'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Vendor/DA_Recipe_Vendor_UmS_Mount_Terrorbird_03_05"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      }
+    }
+  }
+]

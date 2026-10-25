@@ -1,0 +1,46 @@
+[
+  {
+    "Type": "SoundSubmix",
+    "Name": "Ambience",
+    "Class": "UScriptClass'SoundSubmix'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SubmixEffectChain": [
+        {
+          "ObjectName": "SubmixEffectDynamicsProcessorPreset'AmbienceCompressor'",
+          "ObjectPath": "/Game/Audio/Effects/AmbienceCompressor"
+        },
+        {
+          "ObjectName": "SubmixEffectDynamicsProcessorPreset'Magic_Maj_SidechainCompressor'",
+          "ObjectPath": "/Game/Audio/Effects/SidechainCompressors/Magic_Maj_SidechainCompressor"
+        },
+        {
+          "ObjectName": "SubmixEffectDynamicsProcessorPreset'Ai_MagicSidechainCompressor'",
+          "ObjectPath": "/Game/Audio/Effects/SidechainCompressors/Ai_MagicSidechainCompressor"
+        },
+        {
+          "ObjectName": "SubmixEffectDynamicsProcessorPreset'Magic_Maj_Rem_SidechainCompressor'",
+          "ObjectPath": "/Game/Audio/Effects/SidechainCompressors/Magic_Maj_Rem_SidechainCompressor"
+        },
+        {
+          "ObjectName": "SubmixEffectDynamicsProcessorPreset'Ducker_Ambience_Light'",
+          "ObjectPath": "/Game/Audio/Effects/SidechainCompressors/Ducker_Ambience_Light"
+        },
+        {
+          "ObjectName": "SubmixEffectDynamicsProcessorPreset'UIMajSidechainCompressor'",
+          "ObjectPath": "/Game/Audio/Effects/SidechainCompressors/UIMajSidechainCompressor"
+        },
+        {
+          "ObjectName": "SubmixEffectDynamicsProcessorPreset'Boss_Megaduck_SidechainCompressor'",
+          "ObjectPath": "/Game/Audio/Effects/SidechainCompressors/Boss_Megaduck_SidechainCompressor"
+        }
+      ],
+      "ChildSubmixes": [
+        {
+          "ObjectName": "SoundSubmix'AmbientFauna'",
+          "ObjectPath": "/Game/Audio/Submixes/AmbientFauna"
+        }
+      ]
+    }
+  }
+]

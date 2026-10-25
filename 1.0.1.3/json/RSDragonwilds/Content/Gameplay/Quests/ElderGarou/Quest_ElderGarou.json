@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "QuestData",
+    "Name": "Quest_ElderGarou",
+    "Class": "UScriptClass'QuestData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "QuestName": {
+        "TableId": "/Game/Gameplay/Quests/ElderGarou/ST_ElderGarou.ST_ElderGarou",
+        "Key": "QuestName",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "CompletedQuestDescription": {
+        "TableId": "/Game/Gameplay/Quests/ST_QuestCompletionText.ST_QuestCompletionText",
+        "Key": "ARoomWithAGarou",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "QuestRegion": "EQuestRegion::Ghornfell",
+      "QuestDescription": {
+        "TableId": "/Game/Gameplay/Quests/ElderGarou/ST_ElderGarou.ST_ElderGarou",
+        "Key": "QuestDesc",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Objectives": [
+        {
+          "Key": "None",
+          "Value": {
+            "Description": {
+              "TableId": "/Game/Gameplay/Quests/ElderGarou/ST_ElderGarou.ST_ElderGarou",
+              "Key": "QuestObjective.1",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "SubobjectiveDescription": {
+              "CultureInvariantString": null
+            },
+            "Hint": {
+              "CultureInvariantString": null
+            },
+            "bOverrideQuestDescription": false,
+            "QuestDescriptionOverride": {
+              "CultureInvariantString": null
+            }
+          }
+        }
+      ],
+      "PersistenceID": "4G_ph0XQeA1Nc72_CVO6HQ",
+      "InternalName": "ElderGarou"
+    }
+  }
+]

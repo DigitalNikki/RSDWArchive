@@ -1,0 +1,2799 @@
+[
+  {
+    "Type": "ConversationChoiceNode",
+    "Name": "ConversationChoiceNode_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Class": "UScriptClass'ConversationChoiceNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultChoiceDisplayText": {
+        "TableId": "/Game/Gameplay/Quests/FTUEQuests/ST_FTUE.ST_FTUE",
+        "Key": "Player_Choice_FS_AcceptTutorial",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "ConversationChoiceNode",
+    "Name": "ConversationChoiceNode_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Class": "UScriptClass'ConversationChoiceNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultChoiceDisplayText": {
+        "TableId": "/Game/Gameplay/Quests/FTUEQuests/ST_FTUE.ST_FTUE",
+        "Key": "Player_Choice_FS_SkipTutorial",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "ConversationChoiceNode",
+    "Name": "ConversationChoiceNode_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Class": "UScriptClass'ConversationChoiceNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultChoiceDisplayText": {
+        "TableId": "/Game/Gameplay/Quests/FTUEQuests/ST_FTUE.ST_FTUE",
+        "Key": "Playerchoice_WhoAreYou",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "ConversationChoiceNode",
+    "Name": "ConversationChoiceNode_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Class": "UScriptClass'ConversationChoiceNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultChoiceDisplayText": {
+        "TableId": "/Game/Gameplay/Quests/FTUEQuests/ST_FTUE.ST_FTUE",
+        "Key": "Playerchoice_TellMeAboutAshenfall",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "ConversationDatabase",
+    "Name": "QF_FTUE_RtftJ",
+    "Class": "UScriptClass'ConversationDatabase'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CompilerVersion": 2,
+      "ReachableNodeMap": [
+        {
+          "Key": "94D3FCA0-47C4C1F5-C7C309BD-870AB6C4",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_FTUE_RtftJ:ConversationEntryPointNode_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.6"
+          }
+        },
+        {
+          "Key": "39835F02-44215B04-436C7F9C-E9AE009B",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RtftJ:QFT_Blank_C_11'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.49"
+          }
+        },
+        {
+          "Key": "97A67BB2-4DA6BB70-627BE4A2-71CCAC5B",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RtftJ:QFT_Blank_C_5'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.70"
+          }
+        },
+        {
+          "Key": "C5933090-4F21055C-6A0902B0-2A50D082",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_FTUE_RtftJ:QFT_SetQuestBool_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.139"
+          }
+        },
+        {
+          "Key": "8745B2C8-4E2B188C-71677E98-C4ECD991",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RtftJ:QFT_Blank_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.69"
+          }
+        },
+        {
+          "Key": "A413C641-44BB17EE-BF5DAB8A-4F35313B",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_FTUE_RtftJ:QFT_SetQuestBool_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.138"
+          }
+        },
+        {
+          "Key": "28BCCF5C-4695BD0D-4964B78B-0AF75C57",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_FTUE_RtftJ:QFT_UpdateQuestLocation_C_8'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.172"
+          }
+        },
+        {
+          "Key": "70DF444A-4416A6A4-328F7697-47D504B2",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_FTUE_RtftJ:QFT_UpdateQuestLocation_C_11'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.152"
+          }
+        },
+        {
+          "Key": "51275BDE-415A50C7-6D65CE9D-B56D69F0",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_FTUE_RtftJ:QFT_SetQuestObjective_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.146"
+          }
+        },
+        {
+          "Key": "25EC42A6-4FCD775C-5A2159B0-39E328A8",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RtftJ:QFT_Blank_C_12'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.50"
+          }
+        },
+        {
+          "Key": "57B74C11-4A3D8FFE-9C2EE6AA-DBDD2366",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_FTUE_RtftJ:ConversationEntryPointNode_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.5"
+          }
+        },
+        {
+          "Key": "24B4363F-4D48369B-932132A8-5B2E23D4",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RtftJ:QFT_Blank_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.47"
+          }
+        },
+        {
+          "Key": "8476A45E-44784D46-25D0C1BB-B8433682",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RtftJ:QFT_PromptMessage_C_60'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.123"
+          }
+        },
+        {
+          "Key": "82F6F2EB-4F693FED-45C35FB2-C277B1B0",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RtftJ:QFT_PromptMessage_C_24'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.101"
+          }
+        },
+        {
+          "Key": "8D0CD72C-46897625-45400695-9D640686",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RtftJ:QFT_PromptMessage_C_25'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.102"
+          }
+        },
+        {
+          "Key": "9ABDDC82-4DDA1A7D-0DAD2F87-1C64D7C4",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RtftJ:QFT_PromptMessage_C_16'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.92"
+          }
+        },
+        {
+          "Key": "369BE052-4E3A876B-1EEDF38B-F872DCB8",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RtftJ:QFT_PromptMessage_C_21'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.98"
+          }
+        },
+        {
+          "Key": "9A3C9B83-41461EDD-F50E0FB6-A14C2598",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RtftJ:QFT_PromptMessage_C_23'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.100"
+          }
+        },
+        {
+          "Key": "0A7A576E-480BF635-A65789A9-E75798B1",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RtftJ:QFT_Blank_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.46"
+          }
+        },
+        {
+          "Key": "7F22131B-40BFD43F-210EEDBF-9088935C",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RtftJ:QFT_Blank_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.68"
+          }
+        },
+        {
+          "Key": "9AA20528-4D34C3F8-40F9AEAA-B8825B09",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RtftJ:QFT_PromptMessage_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.85"
+          }
+        },
+        {
+          "Key": "A154A8C9-483E1870-469D9FB8-809226E8",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RtftJ:QFT_Blank_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.58"
+          }
+        },
+        {
+          "Key": "76805C44-4D2526C0-01F025B3-647BA0AB",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RtftJ:QFT_PromptMessage_C_59'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.121"
+          }
+        },
+        {
+          "Key": "075A9EBC-419E146B-47D5848E-9C0D139B",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RtftJ:QFT_Blank_C_7'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.72"
+          }
+        },
+        {
+          "Key": "5469DDBC-46E5EAFC-F2A49997-BB53BB5D",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RtftJ:QFT_Blank_C_22'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.61"
+          }
+        },
+        {
+          "Key": "D128517B-4E86F07E-42B69CA3-759E1E37",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RtftJ:QFT_Blank_C_10'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.48"
+          }
+        },
+        {
+          "Key": "240288B7-41FDE8C1-61970182-FDEAD575",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RtftJ:QFT_PromptMessage_C_6'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.122"
+          }
+        },
+        {
+          "Key": "B23B04E1-4748694C-00E1BC89-B892C88A",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RtftJ:QFT_PromptMessage_C_8'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.125"
+          }
+        },
+        {
+          "Key": "4AEAEDDD-4A72C21F-EC777FA4-36627517",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RtftJ:QFT_PromptMessage_C_50'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.120"
+          }
+        },
+        {
+          "Key": "6F6B4E7D-43F6D67D-F60086A2-A101ED1A",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RtftJ:QFT_PromptMessage_C_49'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.118"
+          }
+        },
+        {
+          "Key": "DA1CF8E8-48C755F3-83729881-2602E02B",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RtftJ:QFT_PromptMessage_C_11'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.87"
+          }
+        },
+        {
+          "Key": "EFA58BC9-4AD10CE2-AA13F1A8-7EF72516",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RtftJ:QFT_PromptMessage_C_5'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.119"
+          }
+        },
+        {
+          "Key": "A255F389-4281B1C2-40399CA5-CB3D3BD8",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RtftJ:QFT_Blank_C_9'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.74"
+          }
+        },
+        {
+          "Key": "B66BAE29-4B002E46-EBA279A6-2E58BD1E",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RtftJ:QFT_PromptMessage_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.96"
+          }
+        },
+        {
+          "Key": "CC7B6CFB-493AA44B-A451A7B2-1CF3958B",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RtftJ:QFT_Blank_C_8'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.73"
+          }
+        },
+        {
+          "Key": "3553DD94-4D7184B0-A4A62DB9-C382FCDC",
+          "Value": {
+            "ObjectName": "QFT_CompleteQuest_C'QF_FTUE_RtftJ:QFT_CompleteQuest_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.75"
+          }
+        },
+        {
+          "Key": "8D87EB59-4D1DE377-11692390-C82015AF",
+          "Value": {
+            "ObjectName": "QFT_GiveItemToPlayer_C'QF_FTUE_RtftJ:QFT_GiveItemToPlayer_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.79"
+          }
+        },
+        {
+          "Key": "7580B870-43924C75-7784889F-3CC8CF1B",
+          "Value": {
+            "ObjectName": "QFT_GiveQuest_C'QF_FTUE_RtftJ:QFT_GiveQuest_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.80"
+          }
+        },
+        {
+          "Key": "1DA6BFBC-45ABF35C-0C47A1B7-6CF56B1D",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_FTUE_RtftJ:QFT_SetQuestObjective_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.142"
+          }
+        },
+        {
+          "Key": "37BDCF3A-4B3A29A5-E1476D9B-DFF6B863",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_FTUE_RtftJ:QFT_UpdateQuestLocation_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.151"
+          }
+        },
+        {
+          "Key": "0E287401-4BF006C3-E0964B9C-E14C3B1E",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RtftJ:QFT_PromptMessage_C_7'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.124"
+          }
+        },
+        {
+          "Key": "9A955C76-4EB1D0EA-6EB8058E-86467D6F",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RtftJ:QFT_Blank_C_21'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.60"
+          }
+        },
+        {
+          "Key": "14D6ECD4-486DE588-EB5E8B91-93D3C2EF",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RtftJ:QFT_Blank_C_24'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.63"
+          }
+        },
+        {
+          "Key": "047A1BA6-4F5ABC88-0A61B1B5-534DB877",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RtftJ:QFT_Blank_C_27'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.66"
+          }
+        },
+        {
+          "Key": "4448FC63-4D8C5BE8-89D2C98C-DF48A364",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RtftJ:QFT_PromptMessage_C_26'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.103"
+          }
+        },
+        {
+          "Key": "D5788D28-4724A33E-FF181789-271D1D45",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RtftJ:QFT_PromptMessage_C_15'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.91"
+          }
+        },
+        {
+          "Key": "0B2D504E-4C438B05-68C78B9E-6E0B61A5",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RtftJ:QFT_PromptMessage_C_30'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.105"
+          }
+        },
+        {
+          "Key": "EA59C6E3-45E76480-738473BA-8D7979C2",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RtftJ:QFT_PromptMessage_C_31'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.106"
+          }
+        },
+        {
+          "Key": "2F64B51B-4DEEF2E1-9D1E6CB1-F8CEF20C",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RtftJ:QFT_PromptMessage_C_34'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.109"
+          }
+        },
+        {
+          "Key": "CF265FB6-4705A0DE-33E99A9E-5F93E0C3",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RtftJ:QFT_PromptMessage_C_36'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.111"
+          }
+        },
+        {
+          "Key": "8E4A315F-44973D95-7B81BD8A-EB862ACC",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_FTUE_RtftJ:QFT_UpdateQuestLocation_C_32'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.169"
+          }
+        },
+        {
+          "Key": "3CA9057F-4B093D1E-6D902B9E-90228291",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_FTUE_RtftJ:QFT_SetQuestBool_C_16'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.132"
+          }
+        },
+        {
+          "Key": "1AA9D236-42FA145F-DC0B6598-3C513732",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_FTUE_RtftJ:QFT_UpdateQuestLocation_C_27'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.165"
+          }
+        },
+        {
+          "Key": "BB281E05-4220CE3D-FF6C1AB2-8173B9A0",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_FTUE_RtftJ:QFT_UpdateQuestLocation_C_28'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.166"
+          }
+        },
+        {
+          "Key": "3F2F1BCD-4C657866-6DDF9482-37CD9798",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_FTUE_RtftJ:QFT_UpdateQuestLocation_C_30'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.168"
+          }
+        },
+        {
+          "Key": "26823AE2-44B8E30A-A037FA82-26484BF8",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_FTUE_RtftJ:QFT_SetQuestObjective_C_11'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.145"
+          }
+        },
+        {
+          "Key": "0787CD7F-46C406EE-C4A11D98-506FC976",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_FTUE_RtftJ:QFT_SetQuestBool_C_18'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.134"
+          }
+        },
+        {
+          "Key": "3E2978B7-4C5D2B55-D07E2592-5EF8C8E2",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_FTUE_RtftJ:QFT_SetQuestBool_C_19'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.135"
+          }
+        },
+        {
+          "Key": "2602662F-4AEB11B2-81DB0199-C1E6278A",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_FTUE_RtftJ:QFT_SetQuestObjective_C_10'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.144"
+          }
+        },
+        {
+          "Key": "1A36EDBD-4718554F-21D54E80-8B495D57",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_FTUE_RtftJ:QFT_SetQuestBool_C_17'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.133"
+          }
+        },
+        {
+          "Key": "3FC5C4AE-436D3567-12C3749F-E51953BF",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_FTUE_RtftJ:QFT_UpdateQuestLocation_C_29'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.167"
+          }
+        },
+        {
+          "Key": "C1E49AFF-40FD721F-DEE2E4A5-83983C54",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_FTUE_RtftJ:QFT_UpdateQuestLocation_C_26'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.164"
+          }
+        },
+        {
+          "Key": "B8576770-4EBA60A7-3DB73481-8310627E",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_FTUE_RtftJ:QFT_SetQuestBool_C_20'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.137"
+          }
+        },
+        {
+          "Key": "5A8544F5-4A46D20E-224FFA8E-33D5ADEA",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RtftJ:QFT_Blank_C_28'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.67"
+          }
+        },
+        {
+          "Key": "EA1EBF22-4CE9DFF5-28C6A8A3-C8E1F1C5",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RtftJ:QFT_PromptMessage_C_22'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.99"
+          }
+        },
+        {
+          "Key": "520E8DAD-4EBD24C9-881F4898-01FC8FD4",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RtftJ:QFT_Blank_C_23'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.62"
+          }
+        },
+        {
+          "Key": "B1CBF562-488614C2-550226A4-1631A54D",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RtftJ:QFT_PromptMessage_C_38'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.113"
+          }
+        },
+        {
+          "Key": "A57CD9D9-4795DCB7-17621AA5-589FA15A",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RtftJ:QFT_Blank_C_6'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.71"
+          }
+        },
+        {
+          "Key": "B1724549-45B19512-964D9883-C237A3A6",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RtftJ:QFT_Blank_C_16'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.54"
+          }
+        },
+        {
+          "Key": "B2B0CDCD-4A96C912-088D32BA-2C2BF15E",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RtftJ:QFT_Blank_C_26'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.65"
+          }
+        },
+        {
+          "Key": "FB94F63B-4F98BCA5-AC6C8BB0-1CE1B65E",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RtftJ:QFT_PromptMessage_C_10'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.86"
+          }
+        },
+        {
+          "Key": "DDCE924A-434E7634-D15D9E8A-DB1756B2",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RtftJ:QFT_PromptMessage_C_12'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.88"
+          }
+        },
+        {
+          "Key": "9A593B37-4D701339-43500CB0-8EA0DE01",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RtftJ:QFT_PromptMessage_C_18'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.94"
+          }
+        },
+        {
+          "Key": "369970B2-42277CED-292E689E-792FF8F1",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RtftJ:QFT_PromptMessage_C_19'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.95"
+          }
+        },
+        {
+          "Key": "C498B117-4CA1CB57-996972A2-870F639F",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RtftJ:QFT_PromptMessage_C_20'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.97"
+          }
+        },
+        {
+          "Key": "182BD165-4774078B-099625B9-DD4A9ADD",
+          "Value": {
+            "ObjectName": "QFT_CompleteQuest_C'QF_FTUE_RtftJ:QFT_CompleteQuest_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.77"
+          }
+        },
+        {
+          "Key": "73894BAD-42BB4AB0-23C75A81-50C9FB57",
+          "Value": {
+            "ObjectName": "QFT_GiveQuest_C'QF_FTUE_RtftJ:QFT_GiveQuest_C_5'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.83"
+          }
+        },
+        {
+          "Key": "9C1CBEF7-43E7D3E5-E75D2883-53972DC8",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_FTUE_RtftJ:QFT_SetQuestObjective_C_9'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.150"
+          }
+        },
+        {
+          "Key": "36CEF493-478A9194-7F5FB99B-955E0FFC",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_FTUE_RtftJ:QFT_UpdateQuestLocation_C_25'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.163"
+          }
+        },
+        {
+          "Key": "5BECD254-40A57EE9-665BD5B4-489F55BC",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_FTUE_RtftJ:QFT_UpdateQuestLocation_C_23'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.161"
+          }
+        },
+        {
+          "Key": "258A7DD6-4C4506C1-0F49EE95-56A1077E",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_FTUE_RtftJ:QFT_UpdateQuestLocation_C_24'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.162"
+          }
+        },
+        {
+          "Key": "AAE6CDCC-4DE9D3DD-6B830DB7-9B2A6203",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_FTUE_RtftJ:QFT_SetQuestBool_C_11'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.129"
+          }
+        },
+        {
+          "Key": "1335DA24-4B1255C9-757BB089-E9665D19",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RtftJ:QFT_Blank_C_25'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.64"
+          }
+        },
+        {
+          "Key": "7DFAD2F1-4379AE45-F889CDAF-AA54621D",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RtftJ:QFT_PromptMessage_C_17'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.93"
+          }
+        },
+        {
+          "Key": "8844A114-49EBF0E8-B96496A2-7FF83AA2",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RtftJ:QFT_PromptMessage_C_14'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.90"
+          }
+        },
+        {
+          "Key": "8148A395-48F5C705-08CD33A7-018FC6A2",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RtftJ:QFT_PromptMessage_C_39'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.114"
+          }
+        },
+        {
+          "Key": "0E5F414E-4E4D951D-07F1288F-F31EAB49",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RtftJ:QFT_PromptMessage_C_40'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.116"
+          }
+        },
+        {
+          "Key": "E405D960-4624F843-A97175B7-52B6E7A6",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RtftJ:QFT_PromptMessage_C_41'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.117"
+          }
+        },
+        {
+          "Key": "06F31FCD-4938FC6A-14AAF1A7-7F96ECEE",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RtftJ:QFT_PromptMessage_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.115"
+          }
+        },
+        {
+          "Key": "76404DBA-4F3B69DB-F47B4E81-8870DF64",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RtftJ:QFT_Blank_C_18'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.56"
+          }
+        },
+        {
+          "Key": "48A745AA-4AF9D382-F4310BA1-B8499C70",
+          "Value": {
+            "ObjectName": "QFT_CompleteQuest_C'QF_FTUE_RtftJ:QFT_CompleteQuest_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.76"
+          }
+        },
+        {
+          "Key": "7ACF48B2-45535B73-6FDF6397-44D2458E",
+          "Value": {
+            "ObjectName": "QFT_GiveQuest_C'QF_FTUE_RtftJ:QFT_GiveQuest_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.82"
+          }
+        },
+        {
+          "Key": "EBD2B135-40BA8A9C-73DEFFA3-E3F046B7",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_FTUE_RtftJ:QFT_UpdateQuestLocation_C_21'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.159"
+          }
+        },
+        {
+          "Key": "FE306EBE-4C7B7076-9FAA05A8-18E135A2",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_FTUE_RtftJ:QFT_UpdateQuestLocation_C_20'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.158"
+          }
+        },
+        {
+          "Key": "16D3DAE5-45A301FA-520D34B9-479E8197",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_FTUE_RtftJ:QFT_UpdateQuestLocation_C_18'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.155"
+          }
+        },
+        {
+          "Key": "B26EE13B-4F28694C-F07570A0-180A7713",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_FTUE_RtftJ:QFT_SetQuestObjective_C_7'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.148"
+          }
+        },
+        {
+          "Key": "D2FE239F-4B778882-D91810A0-F53CB94A",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_FTUE_RtftJ:QFT_SetQuestBool_C_9'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.141"
+          }
+        },
+        {
+          "Key": "A3FF4186-40AF10AD-5B71E493-2CE9C25E",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_FTUE_RtftJ:QFT_SetQuestBool_C_13'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.130"
+          }
+        },
+        {
+          "Key": "6DC6829E-47446B64-81E6A692-FBD8FC9C",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_FTUE_RtftJ:QFT_SetQuestObjective_C_8'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.149"
+          }
+        },
+        {
+          "Key": "FA26BB81-4D190656-F868F8A7-7BB185C9",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_FTUE_RtftJ:QFT_SetQuestBool_C_10'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.128"
+          }
+        },
+        {
+          "Key": "67FB79B0-42E3D772-297927A2-3FDE0D1F",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_FTUE_RtftJ:QFT_UpdateQuestLocation_C_19'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.156"
+          }
+        },
+        {
+          "Key": "27752D72-40150ECD-7BCA2AAE-D26483C6",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_FTUE_RtftJ:QFT_UpdateQuestLocation_C_22'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.160"
+          }
+        },
+        {
+          "Key": "7E48AFB6-40C7ABAD-39F130B4-D648713B",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_FTUE_RtftJ:QFT_SetQuestBool_C_14'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.131"
+          }
+        },
+        {
+          "Key": "9FCDC2C7-4CD1AD34-42A1EFBE-E969737E",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RtftJ:QFT_Blank_C_17'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.55"
+          }
+        },
+        {
+          "Key": "7A111B62-46F390A4-B355439F-E2DC6AE0",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RtftJ:QFT_Blank_C_20'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.59"
+          }
+        },
+        {
+          "Key": "9D1518FF-4F982C07-0BC8139A-E351DF5D",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RtftJ:QFT_Blank_C_19'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.57"
+          }
+        },
+        {
+          "Key": "585E3722-4ECA00EF-E9A56181-23C53CDE",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RtftJ:QFT_Blank_C_15'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.53"
+          }
+        },
+        {
+          "Key": "C631A0BA-4783EEFF-55381493-47C49020",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_FTUE_RtftJ:ConversationEntryPointNode_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.7"
+          }
+        },
+        {
+          "Key": "DDF366BC-4C9A873D-C3692CB0-D0451930",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RtftJ:QFT_PromptMessage_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.84"
+          }
+        },
+        {
+          "Key": "6388732E-46C2098F-0443188E-700DF26E",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RtftJ:QFT_PromptMessage_C_37'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.112"
+          }
+        },
+        {
+          "Key": "407C00F1-41C95276-43B26FBE-4FBFE2F3",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RtftJ:QFT_PromptMessage_C_32'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.107"
+          }
+        },
+        {
+          "Key": "726F4863-47AC427C-4D114D85-725C6F9E",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RtftJ:QFT_Blank_C_14'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.52"
+          }
+        },
+        {
+          "Key": "629B800E-4659BFAE-C475F180-703A754D",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RtftJ:QFT_PromptMessage_C_9'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.126"
+          }
+        },
+        {
+          "Key": "D17D7646-4053DE1A-C8BC2AB0-A0EC057F",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RtftJ:QFT_PromptMessage_C_13'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.89"
+          }
+        },
+        {
+          "Key": "2022D6E6-4280CBBC-BF5E4E98-9C5AFBE0",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_FTUE_RtftJ:QFT_SetQuestBool_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.127"
+          }
+        },
+        {
+          "Key": "17C197DB-46E6ADEA-C972A8AF-A822A1E9",
+          "Value": {
+            "ObjectName": "QFT_CompleteQuests_C'QF_FTUE_RtftJ:QFT_CompleteQuests_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.78"
+          }
+        },
+        {
+          "Key": "E386D662-430366E9-2D531D8B-A027035A",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_FTUE_RtftJ:QFT_SetQuestBool_C_5'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.140"
+          }
+        },
+        {
+          "Key": "77FCF8DC-486674C2-43039E90-6F562B44",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_FTUE_RtftJ:QFT_UpdateQuestLocation_C_12'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.153"
+          }
+        },
+        {
+          "Key": "7A0748B4-444677EB-C92DA085-88405C1B",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_FTUE_RtftJ:QFT_UpdateQuestLocation_C_13'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.154"
+          }
+        },
+        {
+          "Key": "B983DD49-4C69597F-9C23AD99-DF6D25BB",
+          "Value": {
+            "ObjectName": "QFT_GiveQuest_C'QF_FTUE_RtftJ:QFT_GiveQuest_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.81"
+          }
+        },
+        {
+          "Key": "5A4E4667-4883AD37-B8F0DDA0-0925A65C",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_FTUE_RtftJ:QFT_UpdateQuestLocation_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.157"
+          }
+        },
+        {
+          "Key": "23B19C09-4EC0482A-00D098AE-82EFCF13",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_FTUE_RtftJ:QFT_SetQuestObjective_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.147"
+          }
+        },
+        {
+          "Key": "6B5212F8-482D7D15-C90DCFA7-718DBBB7",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RtftJ:QFT_Blank_C_13'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.51"
+          }
+        },
+        {
+          "Key": "6C44F4B0-4988DA9D-EB69A880-4B0D0054",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RtftJ:QFT_PromptMessage_C_33'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.108"
+          }
+        },
+        {
+          "Key": "0A19204B-48A93348-CC88D09D-BD13557B",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RtftJ:QFT_PromptMessage_C_35'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.110"
+          }
+        },
+        {
+          "Key": "34D644DE-41B0844D-C67DA9AC-CAE9F862",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RtftJ:QFT_PromptMessage_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.104"
+          }
+        },
+        {
+          "Key": "5A8F6084-49117349-7E40568F-D9BB1EB4",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_FTUE_RtftJ:QFT_SetQuestBool_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.136"
+          }
+        },
+        {
+          "Key": "AE9E6954-4C5466D6-2DED8185-62C7C5BC",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_FTUE_RtftJ:QFT_SetQuestObjective_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.143"
+          }
+        },
+        {
+          "Key": "C8762659-449E2539-1BAD04A1-BAA566AA",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_FTUE_RtftJ:QFT_UpdateQuestLocation_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.170"
+          }
+        },
+        {
+          "Key": "4DC4532D-4C0CDE28-BBA26E90-0B947A59",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_FTUE_RtftJ:QFT_UpdateQuestLocation_C_6'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.171"
+          }
+        }
+      ],
+      "EntryTags": [
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.FTUEQuests.FTUERtftjEntry"
+          },
+          "DestinationList": [
+            "C631A0BA-4783EEFF-55381493-47C49020"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.FTUEQuests.FTUERtftJEntryDoric"
+          },
+          "DestinationList": [
+            "57B74C11-4A3D8FFE-9C2EE6AA-DBDD2366"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.FTUEQuests.StoneMaceEntry"
+          },
+          "DestinationList": [
+            "94D3FCA0-47C4C1F5-C7C309BD-870AB6C4"
+          ],
+          "EntryIdentifier": ""
+        }
+      ],
+      "InternalNodeIds": [
+        "94D3FCA0-47C4C1F5-C7C309BD-870AB6C4",
+        "39835F02-44215B04-436C7F9C-E9AE009B",
+        "97A67BB2-4DA6BB70-627BE4A2-71CCAC5B",
+        "C5933090-4F21055C-6A0902B0-2A50D082",
+        "8745B2C8-4E2B188C-71677E98-C4ECD991",
+        "A413C641-44BB17EE-BF5DAB8A-4F35313B",
+        "28BCCF5C-4695BD0D-4964B78B-0AF75C57",
+        "70DF444A-4416A6A4-328F7697-47D504B2",
+        "51275BDE-415A50C7-6D65CE9D-B56D69F0",
+        "25EC42A6-4FCD775C-5A2159B0-39E328A8",
+        "57B74C11-4A3D8FFE-9C2EE6AA-DBDD2366",
+        "24B4363F-4D48369B-932132A8-5B2E23D4",
+        "8476A45E-44784D46-25D0C1BB-B8433682",
+        "82F6F2EB-4F693FED-45C35FB2-C277B1B0",
+        "8D0CD72C-46897625-45400695-9D640686",
+        "9ABDDC82-4DDA1A7D-0DAD2F87-1C64D7C4",
+        "369BE052-4E3A876B-1EEDF38B-F872DCB8",
+        "9A3C9B83-41461EDD-F50E0FB6-A14C2598",
+        "0A7A576E-480BF635-A65789A9-E75798B1",
+        "7F22131B-40BFD43F-210EEDBF-9088935C",
+        "9AA20528-4D34C3F8-40F9AEAA-B8825B09",
+        "A154A8C9-483E1870-469D9FB8-809226E8",
+        "76805C44-4D2526C0-01F025B3-647BA0AB",
+        "075A9EBC-419E146B-47D5848E-9C0D139B",
+        "5469DDBC-46E5EAFC-F2A49997-BB53BB5D",
+        "D128517B-4E86F07E-42B69CA3-759E1E37",
+        "240288B7-41FDE8C1-61970182-FDEAD575",
+        "B23B04E1-4748694C-00E1BC89-B892C88A",
+        "4AEAEDDD-4A72C21F-EC777FA4-36627517",
+        "6F6B4E7D-43F6D67D-F60086A2-A101ED1A",
+        "DA1CF8E8-48C755F3-83729881-2602E02B",
+        "EFA58BC9-4AD10CE2-AA13F1A8-7EF72516",
+        "A255F389-4281B1C2-40399CA5-CB3D3BD8",
+        "B66BAE29-4B002E46-EBA279A6-2E58BD1E",
+        "CC7B6CFB-493AA44B-A451A7B2-1CF3958B",
+        "3553DD94-4D7184B0-A4A62DB9-C382FCDC",
+        "8D87EB59-4D1DE377-11692390-C82015AF",
+        "7580B870-43924C75-7784889F-3CC8CF1B",
+        "1DA6BFBC-45ABF35C-0C47A1B7-6CF56B1D",
+        "37BDCF3A-4B3A29A5-E1476D9B-DFF6B863",
+        "0E287401-4BF006C3-E0964B9C-E14C3B1E",
+        "9A955C76-4EB1D0EA-6EB8058E-86467D6F",
+        "14D6ECD4-486DE588-EB5E8B91-93D3C2EF",
+        "047A1BA6-4F5ABC88-0A61B1B5-534DB877",
+        "4448FC63-4D8C5BE8-89D2C98C-DF48A364",
+        "D5788D28-4724A33E-FF181789-271D1D45",
+        "0B2D504E-4C438B05-68C78B9E-6E0B61A5",
+        "EA59C6E3-45E76480-738473BA-8D7979C2",
+        "2F64B51B-4DEEF2E1-9D1E6CB1-F8CEF20C",
+        "CF265FB6-4705A0DE-33E99A9E-5F93E0C3",
+        "8E4A315F-44973D95-7B81BD8A-EB862ACC",
+        "3CA9057F-4B093D1E-6D902B9E-90228291",
+        "1AA9D236-42FA145F-DC0B6598-3C513732",
+        "BB281E05-4220CE3D-FF6C1AB2-8173B9A0",
+        "3F2F1BCD-4C657866-6DDF9482-37CD9798",
+        "26823AE2-44B8E30A-A037FA82-26484BF8",
+        "0787CD7F-46C406EE-C4A11D98-506FC976",
+        "3E2978B7-4C5D2B55-D07E2592-5EF8C8E2",
+        "2602662F-4AEB11B2-81DB0199-C1E6278A",
+        "1A36EDBD-4718554F-21D54E80-8B495D57",
+        "3FC5C4AE-436D3567-12C3749F-E51953BF",
+        "C1E49AFF-40FD721F-DEE2E4A5-83983C54",
+        "B8576770-4EBA60A7-3DB73481-8310627E",
+        "5A8544F5-4A46D20E-224FFA8E-33D5ADEA",
+        "EA1EBF22-4CE9DFF5-28C6A8A3-C8E1F1C5",
+        "520E8DAD-4EBD24C9-881F4898-01FC8FD4",
+        "B1CBF562-488614C2-550226A4-1631A54D",
+        "A57CD9D9-4795DCB7-17621AA5-589FA15A",
+        "B1724549-45B19512-964D9883-C237A3A6",
+        "B2B0CDCD-4A96C912-088D32BA-2C2BF15E",
+        "FB94F63B-4F98BCA5-AC6C8BB0-1CE1B65E",
+        "DDCE924A-434E7634-D15D9E8A-DB1756B2",
+        "9A593B37-4D701339-43500CB0-8EA0DE01",
+        "369970B2-42277CED-292E689E-792FF8F1",
+        "C498B117-4CA1CB57-996972A2-870F639F",
+        "182BD165-4774078B-099625B9-DD4A9ADD",
+        "73894BAD-42BB4AB0-23C75A81-50C9FB57",
+        "9C1CBEF7-43E7D3E5-E75D2883-53972DC8",
+        "36CEF493-478A9194-7F5FB99B-955E0FFC",
+        "5BECD254-40A57EE9-665BD5B4-489F55BC",
+        "258A7DD6-4C4506C1-0F49EE95-56A1077E",
+        "AAE6CDCC-4DE9D3DD-6B830DB7-9B2A6203",
+        "1335DA24-4B1255C9-757BB089-E9665D19",
+        "7DFAD2F1-4379AE45-F889CDAF-AA54621D",
+        "8844A114-49EBF0E8-B96496A2-7FF83AA2",
+        "8148A395-48F5C705-08CD33A7-018FC6A2",
+        "0E5F414E-4E4D951D-07F1288F-F31EAB49",
+        "E405D960-4624F843-A97175B7-52B6E7A6",
+        "06F31FCD-4938FC6A-14AAF1A7-7F96ECEE",
+        "76404DBA-4F3B69DB-F47B4E81-8870DF64",
+        "48A745AA-4AF9D382-F4310BA1-B8499C70",
+        "7ACF48B2-45535B73-6FDF6397-44D2458E",
+        "EBD2B135-40BA8A9C-73DEFFA3-E3F046B7",
+        "FE306EBE-4C7B7076-9FAA05A8-18E135A2",
+        "16D3DAE5-45A301FA-520D34B9-479E8197",
+        "B26EE13B-4F28694C-F07570A0-180A7713",
+        "D2FE239F-4B778882-D91810A0-F53CB94A",
+        "A3FF4186-40AF10AD-5B71E493-2CE9C25E",
+        "6DC6829E-47446B64-81E6A692-FBD8FC9C",
+        "FA26BB81-4D190656-F868F8A7-7BB185C9",
+        "67FB79B0-42E3D772-297927A2-3FDE0D1F",
+        "27752D72-40150ECD-7BCA2AAE-D26483C6",
+        "7E48AFB6-40C7ABAD-39F130B4-D648713B",
+        "9FCDC2C7-4CD1AD34-42A1EFBE-E969737E",
+        "7A111B62-46F390A4-B355439F-E2DC6AE0",
+        "9D1518FF-4F982C07-0BC8139A-E351DF5D",
+        "585E3722-4ECA00EF-E9A56181-23C53CDE",
+        "C631A0BA-4783EEFF-55381493-47C49020",
+        "DDF366BC-4C9A873D-C3692CB0-D0451930",
+        "6388732E-46C2098F-0443188E-700DF26E",
+        "407C00F1-41C95276-43B26FBE-4FBFE2F3",
+        "726F4863-47AC427C-4D114D85-725C6F9E",
+        "629B800E-4659BFAE-C475F180-703A754D",
+        "D17D7646-4053DE1A-C8BC2AB0-A0EC057F",
+        "2022D6E6-4280CBBC-BF5E4E98-9C5AFBE0",
+        "17C197DB-46E6ADEA-C972A8AF-A822A1E9",
+        "E386D662-430366E9-2D531D8B-A027035A",
+        "77FCF8DC-486674C2-43039E90-6F562B44",
+        "7A0748B4-444677EB-C92DA085-88405C1B",
+        "B983DD49-4C69597F-9C23AD99-DF6D25BB",
+        "5A4E4667-4883AD37-B8F0DDA0-0925A65C",
+        "23B19C09-4EC0482A-00D098AE-82EFCF13",
+        "6B5212F8-482D7D15-C90DCFA7-718DBBB7",
+        "6C44F4B0-4988DA9D-EB69A880-4B0D0054",
+        "0A19204B-48A93348-CC88D09D-BD13557B",
+        "34D644DE-41B0844D-C67DA9AC-CAE9F862",
+        "5A8F6084-49117349-7E40568F-D9BB1EB4",
+        "AE9E6954-4C5466D6-2DED8185-62C7C5BC",
+        "C8762659-449E2539-1BAD04A1-BAA566AA",
+        "4DC4532D-4C0CDE28-BBA26E90-0B947A59"
+      ]
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.FTUEQuests.FTUERtftJEntryDoric"
+      },
+      "OutputConnections": [
+        "0A7A576E-480BF635-A65789A9-E75798B1",
+        "24B4363F-4D48369B-932132A8-5B2E23D4"
+      ],
+      "Compiled_NodeGUID": "57B74C11-4A3D8FFE-9C2EE6AA-DBDD2366"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.FTUEQuests.StoneMaceEntry"
+      },
+      "OutputConnections": [
+        "25EC42A6-4FCD775C-5A2159B0-39E328A8",
+        "39835F02-44215B04-436C7F9C-E9AE009B"
+      ],
+      "Compiled_NodeGUID": "94D3FCA0-47C4C1F5-C7C309BD-870AB6C4"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.FTUEQuests.FTUERtftjEntry"
+      },
+      "OutputConnections": [
+        "DDF366BC-4C9A873D-C3692CB0-D0451930"
+      ],
+      "Compiled_NodeGUID": "C631A0BA-4783EEFF-55381493-47C49020"
+    }
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerDoesntHaveItem_C",
+    "Name": "QFR_PlayerDoesntHaveItem_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerDoesntHaveItem_C",
+    "Name": "QFR_PlayerDoesntHaveItem_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerDoesntHaveItem_C",
+    "Name": "QFR_PlayerDoesntHaveItem_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerDoesntHaveItem_C",
+    "Name": "QFR_PlayerDoesntHaveItem_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerDoesntHaveItem_C",
+    "Name": "QFR_PlayerDoesntHaveItem_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerDoesntHaveItem_C",
+    "Name": "QFR_PlayerDoesntHaveItem_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerDoesntHaveSpaceForItems_C",
+    "Name": "QFR_PlayerDoesntHaveSpaceForItems_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasItemAmount_C",
+    "Name": "QFR_PlayerHasItemAmount_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasItemAmount_C",
+    "Name": "QFR_PlayerHasItemAmount_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasItemAmount_C",
+    "Name": "QFR_PlayerHasItemAmount_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasItemAmount_C",
+    "Name": "QFR_PlayerHasItemAmount_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasItemAmount_C",
+    "Name": "QFR_PlayerHasItemAmount_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasItemAmount_C",
+    "Name": "QFR_PlayerHasItemAmount_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasSpaceForItems_C",
+    "Name": "QFR_PlayerHasSpaceForItems_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_12",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_13",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_14",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_15",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_16",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_17",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_18",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_19",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_20",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_21",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBoolsOR_C",
+    "Name": "QFR_TestQuestBoolsOR_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_12",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_13",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_14",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_15",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_16",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_17",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_18",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_19",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_20",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_21",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_22",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_23",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_24",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_25",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_26",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_27",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_28",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_CompleteQuest_C",
+    "Name": "QFT_CompleteQuest_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_CompleteQuest_C",
+    "Name": "QFT_CompleteQuest_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_CompleteQuest_C",
+    "Name": "QFT_CompleteQuest_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_CompleteQuests_C",
+    "Name": "QFT_CompleteQuests_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveItemToPlayer_C",
+    "Name": "QFT_GiveItemToPlayer_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveQuest_C",
+    "Name": "QFT_GiveQuest_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveQuest_C",
+    "Name": "QFT_GiveQuest_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveQuest_C",
+    "Name": "QFT_GiveQuest_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveQuest_C",
+    "Name": "QFT_GiveQuest_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_12",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_13",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_14",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_15",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_16",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_17",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_18",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_19",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_20",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_21",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_22",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_23",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_24",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_25",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_26",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_30",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_31",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_32",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_33",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_34",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_35",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_36",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_37",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_38",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_39",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_40",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_41",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_49",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_50",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_59",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_60",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_13",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_14",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_16",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_17",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_18",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_19",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_20",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_12",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_13",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_18",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_19",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_20",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_21",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_22",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_23",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_24",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_25",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_26",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_27",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_28",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_29",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_30",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_32",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RtftJ'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RtftJ.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  }
+]

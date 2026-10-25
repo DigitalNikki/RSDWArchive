@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Ambience_Local_Light_Target_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'LocalLightVarsBindingComponent'",
+      "ObjectPath": "/Script/Dominion"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Ambience_Local_Light_Target_C'Default__BP_Ambience_Local_Light_Target_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/World/Ambience/Components/BP_Ambience_Local_Light_Target.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Ambience_Local_Light_Target_C",
+    "Name": "Default__BP_Ambience_Local_Light_Target_C",
+    "Class": "BlueprintGeneratedClass'1.0.1.3/RSDragonwilds/Content/Gameplay/World/Ambience/Components/BP_Ambience_Local_Light_Target.BP_Ambience_Local_Light_Target_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TimeKeyRef": {
+        "ObjectName": "CompositePairFloat'AMB_Skydome_Time_N'",
+        "ObjectPath": "/Game/Gameplay/World/Ambience/Properties/AMB_Skydome_Time_N"
+      },
+      "LinearColorCurve": {
+        "ObjectName": "CurveLinearColor'FogColor_Day'",
+        "ObjectPath": "/Game/Art/Env/Lighting/Intensity_Curves/FogColor_Day"
+      },
+      "IntensityCurveFloat": {
+        "ObjectName": "CurveFloat'Curve_LightIntensity'",
+        "ObjectPath": "/Game/Gameplay/World/Ambience/Ambiences/Curves/Curve_LightIntensity"
+      },
+      "TemperatureCurveFloat": {
+        "ObjectName": "CurveFloat'Curve_LightTemperature'",
+        "ObjectPath": "/Game/Gameplay/World/Ambience/Ambiences/Curves/Curve_LightTemperature"
+      },
+      "IntensityCurveSpotFloat": {
+        "ObjectName": "CurveFloat'Curve_LightIntensity_Spot'",
+        "ObjectPath": "/Game/Gameplay/World/Ambience/Ambiences/Curves/Curve_LightIntensity_Spot"
+      }
+    }
+  }
+]

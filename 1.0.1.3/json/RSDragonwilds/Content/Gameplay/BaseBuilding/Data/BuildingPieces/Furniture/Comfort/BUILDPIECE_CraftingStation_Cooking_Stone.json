@@ -1,0 +1,86 @@
+[
+  {
+    "Type": "BuildingPieceData",
+    "Name": "BUILDPIECE_CraftingStation_Cooking_Stone",
+    "Class": "UScriptClass'BuildingPieceData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DerivedData": {
+        "AssetPathName": "/Game/Gameplay/BaseBuilding/Data/BuildingPieces_DerivedData/Furniture/Comfort/BUILDPIECE_CraftingStation_Cooking_Stone_DerivedData.BUILDPIECE_CraftingStation_Cooking_Stone_DerivedData",
+        "SubPathString": ""
+      },
+      "DisplayName": {
+        "TableId": "/Game/UI/Crafting/ST_Crafting.ST_Crafting",
+        "Key": "CookingRange_Stone",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Description": {
+        "TableId": "/Game/UI/Crafting/ST_Crafting.ST_Crafting",
+        "Key": "CookingPot.Description",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "DisplayIcon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Stations_2024/T_Icon_Cooking_Range.T_Icon_Cooking_Range",
+        "SubPathString": ""
+      },
+      "BuildableActor": {
+        "AssetPathName": "/Game/Gameplay/World/Stations/BP_Crafting_Stone_Range.BP_Crafting_Stone_Range_C",
+        "SubPathString": ""
+      },
+      "Requirements": [
+        {
+          "Amount": 8,
+          "ItemData": {
+            "ObjectName": "FuelItemData'ITEM_Resources_Wood_Ash'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Wood/ITEM_Resources_Wood_Ash"
+          }
+        },
+        {
+          "Amount": 12,
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Stone'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Mineral/ITEM_Resources_Stone"
+          }
+        },
+        {
+          "Amount": 3,
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_AnimalBone'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_AnimalBone"
+          }
+        }
+      ],
+      "ReducedRefundedMaterials": [
+        {
+          "Amount": 1,
+          "ItemData": {
+            "ObjectName": "FuelItemData'ITEM_Resources_Wood_Ash'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Wood/ITEM_Resources_Wood_Ash"
+          }
+        }
+      ],
+      "PieceTag": {
+        "TagName": "BaseBuilding.PieceType.Prop"
+      },
+      "BuildingStabilityProfileRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'StabilityProfileDataTable'",
+          "ObjectPath": "/Game/Gameplay/BaseBuilding/StabilityProfileDataTable"
+        },
+        "RowName": "Prop"
+      },
+      "BuildXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Building'",
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Building"
+        },
+        "RowName": "Build_Processing_Station"
+      },
+      "RepresentationCategory": "EBuildingPieceRepresentationCategory::IndividuallyReplicatedAndPersistedActor",
+      "PersistenceID": "n9gFTkoOPGipQRyME6Kixw",
+      "InternalName": "buildpiece_stonerange"
+    }
+  }
+]

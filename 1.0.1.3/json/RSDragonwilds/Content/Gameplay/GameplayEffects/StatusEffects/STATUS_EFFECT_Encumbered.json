@@ -1,0 +1,52 @@
+[
+  {
+    "Type": "StatusEffectData",
+    "Name": "STATUS_EFFECT_Encumbered",
+    "Class": "UScriptClass'StatusEffectData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EffectTag": {
+        "TagName": "Player.Status.Encumbered"
+      },
+      "EffectName": {
+        "TableId": "/Game/UI/StatusEffects/ST_StatusEffects.ST_StatusEffects",
+        "Key": "StatusEffect.Tooltip.Encumbered.Title",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "EffectDescription": {
+        "TableId": "/Game/UI/StatusEffects/ST_StatusEffects.ST_StatusEffects",
+        "Key": "StatusEffect.Tooltip.Encumbered.Description",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "EffectHUDIconObject": {
+        "ObjectName": "Texture2D'T_Icon_Sml_Encumbered'",
+        "ObjectPath": "/Game/Art/UI/Icons/StatusEffects/T_Icon_Sml_Encumbered"
+      },
+      "bShowOnHUD": true,
+      "bShowProgressBar": false,
+      "DisplayThreshold": 0.0,
+      "Color1": {
+        "B": 79,
+        "G": 179,
+        "R": 205,
+        "A": 255,
+        "Hex": "CDB34F"
+      },
+      "Color2": {
+        "B": 186,
+        "G": 239,
+        "R": 250,
+        "A": 255,
+        "Hex": "FAEFBA"
+      },
+      "IdlePoseAnimSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_SE_Encumbrance'",
+        "ObjectPath": "/Game/Art/Animation/PlayerM/StatusEffects/A_PlayerM_SE_Encumbrance"
+      },
+      "PersistenceID": "Zy0WF0esWTxRUo-u-mUtuA",
+      "InternalName": "status_effect_encumbered"
+    }
+  }
+]

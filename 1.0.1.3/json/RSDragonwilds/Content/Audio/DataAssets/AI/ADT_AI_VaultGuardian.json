@@ -1,0 +1,1992 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ADT_AI_VaultGuardian",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Object'AiAnimationAudioTableRowBase'",
+        "ObjectPath": "/Script/Dominion"
+      }
+    },
+    "Rows": {
+      "Bodyfall_med": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_Cr_Zogre_ImpactLarge'",
+              "ObjectPath": "/Game/Audio/DataAssets/Foley/ADA_Cr_Zogre_ImpactLarge"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "None"
+        ]
+      },
+      "Foley_AlertIdleBreak_01": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_VaultGuardian_AlertIdleBreak_01'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/Foley/MSS_En_Fo_VaultGuardian_AlertIdleBreak_01"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "None"
+        ]
+      },
+      "Foley_AttackSlam_Impact": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_VaultGuardian_AttackSlam_Impact'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/Foley/MSS_En_Fo_VaultGuardian_AttackSlam_Impact"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "None"
+        ]
+      },
+      "Foley_AttackSlam_Movement": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_VaultGuardian_AttackSlam_Movement'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/Foley/MSS_En_Fo_VaultGuardian_AttackSlam_Movement"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "None"
+        ]
+      },
+      "Foley_AttackSlam_Windup": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_VaultGuardian_AttackSlam_Windup'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/Foley/MSS_En_Fo_VaultGuardian_AttackSlam_Windup"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "None"
+        ]
+      },
+      "Foley_AttackSmash_Impact": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_VaultGuardian_AttackSmash_Impact'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/Foley/MSS_En_Fo_VaultGuardian_AttackSmash_Impact"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "None"
+        ]
+      },
+      "Foley_AttackSmash_Windup": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_VaultGuardian_AttackSmash_Windup'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/Foley/MSS_En_Fo_VaultGuardian_AttackSmash_Windup"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "None"
+        ]
+      },
+      "Foley_AttackSpin_Movement": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_VaultGuardian_AttackSpin_Movement'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/Foley/MSS_En_Fo_VaultGuardian_AttackSpin_Movement"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Melee.Fire"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_VaultGuardianFire_AttackSpin_Movement'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/Abilities/MSS_En_Fo_VaultGuardianFire_AttackSpin_Movement"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "None"
+        ]
+      },
+      "Foley_AttackSwipe_Movement": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_VaultGuardian_AttackSwipe_Movement'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/Foley/MSS_En_Fo_VaultGuardian_AttackSwipe_Movement"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Melee.Fire"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_VaultGuardianFire_AttackSpin_Movement'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/Abilities/MSS_En_Fo_VaultGuardianFire_AttackSpin_Movement"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Ranged.Fire"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_VaultGuardianFire_AttackSpin_Movement'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/Abilities/MSS_En_Fo_VaultGuardianFire_AttackSpin_Movement"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "None"
+        ]
+      },
+      "Foley_Awaken": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_VaultGuardian_Awaken'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/Foley/MSS_En_Fo_VaultGuardian_Awaken"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "None"
+        ]
+      },
+      "Foley_CombatAlert": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_VaultGuardian_CombatAlert'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/Foley/MSS_En_Fo_VaultGuardian_CombatAlert"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "None"
+        ]
+      },
+      "Foley_Death": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_VaultGuardian_Death'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/Foley/MSS_En_Fo_VaultGuardian_Death"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "None"
+        ]
+      },
+      "Foley_Dodge_Whoosh": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_VaultGuardian_Dodge_Whoosh'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/Foley/MSS_En_Fo_VaultGuardian_Dodge_Whoosh"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "None"
+        ]
+      },
+      "Foley_HitImpact": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_VaultGuardian_HitImpact'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/Foley/MSS_En_Fo_VaultGuardian_HitImpact"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Melee.Fire"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_VaultMiniboss_HitImpact_Fire'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/Foley/MSS_En_Fo_VaultMiniboss_HitImpact_Fire"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Melee.Poison"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_VaultMiniboss_HitImpact_Poison'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/Foley/MSS_En_Fo_VaultMiniboss_HitImpact_Poison"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Ranged.Fire"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_VaultMiniboss_HitImpact_Fire'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/Foley/MSS_En_Fo_VaultMiniboss_HitImpact_Fire"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "None"
+        ]
+      },
+      "Foley_Idlebreak02_Spin": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_VaultGuardian_Idlebreak02_Spin'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/Foley/MSS_En_Fo_VaultGuardian_Idlebreak02_Spin"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "None"
+        ]
+      },
+      "Foley_Light_Movement": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_VaultGuardian_Light_Movement'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/Foley/MSS_En_Fo_VaultGuardian_Light_Movement"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "None"
+        ]
+      },
+      "Foley_Ranged_Attack_Launch": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_VaultGuardian_Ranged_Attack_Launch'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/Foley/MSS_En_Fo_VaultGuardian_Ranged_Attack_Launch"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "hand_r"
+        ]
+      },
+      "Foley_Ranged_Attack_Rise": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_VaultGuardian_Ranged_Attack_Rise'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/Foley/MSS_En_Fo_VaultGuardian_Ranged_Attack_Rise"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "None"
+        ]
+      },
+      "Foley_Ranged_BulwarkLaunch": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_VaultGuardian_Ranged_BulwarkLaunch'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/Foley/MSS_En_Fo_VaultGuardian_Ranged_BulwarkLaunch"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "ring_02_l"
+        ]
+      },
+      "Foley_Ranged_JavelinThrow": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_VaultGuardian_Ranged_JavelinThrow'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/Foley/MSS_En_Fo_VaultGuardian_Ranged_JavelinThrow"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "ring_02_r"
+        ]
+      },
+      "Foley_Ranged_JavelinThrow_Movement": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_VaultGuardian_Ranged_JavelinThrow_Movement'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/Foley/MSS_En_Fo_VaultGuardian_Ranged_JavelinThrow_Movement"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "ring_02_r"
+        ]
+      },
+      "Foley_Ranged_JavelinWindup": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_VaultGuardian_Ranged_JavelinWindup'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/Foley/MSS_En_Fo_VaultGuardian_Ranged_JavelinWindup"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "None"
+        ]
+      },
+      "Foley_StumbleDown": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_VaultGuardian_StumbleDown'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/Foley/MSS_En_Fo_VaultGuardian_StumbleDown"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "None"
+        ]
+      },
+      "Foley_StumbleSmall": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_VaultGuardian_StumbleSmall'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/Foley/MSS_En_Fo_VaultGuardian_StumbleSmall"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "None"
+        ]
+      },
+      "Foley_StumbleUp": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_VaultGuardian_StumbleUp'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/Foley/MSS_En_Fo_VaultGuardian_StumbleUp"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "None"
+        ]
+      },
+      "Vox_Awaken": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardian_Awaken'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/Vox/MSS_En_Vo_VaultGuardian_Awaken"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Ranged.Fire"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianFire_Awaken'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/FireVox/MSS_En_Vo_VaultGuardianFire_Awaken"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Ranged.Shock"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianShock_Awaken'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/ShockVox/MSS_En_Vo_VaultGuardianShock_Awaken"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Melee.Fire"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianFire_Awaken'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/FireVox/MSS_En_Vo_VaultGuardianFire_Awaken"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Melee.Poison"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianPoison_Awaken'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/PoisonVox/MSS_En_Vo_VaultGuardianPoison_Awaken"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Melee"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianColossal_Awaken'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/ColossalVox/MSS_En_Vo_VaultGuardianColossal_Awaken"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Ranged"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianColossal_Awaken'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/ColossalVox/MSS_En_Vo_VaultGuardianColossal_Awaken"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "None"
+        ]
+      },
+      "Vox_CombatAlert": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardian_CombatAlert'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/Vox/MSS_En_Vo_VaultGuardian_CombatAlert"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Melee.Fire"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianFire_CombatAlert'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/FireVox/MSS_En_Vo_VaultGuardianFire_CombatAlert"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Melee.Poison"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianPoison_CombatAlert'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/PoisonVox/MSS_En_Vo_VaultGuardianPoison_CombatAlert"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Ranged.Fire"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianFire_CombatAlert'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/FireVox/MSS_En_Vo_VaultGuardianFire_CombatAlert"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Ranged.Shock"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianShock_CombatAlert'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/ShockVox/MSS_En_Vo_VaultGuardianShock_CombatAlert"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Melee"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianColossal_CombatAlert'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/ColossalVox/MSS_En_Vo_VaultGuardianColossal_CombatAlert"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Ranged"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianColossal_CombatAlert'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/ColossalVox/MSS_En_Vo_VaultGuardianColossal_CombatAlert"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "None"
+        ]
+      },
+      "Vox_Death": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardian_Death'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/Vox/MSS_En_Vo_VaultGuardian_Death"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Melee.Fire"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianFire_Death'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/FireVox/MSS_En_Vo_VaultGuardianFire_Death"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Melee.Poison"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianPoison_Death'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/PoisonVox/MSS_En_Vo_VaultGuardianPoison_Death"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Ranged.Fire"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianFire_Death'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/FireVox/MSS_En_Vo_VaultGuardianFire_Death"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Ranged.Shock"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianShock_Death'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/ShockVox/MSS_En_Vo_VaultGuardianShock_Death"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Melee"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianColossal_Death'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/ColossalVox/MSS_En_Vo_VaultGuardianColossal_Death"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Ranged"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianColossal_Death'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/ColossalVox/MSS_En_Vo_VaultGuardianColossal_Death"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": true,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "None"
+        ]
+      },
+      "Vox_HitReact": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardian_HitReact'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/Vox/MSS_En_Vo_VaultGuardian_HitReact"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Melee.Fire"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianFire_HitReact'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/FireVox/MSS_En_Vo_VaultGuardianFire_HitReact"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Melee.Poison"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianPoison_HitReact'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/PoisonVox/MSS_En_Vo_VaultGuardianPoison_HitReact"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Ranged.Fire"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianFire_HitReact'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/FireVox/MSS_En_Vo_VaultGuardianFire_HitReact"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Ranged.Shock"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianShock_HitReact'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/ShockVox/MSS_En_Vo_VaultGuardianShock_HitReact"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Melee"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianColossal_HitReact'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/ColossalVox/MSS_En_Vo_VaultGuardianColossal_HitReact"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Ranged"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianColossal_HitReact'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/ColossalVox/MSS_En_Vo_VaultGuardianColossal_HitReact"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "None"
+        ]
+      },
+      "Vox_Idle_Alert_Break": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardian_AlertIdleBreak_01'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/Vox/MSS_En_Vo_VaultGuardian_AlertIdleBreak_01"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Melee.Fire"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianFire_AlertIdleBreak_01'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/FireVox/MSS_En_Vo_VaultGuardianFire_AlertIdleBreak_01"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Melee.Poison"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianPoison_AlertIdleBreak_01'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/PoisonVox/MSS_En_Vo_VaultGuardianPoison_AlertIdleBreak_01"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Ranged.Fire"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianFire_AlertIdleBreak_01'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/FireVox/MSS_En_Vo_VaultGuardianFire_AlertIdleBreak_01"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Ranged.Shock"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianShock_AlertIdleBreak_01'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/ShockVox/MSS_En_Vo_VaultGuardianShock_AlertIdleBreak_01"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Melee"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianColossal_AlertIdleBreak_01'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/ColossalVox/MSS_En_Vo_VaultGuardianColossal_AlertIdleBreak_01"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Ranged"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianColossal_AlertIdleBreak_01'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/ColossalVox/MSS_En_Vo_VaultGuardianColossal_AlertIdleBreak_01"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head_chunk"
+        ]
+      },
+      "Vox_Knockdown": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Melee.Fire"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianFire_Knockdown'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/FireVox/MSS_En_Vo_VaultGuardianFire_Knockdown"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Ranged.Fire"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianFire_Knockdown'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/FireVox/MSS_En_Vo_VaultGuardianFire_Knockdown"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Melee.Poison"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianPoison_Knockdown'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/PoisonVox/MSS_En_Vo_VaultGuardianPoison_Knockdown"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Ranged.Shock"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianShock_Knockdown'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/ShockVox/MSS_En_Vo_VaultGuardianShock_Knockdown"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Melee"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianColossal_Knockdown'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/ColossalVox/MSS_En_Vo_VaultGuardianColossal_Knockdown"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardian_Knockdown'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/Vox/MSS_En_Vo_VaultGuardian_Knockdown"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Ranged"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianColossal_Knockdown'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/ColossalVox/MSS_En_Vo_VaultGuardianColossal_Knockdown"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "None"
+        ]
+      },
+      "Vox_MeleeSlam": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Melee.Fire"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianFire_MeleeSlam'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/FireVox/MSS_En_Vo_VaultGuardianFire_MeleeSlam"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Ranged.Fire"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianFire_MeleeSlam'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/FireVox/MSS_En_Vo_VaultGuardianFire_MeleeSlam"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Melee.Poison"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianPoison_MeleeSlam'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/PoisonVox/MSS_En_Vo_VaultGuardianPoison_MeleeSlam"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Ranged.Shock"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianShock_MeleeSlam'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/ShockVox/MSS_En_Vo_VaultGuardianShock_MeleeSlam"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Melee"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianColossal_MeleeSlam'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/ColossalVox/MSS_En_Vo_VaultGuardianColossal_MeleeSlam"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardian_MeleeSlam'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/Vox/MSS_En_Vo_VaultGuardian_MeleeSlam"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Ranged"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianColossal_MeleeSlam'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/ColossalVox/MSS_En_Vo_VaultGuardianColossal_MeleeSlam"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "None"
+        ]
+      },
+      "Vox_MeleeSmash": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Melee.Fire"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianFire_MeleeSmash'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/FireVox/MSS_En_Vo_VaultGuardianFire_MeleeSmash"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Ranged.Fire"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianFire_MeleeSmash'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/FireVox/MSS_En_Vo_VaultGuardianFire_MeleeSmash"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Melee.Poison"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianPoison_MeleeSmash'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/PoisonVox/MSS_En_Vo_VaultGuardianPoison_MeleeSmash"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Ranged.Shock"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianShock_MeleeSmash'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/ShockVox/MSS_En_Vo_VaultGuardianShock_MeleeSmash"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianColossal_MeleeSmash'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/ColossalVox/MSS_En_Vo_VaultGuardianColossal_MeleeSmash"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardian_MeleeSmash'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/Vox/MSS_En_Vo_VaultGuardian_MeleeSmash"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "None"
+        ]
+      },
+      "Vox_MeleeSpin": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Melee.Fire"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianFire_MeleeSpin'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/FireVox/MSS_En_Vo_VaultGuardianFire_MeleeSpin"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Ranged.Fire"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianFire_MeleeSpin'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/FireVox/MSS_En_Vo_VaultGuardianFire_MeleeSpin"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Melee.Poison"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianPoison_MeleeSpin'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/PoisonVox/MSS_En_Vo_VaultGuardianPoison_MeleeSpin"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Ranged.Shock"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianShock_MeleeSpin'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/ShockVox/MSS_En_Vo_VaultGuardianShock_MeleeSpin"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianColossal_MeleeSpin'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/ColossalVox/MSS_En_Vo_VaultGuardianColossal_MeleeSpin"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardian_MeleeSpin'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/Vox/MSS_En_Vo_VaultGuardian_MeleeSpin"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "None"
+        ]
+      },
+      "Vox_MeleeSwipe": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Melee.Fire"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianFire_MeleeSwipe'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/FireVox/MSS_En_Vo_VaultGuardianFire_MeleeSwipe"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Ranged.Fire"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianFire_MeleeSwipe'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/FireVox/MSS_En_Vo_VaultGuardianFire_MeleeSwipe"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Melee.Poison"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianPoison_MeleeSwipe'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/PoisonVox/MSS_En_Vo_VaultGuardianPoison_MeleeSwipe"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Ranged.Shock"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianShock_MeleeSwipe'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/ShockVox/MSS_En_Vo_VaultGuardianShock_MeleeSwipe"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianColossal_MeleeSwipe'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/ColossalVox/MSS_En_Vo_VaultGuardianColossal_MeleeSwipe"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardian_MeleeSwipe'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/Vox/MSS_En_Vo_VaultGuardian_MeleeSwipe"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "None"
+        ]
+      },
+      "Vox_Ranged_BulwarkCharge": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Melee.Fire"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianFire_Ranged_BulwarkCharge'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/FireVox/MSS_En_Vo_VaultGuardianFire_Ranged_BulwarkCharge"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Ranged.Fire"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianFire_Ranged_BulwarkCharge'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/FireVox/MSS_En_Vo_VaultGuardianFire_Ranged_BulwarkCharge"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Melee.Poison"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianPoison_Ranged_BulwarkCharge'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/PoisonVox/MSS_En_Vo_VaultGuardianPoison_Ranged_BulwarkCharge"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Ranged.Shock"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianShock_Ranged_BulwarkCharge'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/ShockVox/MSS_En_Vo_VaultGuardianShock_Ranged_BulwarkCharge"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianColossal_Ranged_BulwarkCharge'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/ColossalVox/MSS_En_Vo_VaultGuardianColossal_Ranged_BulwarkCharge"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardian_Ranged_BulwarkCharge'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/Vox/MSS_En_Vo_VaultGuardian_Ranged_BulwarkCharge"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "ring_02_l"
+        ]
+      },
+      "Vox_Ranged_JavelinThrow": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Melee.Fire"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianFire_Ranged_JavelinThrow'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/FireVox/MSS_En_Vo_VaultGuardianFire_Ranged_JavelinThrow"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Ranged.Fire"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianFire_Ranged_JavelinThrow'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/FireVox/MSS_En_Vo_VaultGuardianFire_Ranged_JavelinThrow"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Melee.Poison"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianPoison_Ranged_JavelinThrow'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/PoisonVox/MSS_En_Vo_VaultGuardianPoison_Ranged_JavelinThrow"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Ranged.Shock"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianShock_Ranged_JavelinThrow'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/ShockVox/MSS_En_Vo_VaultGuardianShock_Ranged_JavelinThrow"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianColossal_Ranged_JavelinThrow'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/ColossalVox/MSS_En_Vo_VaultGuardianColossal_Ranged_JavelinThrow"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardian_Ranged_JavelinThrow'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/Vox/MSS_En_Vo_VaultGuardian_Ranged_JavelinThrow"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "None"
+        ]
+      },
+      "Vox_StumbleFall": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Melee.Fire"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianFire_StumbleFall'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/FireVox/MSS_En_Vo_VaultGuardianFire_StumbleFall"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Ranged.Fire"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianFire_StumbleFall'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/FireVox/MSS_En_Vo_VaultGuardianFire_StumbleFall"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Melee.Poison"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianPoison_StumbleFall'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/PoisonVox/MSS_En_Vo_VaultGuardianPoison_StumbleFall"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Ranged.Shock"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianShock_StumbleFall'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/ShockVox/MSS_En_Vo_VaultGuardianShock_StumbleFall"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianColossal_StumbleFall'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/ColossalVox/MSS_En_Vo_VaultGuardianColossal_StumbleFall"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardian_StumbleFall'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/Vox/MSS_En_Vo_VaultGuardian_StumbleFall"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "None"
+        ]
+      },
+      "Vox_StumbleGetup": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Melee.Fire"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianFire_StumbleGetup'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/FireVox/MSS_En_Vo_VaultGuardianFire_StumbleGetup"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Ranged.Fire"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianFire_StumbleGetup'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/FireVox/MSS_En_Vo_VaultGuardianFire_StumbleGetup"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Melee.Poison"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianPoison_StumbleGetup'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/PoisonVox/MSS_En_Vo_VaultGuardianPoison_StumbleGetup"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Ranged.Shock"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianShock_StumbleGetup'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/ShockVox/MSS_En_Vo_VaultGuardianShock_StumbleGetup"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianColossal_StumbleGetup'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/ColossalVox/MSS_En_Vo_VaultGuardianColossal_StumbleGetup"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardian_StumbleGetup'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/Vox/MSS_En_Vo_VaultGuardian_StumbleGetup"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "None"
+        ]
+      },
+      "Death": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Melee.Fire"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianFire_Death'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/FireVox/MSS_En_Vo_VaultGuardianFire_Death"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Ranged.Fire"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianFire_Death'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/FireVox/MSS_En_Vo_VaultGuardianFire_Death"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Melee.Poison"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianPoison_Death'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/PoisonVox/MSS_En_Vo_VaultGuardianPoison_Death"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Ranged.Shock"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianShock_Death'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/ShockVox/MSS_En_Vo_VaultGuardianShock_Death"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardianColossal_Death'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/ColossalVox/MSS_En_Vo_VaultGuardianColossal_Death"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vo_VaultGuardian_Death'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/Vox/MSS_En_Vo_VaultGuardian_Death"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": true,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "None"
+        ]
+      },
+      "Move_Slow": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_VaultGuardian_AttackSlam_Movement'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/Foley/MSS_En_Fo_VaultGuardian_AttackSlam_Movement"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "None"
+        ]
+      },
+      "Fireball_Left_Windup": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Ranged.Fire"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_VaultGuardianFire_AttackSmash_Windup'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/Abilities/MSS_En_Fo_VaultGuardianFire_AttackSmash_Windup"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "ring_02_l"
+        ]
+      },
+      "Fireball_Right_Windup": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Ranged.Fire"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_VaultGuardianFire_AttackSmash_Windup'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/Abilities/MSS_En_Fo_VaultGuardianFire_AttackSmash_Windup"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "ring_02_r"
+        ]
+      },
+      "Fireball_Left_Launch": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Ranged.Fire"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_VaultGuardianFire_Ranged_FireballLaunch'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/Abilities/MSS_En_Fo_VaultGuardianFire_Ranged_FireballLaunch"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "ring_02_l"
+        ]
+      },
+      "Fireball_Right_Launch": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Ranged.Fire"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_VaultGuardianFire_Ranged_FireballLaunch'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/Abilities/MSS_En_Fo_VaultGuardianFire_Ranged_FireballLaunch"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "ring_02_r"
+        ]
+      },
+      "Foley_AttackSwipe_Start": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_VaultGuardian_AttackSwipe'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/Foley/MSS_En_Fo_VaultGuardian_AttackSwipe"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Melee.Fire"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_VaultGuardianFire_Ranged_SwipeStart'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/Abilities/MSS_En_Fo_VaultGuardianFire_Ranged_SwipeStart"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Ranged.Fire"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_VaultGuardianFire_Ranged_SwipeStart'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/Abilities/MSS_En_Fo_VaultGuardianFire_Ranged_SwipeStart"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "None"
+        ]
+      },
+      "Foley_AttackSwipe_SwipeL": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Ranged.Fire"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_VaultGuardianFire_Ranged_Swipe'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/Abilities/MSS_En_Fo_VaultGuardianFire_Ranged_Swipe"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Melee.Fire"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_VaultGuardianFire_Ranged_Swipe'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/Abilities/MSS_En_Fo_VaultGuardianFire_Ranged_Swipe"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "ring_02_l"
+        ]
+      },
+      "Foley_AttackSwipe_SwipeR": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Melee.Fire"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_VaultGuardianFire_Ranged_Swipe'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/Abilities/MSS_En_Fo_VaultGuardianFire_Ranged_Swipe"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Ranged.Fire"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_VaultGuardianFire_Ranged_Swipe'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/Abilities/MSS_En_Fo_VaultGuardianFire_Ranged_Swipe"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "ring_02_r"
+        ]
+      },
+      "Foley_EarthShaker_Launch": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Ranged.Fire"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_VaultGuardianFire_Ranged_EarthShakerLaunch'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/Abilities/MSS_En_Fo_VaultGuardianFire_Ranged_EarthShakerLaunch"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Foley_Fire_AOE": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Melee.Fire"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_VaultGuardianFire_AOE_Fire'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/Abilities/MSS_En_Fo_VaultGuardianFire_AOE_Fire"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Foley_Fire_AttackSmash_StartL": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Melee.Fire"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_VaultGuardianFire_AttackSmash_Windup'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/Abilities/MSS_En_Fo_VaultGuardianFire_AttackSmash_Windup"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "ring_02_l"
+        ]
+      },
+      "Foley_Fire_AttackSmash_Impact": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Melee.Fire"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_VaultGuardianFire_AttackSmash_Impact'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/Abilities/MSS_En_Fo_VaultGuardianFire_AttackSmash_Impact"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "ring_02_l"
+        ]
+      },
+      "Foley_AttackSpin_Spin": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_VaultGuardian_AttackSpin_Spin'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/Foley/MSS_En_Fo_VaultGuardian_AttackSpin_Spin"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Melee.Fire"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_VaultGuardianFire_AttackSpin_Spin'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/Abilities/MSS_En_Fo_VaultGuardianFire_AttackSpin_Spin"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "None"
+        ]
+      },
+      "Foley_AttackSpin_Windup": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_VaultGuardian_AttackSpin_Windup'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/Foley/MSS_En_Fo_VaultGuardian_AttackSpin_Windup"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.VaultGuardian.Colossal.Melee.Fire"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_VaultGuardianFire_AttackSpin_Windup'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/VG_Miniboss/Abilities/MSS_En_Fo_VaultGuardianFire_AttackSpin_Windup"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "None"
+        ]
+      }
+    }
+  }
+]

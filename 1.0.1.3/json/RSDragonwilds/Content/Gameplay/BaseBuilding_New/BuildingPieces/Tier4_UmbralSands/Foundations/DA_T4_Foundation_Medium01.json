@@ -1,0 +1,84 @@
+[
+  {
+    "Type": "BuildingPieceData",
+    "Name": "DA_T4_Foundation_Medium01",
+    "Class": "UScriptClass'BuildingPieceData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DerivedData": {
+        "AssetPathName": "/Game/Gameplay/BaseBuilding_New/BuildingPieces_DerivedData/Tier4_UmbralSands/Foundations/DA_T4_Foundation_Medium01_DerivedData.DA_T4_Foundation_Medium01_DerivedData",
+        "SubPathString": ""
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/BaseBuilding_New/BuildingPieces/ST_BuildingPieces.ST_BuildingPieces",
+        "Key": "DA_T2_Foundation_Medium_Name",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Description": {
+        "TableId": "/Game/Gameplay/BaseBuilding_New/BuildingPieces/ST_BuildingPieces.ST_BuildingPieces",
+        "Key": "DA_T2_Foundation_Medium_Desc",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "DisplayIcon": {
+        "AssetPathName": "/Game/Art/UI/Icons/T4_Building_Icons/FloorsFoundations/T_Icon_BB_T4_Foundation_Med_01.T_Icon_BB_T4_Foundation_Med_01",
+        "SubPathString": ""
+      },
+      "BuildableActor": {
+        "AssetPathName": "/Game/Gameplay/BaseBuilding_New/BuildingPieces/Tier4_UmbralSands/Foundations/BP_T4_Foundation_Medium01.BP_T4_Foundation_Medium01_C",
+        "SubPathString": ""
+      },
+      "Requirements": [
+        {
+          "Amount": 3,
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Ground_Sandstone'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Mineral/ITEM_Resources_Ground_Sandstone"
+          }
+        },
+        {
+          "Amount": 3,
+          "ItemData": {
+            "ObjectName": "BP_Consumables_Drink_C'ITEM_Consumable_Water_Dirty'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Water_Dirty"
+          }
+        },
+        {
+          "Amount": 2,
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Flax'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Plant/ITEM_Resources_Flax"
+          }
+        },
+        {
+          "Amount": 2,
+          "ItemData": {
+            "ObjectName": "FuelItemData'ITEM_Resources_Plank_Yew'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Resources/Processed/ITEM_Resources_Plank_Yew"
+          }
+        }
+      ],
+      "ConstructionXPOnBuild": 40,
+      "PieceTag": {
+        "TagName": "BaseBuilding.PieceType.Foundation"
+      },
+      "BuildingStabilityProfileRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_StabilityProfile'",
+          "ObjectPath": "/Game/Gameplay/BaseBuilding_New/DT_StabilityProfile"
+        },
+        "RowName": "Tier3_Foundation"
+      },
+      "BuildXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Building'",
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Building"
+        },
+        "RowName": "Build_Foundation_Tier3_Med"
+      },
+      "RepresentationCategory": "EBuildingPieceRepresentationCategory::Lightweight",
+      "PersistenceID": "B_aqH0EZ5FEcEViBvRVPxA"
+    }
+  }
+]

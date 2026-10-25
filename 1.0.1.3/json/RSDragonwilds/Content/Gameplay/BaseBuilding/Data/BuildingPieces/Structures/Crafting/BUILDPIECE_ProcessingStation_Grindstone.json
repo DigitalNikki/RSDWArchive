@@ -1,0 +1,85 @@
+[
+  {
+    "Type": "BuildingPieceData",
+    "Name": "BUILDPIECE_ProcessingStation_Grindstone",
+    "Class": "UScriptClass'BuildingPieceData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DerivedData": {
+        "AssetPathName": "/Game/Gameplay/BaseBuilding/Data/BuildingPieces_DerivedData/Structures/Crafting/BUILDPIECE_ProcessingStation_Grindstone_DerivedData.BUILDPIECE_ProcessingStation_Grindstone_DerivedData",
+        "SubPathString": ""
+      },
+      "DisplayName": {
+        "TableId": "/Game/UI/Crafting/ST_Crafting.ST_Crafting",
+        "Key": "Grindstone",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Description": {
+        "TableId": "/Game/UI/Crafting/ST_Crafting.ST_Crafting",
+        "Key": "Grindstone.Description",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "DisplayIcon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Stations_2024/T_Icon_Station_Grindstone.T_Icon_Station_Grindstone",
+        "SubPathString": ""
+      },
+      "BuildableActor": {
+        "AssetPathName": "/Game/Gameplay/World/Stations/BP_Station_Grindstone.BP_Station_Grindstone_C",
+        "SubPathString": ""
+      },
+      "Requirements": [
+        {
+          "Amount": 18,
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Stone'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Mineral/ITEM_Resources_Stone"
+          }
+        },
+        {
+          "Amount": 12,
+          "ItemData": {
+            "ObjectName": "FuelItemData'ITEM_Resources_Wood_Oak'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Wood/ITEM_Resources_Wood_Oak"
+          }
+        },
+        {
+          "Amount": 6,
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_IronBar'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Metal/ITEM_Resources_IronBar"
+          }
+        },
+        {
+          "Amount": 12,
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Granite'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Mineral/ITEM_Resources_Granite"
+          }
+        }
+      ],
+      "ConstructionXPOnBuild": 500,
+      "PieceTag": {
+        "TagName": "BaseBuilding.PieceType.Prop"
+      },
+      "BuildingStabilityProfileRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'StabilityProfileDataTable'",
+          "ObjectPath": "/Game/Gameplay/BaseBuilding/StabilityProfileDataTable"
+        },
+        "RowName": "Prop"
+      },
+      "BuildXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Building'",
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Building"
+        },
+        "RowName": "Build_Processing_Station"
+      },
+      "RepresentationCategory": "EBuildingPieceRepresentationCategory::IndividuallyReplicatedAndPersistedActor",
+      "PersistenceID": "89ZX4Ev3Evu2ixOJgZ-zHA",
+      "InternalName": "buildpiece_processingstation_grindstone"
+    }
+  }
+]

@@ -1,0 +1,1181 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ADT_AI_BlackKnight_Titan",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Object'AiAnimationAudioTableRowBase'",
+        "ObjectPath": "/Script/Dominion"
+      }
+    },
+    "Rows": {
+      "Movement_Fast": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.BlackKnightTitan"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_BlackKnightTitan_Movement_Fast'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Black_Knight_Titan/Foley/MSS_En_Fo_BlackKnightTitan_Movement_Fast"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Movement_Slow": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.BlackKnightTitan"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_BlackKnightTitan_Movement_Slow'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Black_Knight_Titan/Foley/MSS_En_Fo_BlackKnightTitan_Movement_Slow"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Movement_Run": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.BlackKnightTitan"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_BlackKnightTitan_Movement_Run'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Black_Knight_Titan/Foley/MSS_En_Fo_BlackKnightTitan_Movement_Run"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Movement_Walk": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.BlackKnightTitan"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_BlackKnightTitan_Movement_Walk'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Black_Knight_Titan/Foley/MSS_En_Fo_BlackKnightTitan_Movement_Walk"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Bodyfall": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.BlackKnightTitan"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_Cr_Bodyfall_Large'",
+              "ObjectPath": "/Game/Audio/DataAssets/Foley/ADA_Cr_Bodyfall_Large"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Swing_Light": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.BlackKnightTitan"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_BlackKnightTitan_Swing_Whoosh_Tight'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Black_Knight_Titan/Foley/MSS_En_Fo_BlackKnightTitan_Swing_Whoosh_Tight"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "hand_r"
+        ]
+      },
+      "Swing_Med": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.BlackKnightTitan"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_BlackKnightTitan_Swing_Whoosh'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Black_Knight_Titan/Foley/MSS_En_Fo_BlackKnightTitan_Swing_Whoosh"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "hand_r"
+        ]
+      },
+      "SwingHeavyFast": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.BlackKnightTitan"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_BlackKnightTitan_Special_Windup_Fast'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Black_Knight_Titan/Foley/MSS_En_Fo_BlackKnightTitan_Special_Windup_Fast"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "hand_r"
+        ]
+      },
+      "Swing_Heavy": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.BlackKnightTitan"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_BlackKnightTitan_Special_Windup_Slow'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Black_Knight_Titan/Foley/MSS_En_Fo_BlackKnightTitan_Special_Windup_Slow"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "hand_r"
+        ]
+      },
+      "Swing_Light_Fire": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.BlackKnightTitan"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_SwishFast_Rem'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/Swish_Rem/MSS_Co_SwishFast_Rem"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "hand_r"
+        ]
+      },
+      "Swing_Med_Fire": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.BlackKnightTitan"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_SwishMedium_Rem'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/Swish_Rem/MSS_Co_SwishMedium_Rem"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "hand_r"
+        ]
+      },
+      "Swing_Heavy_Fire": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.BlackKnightTitan"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_SwishSlow_Rem'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/Swish_Rem/MSS_Co_SwishSlow_Rem"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "hand_r"
+        ]
+      },
+      "WeaponGroundImpact": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.BlackKnightTitan"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_BlackKnightTitan_HandSlam'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Black_Knight_Titan/Foley/MSS_En_Fo_BlackKnightTitan_HandSlam"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.BlackKnightTitan"
+            },
+            "Value": null
+          }
+        ],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "foot_r",
+          "foot_l",
+          "hand_r",
+          "hand_l"
+        ]
+      },
+      "SwordSwing_Metal_Slow": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.BlackKnightTitan"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_BlackKnightTitan_SwordSwing_Slow'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Black_Knight_Titan/Foley/MSS_En_Fo_BlackKnightTitan_SwordSwing_Slow"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "hand_r"
+        ]
+      },
+      "SwordSwing_Metal_Fast": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.BlackKnightTitan"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_BlackKnightTitan_SwordSwing_Fast'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Black_Knight_Titan/Foley/MSS_En_Fo_BlackKnightTitan_SwordSwing_Fast"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "hand_r"
+        ]
+      },
+      "WeaponGroundRemove": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.BlackKnightTitan"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_BlackKnightTitan_Weapon_GroundPull'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Black_Knight_Titan/Foley/MSS_En_Fo_BlackKnightTitan_Weapon_GroundPull"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "foot_r",
+          "foot_l",
+          "hand_r",
+          "hand_l"
+        ]
+      },
+      "Footstep_Lift": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.BlackKnightTitan"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_BlackKnightTitan_Footsteps_Lift'",
+              "ObjectPath": "/Game/Audio/DataAssets/FootstepData/ADA_BlackKnightTitan_Footsteps_Lift"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "ball_r",
+          "ball_l"
+        ]
+      },
+      "Footstep_Jump": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.BlackKnightTitan"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_BlackKnightTitanFootsteps_Jump'",
+              "ObjectPath": "/Game/Audio/DataAssets/FootstepData/ADA_BlackKnightTitanFootsteps_Jump"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "ball_r",
+          "ball_l"
+        ]
+      },
+      "Footstep_Charge": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.BlackKnightTitan"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_BlackKnightTitan_Footsteps_Charge'",
+              "ObjectPath": "/Game/Audio/DataAssets/FootstepData/ADA_BlackKnightTitan_Footsteps_Charge"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "ball_r",
+          "ball_l"
+        ]
+      },
+      "Footstep_Scuff": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.BlackKnightTitan"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_BlackKnightTitan_Footsteps_Scuff'",
+              "ObjectPath": "/Game/Audio/DataAssets/FootstepData/ADA_BlackKnightTitan_Footsteps_Scuff"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "ball_r",
+          "ball_l"
+        ]
+      },
+      "Footstep_Light": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.BlackKnightTitan"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_BlackKnightTitan_Footsteps_Light'",
+              "ObjectPath": "/Game/Audio/DataAssets/FootstepData/ADA_BlackKnightTitan_Footsteps_Light"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "ball_r",
+          "ball_l"
+        ]
+      },
+      "Footstep_Heavy": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.BlackKnightTitan"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_BlackKnightTitan_Footsteps_Heavy'",
+              "ObjectPath": "/Game/Audio/DataAssets/FootstepData/ADA_BlackKnightTitan_Footsteps_Heavy"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "ball_r",
+          "ball_l"
+        ]
+      },
+      "SFX_HeavyAttack_Charge": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.BlackKnightTitan"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_BlockBreakerSwing'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/MSS_Co_BlockBreakerSwing"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "SFX_BlockBroken": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.BlackKnightTitan"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_EnemyBlockBroken'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/MSS_Co_EnemyBlockBroken"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "EarthDebrisLight": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.BlackKnightTitan"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_BlackKnightTitan_EarthDebrisLight'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Black_Knight_Titan/Foley/MSS_En_Fo_BlackKnightTitan_EarthDebrisLight"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Sword_Shoulder_Rest": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.BlackKnightTitan"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_BlackKnightTitan_Sword_ShoulderRest'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Black_Knight_Titan/Foley/MSS_En_Fo_BlackKnightTitan_Sword_ShoulderRest"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Sword_HandGrab": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.BlackKnightTitan"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_BlackKnightTitan_Sword_HandGrab'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Black_Knight_Titan/Foley/MSS_En_Fo_BlackKnightTitan_Sword_HandGrab"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "hand_l"
+        ]
+      },
+      "Sword_Movement_Fast": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.BlackKnightTitan"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_BlackKnightTitan_Sword_Movement_Fast'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Black_Knight_Titan/Foley/MSS_En_Fo_BlackKnightTitan_Sword_Movement_Fast"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Sword_Movement_Slow": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.BlackKnightTitan"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_BlackKnightTitan_Sword_Movement_Slow'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Black_Knight_Titan/Foley/MSS_En_Fo_BlackKnightTitan_Sword_Movement_Slow"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Attack_Leap_FirePhase": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.BlackKnightTitan"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Co_BlackKnightTitan_AttackLeap_FirePhase'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Black_Knight_Titan/Combat/MSS_En_Co_BlackKnightTitan_AttackLeap_FirePhase"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Attack_Whoosh_Fire": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.BlackKnightTitan"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Co_BlackKnightTitan_Fire_Whoosh'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Black_Knight_Titan/Combat/MSS_En_Co_BlackKnightTitan_Fire_Whoosh"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "hand_r"
+        ]
+      },
+      "Attack_Windup_Fire": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.BlackKnightTitan"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Co_BlackKnightTitan_Fire_Windup'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Black_Knight_Titan/Combat/MSS_En_Co_BlackKnightTitan_Fire_Windup"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "hand_r"
+        ]
+      },
+      "Weapon_FirePhaseStart": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.BlackKnightTitan"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Co_BlackKnightTitan_FirePhase_Start'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Black_Knight_Titan/Combat/MSS_En_Co_BlackKnightTitan_FirePhase_Start"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "hand_r"
+        ]
+      },
+      "Attack_FireProjectile": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.BlackKnightTitan"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Co_BlackKnightTitan_FireProjectile'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Black_Knight_Titan/Combat/MSS_En_Co_BlackKnightTitan_FireProjectile"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "hand_l"
+        ]
+      },
+      "Attack_HorizComboFinish_FirePhase": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.BlackKnightTitan"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Co_BlackKnightTitan_HorizComboFinish_FirePhase'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Black_Knight_Titan/Combat/MSS_En_Co_BlackKnightTitan_HorizComboFinish_FirePhase"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "hand_r"
+        ]
+      },
+      "Attack_LeapSlam": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.BlackKnightTitan"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Co_BlackKnightTitan_LeapSlam'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Black_Knight_Titan/Combat/MSS_En_Co_BlackKnightTitan_LeapSlam"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Attack_OverheadCombo01_FirePhase": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.BlackKnightTitan"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Co_BlackKnightTitan_OverheadCombo01_FirePhase'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Black_Knight_Titan/Combat/MSS_En_Co_BlackKnightTitan_OverheadCombo01_FirePhase"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "hand_r"
+        ]
+      },
+      "Attack_OverheadCombo02_FirePhase": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.BlackKnightTitan"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Co_BlackKnightTitan_OverheadCombo02_FirePhase'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Black_Knight_Titan/Combat/MSS_En_Co_BlackKnightTitan_OverheadCombo02_FirePhase"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "hand_r"
+        ]
+      },
+      "Attack_PummelSlam": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.BlackKnightTitan"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Co_BlackKnightTitan_PummelSlam'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Black_Knight_Titan/Combat/MSS_En_Co_BlackKnightTitan_PummelSlam"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "hand_r"
+        ]
+      },
+      "Attack_PummelSlam_FirePhase": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.BlackKnightTitan"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Co_BlackKnightTitan_PummelSlam_FirePhase'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Black_Knight_Titan/Combat/MSS_En_Co_BlackKnightTitan_PummelSlam_FirePhase"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "hand_r"
+        ]
+      },
+      "Attack_Stomp": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.BlackKnightTitan"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Co_BlackKnightTitan_Stomp'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Black_Knight_Titan/Combat/MSS_En_Co_BlackKnightTitan_Stomp"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "foot_r"
+        ]
+      },
+      "Attack_Stomp_FirePhase": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.BlackKnightTitan"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Co_BlackKnightTitan_Stomp_FirePhase'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Black_Knight_Titan/Combat/MSS_En_Co_BlackKnightTitan_Stomp_FirePhase"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "foot_r"
+        ]
+      },
+      "Projectile_FlameWind": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.BlackKnightTitan"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Co_BlackKnightTitan_Projectile_FlameWind'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Black_Knight_Titan/Combat/MSS_En_Co_BlackKnightTitan_Projectile_FlameWind"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Vox_Death": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.BlackKnightTitan"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_BlackKnightTitan_Death'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Black_Knight_Titan/Vox/MSS_Cr_Vox_BlackKnightTitan_Death"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": true,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "jaw"
+        ]
+      },
+      "Vox_Effort_Intense": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.BlackKnightTitan"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_BlackKnightTitan_Effort_Intense'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Black_Knight_Titan/Vox/MSS_Cr_Vox_BlackKnightTitan_Effort_Intense"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "jaw"
+        ]
+      },
+      "Vox_Effort_Large_Swing": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.BlackKnightTitan"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_BlackKnightTitan_Effort_Large_Swing'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Black_Knight_Titan/Vox/MSS_Cr_Vox_BlackKnightTitan_Effort_Large_Swing"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "jaw"
+        ]
+      },
+      "Vox_Effort_Med": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.BlackKnightTitan"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_BlackKnightTitan_Effort_Med'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Black_Knight_Titan/Vox/MSS_Cr_Vox_BlackKnightTitan_Effort_Med"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "jaw"
+        ]
+      },
+      "Vox_Effort_Med_Strong": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.BlackKnightTitan"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_BlackKnightTitan_Effort_Med_Strong'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Black_Knight_Titan/Vox/MSS_Cr_Vox_BlackKnightTitan_Effort_Med_Strong"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "jaw"
+        ]
+      },
+      "Vox_Effort_Swing_Short": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.BlackKnightTitan"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_BlackKnightTitan_Effort_Swing_Short'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Black_Knight_Titan/Vox/MSS_Cr_Vox_BlackKnightTitan_Effort_Swing_Short"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "jaw"
+        ]
+      },
+      "Vox_Grunt_Grumpy": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.BlackKnightTitan"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_BlackKnightTitan_Grunt_Grumpy'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Black_Knight_Titan/Vox/MSS_Cr_Vox_BlackKnightTitan_Grunt_Grumpy"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "jaw"
+        ]
+      },
+      "Vox_Grunt_Light": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.BlackKnightTitan"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_BlackKnightTitan_Grunt_Light'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Black_Knight_Titan/Vox/MSS_Cr_Vox_BlackKnightTitan_Grunt_Light"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "jaw"
+        ]
+      },
+      "Vox_Grunt_Med": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.BlackKnightTitan"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_BlackKnightTitan_Grunt_Med'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Black_Knight_Titan/Vox/MSS_Cr_Vox_BlackKnightTitan_Grunt_Med"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "jaw"
+        ]
+      },
+      "Vox_BreathOut": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.BlackKnightTitan"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_BlackKnightTitan_Titan_BreathOut'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Black_Knight_Titan/Vox/MSS_Cr_Vox_BlackKnightTitan_Titan_BreathOut"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "jaw"
+        ]
+      },
+      "Vox_Roar": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.BlackKnightTitan"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_BlackKnightTitan_Titan_Roar'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Black_Knight_Titan/Vox/MSS_Cr_Vox_BlackKnightTitan_Titan_Roar"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "jaw"
+        ]
+      },
+      "DragWeapon": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.BlackKnightTitan"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_BlackKnightTitan_EarthDebrisMed_DragWeapon'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Black_Knight_Titan/Foley/MSS_En_Fo_BlackKnightTitan_EarthDebrisMed_DragWeapon"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "hand_l"
+        ]
+      },
+      "Firestage_Bassdrop": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.BlackKnightTitan"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Co_BlackKnightTitan_Stage2_Bassdrop'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/Black_Knight_Titan/Combat/MSS_En_Co_BlackKnightTitan_Stage2_Bassdrop"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      }
+    }
+  }
+]

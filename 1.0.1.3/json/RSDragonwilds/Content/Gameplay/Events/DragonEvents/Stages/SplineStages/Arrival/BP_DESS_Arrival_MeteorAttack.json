@@ -1,0 +1,186 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_DESS_Arrival_MeteorAttack_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_DESS_Arrival_MeteorAttack_C:SimpleConstructionScript_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Events/DragonEvents/Stages/SplineStages/Arrival/BP_DESS_Arrival_MeteorAttack.7"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_DESS_Arrival_MeteorAttack_C:InheritableComponentHandler'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Events/DragonEvents/Stages/SplineStages/Arrival/BP_DESS_Arrival_MeteorAttack.4"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_DESS_Arrival_MeteorAttack_C:ExecuteUbergraph_BP_DESS_Arrival_MeteorAttack'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Events/DragonEvents/Stages/SplineStages/Arrival/BP_DESS_Arrival_MeteorAttack.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_DESS_C'",
+      "ObjectPath": "/Game/Gameplay/Events/DragonEvents/Stages/SplineStages/BP_DESS"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_DESS_Arrival_MeteorAttack_C:ReceiveBeginPlay'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Events/DragonEvents/Stages/SplineStages/Arrival/BP_DESS_Arrival_MeteorAttack.3"
+      },
+      {
+        "ObjectName": "Function'BP_DESS_Arrival_MeteorAttack_C:ExecuteUbergraph_BP_DESS_Arrival_MeteorAttack'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Events/DragonEvents/Stages/SplineStages/Arrival/BP_DESS_Arrival_MeteorAttack.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Object'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_DESS_Arrival_MeteorAttack": {
+        "ObjectName": "Function'BP_DESS_Arrival_MeteorAttack_C:ExecuteUbergraph_BP_DESS_Arrival_MeteorAttack'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Events/DragonEvents/Stages/SplineStages/Arrival/BP_DESS_Arrival_MeteorAttack.2"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'BP_DESS_Arrival_MeteorAttack_C:ReceiveBeginPlay'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Events/DragonEvents/Stages/SplineStages/Arrival/BP_DESS_Arrival_MeteorAttack.3"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_NoExport | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_DESS_Arrival_MeteorAttack_C'Default__BP_DESS_Arrival_MeteorAttack_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Events/DragonEvents/Stages/SplineStages/Arrival/BP_DESS_Arrival_MeteorAttack.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_DESS_Arrival_MeteorAttack_C",
+    "Name": "Default__BP_DESS_Arrival_MeteorAttack_C",
+    "Class": "BlueprintGeneratedClass'1.0.1.3/RSDragonwilds/Content/Gameplay/Events/DragonEvents/Stages/SplineStages/Arrival/BP_DESS_Arrival_MeteorAttack.BP_DESS_Arrival_MeteorAttack_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {}
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_DESS_Arrival_MeteorAttack",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_DESS_Arrival_MeteorAttack_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Events/DragonEvents/Stages/SplineStages/Arrival/BP_DESS_Arrival_MeteorAttack.0"
+    },
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_DomPlayAudioEvent_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'AudioComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_DESS_Arrival_MeteorAttack_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Events/DragonEvents/Stages/SplineStages/Arrival/BP_DESS_Arrival_MeteorAttack.0"
+    },
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Object'Actor:ReceiveBeginPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_DESS_Arrival_MeteorAttack_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Events/DragonEvents/Stages/SplineStages/Arrival/BP_DESS_Arrival_MeteorAttack.0"
+    },
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_DESS_Arrival_MeteorAttack_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Events/DragonEvents/Stages/SplineStages/Arrival/BP_DESS_Arrival_MeteorAttack.0"
+    },
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_DESS_Arrival_MeteorAttack_C:SimpleConstructionScript_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Events/DragonEvents/Stages/SplineStages/Arrival/BP_DESS_Arrival_MeteorAttack.7"
+    },
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_DESS_Arrival_MeteorAttack_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Events/DragonEvents/Stages/SplineStages/Arrival/BP_DESS_Arrival_MeteorAttack.5"
+      },
+      "VariableGUID": "EEA153CB-49575663-9F61ABAF-141C12B1",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_DESS_Arrival_MeteorAttack_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Events/DragonEvents/Stages/SplineStages/Arrival/BP_DESS_Arrival_MeteorAttack.0"
+    },
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_DESS_Arrival_MeteorAttack_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Events/DragonEvents/Stages/SplineStages/Arrival/BP_DESS_Arrival_MeteorAttack.6"
+      }
+    }
+  }
+]

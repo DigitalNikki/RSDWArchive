@@ -1,0 +1,84 @@
+[
+  {
+    "Type": "FarmPlantDataAsset",
+    "Name": "FPD_Avantoe",
+    "Class": "UScriptClass'FarmPlantDataAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "AgilityAvantoe",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Stages": [
+        {
+          "ObjectName": "FarmPlantStageData'FPSD_AvantoePlant_Stage_1'",
+          "ObjectPath": "/Game/Gameplay/Farming/Stages/Avantoe_Stages/FPSD_AvantoePlant_Stage_1"
+        },
+        {
+          "ObjectName": "FarmPlantStageData'FPSD_AvantoePlant_Stage_2'",
+          "ObjectPath": "/Game/Gameplay/Farming/Stages/Avantoe_Stages/FPSD_AvantoePlant_Stage_2"
+        },
+        {
+          "ObjectName": "FarmPlantStageData'FPSD_AvantoeHarvestable'",
+          "ObjectPath": "/Game/Gameplay/Farming/Stages/Avantoe_Stages/FPSD_AvantoeHarvestable"
+        }
+      ],
+      "StageDisplayTexts": [
+        {
+          "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+          "Key": "StatusText_PlantStage_Shoot",
+          "SourceString": null,
+          "LocalizedString": ""
+        },
+        {
+          "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+          "Key": "StatusText_PlantStage_Stalk",
+          "SourceString": null,
+          "LocalizedString": ""
+        },
+        {
+          "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+          "Key": "StatusText_PlantStage_Flower",
+          "SourceString": null,
+          "LocalizedString": ""
+        },
+        {
+          "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+          "Key": "StatusText_PlantStage_Harvestable",
+          "SourceString": null,
+          "LocalizedString": ""
+        }
+      ],
+      "BaseYield": 5,
+      "DiseaseChance": 0.4,
+      "HarvestableItem": {
+        "ObjectName": "ItemData'ITEM_Resources_Agility_Avantoe'",
+        "ObjectPath": "/Agility/Gameplay/Items/Resources/Agility/ITEM_Resources_Agility_Avantoe"
+      },
+      "SeedDropPerHarvestableItem": {
+        "ItemDataClass": {
+          "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Farming/Seeds/ITEM_Farming_Seed_Avantoe.ITEM_Farming_Seed_Avantoe",
+          "SubPathString": ""
+        },
+        "MaximumGrouping": 99,
+        "ProbabilityOfDrop": 0.01,
+        "ProbabilityModifierAttribute": {
+          "ObjectName": "Class'SeedRecoveryChance'",
+          "ObjectPath": "/Script/Dominion"
+        }
+      },
+      "HarvestSFX": {
+        "AssetPathName": "/Game/Audio/MetasoundSources/Player/Interactions/Farming/MSS_Pl_Fa_HarvestPlant.MSS_Pl_Fa_HarvestPlant",
+        "SubPathString": ""
+      },
+      "PlantableIn": [
+        "Farming.Tiers.Tier3_Fellhollow",
+        "Farming.Tiers.Tier4_UmbralSands"
+      ],
+      "PersistenceID": "vmnc50Qes3mPfAeUMnAkYQ",
+      "InternalName": "avantoe_plant"
+    }
+  }
+]

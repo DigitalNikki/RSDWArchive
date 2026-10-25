@@ -1,0 +1,52 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Consumable_Potion_T1_Weak_Healing",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Herb_Harralander'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Herb/ITEM_Herb_Harralander"
+          },
+          "Count": 1
+        },
+        {
+          "ItemData": null,
+          "Count": 1
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Clay_Vessel'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Mineral/ITEM_Resources_Clay_Vessel"
+          },
+          "Count": 1
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "BP_Consumables_ItemEmitter_C'ITEM_Consumable_Potion_T1_Weak_Healing'",
+            "ObjectPath": "/Game/Gameplay/Items/Deleted/ITEM_Consumable_Potion_T1_Weak_Healing"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Potion"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting"
+        },
+        "RowName": "Craft_Herblore_Lab_Recipe"
+      },
+      "PersistenceID": "EgYImEV0dyaK6C2DQz3j8Q",
+      "InternalName": "recipe_consumable_potion_t1_weak_healing",
+      "bSoftDeleted": true
+    }
+  }
+]

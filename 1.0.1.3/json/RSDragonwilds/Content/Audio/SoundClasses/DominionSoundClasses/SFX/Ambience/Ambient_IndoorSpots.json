@@ -1,0 +1,24 @@
+[
+  {
+    "Type": "DominionSoundClass",
+    "Name": "Ambient_IndoorSpots",
+    "Class": "UScriptClass'DominionSoundClass'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MinReverbSend": 0.1,
+      "MaxReverbSend": 0.4,
+      "Properties": {
+        "Volume": 0.11688111,
+        "LoadingBehavior": "ESoundWaveLoadingBehavior::PrimeOnLoad",
+        "DefaultSubmix": {
+          "ObjectName": "SoundSubmix'Ambience'",
+          "ObjectPath": "/Game/Audio/Submixes/Ambience"
+        }
+      },
+      "ParentClass": {
+        "ObjectName": "DominionSoundClass'Ambience_Enclosure_Agnostic'",
+        "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Ambience/Ambience_Enclosure_Agnostic"
+      }
+    }
+  }
+]

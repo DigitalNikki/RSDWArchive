@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "DominionSoundClass",
+    "Name": "Ambience_WorldEmitterLoops",
+    "Class": "UScriptClass'DominionSoundClass'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MinReverbSend": 0.2,
+      "MaxReverbSend": 0.8,
+      "Properties": {
+        "Volume": 0.33695808,
+        "DefaultSubmix": {
+          "ObjectName": "SoundSubmix'Ambience'",
+          "ObjectPath": "/Game/Audio/Submixes/Ambience"
+        }
+      },
+      "ChildClasses": [
+        {
+          "ObjectName": "DominionSoundClass'AnimaVentEmitterLoops'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Ambience/AnimaVentEmitterLoops"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Ambience_WaterfallLoops'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Ambience/Ambience_WaterfallLoops"
+        }
+      ],
+      "ParentClass": {
+        "ObjectName": "DominionSoundClass'Ambience_Enclosure_Affected'",
+        "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Ambience/Ambience_Enclosure_Affected"
+      }
+    }
+  }
+]

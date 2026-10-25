@@ -1,0 +1,93 @@
+[
+  {
+    "Type": "BuildingPieceData",
+    "Name": "DA_T3_Beam_Thick_Pillar01",
+    "Class": "UScriptClass'BuildingPieceData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DerivedData": {
+        "AssetPathName": "/Game/Gameplay/BaseBuilding_New/BuildingPieces_DerivedData/Tier4_UmbralSands/Beams/DA_T3_Beam_Thick_Pillar01_DerivedData.DA_T3_Beam_Thick_Pillar01_DerivedData",
+        "SubPathString": ""
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/BaseBuilding_New/BuildingPieces/ST_BuildingPieces.ST_BuildingPieces",
+        "Key": "BuildingPiece.ThickPillar.Name",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Description": {
+        "TableId": "/Game/Gameplay/BaseBuilding_New/BuildingPieces/ST_BuildingPieces.ST_BuildingPieces",
+        "Key": "BuildingPiece.Pillar.Description",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Category": {
+        "TagName": "BaseBuilding.Category.Beam"
+      },
+      "DisplayIcon": {
+        "AssetPathName": "/Game/Art/UI/Icons/T4_Building_Icons/Beams/T_Icon_BB_T4_Column_01.T_Icon_BB_T4_Column_01",
+        "SubPathString": ""
+      },
+      "BuildableActor": {
+        "AssetPathName": "/Game/Gameplay/BaseBuilding_New/BuildingPieces/Tier4_UmbralSands/Beams/BP_T4_Beam_Thick_Pillar01.BP_T4_Beam_Thick_Pillar01_C",
+        "SubPathString": ""
+      },
+      "Requirements": [
+        {
+          "Amount": 2,
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Ground_Sandstone'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Mineral/ITEM_Resources_Ground_Sandstone"
+          }
+        },
+        {
+          "Amount": 5,
+          "ItemData": {
+            "ObjectName": "BP_Consumables_Drink_C'ITEM_Consumable_Water_Dirty'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Water_Dirty"
+          }
+        },
+        {
+          "Amount": 2,
+          "ItemData": {
+            "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fruit_Redberry'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Fruit_Redberry"
+          }
+        },
+        {
+          "Amount": 2,
+          "ItemData": {
+            "ObjectName": "FuelItemData'ITEM_Resources_Plank_Yew'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Resources/Processed/ITEM_Resources_Plank_Yew"
+          }
+        }
+      ],
+      "ConstructionXPOnBuild": 40,
+      "PieceTag": {
+        "TagName": "BaseBuilding.PieceType.Beam"
+      },
+      "BuildingStabilityProfileRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_StabilityProfile'",
+          "ObjectPath": "/Game/Gameplay/BaseBuilding_New/DT_StabilityProfile"
+        },
+        "RowName": "Tier3_Beam"
+      },
+      "BuildXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Building'",
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Building"
+        },
+        "RowName": "Build_Beam_Tier3_Med"
+      },
+      "SelectionPlayerHooks": [
+        {
+          "ObjectName": "BP_FTUENotificationPlayerHook_C'PH_UnlockedFirstBuildingBeam'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/PlayerHooks/FTUE/PH_UnlockedFirstBuildingBeam"
+        }
+      ],
+      "RepresentationCategory": "EBuildingPieceRepresentationCategory::Lightweight",
+      "PersistenceID": "AedgGUj_W_yqxzu6DP9Rxg"
+    }
+  }
+]

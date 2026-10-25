@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Rune_Earth",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Runecrafting'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Runecrafting"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "EarthRune",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "EarthRune",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Rune_Earth_IconRemoved.T_Icon_Rune_Earth_IconRemoved",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Rune_Pouch/SM_Rune_Pouch_01.SM_Rune_Pouch_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 9999,
+      "Category": {
+        "TagName": "ItemFilter.Type.Equipment.Ammo.Rune"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Ammo.Rune"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Magic.Rune"
+      },
+      "bDropOnDeath": false,
+      "BuffDatas": [
+        {
+          "Title": {
+            "CultureInvariantString": null
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "Rune.Earth.SpecialEffect",
+            "SourceString": null,
+            "LocalizedString": ""
+          },
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "PersistenceID": "lCE7i3iXGUuHv7FphIOcXg",
+      "InternalName": "res_rune_earth"
+    }
+  }
+]

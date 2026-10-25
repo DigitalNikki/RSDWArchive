@@ -1,0 +1,2372 @@
+[
+  {
+    "Type": "ConversationDatabase",
+    "Name": "QF_DragonSlayer_Beat2",
+    "Class": "UScriptClass'ConversationDatabase'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CompilerVersion": 2,
+      "ReachableNodeMap": [
+        {
+          "Key": "5B4487E4-46A3E11B-1B7CB2B8-BCD44A38",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_DragonSlayer_Beat2:ConversationEntryPointNode_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.3"
+          }
+        },
+        {
+          "Key": "13EF473C-434B74DF-0E3B27BE-6BE3959F",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DragonSlayer_Beat2:QFT_PromptMessage_C_15'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.86"
+          }
+        },
+        {
+          "Key": "4EDDD9EC-4F89CB7C-9271EF9D-239648A9",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_DragonSlayer_Beat2:ConversationEntryPointNode_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.1"
+          }
+        },
+        {
+          "Key": "AF856C6C-46136A38-5A63B8AF-14E7276F",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_DragonSlayer_Beat2:QFT_SetQuestBool_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.111"
+          }
+        },
+        {
+          "Key": "A07644B0-49CB6F8F-9C99A7B9-4BB9E58A",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DragonSlayer_Beat2:QFT_UpdateQuestLocation_C_8'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.141"
+          }
+        },
+        {
+          "Key": "490A9AD4-44C29831-652BAAA2-3820A94C",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DragonSlayer_Beat2:QFT_UpdateQuestLocation_C_11'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.133"
+          }
+        },
+        {
+          "Key": "0E9DD621-43D8ADDB-FE6364A5-A95C2425",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DragonSlayer_Beat2:QFT_UpdateQuestLocation_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.135"
+          }
+        },
+        {
+          "Key": "55DDC4DE-49466722-EF256C83-E456F121",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_DragonSlayer_Beat2:QFT_SetQuestBool_C_11'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.113"
+          }
+        },
+        {
+          "Key": "2704262C-431CBC74-847A84B8-61B78DAF",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_DragonSlayer_Beat2:QFT_SetQuestBool_C_14'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.115"
+          }
+        },
+        {
+          "Key": "14751870-4F1618A2-463841A1-76F96A0E",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_DragonSlayer_Beat2:ConversationEntryPointNode_30'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.5"
+          }
+        },
+        {
+          "Key": "3B7ECC4A-42FF7191-13CED6BB-5FB19574",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DragonSlayer_Beat2:QFT_Blank_C_9'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.74"
+          }
+        },
+        {
+          "Key": "ABFCF1D7-43F0BBB2-696271BA-36633197",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DragonSlayer_Beat2:QFT_PromptMessage_C_10'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.83"
+          }
+        },
+        {
+          "Key": "A6223AF7-46151D81-84DF67A8-AE89FED3",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DragonSlayer_Beat2:QFT_Blank_C_28'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.66"
+          }
+        },
+        {
+          "Key": "DF7FF518-4719C4A8-B1ADF790-11C45809",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DragonSlayer_Beat2:QFT_PromptMessage_C_18'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.89"
+          }
+        },
+        {
+          "Key": "68E07AA0-4B887D94-4869679E-FF611A7B",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DragonSlayer_Beat2:QFT_Blank_C_19'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.56"
+          }
+        },
+        {
+          "Key": "254B02F5-40668CBD-16FF40AB-1EEC14DC",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DragonSlayer_Beat2:QFT_Blank_C_18'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.55"
+          }
+        },
+        {
+          "Key": "EAAAD953-4C356173-79F6B785-E69E8609",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DragonSlayer_Beat2:QFT_Blank_C_16'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.53"
+          }
+        },
+        {
+          "Key": "1222732A-4C238417-015DC2BB-54D823E9",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DragonSlayer_Beat2:QFT_Blank_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.46"
+          }
+        },
+        {
+          "Key": "C00D93A9-4EE44744-BBB48A8C-32D71FEE",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DragonSlayer_Beat2:QFT_Blank_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.45"
+          }
+        },
+        {
+          "Key": "F832FB03-428A4087-01E274BB-B3456896",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DragonSlayer_Beat2:QFT_PromptMessage_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.81"
+          }
+        },
+        {
+          "Key": "CFD1576A-48B7CF74-8C43C28A-90F943B0",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DragonSlayer_Beat2:QFT_PromptMessage_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.91"
+          }
+        },
+        {
+          "Key": "48F0C245-48EEEB8D-53824BA7-C15369A2",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DragonSlayer_Beat2:QFT_PromptMessage_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.100"
+          }
+        },
+        {
+          "Key": "60E2A824-48772564-816A0BB5-CF4B50EC",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DragonSlayer_Beat2:QFT_PromptMessage_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.105"
+          }
+        },
+        {
+          "Key": "00C66CA5-4D3DA92E-50D8E680-8052469B",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_DragonSlayer_Beat2:QFT_SetQuestBool_C_15'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.116"
+          }
+        },
+        {
+          "Key": "EF47D33F-4CFAA8F8-D9495492-C3831C64",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DragonSlayer_Beat2:QFT_Blank_C_15'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.52"
+          }
+        },
+        {
+          "Key": "3BB64A8B-4DAB9D24-8D61C08E-05AA5929",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_DragonSlayer_Beat2:QFT_SetQuestBool_C_5'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.120"
+          }
+        },
+        {
+          "Key": "16C6F2FA-466F6944-5AAC59BB-35667671",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DragonSlayer_Beat2:QFT_UpdateQuestLocation_C_9'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.142"
+          }
+        },
+        {
+          "Key": "07FB7EB5-4CDF542E-768A28B7-089B8B68",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DragonSlayer_Beat2:QFT_UpdateQuestLocation_C_5'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.139"
+          }
+        },
+        {
+          "Key": "C3C850B0-4F85F57B-BB8980AB-F625524B",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_DragonSlayer_Beat2:QFT_SetQuestBool_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.118"
+          }
+        },
+        {
+          "Key": "EA1765B6-4D06937D-BA7C62A2-812CEF96",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_DragonSlayer_Beat2:QFT_SetQuestObjective_C_10'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.126"
+          }
+        },
+        {
+          "Key": "0D6E8AF1-4F589444-400B75AF-81735491",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DragonSlayer_Beat2:QFT_UpdateQuestLocation_C_10'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.132"
+          }
+        },
+        {
+          "Key": "97E55B61-42D6DD00-E2B8D89E-E7084253",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DragonSlayer_Beat2:QFT_UpdateQuestLocation_C_18'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.134"
+          }
+        },
+        {
+          "Key": "E2EF6324-4BE015D5-CB39F48D-82F771FE",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DragonSlayer_Beat2:QFT_Blank_C_17'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.54"
+          }
+        },
+        {
+          "Key": "ABB78072-42368435-0EF8A7B4-8A9E3C23",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_DragonSlayer_Beat2:ConversationEntryPointNode_29'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.4"
+          }
+        },
+        {
+          "Key": "6D53DE0F-450F2A78-3A7C9292-83A19FCB",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_DragonSlayer_Beat2:QFT_SetQuestBool_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.119"
+          }
+        },
+        {
+          "Key": "707F9528-4EA3FC54-F2E071B1-19F21252",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DragonSlayer_Beat2:QFT_Blank_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.57"
+          }
+        },
+        {
+          "Key": "6AB9B591-4F47B2D6-A7B52489-65CE42B8",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DragonSlayer_Beat2:QFT_Blank_C_12'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.49"
+          }
+        },
+        {
+          "Key": "0E148C96-47128DA9-F1A4B394-F3F843EE",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DragonSlayer_Beat2:QFT_Blank_C_11'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.48"
+          }
+        },
+        {
+          "Key": "6ABF29B2-420A39D5-7309128E-5B8BE8FC",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DragonSlayer_Beat2:QFT_Blank_C_8'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.73"
+          }
+        },
+        {
+          "Key": "6C1772CB-4CB528C5-1C2A1486-CDD1C27D",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DragonSlayer_Beat2:QFT_Blank_C_6'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.71"
+          }
+        },
+        {
+          "Key": "CE89DE44-4C50A228-E8B1A28B-294FA643",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DragonSlayer_Beat2:QFT_Blank_C_7'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.72"
+          }
+        },
+        {
+          "Key": "FAD3A192-46F6CF63-26B785A3-3450356B",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DragonSlayer_Beat2:QFT_Blank_C_13'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.50"
+          }
+        },
+        {
+          "Key": "1F66A713-4D503E47-7B0A2CA3-F82A2E41",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_DragonSlayer_Beat2:QFT_SetQuestBool_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.112"
+          }
+        },
+        {
+          "Key": "F08ACD5F-4E95C0FE-2E292AA7-318C7AFD",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DragonSlayer_Beat2:QFT_UpdateQuestLocation_C_6'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.140"
+          }
+        },
+        {
+          "Key": "64E35D3C-4DE957D2-A1B54F98-CA02D3DF",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DragonSlayer_Beat2:QFT_UpdateQuestLocation_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.138"
+          }
+        },
+        {
+          "Key": "B5F035C4-4547AD3E-82B880B3-6DF4AD05",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_DragonSlayer_Beat2:QFT_SetQuestObjective_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.128"
+          }
+        },
+        {
+          "Key": "EA5254AE-45E89EBF-61B2B0AA-3B170DEB",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_DragonSlayer_Beat2:QFT_SetQuestBool_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.117"
+          }
+        },
+        {
+          "Key": "1709715C-4D17FAB4-0C6098BB-08A42275",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_DragonSlayer_Beat2:QFT_SetQuestBool_C_7'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.122"
+          }
+        },
+        {
+          "Key": "EB498918-4950EE63-05440C92-867E53A1",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DragonSlayer_Beat2:QFT_Blank_C_10'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.47"
+          }
+        },
+        {
+          "Key": "37270818-49ECB0FA-5E6147AF-FF5E6E72",
+          "Value": {
+            "ObjectName": "ConversationLinkNode'QF_DragonSlayer_Beat2:ConversationLinkNode_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.8"
+          }
+        },
+        {
+          "Key": "D3EB528D-49209CEF-EEFCF4B9-51D549DD",
+          "Value": {
+            "ObjectName": "ConversationLinkNode'QF_DragonSlayer_Beat2:ConversationLinkNode_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.9"
+          }
+        },
+        {
+          "Key": "8A9DB7ED-45FD6C00-6D789E8D-4BE35CD6",
+          "Value": {
+            "ObjectName": "QFT_ModifyQuestInt_C'QF_DragonSlayer_Beat2:QFT_ModifyQuestInt_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.77"
+          }
+        },
+        {
+          "Key": "BEDBE44B-430C8D76-C900F7A9-593F8112",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DragonSlayer_Beat2:QFT_Blank_C_27'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.65"
+          }
+        },
+        {
+          "Key": "2C670450-4C3FB8B1-CA10799F-BEFCFAE1",
+          "Value": {
+            "ObjectName": "QFT_GiveQuest_C'QF_DragonSlayer_Beat2:QFT_GiveQuest_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.76"
+          }
+        },
+        {
+          "Key": "B9188607-4808D78A-3A51C99D-209AF10B",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_DragonSlayer_Beat2:ConversationEntryPointNode_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.2"
+          }
+        },
+        {
+          "Key": "FBCBECA2-45A0B043-50FD93A8-54306B90",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DragonSlayer_Beat2:QFT_Blank_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.68"
+          }
+        },
+        {
+          "Key": "03BCA788-40B852CC-F52FDF91-26816BA7",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DragonSlayer_Beat2:QFT_Blank_C_26'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.64"
+          }
+        },
+        {
+          "Key": "E184150F-40CFC0A3-D0F8E39A-693D1357",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DragonSlayer_Beat2:QFT_PromptMessage_C_17'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.88"
+          }
+        },
+        {
+          "Key": "81489BAC-495727E2-87E5DA93-402E1023",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DragonSlayer_Beat2:QFT_PromptMessage_C_16'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.87"
+          }
+        },
+        {
+          "Key": "08D24ECE-43A3B9BC-E41CF982-730AC4E0",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DragonSlayer_Beat2:QFT_PromptMessage_C_21'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.92"
+          }
+        },
+        {
+          "Key": "705FCB02-46845E0A-272C868B-3F8B7BD0",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DragonSlayer_Beat2:QFT_PromptMessage_C_22'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.93"
+          }
+        },
+        {
+          "Key": "D7E9415E-4E1F1382-735FEEAE-0474FDD2",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DragonSlayer_Beat2:QFT_PromptMessage_C_9'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.109"
+          }
+        },
+        {
+          "Key": "48F9FCDD-40497919-F5520698-240E18B1",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DragonSlayer_Beat2:QFT_PromptMessage_C_23'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.94"
+          }
+        },
+        {
+          "Key": "2AFBF6B0-4BF53785-AA5A3E9E-7EBA794E",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DragonSlayer_Beat2:QFT_Blank_C_20'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.58"
+          }
+        },
+        {
+          "Key": "D894F534-466C8DF4-3A674FAB-60FBF79F",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DragonSlayer_Beat2:QFT_PromptMessage_C_19'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.90"
+          }
+        },
+        {
+          "Key": "2691AF9E-412A0237-D10E99B1-4D155CDC",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DragonSlayer_Beat2:QFT_Blank_C_14'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.51"
+          }
+        },
+        {
+          "Key": "78AD2567-4C68B4B2-B85545AC-02E5D689",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_DragonSlayer_Beat2:QFT_SetQuestObjective_C_13'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.127"
+          }
+        },
+        {
+          "Key": "1284EE28-4E529409-2B250DB8-842E8869",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DragonSlayer_Beat2:QFT_UpdateQuestLocation_C_21'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.136"
+          }
+        },
+        {
+          "Key": "20B810F1-44AB44EC-8F06EC9B-82B05A53",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DragonSlayer_Beat2:QFT_UpdateQuestLocation_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.131"
+          }
+        },
+        {
+          "Key": "7DA08944-496A3B9B-E2B0F3BC-D1EE6084",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DragonSlayer_Beat2:QFT_UpdateQuestLocation_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.130"
+          }
+        },
+        {
+          "Key": "75797C27-4A8B8647-6CE5E1B8-814FB6ED",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_DragonSlayer_Beat2:QFT_SetQuestBool_C_8'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.123"
+          }
+        },
+        {
+          "Key": "85B52F58-4D0D40BA-898ACA9C-8424171D",
+          "Value": {
+            "ObjectName": "QFT_ModifyQuestInt_C'QF_DragonSlayer_Beat2:QFT_ModifyQuestInt_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.79"
+          }
+        },
+        {
+          "Key": "CD4EDFFC-44833C9D-7C1F33B7-A0713559",
+          "Value": {
+            "ObjectName": "QFT_GiveItemToPlayer_C'QF_DragonSlayer_Beat2:QFT_GiveItemToPlayer_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.75"
+          }
+        },
+        {
+          "Key": "58095784-41F60A25-E8559E8C-98182D77",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_DragonSlayer_Beat2:QFT_SetQuestBool_C_9'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.124"
+          }
+        },
+        {
+          "Key": "E18AB929-4FA8B5CA-10A4D2A3-7CF12F85",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DragonSlayer_Beat2:QFT_Blank_C_25'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.63"
+          }
+        },
+        {
+          "Key": "B50480DE-482D25EA-2E16DD82-8320E418",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DragonSlayer_Beat2:QFT_PromptMessage_C_8'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.108"
+          }
+        },
+        {
+          "Key": "C66AF8A1-49D3C08E-386F9BA9-49604DA1",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DragonSlayer_Beat2:QFT_PromptMessage_C_11'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.84"
+          }
+        },
+        {
+          "Key": "C8C5FDA7-42DF908F-69471DB0-DD2AEE60",
+          "Value": {
+            "ObjectName": "ConversationLinkNode'QF_DragonSlayer_Beat2:ConversationLinkNode_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.6"
+          }
+        },
+        {
+          "Key": "0BB5992F-4B49143D-423435AE-330F531A",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DragonSlayer_Beat2:QFT_Blank_C_41'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.69"
+          }
+        },
+        {
+          "Key": "B429B249-4BBBFDEB-4FBD8986-78F7FFA6",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DragonSlayer_Beat2:QFT_Blank_C_5'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.70"
+          }
+        },
+        {
+          "Key": "4C1D2939-40D45991-091B69B0-29A1D07C",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DragonSlayer_Beat2:QFT_Blank_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.67"
+          }
+        },
+        {
+          "Key": "51989631-46A24F79-ED0528B1-3C450EC7",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DragonSlayer_Beat2:QFT_Blank_C_23'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.61"
+          }
+        },
+        {
+          "Key": "C9D65DEF-49FE84AB-D61E5E99-53057FB7",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DragonSlayer_Beat2:QFT_PromptMessage_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.82"
+          }
+        },
+        {
+          "Key": "1481D8B6-4E40911B-A8E88997-C4525168",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DragonSlayer_Beat2:QFT_Blank_C_22'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.60"
+          }
+        },
+        {
+          "Key": "A595700D-43B8D477-6DA3F1B0-D5BA8962",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DragonSlayer_Beat2:QFT_PromptMessage_C_27'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.97"
+          }
+        },
+        {
+          "Key": "1A23B511-42318414-311E2BA6-6F660B59",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DragonSlayer_Beat2:QFT_PromptMessage_C_28'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.98"
+          }
+        },
+        {
+          "Key": "C8191952-45991610-0CD6369F-6182DE75",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DragonSlayer_Beat2:QFT_PromptMessage_C_29'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.99"
+          }
+        },
+        {
+          "Key": "F6F7864B-4589988C-4B479E88-FC56F08A",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DragonSlayer_Beat2:QFT_PromptMessage_C_30'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.101"
+          }
+        },
+        {
+          "Key": "95DB8D9F-45C18F5F-A75B4F8E-2D5AFC91",
+          "Value": {
+            "ObjectName": "ConversationLinkNode'QF_DragonSlayer_Beat2:ConversationLinkNode_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.7"
+          }
+        },
+        {
+          "Key": "81A61EEC-4D0EA03F-208A4087-D02C9A61",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DragonSlayer_Beat2:QFT_PromptMessage_C_14'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.85"
+          }
+        },
+        {
+          "Key": "14A4CB05-401787B9-5F73689F-64836866",
+          "Value": {
+            "ObjectName": "QFT_ModifyQuestInt_C'QF_DragonSlayer_Beat2:QFT_ModifyQuestInt_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.78"
+          }
+        },
+        {
+          "Key": "FAF62B67-4ABAB1A3-4C4F55BC-68609ED5",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DragonSlayer_Beat2:QFT_PromptMessage_C_25'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.95"
+          }
+        },
+        {
+          "Key": "EAA2C33A-44F575EA-C3B62FA2-DB638FD5",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DragonSlayer_Beat2:QFT_PromptMessage_C_26'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.96"
+          }
+        },
+        {
+          "Key": "71105525-48F354C6-67E1929C-71C0EE71",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DragonSlayer_Beat2:QFT_Blank_C_21'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.59"
+          }
+        },
+        {
+          "Key": "089C1FF4-4ADD2CB4-256C4CA3-93DC450A",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DragonSlayer_Beat2:QFT_PromptMessage_C_5'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.106"
+          }
+        },
+        {
+          "Key": "F39E11A9-45D69CA4-70C8A783-4764F12D",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DragonSlayer_Beat2:QFT_PromptMessage_C_31'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.102"
+          }
+        },
+        {
+          "Key": "ED1AEE8B-4485AB47-270B14B4-B3D5E1C8",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DragonSlayer_Beat2:QFT_PromptMessage_C_32'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.103"
+          }
+        },
+        {
+          "Key": "FB48B21C-4924B246-B19E15B3-17E314AF",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DragonSlayer_Beat2:QFT_PromptMessage_C_33'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.104"
+          }
+        },
+        {
+          "Key": "E50D0561-4106A086-8FD40A94-D6259BEB",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_DragonSlayer_Beat2:QFT_SetQuestBool_C_6'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.121"
+          }
+        },
+        {
+          "Key": "B2044057-4BEA7F8C-C155A48F-1329B103",
+          "Value": {
+            "ObjectName": "QFT_TakeItemFromPlayer_C'QF_DragonSlayer_Beat2:QFT_TakeItemFromPlayer_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.129"
+          }
+        },
+        {
+          "Key": "C7CA865A-4796ED20-F4FF96BF-B2E021DC",
+          "Value": {
+            "ObjectName": "QFT_OpenMap_C'QF_DragonSlayer_Beat2:QFT_OpenMap_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.80"
+          }
+        },
+        {
+          "Key": "480527AA-4CD5611A-25F5E2A7-83AA1717",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_DragonSlayer_Beat2:QFT_SetQuestObjective_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.125"
+          }
+        },
+        {
+          "Key": "3948FB87-489E6510-EEA06090-24660E8F",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DragonSlayer_Beat2:QFT_UpdateQuestLocation_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.137"
+          }
+        },
+        {
+          "Key": "4BEC2E9C-41602CCA-E428C89D-C02C7ABB",
+          "Value": {
+            "ObjectName": "QFT_AdjustMapToShowPlayerAndLandmark_C'QF_DragonSlayer_Beat2:QFT_AdjustMapToShowPlayerAndLandmark_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.44"
+          }
+        },
+        {
+          "Key": "5C42FEE4-41DABA1C-91AB56B7-A54C76B9",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_DragonSlayer_Beat2:QFT_SetQuestBool_C_13'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.114"
+          }
+        },
+        {
+          "Key": "A11C8E9F-4E0FD528-AD6B9A9C-273F1398",
+          "Value": {
+            "ObjectName": "QFT_QueueQuestFlowOnMapClose_C'QF_DragonSlayer_Beat2:QFT_QueueQuestFlowOnMapClose_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.110"
+          }
+        },
+        {
+          "Key": "C5A7CBA5-452E9196-EA9E198A-43A9280C",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DragonSlayer_Beat2:QFT_Blank_C_24'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.62"
+          }
+        },
+        {
+          "Key": "DCB28454-450C805A-78ED3989-44C35D95",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DragonSlayer_Beat2:QFT_PromptMessage_C_6'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.107"
+          }
+        }
+      ],
+      "EntryTags": [
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.DragonSlayer.WOMBeat2Entry"
+          },
+          "DestinationList": [
+            "B9188607-4808D78A-3A51C99D-209AF10B"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.DragonSlayer.CastlePieceFound"
+          },
+          "DestinationList": [
+            "ABB78072-42368435-0EF8A7B4-8A9E3C23"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.DragonSlayer.GoblinVaultEntry"
+          },
+          "DestinationList": [
+            "14751870-4F1618A2-463841A1-76F96A0E"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.DragonSlayer.SkipBeat2"
+          },
+          "DestinationList": [
+            "4EDDD9EC-4F89CB7C-9271EF9D-239648A9"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.DragonSlayer.LocationRitualEntry"
+          },
+          "DestinationList": [
+            "5B4487E4-46A3E11B-1B7CB2B8-BCD44A38"
+          ],
+          "EntryIdentifier": ""
+        }
+      ],
+      "ExitTags": [
+        "QuestFlow.Entry.DragonSlayer.SkipBeat1",
+        "QuestFlow.Entry.DragonSlayer.SkipFTUE",
+        "QuestFlow.Entry.DragonSlayer.ReEnterDialogue"
+      ],
+      "InternalNodeIds": [
+        "5B4487E4-46A3E11B-1B7CB2B8-BCD44A38",
+        "13EF473C-434B74DF-0E3B27BE-6BE3959F",
+        "4EDDD9EC-4F89CB7C-9271EF9D-239648A9",
+        "AF856C6C-46136A38-5A63B8AF-14E7276F",
+        "A07644B0-49CB6F8F-9C99A7B9-4BB9E58A",
+        "490A9AD4-44C29831-652BAAA2-3820A94C",
+        "0E9DD621-43D8ADDB-FE6364A5-A95C2425",
+        "55DDC4DE-49466722-EF256C83-E456F121",
+        "2704262C-431CBC74-847A84B8-61B78DAF",
+        "14751870-4F1618A2-463841A1-76F96A0E",
+        "3B7ECC4A-42FF7191-13CED6BB-5FB19574",
+        "ABFCF1D7-43F0BBB2-696271BA-36633197",
+        "A6223AF7-46151D81-84DF67A8-AE89FED3",
+        "DF7FF518-4719C4A8-B1ADF790-11C45809",
+        "68E07AA0-4B887D94-4869679E-FF611A7B",
+        "254B02F5-40668CBD-16FF40AB-1EEC14DC",
+        "EAAAD953-4C356173-79F6B785-E69E8609",
+        "1222732A-4C238417-015DC2BB-54D823E9",
+        "C00D93A9-4EE44744-BBB48A8C-32D71FEE",
+        "F832FB03-428A4087-01E274BB-B3456896",
+        "CFD1576A-48B7CF74-8C43C28A-90F943B0",
+        "48F0C245-48EEEB8D-53824BA7-C15369A2",
+        "60E2A824-48772564-816A0BB5-CF4B50EC",
+        "00C66CA5-4D3DA92E-50D8E680-8052469B",
+        "EF47D33F-4CFAA8F8-D9495492-C3831C64",
+        "3BB64A8B-4DAB9D24-8D61C08E-05AA5929",
+        "16C6F2FA-466F6944-5AAC59BB-35667671",
+        "07FB7EB5-4CDF542E-768A28B7-089B8B68",
+        "C3C850B0-4F85F57B-BB8980AB-F625524B",
+        "EA1765B6-4D06937D-BA7C62A2-812CEF96",
+        "0D6E8AF1-4F589444-400B75AF-81735491",
+        "97E55B61-42D6DD00-E2B8D89E-E7084253",
+        "E2EF6324-4BE015D5-CB39F48D-82F771FE",
+        "ABB78072-42368435-0EF8A7B4-8A9E3C23",
+        "6D53DE0F-450F2A78-3A7C9292-83A19FCB",
+        "707F9528-4EA3FC54-F2E071B1-19F21252",
+        "6AB9B591-4F47B2D6-A7B52489-65CE42B8",
+        "0E148C96-47128DA9-F1A4B394-F3F843EE",
+        "6ABF29B2-420A39D5-7309128E-5B8BE8FC",
+        "6C1772CB-4CB528C5-1C2A1486-CDD1C27D",
+        "CE89DE44-4C50A228-E8B1A28B-294FA643",
+        "FAD3A192-46F6CF63-26B785A3-3450356B",
+        "1F66A713-4D503E47-7B0A2CA3-F82A2E41",
+        "F08ACD5F-4E95C0FE-2E292AA7-318C7AFD",
+        "64E35D3C-4DE957D2-A1B54F98-CA02D3DF",
+        "B5F035C4-4547AD3E-82B880B3-6DF4AD05",
+        "EA5254AE-45E89EBF-61B2B0AA-3B170DEB",
+        "1709715C-4D17FAB4-0C6098BB-08A42275",
+        "EB498918-4950EE63-05440C92-867E53A1",
+        "37270818-49ECB0FA-5E6147AF-FF5E6E72",
+        "D3EB528D-49209CEF-EEFCF4B9-51D549DD",
+        "8A9DB7ED-45FD6C00-6D789E8D-4BE35CD6",
+        "BEDBE44B-430C8D76-C900F7A9-593F8112",
+        "2C670450-4C3FB8B1-CA10799F-BEFCFAE1",
+        "B9188607-4808D78A-3A51C99D-209AF10B",
+        "FBCBECA2-45A0B043-50FD93A8-54306B90",
+        "03BCA788-40B852CC-F52FDF91-26816BA7",
+        "E184150F-40CFC0A3-D0F8E39A-693D1357",
+        "81489BAC-495727E2-87E5DA93-402E1023",
+        "08D24ECE-43A3B9BC-E41CF982-730AC4E0",
+        "705FCB02-46845E0A-272C868B-3F8B7BD0",
+        "D7E9415E-4E1F1382-735FEEAE-0474FDD2",
+        "48F9FCDD-40497919-F5520698-240E18B1",
+        "2AFBF6B0-4BF53785-AA5A3E9E-7EBA794E",
+        "D894F534-466C8DF4-3A674FAB-60FBF79F",
+        "2691AF9E-412A0237-D10E99B1-4D155CDC",
+        "78AD2567-4C68B4B2-B85545AC-02E5D689",
+        "1284EE28-4E529409-2B250DB8-842E8869",
+        "20B810F1-44AB44EC-8F06EC9B-82B05A53",
+        "7DA08944-496A3B9B-E2B0F3BC-D1EE6084",
+        "75797C27-4A8B8647-6CE5E1B8-814FB6ED",
+        "85B52F58-4D0D40BA-898ACA9C-8424171D",
+        "CD4EDFFC-44833C9D-7C1F33B7-A0713559",
+        "58095784-41F60A25-E8559E8C-98182D77",
+        "E18AB929-4FA8B5CA-10A4D2A3-7CF12F85",
+        "B50480DE-482D25EA-2E16DD82-8320E418",
+        "C66AF8A1-49D3C08E-386F9BA9-49604DA1",
+        "C8C5FDA7-42DF908F-69471DB0-DD2AEE60",
+        "0BB5992F-4B49143D-423435AE-330F531A",
+        "B429B249-4BBBFDEB-4FBD8986-78F7FFA6",
+        "4C1D2939-40D45991-091B69B0-29A1D07C",
+        "51989631-46A24F79-ED0528B1-3C450EC7",
+        "C9D65DEF-49FE84AB-D61E5E99-53057FB7",
+        "1481D8B6-4E40911B-A8E88997-C4525168",
+        "A595700D-43B8D477-6DA3F1B0-D5BA8962",
+        "1A23B511-42318414-311E2BA6-6F660B59",
+        "C8191952-45991610-0CD6369F-6182DE75",
+        "F6F7864B-4589988C-4B479E88-FC56F08A",
+        "95DB8D9F-45C18F5F-A75B4F8E-2D5AFC91",
+        "81A61EEC-4D0EA03F-208A4087-D02C9A61",
+        "14A4CB05-401787B9-5F73689F-64836866",
+        "FAF62B67-4ABAB1A3-4C4F55BC-68609ED5",
+        "EAA2C33A-44F575EA-C3B62FA2-DB638FD5",
+        "71105525-48F354C6-67E1929C-71C0EE71",
+        "089C1FF4-4ADD2CB4-256C4CA3-93DC450A",
+        "F39E11A9-45D69CA4-70C8A783-4764F12D",
+        "ED1AEE8B-4485AB47-270B14B4-B3D5E1C8",
+        "FB48B21C-4924B246-B19E15B3-17E314AF",
+        "E50D0561-4106A086-8FD40A94-D6259BEB",
+        "B2044057-4BEA7F8C-C155A48F-1329B103",
+        "C7CA865A-4796ED20-F4FF96BF-B2E021DC",
+        "480527AA-4CD5611A-25F5E2A7-83AA1717",
+        "3948FB87-489E6510-EEA06090-24660E8F",
+        "4BEC2E9C-41602CCA-E428C89D-C02C7ABB",
+        "5C42FEE4-41DABA1C-91AB56B7-A54C76B9",
+        "A11C8E9F-4E0FD528-AD6B9A9C-273F1398",
+        "C5A7CBA5-452E9196-EA9E198A-43A9280C",
+        "DCB28454-450C805A-78ED3989-44C35D95"
+      ]
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.DragonSlayer.SkipBeat2"
+      },
+      "OutputConnections": [
+        "AF856C6C-46136A38-5A63B8AF-14E7276F"
+      ],
+      "Compiled_NodeGUID": "4EDDD9EC-4F89CB7C-9271EF9D-239648A9"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.DragonSlayer.WOMBeat2Entry"
+      },
+      "OutputConnections": [
+        "0BB5992F-4B49143D-423435AE-330F531A",
+        "FBCBECA2-45A0B043-50FD93A8-54306B90"
+      ],
+      "Compiled_NodeGUID": "B9188607-4808D78A-3A51C99D-209AF10B"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.DragonSlayer.LocationRitualEntry"
+      },
+      "OutputConnections": [
+        "13EF473C-434B74DF-0E3B27BE-6BE3959F"
+      ],
+      "Compiled_NodeGUID": "5B4487E4-46A3E11B-1B7CB2B8-BCD44A38"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_29",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.DragonSlayer.CastlePieceFound"
+      },
+      "OutputConnections": [
+        "6D53DE0F-450F2A78-3A7C9292-83A19FCB"
+      ],
+      "Compiled_NodeGUID": "ABB78072-42368435-0EF8A7B4-8A9E3C23"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_30",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.DragonSlayer.GoblinVaultEntry"
+      },
+      "OutputConnections": [
+        "E2EF6324-4BE015D5-CB39F48D-82F771FE",
+        "EAAAD953-4C356173-79F6B785-E69E8609",
+        "254B02F5-40668CBD-16FF40AB-1EEC14DC",
+        "68E07AA0-4B887D94-4869679E-FF611A7B",
+        "A6223AF7-46151D81-84DF67A8-AE89FED3",
+        "3B7ECC4A-42FF7191-13CED6BB-5FB19574"
+      ],
+      "Compiled_NodeGUID": "14751870-4F1618A2-463841A1-76F96A0E"
+    }
+  },
+  {
+    "Type": "ConversationLinkNode",
+    "Name": "ConversationLinkNode_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Class": "UScriptClass'ConversationLinkNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RemoteEntryTag": {
+        "TagName": "QuestFlow.Entry.DragonSlayer.ReEnterDialogue"
+      },
+      "SubNodes": [
+        {
+          "ObjectName": "QFR_TestQuestBoolsOR_C'QF_DragonSlayer_Beat2:QFR_TestQuestBoolsOR_C_0'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.28"
+        }
+      ],
+      "Compiled_NodeGUID": "C8C5FDA7-42DF908F-69471DB0-DD2AEE60",
+      "ParentNode": {
+        "ObjectName": "QFT_PromptMessage_C'QF_DragonSlayer_Beat2:QFT_PromptMessage_C_11'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.84"
+      }
+    }
+  },
+  {
+    "Type": "ConversationLinkNode",
+    "Name": "ConversationLinkNode_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Class": "UScriptClass'ConversationLinkNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RemoteEntryTag": {
+        "TagName": "QuestFlow.Entry.DragonSlayer.ReEnterDialogue"
+      },
+      "SubNodes": [
+        {
+          "ObjectName": "QFR_TestQuestBoolsOR_C'QF_DragonSlayer_Beat2:QFR_TestQuestBoolsOR_C_2'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.29"
+        }
+      ],
+      "Compiled_NodeGUID": "95DB8D9F-45C18F5F-A75B4F8E-2D5AFC91",
+      "ParentNode": {
+        "ObjectName": "QFT_PromptMessage_C'QF_DragonSlayer_Beat2:QFT_PromptMessage_C_30'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.101"
+      }
+    }
+  },
+  {
+    "Type": "ConversationLinkNode",
+    "Name": "ConversationLinkNode_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Class": "UScriptClass'ConversationLinkNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RemoteEntryTag": {
+        "TagName": "QuestFlow.Entry.DragonSlayer.SkipBeat1"
+      },
+      "OutputConnections": [
+        "D3EB528D-49209CEF-EEFCF4B9-51D549DD"
+      ],
+      "Compiled_NodeGUID": "37270818-49ECB0FA-5E6147AF-FF5E6E72",
+      "ParentNode": {
+        "ObjectName": "QFT_GiveQuest_C'QF_DragonSlayer_Beat2:QFT_GiveQuest_C_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.76"
+      }
+    }
+  },
+  {
+    "Type": "ConversationLinkNode",
+    "Name": "ConversationLinkNode_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Class": "UScriptClass'ConversationLinkNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RemoteEntryTag": {
+        "TagName": "QuestFlow.Entry.DragonSlayer.SkipFTUE"
+      },
+      "OutputConnections": [
+        "8A9DB7ED-45FD6C00-6D789E8D-4BE35CD6"
+      ],
+      "Compiled_NodeGUID": "D3EB528D-49209CEF-EEFCF4B9-51D549DD",
+      "ParentNode": {
+        "ObjectName": "ConversationLinkNode'QF_DragonSlayer_Beat2:ConversationLinkNode_3'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.8"
+      }
+    }
+  },
+  {
+    "Type": "QFR_PlayerDoesntHaveItem_C",
+    "Name": "QFR_PlayerDoesntHaveItem_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerDoesntHaveSpaceForItems_C",
+    "Name": "QFR_PlayerDoesntHaveSpaceForItems_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasItemAmount_C",
+    "Name": "QFR_PlayerHasItemAmount_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasSpaceForItems_C",
+    "Name": "QFR_PlayerHasSpaceForItems_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_12",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_14",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_16",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_19",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_21",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_91",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBoolsOR_C",
+    "Name": "QFR_TestQuestBoolsOR_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBoolsOR_C",
+    "Name": "QFR_TestQuestBoolsOR_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_12",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_13",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_14",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_15",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_16",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_AdjustMapToShowPlayerAndLandmark_C",
+    "Name": "QFT_AdjustMapToShowPlayerAndLandmark_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_12",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_13",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_14",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_15",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_16",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_17",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_18",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_19",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_20",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_21",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_22",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_23",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_24",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_25",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_26",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_27",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_28",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_41",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveItemToPlayer_C",
+    "Name": "QFT_GiveItemToPlayer_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveQuest_C",
+    "Name": "QFT_GiveQuest_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_ModifyQuestInt_C",
+    "Name": "QFT_ModifyQuestInt_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_ModifyQuestInt_C",
+    "Name": "QFT_ModifyQuestInt_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_ModifyQuestInt_C",
+    "Name": "QFT_ModifyQuestInt_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_OpenMap_C",
+    "Name": "QFT_OpenMap_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_14",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_15",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_16",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_17",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_18",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_19",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_21",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_22",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_23",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_25",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_26",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_27",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_28",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_29",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_30",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_31",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_32",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_33",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_QueueQuestFlowOnMapClose_C",
+    "Name": "QFT_QueueQuestFlowOnMapClose_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_13",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_14",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_15",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_13",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_TakeItemFromPlayer_C",
+    "Name": "QFT_TakeItemFromPlayer_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_18",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_21",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_Play2DSting_C",
+    "Name": "SEN_Play2DSting_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DragonSlayer_Beat2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/DragonSlayer/QF_DragonSlayer_Beat2.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  }
+]

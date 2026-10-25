@@ -1,0 +1,37 @@
+[
+  {
+    "Type": "DominionSoundClass",
+    "Name": "SpectralSkeleton",
+    "Class": "UScriptClass'DominionSoundClass'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "OcclusionMultiplier": 1.0,
+      "ChildClasses": [
+        {
+          "ObjectName": "DominionSoundClass'SpectralSkeleton_Foley'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/Spectral/SpectralSkeleton_Foley"
+        },
+        {
+          "ObjectName": "DominionSoundClass'SpectralSkeleton_Vox_Com_Maj'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/Spectral/SpectralSkeleton_Vox_Com_Maj"
+        },
+        {
+          "ObjectName": "DominionSoundClass'SpectralSkeleton_Vox_Com_Min'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/Spectral/SpectralSkeleton_Vox_Com_Min"
+        },
+        {
+          "ObjectName": "DominionSoundClass'SpectralSkeleton_Vox_NonCom_Maj'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/Spectral/SpectralSkeleton_Vox_NonCom_Maj"
+        },
+        {
+          "ObjectName": "DominionSoundClass'SpectralSkeleton_Vox_NonCom_Min'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/Spectral/SpectralSkeleton_Vox_NonCom_Min"
+        }
+      ],
+      "ParentClass": {
+        "ObjectName": "DominionSoundClass'Spectral'",
+        "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/Spectral/Spectral"
+      }
+    }
+  }
+]

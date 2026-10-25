@@ -1,0 +1,46 @@
+[
+  {
+    "Type": "DominionSoundClass",
+    "Name": "Chicken",
+    "Class": "UScriptClass'DominionSoundClass'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MinReverbSend": 0.1,
+      "MaxReverbSend": 0.5,
+      "OcclusionMultiplier": 1.0,
+      "Properties": {
+        "Volume": 0.6729368
+      },
+      "ChildClasses": [
+        {
+          "ObjectName": "DominionSoundClass'Chicken_Foley'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/Chicken/Chicken_Foley"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Chicken_FS'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/Chicken/Chicken_FS"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Chicken_Vox_Com_Maj'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/Chicken/Chicken_Vox_Com_Maj"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Chicken_Vox_Com_Min'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/Chicken/Chicken_Vox_Com_Min"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Chicken_Vox_NonCom_Maj'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/Chicken/Chicken_Vox_NonCom_Maj"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Chicken_Vox_NonCom_Min'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/Chicken/Chicken_Vox_NonCom_Min"
+        }
+      ],
+      "ParentClass": {
+        "ObjectName": "DominionSoundClass'AI'",
+        "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/AI"
+      }
+    }
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "Type": "BuildingPieceData",
+    "Name": "DA_T4_Flat_Roof_Medium02",
+    "Class": "UScriptClass'BuildingPieceData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DerivedData": {
+        "AssetPathName": "/Game/Gameplay/BaseBuilding_New/BuildingPieces_DerivedData/Tier4_UmbralSands/Roofs/DA_T4_Flat_Roof_Medium02_DerivedData.DA_T4_Flat_Roof_Medium02_DerivedData",
+        "SubPathString": ""
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/BaseBuilding_New/BuildingPieces/ST_BuildingPieces.ST_BuildingPieces",
+        "Key": "BuildPiece.FlatRoofMedium.Name",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Description": {
+        "TableId": "/Game/Gameplay/BaseBuilding_New/BuildingPieces/ST_BuildingPieces.ST_BuildingPieces",
+        "Key": "BuildPiece.Roof.Description",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "DisplayIcon": {
+        "AssetPathName": "/Game/Art/UI/Icons/T4_Building_Icons/Roofs/T_Icon_BB_T4_Roof_Med_02.T_Icon_BB_T4_Roof_Med_02",
+        "SubPathString": ""
+      },
+      "BuildableActor": {
+        "AssetPathName": "/Game/Gameplay/BaseBuilding_New/BuildingPieces/Tier4_UmbralSands/Roofs/BP_T4_Flat_Roof_Medium02.BP_T4_Flat_Roof_Medium02_C",
+        "SubPathString": ""
+      },
+      "Requirements": [
+        {
+          "Amount": 2,
+          "ItemData": {
+            "ObjectName": "FuelItemData'ITEM_Resources_Plank_Yew'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Resources/Processed/ITEM_Resources_Plank_Yew"
+          }
+        },
+        {
+          "Amount": 1,
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Cloth_Desert'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Resources/Processed/ITEM_Resources_Cloth_Desert"
+          }
+        },
+        {
+          "Amount": 1,
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Flax'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Plant/ITEM_Resources_Flax"
+          }
+        }
+      ],
+      "ConstructionXPOnBuild": 40,
+      "PieceTag": {
+        "TagName": "BaseBuilding.PieceType.Base"
+      },
+      "BuildingStabilityProfileRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_StabilityProfile'",
+          "ObjectPath": "/Game/Gameplay/BaseBuilding_New/DT_StabilityProfile"
+        },
+        "RowName": "Tier3_Base"
+      },
+      "BuildXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Building'",
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Building"
+        },
+        "RowName": "Build_Floor_Tier3_Med"
+      },
+      "RepresentationCategory": "EBuildingPieceRepresentationCategory::Lightweight",
+      "PersistenceID": "CeLW_0WcA2SUzZCju68Fmg"
+    }
+  }
+]

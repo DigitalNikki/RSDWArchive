@@ -1,0 +1,95 @@
+[
+  {
+    "Type": "AudioZoneData",
+    "Name": "ADA_AudioZone_FH_MournBarren",
+    "Class": "UScriptClass'AudioZoneData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AudioZoneEmitterEvents_DayTime": [
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_EuropeanKestrel'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/Region1/MSS_Wo_EmMo_EuropeanKestrel"
+          },
+          "Weight": 25
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_RavenCroak'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/Region1/MSS_Wo_EmMo_RavenCroak"
+          },
+          "Weight": 40
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_FH_Bird'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/Fellhollow/Emitters/MSS_Wo_EmMo_FH_Bird"
+          },
+          "Weight": 50
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_RavenCroak_Distant'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/Fellhollow/Emitters/MSS_Wo_EmMo_RavenCroak_Distant"
+          },
+          "Weight": 60
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_FH_Cicada'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/Fellhollow/Emitters/MSS_Wo_EmMo_FH_Cicada"
+          },
+          "Weight": 30
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_FH_Meadowlark'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/Fellhollow/Emitters/MSS_Wo_EmMo_FH_Meadowlark"
+          },
+          "Weight": 39
+        }
+      ],
+      "AudioZoneEmitterEvents_NightTime": [
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_Grasshopper'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/Region1_Night/MSS_Wo_EmMo_Grasshopper"
+          },
+          "Weight": 30
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_TreeCreak'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/Fellhollow/Emitters/MSS_Wo_EmMo_TreeCreak"
+          },
+          "Weight": 39
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_CricketChirps2'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/Region1_Night/MSS_Wo_EmMo_CricketChirps2"
+          },
+          "Weight": 31
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_BC_Wo_EmMo_CrowMorphedNight'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/Generic/BeautifulCorner/AmbEmitters/MSS_BC_Wo_EmMo_CrowMorphedNight"
+          },
+          "Weight": 37
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_FH_Cicada'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/Fellhollow/Emitters/MSS_Wo_EmMo_FH_Cicada"
+          },
+          "Weight": 36
+        }
+      ],
+      "Priority": 5,
+      "ZoneEmitterCap": 1,
+      "ProbabilityToSpawnNonDiegeticEmitterDay": 15.0,
+      "ProbabilityToSpawnNonDiegeticEmitterNight": 4.0
+    }
+  }
+]

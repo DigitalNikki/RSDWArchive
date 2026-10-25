@@ -1,0 +1,50 @@
+[
+  {
+    "Type": "DominionSoundClass",
+    "Name": "SFX",
+    "Class": "UScriptClass'DominionSoundClass'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Properties": {
+        "DefaultSubmix": {
+          "ObjectName": "SoundSubmix'SFX'",
+          "ObjectPath": "/Game/Audio/Submixes/SFX"
+        }
+      },
+      "ChildClasses": [
+        {
+          "ObjectName": "DominionSoundClass'AI'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/AI"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Ambience'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Ambience/Ambience"
+        },
+        {
+          "ObjectName": "DominionSoundClass'WorldActor'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/WorldActor/WorldActor"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Player'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Player/Player"
+        },
+        {
+          "ObjectName": "DominionSoundClass'UI'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/UI/UI"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Boss'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Boss/Boss"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Generic_Tails'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Generic/Generic_Tails"
+        }
+      ],
+      "ParentClass": {
+        "ObjectName": "DominionSoundClass'DOM_Master'",
+        "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/DOM_Master"
+      }
+    }
+  }
+]

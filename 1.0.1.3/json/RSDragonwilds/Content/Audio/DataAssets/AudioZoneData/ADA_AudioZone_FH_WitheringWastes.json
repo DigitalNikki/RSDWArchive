@@ -1,0 +1,102 @@
+[
+  {
+    "Type": "AudioZoneData",
+    "Name": "ADA_AudioZone_FH_WitheringWastes",
+    "Class": "UScriptClass'AudioZoneData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AudioZoneEmitterEvents_DayTime": [
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_Fel_WitheringWastes_DistantScreecher'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/Region2/WitheringWastes/MSS_Wo_EmMo_Fel_WitheringWastes_DistantScreecher"
+          },
+          "Weight": 25
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_SoulsScreamsLow'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/Fellhollow/Emitters/MSS_Wo_EmMo_SoulsScreamsLow"
+          },
+          "Weight": 40
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_RavenCroak_Distant'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/Fellhollow/Emitters/MSS_Wo_EmMo_RavenCroak_Distant"
+          },
+          "Weight": 50
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_Fel_WitheringWastes_ParrotMonster'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/Region2/WitheringWastes/MSS_Wo_EmMo_Fel_WitheringWastes_ParrotMonster"
+          },
+          "Weight": 60
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_Fel_WitheringWastes_DeepWarble'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/Region2/WitheringWastes/MSS_Wo_EmMo_Fel_WitheringWastes_DeepWarble"
+          },
+          "Weight": 30
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_StoneCrumbles'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/Generic/Dungeon/MSS_Wo_EmMo_StoneCrumbles"
+          },
+          "Weight": 39
+        }
+      ],
+      "AudioZoneEmitterEvents_NightTime": [
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_Fel_WitheringWastes_DistantScreecher'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/Region2/WitheringWastes/MSS_Wo_EmMo_Fel_WitheringWastes_DistantScreecher"
+          },
+          "Weight": 30
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_SoulsScreamsLow'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/Fellhollow/Emitters/MSS_Wo_EmMo_SoulsScreamsLow"
+          },
+          "Weight": 39
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_RavenCroak_Distant'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/Fellhollow/Emitters/MSS_Wo_EmMo_RavenCroak_Distant"
+          },
+          "Weight": 31
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_BC_Wo_EmMo_CrowMorphedNight'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/Generic/BeautifulCorner/AmbEmitters/MSS_BC_Wo_EmMo_CrowMorphedNight"
+          },
+          "Weight": 37
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_AbstractMoans'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/Fellhollow/Emitters/MSS_Wo_EmMo_AbstractMoans"
+          },
+          "Weight": 36
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_Fel_WitheringWastes_DeepWarble'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/Region2/WitheringWastes/MSS_Wo_EmMo_Fel_WitheringWastes_DeepWarble"
+          },
+          "Weight": 51
+        }
+      ],
+      "Priority": 5,
+      "ZoneEmitterCap": 1,
+      "ProbabilityToSpawnNonDiegeticEmitterDay": 10.0,
+      "ProbabilityToSpawnNonDiegeticEmitterNight": 2.0
+    }
+  }
+]

@@ -1,0 +1,109 @@
+[
+  {
+    "Type": "AudioZoneData",
+    "Name": "ADA_AudioZone_GFHighlands",
+    "Class": "UScriptClass'AudioZoneData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AudioZoneEmitterEvents_DayTime": [
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_AfricanGreyHornbill'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/Region1/MSS_Wo_EmMo_AfricanGreyHornbill"
+          },
+          "Weight": 45
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_EuropeanKestrel'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/Region1/MSS_Wo_EmMo_EuropeanKestrel"
+          },
+          "Weight": 50
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_HarrisHawk'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/Region1/MSS_Wo_EmMo_HarrisHawk"
+          },
+          "Weight": 50
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_Kea'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/Region1/MSS_Wo_EmMo_Kea"
+          },
+          "Weight": 25
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_LannerFalcon'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/Region1/MSS_Wo_EmMo_LannerFalcon"
+          },
+          "Weight": 45
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_RedLeggedSeriema'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/Region1/MSS_Wo_EmMo_RedLeggedSeriema"
+          },
+          "Weight": 15
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_ScaledQuail'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/Region1/MSS_Wo_EmMo_ScaledQuail"
+          },
+          "Weight": 50
+        }
+      ],
+      "AudioZoneEmitterEvents_NightTime": [
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_NightCreature10'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/Region1_Night/MSS_Wo_EmMo_NightCreature10"
+          },
+          "Weight": 30
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_WhiteBackVulture'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/Region1_Night/MSS_Wo_EmMo_WhiteBackVulture"
+          },
+          "Weight": 68
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_Grasshopper'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/Region1_Night/MSS_Wo_EmMo_Grasshopper"
+          },
+          "Weight": 55
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_BarnOwl'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/Region1_Night/MSS_Wo_EmMo_BarnOwl"
+          },
+          "Weight": 38
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_TrumpeterHornbill'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/Region1_Night/MSS_Wo_EmMo_TrumpeterHornbill"
+          },
+          "Weight": 49
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_CricketChirps'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/Region1_Night/MSS_Wo_EmMo_CricketChirps"
+          },
+          "Weight": 52
+        }
+      ],
+      "Priority": 2,
+      "ZoneEmitterCap": 3,
+      "ProbabilityToSpawnNonDiegeticEmitterDay": 2.0,
+      "ProbabilityToSpawnNonDiegeticEmitterNight": 0.5
+    }
+  }
+]

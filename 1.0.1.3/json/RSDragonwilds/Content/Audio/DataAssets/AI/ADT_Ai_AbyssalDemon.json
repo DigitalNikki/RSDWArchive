@@ -1,0 +1,1278 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ADT_Ai_AbyssalDemon",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Object'AiAnimationAudioTableRowBase'",
+        "ObjectPath": "/Script/Dominion"
+      }
+    },
+    "Rows": {
+      "FinisherBlast": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Co_AbyssalDemon_FinisherBlast'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Combat/MSS_BC_En_Co_AbyssalDemon_FinisherBlast"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "FinisherSlash": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Co_AbyssalDemon_FinisherSlash'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Combat/MSS_BC_En_Co_AbyssalDemon_FinisherSlash"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "FinisherStab": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Co_AbyssalDemon_FinisherStab'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Combat/MSS_BC_En_Co_AbyssalDemon_FinisherStab"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "FrenzyProjectile_debris": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Co_AbyssalDemon_FrenzyProjectile_debris'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Combat/MSS_BC_En_Co_AbyssalDemon_FrenzyProjectile_debris"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "FrenzyProjectile_Explosion": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Co_AbyssalDemon_FrenzyProjectile_Explosion'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Combat/MSS_BC_En_Co_AbyssalDemon_FrenzyProjectile_Explosion"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "FrenzyProjectile_loop": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Co_AbyssalDemon_FrenzyProjectile_loop'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Combat/MSS_BC_En_Co_AbyssalDemon_FrenzyProjectile_loop"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "FrenzyStabGround": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Co_AbyssalDemon_FrenzyStabGround'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Combat/MSS_BC_En_Co_AbyssalDemon_FrenzyStabGround"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "PullOut": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Co_AbyssalDemon_PullOut'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Combat/MSS_BC_En_Co_AbyssalDemon_PullOut"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "SlashRight": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Co_AbyssalDemon_SlashRight'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Combat/MSS_BC_En_Co_AbyssalDemon_SlashRight"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "StabGround": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Co_AbyssalDemon_StabGround'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Combat/MSS_BC_En_Co_AbyssalDemon_StabGround"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "WarpAbility_Full": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Co_AbyssalDemon_WarpAbility_Full'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Combat/MSS_BC_En_Co_AbyssalDemon_WarpAbility_Full"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "WarpAbility_In": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Co_AbyssalDemon_WarpAbility_In'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Combat/MSS_BC_En_Co_AbyssalDemon_WarpAbility_In"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "WarpAbility_Out": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Co_AbyssalDemon_WarpAbility_Out'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Combat/MSS_BC_En_Co_AbyssalDemon_WarpAbility_Out"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "WarpOutOnly": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Co_AbyssalDemon_WarpOutOnly'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Combat/MSS_BC_En_Co_AbyssalDemon_WarpOutOnly"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "AttackSparks": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Co_AbyssalDemon_AttackSparks'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Foley/MSS_BC_En_Co_AbyssalDemon_AttackSparks"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Bodyfall_Grass": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Co_AbyssalDemon_Bodyfall_Grass'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Foley/MSS_BC_En_Co_AbyssalDemon_Bodyfall_Grass"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": true,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "ChestGlowSparks": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Co_AbyssalDemon_ChestGlowSparks'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Foley/MSS_BC_En_Co_AbyssalDemon_ChestGlowSparks"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "ChestMouth": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Co_AbyssalDemon_ChestMouth'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Foley/MSS_BC_En_Co_AbyssalDemon_ChestMouth"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "ChestOrb_Hit": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Co_AbyssalDemon_ChestOrb_Hit'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Foley/MSS_BC_En_Co_AbyssalDemon_ChestOrb_Hit"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "DeathEnergy": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Co_AbyssalDemon_DeathEnergy'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Foley/MSS_BC_En_Co_AbyssalDemon_DeathEnergy"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "FootstepExplosion_Layer": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Co_AbyssalDemon_FootstepExplosion_Layer'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Foley/MSS_BC_En_Co_AbyssalDemon_FootstepExplosion_Layer"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "back_leg6_l",
+          "back_leg6_r",
+          "front_leg6_l",
+          "front_leg6_r"
+        ]
+      },
+      "LegMovement": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Co_AbyssalDemon_LegMovement'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Foley/MSS_BC_En_Co_AbyssalDemon_LegMovement"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "back_leg6_l",
+          "back_leg6_r",
+          "front_leg6_l",
+          "front_leg6_r"
+        ]
+      },
+      "OrbChestOpen": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Co_AbyssalDemon_OrbChestOpen'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Foley/MSS_BC_En_Co_AbyssalDemon_OrbChestOpen"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "OrbDrop": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Co_AbyssalDemon_OrbDrop'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Foley/MSS_BC_En_Co_AbyssalDemon_OrbDrop"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "OrbLoop_External": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Co_AbyssalDemon_OrbLoop_External'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Foley/MSS_BC_En_Co_AbyssalDemon_OrbLoop_External"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "OrbLoop_Internal": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Co_AbyssalDemon_OrbLoop_Internal'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Foley/MSS_BC_En_Co_AbyssalDemon_OrbLoop_Internal"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "OrbRecall": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Co_AbyssalDemon_OrbRecall'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Foley/MSS_BC_En_Co_AbyssalDemon_OrbRecall"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "OrbRecall_Chomp": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Co_AbyssalDemon_OrbRecall_Chomp'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Foley/MSS_BC_En_Co_AbyssalDemon_OrbRecall_Chomp"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "ShellMovement": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Co_AbyssalDemon_ShellMovement'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Foley/MSS_BC_En_Co_AbyssalDemon_ShellMovement"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "AbyssalSlashVocalization": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Co_AbyssalDemon_AbyssalSlashVocalization'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Vox/Attack/MSS_BC_En_Co_AbyssalDemon_AbyssalSlashVocalization"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head"
+        ]
+      },
+      "DeathVocalization": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Co_AbyssalDemon_DeathVocalization'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Vox/Death/MSS_BC_En_Co_AbyssalDemon_DeathVocalization"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": true,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head"
+        ]
+      },
+      "FinisherVocalization": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Co_AbyssalDemon_FinisherVocalization'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Vox/Attack/MSS_BC_En_Co_AbyssalDemon_FinisherVocalization"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head"
+        ]
+      },
+      "FrenzyEndVocalization": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Co_AbyssalDemon_FrenzyEndVocalization'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Vox/Frenzy/MSS_BC_En_Co_AbyssalDemon_FrenzyEndVocalization"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head"
+        ]
+      },
+      "FrenzyStabVocalization_A": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Co_AbyssalDemon_FrenzyStabVocalization_A'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Vox/Frenzy/MSS_BC_En_Co_AbyssalDemon_FrenzyStabVocalization_A"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head"
+        ]
+      },
+      "FrenzyStabVocalization_B": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Co_AbyssalDemon_FrenzyStabVocalization_B'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Vox/Frenzy/MSS_BC_En_Co_AbyssalDemon_FrenzyStabVocalization_B"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head"
+        ]
+      },
+      "FrenzyStabVocalization_C": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Co_AbyssalDemon_FrenzyStabVocalization_C'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Vox/Frenzy/MSS_BC_En_Co_AbyssalDemon_FrenzyStabVocalization_C"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head"
+        ]
+      },
+      "FrenzyStartVocalization": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Co_AbyssalDemon_FrenzyStartVocalization'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Vox/Frenzy/MSS_BC_En_Co_AbyssalDemon_FrenzyStartVocalization"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head"
+        ]
+      },
+      "OrbRecoveryPain_Vocalisation": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Co_AbyssalDemon_OrbRecoveryPain_Vocalisation'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Vox/Stumble/MSS_BC_En_Co_AbyssalDemon_OrbRecoveryPain_Vocalisation"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head"
+        ]
+      },
+      "OrbSpitVocalisation": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Co_AbyssalDemon_OrbSpitVocalisation'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Vox/Stumble/MSS_BC_En_Co_AbyssalDemon_OrbSpitVocalisation"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head"
+        ]
+      },
+      "SlashVocalization": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Co_AbyssalDemon_SlashVocalization'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Vox/Attack/MSS_BC_En_Co_AbyssalDemon_SlashVocalization"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head"
+        ]
+      },
+      "Vox_Aggro_Vocalization": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Vox_AbyssalDemon_Aggro_Vocalization'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Vox/Aggro/MSS_BC_En_Vox_AbyssalDemon_Aggro_Vocalization"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head"
+        ]
+      },
+      "Vox_AggroInhale": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Vox_AbyssalDemon_AggroInhale'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Vox/Aggro/MSS_BC_En_Vox_AbyssalDemon_AggroInhale"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head"
+        ]
+      },
+      "Vox_HissLong": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Vox_AbyssalDemon_HissLong'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Vox/Idle/MSS_BC_En_Vox_AbyssalDemon_HissLong"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head"
+        ]
+      },
+      "Vox_HissLong_Loco": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Vox_AbyssalDemon_HissLong_Loco'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Vox/Idle/MSS_BC_En_Vox_AbyssalDemon_HissLong_Loco"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head"
+        ]
+      },
+      "Vox_HissShort": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Vox_AbyssalDemon_HissShort'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Vox/Idle/MSS_BC_En_Vox_AbyssalDemon_HissShort"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head"
+        ]
+      },
+      "Vox_HissShort_Loco": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Vox_AbyssalDemon_HissShort_Loco'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Vox/Idle/MSS_BC_En_Vox_AbyssalDemon_HissShort_Loco"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head"
+        ]
+      },
+      "Vox_HitReact": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Vox_AbyssalDemon_HitReact'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Vox/Stumble/StumbleHitReact/MSS_BC_En_Vox_AbyssalDemon_HitReact"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head"
+        ]
+      },
+      "Vox_Idle_Loop": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Vox_AbyssalDemon_Idle_Loop'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Vox/Idle/MSS_BC_En_Vox_AbyssalDemon_Idle_Loop"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head"
+        ]
+      },
+      "Vox_Idle_MandibleBite": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Vox_AbyssalDemon_Idle_MandibleBite'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Vox/Idle/MSS_BC_En_Vox_AbyssalDemon_Idle_MandibleBite"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head"
+        ]
+      },
+      "Vox_Idle_Passive_Vocalization": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Vox_AbyssalDemon_Idle_Passive_Vocalization'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Vox/Idle/MSS_BC_En_Vox_AbyssalDemon_Idle_Passive_Vocalization"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head"
+        ]
+      },
+      "Vox_Idle_TailTwitch": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Vox_AbyssalDemon_Idle_TailTwitch'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Vox/Idle/MSS_BC_En_Vox_AbyssalDemon_Idle_TailTwitch"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head"
+        ]
+      },
+      "Vox_Idle_Vocalization": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Vox_AbyssalDemon_Idle_Vocalization'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Vox/Idle/MSS_BC_En_Vox_AbyssalDemon_Idle_Vocalization"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head"
+        ]
+      },
+      "Vox_StumbleLoopVocalization": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Vox_AbyssalDemon_StumbleLoopVocalization'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Vox/Stumble/StumbleLoopVocalization/MSS_BC_En_Vox_AbyssalDemon_StumbleLoopVocalization"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head"
+        ]
+      },
+      "Vox_StumbleRecoveryVocalization": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Vox_AbyssalDemon_StumbleRecoveryVocalization'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Vox/Stumble/StumbleHitReact/MSS_BC_En_Vox_AbyssalDemon_StumbleRecoveryVocalization"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head"
+        ]
+      },
+      "Vox_StumbleVocalization": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Vox_AbyssalDemon_StumbleVocalization'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Vox/Stumble/StumbleHitReact/MSS_BC_En_Vox_AbyssalDemon_StumbleVocalization"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head"
+        ]
+      },
+      "Distant_Idle": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_AbyssalDemon_Distant_Idle_Call'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Distant_Idle/MSS_Cr_Vox_AbyssalDemon_Distant_Idle_Call"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head"
+        ]
+      },
+      "Footsteps": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_AbyssalDemonFootsteps'",
+              "ObjectPath": "/Game/Audio/DataAssets/FootstepData/ADA_AbyssalDemonFootsteps"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "back_leg6_l",
+          "back_leg6_r",
+          "front_leg6_l",
+          "front_leg6_r"
+        ]
+      },
+      "Footsteps_Light": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_AbyssalDemonFootsteps_Light'",
+              "ObjectPath": "/Game/Audio/DataAssets/FootstepData/ADA_AbyssalDemonFootsteps_Light"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "back_leg6_l",
+          "back_leg6_r",
+          "front_leg6_l",
+          "front_leg6_r"
+        ]
+      },
+      "Footsteps_Run": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_AbyssalDemonFootsteps_Run'",
+              "ObjectPath": "/Game/Audio/DataAssets/FootstepData/ADA_AbyssalDemonFootsteps_Run"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "back_leg6_l",
+          "back_leg6_r",
+          "front_leg6_l",
+          "front_leg6_r"
+        ]
+      },
+      "Footsteps_Run_Light": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_AbyssalDemonFootsteps_Run_Light'",
+              "ObjectPath": "/Game/Audio/DataAssets/FootstepData/ADA_AbyssalDemonFootsteps_Run_Light"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "back_leg6_l",
+          "back_leg6_r",
+          "front_leg6_l",
+          "front_leg6_r"
+        ]
+      },
+      "BodyFall": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_Cr_Bodyfall_Large'",
+              "ObjectPath": "/Game/Audio/DataAssets/Foley/ADA_Cr_Bodyfall_Large"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Void_Explosion_Windup": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.AbyssalDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Co_AbyssalDemon_OrbAbility_In'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Combat/MSS_BC_En_Co_AbyssalDemon_OrbAbility_In"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      }
+    }
+  }
+]

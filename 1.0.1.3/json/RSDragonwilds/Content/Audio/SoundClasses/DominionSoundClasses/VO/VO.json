@@ -1,0 +1,37 @@
+[
+  {
+    "Type": "DominionSoundClass",
+    "Name": "VO",
+    "Class": "UScriptClass'DominionSoundClass'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MinReverbSend": 0.1,
+      "MaxReverbSend": 0.5,
+      "Properties": {
+        "Volume": 0.30501017,
+        "VoiceCenterChannelVolume": 2.0,
+        "bCenterChannelOnly": true
+      },
+      "ChildClasses": [
+        {
+          "ObjectName": "DominionSoundClass'VO_Ichthlarin'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/VO/VO_Ichthlarin"
+        }
+      ],
+      "PassiveSoundMixModifiers": [
+        {
+          "SoundMix": {
+            "ObjectName": "SoundMix'Mix_Dialogue'",
+            "ObjectPath": "/Game/Audio/SoundMixes/Mix_Dialogue"
+          },
+          "MinVolumeThreshold": 0.0,
+          "MaxVolumeThreshold": 10.0
+        }
+      ],
+      "ParentClass": {
+        "ObjectName": "DominionSoundClass'DOM_Master'",
+        "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/DOM_Master"
+      }
+    }
+  }
+]

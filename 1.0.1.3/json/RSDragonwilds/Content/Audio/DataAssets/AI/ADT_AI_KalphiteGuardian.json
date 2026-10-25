@@ -1,0 +1,448 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ADT_AI_KalphiteGuardian",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Object'AiAnimationAudioTableRowBase'",
+        "ObjectPath": "/Script/Dominion"
+      }
+    },
+    "Rows": {
+      "Footsteps": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kalphite.Guardian"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_KalphiteFootsteps_Guardian'",
+              "ObjectPath": "/Game/Audio/DataAssets/FootstepData/ADA_KalphiteFootsteps_Guardian"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "mid_leg_foot_l",
+          "mid_leg_foot_r",
+          "back_leg_foot_r",
+          "back_leg_foot_l",
+          "front_leg_foot_l",
+          "front_leg_foot_r"
+        ]
+      },
+      "Mandible_Open_Telegraph": {
+        "AnimationActionType": "EAiAnimationAudioActions::Vox",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kalphite.Guardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_KalphiteGuardian_Misc_Short'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KalphiteFaction/KalphiteGuardian/Vox/MSS_En_Vox_KalphiteGuardian_Misc_Short"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "None"
+        ]
+      },
+      "WingFlutterShort": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kalphite.Guardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_KalphiteGuardian_WingFlutter_Shrt'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KalphiteFaction/KalphiteGuardian/Foley/MSS_En_Fo_KalphiteGuardian_WingFlutter_Shrt"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Carapace_Medium": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kalphite.Guardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_KalphiteGuardian_Carapace_Med'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KalphiteFaction/KalphiteGuardian/Foley/MSS_En_Fo_KalphiteGuardian_Carapace_Med"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Vox_Short_Aggressive": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kalphite.Guardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_KalphiteGuardian_Shrt_Aggrs'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KalphiteFaction/KalphiteGuardian/Vox/MSS_En_Vox_KalphiteGuardian_Shrt_Aggrs"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "MandibleFoley": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kalphite.Guardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_KalphiteGuardian_Mandible'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KalphiteFaction/KalphiteGuardian/Foley/MSS_En_Fo_KalphiteGuardian_Mandible"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "RandomSweetenerFoley": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kalphite.Guardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_KalphiteGuardian_RandomSweetener'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KalphiteFaction/KalphiteGuardian/Foley/MSS_En_Fo_KalphiteGuardian_RandomSweetener"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "KalphiteAggro": {
+        "AnimationActionType": "EAiAnimationAudioActions::Vox",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kalphite.Guardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_KalphiteGuardian_Aggro'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KalphiteFaction/KalphiteGuardian/Vox/MSS_En_Vox_KalphiteGuardian_Aggro"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Bodyfall": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kalphite.Guardian"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_Cr_Bodyfall_Med'",
+              "ObjectPath": "/Game/Audio/DataAssets/Foley/ADA_Cr_Bodyfall_Med"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "DeathVox": {
+        "AnimationActionType": "EAiAnimationAudioActions::Vox",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kalphite.Guardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_KalphiteGuardian_Death'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KalphiteFaction/KalphiteGuardian/Vox/MSS_En_Vox_KalphiteGuardian_Death"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": true,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "IdleVoxLong": {
+        "AnimationActionType": "EAiAnimationAudioActions::Vox",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kalphite.Guardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_KalphiteGuardian_LongIdle'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KalphiteFaction/KalphiteGuardian/Vox/MSS_En_Vox_KalphiteGuardian_LongIdle"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Bodyfall_Light": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kalphite.Guardian"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_Cr_Bodyfall_Med_Light'",
+              "ObjectPath": "/Game/Audio/DataAssets/Foley/ADA_Cr_Bodyfall_Med_Light"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "SandSpawn": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kalphite.Guardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_KalphiteGuardian_SandSpawn'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KalphiteFaction/KalphiteGuardian/Foley/MSS_En_Vox_KalphiteGuardian_SandSpawn"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "SandDebris": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kalphite.Guardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Generic_Mo_Tail_DustDebris'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Generic/MSS_Generic_Mo_Tail_DustDebris"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "AcidChargeUp": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.Ai.Kalphite.Guardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Co_KalphiteGuardian_AcidChargeUp'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KalphiteFaction/KalphiteGuardian/Abilities/MSS_En_Co_KalphiteGuardian_AcidChargeUp"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "AcidSpitFire": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.Ai.Kalphite.Guardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Co_KalphiteGuardian_AcidSpitFire'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KalphiteFaction/KalphiteGuardian/Abilities/MSS_En_Co_KalphiteGuardian_AcidSpitFire"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "SwipeAttack": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.Ai.Kalphite.Guardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Co_KalphiteGuardian_Swing'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KalphiteFaction/KalphiteGuardian/Abilities/MSS_En_Co_KalphiteGuardian_Swing"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "AcidCloudBurst": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kalphite.Guardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Co_KalphiteGuardian_AcidCloudBurst'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KalphiteFaction/KalphiteGuardian/Abilities/MSS_En_Co_KalphiteGuardian_AcidCloudBurst"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "CombatVoxLong": {
+        "AnimationActionType": "EAiAnimationAudioActions::Vox",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kalphite.Guardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_KalphiteGuardian_MiscLongCombat'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KalphiteFaction/KalphiteGuardian/Vox/MSS_En_Vox_KalphiteGuardian_MiscLongCombat"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Chomp": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kalphite.Guardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Fo_Kaliphite_Guardian_Bite'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KalphiteFaction/KalphiteGuardian/Foley/MSS_Cr_Fo_Kaliphite_Guardian_Bite"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "jaw"
+        ]
+      },
+      "ClawSwing": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kalphite.Guardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Co_Kaliphite_Slash_Heavy'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KalphiteFaction/KalphiteGuardian/Foley/MSS_En_Co_Kaliphite_Slash_Heavy"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "ClawSwing_Light": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kalphite.Guardian"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Co_Kaliphite_Slash_Light'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KalphiteFaction/KalphiteGuardian/Foley/MSS_En_Co_Kaliphite_Slash_Light"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "front_leg_foot_r",
+          "front_leg_foot_l"
+        ]
+      }
+    }
+  }
+]

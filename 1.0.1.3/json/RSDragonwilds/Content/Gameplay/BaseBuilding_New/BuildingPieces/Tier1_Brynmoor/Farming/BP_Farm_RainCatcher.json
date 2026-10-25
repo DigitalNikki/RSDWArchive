@@ -1,0 +1,713 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Farm_RainCatcher_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Farm_RainCatcher_C:SimpleConstructionScript_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_RainCatcher.20"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_Farm_RainCatcher_C:ExecuteUbergraph_BP_Farm_RainCatcher'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_RainCatcher.8"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_T1_BasePiece_C'",
+      "ObjectPath": "/Game/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/BP_T1_BasePiece"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_Farm_RainCatcher_C:OnInteract'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_RainCatcher.9"
+      },
+      {
+        "ObjectName": "Function'BP_Farm_RainCatcher_C:ExecuteUbergraph_BP_Farm_RainCatcher'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_RainCatcher.8"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Object'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BuildingBlocker",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'BoxComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BuildingShelter",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'BuildingShelterComponent'",
+          "ObjectPath": "/Script/Dominion"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ContainerInteraction",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ContainerInteractionComponent'",
+          "ObjectPath": "/Script/Dominion"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "RainCatcherContainer",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'RainCatcherContainerComponent'",
+          "ObjectPath": "/Script/Dominion"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_Farm_RainCatcher": {
+        "ObjectName": "Function'BP_Farm_RainCatcher_C:ExecuteUbergraph_BP_Farm_RainCatcher'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_RainCatcher.8"
+      },
+      "OnInteract": {
+        "ObjectName": "Function'BP_Farm_RainCatcher_C:OnInteract'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_RainCatcher.9"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_NoExport | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Farm_RainCatcher_C'Default__BP_Farm_RainCatcher_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_RainCatcher.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "BuildingBlocker_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Farm_RainCatcher_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_RainCatcher.0"
+    },
+    "Class": "UScriptClass'BoxComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BoxExtent": {
+        "X": 52.0,
+        "Y": 52.0,
+        "Z": 150.0
+      },
+      "bDynamicObstacle": true,
+      "bUseSystemDefaultObstacleAreaClass": false,
+      "AreaClassOverride": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "bFillCollisionUnderneathForNavmesh": true,
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_GameTraceChannel14",
+        "CollisionProfileName": "BuildingBlocker",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Ai",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Player",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Building",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Ground",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 928.0
+      },
+      "RelativeScale3D": {
+        "X": 0.84576046,
+        "Y": 0.84576046,
+        "Z": 6.147512
+      },
+      "ComponentTags": [
+        "BuildingBlockerVolume"
+      ],
+      "bReplicates": true
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "BoxComponent",
+    "Outer": {
+      "ObjectName": "BP_Farm_RainCatcher_C'Default__BP_Farm_RainCatcher_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_RainCatcher.3"
+    },
+    "Class": "UScriptClass'BoxComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BoxExtent": {
+        "X": 60.0,
+        "Y": 60.0,
+        "Z": 70.0
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_Farm_RainCatcher_C:Root'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_RainCatcher.14"
+      },
+      "RelativeLocation": {
+        "X": 6.8380773E-06,
+        "Y": -1.8896302,
+        "Z": 116.11717
+      },
+      "RelativeScale3D": {
+        "X": 1.2806239,
+        "Y": 1.2297269,
+        "Z": 1.504293
+      }
+    }
+  },
+  {
+    "Type": "BP_Farm_RainCatcher_C",
+    "Name": "Default__BP_Farm_RainCatcher_C",
+    "Class": "BlueprintGeneratedClass'1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_RainCatcher.BP_Farm_RainCatcher_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {}
+    }
+  },
+  {
+    "Type": "BuildingDamageComponent",
+    "Name": "BaseBuildingDamageComponent",
+    "Outer": {
+      "ObjectName": "BP_Farm_RainCatcher_C'Default__BP_Farm_RainCatcher_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_RainCatcher.3"
+    },
+    "Class": "UScriptClass'BuildingDamageComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "BuildingShelterComponent",
+    "Name": "BuildingShelter_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Farm_RainCatcher_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_RainCatcher.0"
+    },
+    "Class": "UScriptClass'BuildingShelterComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "InteractionRequirements": "EBuildingRequirements::InteractExternallyOnly",
+      "bShelterCheckedOnPlacement": true,
+      "RequiresRoofText": {
+        "TableId": "/Game/UI/ST_Localization.ST_Localization",
+        "Key": "RequiresARoof",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "RequiresShelterText": {
+        "TableId": "/Game/UI/ST_Localization.ST_Localization",
+        "Key": "IsTooExposed",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "RequiresNoRoofText": {
+        "TableId": "/Game/UI/ST_Localization.ST_Localization",
+        "Key": "RequiresNoRoof",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "RequiresNoShelterText": {
+        "TableId": "/Game/UI/ST_Localization.ST_Localization",
+        "Key": "NeedsLessSurroundingShelter",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "RoofTraceExclusionFilter": [
+        "BaseBuilding.PieceType.Prop"
+      ],
+      "SweepRayThickness": 50.0,
+      "ValidityPercentage": 0.5,
+      "ShelterTraceExclusionFilter": [
+        "BaseBuilding.PieceType.Prop"
+      ],
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      }
+    }
+  },
+  {
+    "Type": "BuildingSnapComponent",
+    "Name": "BuildingSnapComponent",
+    "Outer": {
+      "ObjectName": "BP_Farm_RainCatcher_C'Default__BP_Farm_RainCatcher_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_RainCatcher.3"
+    },
+    "Class": "UScriptClass'BuildingSnapComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "ContainerInteractionComponent",
+    "Name": "ContainerInteraction_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Farm_RainCatcher_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_RainCatcher.0"
+    },
+    "Class": "UScriptClass'ContainerInteractionComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TransferContentPrompt": "EContainerInteractionTransferContentPrompt::PrimaryPrompt",
+      "ContainerComponentEmptyNotificationTag": {
+        "TagName": "UI.Notification.Farming.RainCatcher.Empty"
+      },
+      "HoldingContainerComponentRef": {
+        "ComponentProperty": "RainCatcherContainer"
+      },
+      "ContainerInteraction": "EContainerInteraction::TransferFromComponentToPlayerInventory",
+      "InteractionPrompt": {
+        "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+        "Key": "InteractionPrompt.FillWateringCan",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_Farm_RainCatcher",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Farm_RainCatcher_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_RainCatcher.0"
+    },
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_K2_GetRootComponent_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_Player",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'DominionPlayerCharacter'",
+          "ObjectPath": "/Script/Dominion"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_DomPlay2DAudioEventOnLocalPlayer_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'AudioComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnInteract",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Farm_RainCatcher_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_RainCatcher.0"
+    },
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Object'BaseBuildingActor:OnInteract'",
+      "ObjectPath": "/Script/Dominion"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Player",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'DominionPlayerCharacter'",
+          "ObjectPath": "/Script/Dominion"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "HealthComponent",
+    "Name": "HealthComponent",
+    "Outer": {
+      "ObjectName": "BP_Farm_RainCatcher_C'Default__BP_Farm_RainCatcher_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_RainCatcher.3"
+    },
+    "Class": "UScriptClass'HealthComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaxHealth": 350.0
+    }
+  },
+  {
+    "Type": "InteractionComponent",
+    "Name": "CompleteGhostInteractionComponent",
+    "Outer": {
+      "ObjectName": "BP_Farm_RainCatcher_C'Default__BP_Farm_RainCatcher_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_RainCatcher.3"
+    },
+    "Class": "UScriptClass'InteractionComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "OnInteractionEvent": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_Farm_RainCatcher_C'Default__BP_Farm_RainCatcher_C'",
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_RainCatcher.3"
+            },
+            "FunctionName": "OnInteract"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_Farm_RainCatcher_C:Root'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_RainCatcher.14"
+      }
+    }
+  },
+  {
+    "Type": "RainCatcherContainerComponent",
+    "Name": "RainCatcherContainer_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Farm_RainCatcher_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_RainCatcher.0"
+    },
+    "Class": "UScriptClass'RainCatcherContainerComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "InteractionComponentRef": {
+        "ComponentProperty": "ContainerInteraction"
+      },
+      "AllowedUIActions": {
+        "bAllowFlush": false,
+        "bAllowFill": false
+      },
+      "AllowedFillTypes": [
+        {
+          "ObjectName": "ContainerContentDataAsset'CC_Water_Clean'",
+          "ObjectPath": "/Game/Gameplay/LiquidsAndOtherContent/CC_Water_Clean"
+        }
+      ],
+      "Capacity": 300,
+      "ContainerInteraction": "EContainerInteraction::TransferFromComponentToPlayerInventory",
+      "TransferContentPrompt": "EContainerInteractionTransferContentPrompt::PrimaryPrompt",
+      "ContainerStatusDisplayText": {
+        "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+        "Key": "StatusDisplayText_RainCatcher",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Farm_RainCatcher_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_RainCatcher.0"
+    },
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Root",
+    "Outer": {
+      "ObjectName": "BP_Farm_RainCatcher_C'Default__BP_Farm_RainCatcher_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_RainCatcher.3"
+    },
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Farm_RainCatcher_C:SimpleConstructionScript_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_RainCatcher.20"
+    },
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Farm_RainCatcher_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_RainCatcher.13"
+      },
+      "VariableGUID": "C7CD55AF-4EC317B0-6D53EFA0-DA39D9BB",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Farm_RainCatcher_C:SimpleConstructionScript_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_RainCatcher.20"
+    },
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BuildingShelterComponent'",
+        "ObjectPath": "/Script/Dominion"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BuildingShelterComponent'BP_Farm_RainCatcher_C:BuildingShelter_GEN_VARIABLE'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_RainCatcher.5"
+      },
+      "VariableGUID": "E876FA7E-44107978-02BADB99-5D950F1A",
+      "InternalVariableName": "BuildingShelter"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Farm_RainCatcher_C:SimpleConstructionScript_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_RainCatcher.20"
+    },
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ContainerInteractionComponent'",
+        "ObjectPath": "/Script/Dominion"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ContainerInteractionComponent'BP_Farm_RainCatcher_C:ContainerInteraction_GEN_VARIABLE'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_RainCatcher.7"
+      },
+      "ParentComponentOrVariableName": "BoxComponent",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "B6B8B876-49BD6632-6F9F26A6-D57BA1D6",
+      "InternalVariableName": "ContainerInteraction"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Farm_RainCatcher_C:SimpleConstructionScript_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_RainCatcher.20"
+    },
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'RainCatcherContainerComponent'",
+        "ObjectPath": "/Script/Dominion"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "RainCatcherContainerComponent'BP_Farm_RainCatcher_C:RainCatcherContainer_GEN_VARIABLE'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_RainCatcher.12"
+      },
+      "VariableGUID": "1C9A9CEA-4DE85148-AD76E8A1-3C087F30",
+      "InternalVariableName": "RainCatcherContainer"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Farm_RainCatcher_C:SimpleConstructionScript_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_RainCatcher.20"
+    },
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BoxComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BoxComponent'BP_Farm_RainCatcher_C:BuildingBlocker_GEN_VARIABLE'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_RainCatcher.1"
+      },
+      "ParentComponentOrVariableName": "Root",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "1AEDA469-4DA339AE-961D5AB8-3688D478",
+      "InternalVariableName": "BuildingBlocker"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Farm_RainCatcher_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_RainCatcher.0"
+    },
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_Farm_RainCatcher_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_RainCatcher.18"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Farm_RainCatcher_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_RainCatcher.17"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Farm_RainCatcher_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_RainCatcher.16"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Farm_RainCatcher_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_RainCatcher.19"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_Farm_RainCatcher_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_RainCatcher.18"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Farm_RainCatcher_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_RainCatcher.17"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Farm_RainCatcher_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_RainCatcher.16"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Farm_RainCatcher_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_RainCatcher.19"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Farm_RainCatcher_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_RainCatcher.15"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Mesh",
+    "Outer": {
+      "ObjectName": "BP_Farm_RainCatcher_C'Default__BP_Farm_RainCatcher_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_RainCatcher.3"
+    },
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_RainPurifier_01'",
+        "ObjectPath": "/Game/Art/Env/Base_Building/Farming/RainPurifier/SM_RainPurifier_01"
+      },
+      "OverrideMaterials": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_Farm_RainCatcher_C:Root'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Farming/BP_Farm_RainCatcher.14"
+      },
+      "RelativeScale3D": {
+        "X": 1.5,
+        "Y": 1.5,
+        "Z": 1.5
+      }
+    }
+  }
+]

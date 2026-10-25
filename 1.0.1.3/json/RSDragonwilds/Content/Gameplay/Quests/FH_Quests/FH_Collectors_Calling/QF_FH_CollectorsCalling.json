@@ -1,0 +1,2213 @@
+[
+  {
+    "Type": "ConversationChoiceNode",
+    "Name": "ConversationChoiceNode_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Class": "UScriptClass'ConversationChoiceNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultChoiceDisplayText": {
+        "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/ST_FH_CollectorsCalling.ST_FH_CollectorsCalling",
+        "Key": "PlayerChoice.AcceptQuest",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "ConversationChoiceNode",
+    "Name": "ConversationChoiceNode_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Class": "UScriptClass'ConversationChoiceNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultChoiceDisplayText": {
+        "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/ST_FH_CollectorsCalling.ST_FH_CollectorsCalling",
+        "Key": "PlayerChoice.RejectQuest",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "ConversationChoiceNode",
+    "Name": "ConversationChoiceNode_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Class": "UScriptClass'ConversationChoiceNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultChoiceDisplayText": {
+        "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/ST_FH_CollectorsCalling.ST_FH_CollectorsCalling",
+        "Key": "PlayerChoice.AcceptQuest",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "ConversationChoiceNode",
+    "Name": "ConversationChoiceNode_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Class": "UScriptClass'ConversationChoiceNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultChoiceDisplayText": {
+        "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/ST_FH_CollectorsCalling.ST_FH_CollectorsCalling",
+        "Key": "PlayerChoice.RejectQuest",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "ConversationDatabase",
+    "Name": "QF_FH_CollectorsCalling",
+    "Class": "UScriptClass'ConversationDatabase'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CompilerVersion": 2,
+      "ReachableNodeMap": [
+        {
+          "Key": "5D6C9DBC-402EE2AA-6492D0AD-C89199D0",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_FH_CollectorsCalling:ConversationEntryPointNode_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.6"
+          }
+        },
+        {
+          "Key": "5BE55397-4948C57C-BFDB898D-0D62A51D",
+          "Value": {
+            "ObjectName": "QFT_CompleteQuests_C'QF_FH_CollectorsCalling:QFT_CompleteQuests_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.83"
+          }
+        },
+        {
+          "Key": "3741E1D8-4EC94DBE-D4F759BE-9092C6CC",
+          "Value": {
+            "ObjectName": "QFT_GiveQuest_C'QF_FH_CollectorsCalling:QFT_GiveQuest_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.87"
+          }
+        },
+        {
+          "Key": "C424D7D9-49C88D1D-422060B3-21362650",
+          "Value": {
+            "ObjectName": "QFT_ModifyQuestInt_C'QF_FH_CollectorsCalling:QFT_ModifyQuestInt_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.91"
+          }
+        },
+        {
+          "Key": "2B93282B-4AAAD27C-B807698D-9026A43A",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_FH_CollectorsCalling:QFT_SetQuestObjective_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.138"
+          }
+        },
+        {
+          "Key": "913E7A9B-40E5074B-46586EA0-F4CC5437",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_CollectorsCalling:QFT_PromptMessage_C_9'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.131"
+          }
+        },
+        {
+          "Key": "F88BAE15-47A9DFCE-C9DE90AF-8DC2135C",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_FH_CollectorsCalling:ConversationEntryPointNode_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.5"
+          }
+        },
+        {
+          "Key": "C4F73BF9-4AA6D14A-BE0E6D95-94A64F78",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_CollectorsCalling:QFT_Blank_C_20'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.58"
+          }
+        },
+        {
+          "Key": "4976A762-4CF43CD0-8610DE9B-EB5A82E6",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_CollectorsCalling:QFT_PromptMessage_C_23'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.100"
+          }
+        },
+        {
+          "Key": "E72F68AC-43DCC0DD-AC0AA0B1-948E2B5F",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_CollectorsCalling:QFT_Blank_C_19'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.56"
+          }
+        },
+        {
+          "Key": "2B861C4A-4117BDF6-8724A3AB-CBFEA9E2",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_CollectorsCalling:QFT_Blank_C_7'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.79"
+          }
+        },
+        {
+          "Key": "D82C2628-436C09F8-8C23D1BB-95872C19",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_CollectorsCalling:QFT_Blank_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.45"
+          }
+        },
+        {
+          "Key": "74F9B960-4A7E13A2-5FED1494-3B923AB9",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_CollectorsCalling:QFT_Blank_C_9'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.81"
+          }
+        },
+        {
+          "Key": "4D16941C-441F4033-17DE0BB2-406987AD",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_CollectorsCalling:QFT_Blank_C_39'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.74"
+          }
+        },
+        {
+          "Key": "B849F43E-4E97F0E3-CA148189-93D5BB81",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_CollectorsCalling:QFT_PromptMessage_C_12'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.96"
+          }
+        },
+        {
+          "Key": "B9522139-4FD41A5F-EB4E30A8-EB10DC7B",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_CollectorsCalling:QFT_Blank_C_42'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.76"
+          }
+        },
+        {
+          "Key": "DDA085FE-4878A1C9-323EA2B5-F740BF1C",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_CollectorsCalling:QFT_PromptMessage_C_36'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.109"
+          }
+        },
+        {
+          "Key": "5813C0F2-4C832B2D-179A6FA4-57B62DCA",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_CollectorsCalling:QFT_PromptMessage_C_53'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.124"
+          }
+        },
+        {
+          "Key": "50C69377-4D900780-C86D5DAD-3DDE6A71",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_CollectorsCalling:QFT_PromptMessage_C_54'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.125"
+          }
+        },
+        {
+          "Key": "D34CDADC-4EB1EFBC-963F1A89-C93FA553",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_CollectorsCalling:QFT_PromptMessage_C_55'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.126"
+          }
+        },
+        {
+          "Key": "BC91D337-488C0961-70D3E39B-64B1DAB4",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_CollectorsCalling:QFT_PromptMessage_C_56'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.127"
+          }
+        },
+        {
+          "Key": "ACDAABB9-4BD064D8-F3D240A6-32DFCF9C",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_CollectorsCalling:QFT_Blank_C_21'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.59"
+          }
+        },
+        {
+          "Key": "E4C4A386-41A00B77-8B3B1B92-2BE86F26",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_CollectorsCalling:QFT_PromptMessage_C_7'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.129"
+          }
+        },
+        {
+          "Key": "84231F98-49689E3C-83B746BC-AB4B864D",
+          "Value": {
+            "ObjectName": "QFT_CompleteQuest_C'QF_FH_CollectorsCalling:QFT_CompleteQuest_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.82"
+          }
+        },
+        {
+          "Key": "7EE5997A-435B6B7B-877F52A1-E170E63A",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_CollectorsCalling:QFT_Blank_C_13'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.50"
+          }
+        },
+        {
+          "Key": "6288418B-450DC182-F11576B9-4C02FA3A",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_FH_CollectorsCalling:QFT_SetQuestBool_C_5'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.136"
+          }
+        },
+        {
+          "Key": "03DD4BCB-4C7B82C5-37362882-BAA4499A",
+          "Value": {
+            "ObjectName": "QFT_GiveCraftingRecipe_C'QF_FH_CollectorsCalling:QFT_GiveCraftingRecipe_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.84"
+          }
+        },
+        {
+          "Key": "46B1F904-42492107-4CD1149F-8D088883",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_CollectorsCalling:QFT_Blank_C_6'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.78"
+          }
+        },
+        {
+          "Key": "834493F1-480B7552-E6FC959B-4E2BF216",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_CollectorsCalling:QFT_Blank_C_37'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.73"
+          }
+        },
+        {
+          "Key": "C21183EA-47C34BC3-B63ECEB5-FED47091",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_CollectorsCalling:QFT_PromptMessage_C_27'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.102"
+          }
+        },
+        {
+          "Key": "3A743F07-4BE4DDCB-E42A69A4-7D20781D",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_CollectorsCalling:QFT_Blank_C_31'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.69"
+          }
+        },
+        {
+          "Key": "FBD59D38-472CE037-F2297886-434EB099",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_CollectorsCalling:QFT_PromptMessage_C_32'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.105"
+          }
+        },
+        {
+          "Key": "9E08C600-46D96222-943EF0B0-132C9B7A",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_CollectorsCalling:QFT_Blank_C_32'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.70"
+          }
+        },
+        {
+          "Key": "CBB04FF9-4D29827D-D73F63B7-A6470A27",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_CollectorsCalling:QFT_PromptMessage_C_34'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.107"
+          }
+        },
+        {
+          "Key": "36EE75DD-49A7DB40-0B14F083-697F286F",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_CollectorsCalling:QFT_Blank_C_33'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.71"
+          }
+        },
+        {
+          "Key": "88E7F61E-405836EF-D1EE3787-3C62E542",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_CollectorsCalling:QFT_PromptMessage_C_35'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.108"
+          }
+        },
+        {
+          "Key": "754D2A40-4F40D67B-5560B9AA-99C44E20",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_CollectorsCalling:QFT_Blank_C_26'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.63"
+          }
+        },
+        {
+          "Key": "C1934761-493767EA-25E4F387-215A0748",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_CollectorsCalling:QFT_Blank_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.57"
+          }
+        },
+        {
+          "Key": "59DAA238-42E7DABB-7D4767AF-442FFFF1",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_CollectorsCalling:QFT_PromptMessage_C_50'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.122"
+          }
+        },
+        {
+          "Key": "0F2E31B5-4493254E-CD5C5CAF-04F0009B",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_CollectorsCalling:QFT_PromptMessage_C_51'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.123"
+          }
+        },
+        {
+          "Key": "7438F41A-4EE52A93-C24A32AF-93E67317",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_FH_CollectorsCalling:QFT_SetQuestObjective_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.137"
+          }
+        },
+        {
+          "Key": "D227D55D-41DB03C2-B1009C9E-5AF304BA",
+          "Value": {
+            "ObjectName": "QFT_ModifyQuestInt_C'QF_FH_CollectorsCalling:QFT_ModifyQuestInt_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.92"
+          }
+        },
+        {
+          "Key": "A6605312-4DA64B5D-69280ABB-DE4FC4A6",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_CollectorsCalling:QFT_Blank_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.46"
+          }
+        },
+        {
+          "Key": "ED50D0B2-403DBD73-49E8AB94-27B01255",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_FH_CollectorsCalling:QFT_SetQuestBool_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.132"
+          }
+        },
+        {
+          "Key": "4E6ABEC2-4863E3C6-CC382381-80F02783",
+          "Value": {
+            "ObjectName": "QFT_GiveItemToPlayer_C'QF_FH_CollectorsCalling:QFT_GiveItemToPlayer_C_5'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.86"
+          }
+        },
+        {
+          "Key": "54A55391-42D2E79D-94F2959E-C7FD7524",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_CollectorsCalling:QFT_Blank_C_27'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.64"
+          }
+        },
+        {
+          "Key": "603E05CA-43986E42-CE37EEAE-E087AA05",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_CollectorsCalling:QFT_PromptMessage_C_25'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.101"
+          }
+        },
+        {
+          "Key": "D6ECDEA3-4F0E7396-A30324A6-288C4450",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_CollectorsCalling:QFT_Blank_C_36'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.72"
+          }
+        },
+        {
+          "Key": "71590716-4EC0D83C-BA2EA3B2-38D56080",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_CollectorsCalling:QFT_Blank_C_30'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.68"
+          }
+        },
+        {
+          "Key": "51804413-4234C884-F0C379B6-E61DA0AE",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_CollectorsCalling:QFT_Blank_C_28'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.65"
+          }
+        },
+        {
+          "Key": "E096CB82-4F06618E-2FE6479F-496D0598",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_CollectorsCalling:QFT_PromptMessage_C_33'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.106"
+          }
+        },
+        {
+          "Key": "1D149B23-4A9B9E0D-4FDF02B6-FAA034A9",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_CollectorsCalling:QFT_Blank_C_24'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.62"
+          }
+        },
+        {
+          "Key": "AFC9770C-4264DB3A-DBD48B96-55A21F62",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_CollectorsCalling:QFT_PromptMessage_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.113"
+          }
+        },
+        {
+          "Key": "9217BEA4-49713DD2-B928C69D-5E812837",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_CollectorsCalling:QFT_Blank_C_23'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.61"
+          }
+        },
+        {
+          "Key": "D4D15586-47BCAB02-4AD866B7-A9A9166F",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_CollectorsCalling:QFT_PromptMessage_C_8'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.130"
+          }
+        },
+        {
+          "Key": "245763A6-4D25965D-FA6B9DBB-0B1301D1",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_CollectorsCalling:QFT_PromptMessage_C_6'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.128"
+          }
+        },
+        {
+          "Key": "C510DA55-40289984-0D0CBD8C-AEA0A85B",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_CollectorsCalling:QFT_PromptMessage_C_5'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.121"
+          }
+        },
+        {
+          "Key": "3E82903C-455E14D1-7B4DEBB0-58CD0B45",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_CollectorsCalling:QFT_Blank_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.67"
+          }
+        },
+        {
+          "Key": "4C0B567D-40CF72A0-F8ABE789-81F39607",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_CollectorsCalling:QFT_PromptMessage_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.103"
+          }
+        },
+        {
+          "Key": "7EFB51EF-4817100F-8281D1A1-09C8C871",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_CollectorsCalling:QFT_Blank_C_8'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.80"
+          }
+        },
+        {
+          "Key": "DAC3BB69-4FC8A396-6BBDAEBE-27D8BFCB",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_CollectorsCalling:QFT_Blank_C_11'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.48"
+          }
+        },
+        {
+          "Key": "A000251D-4DF0603C-F08432BC-6C813ABC",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_CollectorsCalling:QFT_Blank_C_5'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.77"
+          }
+        },
+        {
+          "Key": "D568C016-4229B1FD-AD1E5A93-E0484F1A",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_FH_CollectorsCalling:QFT_SetQuestObjective_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.139"
+          }
+        },
+        {
+          "Key": "66E4951A-4F78D5E2-65D2BD83-21C7815A",
+          "Value": {
+            "ObjectName": "QFT_ModifyQuestInt_C'QF_FH_CollectorsCalling:QFT_ModifyQuestInt_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.93"
+          }
+        },
+        {
+          "Key": "559DBB26-40C55F11-F6EC3B84-514CAF63",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_CollectorsCalling:QFT_Blank_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.75"
+          }
+        },
+        {
+          "Key": "2B82A1FE-45061CC8-37D06DB0-62F9F335",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_FH_CollectorsCalling:QFT_SetQuestBool_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.135"
+          }
+        },
+        {
+          "Key": "8EB80D50-41480BF9-481DC08E-1A9699CB",
+          "Value": {
+            "ObjectName": "QFT_GiveItemToPlayer_C'QF_FH_CollectorsCalling:QFT_GiveItemToPlayer_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.85"
+          }
+        },
+        {
+          "Key": "44B86A77-45D80CB2-E63823AF-55774C3D",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_CollectorsCalling:QFT_Blank_C_12'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.49"
+          }
+        },
+        {
+          "Key": "F7CE6B08-4692262D-3C46B389-8902963C",
+          "Value": {
+            "ObjectName": "QFT_GiveQuest_C'QF_FH_CollectorsCalling:QFT_GiveQuest_C_5'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.90"
+          }
+        },
+        {
+          "Key": "FF8A6FB2-4DB1C956-73A2F0AD-3F390BAC",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_FH_CollectorsCalling:QFT_UpdateQuestLocation_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.142"
+          }
+        },
+        {
+          "Key": "8B1A47D4-43376482-0DBEB1AA-D0EA8AEE",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_CollectorsCalling:QFT_Blank_C_29'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.66"
+          }
+        },
+        {
+          "Key": "11007C6B-48C47EEB-3A7249BA-BA246A63",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_CollectorsCalling:QFT_PromptMessage_C_42'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.115"
+          }
+        },
+        {
+          "Key": "24128ECF-43B8AAD4-85648492-372A743C",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_CollectorsCalling:QFT_PromptMessage_C_44'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.117"
+          }
+        },
+        {
+          "Key": "3BF51B4A-4F148103-3439D6BE-2A369730",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_CollectorsCalling:QFT_PromptMessage_C_43'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.116"
+          }
+        },
+        {
+          "Key": "18B6AB1F-472FE6A6-6CC355AC-4FF8FC21",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_CollectorsCalling:QFT_PromptMessage_C_45'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.118"
+          }
+        },
+        {
+          "Key": "4E379FAC-4781F934-A7CF5A9D-95A11806",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_CollectorsCalling:QFT_PromptMessage_C_46'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.119"
+          }
+        },
+        {
+          "Key": "ADAC95A5-401C435B-6E0A69AE-27F67B82",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_CollectorsCalling:QFT_PromptMessage_C_47'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.120"
+          }
+        },
+        {
+          "Key": "85FC6B87-4CC4535C-10D62DB5-FBFF7AF3",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_CollectorsCalling:QFT_Blank_C_14'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.51"
+          }
+        },
+        {
+          "Key": "08EE1F1B-425CAC98-9CD8D9A1-C2B2B5D7",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_CollectorsCalling:QFT_PromptMessage_C_31'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.104"
+          }
+        },
+        {
+          "Key": "0F811B60-4B492797-AE598C91-5C97CB6B",
+          "Value": {
+            "ObjectName": "QFT_GiveQuest_C'QF_FH_CollectorsCalling:QFT_GiveQuest_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.89"
+          }
+        },
+        {
+          "Key": "ECC1A4A9-40729A94-6CD110B2-4EFDF292",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_FH_CollectorsCalling:QFT_SetQuestObjective_C_7'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.141"
+          }
+        },
+        {
+          "Key": "321B961D-4678C846-A535FE8D-A7869076",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_FH_CollectorsCalling:QFT_UpdateQuestLocation_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.144"
+          }
+        },
+        {
+          "Key": "61160416-4D9F3F49-417EBFBB-0A4BF366",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_CollectorsCalling:QFT_Blank_C_15'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.52"
+          }
+        },
+        {
+          "Key": "503ADBA2-43A1B9DB-AF1FA2B9-6D048ED0",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_CollectorsCalling:QFT_Blank_C_16'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.53"
+          }
+        },
+        {
+          "Key": "E65FBE76-4054B6A6-52AC42BC-968B44E7",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_CollectorsCalling:QFT_Blank_C_18'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.55"
+          }
+        },
+        {
+          "Key": "82264CA1-4ABD043D-594FED95-3162FF02",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_CollectorsCalling:QFT_PromptMessage_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.94"
+          }
+        },
+        {
+          "Key": "A67BB526-4B4B4128-A078B393-DF72CB1E",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_CollectorsCalling:QFT_Blank_C_17'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.54"
+          }
+        },
+        {
+          "Key": "8B8B095B-489B9C58-954C3FAE-628D4C58",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_CollectorsCalling:QFT_PromptMessage_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.98"
+          }
+        },
+        {
+          "Key": "90716C73-4723BDC5-E6586C86-1F894B35",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_CollectorsCalling:QFT_PromptMessage_C_37'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.110"
+          }
+        },
+        {
+          "Key": "87187A55-43C5EA17-66E98A80-2F48A08B",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_CollectorsCalling:QFT_PromptMessage_C_20'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.99"
+          }
+        },
+        {
+          "Key": "B0A1EF2B-42D4EE15-1FC726B7-6BB7CAC6",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_CollectorsCalling:QFT_PromptMessage_C_39'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.112"
+          }
+        },
+        {
+          "Key": "A6398DC5-402A6583-AF7C4B8B-D4691A51",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_CollectorsCalling:QFT_PromptMessage_C_40'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.114"
+          }
+        },
+        {
+          "Key": "FB58A6F0-44326BE4-E40CFC93-0A0A63CF",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_FH_CollectorsCalling:QFT_SetQuestBool_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.133"
+          }
+        },
+        {
+          "Key": "F3D700E6-432A63F8-B0576B89-F1AA6AEC",
+          "Value": {
+            "ObjectName": "QFT_GiveQuest_C'QF_FH_CollectorsCalling:QFT_GiveQuest_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.88"
+          }
+        },
+        {
+          "Key": "E7FF5910-431D9DFD-96DA10BC-EE4F30C4",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_FH_CollectorsCalling:QFT_SetQuestObjective_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.140"
+          }
+        },
+        {
+          "Key": "140C85D8-48A12E90-A65B98AC-A5B402AC",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_FH_CollectorsCalling:QFT_UpdateQuestLocation_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.143"
+          }
+        },
+        {
+          "Key": "E0AA32A3-48DD4537-F70C8891-AF1C333E",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_CollectorsCalling:QFT_PromptMessage_C_38'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.111"
+          }
+        },
+        {
+          "Key": "DB1ED7B4-482E4389-F5AB69BC-11843242",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_CollectorsCalling:QFT_Blank_C_22'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.60"
+          }
+        },
+        {
+          "Key": "830D9E41-4A1FDFE7-237B6280-E77AA4D5",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_CollectorsCalling:QFT_PromptMessage_C_13'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.97"
+          }
+        },
+        {
+          "Key": "D5AEE4EE-415EB89F-B65C44A9-45F76329",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_CollectorsCalling:QFT_PromptMessage_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.95"
+          }
+        },
+        {
+          "Key": "1D19F10E-4DDF5497-663F9AA0-3067B788",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_FH_CollectorsCalling:QFT_SetQuestBool_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.134"
+          }
+        },
+        {
+          "Key": "1143EC91-4AC57CAE-0B8C1F95-4C2E4FF1",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_CollectorsCalling:QFT_Blank_C_10'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.47"
+          }
+        }
+      ],
+      "EntryTags": [
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.CollectorsCalling"
+          },
+          "DestinationList": [
+            "F88BAE15-47A9DFCE-C9DE90AF-8DC2135C"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.CollectorsCalling.SkipToStart"
+          },
+          "DestinationList": [
+            "5D6C9DBC-402EE2AA-6492D0AD-C89199D0"
+          ],
+          "EntryIdentifier": ""
+        }
+      ],
+      "InternalNodeIds": [
+        "5D6C9DBC-402EE2AA-6492D0AD-C89199D0",
+        "5BE55397-4948C57C-BFDB898D-0D62A51D",
+        "3741E1D8-4EC94DBE-D4F759BE-9092C6CC",
+        "C424D7D9-49C88D1D-422060B3-21362650",
+        "2B93282B-4AAAD27C-B807698D-9026A43A",
+        "913E7A9B-40E5074B-46586EA0-F4CC5437",
+        "F88BAE15-47A9DFCE-C9DE90AF-8DC2135C",
+        "C4F73BF9-4AA6D14A-BE0E6D95-94A64F78",
+        "4976A762-4CF43CD0-8610DE9B-EB5A82E6",
+        "E72F68AC-43DCC0DD-AC0AA0B1-948E2B5F",
+        "2B861C4A-4117BDF6-8724A3AB-CBFEA9E2",
+        "D82C2628-436C09F8-8C23D1BB-95872C19",
+        "74F9B960-4A7E13A2-5FED1494-3B923AB9",
+        "4D16941C-441F4033-17DE0BB2-406987AD",
+        "B849F43E-4E97F0E3-CA148189-93D5BB81",
+        "B9522139-4FD41A5F-EB4E30A8-EB10DC7B",
+        "DDA085FE-4878A1C9-323EA2B5-F740BF1C",
+        "5813C0F2-4C832B2D-179A6FA4-57B62DCA",
+        "50C69377-4D900780-C86D5DAD-3DDE6A71",
+        "D34CDADC-4EB1EFBC-963F1A89-C93FA553",
+        "BC91D337-488C0961-70D3E39B-64B1DAB4",
+        "ACDAABB9-4BD064D8-F3D240A6-32DFCF9C",
+        "E4C4A386-41A00B77-8B3B1B92-2BE86F26",
+        "84231F98-49689E3C-83B746BC-AB4B864D",
+        "7EE5997A-435B6B7B-877F52A1-E170E63A",
+        "6288418B-450DC182-F11576B9-4C02FA3A",
+        "03DD4BCB-4C7B82C5-37362882-BAA4499A",
+        "46B1F904-42492107-4CD1149F-8D088883",
+        "834493F1-480B7552-E6FC959B-4E2BF216",
+        "C21183EA-47C34BC3-B63ECEB5-FED47091",
+        "3A743F07-4BE4DDCB-E42A69A4-7D20781D",
+        "FBD59D38-472CE037-F2297886-434EB099",
+        "9E08C600-46D96222-943EF0B0-132C9B7A",
+        "CBB04FF9-4D29827D-D73F63B7-A6470A27",
+        "36EE75DD-49A7DB40-0B14F083-697F286F",
+        "88E7F61E-405836EF-D1EE3787-3C62E542",
+        "754D2A40-4F40D67B-5560B9AA-99C44E20",
+        "C1934761-493767EA-25E4F387-215A0748",
+        "59DAA238-42E7DABB-7D4767AF-442FFFF1",
+        "0F2E31B5-4493254E-CD5C5CAF-04F0009B",
+        "7438F41A-4EE52A93-C24A32AF-93E67317",
+        "D227D55D-41DB03C2-B1009C9E-5AF304BA",
+        "A6605312-4DA64B5D-69280ABB-DE4FC4A6",
+        "ED50D0B2-403DBD73-49E8AB94-27B01255",
+        "4E6ABEC2-4863E3C6-CC382381-80F02783",
+        "54A55391-42D2E79D-94F2959E-C7FD7524",
+        "603E05CA-43986E42-CE37EEAE-E087AA05",
+        "D6ECDEA3-4F0E7396-A30324A6-288C4450",
+        "71590716-4EC0D83C-BA2EA3B2-38D56080",
+        "51804413-4234C884-F0C379B6-E61DA0AE",
+        "E096CB82-4F06618E-2FE6479F-496D0598",
+        "1D149B23-4A9B9E0D-4FDF02B6-FAA034A9",
+        "AFC9770C-4264DB3A-DBD48B96-55A21F62",
+        "9217BEA4-49713DD2-B928C69D-5E812837",
+        "D4D15586-47BCAB02-4AD866B7-A9A9166F",
+        "245763A6-4D25965D-FA6B9DBB-0B1301D1",
+        "C510DA55-40289984-0D0CBD8C-AEA0A85B",
+        "3E82903C-455E14D1-7B4DEBB0-58CD0B45",
+        "4C0B567D-40CF72A0-F8ABE789-81F39607",
+        "7EFB51EF-4817100F-8281D1A1-09C8C871",
+        "DAC3BB69-4FC8A396-6BBDAEBE-27D8BFCB",
+        "A000251D-4DF0603C-F08432BC-6C813ABC",
+        "D568C016-4229B1FD-AD1E5A93-E0484F1A",
+        "66E4951A-4F78D5E2-65D2BD83-21C7815A",
+        "559DBB26-40C55F11-F6EC3B84-514CAF63",
+        "2B82A1FE-45061CC8-37D06DB0-62F9F335",
+        "8EB80D50-41480BF9-481DC08E-1A9699CB",
+        "44B86A77-45D80CB2-E63823AF-55774C3D",
+        "F7CE6B08-4692262D-3C46B389-8902963C",
+        "FF8A6FB2-4DB1C956-73A2F0AD-3F390BAC",
+        "8B1A47D4-43376482-0DBEB1AA-D0EA8AEE",
+        "11007C6B-48C47EEB-3A7249BA-BA246A63",
+        "24128ECF-43B8AAD4-85648492-372A743C",
+        "3BF51B4A-4F148103-3439D6BE-2A369730",
+        "18B6AB1F-472FE6A6-6CC355AC-4FF8FC21",
+        "4E379FAC-4781F934-A7CF5A9D-95A11806",
+        "ADAC95A5-401C435B-6E0A69AE-27F67B82",
+        "85FC6B87-4CC4535C-10D62DB5-FBFF7AF3",
+        "08EE1F1B-425CAC98-9CD8D9A1-C2B2B5D7",
+        "0F811B60-4B492797-AE598C91-5C97CB6B",
+        "ECC1A4A9-40729A94-6CD110B2-4EFDF292",
+        "321B961D-4678C846-A535FE8D-A7869076",
+        "61160416-4D9F3F49-417EBFBB-0A4BF366",
+        "503ADBA2-43A1B9DB-AF1FA2B9-6D048ED0",
+        "E65FBE76-4054B6A6-52AC42BC-968B44E7",
+        "82264CA1-4ABD043D-594FED95-3162FF02",
+        "A67BB526-4B4B4128-A078B393-DF72CB1E",
+        "8B8B095B-489B9C58-954C3FAE-628D4C58",
+        "90716C73-4723BDC5-E6586C86-1F894B35",
+        "87187A55-43C5EA17-66E98A80-2F48A08B",
+        "B0A1EF2B-42D4EE15-1FC726B7-6BB7CAC6",
+        "A6398DC5-402A6583-AF7C4B8B-D4691A51",
+        "FB58A6F0-44326BE4-E40CFC93-0A0A63CF",
+        "F3D700E6-432A63F8-B0576B89-F1AA6AEC",
+        "E7FF5910-431D9DFD-96DA10BC-EE4F30C4",
+        "140C85D8-48A12E90-A65B98AC-A5B402AC",
+        "E0AA32A3-48DD4537-F70C8891-AF1C333E",
+        "DB1ED7B4-482E4389-F5AB69BC-11843242",
+        "830D9E41-4A1FDFE7-237B6280-E77AA4D5",
+        "D5AEE4EE-415EB89F-B65C44A9-45F76329",
+        "1D19F10E-4DDF5497-663F9AA0-3067B788",
+        "1143EC91-4AC57CAE-0B8C1F95-4C2E4FF1"
+      ]
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.CollectorsCalling"
+      },
+      "OutputConnections": [
+        "E72F68AC-43DCC0DD-AC0AA0B1-948E2B5F",
+        "C4F73BF9-4AA6D14A-BE0E6D95-94A64F78"
+      ],
+      "Compiled_NodeGUID": "F88BAE15-47A9DFCE-C9DE90AF-8DC2135C"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.CollectorsCalling.SkipToStart"
+      },
+      "OutputConnections": [
+        "5BE55397-4948C57C-BFDB898D-0D62A51D"
+      ],
+      "Compiled_NodeGUID": "5D6C9DBC-402EE2AA-6492D0AD-C89199D0"
+    }
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerDoesntHaveItem_C",
+    "Name": "QFR_PlayerDoesntHaveItem_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerDoesntHaveItem_C",
+    "Name": "QFR_PlayerDoesntHaveItem_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerDoesntHaveItem_C",
+    "Name": "QFR_PlayerDoesntHaveItem_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerDoesntHaveSpaceForItem_C",
+    "Name": "QFR_PlayerDoesntHaveSpaceForItem_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerDoesntHaveSpaceForItem_C",
+    "Name": "QFR_PlayerDoesntHaveSpaceForItem_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerDoesntHaveSpaceForItem_C",
+    "Name": "QFR_PlayerDoesntHaveSpaceForItem_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerDoesntHaveSpaceForItem_C",
+    "Name": "QFR_PlayerDoesntHaveSpaceForItem_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerDoesntHaveSpaceForItem_C",
+    "Name": "QFR_PlayerDoesntHaveSpaceForItem_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasItemAmount_C",
+    "Name": "QFR_PlayerHasItemAmount_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasItemAmount_C",
+    "Name": "QFR_PlayerHasItemAmount_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasItemAmount_C",
+    "Name": "QFR_PlayerHasItemAmount_C_12",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasSpaceForItem_C",
+    "Name": "QFR_PlayerHasSpaceForItem_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasSpaceForItem_C",
+    "Name": "QFR_PlayerHasSpaceForItem_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasSpaceForItem_C",
+    "Name": "QFR_PlayerHasSpaceForItem_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasSpaceForItem_C",
+    "Name": "QFR_PlayerHasSpaceForItem_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasSpaceForItem_C",
+    "Name": "QFR_PlayerHasSpaceForItem_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_13",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_14",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_44",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_45",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_46",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_12",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_13",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_14",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_15",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_16",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_17",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_18",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_19",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_20",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_21",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_22",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_23",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_24",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_26",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_27",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_28",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_29",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_30",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_31",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_32",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_33",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_36",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_37",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_39",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_42",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_CompleteQuest_C",
+    "Name": "QFT_CompleteQuest_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_CompleteQuests_C",
+    "Name": "QFT_CompleteQuests_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveCraftingRecipe_C",
+    "Name": "QFT_GiveCraftingRecipe_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveItemToPlayer_C",
+    "Name": "QFT_GiveItemToPlayer_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveItemToPlayer_C",
+    "Name": "QFT_GiveItemToPlayer_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveQuest_C",
+    "Name": "QFT_GiveQuest_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveQuest_C",
+    "Name": "QFT_GiveQuest_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveQuest_C",
+    "Name": "QFT_GiveQuest_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveQuest_C",
+    "Name": "QFT_GiveQuest_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_ModifyQuestInt_C",
+    "Name": "QFT_ModifyQuestInt_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_ModifyQuestInt_C",
+    "Name": "QFT_ModifyQuestInt_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_ModifyQuestInt_C",
+    "Name": "QFT_ModifyQuestInt_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_12",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_13",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_20",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_23",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_25",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_27",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_31",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_32",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_33",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_34",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_35",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_36",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_37",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_38",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_39",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_40",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_42",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_43",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_44",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_45",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_46",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_47",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_50",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_51",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_53",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_54",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_55",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_56",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_Play2DSting_C",
+    "Name": "SEN_Play2DSting_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_CollectorsCalling'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/QF_FH_CollectorsCalling.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  }
+]

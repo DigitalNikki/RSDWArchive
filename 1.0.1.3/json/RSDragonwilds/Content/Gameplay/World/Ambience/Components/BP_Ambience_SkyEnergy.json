@@ -1,0 +1,77 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Ambience_SkyEnergy_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Ambience_Target_C'",
+      "ObjectPath": "/Game/Gameplay/World/Ambience/Components/BP_Ambience_Target"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Energy Mesh",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_SkyEnergy_01_C'",
+          "ObjectPath": "/Game/Art/Env/Lighting/BPs/BP_SkyEnergy_01"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Color Index",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "PropertyClass": {
+          "ObjectName": "Class'CompositePairFloat'",
+          "ObjectPath": "/Script/CompositeVariable"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Noise Color",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "PropertyClass": {
+          "ObjectName": "Class'CompositePairColor'",
+          "ObjectPath": "/Script/CompositeVariable"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Ambience_SkyEnergy_C'Default__BP_Ambience_SkyEnergy_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/World/Ambience/Components/BP_Ambience_SkyEnergy.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Ambience_SkyEnergy_C",
+    "Name": "Default__BP_Ambience_SkyEnergy_C",
+    "Class": "BlueprintGeneratedClass'1.0.1.3/RSDragonwilds/Content/Gameplay/World/Ambience/Components/BP_Ambience_SkyEnergy.BP_Ambience_SkyEnergy_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Color Index": {
+        "ObjectName": "CompositePairFloat'AMB_EnergySky_Color_Index'",
+        "ObjectPath": "/Game/Gameplay/World/Ambience/Properties/AMB_EnergySky_Color_Index"
+      },
+      "Noise Color": {
+        "ObjectName": "CompositePairColor'AMB_EnergySky_Noise_Color'",
+        "ObjectPath": "/Game/Gameplay/World/Ambience/Properties/AMB_EnergySky_Noise_Color"
+      }
+    }
+  }
+]

@@ -1,0 +1,799 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ADT_Ai_TerrorBird",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Object'AiAnimationAudioTableRowBase'",
+        "ObjectPath": "/Script/Dominion"
+      }
+    },
+    "Rows": {
+      "Bodyfall": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.TerrorBird"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Fo_Terrorbird_Bodyfall'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Terrorbird/Terrorbird_Foley/MSS_Cr_Fo_Terrorbird_Bodyfall"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.TerrorBird.Spectral"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Fo_SpecTerrorbird_Bodyfall'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/TerrorbirdSpectral/Foley/MSS_Cr_Fo_SpecTerrorbird_Bodyfall"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.TerrorBird"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_Cr_Bodyfall_Med'",
+              "ObjectPath": "/Game/Audio/DataAssets/Foley/ADA_Cr_Bodyfall_Med"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.TerrorBird.Spectral"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_Cr_Bodyfall_MedSpectral'",
+              "ObjectPath": "/Game/Audio/DataAssets/Foley/ADA_Cr_Bodyfall_MedSpectral"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "foot_L0_0_jnt"
+        ]
+      },
+      "Idlebreak02_A": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.TerrorBird"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Fo_Terrorbird_Idlebreak02_A'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Terrorbird/Terrorbird_Foley/MSS_Cr_Fo_Terrorbird_Idlebreak02_A"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.TerrorBird.Spectral"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Fo_SpecTerrorbird_Idlebreak02_A'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/TerrorbirdSpectral/Foley/MSS_Cr_Fo_SpecTerrorbird_Idlebreak02_A"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Idlebreak02_B": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.TerrorBird"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Fo_Terrorbird_Idlebreak02_B'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Terrorbird/Terrorbird_Foley/MSS_Cr_Fo_Terrorbird_Idlebreak02_B"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.TerrorBird.Spectral"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Fo_SpecTerrorbird_Idlebreak02_B'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/TerrorbirdSpectral/Foley/MSS_Cr_Fo_SpecTerrorbird_Idlebreak02_B"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Peck_Bite": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.TerrorBird"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Fo_Terrorbird_Peck_Bite'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Terrorbird/Terrorbird_Foley/MSS_Cr_Fo_Terrorbird_Peck_Bite"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.TerrorBird.Spectral"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Fo_SpecTerrorbird_Peck_Bite'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/TerrorbirdSpectral/Foley/MSS_Cr_Fo_SpecTerrorbird_Peck_Bite"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "AngryHiss": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.TerrorBird"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Terrorbird_AngryHiss'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Terrorbird/Terrorbird_Vox/MSS_Cr_Vox_Terrorbird_AngryHiss"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.TerrorBird.Spectral"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_SpecTerrorbird_AngryHiss'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/TerrorbirdSpectral/Vox/MSS_Cr_Vox_SpecTerrorbird_AngryHiss"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Call_AddHitreact_Back": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.TerrorBird"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Terrorbird_Call_AddHitreact_Back'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Terrorbird/Terrorbird_Vox/MSS_Cr_Vox_Terrorbird_Call_AddHitreact_Back"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.TerrorBird.Spectral"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_SpecTerrorbird_Call_AddHitreact_Back'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/TerrorbirdSpectral/Vox/MSS_Cr_Vox_SpecTerrorbird_Call_AddHitreact_Back"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Call_AddHitreact_Front": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.TerrorBird"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Terrorbird_Call_AddHitreact_Front'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Terrorbird/Terrorbird_Vox/MSS_Cr_Vox_Terrorbird_Call_AddHitreact_Front"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.TerrorBird.Spectral"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_SpecTerrorbird_Call_AddHitreact_Front'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/TerrorbirdSpectral/Vox/MSS_Cr_Vox_SpecTerrorbird_Call_AddHitreact_Front"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Call_Alert_Combat": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.TerrorBird"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Terrorbird_Call_Alert_Combat'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Terrorbird/Terrorbird_Vox/MSS_Cr_Vox_Terrorbird_Call_Alert_Combat"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.TerrorBird.Spectral"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_SpecTerrorbird_Call_Alert_Combat'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/TerrorbirdSpectral/Vox/MSS_Cr_Vox_SpecTerrorbird_Call_Alert_Combat"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Call_AttackPeck": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.TerrorBird"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Terrorbird_Call_AttackPeck'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Terrorbird/Terrorbird_Vox/MSS_Cr_Vox_Terrorbird_Call_AttackPeck"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.TerrorBird.Spectral"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_SpecTerrorbird_Call_AttackPeck'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/TerrorbirdSpectral/Vox/MSS_Cr_Vox_SpecTerrorbird_Call_AttackPeck"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Call_AttackPeckFlurry_End": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.TerrorBird"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Terrorbird_Call_AttackPeckFlurry_End'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Terrorbird/Terrorbird_Vox/MSS_Cr_Vox_Terrorbird_Call_AttackPeckFlurry_End"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.TerrorBird.Spectral"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_SpecTerrorbird_Call_AttackPeckFlurry_End'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/TerrorbirdSpectral/Vox/MSS_Cr_Vox_SpecTerrorbird_Call_AttackPeckFlurry_End"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Call_AttackPeckFlurry_Mid": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.TerrorBird"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Terrorbird_Call_AttackPeckFlurry_Mid'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Terrorbird/Terrorbird_Vox/MSS_Cr_Vox_Terrorbird_Call_AttackPeckFlurry_Mid"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.TerrorBird.Spectral"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_SpecTerrorbird_Call_AttackPeckFlurry_Mid'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/TerrorbirdSpectral/Vox/MSS_Cr_Vox_SpecTerrorbird_Call_AttackPeckFlurry_Mid"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Call_AttackPeckFlurry_Start": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.TerrorBird"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Terrorbird_Call_AttackPeckFlurry_Start'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Terrorbird/Terrorbird_Vox/MSS_Cr_Vox_Terrorbird_Call_AttackPeckFlurry_Start"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.TerrorBird.Spectral"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_SpecTerrorbird_Call_AttackPeckFlurry_Start'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/TerrorbirdSpectral/Vox/MSS_Cr_Vox_SpecTerrorbird_Call_AttackPeckFlurry_Start"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Call_Death": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.TerrorBird"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Terrorbird_Call_Death'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Terrorbird/Terrorbird_Vox/MSS_Cr_Vox_Terrorbird_Call_Death"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.TerrorBird.Spectral"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_SpecTerrorbird_Call_Death'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/TerrorbirdSpectral/Vox/MSS_Cr_Vox_SpecTerrorbird_Call_Death"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": true,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Call_Hitreact_Heavy_Back": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.TerrorBird"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Terrorbird_Call_Hitreact_Heavy_Back'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Terrorbird/Terrorbird_Vox/MSS_Cr_Vox_Terrorbird_Call_Hitreact_Heavy_Back"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.TerrorBird.Spectral"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_SpecTerrorbird_Call_Hitreact_Heavy_Back'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/TerrorbirdSpectral/Vox/MSS_Cr_Vox_SpecTerrorbird_Call_Hitreact_Heavy_Back"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Call_Hitreact_Heavy_Front": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.TerrorBird"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Terrorbird_Call_Hitreact_Heavy_Front'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Terrorbird/Terrorbird_Vox/MSS_Cr_Vox_Terrorbird_Call_Hitreact_Heavy_Front"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.TerrorBird.Spectral"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_SpecTerrorbird_Call_Hitreact_Heavy_Front'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/TerrorbirdSpectral/Vox/MSS_Cr_Vox_SpecTerrorbird_Call_Hitreact_Heavy_Front"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Call_Hitreact_Light_Back": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.TerrorBird"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Terrorbird_Call_Hitreact_Light_Back'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Terrorbird/Terrorbird_Vox/MSS_Cr_Vox_Terrorbird_Call_Hitreact_Light_Back"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.TerrorBird.Spectral"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_SpecTerrorbird_Call_Hitreact_Light_Back'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/TerrorbirdSpectral/Vox/MSS_Cr_Vox_SpecTerrorbird_Call_Hitreact_Light_Back"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Call_Hitreact_Light_Front": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.TerrorBird"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Terrorbird_Call_Hitreact_Light_Front'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Terrorbird/Terrorbird_Vox/MSS_Cr_Vox_Terrorbird_Call_Hitreact_Light_Front"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.TerrorBird.Spectral"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_SpecTerrorbird_Call_Hitreact_Light_Front'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/TerrorbirdSpectral/Vox/MSS_Cr_Vox_SpecTerrorbird_Call_Hitreact_Light_Front"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Call_Hop": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.TerrorBird"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Terrorbird_Call_Hop'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Terrorbird/Terrorbird_Vox/MSS_Cr_Vox_Terrorbird_Call_Hop"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.TerrorBird.Spectral"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_SpecTerrorbird_Call_Hop'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/TerrorbirdSpectral/Vox/MSS_Cr_Vox_SpecTerrorbird_Call_Hop"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Idle_Chuckle": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.TerrorBird"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Terrorbird_Idle_Chuckle'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Terrorbird/Terrorbird_Vox/MSS_Cr_Vox_Terrorbird_Idle_Chuckle"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.TerrorBird.Spectral"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_SpecTerrorbird_Idle_Chuckle'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/TerrorbirdSpectral/Vox/MSS_Cr_Vox_SpecTerrorbird_Idle_Chuckle"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Idle_Groan": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.TerrorBird"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Terrorbird_Idle_Groan'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Terrorbird/Terrorbird_Vox/MSS_Cr_Vox_Terrorbird_Idle_Groan"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.TerrorBird.Spectral"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_SpecTerrorbird_Idle_Groan'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/TerrorbirdSpectral/Vox/MSS_Cr_Vox_SpecTerrorbird_Idle_Groan"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Idle_OddVox": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.TerrorBird"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Terrorbird_Idle_OddVox'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Terrorbird/Terrorbird_Vox/MSS_Cr_Vox_Terrorbird_Idle_OddVox"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.TerrorBird.Spectral"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_SpecTerrorbird_Idle_OddVox'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/TerrorbirdSpectral/Vox/MSS_Cr_Vox_SpecTerrorbird_Idle_OddVox"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Idlebreak02_Groan": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.TerrorBird"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Terrorbird_Idlebreak02_Groan'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Terrorbird/Terrorbird_Vox/MSS_Cr_Vox_Terrorbird_Idlebreak02_Groan"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.TerrorBird.Spectral"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_SpecTerrorbird_Idlebreak02_Groan'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/TerrorbirdSpectral/Vox/MSS_Cr_Vox_SpecTerrorbird_Idlebreak02_Groan"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Loco_Chuckle": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.TerrorBird"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Terrorbird_Loco_Chuckle'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Terrorbird/Terrorbird_Vox/MSS_Cr_Vox_Terrorbird_Loco_Chuckle"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.TerrorBird.Spectral"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_SpecTerrorbird_Loco_Chuckle'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/TerrorbirdSpectral/Vox/MSS_Cr_Vox_SpecTerrorbird_Loco_Chuckle"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Taunt_Call": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.TerrorBird"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Terrorbird_Taunt_Call'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Terrorbird/Terrorbird_Vox/MSS_Cr_Vox_Terrorbird_Taunt_Call"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.TerrorBird.Spectral"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_SpecTerrorbird_Taunt_Call'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/TerrorbirdSpectral/Vox/MSS_Cr_Vox_SpecTerrorbird_Taunt_Call"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "TauntHiss": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.TerrorBird"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Terrorbird_TauntHiss'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Terrorbird/Terrorbird_Vox/MSS_Cr_Vox_Terrorbird_TauntHiss"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.TerrorBird.Spectral"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_SpecTerrorbird_TauntHiss'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/TerrorbirdSpectral/Vox/MSS_Cr_Vox_SpecTerrorbird_TauntHiss"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Footsteps_Walk": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.TerrorBird"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_TerrorbirdFootsteps_Walk'",
+              "ObjectPath": "/Game/Audio/DataAssets/FootstepData/ADA_TerrorbirdFootsteps_Walk"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.TerrorBird.Spectral"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_TerrorbirdSpectralFootsteps_Walk'",
+              "ObjectPath": "/Game/Audio/DataAssets/FootstepData/ADA_TerrorbirdSpectralFootsteps_Walk"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "foot_L0_0_jnt",
+          "foot_R0_0_jnt"
+        ]
+      },
+      "Footsteps_Run": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.TerrorBird"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_TerrorbirdFootsteps_Run'",
+              "ObjectPath": "/Game/Audio/DataAssets/FootstepData/ADA_TerrorbirdFootsteps_Run"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.TerrorBird.Spectral"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_TerrorbirdSpectralFootsteps_Run'",
+              "ObjectPath": "/Game/Audio/DataAssets/FootstepData/ADA_TerrorbirdSpectralFootsteps_Run"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "foot_L0_0_jnt",
+          "foot_R0_0_jnt"
+        ]
+      }
+    }
+  }
+]

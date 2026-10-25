@@ -1,0 +1,109 @@
+[
+  {
+    "Type": "AudioZoneData",
+    "Name": "ADA_AudioZone_DowdunHub",
+    "Class": "UScriptClass'AudioZoneData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AudioZoneEmitterEvents_DayTime": [
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_DRCrow'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/BiomeBeds/Dowdun/Emitters/MSS_Wo_EmMo_DRCrow"
+          },
+          "Weight": 50
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_RavenCallHigh'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/BiomeBeds/Dowdun/MSS_Wo_EmMo_RavenCallHigh"
+          },
+          "Weight": 20
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_RavenCroak'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/Region1/MSS_Wo_EmMo_RavenCroak"
+          },
+          "Weight": 20
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_Crow'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/BiomeBeds/Dowdun/MSS_Wo_EmMo_Crow"
+          },
+          "Weight": 81
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_JackDaw'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/BiomeBeds/Dowdun/Emitters/MSS_Wo_EmMo_JackDaw"
+          },
+          "Weight": 74
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_WhiteTailedJay'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/Region1/MSS_Wo_EmMo_WhiteTailedJay"
+          },
+          "Weight": 62
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_WhiteBackVulture'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/Region1_Night/MSS_Wo_EmMo_WhiteBackVulture"
+          },
+          "Weight": 25
+        }
+      ],
+      "AudioZoneEmitterEvents_NightTime": [
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_WhiteBackVulture'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/Region1_Night/MSS_Wo_EmMo_WhiteBackVulture"
+          },
+          "Weight": 49
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_BarnOwl'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/Region1_Night/MSS_Wo_EmMo_BarnOwl"
+          },
+          "Weight": 50
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_Grasshopper'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/Region1_Night/MSS_Wo_EmMo_Grasshopper"
+          },
+          "Weight": 25
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_NightCreature2'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/Region1_Night/MSS_Wo_EmMo_NightCreature2"
+          },
+          "Weight": 40
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_NightCreature3'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/Region1_Night/MSS_Wo_EmMo_NightCreature3"
+          },
+          "Weight": 50
+        }
+      ],
+      "Priority": 4,
+      "OuterRadius": 2000.0,
+      "InnerRadius": 1500.0,
+      "RandomCooldownRange": {
+        "UpperBound": {
+          "Value": 8.0
+        }
+      },
+      "ZoneEmitterCap": 2,
+      "ProbabilityToSpawnNonDiegeticEmitterDay": 60.0,
+      "ProbabilityToSpawnNonDiegeticEmitterNight": 35.0
+    }
+  }
+]

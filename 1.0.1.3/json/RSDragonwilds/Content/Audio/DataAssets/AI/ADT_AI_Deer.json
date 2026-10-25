@@ -1,0 +1,544 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ADT_AI_Deer",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Object'AiAnimationAudioTableRowBase'",
+        "ObjectPath": "/Script/Dominion"
+      }
+    },
+    "Rows": {
+      "Death_Close": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Deer"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Deer_Death'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Deer/Deer_Vox/MSS_Cr_Vox_Deer_Death"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": true,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Death": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Deer"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Deer_Death'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Deer/BC_Deer/Vox/MSS_Cr_Vox_Deer_Death"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": true,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "ShortCallIdle": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Deer"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Deer_ShortCallIdle'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Deer/BC_Deer/Vox/MSS_Cr_Vox_Deer_ShortCallIdle"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head_C0_jnt"
+        ]
+      },
+      "Snorts": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Deer"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Deer_Snorts'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Deer/BC_Deer/Vox/MSS_Cr_Vox_Deer_Snorts"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head_C0_jnt"
+        ]
+      },
+      "YukaIdle": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Deer"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Deer_YukaIdle'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Deer/BC_Deer/Vox/MSS_Cr_Vox_Deer_YukaIdle"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head_C0_jnt"
+        ]
+      },
+      "Chew": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Deer"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Fo_Deer_Chew'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Deer/Deer_Foley/MSS_Cr_Fo_Deer_Chew"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head_C0_jnt"
+        ]
+      },
+      "DeathBodyFall": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Deer"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Fo_Deer_DeathBodyFall'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Deer/Deer_Foley/MSS_Cr_Fo_Deer_DeathBodyFall"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": true,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "EarFlap": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Deer"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Fo_Deer_EarFlap'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Deer/Deer_Foley/MSS_Cr_Fo_Deer_EarFlap"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head_C0_jnt"
+        ]
+      },
+      "FS_Grass": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Deer"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Fo_Deer_FS_Grass'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Deer/Deer_Foley/MSS_Cr_Fo_Deer_FS_Grass"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "GrassMunch": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Deer"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Fo_Deer_GrassMunch'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Deer/Deer_Foley/MSS_Cr_Fo_Deer_GrassMunch"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head_C0_jnt"
+        ]
+      },
+      "ShortChew": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Deer"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Fo_Deer_ShortChew'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Deer/Deer_Foley/MSS_Cr_Fo_Deer_ShortChew"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head_C0_jnt"
+        ]
+      },
+      "TailFlapFast": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Deer"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Fo_Deer_TailFlapFast'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Deer/Deer_Foley/MSS_Cr_Fo_Deer_TailFlapFast"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "TailFlapSlow": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Deer"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Fo_Deer_TailFlapSlow'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Deer/Deer_Foley/MSS_Cr_Fo_Deer_TailFlapSlow"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Breathe": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Deer"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Deer_Breathe'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Deer/Deer_Vox/MSS_Cr_Vox_Deer_Breathe"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head_C0_jnt"
+        ]
+      },
+      "Grunt": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Deer"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Deer_Grunt'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Deer/Deer_Vox/MSS_Cr_Vox_Deer_Grunt"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head_C0_jnt"
+        ]
+      },
+      "GruntBreath": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Deer"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_DeerGruntBreath'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Deer/Deer_Vox/MSS_Cr_Vox_DeerGruntBreath"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head_C0_jnt"
+        ]
+      },
+      "Hit_MovementGrunt": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Deer"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Deer_Hit_MovementGrunt'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Deer/Deer_Vox/MSS_Cr_Vox_Deer_Hit_MovementGrunt"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head_C0_jnt"
+        ]
+      },
+      "HitReact_2": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Deer"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Deer_HitReact_2'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Deer/Deer_Vox/MSS_Cr_Vox_Deer_HitReact_2"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head_C0_jnt"
+        ]
+      },
+      "Idle": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Deer"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Deer_Idle'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Deer/Deer_Vox/MSS_Cr_Vox_Deer_Idle"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head_C0_jnt"
+        ]
+      },
+      "IdleBreak02_FullCall": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Deer"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Deer_IdleBreak02_FullCall'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Deer/Deer_Vox/MSS_Cr_Vox_Deer_IdleBreak02_FullCall"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head_C0_jnt"
+        ]
+      },
+      "IdleBreak02_LongCall": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Deer"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Deer_IdleBreak02_LongCall'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Deer/Deer_Vox/MSS_Cr_Vox_Deer_IdleBreak02_LongCall"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head_C0_jnt"
+        ]
+      },
+      "IdleBreak02_ShortCall": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Deer"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Deer_IdleBreak02_ShortCall'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Deer/Deer_Vox/MSS_Cr_Vox_Deer_IdleBreak02_ShortCall"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head_C0_jnt"
+        ]
+      },
+      "Startled": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Deer"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Deer_Startled'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Deer/Deer_Vox/MSS_Cr_Vox_Deer_Startled"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head_C0_jnt"
+        ]
+      },
+      "Footsteps_Light": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Deer"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_DeerFootsteps_Light'",
+              "ObjectPath": "/Game/Audio/DataAssets/FootstepData/ADA_DeerFootsteps_Light"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Footsteps": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Deer"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_DeerFootsteps_Med'",
+              "ObjectPath": "/Game/Audio/DataAssets/FootstepData/ADA_DeerFootsteps_Med"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Bodyfall_Med": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Deer"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_Cr_Bodyfall_Med'",
+              "ObjectPath": "/Game/Audio/DataAssets/Foley/ADA_Cr_Bodyfall_Med"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      }
+    }
+  }
+]

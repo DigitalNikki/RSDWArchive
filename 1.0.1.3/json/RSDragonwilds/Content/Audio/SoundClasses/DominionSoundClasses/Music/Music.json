@@ -1,0 +1,36 @@
+[
+  {
+    "Type": "DominionSoundClass",
+    "Name": "Music",
+    "Class": "UScriptClass'DominionSoundClass'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaxReverbSend": 0.0,
+      "Properties": {
+        "LoadingBehavior": "ESoundWaveLoadingBehavior::LoadOnDemand"
+      },
+      "ChildClasses": [
+        {
+          "ObjectName": "DominionSoundClass'Music_BGM'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/Music/Music_BGM"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Music_Stings'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/Music/Music_Stings"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Music_Menu'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/Music/Music_Menu"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Music_Stings_Maj'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/Music/Music_Stings_Maj"
+        }
+      ],
+      "ParentClass": {
+        "ObjectName": "DominionSoundClass'DOM_Master'",
+        "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/DOM_Master"
+      }
+    }
+  }
+]

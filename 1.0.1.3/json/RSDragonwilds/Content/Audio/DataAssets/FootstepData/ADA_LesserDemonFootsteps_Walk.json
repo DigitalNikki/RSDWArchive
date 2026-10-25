@@ -1,0 +1,315 @@
+[
+  {
+    "Type": "FootstepData",
+    "Name": "ADA_LesserDemonFootsteps_Walk",
+    "Class": "UScriptClass'FootstepData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SurfaceTypeToSoundMap": [
+        {
+          "Key": "SurfaceType1",
+          "Value": {
+            "FootstepSoundLocal": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_LesserDemon_FS_Grass'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Foley/MSS_En_Fo_LesserDemon_FS_Grass"
+            },
+            "FootstepSoundRemote": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_LesserDemon_FS_Grass'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Foley/MSS_En_Fo_LesserDemon_FS_Grass"
+            },
+            "FootstepVFX": {
+              "ObjectName": "NiagaraSystem'NS_Footstep_Grass_Light'",
+              "ObjectPath": "/Game/Art/VFX/Library/Character/Shared/Footsteps/Light/NS_Footstep_Grass_Light"
+            }
+          }
+        },
+        {
+          "Key": "SurfaceType2",
+          "Value": {
+            "FootstepSoundLocal": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_LesserDemon_FS_Grass'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Foley/MSS_En_Fo_LesserDemon_FS_Grass"
+            },
+            "FootstepSoundRemote": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_LesserDemon_FS_Grass'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Foley/MSS_En_Fo_LesserDemon_FS_Grass"
+            },
+            "FootstepVFX": {
+              "ObjectName": "NiagaraSystem'NS_Footstep_Grass_Light'",
+              "ObjectPath": "/Game/Art/VFX/Library/Character/Shared/Footsteps/Light/NS_Footstep_Grass_Light"
+            }
+          }
+        },
+        {
+          "Key": "SurfaceType5",
+          "Value": {
+            "FootstepSoundLocal": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_LesserDemon_FS_Concrete'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Foley/MSS_En_Fo_LesserDemon_FS_Concrete"
+            },
+            "FootstepSoundRemote": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_LesserDemon_FS_Concrete'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Foley/MSS_En_Fo_LesserDemon_FS_Concrete"
+            },
+            "FootstepVFX": {
+              "ObjectName": "NiagaraSystem'NS_Footstep_Stone_Light'",
+              "ObjectPath": "/Game/Art/VFX/Library/Character/Shared/Footsteps/Light/NS_Footstep_Stone_Light"
+            }
+          }
+        },
+        {
+          "Key": "SurfaceType9",
+          "Value": {
+            "FootstepSoundLocal": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_LesserDemon_FS_Wood'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Foley/MSS_En_Fo_LesserDemon_FS_Wood"
+            },
+            "FootstepSoundRemote": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_LesserDemon_FS_Wood'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Foley/MSS_En_Fo_LesserDemon_FS_Wood"
+            },
+            "FootstepVFX": {
+              "ObjectName": "NiagaraSystem'NS_Footstep_Dirt_Light'",
+              "ObjectPath": "/Game/Art/VFX/Library/Character/Shared/Footsteps/Light/NS_Footstep_Dirt_Light"
+            }
+          }
+        },
+        {
+          "Key": "SurfaceType3",
+          "Value": {
+            "FootstepSoundLocal": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_LesserDemon_FS_Dirt'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Foley/MSS_En_Fo_LesserDemon_FS_Dirt"
+            },
+            "FootstepSoundRemote": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_LesserDemon_FS_Dirt'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Foley/MSS_En_Fo_LesserDemon_FS_Dirt"
+            },
+            "FootstepVFX": {
+              "ObjectName": "NiagaraSystem'NS_Footstep_Dirt_Light'",
+              "ObjectPath": "/Game/Art/VFX/Library/Character/Shared/Footsteps/Light/NS_Footstep_Dirt_Light"
+            }
+          }
+        },
+        {
+          "Key": "SurfaceType4",
+          "Value": {
+            "FootstepSoundLocal": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_LesserDemon_FS_Water'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Foley/MSS_En_Fo_LesserDemon_FS_Water"
+            },
+            "FootstepSoundRemote": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_LesserDemon_FS_Water'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Foley/MSS_En_Fo_LesserDemon_FS_Water"
+            },
+            "FootstepVFX": {
+              "ObjectName": "NiagaraSystem'NS_Footstep_Mud_Light'",
+              "ObjectPath": "/Game/Art/VFX/Library/Character/Shared/Footsteps/Light/NS_Footstep_Mud_Light"
+            }
+          }
+        },
+        {
+          "Key": "SurfaceType6",
+          "Value": {
+            "FootstepSoundLocal": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_LesserDemon_FS_Grass'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Foley/MSS_En_Fo_LesserDemon_FS_Grass"
+            },
+            "FootstepSoundRemote": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_LesserDemon_FS_Grass'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Foley/MSS_En_Fo_LesserDemon_FS_Grass"
+            },
+            "FootstepVFX": {
+              "ObjectName": "NiagaraSystem'NS_Footstep_Grass_Light'",
+              "ObjectPath": "/Game/Art/VFX/Library/Character/Shared/Footsteps/Light/NS_Footstep_Grass_Light"
+            }
+          }
+        },
+        {
+          "Key": "SurfaceType7",
+          "Value": {
+            "FootstepSoundLocal": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_LesserDemon_FS_Dirt'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Foley/MSS_En_Fo_LesserDemon_FS_Dirt"
+            },
+            "FootstepSoundRemote": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_LesserDemon_FS_Dirt'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Foley/MSS_En_Fo_LesserDemon_FS_Dirt"
+            },
+            "FootstepVFX": {
+              "ObjectName": "NiagaraSystem'NS_Footstep_Dirt_Light'",
+              "ObjectPath": "/Game/Art/VFX/Library/Character/Shared/Footsteps/Light/NS_Footstep_Dirt_Light"
+            }
+          }
+        },
+        {
+          "Key": "SurfaceType12",
+          "Value": {
+            "FootstepSoundLocal": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_LesserDemon_FS_Dirt'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Foley/MSS_En_Fo_LesserDemon_FS_Dirt"
+            },
+            "FootstepSoundRemote": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_LesserDemon_FS_Dirt'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Foley/MSS_En_Fo_LesserDemon_FS_Dirt"
+            },
+            "FootstepVFX": {
+              "ObjectName": "NiagaraSystem'NS_Footstep_Dirt_Light'",
+              "ObjectPath": "/Game/Art/VFX/Library/Character/Shared/Footsteps/Light/NS_Footstep_Dirt_Light"
+            }
+          }
+        },
+        {
+          "Key": "SurfaceType23",
+          "Value": {
+            "FootstepSoundLocal": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_LesserDemon_FS_Water'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Foley/MSS_En_Fo_LesserDemon_FS_Water"
+            },
+            "FootstepSoundRemote": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_LesserDemon_FS_Water'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Foley/MSS_En_Fo_LesserDemon_FS_Water"
+            },
+            "FootstepVFX": {
+              "ObjectName": "NiagaraSystem'NS_Footstep_Mud_Light'",
+              "ObjectPath": "/Game/Art/VFX/Library/Character/Shared/Footsteps/Light/NS_Footstep_Mud_Light"
+            }
+          }
+        },
+        {
+          "Key": "SurfaceType21",
+          "Value": {
+            "FootstepSoundLocal": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_LesserDemon_FS_Water'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Foley/MSS_En_Fo_LesserDemon_FS_Water"
+            },
+            "FootstepSoundRemote": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_LesserDemon_FS_Water'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Foley/MSS_En_Fo_LesserDemon_FS_Water"
+            },
+            "FootstepVFX": {
+              "ObjectName": "NiagaraSystem'NS_Footstep_Water_Light'",
+              "ObjectPath": "/Game/Art/VFX/Library/Character/Shared/Footsteps/Light/NS_Footstep_Water_Light"
+            }
+          }
+        },
+        {
+          "Key": "SurfaceType8",
+          "Value": {
+            "FootstepSoundLocal": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_LesserDemon_FS_Water'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Foley/MSS_En_Fo_LesserDemon_FS_Water"
+            },
+            "FootstepSoundRemote": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_LesserDemon_FS_Water'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Foley/MSS_En_Fo_LesserDemon_FS_Water"
+            },
+            "FootstepVFX": {
+              "ObjectName": "NiagaraSystem'NS_Footstep_Water_Light'",
+              "ObjectPath": "/Game/Art/VFX/Library/Character/Shared/Footsteps/Light/NS_Footstep_Water_Light"
+            }
+          }
+        },
+        {
+          "Key": "SurfaceType13",
+          "Value": {
+            "FootstepSoundLocal": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_LesserDemon_FS_Grass'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Foley/MSS_En_Fo_LesserDemon_FS_Grass"
+            },
+            "FootstepSoundRemote": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_LesserDemon_FS_Grass'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Foley/MSS_En_Fo_LesserDemon_FS_Grass"
+            },
+            "FootstepVFX": {
+              "ObjectName": "NiagaraSystem'NS_Footstep_Leaves_Light'",
+              "ObjectPath": "/Game/Art/VFX/Library/Character/Shared/Footsteps/Light/NS_Footstep_Leaves_Light"
+            }
+          }
+        },
+        {
+          "Key": "SurfaceType28",
+          "Value": {
+            "FootstepSoundLocal": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_LesserDemon_FS_Concrete'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Foley/MSS_En_Fo_LesserDemon_FS_Concrete"
+            },
+            "FootstepSoundRemote": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_LesserDemon_FS_Concrete'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Foley/MSS_En_Fo_LesserDemon_FS_Concrete"
+            },
+            "FootstepVFX": {
+              "ObjectName": "NiagaraSystem'NS_Footstep_Stone_Light'",
+              "ObjectPath": "/Game/Art/VFX/Library/Character/Shared/Footsteps/Light/NS_Footstep_Stone_Light"
+            }
+          }
+        },
+        {
+          "Key": "SurfaceType26",
+          "Value": {
+            "FootstepSoundLocal": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_LesserDemon_FS_Concrete'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Foley/MSS_En_Fo_LesserDemon_FS_Concrete"
+            },
+            "FootstepSoundRemote": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_LesserDemon_FS_Concrete'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Foley/MSS_En_Fo_LesserDemon_FS_Concrete"
+            },
+            "FootstepVFX": {
+              "ObjectName": "NiagaraSystem'NS_Footstep_Stone_Light'",
+              "ObjectPath": "/Game/Art/VFX/Library/Character/Shared/Footsteps/Light/NS_Footstep_Stone_Light"
+            }
+          }
+        },
+        {
+          "Key": "SurfaceType16",
+          "Value": {
+            "FootstepSoundLocal": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_LesserDemon_FS_Concrete'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Foley/MSS_En_Fo_LesserDemon_FS_Concrete"
+            },
+            "FootstepSoundRemote": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_LesserDemon_FS_Concrete'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Foley/MSS_En_Fo_LesserDemon_FS_Concrete"
+            },
+            "FootstepVFX": {
+              "ObjectName": "NiagaraSystem'NS_Footstep_Stone_Light'",
+              "ObjectPath": "/Game/Art/VFX/Library/Character/Shared/Footsteps/Light/NS_Footstep_Stone_Light"
+            }
+          }
+        },
+        {
+          "Key": "SurfaceType33",
+          "Value": {
+            "FootstepSoundLocal": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_LesserDemon_FS_Grass'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Foley/MSS_En_Fo_LesserDemon_FS_Grass"
+            },
+            "FootstepSoundRemote": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_LesserDemon_FS_Grass'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Foley/MSS_En_Fo_LesserDemon_FS_Grass"
+            },
+            "FootstepVFX": null
+          }
+        },
+        {
+          "Key": "SurfaceType_Default",
+          "Value": {
+            "FootstepSoundLocal": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_Goblin_FS_Walk'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/GoblinFaction/Goblin_Foley/Footsteps/MSS_En_Fo_Goblin_FS_Walk"
+            },
+            "FootstepSoundRemote": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_Goblin_FS_Walk'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/GoblinFaction/Goblin_Foley/Footsteps/MSS_En_Fo_Goblin_FS_Walk"
+            },
+            "FootstepVFX": {
+              "ObjectName": "NiagaraSystem'NS_Footstep_Dirt_Light'",
+              "ObjectPath": "/Game/Art/VFX/Library/Character/Shared/Footsteps/Light/NS_Footstep_Dirt_Light"
+            }
+          }
+        }
+      ]
+    }
+  }
+]

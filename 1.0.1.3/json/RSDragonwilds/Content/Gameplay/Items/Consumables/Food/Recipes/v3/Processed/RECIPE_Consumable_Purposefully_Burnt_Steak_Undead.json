@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Consumable_Purposefully_Burnt_Steak_Undead",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Steak_Undead'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Steak_Undead"
+          },
+          "Count": 1
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Steak_Undead_Burnt'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Steak_Undead_Burnt"
+          },
+          "Count": 1
+        }
+      ],
+      "AlternativeItemCreated": {
+        "Count": 1
+      },
+      "AudioTag": {
+        "TagName": "Audio.Food.Plant.Chewy"
+      },
+      "bIgnoreNotification": true,
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Cooking'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Cooking"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Pickup'",
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Pickup"
+        },
+        "RowName": "Pickup_Campfire_Processed_Item"
+      },
+      "PersistenceID": "tUIwe0x9MOZY3yGpfkBTWA",
+      "InternalName": "recipe_purposefully_burnt_steak_undead"
+    }
+  }
+]

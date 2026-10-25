@@ -1,0 +1,80 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PA_Block_Shield_Kite_Mithril_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'PlayerBlockAction'",
+      "ObjectPath": "/Script/Dominion"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PA_Block_Shield_Kite_Mithril_C'Default__PA_Block_Shield_Kite_Mithril_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/Abilities/Block/PA_Block_Shield_Kite_Mithril.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PA_Block_Shield_Kite_Mithril_C",
+    "Name": "Default__PA_Block_Shield_Kite_Mithril_C",
+    "Class": "BlueprintGeneratedClass'1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/Abilities/Block/PA_Block_Shield_Kite_Mithril.PA_Block_Shield_Kite_Mithril_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BlockingPriority": 3,
+      "BlockStaminaCost": 10.0,
+      "ParryStaminaCost": 10.0,
+      "bShouldUseFlatParryStaminaRefund": true,
+      "ParryRefundFlat": 50.0,
+      "IntoAnimL": {
+        "ObjectName": "AnimSequence'A_PlayerM_Shield_Block_In'",
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Block/A_PlayerM_Shield_Block_In"
+      },
+      "OutOfAnimL": {
+        "ObjectName": "AnimSequence'A_PlayerM_Shield_Block_Out'",
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Block/A_PlayerM_Shield_Block_Out"
+      },
+      "PoseAnimL": {
+        "ObjectName": "AnimSequence'A_PlayerM_Shield_Block_Pose'",
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Block/A_PlayerM_Shield_Block_Pose"
+      },
+      "IntoAnimR": {
+        "ObjectName": "AnimSequence'A_PlayerM_Shield_Block_In'",
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Block/A_PlayerM_Shield_Block_In"
+      },
+      "OutOfAnimR": {
+        "ObjectName": "AnimSequence'A_PlayerM_Shield_Block_Out'",
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Block/A_PlayerM_Shield_Block_Out"
+      },
+      "PoseAnimR": {
+        "ObjectName": "AnimSequence'A_PlayerM_Shield_Block_Pose'",
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Block/A_PlayerM_Shield_Block_Pose"
+      },
+      "SkillPerkRequiredToParry": {
+        "ObjectName": "SkillPerkData'PerkV2_Attack_Parry'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/PerksV2/Attack/PerkV2_Attack_Parry"
+      },
+      "ActionNameIfCanParry": {
+        "TableId": "/Game/UI/Settings/ST_Controls.ST_Controls",
+        "Key": "CombatBlockAndParry",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "ActionName": {
+        "TableId": "/Game/UI/Settings/ST_Controls.ST_Controls",
+        "Key": "CombatBlock",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "bRequiresHolding": true
+    }
+  }
+]

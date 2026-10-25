@@ -1,0 +1,95 @@
+[
+  {
+    "Type": "HeldEquipmentData",
+    "Name": "ITEM_Pickaxe_Bone",
+    "Class": "UScriptClass'HeldEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HeldEquipmentActorClass": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Pickaxe/BP_Pickaxe_Bone.BP_Pickaxe_Bone_C",
+        "SubPathString": ""
+      },
+      "PrimaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_Pickaxe_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Pickaxe/PA_Attack_Pickaxe"
+      },
+      "SecondaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Block_PickAxe_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Abilities/Block/PA_Block_PickAxe"
+      },
+      "AnimationPoseType": "EAnimationPoseType::Default",
+      "AnimationPosesSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Idle_Pickaxe_Poses'",
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Pickaxe/A_PlayerM_Idle_Pickaxe_Poses"
+      },
+      "BaseHeldEquipmentPowerLevelRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_PlayerWeaponPowerLevels'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels"
+        },
+        "RowName": "Weapons"
+      },
+      "BaseHeldEquipmentDamageNegationRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_PlayerDamageNegation'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_PlayerDamageNegation"
+        },
+        "RowName": "Tools"
+      },
+      "DamageMultiplier": 1.5,
+      "AdditionalDamageMultiplier": -0.39999998,
+      "DamageTypes": [
+        "DamageType.Physical.Crush"
+      ],
+      "Slot": "ELoadoutSlotStrategy::HeldTwoHanded",
+      "Tier": 2,
+      "bIsAWeapon": true,
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Mining'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Mining"
+      },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "BonePickaxe",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "3B5A0C2F4CF99920C00AE7A1428ACFB5",
+        "SourceString": "A basic mining tool made from tough animal bone. It is hard enough to mine Copper and Tin deposits.",
+        "LocalizedString": "A basic mining tool made from tough animal bone. It is hard enough to mine Copper and Tin deposits."
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Weapons_09_24/T_Icon_Pickaxe_Bone_2H_01.T_Icon_Pickaxe_Bone_2H_01",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Skeleton/Weapons/Tool/Pickaxe_Bone_2H_01/SM_Pickaxe_Bone_2H_01.SM_Pickaxe_Bone_2H_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 2,
+      "Weight": 5.0,
+      "Category": {
+        "TagName": "Item.Equipment.Tool.Pickaxe"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Tool.Pickaxe"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Stone.Pickaxe"
+      },
+      "BaseDurability": 1350,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak"
+      },
+      "PersistenceID": "Xs6AJ0up43qfLeG1fRqk4g",
+      "InternalName": "tool_pick_bone"
+    }
+  }
+]

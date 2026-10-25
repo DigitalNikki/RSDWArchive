@@ -1,0 +1,39 @@
+[
+  {
+    "Type": "SkillPerkData",
+    "Name": "PerkV2_Mining_DivineRockUpgrade",
+    "Class": "UScriptClass'SkillPerkData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "PerkName": {
+        "TableId": "/Game/Gameplay/Character/Player/PerksV2/ST_Skills_Perks.ST_Skills_Perks",
+        "Key": "Mining.DivineRockUpgrade.Name",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PerkDescription": {
+        "TableId": "/Game/Gameplay/Character/Player/PerksV2/ST_Skills_Perks.ST_Skills_Perks",
+        "Key": "Mining.DivineRockUpgrade.Desc",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "SkillPerkImage": {
+        "AssetPathName": "/Game/Art/UI/Skills/Icons/Unlock/Mining/T_Skill_Mining_Spell_DivineRock_+.T_Skill_Mining_Spell_DivineRock_+",
+        "SubPathString": ""
+      },
+      "PerkUnlockInfo": {
+        "AssociatedSkill": {
+          "AssetPathName": "/Game/Gameplay/Character/Player/Skills/SKILL_Mining.SKILL_Mining",
+          "SubPathString": ""
+        },
+        "RequiredSkillLevel": 90
+      },
+      "PerkUsageVideo": {
+        "ObjectName": "BinkMediaPlayer'BNK_Video_Mining_DivineRock+_NoUI'",
+        "ObjectPath": "/Game/Movies/BNK_Video_Mining_DivineRock+_NoUI"
+      },
+      "PersistenceID": "kTVU3U6FZDiOHM-ZHPVDXg",
+      "InternalName": "perk_mining_divinerockupgrade"
+    }
+  }
+]

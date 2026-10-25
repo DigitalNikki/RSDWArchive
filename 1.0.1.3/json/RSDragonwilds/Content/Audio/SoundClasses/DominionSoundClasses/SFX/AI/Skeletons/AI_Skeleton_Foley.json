@@ -1,0 +1,34 @@
+[
+  {
+    "Type": "DominionSoundClass",
+    "Name": "AI_Skeleton_Foley",
+    "Class": "UScriptClass'DominionSoundClass'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MinReverbSend": 0.1,
+      "MaxReverbSend": 0.5,
+      "OcclusionMultiplier": 1.0,
+      "Properties": {
+        "Volume": 0.50288546,
+        "DefaultSubmix": {
+          "ObjectName": "SoundSubmix'SFX'",
+          "ObjectPath": "/Game/Audio/Submixes/SFX"
+        }
+      },
+      "ChildClasses": [
+        {
+          "ObjectName": "DominionSoundClass'AI_Skeleton_Footsteps'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/Skeletons/AI_Skeleton_Footsteps"
+        },
+        {
+          "ObjectName": "DominionSoundClass'AI_Skeleton_ClothAccouts'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/Skeletons/AI_Skeleton_ClothAccouts"
+        }
+      ],
+      "ParentClass": {
+        "ObjectName": "DominionSoundClass'AI'",
+        "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/AI"
+      }
+    }
+  }
+]

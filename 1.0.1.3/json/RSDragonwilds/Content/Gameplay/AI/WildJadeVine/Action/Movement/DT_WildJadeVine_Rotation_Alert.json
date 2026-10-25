@@ -1,0 +1,88 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_WildJadeVine_Rotation_Alert",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Object'AiRotationAnimationData'",
+        "ObjectPath": "/Script/Dominion"
+      }
+    },
+    "Rows": {
+      "TurnL_45": {
+        "AnimationMontage": {
+          "ObjectName": "AnimMontage'AM_NPC_WildJadeVine_Turn_45_Lt'",
+          "ObjectPath": "/Game/Gameplay/AI/WildJadeVine/Action/Movement/AM_NPC_WildJadeVine_Turn_45_Lt"
+        },
+        "Likelihood": {
+          "ObjectName": "BlueprintGeneratedClass'DefaultLikelihood_C'",
+          "ObjectPath": "/Game/Gameplay/AI/BehaviourShared/Likelihood/DefaultLikelihood"
+        },
+        "bEnabled": true,
+        "Rotation": -45.0
+      },
+      "TurnL_90": {
+        "AnimationMontage": {
+          "ObjectName": "AnimMontage'AM_NPC_WildJadeVine_Turn_90_Lt'",
+          "ObjectPath": "/Game/Gameplay/AI/WildJadeVine/Action/Movement/AM_NPC_WildJadeVine_Turn_90_Lt"
+        },
+        "Likelihood": {
+          "ObjectName": "BlueprintGeneratedClass'DefaultLikelihood_C'",
+          "ObjectPath": "/Game/Gameplay/AI/BehaviourShared/Likelihood/DefaultLikelihood"
+        },
+        "bEnabled": true,
+        "Rotation": -90.0
+      },
+      "TurnR_45": {
+        "AnimationMontage": {
+          "ObjectName": "AnimMontage'AM_NPC_WildJadeVine_Turn_45_Rt'",
+          "ObjectPath": "/Game/Gameplay/AI/WildJadeVine/Action/Movement/AM_NPC_WildJadeVine_Turn_45_Rt"
+        },
+        "Likelihood": {
+          "ObjectName": "BlueprintGeneratedClass'DefaultLikelihood_C'",
+          "ObjectPath": "/Game/Gameplay/AI/BehaviourShared/Likelihood/DefaultLikelihood"
+        },
+        "bEnabled": true,
+        "Rotation": 45.0
+      },
+      "TurnR_90": {
+        "AnimationMontage": {
+          "ObjectName": "AnimMontage'AM_NPC_WildJadeVine_Turn_90_Rt'",
+          "ObjectPath": "/Game/Gameplay/AI/WildJadeVine/Action/Movement/AM_NPC_WildJadeVine_Turn_90_Rt"
+        },
+        "Likelihood": {
+          "ObjectName": "BlueprintGeneratedClass'DefaultLikelihood_C'",
+          "ObjectPath": "/Game/Gameplay/AI/BehaviourShared/Likelihood/DefaultLikelihood"
+        },
+        "bEnabled": true,
+        "Rotation": 90.0
+      },
+      "TurnR_180": {
+        "AnimationMontage": {
+          "ObjectName": "AnimMontage'AM_NPC_WildJadeVine_Turn_180_Rt'",
+          "ObjectPath": "/Game/Gameplay/AI/WildJadeVine/Action/Movement/AM_NPC_WildJadeVine_Turn_180_Rt"
+        },
+        "Likelihood": {
+          "ObjectName": "BlueprintGeneratedClass'DefaultLikelihood_C'",
+          "ObjectPath": "/Game/Gameplay/AI/BehaviourShared/Likelihood/DefaultLikelihood"
+        },
+        "bEnabled": true,
+        "Rotation": 180.0
+      },
+      "TurnL_180": {
+        "AnimationMontage": {
+          "ObjectName": "AnimMontage'AM_NPC_WildJadeVine_Turn_180_Lt'",
+          "ObjectPath": "/Game/Gameplay/AI/WildJadeVine/Action/Movement/AM_NPC_WildJadeVine_Turn_180_Lt"
+        },
+        "Likelihood": {
+          "ObjectName": "BlueprintGeneratedClass'DefaultLikelihood_C'",
+          "ObjectPath": "/Game/Gameplay/AI/BehaviourShared/Likelihood/DefaultLikelihood"
+        },
+        "bEnabled": true,
+        "Rotation": -180.0
+      }
+    }
+  }
+]

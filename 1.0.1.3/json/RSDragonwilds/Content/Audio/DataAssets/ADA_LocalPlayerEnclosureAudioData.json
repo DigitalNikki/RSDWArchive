@@ -1,0 +1,39 @@
+[
+  {
+    "Type": "LocalPlayerEnclosureAudioData",
+    "Name": "ADA_LocalPlayerEnclosureAudioData",
+    "Class": "UScriptClass'LocalPlayerEnclosureAudioData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EnclosureToAudioLevelCurve": {
+        "ObjectName": "CurveFloat'Curve_EnclosureValue_Float'",
+        "ObjectPath": "/Game/Audio/AudioCurves/Curve_EnclosureValue_Float"
+      },
+      "EnclosureToReverbCurve": {
+        "ObjectName": "CurveFloat'Curve_EnclosureToReverb_Float'",
+        "ObjectPath": "/Game/Audio/AudioCurves/Curve_EnclosureToReverb_Float"
+      },
+      "EnclosureToRainCurve": {
+        "ObjectName": "CurveFloat'Curve_EnclosureToRain_Float'",
+        "ObjectPath": "/Game/Audio/AudioCurves/Curve_EnclosureToRain_Float"
+      },
+      "OutdoorEnclosureSoundMix": {
+        "ObjectName": "SoundMix'OutdoorEnclosureAttenuationMix'",
+        "ObjectPath": "/Game/Audio/SoundMixes/OutdoorEnclosureAttenuationMix"
+      },
+      "IndoorEnclosureSoundMix": {
+        "ObjectName": "SoundMix'IndoorEnclosureAttenuationMix'",
+        "ObjectPath": "/Game/Audio/SoundMixes/IndoorEnclosureAttenuationMix"
+      },
+      "SoundClassToMix": {
+        "ObjectName": "DominionSoundClass'Ambience_Enclosure_Affected'",
+        "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Ambience/Ambience_Enclosure_Affected"
+      },
+      "EnclosureReverbSubmix": {
+        "ObjectName": "SoundSubmix'REV_IndoorsSmall_Submix'",
+        "ObjectPath": "/Game/Audio/Reverbs/SubmixConvolutionReverbs/REV_IndoorsSmall_Submix"
+      },
+      "InterpStepSize": 0.5
+    }
+  }
+]

@@ -1,0 +1,43 @@
+[
+  {
+    "Type": "ProcessingStationAudioData",
+    "Name": "ADA_Campfire",
+    "Class": "UScriptClass'ProcessingStationAudioData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "VendTagToSFXMap": [
+        {
+          "Key": {
+            "TagName": "Audio.Default"
+          },
+          "Value": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Pl_Cr_Campfire_Vend'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/UI/Crafting/ProcessingStation/Campfire/MSS_Pl_Cr_Campfire_Vend"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Audio.Food.Burnt"
+          },
+          "Value": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Pl_Cr_Cooking_Vend_BurntFood'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/UI/Crafting/ProcessingStation/CookingGrill/MSS_Pl_Cr_Cooking_Vend_BurntFood"
+          }
+        }
+      ],
+      "ProcessingLoopSFX": {
+        "ObjectName": "DominionMetaSoundSource'MSS_BC_Wo_EmMo_Campfire'",
+        "ObjectPath": "/Game/Audio/MetasoundSources/World/Generic/Fires/MSS_BC_Wo_EmMo_Campfire"
+      },
+      "ProcessingLoopExtraLayerSFX": {
+        "ObjectName": "DominionMetaSoundSource'MSS_PL_Cr_CampfireSizzle_Loop'",
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Crafting/ProcessingStation/Campfire/MSS_PL_Cr_CampfireSizzle_Loop"
+      },
+      "RecipeChangedSFX": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Pl_Cr_Campfire_Deposit'",
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Crafting/ProcessingStation/Campfire/MSS_Pl_Cr_Campfire_Deposit"
+      },
+      "ProcessingLoopFadeOut": 1.0
+    }
+  }
+]

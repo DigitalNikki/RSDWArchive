@@ -1,0 +1,660 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_Progression_Fellhollow_Materials_Processed",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Object'ProgressionBundleRow'",
+        "ObjectPath": "/Script/Dominion"
+      }
+    },
+    "Rows": {
+      "T5_Material_Steel": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Coal ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Coal'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Mineral/ITEM_Resources_Coal"
+              }
+            ],
+            "Actors": [
+              null
+            ],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ActorsInteractedWith",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'BP_Station_Smelter_C'",
+                "ObjectPath": "/Game/Gameplay/World/Stations/BP_Station_Smelter"
+              }
+            ],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Process_SteelBar'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Metal/RECIPE_Process_SteelBar"
+          },
+          {
+            "ObjectName": "RecipeData'RECIPE_Process_SteelBar_From_IronBar'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Metal/RECIPE_Process_SteelBar_From_IronBar"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "T5_Material_FineCloth": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Fine Thread ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Thread_Fine'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Textiles/ITEM_Resources_Thread_Fine"
+              }
+            ],
+            "Actors": [
+              null
+            ],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ActorsInteractedWith",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'BP_Station_Loom_C'",
+                "ObjectPath": "/Game/Gameplay/World/Stations/BP_Station_Loom"
+              }
+            ],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Process_Cloth_Fine_From_Thread_Fine'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Textiles/RECIPE_Process_Cloth_Fine_From_Thread_Fine"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "T5_Material_DraconicLeather": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Dragonwolf Hide ]    OR    ALL ITEMS[ Dragon Blood, Hard Leather ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Skin_Dragonwolf'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_Skin_Dragonwolf"
+              }
+            ],
+            "Actors": [
+              null
+            ],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": true,
+          "Operator": "EUnlockMatchOperator::OR",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Resources_DragonBlood'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_DragonBlood"
+              },
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Leather_Hard'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Textiles/ITEM_Resources_Leather_Hard"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Process_Leather_Draconic_From_Hide_Dragonwolf'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Textiles/RECIPE_Process_Leather_Draconic_From_Hide_Dragonwolf"
+          },
+          {
+            "ObjectName": "RecipeData'RECIPE_Process_Leather_Draconic_From_Leather_Hard'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Textiles/RECIPE_Process_Leather_Draconic_From_Leather_Hard"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "T5_Material_SacredOil": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ANY ITEMS[ Necrotic Bonemeal, Ectoplasm ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AnyMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Ground_Bonemeal_Necrotic'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Mineral/ITEM_Resources_Ground_Bonemeal_Necrotic"
+              },
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Ectoplasm'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_Ectoplasm"
+              }
+            ],
+            "Actors": [
+              null
+            ],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ActorsInteractedWith",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'BP_Station_Cauldron_C'",
+                "ObjectPath": "/Game/Gameplay/World/Stations/BP_Station_Cauldron"
+              }
+            ],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Process_SacredOil_From_Ectoplasm_Bonemeal_Necrotic'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Wood/RECIPE_Process_SacredOil_From_Ectoplasm_Bonemeal_Necrotic"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "T5_Material_Leather_Hard_From_Scraps_Hard": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Hard Leather Scraps ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Leather_Scraps_Hard'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Textiles/ITEM_Resources_Leather_Scraps_Hard"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ActorsInteractedWith",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'BP_Station_Tanner_C'",
+                "ObjectPath": "/Game/Gameplay/World/Stations/BP_Station_Tanner"
+              }
+            ],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Process_Leather_Hard_From_Scraps_Hard'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Textiles/RECIPE_Process_Leather_Hard_From_Scraps_Hard"
+          },
+          {
+            "ObjectName": "RecipeData'RECIPE_Journal_Materials_Basic_Hide_Hard_Scraps'",
+            "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/JournalEntries/Materials_Basic/RECIPE_Journal_Materials_Basic_Hide_Hard_Scraps"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "T5_Material_Leather_Dragonhide_Green": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Green Dragon Hide ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Skin_Dragon_Green_Lesser'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_Skin_Dragon_Green_Lesser"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ActorsInteractedWith",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'BP_Station_Tanner_C'",
+                "ObjectPath": "/Game/Gameplay/World/Stations/BP_Station_Tanner"
+              }
+            ],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Process_Leather_Dragonhide_Green_From_Hide_Dragon_Lesser_Green'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Textiles/RECIPE_Process_Leather_Dragonhide_Green_From_Hide_Dragon_Lesser_Green"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "T5_Material_Thread_Fine_From_Fur_Corpse": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Corpse Cotton ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Corpse_Fur'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_Corpse_Fur"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ActorsInteractedWith",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'BP_Station_Spinning_Wheel_C'",
+                "ObjectPath": "/Game/Gameplay/World/Stations/BP_Station_Spinning_Wheel"
+              }
+            ],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Process_Thread_Fine_From_Corpse_Fur'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Textiles/RECIPE_Process_Thread_Fine_From_Corpse_Fur"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "T5_Material_Ectoplasm_From_Heart_Withered": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Withered Heart ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Heart_Withered'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_Heart_Withered"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ActorsInteractedWith",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'BP_Station_CharcoalKiln_C'",
+                "ObjectPath": "/Game/Gameplay/World/Stations/BP_Station_CharcoalKiln"
+              }
+            ],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Process_Ectoplasm_From_Heart_Withered'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Wood/RECIPE_Process_Ectoplasm_From_Heart_Withered"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "T5_Material_Ground_Bonemeal_Necrotic": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Undead Bone ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Bone_Undead'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_Bone_Undead"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ActorsInteractedWith",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'BP_Station_Grindstone_C'",
+                "ObjectPath": "/Game/Gameplay/World/Stations/BP_Station_Grindstone"
+              }
+            ],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Process_Ground_Bonemeal_Necrotic'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Mineral/RECIPE_Process_Ground_Bonemeal_Necrotic"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "T5_Material_Stone_Block": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ACTORS[ BP_Station_Stonecutter_C ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ActorsInteractedWith",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'BP_Station_Stonecutter_C'",
+                "ObjectPath": "/Game/Gameplay/World/Stations/BP_Station_Stonecutter"
+              }
+            ],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Stone'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Mineral/ITEM_Resources_Stone"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Resources_Stone_Block'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Wood/RECIPE_Resources_Stone_Block"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "T5_Fuel_Fuel_Pellet": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ACTORS[ BP_Station_AdvancedSmelter_C ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ActorsInteractedWith",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Coal'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Mineral/ITEM_Resources_Coal"
+              }
+            ],
+            "Actors": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'BP_Station_AdvancedSmelter_C'",
+                "ObjectPath": "/Game/Gameplay/World/Stations/BP_Station_AdvancedSmelter"
+              }
+            ],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Fuel_Pellet'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Magic/RECIPE_Fuel_Pellet"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      }
+    }
+  }
+]

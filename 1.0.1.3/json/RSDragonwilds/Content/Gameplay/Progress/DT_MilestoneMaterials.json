@@ -1,0 +1,686 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_MilestoneMaterials",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Object'ProgressionBundleRow'",
+        "ObjectPath": "/Script/Dominion"
+      }
+    },
+    "Rows": {
+      "Milestone_BronzeBar": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": true,
+        "UnlockQueryString": "ALL ITEMS[ Bronze Bar ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Resources_BronzeBar'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Metal/ITEM_Resources_BronzeBar"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [
+          {
+            "ObjectName": "BuildingPieceData'BUILDPIECE_ProcessingStation_Loom'",
+            "ObjectPath": "/Game/Gameplay/BaseBuilding/Data/BuildingPieces/Structures/Crafting/BUILDPIECE_ProcessingStation_Loom"
+          },
+          {
+            "ObjectName": "BuildingPieceData'BUILDPIECE_ProcessingStation_Sawmill'",
+            "ObjectPath": "/Game/Gameplay/BaseBuilding/Data/BuildingPieces/Structures/Crafting/BUILDPIECE_ProcessingStation_Sawmill"
+          },
+          {
+            "ObjectName": "BuildingPieceData'BUILDPIECE_StationUpgrade_Tanners_Kit'",
+            "ObjectPath": "/Game/Gameplay/BaseBuilding/Data/BuildingPieces/Structures/Crafting/BUILDPIECE_StationUpgrade_Tanners_Kit"
+          },
+          {
+            "ObjectName": "BuildingPieceData'BUILDPIECE_CraftingStation_ToolsMeleeWeapons'",
+            "ObjectPath": "/Game/Gameplay/BaseBuilding/Data/BuildingPieces/Structures/Crafting/BUILDPIECE_CraftingStation_ToolsMeleeWeapons"
+          },
+          {
+            "ObjectName": "BuildingPieceData'BUILDPIECE_CraftingStation_ArmourBench'",
+            "ObjectPath": "/Game/Gameplay/BaseBuilding/Data/BuildingPieces/Structures/Crafting/BUILDPIECE_CraftingStation_ArmourBench"
+          },
+          {
+            "ObjectName": "BuildingPieceData'BUILDPIECE_CraftingStation_FletchingV2'",
+            "ObjectPath": "/Game/Gameplay/BaseBuilding/Data/BuildingPieces/Structures/Crafting/BUILDPIECE_CraftingStation_FletchingV2"
+          },
+          {
+            "ObjectName": "BuildingPieceData'BUILDPIECE_CraftingStation_MysticForge'",
+            "ObjectPath": "/Game/Gameplay/BaseBuilding/Data/BuildingPieces/Structures/Crafting/BUILDPIECE_CraftingStation_MysticForge"
+          }
+        ],
+        "UnlockedRecipes": [],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Milestone_CopperTinOre": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": true,
+        "UnlockQueryString": "ANY ITEMS[ Tin Ore, Copper Ore ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AnyMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Resources_TinOre'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Metal/ITEM_Resources_TinOre"
+              },
+              {
+                "ObjectName": "ItemData'ITEM_Resources_CopperOre'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Metal/ITEM_Resources_CopperOre"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [
+          {
+            "ObjectName": "BuildingPieceData'BUILDPIECE_ProcessingStation_Smelter'",
+            "ObjectPath": "/Game/Gameplay/BaseBuilding/Data/BuildingPieces/Structures/Crafting/BUILDPIECE_ProcessingStation_Smelter"
+          }
+        ],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Process_BronzeBar'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Metal/RECIPE_Process_BronzeBar"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Milestone_RuneEssence": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": true,
+        "UnlockQueryString": "ANY ITEMS[ Rune Essence ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AnyMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Rune_Essence'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Magic/ITEM_Rune_Essence"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [
+          {
+            "ObjectName": "BuildingPieceData'BUILDPIECE_CraftingStation_Rune_Altar'",
+            "ObjectPath": "/Game/Gameplay/BaseBuilding/Data/BuildingPieces/Structures/Crafting/BUILDPIECE_CraftingStation_Rune_Altar"
+          }
+        ],
+        "UnlockedRecipes": [],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Milestone_Flax": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": true,
+        "UnlockQueryString": "ANY ITEMS[ Flax ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AnyMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Flax'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Plant/ITEM_Resources_Flax"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [
+          {
+            "ObjectName": "BuildingPieceData'BUILDPIECE_ProcessingStation_Spinning_Wheel'",
+            "ObjectPath": "/Game/Gameplay/BaseBuilding/Data/BuildingPieces/Structures/Crafting/BUILDPIECE_ProcessingStation_Spinning_Wheel"
+          }
+        ],
+        "UnlockedRecipes": [],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Milestone_AnimalBone": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": true,
+        "UnlockQueryString": "ANY ITEMS[ Animal Bone ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AnyMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Resources_AnimalBone'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_AnimalBone"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [
+          {
+            "ObjectName": "BuildingPieceData'BUILDPIECE_ProcessingStation_Tanner'",
+            "ObjectPath": "/Game/Gameplay/BaseBuilding/Data/BuildingPieces/Structures/Crafting/BUILDPIECE_ProcessingStation_Tanner"
+          },
+          {
+            "ObjectName": "BuildingPieceData'BUILDPIECE_CraftingStation_Cooking_Stone'",
+            "ObjectPath": "/Game/Gameplay/BaseBuilding/Data/BuildingPieces/Furniture/Comfort/BUILDPIECE_CraftingStation_Cooking_Stone"
+          }
+        ],
+        "UnlockedRecipes": [],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Milestone_Clay": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": true,
+        "UnlockQueryString": "ANY ITEMS[ Clay ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AnyMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Clay'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Mineral/ITEM_Resources_Clay"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [
+          {
+            "ObjectName": "BuildingPieceData'BUILDPIECE_CraftingStation_Pottery'",
+            "ObjectPath": "/Game/Gameplay/BaseBuilding/Data/BuildingPieces/Structures/Crafting/BUILDPIECE_CraftingStation_Pottery"
+          },
+          {
+            "ObjectName": "BuildingPieceData'BUILDPIECE_ProcessingStation_CharcoalKiln'",
+            "ObjectPath": "/Game/Gameplay/BaseBuilding/Data/BuildingPieces/Structures/Crafting/BUILDPIECE_ProcessingStation_CharcoalKiln"
+          },
+          {
+            "ObjectName": "BuildingPieceData'BUILDPIECE_ProcessingStation_Cauldron'",
+            "ObjectPath": "/Game/Gameplay/BaseBuilding/Data/BuildingPieces/Structures/Crafting/BUILDPIECE_ProcessingStation_Cauldron"
+          }
+        ],
+        "UnlockedRecipes": [],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Milestone_Granite": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": true,
+        "UnlockQueryString": "ANY ITEMS[ Granite ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AnyMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Granite'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Mineral/ITEM_Resources_Granite"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [
+          {
+            "ObjectName": "BuildingPieceData'BUILDPIECE_ProcessingStation_Grindstone'",
+            "ObjectPath": "/Game/Gameplay/BaseBuilding/Data/BuildingPieces/Structures/Crafting/BUILDPIECE_ProcessingStation_Grindstone"
+          }
+        ],
+        "UnlockedRecipes": [],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Milestone_IronBar": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": true,
+        "UnlockQueryString": "ANY ITEMS[ Iron Bar ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AnyMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Resources_IronBar'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Metal/ITEM_Resources_IronBar"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [
+          {
+            "ObjectName": "BuildingPieceData'BUILDPIECE_StationUpgrade_Loom_Harness'",
+            "ObjectPath": "/Game/Gameplay/BaseBuilding/Data/BuildingPieces/Structures/Crafting/BUILDPIECE_StationUpgrade_Loom_Harness"
+          }
+        ],
+        "UnlockedRecipes": [],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Milestone_GoldSilverBar": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": true,
+        "UnlockQueryString": "ANY ITEMS[ Gold Bar, Silver Bar ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AnyMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Resources_GoldBar'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Metal/ITEM_Resources_GoldBar"
+              },
+              {
+                "ObjectName": "ItemData'ITEM_Resources_SilverBar'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Metal/ITEM_Resources_SilverBar"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [
+          {
+            "ObjectName": "BuildingPieceData'BUILDPIECE_CraftingStiation_Jewelry_Bench'",
+            "ObjectPath": "/Game/Gameplay/BaseBuilding/Data/BuildingPieces/Structures/Crafting/BUILDPIECE_CraftingStiation_Jewelry_Bench"
+          }
+        ],
+        "UnlockedRecipes": [],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Milestone_Coal": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": true,
+        "UnlockQueryString": "ALL ITEMS[ Coal ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Coal'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Mineral/ITEM_Resources_Coal"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [
+          {
+            "ObjectName": "BuildingPieceData'BUILDPIECE_ProcessingStation_AdvancedSmelter'",
+            "ObjectPath": "/Game/Gameplay/BaseBuilding/Data/BuildingPieces/Structures/Crafting/BUILDPIECE_ProcessingStation_AdvancedSmelter"
+          }
+        ],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Fuel_Pellet'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Magic/RECIPE_Fuel_Pellet"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Milestone_Steel": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": true,
+        "UnlockQueryString": "ALL ITEMS[ Steel Bar ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Resources_SteelBar'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Metal/ITEM_Resources_SteelBar"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [
+          {
+            "ObjectName": "BuildingPieceData'BUILDPIECE_ProcessingStation_Stonecutter'",
+            "ObjectPath": "/Game/Gameplay/BaseBuilding/Data/BuildingPieces/Structures/Crafting/BUILDPIECE_ProcessingStation_Stonecutter"
+          }
+        ],
+        "UnlockedRecipes": [],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Milestone_Yew": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": true,
+        "UnlockQueryString": "ANY ITEMS[ Yew Logs ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AnyMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "FuelItemData'ITEM_Resources_Wood_Yew'",
+                "ObjectPath": "/UmbralSands/Gameplay/Items/Resources/Plant/ITEM_Resources_Wood_Yew"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [
+          {
+            "ObjectName": "BuildingPieceData'BUILDPIECE_ProcessingStation_AdvancedTannery'",
+            "ObjectPath": "/Game/Gameplay/BaseBuilding/Data/BuildingPieces/Structures/Crafting/BUILDPIECE_ProcessingStation_AdvancedTannery"
+          },
+          {
+            "ObjectName": "BuildingPieceData'BUILDPIECE_ProcessingStation_FermentationBarrel'",
+            "ObjectPath": "/Game/Gameplay/BaseBuilding/Data/BuildingPieces/Structures/Crafting/BUILDPIECE_ProcessingStation_FermentationBarrel"
+          }
+        ],
+        "UnlockedRecipes": [],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      }
+    }
+  }
+]

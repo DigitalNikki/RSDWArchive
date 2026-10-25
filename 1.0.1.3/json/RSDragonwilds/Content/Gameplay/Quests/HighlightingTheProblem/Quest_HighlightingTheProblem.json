@@ -1,0 +1,117 @@
+[
+  {
+    "Type": "QuestData",
+    "Name": "Quest_HighlightingTheProblem",
+    "Class": "UScriptClass'QuestData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "QuestName": {
+        "TableId": "/Game/Gameplay/Quests/HighlightingTheProblem/ST_HighlightingTheProblem.ST_HighlightingTheProblem",
+        "Key": "QuestTitle",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "CompletedQuestDescription": {
+        "TableId": "/Game/Gameplay/Quests/ST_QuestCompletionText.ST_QuestCompletionText",
+        "Key": "HighlightingTheProblem",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "QuestRegion": "EQuestRegion::Brynmoor",
+      "QuestDescription": {
+        "TableId": "/Game/Gameplay/Quests/HighlightingTheProblem/ST_HighlightingTheProblem.ST_HighlightingTheProblem",
+        "Key": "QuestDescription",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Objectives": [
+        {
+          "Key": "Investigate for clues about the statue",
+          "Value": {
+            "Description": {
+              "TableId": "/Game/Gameplay/Quests/HighlightingTheProblem/ST_HighlightingTheProblem.ST_HighlightingTheProblem",
+              "Key": "Objective1",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "SubobjectiveDescription": {
+              "CultureInvariantString": null
+            },
+            "Hint": {
+              "CultureInvariantString": null
+            },
+            "bOverrideQuestDescription": false,
+            "QuestDescriptionOverride": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        {
+          "Key": "Search the runecrafting guild for wizard statue",
+          "Value": {
+            "Description": {
+              "TableId": "/Game/Gameplay/Quests/HighlightingTheProblem/ST_HighlightingTheProblem.ST_HighlightingTheProblem",
+              "Key": "Objective2",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "SubobjectiveDescription": {
+              "CultureInvariantString": null
+            },
+            "Hint": {
+              "CultureInvariantString": null
+            },
+            "bOverrideQuestDescription": false,
+            "QuestDescriptionOverride": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        {
+          "Key": "Charge the orb",
+          "Value": {
+            "Description": {
+              "TableId": "/Game/Gameplay/Quests/HighlightingTheProblem/ST_HighlightingTheProblem.ST_HighlightingTheProblem",
+              "Key": "Objective3",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "SubobjectiveDescription": {
+              "CultureInvariantString": null
+            },
+            "Hint": {
+              "CultureInvariantString": null
+            },
+            "bOverrideQuestDescription": false,
+            "QuestDescriptionOverride": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        {
+          "Key": "Return to statue",
+          "Value": {
+            "Description": {
+              "TableId": "/Game/Gameplay/Quests/HighlightingTheProblem/ST_HighlightingTheProblem.ST_HighlightingTheProblem",
+              "Key": "Objective4",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "SubobjectiveDescription": {
+              "CultureInvariantString": null
+            },
+            "Hint": {
+              "CultureInvariantString": null
+            },
+            "bOverrideQuestDescription": false,
+            "QuestDescriptionOverride": {
+              "CultureInvariantString": null
+            }
+          }
+        }
+      ],
+      "PersistenceID": "jP8SfEP3QLjisgaHyBzCPw",
+      "InternalName": "highlighting_the_problem"
+    }
+  }
+]

@@ -1,0 +1,70 @@
+[
+  {
+    "Type": "BuildingPieceData",
+    "Name": "DA_T3_Wall_Large_Special_Windowed_3",
+    "Class": "UScriptClass'BuildingPieceData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DerivedData": {
+        "AssetPathName": "/Game/Gameplay/BaseBuilding_New/BuildingPieces_DerivedData/Tier3_Fellhollow/Walls/DA_T3_Wall_Large_Special_Windowed_3_DerivedData.DA_T3_Wall_Large_Special_Windowed_3_DerivedData",
+        "SubPathString": ""
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/BaseBuilding_New/BuildingPieces/ST_BuildingPieces.ST_BuildingPieces",
+        "Key": "BuildingPiece.TallSlitWall.Name",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Description": {
+        "TableId": "/Game/Gameplay/BaseBuilding_New/BuildingPieces/ST_BuildingPieces.ST_BuildingPieces",
+        "Key": "BuildingPiece.BaroqueWall.Description",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "DisplayIcon": {
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Extended_Wall_Windowframe_Large_03.T_Icon_Extended_Wall_Windowframe_Large_03",
+        "SubPathString": ""
+      },
+      "BuildableActor": {
+        "AssetPathName": "/Game/Gameplay/BaseBuilding_New/BuildingPieces/Tier3_Fellhollow/Walls/BP_T3_Wall_Large_Special_Windowed_3.BP_T3_Wall_Large_Special_Windowed_3_C",
+        "SubPathString": ""
+      },
+      "Requirements": [
+        {
+          "Amount": 4,
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Stone_Block'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Mineral/ITEM_Resources_Stone_Block"
+          }
+        },
+        {
+          "Amount": 2,
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_BlackMetal_Scraps'",
+            "ObjectPath": "/DowdunReach/Gameplay/Items/Metal/ITEM_Resources_BlackMetal_Scraps"
+          }
+        }
+      ],
+      "ConstructionXPOnBuild": 30,
+      "PieceTag": {
+        "TagName": "BaseBuilding.PieceType.Base"
+      },
+      "BuildingStabilityProfileRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_StabilityProfile'",
+          "ObjectPath": "/Game/Gameplay/BaseBuilding_New/DT_StabilityProfile"
+        },
+        "RowName": "Tier3_Base"
+      },
+      "BuildXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Building'",
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Building"
+        },
+        "RowName": "Build_Wall_Tier3"
+      },
+      "RepresentationCategory": "EBuildingPieceRepresentationCategory::Lightweight",
+      "PersistenceID": "wjd7pEVRkv2s422OfszvOA"
+    }
+  }
+]

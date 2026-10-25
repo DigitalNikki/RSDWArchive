@@ -1,0 +1,44 @@
+[
+  {
+    "Type": "DominionSoundClass",
+    "Name": "Music_BGM",
+    "Class": "UScriptClass'DominionSoundClass'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaxReverbSend": 0.0,
+      "Properties": {
+        "Volume": 0.55913013,
+        "DefaultSubmix": {
+          "ObjectName": "SoundSubmix'BGM_Music'",
+          "ObjectPath": "/Game/Audio/Submixes/BGM_Music"
+        }
+      },
+      "ChildClasses": [
+        {
+          "ObjectName": "DominionSoundClass'Music_NonCombat'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/Music/Music_NonCombat"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Music_Combat'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/Music/Music_Combat"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Music_Quest'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/Music/Music_Quest"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Music_Quest_Clue'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/Music/Music_Quest_Clue"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Music_Kuldra'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/Music/Music_Kuldra"
+        }
+      ],
+      "ParentClass": {
+        "ObjectName": "DominionSoundClass'Music'",
+        "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/Music/Music"
+      }
+    }
+  }
+]

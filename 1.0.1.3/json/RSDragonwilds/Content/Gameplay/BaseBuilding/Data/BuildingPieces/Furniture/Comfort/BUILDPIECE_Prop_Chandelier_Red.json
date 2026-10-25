@@ -1,0 +1,75 @@
+[
+  {
+    "Type": "BuildingPieceData",
+    "Name": "BUILDPIECE_Prop_Chandelier_Red",
+    "Class": "UScriptClass'BuildingPieceData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DerivedData": {
+        "AssetPathName": "/Game/Gameplay/BaseBuilding/Data/BuildingPieces_DerivedData/Furniture/Comfort/BUILDPIECE_Prop_Chandelier_Red_DerivedData.BUILDPIECE_Prop_Chandelier_Red_DerivedData",
+        "SubPathString": ""
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/BaseBuilding_New/BuildingPieces/ST_BuildingPieces.ST_BuildingPieces",
+        "Key": "Decoration.Chandelier.Red.Name",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Description": {
+        "TableId": "/Game/Gameplay/BaseBuilding_New/BuildingPieces/ST_BuildingPieces.ST_BuildingPieces",
+        "Key": "Decoration.Chandelier.Description",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "DisplayIcon": {
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Ceiling_Chandelier_Red_01.T_Icon_Ceiling_Chandelier_Red_01",
+        "SubPathString": ""
+      },
+      "BuildableActor": {
+        "AssetPathName": "/Game/Gameplay/BaseBuilding/Actors/Props/BP_BaseBuilding_Chandelier_Red.BP_BaseBuilding_Chandelier_Red_C",
+        "SubPathString": ""
+      },
+      "Requirements": [
+        {
+          "Amount": 3,
+          "ItemData": {
+            "ObjectName": "FuelItemData'ITEM_Resources_Wood_Willow'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Wood/ITEM_Resources_Wood_Willow"
+          }
+        },
+        {
+          "Amount": 2,
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_BlackMetal_Scraps'",
+            "ObjectPath": "/DowdunReach/Gameplay/Items/Metal/ITEM_Resources_BlackMetal_Scraps"
+          }
+        },
+        {
+          "Amount": 2,
+          "ItemData": {
+            "ObjectName": "FuelItemData'ITEM_Resources_Swamp_Tar'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Mineral/ITEM_Resources_Swamp_Tar"
+          }
+        }
+      ],
+      "ConstructionXPOnBuild": 30,
+      "BuildingStabilityProfileRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'StabilityProfileDataTable'",
+          "ObjectPath": "/Game/Gameplay/BaseBuilding/StabilityProfileDataTable"
+        },
+        "RowName": "Tier_0_Base"
+      },
+      "BuildXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Building'",
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Building"
+        },
+        "RowName": "Build_Torch"
+      },
+      "RepresentationCategory": "EBuildingPieceRepresentationCategory::ManagedActor",
+      "PersistenceID": "l9LjZ0y9OmOdOuaHXvai8g",
+      "InternalName": "buildpiece_prop_chandelier_red"
+    }
+  }
+]

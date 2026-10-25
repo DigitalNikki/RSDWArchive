@@ -1,0 +1,45 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Resources_Plank_Oak",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "FuelItemData'ITEM_Resources_Wood_Oak'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Wood/ITEM_Resources_Wood_Oak"
+          },
+          "Count": 1
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "FuelItemData'ITEM_Resources_Plank_Oak'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Wood/ITEM_Resources_Plank_Oak"
+          },
+          "Count": 2
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Wood"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Construction'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Construction"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Building'",
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Building"
+        },
+        "RowName": "Build_Crafting_Station"
+      },
+      "MinProcessingTime": 12.0,
+      "PersistenceID": "t3ffl0DHnaC4YeaSP4t0sQ",
+      "InternalName": "recipe_resource_plank_oak"
+    }
+  }
+]

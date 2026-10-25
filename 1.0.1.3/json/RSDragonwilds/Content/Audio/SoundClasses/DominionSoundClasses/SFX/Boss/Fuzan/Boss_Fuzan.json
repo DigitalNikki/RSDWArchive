@@ -1,0 +1,30 @@
+[
+  {
+    "Type": "DominionSoundClass",
+    "Name": "Boss_Fuzan",
+    "Class": "UScriptClass'DominionSoundClass'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Properties": {
+        "DefaultSubmix": {
+          "ObjectName": "SoundSubmix'SFX'",
+          "ObjectPath": "/Game/Audio/Submixes/SFX"
+        }
+      },
+      "ChildClasses": [
+        {
+          "ObjectName": "DominionSoundClass'Boss_Fuzan_BossFight'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Boss/Fuzan/Boss_Fuzan_BossFight"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Boss_Fuzan_Encounters'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Boss/Fuzan/Boss_Fuzan_Encounters"
+        }
+      ],
+      "ParentClass": {
+        "ObjectName": "DominionSoundClass'Boss'",
+        "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Boss/Boss"
+      }
+    }
+  }
+]

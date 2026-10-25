@@ -1,0 +1,32 @@
+[
+  {
+    "Type": "DominionSoundClass",
+    "Name": "UI_ItemInteract",
+    "Class": "UScriptClass'DominionSoundClass'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MinReverbSend": 0.2,
+      "Properties": {
+        "Volume": 0.19446304
+      },
+      "ChildClasses": [
+        {
+          "ObjectName": "DominionSoundClass'UI_ItemDropMove'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/UI/UI_ItemDropMove"
+        },
+        {
+          "ObjectName": "DominionSoundClass'UI_ItemPickup'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/UI/UI_ItemPickup"
+        },
+        {
+          "ObjectName": "DominionSoundClass'UI_ItemRecipeSelect'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/UI/UI_ItemRecipeSelect"
+        }
+      ],
+      "ParentClass": {
+        "ObjectName": "DominionSoundClass'UI'",
+        "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/UI/UI"
+      }
+    }
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "Type": "DominionSoundClass",
+    "Name": "WorldActor_LoopingInteractable",
+    "Class": "UScriptClass'DominionSoundClass'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MinReverbSend": 0.1,
+      "OcclusionMultiplier": 1.0,
+      "Properties": {
+        "Volume": 0.5011872,
+        "DefaultSubmix": {
+          "ObjectName": "SoundSubmix'SFX'",
+          "ObjectPath": "/Game/Audio/Submixes/SFX"
+        }
+      },
+      "ChildClasses": [
+        {
+          "ObjectName": "DominionSoundClass'WorldActor_LoopingInteractable_Spectral'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/WorldActor/WorldActor_LoopingInteractable_Spectral"
+        }
+      ],
+      "ParentClass": {
+        "ObjectName": "DominionSoundClass'WorldActor'",
+        "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/WorldActor/WorldActor"
+      }
+    }
+  }
+]

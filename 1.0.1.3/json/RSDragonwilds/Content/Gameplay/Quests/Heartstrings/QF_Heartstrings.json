@@ -1,0 +1,1773 @@
+[
+  {
+    "Type": "ConversationChoiceNode",
+    "Name": "ConversationChoiceNode_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Class": "UScriptClass'ConversationChoiceNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultChoiceDisplayText": {
+        "TableId": "/Game/Gameplay/Quests/WiseOldManQuestFlow/ST_HeartStrings.ST_HeartStrings",
+        "Key": "PlayerChoice_SingSong",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "ConversationChoiceNode",
+    "Name": "ConversationChoiceNode_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Class": "UScriptClass'ConversationChoiceNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultChoiceDisplayText": {
+        "TableId": "/Game/Gameplay/Quests/WiseOldManQuestFlow/ST_HeartStrings.ST_HeartStrings",
+        "Key": "Playerchoice_Stepaway",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "ConversationDatabase",
+    "Name": "QF_Heartstrings",
+    "Class": "UScriptClass'ConversationDatabase'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CompilerVersion": 2,
+      "ReachableNodeMap": [
+        {
+          "Key": "8DE749F9-4ED22098-6827D78E-7BD8CB0D",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_Heartstrings:ConversationEntryPointNode_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.3"
+          }
+        },
+        {
+          "Key": "93280183-4AA7C4E0-8D8F5181-E206E100",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Heartstrings:QFT_PromptMessage_C_55'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.63"
+          }
+        },
+        {
+          "Key": "4AF1877B-4DABF9EE-DE85B185-A258866E",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Heartstrings:QFT_PromptMessage_C_53'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.61"
+          }
+        },
+        {
+          "Key": "87E476C9-4A19E62A-AB05F6AD-2C96AEE4",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Heartstrings:QFT_PromptMessage_C_54'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.62"
+          }
+        },
+        {
+          "Key": "6532EEB5-4C115DEF-4C4090B0-7F56857F",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Heartstrings:QFT_PromptMessage_C_52'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.60"
+          }
+        },
+        {
+          "Key": "6942B3CA-47F18FE5-400042A5-F5932478",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Heartstrings:QFT_PromptMessage_C_56'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.64"
+          }
+        },
+        {
+          "Key": "168C702C-4B9B4B7C-24FE4D8A-626C23EB",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_Heartstrings:QFT_SetQuestBool_C_18'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.84"
+          }
+        },
+        {
+          "Key": "0F549569-426D85E6-2F2B3494-6ED8FAE0",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_Heartstrings:QFT_SetQuestBool_C_13'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.79"
+          }
+        },
+        {
+          "Key": "F993635E-468FE125-86336299-F59FA184",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_Heartstrings:ConversationEntryPointNode_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.4"
+          }
+        },
+        {
+          "Key": "CAD09DFF-43979D07-888CA6B5-7757F722",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Heartstrings:QFT_PromptMessage_C_51'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.59"
+          }
+        },
+        {
+          "Key": "411780E9-44150FFC-943270B7-E5553325",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Heartstrings:QFT_PromptMessage_C_48'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.58"
+          }
+        },
+        {
+          "Key": "1E934456-48ABBF30-F85D3188-84ACCCE3",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Heartstrings:QFT_PromptMessage_C_47'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.57"
+          }
+        },
+        {
+          "Key": "313444A5-4F26B62A-DE659496-656A3939",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Heartstrings:QFT_PromptMessage_C_36'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.49"
+          }
+        },
+        {
+          "Key": "9A81F3DE-422A1B93-2F916FB9-D8266EB5",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_Heartstrings:QFT_SetQuestBool_C_19'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.85"
+          }
+        },
+        {
+          "Key": "4FA3E475-4D5EEDFC-32D14E83-3C6B5DAB",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_Heartstrings:QFT_SetQuestBool_C_14'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.80"
+          }
+        },
+        {
+          "Key": "8C4C4B31-44FD748C-A7246D95-0B4137CA",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_Heartstrings:ConversationEntryPointNode_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.7"
+          }
+        },
+        {
+          "Key": "1B653F9C-4C818679-3270FD9D-57D7441A",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Heartstrings:QFT_PromptMessage_C_45'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.56"
+          }
+        },
+        {
+          "Key": "DCA1FBBF-487172E4-55323283-6030918C",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Heartstrings:QFT_PromptMessage_C_43'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.55"
+          }
+        },
+        {
+          "Key": "91C38B7F-472BBE2D-9C6624A7-A592FDD0",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Heartstrings:QFT_PromptMessage_C_42'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.54"
+          }
+        },
+        {
+          "Key": "E0B0B92C-479E45F2-B9444A84-B47C974C",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Heartstrings:QFT_PromptMessage_C_39'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.51"
+          }
+        },
+        {
+          "Key": "8219AFA1-47E32F85-7C46D1A6-6B8C130C",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Heartstrings:QFT_PromptMessage_C_30'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.44"
+          }
+        },
+        {
+          "Key": "7ED75679-4593B3DB-68554AA7-143D498E",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_Heartstrings:QFT_SetQuestBool_C_20'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.86"
+          }
+        },
+        {
+          "Key": "EA153EAC-4788050D-B2C23FAB-1F4F4C78",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_Heartstrings:QFT_SetQuestBool_C_15'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.81"
+          }
+        },
+        {
+          "Key": "921DAC67-4EA0928C-2486188E-8E0EDD68",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_Heartstrings:ConversationEntryPointNode_5'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.8"
+          }
+        },
+        {
+          "Key": "7E633A99-4F56747A-3BEDADA9-AF9D7E41",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Heartstrings:QFT_PromptMessage_C_62'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.67"
+          }
+        },
+        {
+          "Key": "9FAFC313-4B709DBA-D2625999-8C74A367",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Heartstrings:QFT_PromptMessage_C_60'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.65"
+          }
+        },
+        {
+          "Key": "EC21CA1C-4FE2DD16-4B23529F-378D271C",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Heartstrings:QFT_PromptMessage_C_41'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.53"
+          }
+        },
+        {
+          "Key": "43F392F2-43805774-45402A84-5C32C529",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Heartstrings:QFT_PromptMessage_C_40'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.52"
+          }
+        },
+        {
+          "Key": "20E814CB-4126818F-4BA62183-ED39B80C",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Heartstrings:QFT_PromptMessage_C_31'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.45"
+          }
+        },
+        {
+          "Key": "9A15873F-44433BBB-2BC5229B-96715F52",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_Heartstrings:QFT_SetQuestBool_C_21'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.87"
+          }
+        },
+        {
+          "Key": "76CA88E7-40F359D3-DEB196A9-70D0AB73",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_Heartstrings:QFT_SetQuestBool_C_16'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.82"
+          }
+        },
+        {
+          "Key": "FE07A532-45660F63-111DF483-9ADF63EF",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_Heartstrings:ConversationEntryPointNode_7'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.9"
+          }
+        },
+        {
+          "Key": "BAC31F01-4FEC4F54-DF3D37A6-0E2E4C2E",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Heartstrings:QFT_PromptMessage_C_63'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.68"
+          }
+        },
+        {
+          "Key": "80CE73DA-4469064B-C6B1AFA3-C47CB335",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Heartstrings:QFT_PromptMessage_C_61'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.66"
+          }
+        },
+        {
+          "Key": "2FCD0CAB-446682E8-6775109F-99E547DC",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Heartstrings:QFT_PromptMessage_C_34'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.47"
+          }
+        },
+        {
+          "Key": "6F4C88DC-46D6FFF4-168CB082-5670061C",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Heartstrings:QFT_PromptMessage_C_32'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.46"
+          }
+        },
+        {
+          "Key": "B995E1AB-47B3E914-0B4750A9-23C87AC9",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Heartstrings:QFT_PromptMessage_C_27'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.41"
+          }
+        },
+        {
+          "Key": "B1A02932-4F655C7C-EFEB09A9-069599BF",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_Heartstrings:QFT_SetQuestBool_C_22'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.88"
+          }
+        },
+        {
+          "Key": "E2C8CA7E-44DF81E4-65E22DA9-AA8C2ACD",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_Heartstrings:QFT_SetQuestBool_C_17'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.83"
+          }
+        },
+        {
+          "Key": "A75368E2-4C708C41-D17CCA86-C67D14C0",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_Heartstrings:ConversationEntryPointNode_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.6"
+          }
+        },
+        {
+          "Key": "BB2DE5E0-4864763A-7FCDC282-AFA139E5",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Heartstrings:QFT_Blank_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.22"
+          }
+        },
+        {
+          "Key": "5120343C-4CA30AEA-C790E1B2-3997EF0C",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Heartstrings:QFT_Blank_C_46'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.26"
+          }
+        },
+        {
+          "Key": "6D8923EB-45A93E48-4AE4659C-399EE301",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Heartstrings:QFT_PromptMessage_C_35'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.48"
+          }
+        },
+        {
+          "Key": "5EC0CAA6-423AD59B-AB0EC29D-5B285D93",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Heartstrings:QFT_PromptMessage_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.37"
+          }
+        },
+        {
+          "Key": "7CA37AF6-4547F357-3F4EAE81-71464FED",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Heartstrings:QFT_PromptMessage_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.38"
+          }
+        },
+        {
+          "Key": "7C28ADFF-4465DD76-3C0AFBAA-43AC2280",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Heartstrings:QFT_PromptMessage_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.43"
+          }
+        },
+        {
+          "Key": "9247E9FD-4B3D4BE4-98D6A7A8-073D3AC4",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Heartstrings:QFT_Blank_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.21"
+          }
+        },
+        {
+          "Key": "4C7A02A8-446FFD4D-3D5FCB99-13B95968",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Heartstrings:QFT_Blank_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.20"
+          }
+        },
+        {
+          "Key": "FB4D7AF6-42674DEC-09F32B83-C438BBF0",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Heartstrings:QFT_PromptMessage_C_68'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.71"
+          }
+        },
+        {
+          "Key": "E80F0B68-4C47FF71-42617292-A2F969C4",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Heartstrings:QFT_Blank_C_52'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.28"
+          }
+        },
+        {
+          "Key": "07F5D93B-44AD521F-9ED11FAC-3EDF0BF2",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Heartstrings:QFT_PromptMessage_C_28'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.42"
+          }
+        },
+        {
+          "Key": "78FE0E5D-42D493D2-9A203B94-8F8684EF",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Heartstrings:QFT_Blank_C_51'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.27"
+          }
+        },
+        {
+          "Key": "728B8C8C-453A9B10-B6E2A797-CB788B48",
+          "Value": {
+            "ObjectName": "QFT_CompleteQuest_C'QF_Heartstrings:QFT_CompleteQuest_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.32"
+          }
+        },
+        {
+          "Key": "2E458F8C-4DF554C0-4F914C88-9B30E21C",
+          "Value": {
+            "ObjectName": "QFT_GiveItemToPlayer_C'QF_Heartstrings:QFT_GiveItemToPlayer_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.34"
+          }
+        },
+        {
+          "Key": "C05CB91F-49F279D1-D228B380-6ADCD416",
+          "Value": {
+            "ObjectName": "QFT_GiveCraftingRecipe_C'QF_Heartstrings:QFT_GiveCraftingRecipe_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.33"
+          }
+        },
+        {
+          "Key": "08DCC4F6-44B870B5-AD6558AE-04BE2418",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_Heartstrings:QFT_UpdateQuestLocation_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.92"
+          }
+        },
+        {
+          "Key": "36C5D41A-4CFA28D5-BCDE119B-5DA2B63A",
+          "Value": {
+            "ObjectName": "QFT_TakeItemFromPlayer_C'QF_Heartstrings:QFT_TakeItemFromPlayer_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.90"
+          }
+        },
+        {
+          "Key": "5B366277-4867B627-B45458B9-2298FC27",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_Heartstrings:QFT_SetQuestBool_C_12'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.78"
+          }
+        },
+        {
+          "Key": "BA3A13B4-4BAE6BC9-A78D68B0-29BDD651",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Heartstrings:QFT_Blank_C_45'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.25"
+          }
+        },
+        {
+          "Key": "94D9A414-412A49A9-8B589DB8-8720E7C3",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Heartstrings:QFT_Blank_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.24"
+          }
+        },
+        {
+          "Key": "4A39831C-4860242C-7154858E-EFD1FC6A",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Heartstrings:QFT_PromptMessage_C_24'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.40"
+          }
+        },
+        {
+          "Key": "56F5B22E-4EC7910D-47F51C93-0EF84803",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Heartstrings:QFT_PromptMessage_C_22'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.39"
+          }
+        },
+        {
+          "Key": "9611300A-4613FCCA-29A911B8-88C66C46",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Heartstrings:QFT_PromptMessage_C_66'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.69"
+          }
+        },
+        {
+          "Key": "6DD15FD2-43658560-B1ADAF84-98F2599C",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Heartstrings:QFT_PromptMessage_C_67'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.70"
+          }
+        },
+        {
+          "Key": "75ACD163-46D6E36E-C76F75AE-6897F636",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_Heartstrings:ConversationEntryPointNode_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.5"
+          }
+        },
+        {
+          "Key": "E5A74D0C-4CE3FE47-567DA9B7-EF34AB28",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Heartstrings:QFT_Blank_C_8'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.31"
+          }
+        },
+        {
+          "Key": "703E4E9C-4E23DFFF-4A36F19D-0B471AF3",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Heartstrings:QFT_Blank_C_36'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.23"
+          }
+        },
+        {
+          "Key": "25077BD6-499202AD-4292A5B8-B868D6AA",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Heartstrings:QFT_PromptMessage_C_81'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.72"
+          }
+        },
+        {
+          "Key": "D13BAA87-46BAE2CD-4D0147B5-5E04A49F",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Heartstrings:QFT_PromptMessage_C_38'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.50"
+          }
+        },
+        {
+          "Key": "AD66D175-41833BE1-2FF7FBA1-8A18DB5B",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Heartstrings:QFT_PromptMessage_C_82'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.73"
+          }
+        },
+        {
+          "Key": "5ECB43C9-42C69C84-061390B4-221A14F8",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Heartstrings:QFT_PromptMessage_C_83'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.74"
+          }
+        },
+        {
+          "Key": "7BB6C967-4999BEB3-0A35E08F-E6697B90",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Heartstrings:QFT_PromptMessage_C_84'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.75"
+          }
+        },
+        {
+          "Key": "0067E8B7-4AF592E7-F1E54183-5986221F",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Heartstrings:QFT_Blank_C_54'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.30"
+          }
+        },
+        {
+          "Key": "8DC6C390-4C8034F2-105928B4-1701BCB4",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Heartstrings:QFT_Blank_C_53'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.29"
+          }
+        },
+        {
+          "Key": "0960FA43-46F9B2DB-9D75ADB4-1C479C59",
+          "Value": {
+            "ObjectName": "QFT_GiveQuest_C'QF_Heartstrings:QFT_GiveQuest_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.36"
+          }
+        },
+        {
+          "Key": "8F5F148A-4DCD7828-F25D8A9E-AE79AB6E",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_Heartstrings:QFT_SetQuestObjective_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.89"
+          }
+        },
+        {
+          "Key": "B3EB688A-4781EB06-98C7748F-57AED147",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_Heartstrings:QFT_UpdateQuestLocation_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.91"
+          }
+        },
+        {
+          "Key": "9FA46D88-46EF99F8-74A15B8E-67BB6676",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_Heartstrings:QFT_SetQuestBool_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.76"
+          }
+        },
+        {
+          "Key": "4E51FAE2-4E929AF0-87D219BC-6DCD6D5A",
+          "Value": {
+            "ObjectName": "QFT_GiveItemToPlayer_C'QF_Heartstrings:QFT_GiveItemToPlayer_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.35"
+          }
+        },
+        {
+          "Key": "5CA33721-4A787616-94DF2492-895CA62E",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_Heartstrings:QFT_SetQuestBool_C_11'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.77"
+          }
+        }
+      ],
+      "EntryTags": [
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.Heartstrings.MemorialMesa"
+          },
+          "DestinationList": [
+            "75ACD163-46D6E36E-C76F75AE-6897F636"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.Heartstrings.MemorialFinal"
+          },
+          "DestinationList": [
+            "A75368E2-4C708C41-D17CCA86-C67D14C0"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.Heartstrings.MemorialTree1"
+          },
+          "DestinationList": [
+            "FE07A532-45660F63-111DF483-9ADF63EF"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.Heartstrings.MemorialTree2"
+          },
+          "DestinationList": [
+            "921DAC67-4EA0928C-2486188E-8E0EDD68"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.Heartstrings.MemorialTree3"
+          },
+          "DestinationList": [
+            "8C4C4B31-44FD748C-A7246D95-0B4137CA"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.Heartstrings.MemorialTree5"
+          },
+          "DestinationList": [
+            "F993635E-468FE125-86336299-F59FA184"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.Heartstrings.MemorialTree6"
+          },
+          "DestinationList": [
+            "8DE749F9-4ED22098-6827D78E-7BD8CB0D"
+          ],
+          "EntryIdentifier": ""
+        }
+      ],
+      "InternalNodeIds": [
+        "8DE749F9-4ED22098-6827D78E-7BD8CB0D",
+        "93280183-4AA7C4E0-8D8F5181-E206E100",
+        "4AF1877B-4DABF9EE-DE85B185-A258866E",
+        "87E476C9-4A19E62A-AB05F6AD-2C96AEE4",
+        "6532EEB5-4C115DEF-4C4090B0-7F56857F",
+        "6942B3CA-47F18FE5-400042A5-F5932478",
+        "168C702C-4B9B4B7C-24FE4D8A-626C23EB",
+        "0F549569-426D85E6-2F2B3494-6ED8FAE0",
+        "F993635E-468FE125-86336299-F59FA184",
+        "CAD09DFF-43979D07-888CA6B5-7757F722",
+        "411780E9-44150FFC-943270B7-E5553325",
+        "1E934456-48ABBF30-F85D3188-84ACCCE3",
+        "313444A5-4F26B62A-DE659496-656A3939",
+        "9A81F3DE-422A1B93-2F916FB9-D8266EB5",
+        "4FA3E475-4D5EEDFC-32D14E83-3C6B5DAB",
+        "8C4C4B31-44FD748C-A7246D95-0B4137CA",
+        "1B653F9C-4C818679-3270FD9D-57D7441A",
+        "DCA1FBBF-487172E4-55323283-6030918C",
+        "91C38B7F-472BBE2D-9C6624A7-A592FDD0",
+        "E0B0B92C-479E45F2-B9444A84-B47C974C",
+        "8219AFA1-47E32F85-7C46D1A6-6B8C130C",
+        "7ED75679-4593B3DB-68554AA7-143D498E",
+        "EA153EAC-4788050D-B2C23FAB-1F4F4C78",
+        "921DAC67-4EA0928C-2486188E-8E0EDD68",
+        "7E633A99-4F56747A-3BEDADA9-AF9D7E41",
+        "9FAFC313-4B709DBA-D2625999-8C74A367",
+        "EC21CA1C-4FE2DD16-4B23529F-378D271C",
+        "43F392F2-43805774-45402A84-5C32C529",
+        "20E814CB-4126818F-4BA62183-ED39B80C",
+        "9A15873F-44433BBB-2BC5229B-96715F52",
+        "76CA88E7-40F359D3-DEB196A9-70D0AB73",
+        "FE07A532-45660F63-111DF483-9ADF63EF",
+        "BAC31F01-4FEC4F54-DF3D37A6-0E2E4C2E",
+        "80CE73DA-4469064B-C6B1AFA3-C47CB335",
+        "2FCD0CAB-446682E8-6775109F-99E547DC",
+        "6F4C88DC-46D6FFF4-168CB082-5670061C",
+        "B995E1AB-47B3E914-0B4750A9-23C87AC9",
+        "B1A02932-4F655C7C-EFEB09A9-069599BF",
+        "E2C8CA7E-44DF81E4-65E22DA9-AA8C2ACD",
+        "A75368E2-4C708C41-D17CCA86-C67D14C0",
+        "BB2DE5E0-4864763A-7FCDC282-AFA139E5",
+        "5120343C-4CA30AEA-C790E1B2-3997EF0C",
+        "6D8923EB-45A93E48-4AE4659C-399EE301",
+        "5EC0CAA6-423AD59B-AB0EC29D-5B285D93",
+        "7CA37AF6-4547F357-3F4EAE81-71464FED",
+        "7C28ADFF-4465DD76-3C0AFBAA-43AC2280",
+        "9247E9FD-4B3D4BE4-98D6A7A8-073D3AC4",
+        "4C7A02A8-446FFD4D-3D5FCB99-13B95968",
+        "FB4D7AF6-42674DEC-09F32B83-C438BBF0",
+        "E80F0B68-4C47FF71-42617292-A2F969C4",
+        "07F5D93B-44AD521F-9ED11FAC-3EDF0BF2",
+        "78FE0E5D-42D493D2-9A203B94-8F8684EF",
+        "728B8C8C-453A9B10-B6E2A797-CB788B48",
+        "2E458F8C-4DF554C0-4F914C88-9B30E21C",
+        "C05CB91F-49F279D1-D228B380-6ADCD416",
+        "08DCC4F6-44B870B5-AD6558AE-04BE2418",
+        "36C5D41A-4CFA28D5-BCDE119B-5DA2B63A",
+        "5B366277-4867B627-B45458B9-2298FC27",
+        "BA3A13B4-4BAE6BC9-A78D68B0-29BDD651",
+        "94D9A414-412A49A9-8B589DB8-8720E7C3",
+        "4A39831C-4860242C-7154858E-EFD1FC6A",
+        "56F5B22E-4EC7910D-47F51C93-0EF84803",
+        "9611300A-4613FCCA-29A911B8-88C66C46",
+        "6DD15FD2-43658560-B1ADAF84-98F2599C",
+        "75ACD163-46D6E36E-C76F75AE-6897F636",
+        "E5A74D0C-4CE3FE47-567DA9B7-EF34AB28",
+        "703E4E9C-4E23DFFF-4A36F19D-0B471AF3",
+        "25077BD6-499202AD-4292A5B8-B868D6AA",
+        "D13BAA87-46BAE2CD-4D0147B5-5E04A49F",
+        "AD66D175-41833BE1-2FF7FBA1-8A18DB5B",
+        "5ECB43C9-42C69C84-061390B4-221A14F8",
+        "7BB6C967-4999BEB3-0A35E08F-E6697B90",
+        "0067E8B7-4AF592E7-F1E54183-5986221F",
+        "8DC6C390-4C8034F2-105928B4-1701BCB4",
+        "0960FA43-46F9B2DB-9D75ADB4-1C479C59",
+        "8F5F148A-4DCD7828-F25D8A9E-AE79AB6E",
+        "B3EB688A-4781EB06-98C7748F-57AED147",
+        "9FA46D88-46EF99F8-74A15B8E-67BB6676",
+        "4E51FAE2-4E929AF0-87D219BC-6DCD6D5A",
+        "5CA33721-4A787616-94DF2492-895CA62E"
+      ]
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.Heartstrings.MemorialTree6"
+      },
+      "OutputConnections": [
+        "93280183-4AA7C4E0-8D8F5181-E206E100"
+      ],
+      "Compiled_NodeGUID": "8DE749F9-4ED22098-6827D78E-7BD8CB0D"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.Heartstrings.MemorialTree5"
+      },
+      "OutputConnections": [
+        "CAD09DFF-43979D07-888CA6B5-7757F722"
+      ],
+      "Compiled_NodeGUID": "F993635E-468FE125-86336299-F59FA184"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.Heartstrings.MemorialMesa"
+      },
+      "OutputConnections": [
+        "703E4E9C-4E23DFFF-4A36F19D-0B471AF3",
+        "E5A74D0C-4CE3FE47-567DA9B7-EF34AB28"
+      ],
+      "Compiled_NodeGUID": "75ACD163-46D6E36E-C76F75AE-6897F636"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.Heartstrings.MemorialFinal"
+      },
+      "OutputConnections": [
+        "94D9A414-412A49A9-8B589DB8-8720E7C3",
+        "BB2DE5E0-4864763A-7FCDC282-AFA139E5"
+      ],
+      "Compiled_NodeGUID": "A75368E2-4C708C41-D17CCA86-C67D14C0"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.Heartstrings.MemorialTree3"
+      },
+      "OutputConnections": [
+        "1B653F9C-4C818679-3270FD9D-57D7441A"
+      ],
+      "Compiled_NodeGUID": "8C4C4B31-44FD748C-A7246D95-0B4137CA"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.Heartstrings.MemorialTree2"
+      },
+      "OutputConnections": [
+        "7E633A99-4F56747A-3BEDADA9-AF9D7E41"
+      ],
+      "Compiled_NodeGUID": "921DAC67-4EA0928C-2486188E-8E0EDD68"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.Heartstrings.MemorialTree1"
+      },
+      "OutputConnections": [
+        "BAC31F01-4FEC4F54-DF3D37A6-0E2E4C2E"
+      ],
+      "Compiled_NodeGUID": "FE07A532-45660F63-111DF483-9ADF63EF"
+    }
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerDoesntHaveSpaceForItems_C",
+    "Name": "QFR_PlayerDoesntHaveSpaceForItems_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasSpaceForItems_C",
+    "Name": "QFR_PlayerHasSpaceForItems_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_36",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_45",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_46",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_51",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_52",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_53",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_54",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_CompleteQuest_C",
+    "Name": "QFT_CompleteQuest_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveCraftingRecipe_C",
+    "Name": "QFT_GiveCraftingRecipe_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveItemToPlayer_C",
+    "Name": "QFT_GiveItemToPlayer_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveItemToPlayer_C",
+    "Name": "QFT_GiveItemToPlayer_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveQuest_C",
+    "Name": "QFT_GiveQuest_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_22",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_24",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_27",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_28",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_30",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_31",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_32",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_34",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_35",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_36",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_38",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_39",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_40",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_41",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_42",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_43",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_45",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_47",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_48",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_51",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_52",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_53",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_54",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_55",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_56",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_60",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_61",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_62",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_63",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_66",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_67",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_68",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_81",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_82",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_83",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_84",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_12",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_13",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_14",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_15",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_16",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_17",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_18",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_19",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_20",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_21",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_22",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_TakeItemFromPlayer_C",
+    "Name": "QFT_TakeItemFromPlayer_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_Play2DSoundWhenQuestBoolFalse_C",
+    "Name": "SEN_Play2DSoundWhenQuestBoolFalse_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_Play2DSoundWhenQuestBoolFalse_C",
+    "Name": "SEN_Play2DSoundWhenQuestBoolFalse_C_14",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_Play2DSoundWhenQuestBoolFalse_C",
+    "Name": "SEN_Play2DSoundWhenQuestBoolFalse_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_Play2DSoundWhenQuestBoolFalse_C",
+    "Name": "SEN_Play2DSoundWhenQuestBoolFalse_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_Play2DSoundWhenQuestBoolFalse_C",
+    "Name": "SEN_Play2DSoundWhenQuestBoolFalse_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_Play2DSoundWhenQuestBoolFalse_C",
+    "Name": "SEN_Play2DSoundWhenQuestBoolFalse_C_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_Play2DSting_C",
+    "Name": "SEN_Play2DSting_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_12",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_13",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_14",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Heartstrings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/Heartstrings/QF_Heartstrings.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  }
+]

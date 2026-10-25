@@ -1,0 +1,78 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Ambience_Fog_Target_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'FogVariablesBindingComponent'",
+      "ObjectPath": "/Script/Dominion"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Ambience_Fog_Target_C'Default__BP_Ambience_Fog_Target_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/World/Ambience/Components/BP_Ambience_Fog_Target.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Ambience_Fog_Target_C",
+    "Name": "Default__BP_Ambience_Fog_Target_C",
+    "Class": "BlueprintGeneratedClass'1.0.1.3/RSDragonwilds/Content/Gameplay/World/Ambience/Components/BP_Ambience_Fog_Target.BP_Ambience_Fog_Target_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Density": {
+        "ObjectName": "CompositePairFloat'AMB_Fog_Density_N'",
+        "ObjectPath": "/Game/Gameplay/World/Ambience/Properties/AMB_Fog_Density_N"
+      },
+      "VolumetricViewDistance": {
+        "ObjectName": "CompositePairFloat'AMB_Fog_VolumetricViewDistance'",
+        "ObjectPath": "/Game/Gameplay/World/Ambience/Properties/AMB_Fog_VolumetricViewDistance"
+      },
+      "FogFalloff": {
+        "ObjectName": "CompositePairFloat'AMB_Fog_Falloff'",
+        "ObjectPath": "/Game/Gameplay/World/Ambience/Properties/AMB_Fog_Falloff"
+      },
+      "FogExtinction": {
+        "ObjectName": "CompositePairFloat'AMB_Fog_Extinction'",
+        "ObjectPath": "/Game/Gameplay/World/Ambience/Properties/AMB_Fog_Extinction"
+      },
+      "SecondFogDensity": {
+        "ObjectName": "CompositePairFloat'AMB_Fog_SecondFogDensity'",
+        "ObjectPath": "/Game/Gameplay/World/Ambience/Properties/AMB_Fog_SecondFogDensity"
+      },
+      "SecondFogOffset": {
+        "ObjectName": "CompositePairFloat'AMB_Fog_SecondFogOffset'",
+        "ObjectPath": "/Game/Gameplay/World/Ambience/Properties/AMB_Fog_SecondFogOffset"
+      },
+      "NearFadeInDistance": {
+        "ObjectName": "CompositePairFloat'AMB_Fog_NearFadeDistance'",
+        "ObjectPath": "/Game/Gameplay/World/Ambience/Properties/AMB_Fog_NearFadeDistance"
+      },
+      "Color": {
+        "ObjectName": "CompositePairColor'AMB_Fog_Color_N'",
+        "ObjectPath": "/Game/Gameplay/World/Ambience/Properties/AMB_Fog_Color_N"
+      },
+      "VolumetricColor": {
+        "ObjectName": "CompositePairColor'AMB_Volumetric_Color_N'",
+        "ObjectPath": "/Game/Gameplay/World/Ambience/Properties/AMB_Volumetric_Color_N"
+      },
+      "SkyAtmosphereAmbientContributionColorScale": {
+        "ObjectName": "CompositePairColor'AMB_Fog_AmbientFog'",
+        "ObjectPath": "/Game/Gameplay/World/Ambience/Properties/AMB_Fog_AmbientFog"
+      },
+      "VolumetricEmissive": {
+        "ObjectName": "CompositePairColor'AMB_Volumetric_Emissive_N'",
+        "ObjectPath": "/Game/Gameplay/World/Ambience/Properties/AMB_Volumetric_Emissive_N"
+      }
+    }
+  }
+]

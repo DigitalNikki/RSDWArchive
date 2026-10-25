@@ -1,0 +1,32 @@
+[
+  {
+    "Type": "PlayerEquipmentAnimationAudioData",
+    "Name": "ADA_UnarmedEquipmentAudioData",
+    "Class": "UScriptClass'PlayerEquipmentAnimationAudioData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "NotifyToAnimData": [
+        {
+          "Key": "Medium swing",
+          "Value": {
+            "LocalBaseSound": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_PunchSwish'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/Swish/MSS_Co_PunchSwish"
+            },
+            "RemoteBaseSound": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_PunchSwish_Rem'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/Swish_Rem/MSS_Co_PunchSwish_Rem"
+            },
+            "ConditionalSoundsSoundRule": "ESoundPlayRules::Additive",
+            "ConditionalSounds": [],
+            "bIsAffectedByAmmo": false,
+            "MaterialSoundRule": "ESoundPlayRules::Additive",
+            "MaterialToSoundMap": [],
+            "EffectSoundRule": "ESoundPlayRules::OverrideBase",
+            "EffectToSoundMap": []
+          }
+        }
+      ]
+    }
+  }
+]

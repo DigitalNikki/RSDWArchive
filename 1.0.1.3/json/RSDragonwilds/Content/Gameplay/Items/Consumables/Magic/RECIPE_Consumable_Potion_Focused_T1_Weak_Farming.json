@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Consumable_Potion_Focused_T1_Weak_Farming",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Herb_Marrentill'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Herb/ITEM_Herb_Marrentill"
+          },
+          "Count": 1
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Weeds'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Plant/ITEM_Resources_Weeds"
+          },
+          "Count": 1
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Clay_Vessel'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Mineral/ITEM_Resources_Clay_Vessel"
+          },
+          "Count": 1
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "BP_Consumables_Potion_C'ITEM_Consumable_Potion_Focused_T1_Weak_Farming'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T1_Weak_Farming"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Potion"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting"
+        },
+        "RowName": "Craft_Herblore_Lab_Recipe"
+      },
+      "PersistenceID": "FMPN-UYpcREpoAOTv1gUkQ",
+      "InternalName": "RECIPE_Consumable_Potion_Focused_T1_Weak_Farming"
+    }
+  }
+]

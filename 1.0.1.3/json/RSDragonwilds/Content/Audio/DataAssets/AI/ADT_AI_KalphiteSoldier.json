@@ -1,0 +1,366 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ADT_AI_KalphiteSoldier",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Object'AiAnimationAudioTableRowBase'",
+        "ObjectPath": "/Script/Dominion"
+      }
+    },
+    "Rows": {
+      "Footsteps": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kalphite.Soldier"
+            },
+            "Value": null
+          }
+        ],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "mid_leg_foot_l",
+          "mid_leg_foot_r",
+          "back_leg_foot_r",
+          "back_leg_foot_l",
+          "front_leg_foot_l",
+          "front_leg_foot_r"
+        ]
+      },
+      "Mandible_Open_Telegraph": {
+        "AnimationActionType": "EAiAnimationAudioActions::Vox",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kalphite.Soldier"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_KalphiteSoldier_Misc_Short'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KalphiteFaction/KalphiteSoldier/Vox/MSS_En_Vox_KalphiteSoldier_Misc_Short"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "None"
+        ]
+      },
+      "WingFlutterShort": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kalphite.Soldier"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_KalphiteSoldier_WingFlutter_Shrt'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KalphiteFaction/KalphiteSoldier/Foley/MSS_En_Fo_KalphiteSoldier_WingFlutter_Shrt"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Carapace_Medium": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kalphite.Soldier"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_KalphiteSoldier_Carapace_Med'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KalphiteFaction/KalphiteSoldier/Foley/MSS_En_Fo_KalphiteSoldier_Carapace_Med"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Vox_Short_Aggressive": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kalphite.Soldier"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_KalphiteSoldier_Shrt_Aggrs'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KalphiteFaction/KalphiteSoldier/Vox/MSS_En_Vox_KalphiteSoldier_Shrt_Aggrs"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "MandibleFoley": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kalphite.Soldier"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_KalphiteSoldier_Mandible'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KalphiteFaction/KalphiteSoldier/Foley/MSS_En_Fo_KalphiteSoldier_Mandible"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "RandomSweetenerFoley": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kalphite.Soldier"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_KalphiteSoldier_RandomSweetener'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KalphiteFaction/KalphiteSoldier/Foley/MSS_En_Fo_KalphiteSoldier_RandomSweetener"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "KalphiteAggro": {
+        "AnimationActionType": "EAiAnimationAudioActions::Vox",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kalphite.Soldier"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_KalphiteSoldier_Aggro'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KalphiteFaction/KalphiteSoldier/Vox/MSS_En_Vox_KalphiteSoldier_Aggro"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Bodyfall": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kalphite.Soldier"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_Cr_Bodyfall_Med'",
+              "ObjectPath": "/Game/Audio/DataAssets/Foley/ADA_Cr_Bodyfall_Med"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "DeathVox": {
+        "AnimationActionType": "EAiAnimationAudioActions::Vox",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kalphite.Soldier"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_KalphiteSoldier_Death'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KalphiteFaction/KalphiteSoldier/Vox/MSS_En_Vox_KalphiteSoldier_Death"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": true,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "IdleVoxLong": {
+        "AnimationActionType": "EAiAnimationAudioActions::Vox",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kalphite.Soldier"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_KalphiteSoldier_LongIdle'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KalphiteFaction/KalphiteSoldier/Vox/MSS_En_Vox_KalphiteSoldier_LongIdle"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Bodyfall_Light": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kalphite.Soldier"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_Cr_Bodyfall_Med_Light'",
+              "ObjectPath": "/Game/Audio/DataAssets/Foley/ADA_Cr_Bodyfall_Med_Light"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "SandSpawn": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kalphite.Soldier"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_KalphiteSoldier_SandSpawn'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KalphiteFaction/KalphiteSoldier/Foley/MSS_En_Vox_KalphiteSoldier_SandSpawn"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": true,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "SandDebris": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kalphite.Soldier"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Generic_Mo_Tail_DustDebris'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Generic/MSS_Generic_Mo_Tail_DustDebris"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "AcidChargeUp": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.Ai.Kalphite.Soldier"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Co_KalphiteSoldier_AcidChargeUp'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KalphiteFaction/KalphiteSoldier/Abilities/MSS_En_Co_KalphiteSoldier_AcidChargeUp"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "AcidSpitFire": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.Ai.Kalphite.Soldier"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Co_KalphiteSoldier_AcidSpitFire'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KalphiteFaction/KalphiteSoldier/Abilities/MSS_En_Co_KalphiteSoldier_AcidSpitFire"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "SwipeAttack": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.Ai.Kalphite.Soldier"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Co_KalphiteSoldier_Swing'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KalphiteFaction/KalphiteSoldier/Abilities/MSS_En_Co_KalphiteSoldier_Swing"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Chomp": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.Ai.Kalphite.Soldier"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Fo_Kaliphite_Soldier_Bite'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KalphiteFaction/KalphiteSoldier/Foley/MSS_Cr_Fo_Kaliphite_Soldier_Bite"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "jaw"
+        ]
+      }
+    }
+  }
+]

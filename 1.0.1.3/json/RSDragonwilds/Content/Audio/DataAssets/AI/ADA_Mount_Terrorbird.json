@@ -1,0 +1,30 @@
+[
+  {
+    "Type": "PlayerMountFXData",
+    "Name": "ADA_Mount_Terrorbird",
+    "Class": "UScriptClass'PlayerMountFXData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AnimationDataTable": {
+        "ObjectName": "DataTable'ADT_Mount_Terrorbird'",
+        "ObjectPath": "/Game/Audio/DataAssets/AI/ADT_Mount_Terrorbird"
+      },
+      "AudioMountTag": {
+        "TagName": "Audio.AI.Mount.Terrorbird"
+      },
+      "HurtDismountSFX": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Terrorbird_Call_AddHitreact_Front'",
+        "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Terrorbird/Terrorbird_Vox/MSS_Cr_Vox_Terrorbird_Call_AddHitreact_Front"
+      },
+      "LandingFootstepData": {
+        "ObjectName": "FootstepData'ADA_Mount_TerrorbirdFootsteps_Run'",
+        "ObjectPath": "/Game/Audio/DataAssets/FootstepData/ADA_Mount_TerrorbirdFootsteps_Run"
+      },
+      "LocomotionMetaSoundSource": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Pl_Mount_Terrorbird_Locomotion'",
+        "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Terrorbird_Mount/MSS_Pl_Mount_Terrorbird_Locomotion"
+      },
+      "SprintParameter": "IsSprinting"
+    }
+  }
+]

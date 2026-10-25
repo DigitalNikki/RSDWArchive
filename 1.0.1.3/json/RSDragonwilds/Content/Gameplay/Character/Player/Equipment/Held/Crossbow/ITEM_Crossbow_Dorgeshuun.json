@@ -1,0 +1,144 @@
+[
+  {
+    "Type": "HeldEquipmentData",
+    "Name": "ITEM_Crossbow_Dorgeshuun",
+    "Class": "UScriptClass'HeldEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HeldEquipmentActorClass": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Crossbow/BP_Crossbow_Dorgeshuun.BP_Crossbow_Dorgeshuun_C",
+        "SubPathString": ""
+      },
+      "PrimaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_RangedAttack_Crossbow_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Crossbow/PA_RangedAttack_Crossbow"
+      },
+      "PrimaryJumpActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Spell_Crossbow_JumpAttack_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Crossbow/PA_Spell_Crossbow_JumpAttack"
+      },
+      "SecondaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Block_Crossbow_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Abilities/Block/PA_Block_Crossbow"
+      },
+      "SpecialActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_RangedAttack_Crossbow_PunishingShot_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Crossbow/PA_RangedAttack_Crossbow_PunishingShot"
+      },
+      "AnimationPoseType": "EAnimationPoseType::Default",
+      "AnimationPosesSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_CrossBow_Poses'",
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Crossbow/A_PlayerM_CrossBow_Poses"
+      },
+      "WindUpMaxMovementSpeedOverride": 300.0,
+      "BaseHeldEquipmentPowerLevelRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_PlayerWeaponPowerLevels'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels"
+        },
+        "RowName": "Weapons"
+      },
+      "BaseHeldEquipmentDamageNegationRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_PlayerDamageNegation'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_PlayerDamageNegation"
+        },
+        "RowName": "Crossbow"
+      },
+      "DamageMultiplier": 2.7,
+      "DamageTypes": [
+        "DamageType.Ranged"
+      ],
+      "AmmoType": "EHeldEquipmentAmmoType::CrossbowBolts",
+      "ProjectileClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Arrow_Base_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Ammo/BP_Arrow_Base"
+      },
+      "RequiredAmmoCategory": {
+        "TagName": "Item.Equipment.Ammo.Bolt.Bone"
+      },
+      "bRequiresReload": true,
+      "ReloadDuration": 1.5,
+      "ReloadQuickShotWindowStartTime": 0.9,
+      "ReloadQuickShotWindowDuration": 0.2,
+      "ReloadFailurePunishmentDuration": 1.0,
+      "RangedAttackCollection": {
+        "ObjectName": "BlueprintGeneratedClass'BP_PlayerRangedAttackCollection_Crossbow_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Crossbow/BP_PlayerRangedAttackCollection_Crossbow"
+      },
+      "PreferredLockOnCameraAimMode": "ELockOnCameraAimMode::RangedWeapon",
+      "Slot": "ELoadoutSlotStrategy::HeldOnlyRight",
+      "HandPreference": "EHandPreference::Right",
+      "Tier": 4,
+      "bIsAWeapon": true,
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Ranged'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Ranged"
+      },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "DorgeshuunCrossbow",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "DorgeshuunCrossbow",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Weapons_tools_Placables/T_icon_Dorgeshuun_Crossbow.T_icon_Dorgeshuun_Crossbow",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Skeleton/Weapons/Ranged/Crossbow_Dorgeshuun_1H_01/SM_Crossbow_Dorgeshuun_1H_01.SM_Crossbow_Dorgeshuun_1H_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 5,
+      "Weight": 10.0,
+      "Category": {
+        "TagName": "Item.Equipment.Weapon.Crossbow"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Weapon.Ranged"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Wood.Crossbow"
+      },
+      "BaseDurability": 1300,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak"
+      },
+      "BuffDatas": [
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemInfo.ST_ItemInfo",
+            "Key": "SpecialEffect",
+            "SourceString": null,
+            "LocalizedString": ""
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "DorgeshuunCrossbow.Boon",
+            "SourceString": null,
+            "LocalizedString": ""
+          },
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "bIsMasterworkItem": true,
+      "MasterworkType": "EMasterworkUpgradeType::Masterwork",
+      "PersistenceID": "eWL0U0dnOlww-eCyIIbDFA",
+      "InternalName": "weap_crossbow_dorgeshuun"
+    }
+  }
+]

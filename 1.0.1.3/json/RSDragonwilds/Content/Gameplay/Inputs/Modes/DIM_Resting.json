@@ -1,0 +1,56 @@
+[
+  {
+    "Type": "DominionInputMode",
+    "Name": "DIM_Resting",
+    "Class": "UScriptClass'DominionInputMode'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "InputConfig": "EDominionWidgetInputMode::GameAndMenu",
+      "Mappings": [
+        {
+          "InputMapping": {
+            "ObjectName": "InputMappingContext'IMC_Camera'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Mappings/IMC_Camera"
+          },
+          "Priority": 0,
+          "DebugBuildsOnly": false
+        },
+        {
+          "InputMapping": {
+            "ObjectName": "InputMappingContext'IMC_Pause'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Mappings/IMC_Pause"
+          },
+          "Priority": 0,
+          "DebugBuildsOnly": false
+        },
+        {
+          "InputMapping": {
+            "ObjectName": "InputMappingContext'IMC_Resting'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Mappings/IMC_Resting"
+          },
+          "Priority": 0,
+          "DebugBuildsOnly": false
+        },
+        {
+          "InputMapping": {
+            "ObjectName": "InputMappingContext'IMC_GameplayUI'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Mappings/IMC_GameplayUI"
+          },
+          "Priority": 1,
+          "DebugBuildsOnly": false
+        },
+        {
+          "InputMapping": {
+            "ObjectName": "InputMappingContext'IMC_InventoryToggle'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Mappings/IMC_InventoryToggle"
+          },
+          "Priority": 2,
+          "DebugBuildsOnly": false
+        }
+      ],
+      "bIsEmoteMenuAllowedToOpen": false,
+      "bIsSpellcastingMenuAllowedToOpen": false,
+      "LegendWidgetType": "EInputLegendWidgetType::Resting"
+    }
+  }
+]

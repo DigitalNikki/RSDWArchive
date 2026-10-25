@@ -1,0 +1,27 @@
+[
+  {
+    "Type": "FTUENotificationData",
+    "Name": "FTUE_AccessSpells",
+    "Class": "UScriptClass'FTUENotificationData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "TableId": "/Game/Gameplay/FTUE/Strings/ST_FTUENotifications.ST_FTUENotifications",
+        "Key": "UI.FTUE.AccessSpells",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "TextFormatTokenToTextGenerators": [
+        {
+          "Key": "SpellBookButton",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'BP_FTUEDescribeSpellBookButtonAsRichText_C'",
+            "ObjectPath": "/Game/Gameplay/FTUE/Strings/BP_FTUEDescribeSpellBookButtonAsRichText"
+          }
+        }
+      ],
+      "PersistenceID": "H6ipb0zFtv53oe-SjDjH2A",
+      "InternalName": "ftue_accessspellbook"
+    }
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "Type": "BuildingPieceData",
+    "Name": "BUILDPIECE_ProcessingStation_Smelter",
+    "Class": "UScriptClass'BuildingPieceData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DerivedData": {
+        "AssetPathName": "/Game/Gameplay/BaseBuilding/Data/BuildingPieces_DerivedData/Structures/Crafting/BUILDPIECE_ProcessingStation_Smelter_DerivedData.BUILDPIECE_ProcessingStation_Smelter_DerivedData",
+        "SubPathString": ""
+      },
+      "DisplayName": {
+        "TableId": "/Game/UI/ST_Localization.ST_Localization",
+        "Key": "Furnace",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Description": {
+        "TableId": "/Game/UI/Crafting/ST_Crafting.ST_Crafting",
+        "Key": "Furnace.Description",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "DisplayIcon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Stations_2024/T_Icon_Station_Furnace.T_Icon_Station_Furnace",
+        "SubPathString": ""
+      },
+      "BuildableActor": {
+        "AssetPathName": "/Game/Gameplay/World/Stations/BP_Station_Smelter.BP_Station_Smelter_C",
+        "SubPathString": ""
+      },
+      "Requirements": [
+        {
+          "Amount": 24,
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Stone'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Mineral/ITEM_Resources_Stone"
+          }
+        },
+        {
+          "Amount": 8,
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Clay'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Mineral/ITEM_Resources_Clay"
+          }
+        },
+        {
+          "Amount": 4,
+          "ItemData": {
+            "ObjectName": "FuelItemData'ITEM_Fuel_Resources_Charcoal'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Mineral/ITEM_Fuel_Resources_Charcoal"
+          }
+        },
+        {
+          "Amount": 10,
+          "ItemData": {
+            "ObjectName": "MagicAmmoData'ITEM_Rune_Fire'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Magic/ITEM_Rune_Fire"
+          }
+        },
+        {
+          "Amount": 8,
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_VaultShard'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Magic/ITEM_Resources_VaultShard"
+          }
+        }
+      ],
+      "ConstructionXPOnBuild": 500,
+      "PieceTag": {
+        "TagName": "BaseBuilding.PieceType.Prop"
+      },
+      "BuildingStabilityProfileRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'StabilityProfileDataTable'",
+          "ObjectPath": "/Game/Gameplay/BaseBuilding/StabilityProfileDataTable"
+        },
+        "RowName": "Prop"
+      },
+      "BuildXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Building'",
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Building"
+        },
+        "RowName": "Build_Processing_Station"
+      },
+      "RepresentationCategory": "EBuildingPieceRepresentationCategory::IndividuallyReplicatedAndPersistedActor",
+      "PersistenceID": "lj0FT_hyUE25FvmYwg6SeA",
+      "InternalName": "buildpiece_processingstation_smelter"
+    }
+  }
+]

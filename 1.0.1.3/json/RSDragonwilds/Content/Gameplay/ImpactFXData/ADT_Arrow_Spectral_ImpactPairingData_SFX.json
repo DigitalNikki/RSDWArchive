@@ -1,0 +1,185 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ADT_Arrow_Spectral_ImpactPairingData_SFX",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Object'ImpactSourceSFXTableRow'",
+        "ObjectPath": "/Script/Dominion"
+      }
+    },
+    "Rows": {
+      "Default": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_AstralArrow_Wood'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Ranged/Astral_Impacts/MSS_Co_AstralArrow_Wood"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.Default"
+        ]
+      },
+      "Audio.Food.Plant": {
+        "PhysicalMaterials": [
+          {
+            "ObjectName": "DominionPhysicalMaterial'Leaves'",
+            "ObjectPath": "/Game/Audio/PhysMats/Leaves"
+          },
+          {
+            "ObjectName": "DominionPhysicalMaterial'Foliage_Brush'",
+            "ObjectPath": "/Game/Audio/PhysMats/Foliage_Brush"
+          }
+        ],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_AstralArrow_Foliage'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Ranged/Astral_Impacts/MSS_Co_AstralArrow_Foliage"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.Food.Plant"
+        ]
+      },
+      "Audio.Flesh": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_AstralArrow_Flesh'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Ranged/Astral_Impacts/MSS_Co_AstralArrow_Flesh"
+          },
+          "CritSweetener": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_CriticalHitSuccess'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/MSS_Co_CriticalHitSuccess"
+          }
+        },
+        "Identifier": [
+          "Audio.Flesh",
+          "Audio.Cloth",
+          "Audio.Leather",
+          "Audio.Chitin.Kalphite"
+        ]
+      },
+      "Audio.Stone": {
+        "PhysicalMaterials": [
+          {
+            "ObjectName": "DominionPhysicalMaterial'Rock'",
+            "ObjectPath": "/Game/Audio/PhysMats/Rock"
+          },
+          {
+            "ObjectName": "DominionPhysicalMaterial'Stone_Steps'",
+            "ObjectPath": "/Game/Audio/PhysMats/Stone_Steps"
+          },
+          {
+            "ObjectName": "DominionPhysicalMaterial'Stone_Cobbles'",
+            "ObjectPath": "/Game/Audio/PhysMats/Stone_Cobbles"
+          }
+        ],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_AstralArrow_Stone'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Ranged/Astral_Impacts/MSS_Co_AstralArrow_Stone"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.Stone"
+        ]
+      },
+      "None": {
+        "PhysicalMaterials": [
+          {
+            "ObjectName": "DominionPhysicalMaterial'Gravel'",
+            "ObjectPath": "/Game/Audio/PhysMats/Gravel"
+          },
+          {
+            "ObjectName": "DominionPhysicalMaterial'Pebble'",
+            "ObjectPath": "/Game/Audio/PhysMats/Pebble"
+          }
+        ],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_AstralArrow_Gravel'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Ranged/Astral_Impacts/MSS_Co_AstralArrow_Gravel"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": []
+      },
+      "Audio.Metal": {
+        "PhysicalMaterials": [
+          {
+            "ObjectName": "DominionPhysicalMaterial'Metal'",
+            "ObjectPath": "/Game/Audio/PhysMats/Metal"
+          }
+        ],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_AstralArrow_Metal'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Ranged/Astral_Impacts/MSS_Co_AstralArrow_Metal"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.Metal"
+        ]
+      },
+      "Audio.Bone.Skeleton": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_AstralArrow_Bone'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Ranged/Astral_Impacts/MSS_Co_AstralArrow_Bone"
+          },
+          "CritSweetener": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_CriticalHitSuccess'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/MSS_Co_CriticalHitSuccess"
+          }
+        },
+        "Identifier": [
+          "Audio.Bone.Skeleton"
+        ]
+      },
+      "Audio.Spectral": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_Spectral_ImpactSmall'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/Impacts_Spectra/MSS_Co_Spectral_ImpactSmall"
+          },
+          "CritSweetener": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_CriticalHitSuccess'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/MSS_Co_CriticalHitSuccess"
+          }
+        },
+        "Identifier": [
+          "Audio.Spectral",
+          "Audio.AI.Skeleton.Spectral",
+          "Audio.AI.TerrorBird.Spectral",
+          "Audio.AI.BossDragon.Imaru.Spectral",
+          "Audio.AI.Wolf.Dragon.Spectral",
+          "Audio.AI.Wolf.Spectral",
+          "Audio.AI.Zombie.Spectral"
+        ]
+      },
+      "Audio.Immune": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_BleedArrow_Wood_REM'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Ranged/Bleed_Impacts/MSS_Co_BleedArrow_Wood_REM"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.Chitin.Kalphite.Immune"
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Components_Spellcasting_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'SpellcastingComponent'",
+      "ObjectPath": "/Script/Dominion"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Components_Spellcasting_C'Default__BP_Components_Spellcasting_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Components/BP_Components_Spellcasting.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Components_Spellcasting_C",
+    "Name": "Default__BP_Components_Spellcasting_C",
+    "Class": "BlueprintGeneratedClass'1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Components/BP_Components_Spellcasting.BP_Components_Spellcasting_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "PlaceSpellTraceProfile": {
+        "Name": "UtilitySpellPlacement"
+      },
+      "MinDistanceFromCameraToPlaceSpell": 750.0,
+      "MaxDistanceFromCameraToPlaceSpell": 1500.0,
+      "TraceDistanceToClampSpellToSurface": 10000.0,
+      "PlaceSpellInputAction": {
+        "ObjectName": "InputAction'IA_Spellcasting_PlaceSpell'",
+        "ObjectPath": "/Game/Gameplay/Inputs/Actions/Spellcasting/IA_Spellcasting_PlaceSpell"
+      },
+      "CancelSpellInputAction": {
+        "ObjectName": "InputAction'IA_Spellcasting_Cancel'",
+        "ObjectPath": "/Game/Gameplay/Inputs/Actions/Spellcasting/IA_Spellcasting_Cancel"
+      },
+      "AdjustSpellInputAction": {
+        "ObjectName": "InputAction'IA_Spellcasting_AdjustSpell'",
+        "ObjectPath": "/Game/Gameplay/Inputs/Actions/Spellcasting/IA_Spellcasting_AdjustSpell"
+      },
+      "AimedSpellCameraProfile": {
+        "ObjectName": "CameraProfile'AimingUtilitySpellCameraProfile'",
+        "ObjectPath": "/Game/Gameplay/Character/Data/AimingUtilitySpellCameraProfile"
+      },
+      "bReplicates": true
+    }
+  }
+]

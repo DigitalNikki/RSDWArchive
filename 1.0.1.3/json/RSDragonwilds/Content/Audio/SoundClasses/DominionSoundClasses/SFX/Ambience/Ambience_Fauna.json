@@ -1,0 +1,24 @@
+[
+  {
+    "Type": "DominionSoundClass",
+    "Name": "Ambience_Fauna",
+    "Class": "UScriptClass'DominionSoundClass'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MinReverbSend": 1.5,
+      "MaxReverbSend": 2.0,
+      "Properties": {
+        "Volume": 0.33496544,
+        "LoadingBehavior": "ESoundWaveLoadingBehavior::PrimeOnLoad",
+        "DefaultSubmix": {
+          "ObjectName": "SoundSubmix'Ambience'",
+          "ObjectPath": "/Game/Audio/Submixes/Ambience"
+        }
+      },
+      "ParentClass": {
+        "ObjectName": "DominionSoundClass'Ambient_Spots'",
+        "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Ambience/Ambient_Spots"
+      }
+    }
+  }
+]

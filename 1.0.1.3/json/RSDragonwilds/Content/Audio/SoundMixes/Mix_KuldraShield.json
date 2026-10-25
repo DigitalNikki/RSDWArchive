@@ -1,0 +1,58 @@
+[
+  {
+    "Type": "SoundMix",
+    "Name": "Mix_KuldraShield",
+    "Class": "UScriptClass'SoundMix'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SoundClassEffects": [
+        {
+          "SoundClassObject": {
+            "ObjectName": "DominionSoundClass'Boss'",
+            "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Boss/Boss"
+          },
+          "VolumeAdjuster": 0.6,
+          "PitchAdjuster": 1.0,
+          "LowPassFilterFrequency": 500.0,
+          "bApplyToChildren": true,
+          "VoiceCenterChannelVolumeAdjuster": 1.0
+        },
+        {
+          "SoundClassObject": {
+            "ObjectName": "DominionSoundClass'Music'",
+            "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/Music/Music"
+          },
+          "VolumeAdjuster": 1.2,
+          "PitchAdjuster": 1.0,
+          "LowPassFilterFrequency": 400.0,
+          "bApplyToChildren": true,
+          "VoiceCenterChannelVolumeAdjuster": 1.0
+        },
+        {
+          "SoundClassObject": {
+            "ObjectName": "DominionSoundClass'AI'",
+            "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/AI"
+          },
+          "VolumeAdjuster": 1.0,
+          "PitchAdjuster": 1.0,
+          "LowPassFilterFrequency": 500.0,
+          "bApplyToChildren": true,
+          "VoiceCenterChannelVolumeAdjuster": 1.0
+        },
+        {
+          "SoundClassObject": {
+            "ObjectName": "DominionSoundClass'Ambience'",
+            "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Ambience/Ambience"
+          },
+          "VolumeAdjuster": 0.01,
+          "PitchAdjuster": 1.0,
+          "LowPassFilterFrequency": 20000.0,
+          "bApplyToChildren": true,
+          "VoiceCenterChannelVolumeAdjuster": 1.0
+        }
+      ],
+      "FadeInTime": 0.5,
+      "FadeOutTime": 0.5
+    }
+  }
+]

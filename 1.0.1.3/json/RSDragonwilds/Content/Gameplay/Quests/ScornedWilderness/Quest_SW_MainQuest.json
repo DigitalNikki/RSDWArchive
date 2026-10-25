@@ -1,0 +1,143 @@
+[
+  {
+    "Type": "QuestData",
+    "Name": "Quest_SW_MainQuest",
+    "Class": "UScriptClass'QuestData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "QuestName": {
+        "TableId": "/Game/Gameplay/Quests/ScornedWilderness/ST_SW_MainQuest.ST_SW_MainQuest",
+        "Key": "Quest.Name",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "CompletedQuestDescription": {
+        "TableId": "/Game/Gameplay/Quests/ST_QuestCompletionText.ST_QuestCompletionText",
+        "Key": "Regicide",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "QuestRegion": "EQuestRegion::Scorned_Wilderness",
+      "bIsMainQuest": true,
+      "LinkedActivityID": "A_DefeatKuldra",
+      "FailsafeAchievementUnlockNames": [
+        "DefeatKuldra"
+      ],
+      "QuestDescription": {
+        "TableId": "/Game/Gameplay/Quests/ScornedWilderness/ST_SW_MainQuest.ST_SW_MainQuest",
+        "Key": "Quest.Description",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Objectives": [
+        {
+          "Key": "DefeatKuldra",
+          "Value": {
+            "Description": {
+              "TableId": "/Game/Gameplay/Quests/ScornedWilderness/ST_SW_MainQuest.ST_SW_MainQuest",
+              "Key": "Objective.DefeatKuldra",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "SubobjectiveDescription": {
+              "CultureInvariantString": null
+            },
+            "Hint": {
+              "CultureInvariantString": null
+            },
+            "bOverrideQuestDescription": false,
+            "QuestDescriptionOverride": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        {
+          "Key": "BringHead",
+          "Value": {
+            "Description": {
+              "TableId": "/Game/Gameplay/Quests/ScornedWilderness/ST_SW_MainQuest.ST_SW_MainQuest",
+              "Key": "Objective.ReturnHead",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "SubobjectiveDescription": {
+              "CultureInvariantString": null
+            },
+            "Hint": {
+              "CultureInvariantString": null
+            },
+            "bOverrideQuestDescription": false,
+            "QuestDescriptionOverride": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        {
+          "Key": "AccessSW",
+          "Value": {
+            "Description": {
+              "TableId": "/Game/Gameplay/Quests/ScornedWilderness/ST_SW_MainQuest.ST_SW_MainQuest",
+              "Key": "Objective.ScornedWilderness",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "SubobjectiveDescription": {
+              "CultureInvariantString": null
+            },
+            "Hint": {
+              "CultureInvariantString": null
+            },
+            "bOverrideQuestDescription": false,
+            "QuestDescriptionOverride": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        {
+          "Key": "SpeakZilyana",
+          "Value": {
+            "Description": {
+              "TableId": "/Game/Gameplay/Quests/ScornedWilderness/ST_SW_MainQuest.ST_SW_MainQuest",
+              "Key": "Objective.SpeakToZilyana",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "SubobjectiveDescription": {
+              "CultureInvariantString": null
+            },
+            "Hint": {
+              "CultureInvariantString": null
+            },
+            "bOverrideQuestDescription": false,
+            "QuestDescriptionOverride": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        {
+          "Key": "ReturnToZilyana",
+          "Value": {
+            "Description": {
+              "TableId": "/Game/Gameplay/Quests/ScornedWilderness/ST_SW_MainQuest.ST_SW_MainQuest",
+              "Key": "Objective.WhenReady",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "SubobjectiveDescription": {
+              "CultureInvariantString": null
+            },
+            "Hint": {
+              "CultureInvariantString": null
+            },
+            "bOverrideQuestDescription": false,
+            "QuestDescriptionOverride": {
+              "CultureInvariantString": null
+            }
+          }
+        }
+      ],
+      "PersistenceID": "Nw3wiUaB8siRIN2bStWJmw",
+      "InternalName": "SW_MainQuest"
+    }
+  }
+]

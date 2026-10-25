@@ -1,0 +1,64 @@
+[
+  {
+    "Type": "SkillPerkData",
+    "Name": "PerkV2_Ranged_SpectralArrows",
+    "Class": "UScriptClass'SkillPerkData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "PerkName": {
+        "TableId": "/Game/Gameplay/Character/Player/PerksV2/ST_Skills_Perks.ST_Skills_Perks",
+        "Key": "Ranged.CorruptionArrows.Name",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PerkDescription": {
+        "TableId": "/Game/Gameplay/Character/Player/PerksV2/ST_Skills_Perks.ST_Skills_Perks",
+        "Key": "Ranged.CorruptionArrows.Desc",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "SkillPerkImage": {
+        "AssetPathName": "/Game/Art/UI/Skills/Icons/Unlock/Ranged/T_Skill_Ranged_Spell_SpectralArrows.T_Skill_Ranged_Spell_SpectralArrows",
+        "SubPathString": ""
+      },
+      "PerkModules": [
+        {
+          "ObjectName": "SkillPerkModule_Spell'PerkV2_Ranged_SpectralArrows:SkillPerkModule_Spell_0'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/PerksV2/Ranged/PerkV2_Ranged_SpectralArrows.1"
+        }
+      ],
+      "PerkUnlockInfo": {
+        "AssociatedSkill": {
+          "AssetPathName": "/Game/Gameplay/Character/Player/Skills/SKILL_Ranged.SKILL_Ranged",
+          "SubPathString": ""
+        },
+        "RequiredSkillLevel": 25
+      },
+      "PerkUsageVideo": {
+        "ObjectName": "BinkMediaPlayer'BNK_Video_Ranged_SpectralArrow_NoUI'",
+        "ObjectPath": "/Game/Movies/BNK_Video_Ranged_SpectralArrow_NoUI"
+      },
+      "FeatureTag": {
+        "TagName": "Feature.RangedSkillPerks"
+      },
+      "PersistenceID": "TzQpkEv3OSZHgLuDfBxaCg",
+      "InternalName": "perk_ranged_spectralarrows"
+    }
+  },
+  {
+    "Type": "SkillPerkModule_Spell",
+    "Name": "SkillPerkModule_Spell_0",
+    "Outer": {
+      "ObjectName": "SkillPerkData'PerkV2_Ranged_SpectralArrows'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/PerksV2/Ranged/PerkV2_Ranged_SpectralArrows.0"
+    },
+    "Class": "UScriptClass'SkillPerkModule_Spell'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SpellData": {
+        "ObjectName": "UtilitySpellData'USD_CorruptionArrows'",
+        "ObjectPath": "/Game/Gameplay/UtilityMagic/PerkSpells/CorruptionArrows/USD_CorruptionArrows"
+      }
+    }
+  }
+]

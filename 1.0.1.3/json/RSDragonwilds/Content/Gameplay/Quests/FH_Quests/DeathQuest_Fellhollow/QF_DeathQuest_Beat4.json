@@ -1,0 +1,4137 @@
+[
+  {
+    "Type": "ConversationDatabase",
+    "Name": "QF_DeathQuest_Beat4",
+    "Class": "UScriptClass'ConversationDatabase'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CompilerVersion": 2,
+      "ReachableNodeMap": [
+        {
+          "Key": "E31669A6-4FB62440-843E52BF-AF41BE8E",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_DeathQuest_Beat4:ConversationEntryPointNode_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.2"
+          }
+        },
+        {
+          "Key": "AE5B1A48-46576A99-BFE978A2-B6F0F669",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.109"
+          }
+        },
+        {
+          "Key": "C97D55B2-4E84EC02-71551187-3DA514CC",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DeathQuest_Beat4:QFT_UpdateQuestLocation_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.232"
+          }
+        },
+        {
+          "Key": "CA385460-4F688591-0A9C16AA-1A76D6D5",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DeathQuest_Beat4:QFT_UpdateQuestLocation_C_20'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.233"
+          }
+        },
+        {
+          "Key": "01293FB8-4DE44486-4FE5C5BD-5215F4EC",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DeathQuest_Beat4:QFT_UpdateQuestLocation_C_21'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.234"
+          }
+        },
+        {
+          "Key": "540EA200-4A55397D-E68109B2-F9F9AA93",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DeathQuest_Beat4:QFT_UpdateQuestLocation_C_22'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.235"
+          }
+        },
+        {
+          "Key": "4E7E8050-4379F5F9-9E234F8C-18DB3C38",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DeathQuest_Beat4:QFT_UpdateQuestLocation_C_23'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.236"
+          }
+        },
+        {
+          "Key": "F7E2DB33-4E5E2F52-78BD35BE-5EED392C",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DeathQuest_Beat4:QFT_UpdateQuestLocation_C_24'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.237"
+          }
+        },
+        {
+          "Key": "E2AB0080-42AB470B-1B2E4FA1-AC02A84D",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DeathQuest_Beat4:QFT_UpdateQuestLocation_C_25'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.238"
+          }
+        },
+        {
+          "Key": "4511DE73-40A09137-954708A5-4ECDF528",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DeathQuest_Beat4:QFT_UpdateQuestLocation_C_26'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.239"
+          }
+        },
+        {
+          "Key": "775DCBAC-4FDA9D75-ECA7D589-910CE544",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DeathQuest_Beat4:QFT_UpdateQuestLocation_C_27'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.240"
+          }
+        },
+        {
+          "Key": "BFD62F8E-40423678-4B0F468E-D40E9110",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DeathQuest_Beat4:QFT_UpdateQuestLocation_C_28'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.241"
+          }
+        },
+        {
+          "Key": "E21B81EA-4FA9925A-BA3C8EB6-F3D34940",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DeathQuest_Beat4:QFT_UpdateQuestLocation_C_14'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.229"
+          }
+        },
+        {
+          "Key": "452EB243-4197AC4A-C13E1A93-AB676A3D",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DeathQuest_Beat4:QFT_UpdateQuestLocation_C_15'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.230"
+          }
+        },
+        {
+          "Key": "A3494DA9-4CA60CC7-D953EE8C-240E436C",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DeathQuest_Beat4:QFT_UpdateQuestLocation_C_16'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.231"
+          }
+        },
+        {
+          "Key": "1E9016A6-40108BA6-2F6D16A6-D603F427",
+          "Value": {
+            "ObjectName": "QFT_ModifyQuestInt_C'QF_DeathQuest_Beat4:QFT_ModifyQuestInt_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.154"
+          }
+        },
+        {
+          "Key": "7FE5B9B5-47614C4B-94602199-871AA54C",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.84"
+          }
+        },
+        {
+          "Key": "F4AA7B0D-4CAE767F-34034986-791BE565",
+          "Value": {
+            "ObjectName": "QFT_GiveQuest_C'QF_DeathQuest_Beat4:QFT_GiveQuest_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.153"
+          }
+        },
+        {
+          "Key": "1D1F0694-44EED5C9-BAE5ADB5-26CDB7A3",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_DeathQuest_Beat4:ConversationEntryPointNode_12'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.4"
+          }
+        },
+        {
+          "Key": "A0ACD1BC-4AA2361B-3F20B2A3-BB58934C",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_24'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.100"
+          }
+        },
+        {
+          "Key": "FA6A88EA-49B916AB-5B0818B2-7816C6ED",
+          "Value": {
+            "ObjectName": "ConversationLinkNode'QF_DeathQuest_Beat4:ConversationLinkNode_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.13"
+          }
+        },
+        {
+          "Key": "1BF3B24E-4D167FC3-2263C888-26F25734",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_63'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.131"
+          }
+        },
+        {
+          "Key": "0FCC6004-41734992-42942990-B13D8515",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_15'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.90"
+          }
+        },
+        {
+          "Key": "D9778095-4BEC6D20-9CF94686-FB09C754",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DeathQuest_Beat4:QFT_PromptMessage_C_11'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.166"
+          }
+        },
+        {
+          "Key": "B4CB0932-44648CD1-7EED6F86-D2BF95AD",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_14'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.89"
+          }
+        },
+        {
+          "Key": "D7DF5F37-45FC05EC-46CD008D-0479197C",
+          "Value": {
+            "ObjectName": "QFT_GiveItemToPlayer_C'QF_DeathQuest_Beat4:QFT_GiveItemToPlayer_C_7'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.150"
+          }
+        },
+        {
+          "Key": "C477E745-45DB433C-C129CFB8-DCD40382",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DeathQuest_Beat4:QFT_PromptMessage_C_12'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.167"
+          }
+        },
+        {
+          "Key": "FD210D6B-4ADF1FB0-C7EC09A2-9BB73545",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_67'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.135"
+          }
+        },
+        {
+          "Key": "0AF0A533-41B1671F-163D10AD-2609C82D",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_21'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.97"
+          }
+        },
+        {
+          "Key": "C03A8A82-4499883F-B900F4A5-76D143C1",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_DeathQuest_Beat4:QFT_SetQuestBool_C_9'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.206"
+          }
+        },
+        {
+          "Key": "8B01124D-4D79238B-9CBF15A2-56DDF5A5",
+          "Value": {
+            "ObjectName": "QFT_ModifyQuestInt_C'QF_DeathQuest_Beat4:QFT_ModifyQuestInt_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.158"
+          }
+        },
+        {
+          "Key": "C961EB9F-4C3E4AA3-5C29D2AE-3AFB9958",
+          "Value": {
+            "ObjectName": "QFT_TriggerBreakSealVFX_C'QF_DeathQuest_Beat4:QFT_TriggerBreakSealVFX_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.221"
+          }
+        },
+        {
+          "Key": "DA66C981-4B24CF6E-EB2C91AA-5389CF17",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_56'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.123"
+          }
+        },
+        {
+          "Key": "ABFE2B0A-46D7C5D1-58AC9598-1FBDA5C6",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_DeathQuest_Beat4:QFT_SetQuestObjective_C_14'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.211"
+          }
+        },
+        {
+          "Key": "3CEF389D-4776F22E-FEDCF989-6807A3A5",
+          "Value": {
+            "ObjectName": "QFT_ModifyQuestInt_C'QF_DeathQuest_Beat4:QFT_ModifyQuestInt_C_11'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.157"
+          }
+        },
+        {
+          "Key": "1FD23209-419F83D8-5EEB269C-C944E4E3",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DeathQuest_Beat4:QFT_UpdateQuestLocation_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.243"
+          }
+        },
+        {
+          "Key": "77E1E0AB-428AC022-900897A5-02D42192",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DeathQuest_Beat4:QFT_UpdateQuestLocation_C_37'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.251"
+          }
+        },
+        {
+          "Key": "04EA2B51-46AA8209-DB29C1B8-DD0CFD69",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DeathQuest_Beat4:QFT_PromptMessage_C_122'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.168"
+          }
+        },
+        {
+          "Key": "D26B744E-4162FBA8-8A6FE388-3AABC837",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DeathQuest_Beat4:QFT_PromptMessage_C_124'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.170"
+          }
+        },
+        {
+          "Key": "A9A10BFB-4790B3B6-E2D615A1-5CC6DE38",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_55'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.122"
+          }
+        },
+        {
+          "Key": "0151DC4B-4C8F67DD-056CCFBD-FAFCC46A",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_DeathQuest_Beat4:QFT_SetQuestObjective_C_18'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.215"
+          }
+        },
+        {
+          "Key": "A4CF4B4B-4AC9A8AC-55D2268F-68F561D2",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DeathQuest_Beat4:QFT_UpdateQuestLocation_C_36'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.250"
+          }
+        },
+        {
+          "Key": "7C2C077D-4BFD0488-1C8D669A-42EB61A5",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DeathQuest_Beat4:QFT_PromptMessage_C_123'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.169"
+          }
+        },
+        {
+          "Key": "B2CBE287-4963C645-48324EA4-4E69D3A9",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DeathQuest_Beat4:QFT_PromptMessage_C_125'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.171"
+          }
+        },
+        {
+          "Key": "81E3DFD8-4EE211E6-BC565786-7E23697B",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_54'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.121"
+          }
+        },
+        {
+          "Key": "4C940558-47F34427-6BEE77A7-C80A56A1",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_DeathQuest_Beat4:QFT_SetQuestObjective_C_17'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.214"
+          }
+        },
+        {
+          "Key": "CF379615-4D83AEB6-9E361BAF-95E065A1",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DeathQuest_Beat4:QFT_UpdateQuestLocation_C_35'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.249"
+          }
+        },
+        {
+          "Key": "1985077A-4EDBEC80-7563A9A4-602D81EA",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DeathQuest_Beat4:QFT_PromptMessage_C_137'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.184"
+          }
+        },
+        {
+          "Key": "1E1B1937-43A63280-3AFAC9A8-093D6DE6",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DeathQuest_Beat4:QFT_PromptMessage_C_126'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.172"
+          }
+        },
+        {
+          "Key": "22DA9DD2-47166982-6284658A-4B2A8ADB",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_20'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.96"
+          }
+        },
+        {
+          "Key": "C012F420-485E1FA8-40D6779D-ADD48F66",
+          "Value": {
+            "ObjectName": "QFT_GiveItemToPlayer_C'QF_DeathQuest_Beat4:QFT_GiveItemToPlayer_C_10'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.147"
+          }
+        },
+        {
+          "Key": "34C938C2-45ED70F0-C212388E-2D0B244D",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_48'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.118"
+          }
+        },
+        {
+          "Key": "9B73CDF8-47470AF1-03E980BA-03ABDA81",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_47'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.117"
+          }
+        },
+        {
+          "Key": "5A239107-4CDD135A-DA220D81-C564069D",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_46'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.116"
+          }
+        },
+        {
+          "Key": "7C4A0096-48AD91F0-5B05329B-1F215682",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_45'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.115"
+          }
+        },
+        {
+          "Key": "772278D8-437E6EA3-14EE7DB8-3697857C",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_44'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.114"
+          }
+        },
+        {
+          "Key": "7F7B7D64-423466C6-36A21186-65306C5D",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_DeathQuest_Beat4:ConversationEntryPointNode_14'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.5"
+          }
+        },
+        {
+          "Key": "557D9306-41072705-C436798B-982633C3",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_23'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.99"
+          }
+        },
+        {
+          "Key": "80D80862-48CCDB09-284FC8B0-ECBB102B",
+          "Value": {
+            "ObjectName": "ConversationLinkNode'QF_DeathQuest_Beat4:ConversationLinkNode_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.11"
+          }
+        },
+        {
+          "Key": "B6DEE446-4B4FADC1-B4037D88-507EEA50",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_68'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.136"
+          }
+        },
+        {
+          "Key": "CDEA6405-4FEA97C5-A7E7539E-6909FD48",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_19'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.94"
+          }
+        },
+        {
+          "Key": "5A25B730-4BF81AF2-EA1D3CB4-5AF01AE0",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_DeathQuest_Beat4:QFT_SetQuestBool_C_12'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.200"
+          }
+        },
+        {
+          "Key": "8AC1300C-4F2DF7E6-A49EDCB8-58FD3183",
+          "Value": {
+            "ObjectName": "QFT_ModifyQuestInt_C'QF_DeathQuest_Beat4:QFT_ModifyQuestInt_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.159"
+          }
+        },
+        {
+          "Key": "7C5C1608-44EC5EF3-50613B9A-D6E420D7",
+          "Value": {
+            "ObjectName": "QFT_TriggerBreakSealVFX_C'QF_DeathQuest_Beat4:QFT_TriggerBreakSealVFX_C_6'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.222"
+          }
+        },
+        {
+          "Key": "6B7FC438-4D224A97-940BB99C-68AFB940",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_59'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.126"
+          }
+        },
+        {
+          "Key": "4DEB0BF5-47216F9F-E9AB47AD-007A7D04",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_DeathQuest_Beat4:QFT_SetQuestObjective_C_13'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.210"
+          }
+        },
+        {
+          "Key": "6A633377-4DC59DAD-96122DBD-5135D209",
+          "Value": {
+            "ObjectName": "QFT_ModifyQuestInt_C'QF_DeathQuest_Beat4:QFT_ModifyQuestInt_C_10'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.156"
+          }
+        },
+        {
+          "Key": "CB28AE7F-4941C212-0F17128C-736A8D50",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DeathQuest_Beat4:QFT_UpdateQuestLocation_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.224"
+          }
+        },
+        {
+          "Key": "7321AFAB-4FB5523A-E87FE9BA-33B5EFC4",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DeathQuest_Beat4:QFT_UpdateQuestLocation_C_34'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.248"
+          }
+        },
+        {
+          "Key": "C53C34D9-432A686D-3822F68E-26BB1D69",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DeathQuest_Beat4:QFT_PromptMessage_C_139'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.185"
+          }
+        },
+        {
+          "Key": "268BE884-476B0C3E-65BC9FAC-5365F7D6",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DeathQuest_Beat4:QFT_PromptMessage_C_129'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.175"
+          }
+        },
+        {
+          "Key": "B211ACA5-491F3401-FF75FE93-AAF03967",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_58'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.125"
+          }
+        },
+        {
+          "Key": "BAAA6BC6-40631A4B-CC34E08C-452808C5",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_DeathQuest_Beat4:QFT_SetQuestObjective_C_16'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.213"
+          }
+        },
+        {
+          "Key": "235D9EED-4ABBE399-2BACCD8A-6BA7EAD2",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DeathQuest_Beat4:QFT_UpdateQuestLocation_C_33'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.247"
+          }
+        },
+        {
+          "Key": "4CE23ACF-498DE2AD-0BE56CBB-995376AD",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DeathQuest_Beat4:QFT_PromptMessage_C_127'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.173"
+          }
+        },
+        {
+          "Key": "3E3817B0-40FF19A9-77A9CA96-696AE5F8",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DeathQuest_Beat4:QFT_PromptMessage_C_130'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.177"
+          }
+        },
+        {
+          "Key": "9A37D2A3-42D598A1-24A161AA-D3B44473",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_57'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.124"
+          }
+        },
+        {
+          "Key": "B2560B97-482E2D38-681D8EB6-38B2488C",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_DeathQuest_Beat4:QFT_SetQuestObjective_C_15'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.212"
+          }
+        },
+        {
+          "Key": "7AC4C505-4C567E7E-5FCD049E-988D140D",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DeathQuest_Beat4:QFT_UpdateQuestLocation_C_32'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.246"
+          }
+        },
+        {
+          "Key": "30A1A830-45F0DC85-65F935A6-AAD6EAB5",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DeathQuest_Beat4:QFT_PromptMessage_C_128'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.174"
+          }
+        },
+        {
+          "Key": "3D1DE15D-468357C7-4BD1429D-3F4E34D1",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DeathQuest_Beat4:QFT_PromptMessage_C_131'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.178"
+          }
+        },
+        {
+          "Key": "EEF71F6C-4835371C-7EA477B4-0F71E80A",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_18'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.93"
+          }
+        },
+        {
+          "Key": "138A3F6E-4C567761-D6E5B4AA-80FEA1F9",
+          "Value": {
+            "ObjectName": "QFT_GiveItemToPlayer_C'QF_DeathQuest_Beat4:QFT_GiveItemToPlayer_C_9'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.152"
+          }
+        },
+        {
+          "Key": "BB881DA9-46E278D2-4EB9FBA5-D5E72317",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_64'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.132"
+          }
+        },
+        {
+          "Key": "21A24B16-40EBF790-94AB6099-DF93CC84",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_13'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.88"
+          }
+        },
+        {
+          "Key": "453B3C5C-40EC3798-43DC12AA-4F301109",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DeathQuest_Beat4:QFT_PromptMessage_C_7'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.195"
+          }
+        },
+        {
+          "Key": "211D998A-49ACDF99-4E35A3B5-A7326FB8",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_12'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.87"
+          }
+        },
+        {
+          "Key": "6F44B0EB-40BF2006-D57C1B8D-6CBA3ACF",
+          "Value": {
+            "ObjectName": "QFT_GiveItemToPlayer_C'QF_DeathQuest_Beat4:QFT_GiveItemToPlayer_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.149"
+          }
+        },
+        {
+          "Key": "AB93C115-4CF4C162-60D7FB9E-524AB4B8",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DeathQuest_Beat4:QFT_PromptMessage_C_10'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.165"
+          }
+        },
+        {
+          "Key": "D8839A7A-47F1ABA8-02E00E84-84044F6A",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_43'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.113"
+          }
+        },
+        {
+          "Key": "37F1492B-469E95F5-7059009C-C3E5B508",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_42'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.112"
+          }
+        },
+        {
+          "Key": "D2067ABA-4D4BDE43-76B27C86-AEC2B07B",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_41'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.111"
+          }
+        },
+        {
+          "Key": "F7A05DB7-443F9926-DA90C29C-DC6A73B3",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_40'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.110"
+          }
+        },
+        {
+          "Key": "80869F31-442AD3E0-B2860394-045C863C",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_39'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.108"
+          }
+        },
+        {
+          "Key": "538B5C5E-484A3082-2DC117A0-C42842E8",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_DeathQuest_Beat4:ConversationEntryPointNode_15'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.6"
+          }
+        },
+        {
+          "Key": "836AA8BA-45A4CCFC-6048A5BD-11F79055",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_22'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.98"
+          }
+        },
+        {
+          "Key": "E8FC4D49-4B988670-371EF497-D138847A",
+          "Value": {
+            "ObjectName": "ConversationLinkNode'QF_DeathQuest_Beat4:ConversationLinkNode_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.12"
+          }
+        },
+        {
+          "Key": "99CB7053-46251B85-27DD8297-0ECE5370",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_65'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.133"
+          }
+        },
+        {
+          "Key": "17FC5198-42249CCF-B30A7881-1A8F0E13",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_8'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.145"
+          }
+        },
+        {
+          "Key": "E6E05471-472C87FB-6D674083-7DB175BB",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_DeathQuest_Beat4:QFT_SetQuestBool_C_13'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.201"
+          }
+        },
+        {
+          "Key": "7F33B89A-4DA99DAF-0851C89D-066ADD35",
+          "Value": {
+            "ObjectName": "QFT_ModifyQuestInt_C'QF_DeathQuest_Beat4:QFT_ModifyQuestInt_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.160"
+          }
+        },
+        {
+          "Key": "99CA73D0-47EC03E5-E0696F93-24829037",
+          "Value": {
+            "ObjectName": "QFT_TriggerBreakSealVFX_C'QF_DeathQuest_Beat4:QFT_TriggerBreakSealVFX_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.220"
+          }
+        },
+        {
+          "Key": "C040B474-4BC906F1-35A29E9E-F261801C",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_33'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.103"
+          }
+        },
+        {
+          "Key": "B2005D05-4069641A-E3C9DD8A-AF0853B4",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_DeathQuest_Beat4:QFT_SetQuestObjective_C_12'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.209"
+          }
+        },
+        {
+          "Key": "EF126861-4AF52325-1DE04D94-F624AC72",
+          "Value": {
+            "ObjectName": "QFT_ModifyQuestInt_C'QF_DeathQuest_Beat4:QFT_ModifyQuestInt_C_9'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.162"
+          }
+        },
+        {
+          "Key": "CBD7BDA4-4276EEC3-3A3743A3-B04440C6",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DeathQuest_Beat4:QFT_UpdateQuestLocation_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.223"
+          }
+        },
+        {
+          "Key": "920607F4-48DADC04-408250B4-D508AA14",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DeathQuest_Beat4:QFT_UpdateQuestLocation_C_31'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.245"
+          }
+        },
+        {
+          "Key": "22A1B73F-4A0F2D95-A12AF980-FD263404",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DeathQuest_Beat4:QFT_PromptMessage_C_132'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.179"
+          }
+        },
+        {
+          "Key": "7BB53250-417C0647-B9F4A5BC-E5DBADE2",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DeathQuest_Beat4:QFT_PromptMessage_C_133'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.180"
+          }
+        },
+        {
+          "Key": "2A2E8FCC-4F698726-2DCF1EBC-0097B460",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_34'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.104"
+          }
+        },
+        {
+          "Key": "116E3074-405C7E0D-924479AA-7541D55F",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_DeathQuest_Beat4:QFT_SetQuestObjective_C_8'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.219"
+          }
+        },
+        {
+          "Key": "5C956B5A-4692C100-BF04C5A5-A12283A7",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DeathQuest_Beat4:QFT_UpdateQuestLocation_C_29'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.242"
+          }
+        },
+        {
+          "Key": "1AEE005D-4D77D124-B621589F-E41C6962",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DeathQuest_Beat4:QFT_PromptMessage_C_134'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.181"
+          }
+        },
+        {
+          "Key": "F7378214-4F8B58FA-29578AAC-1E32B634",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DeathQuest_Beat4:QFT_PromptMessage_C_135'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.182"
+          }
+        },
+        {
+          "Key": "7DA92B79-4E6AF4A1-B3FECFAA-24E9B005",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_35'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.105"
+          }
+        },
+        {
+          "Key": "CFF60E71-47FF3195-C22B7B92-649B6603",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_DeathQuest_Beat4:QFT_SetQuestObjective_C_7'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.218"
+          }
+        },
+        {
+          "Key": "6170ABF8-47F8ECC3-018DBCA3-3A2AA5ED",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DeathQuest_Beat4:QFT_UpdateQuestLocation_C_30'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.244"
+          }
+        },
+        {
+          "Key": "922A9DA2-4ADFAE33-76043097-7CC41368",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DeathQuest_Beat4:QFT_PromptMessage_C_141'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.187"
+          }
+        },
+        {
+          "Key": "F07875C0-481A4557-90E282B0-6F5E0A95",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DeathQuest_Beat4:QFT_PromptMessage_C_136'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.183"
+          }
+        },
+        {
+          "Key": "E38D2272-4259327D-AFBCC58B-08A55CEB",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.101"
+          }
+        },
+        {
+          "Key": "4DB3B350-4E229FCF-B98CC59A-C83BB71E",
+          "Value": {
+            "ObjectName": "QFT_GiveItemToPlayer_C'QF_DeathQuest_Beat4:QFT_GiveItemToPlayer_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.148"
+          }
+        },
+        {
+          "Key": "32A2622F-4C38158F-89C30188-5778A3D7",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_66'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.134"
+          }
+        },
+        {
+          "Key": "ED0FDBC3-44908594-A6732DA9-0C02D094",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_17'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.92"
+          }
+        },
+        {
+          "Key": "C9B8ED2A-41583A06-3FC37FB4-DD8CF441",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DeathQuest_Beat4:QFT_PromptMessage_C_142'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.188"
+          }
+        },
+        {
+          "Key": "3447F9DD-4E0CC13B-14611991-B221CD39",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_16'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.91"
+          }
+        },
+        {
+          "Key": "CC796A71-44E54A62-C681E0AD-47AD907C",
+          "Value": {
+            "ObjectName": "QFT_GiveItemToPlayer_C'QF_DeathQuest_Beat4:QFT_GiveItemToPlayer_C_8'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.151"
+          }
+        },
+        {
+          "Key": "914BB92A-490CBE9A-1D0392AF-4BD397BE",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DeathQuest_Beat4:QFT_PromptMessage_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.192"
+          }
+        },
+        {
+          "Key": "814A3EB2-4EFC41D9-2E6B52A8-62A2C6A7",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_10'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.86"
+          }
+        },
+        {
+          "Key": "D3706D85-4D36651B-FB950BA8-BF9CB3A7",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_37'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.107"
+          }
+        },
+        {
+          "Key": "81D8DA9F-4D55233E-F8892D8C-FF9C4B1B",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_6'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.127"
+          }
+        },
+        {
+          "Key": "89711A99-472A9850-651917BC-D00B8ACB",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_7'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.138"
+          }
+        },
+        {
+          "Key": "0F98F612-4E437F80-5BD505A3-478E13D9",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_36'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.106"
+          }
+        },
+        {
+          "Key": "03AC994F-460DB779-9BACAAB9-C22BF22E",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_DeathQuest_Beat4:ConversationEntryPointNode_9'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.9"
+          }
+        },
+        {
+          "Key": "524B4427-4813473B-9D33EAAF-335F34B3",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DeathQuest_Beat4:QFT_PromptMessage_C_72'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.197"
+          }
+        },
+        {
+          "Key": "D6613316-4E0F0E8A-E41A3AAD-2F9470E9",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_DeathQuest_Beat4:QFT_SetQuestBool_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.204"
+          }
+        },
+        {
+          "Key": "DDA58797-4B317071-376AA3A5-85CF0341",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DeathQuest_Beat4:QFT_UpdateQuestLocation_C_9'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.257"
+          }
+        },
+        {
+          "Key": "2494747A-4A13CBB4-33905790-AD9290D5",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_9'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.146"
+          }
+        },
+        {
+          "Key": "9513FE9C-4FAE78AE-3A2BB381-D4024DAE",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_53'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.120"
+          }
+        },
+        {
+          "Key": "55C45DA2-4C81E49C-8B66F1BA-27587F36",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_72'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.141"
+          }
+        },
+        {
+          "Key": "4256AF2E-4BBA263A-EBEB1BAE-117B3121",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_69'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.137"
+          }
+        },
+        {
+          "Key": "C4DB7FC2-4610180D-C1271B89-48FC4C07",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_DeathQuest_Beat4:QFT_SetQuestObjective_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.207"
+          }
+        },
+        {
+          "Key": "0E1E4857-4C6F252F-1DDA4394-64E514B7",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_DeathQuest_Beat4:QFT_SetQuestBool_C_5'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.205"
+          }
+        },
+        {
+          "Key": "61F5D69F-448D71BC-56BDCA86-5A22039A",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DeathQuest_Beat4:QFT_UpdateQuestLocation_C_11'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.226"
+          }
+        },
+        {
+          "Key": "84E08947-41DB1248-60DBF7A4-4F87AC34",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DeathQuest_Beat4:QFT_UpdateQuestLocation_C_12'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.227"
+          }
+        },
+        {
+          "Key": "A2652E37-4E4DF0C9-DDA307AC-B18FD2B0",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DeathQuest_Beat4:QFT_UpdateQuestLocation_C_13'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.228"
+          }
+        },
+        {
+          "Key": "26AF466D-4FECA7DE-85CB40AD-E512B857",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_70'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.139"
+          }
+        },
+        {
+          "Key": "848C7412-48C7481E-7B8273B7-81178213",
+          "Value": {
+            "ObjectName": "QFT_ModifyQuestInt_C'QF_DeathQuest_Beat4:QFT_ModifyQuestInt_C_5'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.161"
+          }
+        },
+        {
+          "Key": "139E49FE-4E0E37F3-1CE10C91-1B65D4A1",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_DeathQuest_Beat4:QFT_SetQuestObjective_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.217"
+          }
+        },
+        {
+          "Key": "86DE3157-4B187B32-317A91B4-CE65C12A",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_71'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.140"
+          }
+        },
+        {
+          "Key": "9F0DF2EF-41DCC56F-7AF5C499-8954A397",
+          "Value": {
+            "ObjectName": "QFT_ModifyQuestInt_C'QF_DeathQuest_Beat4:QFT_ModifyQuestInt_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.155"
+          }
+        },
+        {
+          "Key": "332B35C4-4C7A8C39-E9A00591-86E2E10C",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_DeathQuest_Beat4:QFT_SetQuestObjective_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.216"
+          }
+        },
+        {
+          "Key": "61B6E6AB-4BA81416-EC72F5B3-212B53CD",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_73'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.142"
+          }
+        },
+        {
+          "Key": "84F1D8EA-4BC039B4-1D48DD97-D40E00A4",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_74'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.143"
+          }
+        },
+        {
+          "Key": "D8E52C1C-45F93E0E-652314BC-72CFE347",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_75'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.144"
+          }
+        },
+        {
+          "Key": "1E2F102B-4234C313-918095BF-E8455889",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_DeathQuest_Beat4:ConversationEntryPointNode_8'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.8"
+          }
+        },
+        {
+          "Key": "881E8304-4E5DCCD9-2E8ADE9A-0E104EB2",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DeathQuest_Beat4:QFT_PromptMessage_C_71'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.196"
+          }
+        },
+        {
+          "Key": "E4C728B3-4CBD5E49-F7C93EB0-53A4C77C",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_DeathQuest_Beat4:QFT_SetQuestBool_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.203"
+          }
+        },
+        {
+          "Key": "9CA4CB91-45270345-89E748A4-02686555",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DeathQuest_Beat4:QFT_UpdateQuestLocation_C_10'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.225"
+          }
+        },
+        {
+          "Key": "E84363C5-45678311-44F794A3-2DA42D29",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_DeathQuest_Beat4:ConversationEntryPointNode_7'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.7"
+          }
+        },
+        {
+          "Key": "C6AE4968-44EBD17E-650540AA-21B84895",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DeathQuest_Beat4:QFT_PromptMessage_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.191"
+          }
+        },
+        {
+          "Key": "728FE1F5-4598B51A-56004184-6E3A3C0D",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_DeathQuest_Beat4:QFT_SetQuestBool_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.202"
+          }
+        },
+        {
+          "Key": "00025E6E-46372FB5-4942AF87-4B44224A",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DeathQuest_Beat4:QFT_UpdateQuestLocation_C_8'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.256"
+          }
+        },
+        {
+          "Key": "D8299234-4D1E9EB5-CECAD7B7-20023CFE",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_DeathQuest_Beat4:ConversationEntryPointNode_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.1"
+          }
+        },
+        {
+          "Key": "06098981-4EA6B761-24179AB2-ADBAFA3B",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_5'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.119"
+          }
+        },
+        {
+          "Key": "4411F7E0-4EB190BD-72F04CB5-78E58982",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_DeathQuest_Beat4:QFT_SetQuestBool_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.199"
+          }
+        },
+        {
+          "Key": "C0841B18-42CFC31A-C83F36BA-F2E2C786",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_DeathQuest_Beat4:QFT_SetQuestObjective_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.208"
+          }
+        },
+        {
+          "Key": "00558F3C-4CD1498F-E2D16895-41502D7A",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DeathQuest_Beat4:QFT_UpdateQuestLocation_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.252"
+          }
+        },
+        {
+          "Key": "03EA0B0E-482BA6E5-E045A9BC-B2D6757D",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DeathQuest_Beat4:QFT_UpdateQuestLocation_C_5'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.253"
+          }
+        },
+        {
+          "Key": "4E60F6A2-4A0BCF54-C01716BE-6C336816",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DeathQuest_Beat4:QFT_UpdateQuestLocation_C_6'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.254"
+          }
+        },
+        {
+          "Key": "AD0C134F-42767C56-D2CF8D9D-D5C8BD3D",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_DeathQuest_Beat4:QFT_UpdateQuestLocation_C_7'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.255"
+          }
+        },
+        {
+          "Key": "1EF82873-4279A332-071F569B-3CD40912",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_DeathQuest_Beat4:ConversationEntryPointNode_10'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.3"
+          }
+        },
+        {
+          "Key": "5B0DEB01-488C0DE2-A554F588-37CE8084",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.95"
+          }
+        },
+        {
+          "Key": "9A643515-4664DB1F-AF6A4CB0-750DD069",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_30'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.102"
+          }
+        },
+        {
+          "Key": "D5303B49-48072B3C-D91DC98D-F5EEE202",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DeathQuest_Beat4:QFT_PromptMessage_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.193"
+          }
+        },
+        {
+          "Key": "AC16006D-4823F69D-E0D2BEBA-F4C50579",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DeathQuest_Beat4:QFT_PromptMessage_C_13'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.176"
+          }
+        },
+        {
+          "Key": "D2A51AA3-47C5BFB4-DBEF0391-6B713926",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DeathQuest_Beat4:QFT_PromptMessage_C_14'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.186"
+          }
+        },
+        {
+          "Key": "829E736C-4757048F-36C1ED9C-590123D3",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DeathQuest_Beat4:QFT_PromptMessage_C_15'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.189"
+          }
+        },
+        {
+          "Key": "CA37FDCA-48B5AD65-18D72385-D0590217",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DeathQuest_Beat4:QFT_PromptMessage_C_16'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.190"
+          }
+        },
+        {
+          "Key": "69BDB609-43F626E2-F473DBBD-3FDA95A7",
+          "Value": {
+            "ObjectName": "ConversationLinkNode'QF_DeathQuest_Beat4:ConversationLinkNode_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.10"
+          }
+        },
+        {
+          "Key": "CB4C158C-4642839E-64A5A995-20211999",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_62'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.130"
+          }
+        },
+        {
+          "Key": "F4D3C95B-440340F5-BF3E5CAE-CDF6048D",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_61'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.129"
+          }
+        },
+        {
+          "Key": "89BDAE85-47B19B8E-555A2C97-7393EFB9",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DeathQuest_Beat4:QFT_PromptMessage_C_8'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.198"
+          }
+        },
+        {
+          "Key": "5F751209-4F2FD1D2-A328C785-0F805638",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_60'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.128"
+          }
+        },
+        {
+          "Key": "BD07031C-494A46C7-1A51BA86-DEA937AD",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DeathQuest_Beat4:QFT_PromptMessage_C_5'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.194"
+          }
+        },
+        {
+          "Key": "AADEE4C8-45B68ACB-0B312F96-A88C4F54",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.85"
+          }
+        },
+        {
+          "Key": "7AAF919D-4B849B34-E2EE1DB2-57106D7C",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DeathQuest_Beat4:QFT_PromptMessage_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.163"
+          }
+        },
+        {
+          "Key": "A306C833-4B3AACBC-A6E1689F-FD97D2C3",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_DeathQuest_Beat4:QFT_PromptMessage_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.164"
+          }
+        }
+      ],
+      "EntryTags": [
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.DeathQuestMain.DeathBeat4Entry"
+          },
+          "DestinationList": [
+            "1EF82873-4279A332-071F569B-3CD40912"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.DeathQuestMain.ReachedStandStones"
+          },
+          "DestinationList": [
+            "D8299234-4D1E9EB5-CECAD7B7-20023CFE"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.DeathQuestMain.StandingStones.EmberwoodStone"
+          },
+          "DestinationList": [
+            "E84363C5-45678311-44F794A3-2DA42D29"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.DeathQuestMain.StandingStones.SilverThornLodgeStone"
+          },
+          "DestinationList": [
+            "1E2F102B-4234C313-918095BF-E8455889"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.DeathQuestMain.StandingStones.WaterfallStone"
+          },
+          "DestinationList": [
+            "03AC994F-460DB779-9BACAAB9-C22BF22E"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.DeathQuestMain.Seals.Emberwood"
+          },
+          "DestinationList": [
+            "538B5C5E-484A3082-2DC117A0-C42842E8"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.DeathQuestMain.Seals.Silverthorn"
+          },
+          "DestinationList": [
+            "7F7B7D64-423466C6-36A21186-65306C5D"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.DeathQuestMain.Seals.Waterfall"
+          },
+          "DestinationList": [
+            "1D1F0694-44EED5C9-BAE5ADB5-26CDB7A3"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.DeathQuestMain.SkipToBeat4"
+          },
+          "DestinationList": [
+            "E31669A6-4FB62440-843E52BF-AF41BE8E"
+          ],
+          "EntryIdentifier": ""
+        }
+      ],
+      "ExitTags": [
+        "QuestFlow.Entry.DeathQuestMain.SkipToBeat4",
+        "QuestFlow.Entry.DeathQuestMain.Death.AskAboutChoices"
+      ],
+      "InternalNodeIds": [
+        "E31669A6-4FB62440-843E52BF-AF41BE8E",
+        "AE5B1A48-46576A99-BFE978A2-B6F0F669",
+        "C97D55B2-4E84EC02-71551187-3DA514CC",
+        "CA385460-4F688591-0A9C16AA-1A76D6D5",
+        "01293FB8-4DE44486-4FE5C5BD-5215F4EC",
+        "540EA200-4A55397D-E68109B2-F9F9AA93",
+        "4E7E8050-4379F5F9-9E234F8C-18DB3C38",
+        "F7E2DB33-4E5E2F52-78BD35BE-5EED392C",
+        "E2AB0080-42AB470B-1B2E4FA1-AC02A84D",
+        "4511DE73-40A09137-954708A5-4ECDF528",
+        "775DCBAC-4FDA9D75-ECA7D589-910CE544",
+        "BFD62F8E-40423678-4B0F468E-D40E9110",
+        "E21B81EA-4FA9925A-BA3C8EB6-F3D34940",
+        "452EB243-4197AC4A-C13E1A93-AB676A3D",
+        "A3494DA9-4CA60CC7-D953EE8C-240E436C",
+        "1E9016A6-40108BA6-2F6D16A6-D603F427",
+        "7FE5B9B5-47614C4B-94602199-871AA54C",
+        "F4AA7B0D-4CAE767F-34034986-791BE565",
+        "1D1F0694-44EED5C9-BAE5ADB5-26CDB7A3",
+        "A0ACD1BC-4AA2361B-3F20B2A3-BB58934C",
+        "FA6A88EA-49B916AB-5B0818B2-7816C6ED",
+        "1BF3B24E-4D167FC3-2263C888-26F25734",
+        "0FCC6004-41734992-42942990-B13D8515",
+        "D9778095-4BEC6D20-9CF94686-FB09C754",
+        "B4CB0932-44648CD1-7EED6F86-D2BF95AD",
+        "D7DF5F37-45FC05EC-46CD008D-0479197C",
+        "C477E745-45DB433C-C129CFB8-DCD40382",
+        "FD210D6B-4ADF1FB0-C7EC09A2-9BB73545",
+        "0AF0A533-41B1671F-163D10AD-2609C82D",
+        "C03A8A82-4499883F-B900F4A5-76D143C1",
+        "8B01124D-4D79238B-9CBF15A2-56DDF5A5",
+        "C961EB9F-4C3E4AA3-5C29D2AE-3AFB9958",
+        "DA66C981-4B24CF6E-EB2C91AA-5389CF17",
+        "ABFE2B0A-46D7C5D1-58AC9598-1FBDA5C6",
+        "3CEF389D-4776F22E-FEDCF989-6807A3A5",
+        "1FD23209-419F83D8-5EEB269C-C944E4E3",
+        "77E1E0AB-428AC022-900897A5-02D42192",
+        "04EA2B51-46AA8209-DB29C1B8-DD0CFD69",
+        "D26B744E-4162FBA8-8A6FE388-3AABC837",
+        "A9A10BFB-4790B3B6-E2D615A1-5CC6DE38",
+        "0151DC4B-4C8F67DD-056CCFBD-FAFCC46A",
+        "A4CF4B4B-4AC9A8AC-55D2268F-68F561D2",
+        "7C2C077D-4BFD0488-1C8D669A-42EB61A5",
+        "B2CBE287-4963C645-48324EA4-4E69D3A9",
+        "81E3DFD8-4EE211E6-BC565786-7E23697B",
+        "4C940558-47F34427-6BEE77A7-C80A56A1",
+        "CF379615-4D83AEB6-9E361BAF-95E065A1",
+        "1985077A-4EDBEC80-7563A9A4-602D81EA",
+        "1E1B1937-43A63280-3AFAC9A8-093D6DE6",
+        "22DA9DD2-47166982-6284658A-4B2A8ADB",
+        "C012F420-485E1FA8-40D6779D-ADD48F66",
+        "34C938C2-45ED70F0-C212388E-2D0B244D",
+        "9B73CDF8-47470AF1-03E980BA-03ABDA81",
+        "5A239107-4CDD135A-DA220D81-C564069D",
+        "7C4A0096-48AD91F0-5B05329B-1F215682",
+        "772278D8-437E6EA3-14EE7DB8-3697857C",
+        "7F7B7D64-423466C6-36A21186-65306C5D",
+        "557D9306-41072705-C436798B-982633C3",
+        "80D80862-48CCDB09-284FC8B0-ECBB102B",
+        "B6DEE446-4B4FADC1-B4037D88-507EEA50",
+        "CDEA6405-4FEA97C5-A7E7539E-6909FD48",
+        "5A25B730-4BF81AF2-EA1D3CB4-5AF01AE0",
+        "8AC1300C-4F2DF7E6-A49EDCB8-58FD3183",
+        "7C5C1608-44EC5EF3-50613B9A-D6E420D7",
+        "6B7FC438-4D224A97-940BB99C-68AFB940",
+        "4DEB0BF5-47216F9F-E9AB47AD-007A7D04",
+        "6A633377-4DC59DAD-96122DBD-5135D209",
+        "CB28AE7F-4941C212-0F17128C-736A8D50",
+        "7321AFAB-4FB5523A-E87FE9BA-33B5EFC4",
+        "C53C34D9-432A686D-3822F68E-26BB1D69",
+        "268BE884-476B0C3E-65BC9FAC-5365F7D6",
+        "B211ACA5-491F3401-FF75FE93-AAF03967",
+        "BAAA6BC6-40631A4B-CC34E08C-452808C5",
+        "235D9EED-4ABBE399-2BACCD8A-6BA7EAD2",
+        "4CE23ACF-498DE2AD-0BE56CBB-995376AD",
+        "3E3817B0-40FF19A9-77A9CA96-696AE5F8",
+        "9A37D2A3-42D598A1-24A161AA-D3B44473",
+        "B2560B97-482E2D38-681D8EB6-38B2488C",
+        "7AC4C505-4C567E7E-5FCD049E-988D140D",
+        "30A1A830-45F0DC85-65F935A6-AAD6EAB5",
+        "3D1DE15D-468357C7-4BD1429D-3F4E34D1",
+        "EEF71F6C-4835371C-7EA477B4-0F71E80A",
+        "138A3F6E-4C567761-D6E5B4AA-80FEA1F9",
+        "BB881DA9-46E278D2-4EB9FBA5-D5E72317",
+        "21A24B16-40EBF790-94AB6099-DF93CC84",
+        "453B3C5C-40EC3798-43DC12AA-4F301109",
+        "211D998A-49ACDF99-4E35A3B5-A7326FB8",
+        "6F44B0EB-40BF2006-D57C1B8D-6CBA3ACF",
+        "AB93C115-4CF4C162-60D7FB9E-524AB4B8",
+        "D8839A7A-47F1ABA8-02E00E84-84044F6A",
+        "37F1492B-469E95F5-7059009C-C3E5B508",
+        "D2067ABA-4D4BDE43-76B27C86-AEC2B07B",
+        "F7A05DB7-443F9926-DA90C29C-DC6A73B3",
+        "80869F31-442AD3E0-B2860394-045C863C",
+        "538B5C5E-484A3082-2DC117A0-C42842E8",
+        "836AA8BA-45A4CCFC-6048A5BD-11F79055",
+        "E8FC4D49-4B988670-371EF497-D138847A",
+        "99CB7053-46251B85-27DD8297-0ECE5370",
+        "17FC5198-42249CCF-B30A7881-1A8F0E13",
+        "E6E05471-472C87FB-6D674083-7DB175BB",
+        "7F33B89A-4DA99DAF-0851C89D-066ADD35",
+        "99CA73D0-47EC03E5-E0696F93-24829037",
+        "C040B474-4BC906F1-35A29E9E-F261801C",
+        "B2005D05-4069641A-E3C9DD8A-AF0853B4",
+        "EF126861-4AF52325-1DE04D94-F624AC72",
+        "CBD7BDA4-4276EEC3-3A3743A3-B04440C6",
+        "920607F4-48DADC04-408250B4-D508AA14",
+        "22A1B73F-4A0F2D95-A12AF980-FD263404",
+        "7BB53250-417C0647-B9F4A5BC-E5DBADE2",
+        "2A2E8FCC-4F698726-2DCF1EBC-0097B460",
+        "116E3074-405C7E0D-924479AA-7541D55F",
+        "5C956B5A-4692C100-BF04C5A5-A12283A7",
+        "1AEE005D-4D77D124-B621589F-E41C6962",
+        "F7378214-4F8B58FA-29578AAC-1E32B634",
+        "7DA92B79-4E6AF4A1-B3FECFAA-24E9B005",
+        "CFF60E71-47FF3195-C22B7B92-649B6603",
+        "6170ABF8-47F8ECC3-018DBCA3-3A2AA5ED",
+        "922A9DA2-4ADFAE33-76043097-7CC41368",
+        "F07875C0-481A4557-90E282B0-6F5E0A95",
+        "E38D2272-4259327D-AFBCC58B-08A55CEB",
+        "4DB3B350-4E229FCF-B98CC59A-C83BB71E",
+        "32A2622F-4C38158F-89C30188-5778A3D7",
+        "ED0FDBC3-44908594-A6732DA9-0C02D094",
+        "C9B8ED2A-41583A06-3FC37FB4-DD8CF441",
+        "3447F9DD-4E0CC13B-14611991-B221CD39",
+        "CC796A71-44E54A62-C681E0AD-47AD907C",
+        "914BB92A-490CBE9A-1D0392AF-4BD397BE",
+        "814A3EB2-4EFC41D9-2E6B52A8-62A2C6A7",
+        "D3706D85-4D36651B-FB950BA8-BF9CB3A7",
+        "81D8DA9F-4D55233E-F8892D8C-FF9C4B1B",
+        "89711A99-472A9850-651917BC-D00B8ACB",
+        "0F98F612-4E437F80-5BD505A3-478E13D9",
+        "03AC994F-460DB779-9BACAAB9-C22BF22E",
+        "524B4427-4813473B-9D33EAAF-335F34B3",
+        "D6613316-4E0F0E8A-E41A3AAD-2F9470E9",
+        "DDA58797-4B317071-376AA3A5-85CF0341",
+        "2494747A-4A13CBB4-33905790-AD9290D5",
+        "9513FE9C-4FAE78AE-3A2BB381-D4024DAE",
+        "55C45DA2-4C81E49C-8B66F1BA-27587F36",
+        "4256AF2E-4BBA263A-EBEB1BAE-117B3121",
+        "C4DB7FC2-4610180D-C1271B89-48FC4C07",
+        "0E1E4857-4C6F252F-1DDA4394-64E514B7",
+        "61F5D69F-448D71BC-56BDCA86-5A22039A",
+        "84E08947-41DB1248-60DBF7A4-4F87AC34",
+        "A2652E37-4E4DF0C9-DDA307AC-B18FD2B0",
+        "26AF466D-4FECA7DE-85CB40AD-E512B857",
+        "848C7412-48C7481E-7B8273B7-81178213",
+        "139E49FE-4E0E37F3-1CE10C91-1B65D4A1",
+        "86DE3157-4B187B32-317A91B4-CE65C12A",
+        "9F0DF2EF-41DCC56F-7AF5C499-8954A397",
+        "332B35C4-4C7A8C39-E9A00591-86E2E10C",
+        "61B6E6AB-4BA81416-EC72F5B3-212B53CD",
+        "84F1D8EA-4BC039B4-1D48DD97-D40E00A4",
+        "D8E52C1C-45F93E0E-652314BC-72CFE347",
+        "1E2F102B-4234C313-918095BF-E8455889",
+        "881E8304-4E5DCCD9-2E8ADE9A-0E104EB2",
+        "E4C728B3-4CBD5E49-F7C93EB0-53A4C77C",
+        "9CA4CB91-45270345-89E748A4-02686555",
+        "E84363C5-45678311-44F794A3-2DA42D29",
+        "C6AE4968-44EBD17E-650540AA-21B84895",
+        "728FE1F5-4598B51A-56004184-6E3A3C0D",
+        "00025E6E-46372FB5-4942AF87-4B44224A",
+        "D8299234-4D1E9EB5-CECAD7B7-20023CFE",
+        "06098981-4EA6B761-24179AB2-ADBAFA3B",
+        "4411F7E0-4EB190BD-72F04CB5-78E58982",
+        "C0841B18-42CFC31A-C83F36BA-F2E2C786",
+        "00558F3C-4CD1498F-E2D16895-41502D7A",
+        "03EA0B0E-482BA6E5-E045A9BC-B2D6757D",
+        "4E60F6A2-4A0BCF54-C01716BE-6C336816",
+        "AD0C134F-42767C56-D2CF8D9D-D5C8BD3D",
+        "1EF82873-4279A332-071F569B-3CD40912",
+        "5B0DEB01-488C0DE2-A554F588-37CE8084",
+        "9A643515-4664DB1F-AF6A4CB0-750DD069",
+        "D5303B49-48072B3C-D91DC98D-F5EEE202",
+        "AC16006D-4823F69D-E0D2BEBA-F4C50579",
+        "D2A51AA3-47C5BFB4-DBEF0391-6B713926",
+        "829E736C-4757048F-36C1ED9C-590123D3",
+        "CA37FDCA-48B5AD65-18D72385-D0590217",
+        "69BDB609-43F626E2-F473DBBD-3FDA95A7",
+        "CB4C158C-4642839E-64A5A995-20211999",
+        "F4D3C95B-440340F5-BF3E5CAE-CDF6048D",
+        "89BDAE85-47B19B8E-555A2C97-7393EFB9",
+        "5F751209-4F2FD1D2-A328C785-0F805638",
+        "BD07031C-494A46C7-1A51BA86-DEA937AD",
+        "AADEE4C8-45B68ACB-0B312F96-A88C4F54",
+        "7AAF919D-4B849B34-E2EE1DB2-57106D7C",
+        "A306C833-4B3AACBC-A6E1689F-FD97D2C3"
+      ]
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.DeathQuestMain.ReachedStandStones"
+      },
+      "OutputConnections": [
+        "06098981-4EA6B761-24179AB2-ADBAFA3B"
+      ],
+      "Compiled_NodeGUID": "D8299234-4D1E9EB5-CECAD7B7-20023CFE"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.DeathQuestMain.SkipToBeat4"
+      },
+      "OutputConnections": [
+        "7FE5B9B5-47614C4B-94602199-871AA54C",
+        "AE5B1A48-46576A99-BFE978A2-B6F0F669"
+      ],
+      "Compiled_NodeGUID": "E31669A6-4FB62440-843E52BF-AF41BE8E"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.DeathQuestMain.DeathBeat4Entry"
+      },
+      "OutputConnections": [
+        "AADEE4C8-45B68ACB-0B312F96-A88C4F54",
+        "5B0DEB01-488C0DE2-A554F588-37CE8084"
+      ],
+      "Compiled_NodeGUID": "1EF82873-4279A332-071F569B-3CD40912"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_12",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.DeathQuestMain.Seals.Waterfall"
+      },
+      "OutputConnections": [
+        "772278D8-437E6EA3-14EE7DB8-3697857C",
+        "7C4A0096-48AD91F0-5B05329B-1F215682",
+        "5A239107-4CDD135A-DA220D81-C564069D",
+        "9B73CDF8-47470AF1-03E980BA-03ABDA81",
+        "34C938C2-45ED70F0-C212388E-2D0B244D",
+        "A0ACD1BC-4AA2361B-3F20B2A3-BB58934C"
+      ],
+      "Compiled_NodeGUID": "1D1F0694-44EED5C9-BAE5ADB5-26CDB7A3"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_14",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.DeathQuestMain.Seals.Silverthorn"
+      },
+      "OutputConnections": [
+        "80869F31-442AD3E0-B2860394-045C863C",
+        "F7A05DB7-443F9926-DA90C29C-DC6A73B3",
+        "D2067ABA-4D4BDE43-76B27C86-AEC2B07B",
+        "37F1492B-469E95F5-7059009C-C3E5B508",
+        "D8839A7A-47F1ABA8-02E00E84-84044F6A",
+        "557D9306-41072705-C436798B-982633C3"
+      ],
+      "Compiled_NodeGUID": "7F7B7D64-423466C6-36A21186-65306C5D"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_15",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.DeathQuestMain.Seals.Emberwood"
+      },
+      "OutputConnections": [
+        "0F98F612-4E437F80-5BD505A3-478E13D9",
+        "89711A99-472A9850-651917BC-D00B8ACB",
+        "81D8DA9F-4D55233E-F8892D8C-FF9C4B1B",
+        "D3706D85-4D36651B-FB950BA8-BF9CB3A7",
+        "814A3EB2-4EFC41D9-2E6B52A8-62A2C6A7",
+        "836AA8BA-45A4CCFC-6048A5BD-11F79055"
+      ],
+      "Compiled_NodeGUID": "538B5C5E-484A3082-2DC117A0-C42842E8"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.DeathQuestMain.StandingStones.EmberwoodStone"
+      },
+      "OutputConnections": [
+        "C6AE4968-44EBD17E-650540AA-21B84895"
+      ],
+      "Compiled_NodeGUID": "E84363C5-45678311-44F794A3-2DA42D29"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.DeathQuestMain.StandingStones.SilverThornLodgeStone"
+      },
+      "OutputConnections": [
+        "881E8304-4E5DCCD9-2E8ADE9A-0E104EB2"
+      ],
+      "Compiled_NodeGUID": "1E2F102B-4234C313-918095BF-E8455889"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.DeathQuestMain.StandingStones.WaterfallStone"
+      },
+      "OutputConnections": [
+        "524B4427-4813473B-9D33EAAF-335F34B3"
+      ],
+      "Compiled_NodeGUID": "03AC994F-460DB779-9BACAAB9-C22BF22E"
+    }
+  },
+  {
+    "Type": "ConversationLinkNode",
+    "Name": "ConversationLinkNode_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Class": "UScriptClass'ConversationLinkNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RemoteEntryTag": {
+        "TagName": "QuestFlow.Entry.DeathQuestMain.Death.AskAboutChoices"
+      },
+      "Compiled_NodeGUID": "69BDB609-43F626E2-F473DBBD-3FDA95A7",
+      "ParentNode": {
+        "ObjectName": "QFT_PromptMessage_C'QF_DeathQuest_Beat4:QFT_PromptMessage_C_16'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.190"
+      }
+    }
+  },
+  {
+    "Type": "ConversationLinkNode",
+    "Name": "ConversationLinkNode_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Class": "UScriptClass'ConversationLinkNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RemoteEntryTag": {
+        "TagName": "QuestFlow.Entry.DeathQuestMain.SkipToBeat4"
+      },
+      "OutputConnections": [
+        "BB881DA9-46E278D2-4EB9FBA5-D5E72317",
+        "B6DEE446-4B4FADC1-B4037D88-507EEA50"
+      ],
+      "Compiled_NodeGUID": "80D80862-48CCDB09-284FC8B0-ECBB102B",
+      "ParentNode": {
+        "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_23'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.99"
+      }
+    }
+  },
+  {
+    "Type": "ConversationLinkNode",
+    "Name": "ConversationLinkNode_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Class": "UScriptClass'ConversationLinkNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RemoteEntryTag": {
+        "TagName": "QuestFlow.Entry.DeathQuestMain.SkipToBeat4"
+      },
+      "OutputConnections": [
+        "32A2622F-4C38158F-89C30188-5778A3D7",
+        "99CB7053-46251B85-27DD8297-0ECE5370"
+      ],
+      "Compiled_NodeGUID": "E8FC4D49-4B988670-371EF497-D138847A",
+      "ParentNode": {
+        "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_22'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.98"
+      }
+    }
+  },
+  {
+    "Type": "ConversationLinkNode",
+    "Name": "ConversationLinkNode_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Class": "UScriptClass'ConversationLinkNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RemoteEntryTag": {
+        "TagName": "QuestFlow.Entry.DeathQuestMain.SkipToBeat4"
+      },
+      "OutputConnections": [
+        "FD210D6B-4ADF1FB0-C7EC09A2-9BB73545",
+        "1BF3B24E-4D167FC3-2263C888-26F25734"
+      ],
+      "Compiled_NodeGUID": "FA6A88EA-49B916AB-5B0818B2-7816C6ED",
+      "ParentNode": {
+        "ObjectName": "QFT_Blank_C'QF_DeathQuest_Beat4:QFT_Blank_C_24'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.100"
+      }
+    }
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerDoesntHaveItem_C",
+    "Name": "QFR_PlayerDoesntHaveItem_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerDoesntHaveItem_C",
+    "Name": "QFR_PlayerDoesntHaveItem_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerDoesntHaveItem_C",
+    "Name": "QFR_PlayerDoesntHaveItem_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerDoesntHaveItem_C",
+    "Name": "QFR_PlayerDoesntHaveItem_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerDoesntHaveItem_C",
+    "Name": "QFR_PlayerDoesntHaveItem_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerDoesntHaveItem_C",
+    "Name": "QFR_PlayerDoesntHaveItem_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasItemAmount_C",
+    "Name": "QFR_PlayerHasItemAmount_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasItemAmount_C",
+    "Name": "QFR_PlayerHasItemAmount_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasItemAmount_C",
+    "Name": "QFR_PlayerHasItemAmount_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasItemAmount_C",
+    "Name": "QFR_PlayerHasItemAmount_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasItemAmount_C",
+    "Name": "QFR_PlayerHasItemAmount_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasItemAmount_C",
+    "Name": "QFR_PlayerHasItemAmount_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_16",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_19",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_20",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_21",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_22",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_23",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_12",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_13",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_14",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_15",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_16",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_17",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_18",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_19",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_20",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_21",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_22",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_23",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_24",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_25",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_26",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_27",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_28",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_29",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_30",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_31",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_32",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_33",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_45",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_46",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_47",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_48",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_49",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_50",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_51",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_56",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_57",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_58",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_59",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_60",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_12",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_13",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_14",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_15",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_16",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_17",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_18",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_19",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_20",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_21",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_22",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_23",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_24",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_30",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_33",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_34",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_35",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_36",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_37",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_39",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_40",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_41",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_42",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_43",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_44",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_45",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_46",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_47",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_48",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_53",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_54",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_55",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_56",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_57",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_58",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_59",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_60",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_61",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_62",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_63",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_64",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_65",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_66",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_67",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_68",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_69",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_70",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_71",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_72",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_73",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_74",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_75",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveItemToPlayer_C",
+    "Name": "QFT_GiveItemToPlayer_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveItemToPlayer_C",
+    "Name": "QFT_GiveItemToPlayer_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveItemToPlayer_C",
+    "Name": "QFT_GiveItemToPlayer_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveItemToPlayer_C",
+    "Name": "QFT_GiveItemToPlayer_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveItemToPlayer_C",
+    "Name": "QFT_GiveItemToPlayer_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveItemToPlayer_C",
+    "Name": "QFT_GiveItemToPlayer_C_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveQuest_C",
+    "Name": "QFT_GiveQuest_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_ModifyQuestInt_C",
+    "Name": "QFT_ModifyQuestInt_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_ModifyQuestInt_C",
+    "Name": "QFT_ModifyQuestInt_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_ModifyQuestInt_C",
+    "Name": "QFT_ModifyQuestInt_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_ModifyQuestInt_C",
+    "Name": "QFT_ModifyQuestInt_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_ModifyQuestInt_C",
+    "Name": "QFT_ModifyQuestInt_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_ModifyQuestInt_C",
+    "Name": "QFT_ModifyQuestInt_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_ModifyQuestInt_C",
+    "Name": "QFT_ModifyQuestInt_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_ModifyQuestInt_C",
+    "Name": "QFT_ModifyQuestInt_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_ModifyQuestInt_C",
+    "Name": "QFT_ModifyQuestInt_C_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_12",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_122",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_123",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_124",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_125",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_126",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_127",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_128",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_129",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_13",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_130",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_131",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_132",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_133",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_134",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_135",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_136",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_137",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_139",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_14",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_141",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_142",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_15",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_16",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_71",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_72",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_12",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_13",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_12",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_13",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_14",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_15",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_16",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_17",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_18",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_TriggerBreakSealVFX_C",
+    "Name": "QFT_TriggerBreakSealVFX_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_TriggerBreakSealVFX_C",
+    "Name": "QFT_TriggerBreakSealVFX_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_TriggerBreakSealVFX_C",
+    "Name": "QFT_TriggerBreakSealVFX_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_12",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_13",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_14",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_15",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_16",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_20",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_21",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_22",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_23",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_24",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_25",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_26",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_27",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_28",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_29",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_30",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_31",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_32",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_33",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_34",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_35",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_36",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_37",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_Play2DSting_C",
+    "Name": "SEN_Play2DSting_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_Play2DSting_C",
+    "Name": "SEN_Play2DSting_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_Play2DSting_C",
+    "Name": "SEN_Play2DSting_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_DeathQuest_Beat4'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_DeathQuest_Beat4.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  }
+]

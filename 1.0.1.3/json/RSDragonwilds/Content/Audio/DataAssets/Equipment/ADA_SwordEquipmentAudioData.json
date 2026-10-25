@@ -1,0 +1,331 @@
+[
+  {
+    "Type": "PlayerEquipmentAnimationAudioData",
+    "Name": "ADA_SwordEquipmentAudioData",
+    "Class": "UScriptClass'PlayerEquipmentAnimationAudioData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "NotifyToAnimData": [
+        {
+          "Key": "Medium swing",
+          "Value": {
+            "LocalBaseSound": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_SwishMedium'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/Swish/MSS_Co_SwishMedium"
+            },
+            "RemoteBaseSound": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_SwishMedium_Rem'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/Swish_Rem/MSS_Co_SwishMedium_Rem"
+            },
+            "ConditionalSoundsSoundRule": "ESoundPlayRules::Additive",
+            "ConditionalSounds": [],
+            "bIsAffectedByAmmo": false,
+            "MaterialSoundRule": "ESoundPlayRules::Additive",
+            "MaterialToSoundMap": [
+              {
+                "Key": {
+                  "TagName": "Audio.Metal"
+                },
+                "Value": {
+                  "SoundDelay": 0.13,
+                  "LocalSound": {
+                    "ObjectName": "DominionMetaSoundSource'MSS_Co_Swish_MetalSweet_Medium'",
+                    "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/Swish/MSS_Co_Swish_MetalSweet_Medium"
+                  },
+                  "RemoteSound": {
+                    "ObjectName": "DominionMetaSoundSource'MSS_Co_Swish_MetalSweet_Medium_Rem'",
+                    "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/Swish_Rem/MSS_Co_Swish_MetalSweet_Medium_Rem"
+                  }
+                }
+              }
+            ],
+            "EffectSoundRule": "ESoundPlayRules::Additive",
+            "EffectToSoundMap": [
+              {
+                "Key": {
+                  "TagName": "DamageType.Magical.Fire"
+                },
+                "Value": {
+                  "SoundDelay": 0.0,
+                  "LocalSound": {
+                    "ObjectName": "DominionMetaSoundSource'MSS_Co_FireSwing'",
+                    "ObjectPath": "/Game/Audio/MetasoundSources/Combat/MagicSwings/Fire/MSS_Co_FireSwing"
+                  },
+                  "RemoteSound": {
+                    "ObjectName": "DominionMetaSoundSource'MSS_Co_FireSwing_Rem'",
+                    "ObjectPath": "/Game/Audio/MetasoundSources/Combat/MagicSwings/Fire/MSS_Co_FireSwing_Rem"
+                  }
+                }
+              },
+              {
+                "Key": {
+                  "TagName": "DamageType.Magical.Air"
+                },
+                "Value": {
+                  "SoundDelay": 0.0,
+                  "LocalSound": {
+                    "ObjectName": "DominionMetaSoundSource'MSS_Co_AirSwing'",
+                    "ObjectPath": "/Game/Audio/MetasoundSources/Combat/MagicSwings/Air/MSS_Co_AirSwing"
+                  },
+                  "RemoteSound": {
+                    "ObjectName": "DominionMetaSoundSource'MSS_Co_AirSwing_Rem'",
+                    "ObjectPath": "/Game/Audio/MetasoundSources/Combat/MagicSwings/Air/MSS_Co_AirSwing_Rem"
+                  }
+                }
+              },
+              {
+                "Key": {
+                  "TagName": "DamageType.Magical.Water"
+                },
+                "Value": {
+                  "SoundDelay": 0.0,
+                  "LocalSound": {
+                    "ObjectName": "DominionMetaSoundSource'MSS_Co_WaterSwing'",
+                    "ObjectPath": "/Game/Audio/MetasoundSources/Combat/MagicSwings/Water/MSS_Co_WaterSwing"
+                  },
+                  "RemoteSound": {
+                    "ObjectName": "DominionMetaSoundSource'MSS_Co_WaterSwing_Rem'",
+                    "ObjectPath": "/Game/Audio/MetasoundSources/Combat/MagicSwings/Water/MSS_Co_WaterSwing_Rem"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Small flourish",
+          "Value": {
+            "LocalBaseSound": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_FlourishFast'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/Swish/MSS_Co_FlourishFast"
+            },
+            "RemoteBaseSound": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_FlourishFast_Rem'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/Swish_Rem/MSS_Co_FlourishFast_Rem"
+            },
+            "ConditionalSoundsSoundRule": "ESoundPlayRules::Additive",
+            "ConditionalSounds": [],
+            "bIsAffectedByAmmo": false,
+            "MaterialSoundRule": "ESoundPlayRules::Additive",
+            "MaterialToSoundMap": [
+              {
+                "Key": {
+                  "TagName": "Audio.Metal"
+                },
+                "Value": {
+                  "SoundDelay": 0.13,
+                  "LocalSound": {
+                    "ObjectName": "DominionMetaSoundSource'MSS_Co_Swish_MetalFlourish_Medium'",
+                    "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/Swish/MSS_Co_Swish_MetalFlourish_Medium"
+                  },
+                  "RemoteSound": {
+                    "ObjectName": "DominionMetaSoundSource'MSS_Co_Swish_MetalFlourish_Medium_Rem'",
+                    "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/Swish_Rem/MSS_Co_Swish_MetalFlourish_Medium_Rem"
+                  }
+                }
+              }
+            ],
+            "EffectSoundRule": "ESoundPlayRules::OverrideBase",
+            "EffectToSoundMap": [
+              {
+                "Key": {
+                  "TagName": "DamageType.Magical.Fire"
+                },
+                "Value": {
+                  "SoundDelay": 0.0,
+                  "LocalSound": {
+                    "ObjectName": "DominionMetaSoundSource'MSS_Co_FireFlourish'",
+                    "ObjectPath": "/Game/Audio/MetasoundSources/Combat/MagicSwings/Fire/MSS_Co_FireFlourish"
+                  },
+                  "RemoteSound": {
+                    "ObjectName": "DominionMetaSoundSource'MSS_Co_FireFlourish_Rem'",
+                    "ObjectPath": "/Game/Audio/MetasoundSources/Combat/MagicSwings/Fire/MSS_Co_FireFlourish_Rem"
+                  }
+                }
+              },
+              {
+                "Key": {
+                  "TagName": "DamageType.Magical.Air"
+                },
+                "Value": {
+                  "SoundDelay": 0.0,
+                  "LocalSound": {
+                    "ObjectName": "DominionMetaSoundSource'MSS_Co_AirFlourish'",
+                    "ObjectPath": "/Game/Audio/MetasoundSources/Combat/MagicSwings/Air/MSS_Co_AirFlourish"
+                  },
+                  "RemoteSound": {
+                    "ObjectName": "DominionMetaSoundSource'MSS_Co_AirFlourish_Rem'",
+                    "ObjectPath": "/Game/Audio/MetasoundSources/Combat/MagicSwings/Air/MSS_Co_AirFlourish_Rem"
+                  }
+                }
+              },
+              {
+                "Key": {
+                  "TagName": "DamageType.Magical.Water"
+                },
+                "Value": {
+                  "SoundDelay": 0.0,
+                  "LocalSound": {
+                    "ObjectName": "DominionMetaSoundSource'MSS_Co_WaterFlourish'",
+                    "ObjectPath": "/Game/Audio/MetasoundSources/Combat/MagicSwings/Water/MSS_Co_WaterFlourish"
+                  },
+                  "RemoteSound": {
+                    "ObjectName": "DominionMetaSoundSource'MSS_Co_WaterFlourish_Rem'",
+                    "ObjectPath": "/Game/Audio/MetasoundSources/Combat/MagicSwings/Water/MSS_Co_WaterFlourish_Rem"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Buildup",
+          "Value": {
+            "LocalBaseSound": null,
+            "RemoteBaseSound": null,
+            "ConditionalSoundsSoundRule": "ESoundPlayRules::Additive",
+            "ConditionalSounds": [],
+            "bIsAffectedByAmmo": false,
+            "MaterialSoundRule": "ESoundPlayRules::Additive",
+            "MaterialToSoundMap": [],
+            "EffectSoundRule": "ESoundPlayRules::OverrideBase",
+            "EffectToSoundMap": [
+              {
+                "Key": {
+                  "TagName": "DamageType.Magical.Air"
+                },
+                "Value": {
+                  "SoundDelay": 0.0,
+                  "LocalSound": {
+                    "ObjectName": "DominionMetaSoundSource'MSS_Co_AirBuildup'",
+                    "ObjectPath": "/Game/Audio/MetasoundSources/Combat/MagicSwings/Air/MSS_Co_AirBuildup"
+                  },
+                  "RemoteSound": null
+                }
+              },
+              {
+                "Key": {
+                  "TagName": "DamageType.Magical.Fire"
+                },
+                "Value": {
+                  "SoundDelay": 0.0,
+                  "LocalSound": {
+                    "ObjectName": "DominionMetaSoundSource'MSS_Co_FireBuildup_Small'",
+                    "ObjectPath": "/Game/Audio/MetasoundSources/Combat/MagicSwings/Fire/MSS_Co_FireBuildup_Small"
+                  },
+                  "RemoteSound": null
+                }
+              },
+              {
+                "Key": {
+                  "TagName": "DamageType.Magical.Water"
+                },
+                "Value": {
+                  "SoundDelay": 0.0,
+                  "LocalSound": {
+                    "ObjectName": "DominionMetaSoundSource'MSS_Co_WaterBuildup'",
+                    "ObjectPath": "/Game/Audio/MetasoundSources/Combat/MagicSwings/Water/MSS_Co_WaterBuildup"
+                  },
+                  "RemoteSound": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Final",
+          "Value": {
+            "LocalBaseSound": null,
+            "RemoteBaseSound": null,
+            "ConditionalSoundsSoundRule": "ESoundPlayRules::Additive",
+            "ConditionalSounds": [],
+            "bIsAffectedByAmmo": false,
+            "MaterialSoundRule": "ESoundPlayRules::Additive",
+            "MaterialToSoundMap": [],
+            "EffectSoundRule": "ESoundPlayRules::OverrideBase",
+            "EffectToSoundMap": [
+              {
+                "Key": {
+                  "TagName": "DamageType.Magical.Fire"
+                },
+                "Value": {
+                  "SoundDelay": 0.0,
+                  "LocalSound": {
+                    "ObjectName": "DominionMetaSoundSource'MSS_Co_FireBuildup'",
+                    "ObjectPath": "/Game/Audio/MetasoundSources/Combat/MagicSwings/Fire/MSS_Co_FireBuildup"
+                  },
+                  "RemoteSound": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "FireExtra",
+          "Value": {
+            "LocalBaseSound": null,
+            "RemoteBaseSound": null,
+            "ConditionalSoundsSoundRule": "ESoundPlayRules::Additive",
+            "ConditionalSounds": [],
+            "bIsAffectedByAmmo": false,
+            "MaterialSoundRule": "ESoundPlayRules::Additive",
+            "MaterialToSoundMap": [],
+            "EffectSoundRule": "ESoundPlayRules::OverrideBase",
+            "EffectToSoundMap": [
+              {
+                "Key": {
+                  "TagName": "DamageType.Magical.Fire"
+                },
+                "Value": {
+                  "SoundDelay": 0.0,
+                  "LocalSound": {
+                    "ObjectName": "DominionMetaSoundSource'MSS_Co_FireBuildup_Small'",
+                    "ObjectPath": "/Game/Audio/MetasoundSources/Combat/MagicSwings/Fire/MSS_Co_FireBuildup_Small"
+                  },
+                  "RemoteSound": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Small swing",
+          "Value": {
+            "LocalBaseSound": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_SwishRoll'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/Swish/MSS_Co_SwishRoll"
+            },
+            "RemoteBaseSound": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_SwishRoll_Rem'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/Swish_Rem/MSS_Co_SwishRoll_Rem"
+            },
+            "ConditionalSoundsSoundRule": "ESoundPlayRules::Additive",
+            "ConditionalSounds": [],
+            "bIsAffectedByAmmo": false,
+            "MaterialSoundRule": "ESoundPlayRules::Additive",
+            "MaterialToSoundMap": [
+              {
+                "Key": {
+                  "TagName": "Audio.Metal"
+                },
+                "Value": {
+                  "SoundDelay": 0.0,
+                  "LocalSound": {
+                    "ObjectName": "DominionMetaSoundSource'MSS_Co_Swish_MetalFlourish_Small'",
+                    "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/Swish/MSS_Co_Swish_MetalFlourish_Small"
+                  },
+                  "RemoteSound": {
+                    "ObjectName": "DominionMetaSoundSource'MSS_Co_Swish_MetalFlourish_Small_Rem'",
+                    "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/Swish_Rem/MSS_Co_Swish_MetalFlourish_Small_Rem"
+                  }
+                }
+              }
+            ],
+            "EffectSoundRule": "ESoundPlayRules::Additive",
+            "EffectToSoundMap": []
+          }
+        }
+      ]
+    }
+  }
+]

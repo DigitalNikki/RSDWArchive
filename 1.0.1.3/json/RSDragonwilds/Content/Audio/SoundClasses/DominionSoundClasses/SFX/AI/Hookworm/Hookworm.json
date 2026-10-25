@@ -1,0 +1,36 @@
+[
+  {
+    "Type": "DominionSoundClass",
+    "Name": "Hookworm",
+    "Class": "UScriptClass'DominionSoundClass'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "OcclusionMultiplier": 1.0,
+      "Properties": {
+        "Volume": 0.19952624
+      },
+      "ChildClasses": [
+        {
+          "ObjectName": "DominionSoundClass'Hookworm_Abilities'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/Hookworm/Hookworm_Abilities"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Hookworm_Foley'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/Hookworm/Hookworm_Foley"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Hookworm_Vox_Com_Maj'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/Hookworm/Hookworm_Vox_Com_Maj"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Hookworm_Vox_Com_Min'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/Hookworm/Hookworm_Vox_Com_Min"
+        }
+      ],
+      "ParentClass": {
+        "ObjectName": "DominionSoundClass'AI'",
+        "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/AI"
+      }
+    }
+  }
+]

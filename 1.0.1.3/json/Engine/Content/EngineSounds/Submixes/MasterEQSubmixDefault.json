@@ -1,0 +1,20 @@
+[
+  {
+    "Type": "SoundSubmix",
+    "Name": "MasterEQSubmixDefault",
+    "Class": "UScriptClass'SoundSubmix'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SubmixEffectChain": [
+        {
+          "ObjectName": "SubmixEffectSubmixEQPreset'MasterEQEffectPreset'",
+          "ObjectPath": "/Engine/EngineSounds/Submixes/MasterEQEffectPreset"
+        }
+      ],
+      "ParentSubmix": {
+        "ObjectName": "SoundSubmix'MasterSubmixDefault'",
+        "ObjectPath": "/Engine/EngineSounds/Submixes/MasterSubmixDefault"
+      }
+    }
+  }
+]

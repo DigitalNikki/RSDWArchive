@@ -1,0 +1,371 @@
+[
+  {
+    "Type": "QuestData",
+    "Name": "Quest_DeathQuestMain",
+    "Class": "UScriptClass'QuestData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "QuestName": {
+        "TableId": "/Game/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/ST_DeathQuestMain.ST_DeathQuestMain",
+        "Key": "QuestName",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "CompletedQuestDescription": {
+        "TableId": "/Game/Gameplay/Quests/ST_QuestCompletionText.ST_QuestCompletionText",
+        "Key": "WitheringHeights",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "QuestRegion": "EQuestRegion::Fellhollow",
+      "bIsMainQuest": true,
+      "LinkedActivityID": "A_DefeatImaru",
+      "QuestDescription": {
+        "TableId": "/Game/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/ST_DeathQuestMain.ST_DeathQuestMain",
+        "Key": "QuestDesc",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Objectives": [
+        {
+          "Key": "TalkToWomNEGF",
+          "Value": {
+            "Description": {
+              "TableId": "/Game/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/ST_DeathQuestMain.ST_DeathQuestMain",
+              "Key": "Objective.VisitWoM",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "SubobjectiveDescription": {
+              "CultureInvariantString": null
+            },
+            "Hint": {
+              "CultureInvariantString": null
+            },
+            "bOverrideQuestDescription": false,
+            "QuestDescriptionOverride": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        {
+          "Key": "UnlockGate",
+          "Value": {
+            "Description": {
+              "TableId": "/Game/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/ST_DeathQuestMain.ST_DeathQuestMain",
+              "Key": "Objective.UnlockDoor",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "SubobjectiveDescription": {
+              "CultureInvariantString": null
+            },
+            "Hint": {
+              "CultureInvariantString": null
+            },
+            "bOverrideQuestDescription": false,
+            "QuestDescriptionOverride": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        {
+          "Key": "SearchTheStructure",
+          "Value": {
+            "Description": {
+              "TableId": "/Game/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/ST_DeathQuestMain.ST_DeathQuestMain",
+              "Key": "Objective.ExploreTunnels",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "SubobjectiveDescription": {
+              "CultureInvariantString": null
+            },
+            "Hint": {
+              "CultureInvariantString": null
+            },
+            "bOverrideQuestDescription": false,
+            "QuestDescriptionOverride": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        {
+          "Key": "SpeakToMysteriousFigure",
+          "Value": {
+            "Description": {
+              "TableId": "/Game/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/ST_DeathQuestMain.ST_DeathQuestMain",
+              "Key": "Objective.SpeakToDeath",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "SubobjectiveDescription": {
+              "CultureInvariantString": null
+            },
+            "Hint": {
+              "CultureInvariantString": null
+            },
+            "bOverrideQuestDescription": false,
+            "QuestDescriptionOverride": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        {
+          "Key": "SpeakToPostiePete",
+          "Value": {
+            "Description": {
+              "TableId": "/Game/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/ST_DeathQuestMain.ST_DeathQuestMain",
+              "Key": "Objective.SpeakToPostiePete",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "SubobjectiveDescription": {
+              "CultureInvariantString": null
+            },
+            "Hint": {
+              "CultureInvariantString": null
+            },
+            "bOverrideQuestDescription": false,
+            "QuestDescriptionOverride": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        {
+          "Key": "GoThroughDoorToFH",
+          "Value": {
+            "Description": {
+              "TableId": "/Game/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/ST_DeathQuestMain.ST_DeathQuestMain",
+              "Key": "Objective.EnterFellhollow",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "SubobjectiveDescription": {
+              "CultureInvariantString": null
+            },
+            "Hint": {
+              "CultureInvariantString": null
+            },
+            "bOverrideQuestDescription": false,
+            "QuestDescriptionOverride": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        {
+          "Key": "FindACleansingPool",
+          "Value": {
+            "Description": {
+              "TableId": "/Game/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/ST_DeathQuestMain.ST_DeathQuestMain",
+              "Key": "Objective.RemoveSoulRift",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "SubobjectiveDescription": {
+              "CultureInvariantString": null
+            },
+            "Hint": {
+              "CultureInvariantString": null
+            },
+            "bOverrideQuestDescription": false,
+            "QuestDescriptionOverride": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        {
+          "Key": "InvestigateStandingStones",
+          "Value": {
+            "Description": {
+              "TableId": "/Game/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/ST_DeathQuestMain.ST_DeathQuestMain",
+              "Key": "Objective.InvestigateStones",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "SubobjectiveDescription": {
+              "CultureInvariantString": null
+            },
+            "Hint": {
+              "CultureInvariantString": null
+            },
+            "bOverrideQuestDescription": false,
+            "QuestDescriptionOverride": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        {
+          "Key": "ReachedStandingStones",
+          "Value": {
+            "Description": {
+              "TableId": "/Game/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/ST_DeathQuestMain.ST_DeathQuestMain",
+              "Key": "Objective.GetLocation.1",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "SubobjectiveDescription": {
+              "CultureInvariantString": null
+            },
+            "Hint": {
+              "CultureInvariantString": null
+            },
+            "bOverrideQuestDescription": false,
+            "QuestDescriptionOverride": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        {
+          "Key": "InteractedWithStone1",
+          "Value": {
+            "Description": {
+              "TableId": "/Game/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/ST_DeathQuestMain.ST_DeathQuestMain",
+              "Key": "Objective.GetLocation.2",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "SubobjectiveDescription": {
+              "CultureInvariantString": null
+            },
+            "Hint": {
+              "CultureInvariantString": null
+            },
+            "bOverrideQuestDescription": false,
+            "QuestDescriptionOverride": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        {
+          "Key": "InteractedWithStone2",
+          "Value": {
+            "Description": {
+              "TableId": "/Game/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/ST_DeathQuestMain.ST_DeathQuestMain",
+              "Key": "Objective.GetLocation.3",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "SubobjectiveDescription": {
+              "CultureInvariantString": null
+            },
+            "Hint": {
+              "CultureInvariantString": null
+            },
+            "bOverrideQuestDescription": false,
+            "QuestDescriptionOverride": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        {
+          "Key": "BreakTheThreeSeals",
+          "Value": {
+            "Description": {
+              "TableId": "/Game/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/ST_DeathQuestMain.ST_DeathQuestMain",
+              "Key": "Objective.GatherCurseFragments.1",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "SubobjectiveDescription": {
+              "CultureInvariantString": null
+            },
+            "Hint": {
+              "CultureInvariantString": null
+            },
+            "bOverrideQuestDescription": false,
+            "QuestDescriptionOverride": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        {
+          "Key": "BreakRemainingtwoSeals",
+          "Value": {
+            "Description": {
+              "TableId": "/Game/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/ST_DeathQuestMain.ST_DeathQuestMain",
+              "Key": "Objective.GatherCurseFragments.2",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "SubobjectiveDescription": {
+              "CultureInvariantString": null
+            },
+            "Hint": {
+              "CultureInvariantString": null
+            },
+            "bOverrideQuestDescription": false,
+            "QuestDescriptionOverride": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        {
+          "Key": "BreakTheFinalSeal",
+          "Value": {
+            "Description": {
+              "TableId": "/Game/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/ST_DeathQuestMain.ST_DeathQuestMain",
+              "Key": "Objective.GatherCurseFragments.3",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "SubobjectiveDescription": {
+              "CultureInvariantString": null
+            },
+            "Hint": {
+              "CultureInvariantString": null
+            },
+            "bOverrideQuestDescription": false,
+            "QuestDescriptionOverride": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        {
+          "Key": "ChallangeImaru",
+          "Value": {
+            "Description": {
+              "TableId": "/Game/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/ST_DeathQuestMain.ST_DeathQuestMain",
+              "Key": "Objective.DefeatImaru",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "SubobjectiveDescription": {
+              "CultureInvariantString": null
+            },
+            "Hint": {
+              "CultureInvariantString": null
+            },
+            "bOverrideQuestDescription": false,
+            "QuestDescriptionOverride": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        {
+          "Key": "ReturnToDeath",
+          "Value": {
+            "Description": {
+              "TableId": "/Game/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/ST_DeathQuestMain.ST_DeathQuestMain",
+              "Key": "Objective.BringHeadToDeath",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "SubobjectiveDescription": {
+              "CultureInvariantString": null
+            },
+            "Hint": {
+              "CultureInvariantString": null
+            },
+            "bOverrideQuestDescription": false,
+            "QuestDescriptionOverride": {
+              "CultureInvariantString": null
+            }
+          }
+        }
+      ],
+      "PersistenceID": "uftGB0es-CGrvXyPoxW31w",
+      "InternalName": "DeathQuestMain"
+    }
+  }
+]

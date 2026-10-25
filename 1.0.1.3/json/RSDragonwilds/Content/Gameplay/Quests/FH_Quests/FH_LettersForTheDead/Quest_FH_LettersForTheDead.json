@@ -1,0 +1,138 @@
+[
+  {
+    "Type": "QuestData",
+    "Name": "Quest_FH_LettersForTheDead",
+    "Class": "UScriptClass'QuestData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "QuestName": {
+        "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_LettersForTheDead/ST_FH_LettersForTheDead.ST_FH_LettersForTheDead",
+        "Key": "Quest.Name",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "CompletedQuestDescription": {
+        "TableId": "/Game/Gameplay/Quests/ST_QuestCompletionText.ST_QuestCompletionText",
+        "Key": "LettersForTheDead",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "QuestRegion": "EQuestRegion::Fellhollow",
+      "QuestDescription": {
+        "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_LettersForTheDead/ST_FH_LettersForTheDead.ST_FH_LettersForTheDead",
+        "Key": "Quest.Desc",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Objectives": [
+        {
+          "Key": "ObjectiveOne",
+          "Value": {
+            "Description": {
+              "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_LettersForTheDead/ST_FH_LettersForTheDead.ST_FH_LettersForTheDead",
+              "Key": "Objective.FindAndDeliver.1",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "SubobjectiveDescription": {
+              "CultureInvariantString": null
+            },
+            "Hint": {
+              "CultureInvariantString": null
+            },
+            "bOverrideQuestDescription": false,
+            "QuestDescriptionOverride": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        {
+          "Key": "ObjectiveTwo",
+          "Value": {
+            "Description": {
+              "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_LettersForTheDead/ST_FH_LettersForTheDead.ST_FH_LettersForTheDead",
+              "Key": "Objective.FindAndDeliver.2",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "SubobjectiveDescription": {
+              "CultureInvariantString": null
+            },
+            "Hint": {
+              "CultureInvariantString": null
+            },
+            "bOverrideQuestDescription": false,
+            "QuestDescriptionOverride": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        {
+          "Key": "ObjectiveThree",
+          "Value": {
+            "Description": {
+              "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_LettersForTheDead/ST_FH_LettersForTheDead.ST_FH_LettersForTheDead",
+              "Key": "Objective.FindAndDeliver.3",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "SubobjectiveDescription": {
+              "CultureInvariantString": null
+            },
+            "Hint": {
+              "CultureInvariantString": null
+            },
+            "bOverrideQuestDescription": false,
+            "QuestDescriptionOverride": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        {
+          "Key": "ObjectiveReturn",
+          "Value": {
+            "Description": {
+              "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_LettersForTheDead/ST_FH_LettersForTheDead.ST_FH_LettersForTheDead",
+              "Key": "Objective.ReturnToPete",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "SubobjectiveDescription": {
+              "CultureInvariantString": null
+            },
+            "Hint": {
+              "CultureInvariantString": null
+            },
+            "bOverrideQuestDescription": false,
+            "QuestDescriptionOverride": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        {
+          "Key": "ObjectiveZero",
+          "Value": {
+            "Description": {
+              "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_LettersForTheDead/ST_FH_LettersForTheDead.ST_FH_LettersForTheDead",
+              "Key": "Objective.SpeakToPete",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "SubobjectiveDescription": {
+              "CultureInvariantString": null
+            },
+            "Hint": {
+              "CultureInvariantString": null
+            },
+            "bOverrideQuestDescription": false,
+            "QuestDescriptionOverride": {
+              "CultureInvariantString": null
+            }
+          }
+        }
+      ],
+      "PersistenceID": "4kbEAUJrs6mebhGkzFQxmA",
+      "InternalName": "FH_LettersForTheDead"
+    }
+  }
+]

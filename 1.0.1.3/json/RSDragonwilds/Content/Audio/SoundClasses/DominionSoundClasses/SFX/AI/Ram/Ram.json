@@ -1,0 +1,46 @@
+[
+  {
+    "Type": "DominionSoundClass",
+    "Name": "Ram",
+    "Class": "UScriptClass'DominionSoundClass'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MinReverbSend": 0.1,
+      "MaxReverbSend": 0.5,
+      "OcclusionMultiplier": 1.0,
+      "Properties": {
+        "Volume": 0.63095737
+      },
+      "ChildClasses": [
+        {
+          "ObjectName": "DominionSoundClass'Ram_Foley'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/Ram/Ram_Foley"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Ram_FS'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/Ram/Ram_FS"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Ram_Vox_Com_Maj'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/Ram/Ram_Vox_Com_Maj"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Ram_Vox_Com_Min'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/Ram/Ram_Vox_Com_Min"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Ram_Vox_NonCom_Maj'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/Ram/Ram_Vox_NonCom_Maj"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Ram_Vox_NonCom_Min'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/Ram/Ram_Vox_NonCom_Min"
+        }
+      ],
+      "ParentClass": {
+        "ObjectName": "DominionSoundClass'AI'",
+        "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/AI"
+      }
+    }
+  }
+]

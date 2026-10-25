@@ -1,0 +1,86 @@
+[
+  {
+    "Type": "FarmPlantDataAsset",
+    "Name": "FPD_Watermelon",
+    "Class": "UScriptClass'FarmPlantDataAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+        "Key": "Name_Plant_Watermelon",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Tier": 3.0,
+      "Stages": [
+        {
+          "ObjectName": "FarmPlantStageData'FPSD_Watermelon_PlantStage1'",
+          "ObjectPath": "/Game/Gameplay/Farming/Stages/Watermelon_Stages/FPSD_Watermelon_PlantStage1"
+        },
+        {
+          "ObjectName": "FarmPlantStageData'FPSD_Watermelon_PlantStage2'",
+          "ObjectPath": "/Game/Gameplay/Farming/Stages/Watermelon_Stages/FPSD_Watermelon_PlantStage2"
+        },
+        {
+          "ObjectName": "FarmPlantStageData'FPSD_Watermelon_Harvestable'",
+          "ObjectPath": "/Game/Gameplay/Farming/Stages/Watermelon_Stages/FPSD_Watermelon_Harvestable"
+        }
+      ],
+      "StageDisplayTexts": [
+        {
+          "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+          "Key": "StatusText_PlantStage_Shoot",
+          "SourceString": null,
+          "LocalizedString": ""
+        },
+        {
+          "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+          "Key": "StatusText_PlantStage_Stalk",
+          "SourceString": null,
+          "LocalizedString": ""
+        },
+        {
+          "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+          "Key": "StatusText_PlantStage_Flower",
+          "SourceString": null,
+          "LocalizedString": ""
+        },
+        {
+          "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+          "Key": "StatusText_PlantStage_Harvestable",
+          "SourceString": null,
+          "LocalizedString": ""
+        }
+      ],
+      "BaseYield": 5,
+      "DiseaseChance": 0.4,
+      "HarvestableItem": {
+        "ObjectName": "BP_Consumables_Food_C'ITEM_Resources_Watermelon'",
+        "ObjectPath": "/Game/Gameplay/Items/Resources/Plant/ITEM_Resources_Watermelon"
+      },
+      "SeedDropPerHarvestableItem": {
+        "ItemDataClass": {
+          "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Farming/Seeds/ITEM_Farming_Seed_Watermelon.ITEM_Farming_Seed_Watermelon",
+          "SubPathString": ""
+        },
+        "MaximumGrouping": 99,
+        "ProbabilityOfDrop": 0.01,
+        "ProbabilityModifierAttribute": {
+          "ObjectName": "Class'SeedRecoveryChance'",
+          "ObjectPath": "/Script/Dominion"
+        }
+      },
+      "HarvestSFX": {
+        "AssetPathName": "/Game/Audio/MetasoundSources/Player/Interactions/Farming/MSS_Pl_Fa_HarvestPlant.MSS_Pl_Fa_HarvestPlant",
+        "SubPathString": ""
+      },
+      "PlantableIn": [
+        "Farming.Tiers.Tier3_Fellhollow",
+        "Farming.Tiers.Tier4_UmbralSands"
+      ],
+      "HarvestXpFactor": 3.0,
+      "PersistenceID": "faFZtUGbWIkt2FuvyCr33w",
+      "InternalName": "Watermelon_plant"
+    }
+  }
+]

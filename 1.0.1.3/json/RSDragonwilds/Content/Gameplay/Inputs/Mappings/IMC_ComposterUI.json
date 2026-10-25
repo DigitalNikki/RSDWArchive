@@ -1,0 +1,179 @@
+[
+  {
+    "Type": "DominionPlayerMappableKeySetting",
+    "Name": "DominionPlayerMappableKeySetting_0",
+    "Outer": {
+      "ObjectName": "InputMappingContext'IMC_ComposterUI'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Inputs/Mappings/IMC_ComposterUI.3"
+    },
+    "Class": "UScriptClass'DominionPlayerMappableKeySetting'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AlternateInputMappingNames": [
+        "ProcessingBackGamepad"
+      ],
+      "bHideFromList": true,
+      "InputType": "EKeyMappingSettingsInputType::KeyboardMouse",
+      "Name": "ProcessingBack",
+      "DisplayName": {
+        "TableId": "/Game/UI/Settings/ST_Controls.ST_Controls",
+        "Key": "Back",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "DominionPlayerMappableKeySetting",
+    "Name": "DominionPlayerMappableKeySetting_1",
+    "Outer": {
+      "ObjectName": "InputMappingContext'IMC_ComposterUI'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Inputs/Mappings/IMC_ComposterUI.3"
+    },
+    "Class": "UScriptClass'DominionPlayerMappableKeySetting'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AlternateInputMappingNames": [
+        "ProcessingBack"
+      ],
+      "InputType": "EKeyMappingSettingsInputType::Gamepad",
+      "Name": "ProcessingBackGamepad",
+      "DisplayName": {
+        "TableId": "/Game/UI/Settings/ST_Controls.ST_Controls",
+        "Key": "Back",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "DominionPlayerMappableKeySetting",
+    "Name": "DominionPlayerMappableKeySetting_2",
+    "Outer": {
+      "ObjectName": "InputMappingContext'IMC_ComposterUI'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Inputs/Mappings/IMC_ComposterUI.3"
+    },
+    "Class": "UScriptClass'DominionPlayerMappableKeySetting'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "InputType": "EKeyMappingSettingsInputType::Gamepad",
+      "Name": "ProcessingStartStopGamepad",
+      "DisplayName": {
+        "TableId": "/Game/UI/Settings/ST_Controls.ST_Controls",
+        "Key": "ProcessingStartStop",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "InputMappingContext",
+    "Name": "IMC_ComposterUI",
+    "Class": "UScriptClass'InputMappingContext'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Mappings": [
+        {
+          "Triggers": [],
+          "Modifiers": [],
+          "Action": {
+            "ObjectName": "InputAction'IA_UI_GenericBack'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Actions/UI/IA_UI_GenericBack"
+          },
+          "Key": {
+            "KeyName": "Escape"
+          },
+          "SettingBehavior": "EPlayerMappableKeySettingBehaviors::OverrideSettings",
+          "PlayerMappableKeySettings": {
+            "ObjectName": "DominionPlayerMappableKeySetting'IMC_ComposterUI:DominionPlayerMappableKeySetting_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Inputs/Mappings/IMC_ComposterUI.0"
+          }
+        },
+        {
+          "Triggers": [],
+          "Modifiers": [],
+          "Action": {
+            "ObjectName": "InputAction'IA_UI_GenericBack'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Actions/UI/IA_UI_GenericBack"
+          },
+          "Key": {
+            "KeyName": "Gamepad_FaceButton_Right"
+          },
+          "SettingBehavior": "EPlayerMappableKeySettingBehaviors::OverrideSettings",
+          "PlayerMappableKeySettings": {
+            "ObjectName": "DominionPlayerMappableKeySetting'IMC_ComposterUI:DominionPlayerMappableKeySetting_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Inputs/Mappings/IMC_ComposterUI.1"
+          }
+        },
+        {
+          "Triggers": [],
+          "Modifiers": [],
+          "Action": {
+            "ObjectName": "InputAction'IA_Processing_StartStop'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Actions/Processing/IA_Processing_StartStop"
+          },
+          "Key": {
+            "KeyName": "Gamepad_FaceButton_Bottom"
+          },
+          "SettingBehavior": "EPlayerMappableKeySettingBehaviors::OverrideSettings",
+          "PlayerMappableKeySettings": {
+            "ObjectName": "DominionPlayerMappableKeySetting'IMC_ComposterUI:DominionPlayerMappableKeySetting_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Inputs/Mappings/IMC_ComposterUI.2"
+          }
+        },
+        {
+          "Triggers": [],
+          "Modifiers": [],
+          "Action": {
+            "ObjectName": "InputAction'IA_Container_TakeIntoInventory'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Actions/Container/IA_Container_TakeIntoInventory"
+          },
+          "Key": {
+            "KeyName": "F"
+          },
+          "SettingBehavior": "EPlayerMappableKeySettingBehaviors::InheritSettingsFromAction",
+          "PlayerMappableKeySettings": null
+        },
+        {
+          "Triggers": [],
+          "Modifiers": [],
+          "Action": {
+            "ObjectName": "InputAction'IA_Container_TakeIntoInventory'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Actions/Container/IA_Container_TakeIntoInventory"
+          },
+          "Key": {
+            "KeyName": "Gamepad_LeftTrigger"
+          },
+          "SettingBehavior": "EPlayerMappableKeySettingBehaviors::InheritSettingsFromAction",
+          "PlayerMappableKeySettings": null
+        },
+        {
+          "Triggers": [],
+          "Modifiers": [],
+          "Action": {
+            "ObjectName": "InputAction'IA_Container_Flush'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Actions/Container/IA_Container_Flush"
+          },
+          "Key": {
+            "KeyName": "Q"
+          },
+          "SettingBehavior": "EPlayerMappableKeySettingBehaviors::InheritSettingsFromAction",
+          "PlayerMappableKeySettings": null
+        },
+        {
+          "Triggers": [],
+          "Modifiers": [],
+          "Action": {
+            "ObjectName": "InputAction'IA_Container_Flush'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Actions/Container/IA_Container_Flush"
+          },
+          "Key": {
+            "KeyName": "Gamepad_LeftShoulder"
+          },
+          "SettingBehavior": "EPlayerMappableKeySettingBehaviors::InheritSettingsFromAction",
+          "PlayerMappableKeySettings": null
+        }
+      ]
+    }
+  }
+]

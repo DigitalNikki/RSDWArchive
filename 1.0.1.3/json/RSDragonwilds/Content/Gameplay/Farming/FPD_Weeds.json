@@ -1,0 +1,45 @@
+[
+  {
+    "Type": "FarmPlantDataAsset",
+    "Name": "FPD_Weeds",
+    "Class": "UScriptClass'FarmPlantDataAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+        "Key": "StatusText_DisplayName_Weeds",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Stages": [
+        {
+          "ObjectName": "FarmPlantStageData'FPSD_WeedsStage0'",
+          "ObjectPath": "/Game/Gameplay/Farming/Stages/FPSD_WeedsStage0"
+        },
+        {
+          "ObjectName": "FarmPlantStageData'FPSD_WeedsStage1'",
+          "ObjectPath": "/Game/Gameplay/Farming/Stages/FPSD_WeedsStage1"
+        },
+        {
+          "ObjectName": "FarmPlantStageData'FPSD_WeedsStage2'",
+          "ObjectPath": "/Game/Gameplay/Farming/Stages/FPSD_WeedsStage2"
+        }
+      ],
+      "DiseaseChance": 0.0,
+      "HarvestableItem": {
+        "ObjectName": "ItemData'ITEM_Resources_Weeds'",
+        "ObjectPath": "/Game/Gameplay/Items/Resources/Plant/ITEM_Resources_Weeds"
+      },
+      "HarvestVFX": {
+        "AssetPathName": "/Game/Art/VFX/Library/Env/Farming/NS_Farm_Plant_Harvest_PH.NS_Farm_Plant_Harvest_PH",
+        "SubPathString": ""
+      },
+      "HarvestSFX": {
+        "AssetPathName": "/Game/Audio/MetasoundSources/Player/Interactions/Farming/MSS_Pl_Fa_HarvestPlant.MSS_Pl_Fa_HarvestPlant",
+        "SubPathString": ""
+      },
+      "PersistenceID": "VEcpVUZ9nW-XFq2InaBE5w",
+      "InternalName": "FPD_Weeds"
+    }
+  }
+]

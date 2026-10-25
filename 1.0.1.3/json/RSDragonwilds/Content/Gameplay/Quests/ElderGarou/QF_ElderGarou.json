@@ -1,0 +1,749 @@
+[
+  {
+    "Type": "ConversationChoiceNode",
+    "Name": "ConversationChoiceNode_26",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ElderGarou'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.2"
+    },
+    "Class": "UScriptClass'ConversationChoiceNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultChoiceDisplayText": {
+        "TableId": "/Game/Gameplay/Quests/ElderGarou/ST_ElderGarou.ST_ElderGarou",
+        "Key": "Player.Choice.2",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "ConversationChoiceNode",
+    "Name": "ConversationChoiceNode_27",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ElderGarou'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.2"
+    },
+    "Class": "UScriptClass'ConversationChoiceNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultChoiceDisplayText": {
+        "TableId": "/Game/Gameplay/Quests/ElderGarou/ST_ElderGarou.ST_ElderGarou",
+        "Key": "Player.Choice.1",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "ConversationDatabase",
+    "Name": "QF_ElderGarou",
+    "Class": "UScriptClass'ConversationDatabase'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CompilerVersion": 2,
+      "ReachableNodeMap": [
+        {
+          "Key": "15D2B981-4CF1097E-D6C3C690-4B2BE905",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_ElderGarou:ConversationEntryPointNode_5'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.3"
+          }
+        },
+        {
+          "Key": "FE9E885B-4ACCC150-07E46F89-4C89189B",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_ElderGarou:QFT_Blank_C_53'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.16"
+          }
+        },
+        {
+          "Key": "5B888459-42BA2059-CBDB5086-5428B3C7",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_ElderGarou:QFT_Blank_C_33'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.13"
+          }
+        },
+        {
+          "Key": "7367299C-47ECDB24-442AAEBF-107DB32F",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_ElderGarou:QFT_PromptMessage_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.22"
+          }
+        },
+        {
+          "Key": "3B6984B3-4D5DE504-A8D069BF-D61B3114",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_ElderGarou:QFT_PromptMessage_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.23"
+          }
+        },
+        {
+          "Key": "36EDF44C-4E24B67D-62FCA082-D1C97565",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_ElderGarou:QFT_PromptMessage_C_125'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.24"
+          }
+        },
+        {
+          "Key": "0EA68C87-44AB767D-AA1211A0-06106942",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_ElderGarou:QFT_PromptMessage_C_128'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.27"
+          }
+        },
+        {
+          "Key": "E6E0BC6E-499C8E80-3AE8A19F-144CDC76",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_ElderGarou:QFT_PromptMessage_C_126'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.25"
+          }
+        },
+        {
+          "Key": "962D8871-4A3634EB-13BDA893-1632C927",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_ElderGarou:QFT_PromptMessage_C_127'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.26"
+          }
+        },
+        {
+          "Key": "39FB57DE-44453C7A-1CEA17A4-A3826FC5",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_ElderGarou:QFT_PromptMessage_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.28"
+          }
+        },
+        {
+          "Key": "55C2A513-48596FED-616AEB99-7E90BB1F",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_ElderGarou:QFT_PromptMessage_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.29"
+          }
+        },
+        {
+          "Key": "F41639B9-4B9C9582-74E0FD89-7FA4A2C4",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_ElderGarou:QFT_PromptMessage_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.30"
+          }
+        },
+        {
+          "Key": "2807611F-418FD8C2-6B699C88-32B0DFC2",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_ElderGarou:QFT_Blank_C_27'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.12"
+          }
+        },
+        {
+          "Key": "03D31881-497013A1-A96232A1-9C7C97D5",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_ElderGarou:QFT_PromptMessage_C_78'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.36"
+          }
+        },
+        {
+          "Key": "ACC7C63C-43596359-3BAC6E9C-E2BE7F12",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_ElderGarou:QFT_Blank_C_54'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.17"
+          }
+        },
+        {
+          "Key": "502BC0C6-494D5662-7E1D93B4-397FB6A5",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_ElderGarou:QFT_PromptMessage_C_80'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.37"
+          }
+        },
+        {
+          "Key": "F696076B-4BF94E46-02B75FAE-237E56D8",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_ElderGarou:QFT_Blank_C_35'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.14"
+          }
+        },
+        {
+          "Key": "E922BEA6-49D4F6C0-A05A78A7-F10A287E",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_ElderGarou:QFT_Blank_C_55'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.18"
+          }
+        },
+        {
+          "Key": "8587B414-4DE818FA-2FC79FA4-BD361D10",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_ElderGarou:QFT_PromptMessage_C_81'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.38"
+          }
+        },
+        {
+          "Key": "C8CBE430-44E7F646-CDB062BF-5ED537A4",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_ElderGarou:QFT_PromptMessage_C_84'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.39"
+          }
+        },
+        {
+          "Key": "20D2DAF2-4414F1F7-C82CC398-078BCC73",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_ElderGarou:QFT_Blank_C_61'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.19"
+          }
+        },
+        {
+          "Key": "E4806F4A-406877FD-3E166797-58D2398A",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_ElderGarou:QFT_PromptMessage_C_55'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.31"
+          }
+        },
+        {
+          "Key": "257CC47B-4EA7328D-2FF98B92-9FF2DB70",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_ElderGarou:QFT_PromptMessage_C_61'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.32"
+          }
+        },
+        {
+          "Key": "3E9AAD3E-42C82CB5-5698BBBD-4747DDDF",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_ElderGarou:QFT_PromptMessage_C_62'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.33"
+          }
+        },
+        {
+          "Key": "5E2B35E3-4C1D99CA-10A778B9-793C8F60",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_ElderGarou:QFT_PromptMessage_C_68'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.34"
+          }
+        },
+        {
+          "Key": "CD2B5DAA-4280BA01-6D8529B4-85DE8E27",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_ElderGarou:QFT_PromptMessage_C_77'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.35"
+          }
+        },
+        {
+          "Key": "2234C078-42CFE4CD-8D495788-8F36AF09",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_ElderGarou:QFT_SetQuestBool_C_11'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.42"
+          }
+        },
+        {
+          "Key": "3BB73308-4EFFA656-33951884-C670ECE2",
+          "Value": {
+            "ObjectName": "QFT_GiveQuest_C'QF_ElderGarou:QFT_GiveQuest_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.21"
+          }
+        },
+        {
+          "Key": "2BAD6587-47C62D67-85B61EB9-6F8C4AA6",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_ElderGarou:QFT_SetQuestObjective_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.43"
+          }
+        },
+        {
+          "Key": "6E5BE4E1-4DB2CA45-D1F4C3BA-F85352BB",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_ElderGarou:QFT_UpdateQuestLocation_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.45"
+          }
+        },
+        {
+          "Key": "CB5C5C01-4A0AAAFF-48C45489-E13541C0",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_ElderGarou:QFT_Blank_C_39'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.15"
+          }
+        },
+        {
+          "Key": "F809531D-496D34F2-621E5094-2BB4E3E9",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_ElderGarou:QFT_PromptMessage_C_85'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.40"
+          }
+        },
+        {
+          "Key": "7A300531-44EC3F1B-8CF5AF8B-B9E65CE1",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_ElderGarou:QFT_PromptMessage_C_87'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.41"
+          }
+        },
+        {
+          "Key": "F2CECC05-41D03FB0-2957B4BF-2463D916",
+          "Value": {
+            "ObjectName": "QFT_UnlockBuildingPieces_C'QF_ElderGarou:QFT_UnlockBuildingPieces_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.44"
+          }
+        },
+        {
+          "Key": "8BF6D239-46906AE8-1A4B0CB4-2078482A",
+          "Value": {
+            "ObjectName": "QFT_CompleteQuest_C'QF_ElderGarou:QFT_CompleteQuest_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.20"
+          }
+        }
+      ],
+      "EntryTags": [
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.ElderGarou"
+          },
+          "DestinationList": [
+            "15D2B981-4CF1097E-D6C3C690-4B2BE905"
+          ],
+          "EntryIdentifier": ""
+        }
+      ],
+      "InternalNodeIds": [
+        "15D2B981-4CF1097E-D6C3C690-4B2BE905",
+        "FE9E885B-4ACCC150-07E46F89-4C89189B",
+        "5B888459-42BA2059-CBDB5086-5428B3C7",
+        "7367299C-47ECDB24-442AAEBF-107DB32F",
+        "3B6984B3-4D5DE504-A8D069BF-D61B3114",
+        "36EDF44C-4E24B67D-62FCA082-D1C97565",
+        "0EA68C87-44AB767D-AA1211A0-06106942",
+        "E6E0BC6E-499C8E80-3AE8A19F-144CDC76",
+        "962D8871-4A3634EB-13BDA893-1632C927",
+        "39FB57DE-44453C7A-1CEA17A4-A3826FC5",
+        "55C2A513-48596FED-616AEB99-7E90BB1F",
+        "F41639B9-4B9C9582-74E0FD89-7FA4A2C4",
+        "2807611F-418FD8C2-6B699C88-32B0DFC2",
+        "03D31881-497013A1-A96232A1-9C7C97D5",
+        "ACC7C63C-43596359-3BAC6E9C-E2BE7F12",
+        "502BC0C6-494D5662-7E1D93B4-397FB6A5",
+        "F696076B-4BF94E46-02B75FAE-237E56D8",
+        "E922BEA6-49D4F6C0-A05A78A7-F10A287E",
+        "8587B414-4DE818FA-2FC79FA4-BD361D10",
+        "C8CBE430-44E7F646-CDB062BF-5ED537A4",
+        "20D2DAF2-4414F1F7-C82CC398-078BCC73",
+        "E4806F4A-406877FD-3E166797-58D2398A",
+        "257CC47B-4EA7328D-2FF98B92-9FF2DB70",
+        "3E9AAD3E-42C82CB5-5698BBBD-4747DDDF",
+        "5E2B35E3-4C1D99CA-10A778B9-793C8F60",
+        "CD2B5DAA-4280BA01-6D8529B4-85DE8E27",
+        "2234C078-42CFE4CD-8D495788-8F36AF09",
+        "3BB73308-4EFFA656-33951884-C670ECE2",
+        "2BAD6587-47C62D67-85B61EB9-6F8C4AA6",
+        "6E5BE4E1-4DB2CA45-D1F4C3BA-F85352BB",
+        "CB5C5C01-4A0AAAFF-48C45489-E13541C0",
+        "F809531D-496D34F2-621E5094-2BB4E3E9",
+        "7A300531-44EC3F1B-8CF5AF8B-B9E65CE1",
+        "F2CECC05-41D03FB0-2957B4BF-2463D916",
+        "8BF6D239-46906AE8-1A4B0CB4-2078482A"
+      ]
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ElderGarou'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.2"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.ElderGarou"
+      },
+      "OutputConnections": [
+        "ACC7C63C-43596359-3BAC6E9C-E2BE7F12",
+        "FE9E885B-4ACCC150-07E46F89-4C89189B"
+      ],
+      "Compiled_NodeGUID": "15D2B981-4CF1097E-D6C3C690-4B2BE905"
+    }
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ElderGarou'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ElderGarou'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ElderGarou'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ElderGarou'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_IsSheltered_C",
+    "Name": "QFR_IsSheltered_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ElderGarou'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_IsSheltered_C",
+    "Name": "QFR_IsSheltered_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ElderGarou'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_IsSheltered_C",
+    "Name": "QFR_IsSheltered_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ElderGarou'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_IsSheltered_C",
+    "Name": "QFR_IsSheltered_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ElderGarou'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_27",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ElderGarou'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_33",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ElderGarou'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_35",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ElderGarou'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_39",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ElderGarou'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_53",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ElderGarou'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_54",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ElderGarou'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_55",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ElderGarou'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_61",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ElderGarou'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_CompleteQuest_C",
+    "Name": "QFT_CompleteQuest_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ElderGarou'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveQuest_C",
+    "Name": "QFT_GiveQuest_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ElderGarou'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ElderGarou'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ElderGarou'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_125",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ElderGarou'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_126",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ElderGarou'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_127",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ElderGarou'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_128",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ElderGarou'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ElderGarou'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ElderGarou'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ElderGarou'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_55",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ElderGarou'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_61",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ElderGarou'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_62",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ElderGarou'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_68",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ElderGarou'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_77",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ElderGarou'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_78",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ElderGarou'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_80",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ElderGarou'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_81",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ElderGarou'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_84",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ElderGarou'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_85",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ElderGarou'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_87",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ElderGarou'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ElderGarou'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ElderGarou'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UnlockBuildingPieces_C",
+    "Name": "QFT_UnlockBuildingPieces_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ElderGarou'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ElderGarou'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_Play2DSting_C",
+    "Name": "SEN_Play2DSting_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ElderGarou'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ElderGarou/QF_ElderGarou.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  }
+]

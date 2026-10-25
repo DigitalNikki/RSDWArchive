@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Consumable_Potion_Focused_T3_Cooking",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Herb_Irit'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Herb/ITEM_Herb_Irit"
+          },
+          "Count": 1
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Cabbage'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Plant/ITEM_Resources_Cabbage"
+          },
+          "Count": 1
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Glass_Vessel'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Glass/ITEM_Resources_Glass_Vessel"
+          },
+          "Count": 1
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "BP_Consumables_Potion_C'ITEM_Consumable_Potion_Focused_T3_Cooking'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T3_Cooking"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Potion"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting"
+        },
+        "RowName": "Craft_Herblore_Lab_Recipe"
+      },
+      "PersistenceID": "A-QaIUFX9smSgGec6jgP2g",
+      "InternalName": "RECIPE_Consumable_Potion_Focused_T3_Cooking"
+    }
+  }
+]

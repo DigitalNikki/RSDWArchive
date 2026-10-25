@@ -1,0 +1,50 @@
+[
+  {
+    "Type": "DominionSoundClass",
+    "Name": "LesserDragon",
+    "Class": "UScriptClass'DominionSoundClass'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MinReverbSend": 0.1,
+      "MaxReverbSend": 0.5,
+      "OcclusionMultiplier": 1.0,
+      "Properties": {
+        "Volume": 0.7943282
+      },
+      "ChildClasses": [
+        {
+          "ObjectName": "DominionSoundClass'LesserDragon_Foley'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/LesserDragon/LesserDragon_Foley"
+        },
+        {
+          "ObjectName": "DominionSoundClass'LesserDragon_FS'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/LesserDragon/LesserDragon_FS"
+        },
+        {
+          "ObjectName": "DominionSoundClass'LesserDragon_Vox_Com_Maj'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/LesserDragon/LesserDragon_Vox_Com_Maj"
+        },
+        {
+          "ObjectName": "DominionSoundClass'LesserDragon_Vox_Com_Min'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/LesserDragon/LesserDragon_Vox_Com_Min"
+        },
+        {
+          "ObjectName": "DominionSoundClass'LesserDragon_Vox_NonCom_Maj'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/LesserDragon/LesserDragon_Vox_NonCom_Maj"
+        },
+        {
+          "ObjectName": "DominionSoundClass'LesserDragon_Vox_NonCom_Min'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/LesserDragon/LesserDragon_Vox_NonCom_Min"
+        },
+        {
+          "ObjectName": "DominionSoundClass'LesserDragon_Vox_Com_Maj_Hatchling'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/LesserDragon/LesserDragon_Vox_Com_Maj_Hatchling"
+        }
+      ],
+      "ParentClass": {
+        "ObjectName": "DominionSoundClass'Boss'",
+        "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Boss/Boss"
+      }
+    }
+  }
+]

@@ -1,0 +1,95 @@
+[
+  {
+    "Type": "HeldEquipmentData",
+    "Name": "ITEM_Pickaxe_Iron",
+    "Class": "UScriptClass'HeldEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HeldEquipmentActorClass": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Pickaxe/BP_Pickaxe.BP_Pickaxe_C",
+        "SubPathString": ""
+      },
+      "PrimaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_Pickaxe_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Pickaxe/PA_Attack_Pickaxe"
+      },
+      "SecondaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Block_PickAxe_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Abilities/Block/PA_Block_PickAxe"
+      },
+      "AnimationPoseType": "EAnimationPoseType::Default",
+      "AnimationPosesSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Idle_Pickaxe_Poses'",
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Pickaxe/A_PlayerM_Idle_Pickaxe_Poses"
+      },
+      "BaseHeldEquipmentPowerLevelRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_PlayerWeaponPowerLevels'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels"
+        },
+        "RowName": "Weapons"
+      },
+      "BaseHeldEquipmentDamageNegationRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_PlayerDamageNegation'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_PlayerDamageNegation"
+        },
+        "RowName": "Tools"
+      },
+      "DamageMultiplier": 5.0,
+      "AdditionalDamageMultiplier": 0.9000001,
+      "DamageTypes": [
+        "DamageType.Physical.Crush"
+      ],
+      "Slot": "ELoadoutSlotStrategy::HeldTwoHanded",
+      "Tier": 4,
+      "bIsAWeapon": true,
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Mining'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Mining"
+      },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "IronPickaxe",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "5B2E7EE34D3ECBFE14ACB8BD91E46CE0",
+        "SourceString": "Essential for mining hard, valuable rocks, this iron pickaxe is a miner's best friend.",
+        "LocalizedString": "Essential for mining hard, valuable rocks, this iron pickaxe is a miner's best friend."
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Weapons_09_24/T_Icon_Pickaxe_Iron_2H_01.T_Icon_Pickaxe_Iron_2H_01",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Skeleton/Weapons/Tool/Pickaxe_Iron_2H_01/SM_Pickaxe_Iron_2H_01.SM_Pickaxe_Iron_2H_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 4,
+      "Weight": 5.0,
+      "Category": {
+        "TagName": "Item.Equipment.Tool.Pickaxe"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Tool.Pickaxe"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Metal.Pickaxe"
+      },
+      "BaseDurability": 2100,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak"
+      },
+      "PersistenceID": "VfaynRGcAkammV5YUusfbA",
+      "InternalName": "tool_pick_iron"
+    }
+  }
+]

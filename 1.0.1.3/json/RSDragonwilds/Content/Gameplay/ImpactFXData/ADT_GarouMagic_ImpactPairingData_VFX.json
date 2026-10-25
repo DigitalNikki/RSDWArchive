@@ -1,0 +1,95 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ADT_GarouMagic_ImpactPairingData_VFX",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Object'ImpactSourceVFXTableRow'",
+        "ObjectPath": "/Script/Dominion"
+      }
+    },
+    "Rows": {
+      "Default": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "VFX": {
+            "ObjectName": "NiagaraSystem'NS_Beast_Druid_NatureBolt_HitImpact'",
+            "ObjectPath": "/Game/Art/VFX/Library/Character/Beast_Druid/NatureBolt/NS_Beast_Druid_NatureBolt_HitImpact"
+          },
+          "CritVFX": null
+        },
+        "Identifier": [
+          "Audio.Default"
+        ]
+      },
+      "None": {
+        "PhysicalMaterials": [
+          {
+            "ObjectName": "DominionPhysicalMaterial'Grass_Soft'",
+            "ObjectPath": "/Game/Audio/PhysMats/Grass_Soft"
+          },
+          null,
+          {
+            "ObjectName": "DominionPhysicalMaterial'Gravel'",
+            "ObjectPath": "/Game/Audio/PhysMats/Gravel"
+          },
+          {
+            "ObjectName": "DominionPhysicalMaterial'Metal'",
+            "ObjectPath": "/Game/Audio/PhysMats/Metal"
+          },
+          {
+            "ObjectName": "DominionPhysicalMaterial'Mud_Shallow'",
+            "ObjectPath": "/Game/Audio/PhysMats/Mud_Shallow"
+          },
+          {
+            "ObjectName": "DominionPhysicalMaterial'Rock'",
+            "ObjectPath": "/Game/Audio/PhysMats/Rock"
+          },
+          {
+            "ObjectName": "DominionPhysicalMaterial'Wood_Boards_Tight'",
+            "ObjectPath": "/Game/Audio/PhysMats/Wood_Boards_Tight"
+          }
+        ],
+        "ImpactFXData": {
+          "VFX": {
+            "ObjectName": "NiagaraSystem'NS_VaultGuardian_RubbleThrow_Impact'",
+            "ObjectPath": "/Game/Art/VFX/Library/Character/VaultGuardian/RubbleThrow/NS_VaultGuardian_RubbleThrow_Impact"
+          },
+          "CritVFX": null
+        },
+        "Identifier": []
+      },
+      "Audio.Kalphite.Immune": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "VFX": {
+            "ObjectName": "NiagaraSystem'NS_KalphiteQueen_ImmunityPulse'",
+            "ObjectPath": "/UmbralSands/Art/VFX/AI/KalphiteQueen/Immunity/NS_KalphiteQueen_ImmunityPulse"
+          },
+          "CritVFX": null
+        },
+        "Identifier": [
+          "Audio.Chitin.Kalphite.Immune.Magic"
+        ]
+      },
+      "Audio.Kothaar": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "VFX": {
+            "ObjectName": "NiagaraSystem'NS_Kothaar_Impact_LavaBlood'",
+            "ObjectPath": "/UmbralSands/Art/VFX/AI/Kothaar/ImpactsBlood/NS_Kothaar_Impact_LavaBlood"
+          },
+          "CritVFX": {
+            "ObjectName": "NiagaraSystem'NS_Kothaar_Impact_LavaBlood_Critic_melee'",
+            "ObjectPath": "/UmbralSands/Art/VFX/AI/Kothaar/ImpactsBlood/NS_Kothaar_Impact_LavaBlood_Critic_melee"
+          }
+        },
+        "Identifier": [
+          "Audio.AI.Kothaar"
+        ]
+      }
+    }
+  }
+]

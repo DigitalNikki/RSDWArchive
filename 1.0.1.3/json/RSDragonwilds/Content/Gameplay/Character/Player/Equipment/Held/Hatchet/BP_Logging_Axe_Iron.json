@@ -1,0 +1,121 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Logging_Axe_Iron_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Logging_Axe_Iron_C:SimpleConstructionScript_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Hatchet/BP_Logging_Axe_Iron.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_HeldEquipmentBase_C'",
+      "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Held/BP_HeldEquipmentBase"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_NoExport | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Logging_Axe_Iron_C'Default__BP_Logging_Axe_Iron_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Hatchet/BP_Logging_Axe_Iron.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Logging_Axe_Iron_C",
+    "Name": "Default__BP_Logging_Axe_Iron_C",
+    "Class": "BlueprintGeneratedClass'1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Hatchet/BP_Logging_Axe_Iron.BP_Logging_Axe_Iron_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Logging_Axe_Iron_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Hatchet/BP_Logging_Axe_Iron.0"
+    },
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Default Scene Root",
+    "Outer": {
+      "ObjectName": "BP_Logging_Axe_Iron_C'Default__BP_Logging_Axe_Iron_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Hatchet/BP_Logging_Axe_Iron.1"
+    },
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Logging_Axe_Iron_C:SimpleConstructionScript_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Hatchet/BP_Logging_Axe_Iron.5"
+    },
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Logging_Axe_Iron_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Hatchet/BP_Logging_Axe_Iron.2"
+      },
+      "VariableGUID": "E88CA356-438853B2-6607E49A-521F36E6",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Logging_Axe_Iron_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Hatchet/BP_Logging_Axe_Iron.0"
+    },
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Logging_Axe_Iron_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Hatchet/BP_Logging_Axe_Iron.4"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "Mesh Component",
+    "Outer": {
+      "ObjectName": "BP_Logging_Axe_Iron_C'Default__BP_Logging_Axe_Iron_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Hatchet/BP_Logging_Axe_Iron.1"
+    },
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_LoggingAxe_Iron_2H_01'",
+        "ObjectPath": "/Game/Art/Skeleton/Weapons/Tool/LoggingAxe_Iron_2H_01/SK_LoggingAxe_Iron_2H_01"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SK_LoggingAxe_Iron_2H_01'",
+        "ObjectPath": "/Game/Art/Skeleton/Weapons/Tool/LoggingAxe_Iron_2H_01/SK_LoggingAxe_Iron_2H_01"
+      },
+      "bReceivesDecals": false,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_Logging_Axe_Iron_C:Default Scene Root'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Hatchet/BP_Logging_Axe_Iron.3"
+      }
+    }
+  }
+]

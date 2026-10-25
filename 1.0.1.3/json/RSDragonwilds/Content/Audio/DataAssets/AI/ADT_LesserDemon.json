@@ -1,0 +1,611 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ADT_LesserDemon",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Object'AiAnimationAudioTableRowBase'",
+        "ObjectPath": "/Script/Dominion"
+      }
+    },
+    "Rows": {
+      "Footstep_Walk": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.LesserDemon"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_LesserDemonFootsteps_Walk'",
+              "ObjectPath": "/Game/Audio/DataAssets/FootstepData/ADA_LesserDemonFootsteps_Walk"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "foot_r",
+          "foot_l"
+        ]
+      },
+      "Dodge": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.LesserDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Co_LesserDemon_Dodge'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Foley/MSS_En_Co_LesserDemon_Dodge"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "BodyFall": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.LesserDemon"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_Cr_Bodyfall_Med'",
+              "ObjectPath": "/Game/Audio/DataAssets/Foley/ADA_Cr_Bodyfall_Med"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "Spine_03"
+        ]
+      },
+      "HandPlant": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.LesserDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_LesserDemon_Handplant'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Foley/MSS_En_Fo_LesserDemon_Handplant"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "hand_r",
+          "hand_l"
+        ]
+      },
+      "Swing": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.LesserDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Co_LesserDemon_Swing'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Foley/MSS_En_Co_LesserDemon_Swing"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.LesserDemon.Shock"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Co_LesserDemon_Swing_Shock'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Foley/MSS_En_Co_LesserDemon_Swing_Shock"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "hand_r",
+          "hand_l"
+        ]
+      },
+      "Leap": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.LesserDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Co_LesserDemon_Leap'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Combat/MSS_En_Co_LesserDemon_Leap"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Leap_Large": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.LesserDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Co_LesserDemon_LeapLarge'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Combat/MSS_En_Co_LesserDemon_LeapLarge"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Leap_Attack": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.LesserDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Co_LesserDemon_LeapAttack'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Combat/MSS_En_Co_LesserDemon_LeapAttack"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "hand_r",
+          "hand_l"
+        ]
+      },
+      "Roar": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.LesserDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Co_LesserDemon_Roar'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Combat/MSS_En_Co_LesserDemon_Roar"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Slash": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.LesserDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Co_LesserDemon_Slash'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Combat/MSS_En_Co_LesserDemon_Slash"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "hand_r",
+          "hand_l"
+        ]
+      },
+      "Summon": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.LesserDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Co_LesserDemon_Summon'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Combat/MSS_En_Co_LesserDemon_Summon"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "ComboFinal": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.LesserDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Co_LesserDemon_ComboLast'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Combat/MSS_En_Co_LesserDemon_ComboLast"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Attack_Windup": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.LesserDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Co_LesserDemon_AttackWindup'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Combat/MSS_En_Co_LesserDemon_AttackWindup"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "hand_r",
+          "hand_l"
+        ]
+      },
+      "Vox_Aggro": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.LesserDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_LD_Aggro'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Vox/MSS_En_Vox_LD_Aggro"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "lipLower_c"
+        ]
+      },
+      "Vox_Attack": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.LesserDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_LD_Attack'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Vox/MSS_En_Vox_LD_Attack"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head"
+        ]
+      },
+      "Vox_Attack_Windup": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.LesserDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_LD_AttackWindup'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Vox/MSS_En_Vox_LD_AttackWindup"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "lipLower_c"
+        ]
+      },
+      "Vox_Death": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.LesserDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_LD_Death'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Vox/MSS_En_Vox_LD_Death"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": true,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "lipLower_c"
+        ]
+      },
+      "Vox_Dodge": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.LesserDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_LD_Dodge'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Vox/MSS_En_Vox_LD_Dodge"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "lipLower_c"
+        ]
+      },
+      "Vox_Exhale": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.LesserDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_LD_Exhale'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Vox/MSS_En_Vox_LD_Exhale"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Vox_HitReact": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.LesserDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_LD_HitReact'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Vox/MSS_En_Vox_LD_HitReact"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "lipLower_c"
+        ]
+      },
+      "Vox_Inhale": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.LesserDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_LD_Inhale'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Vox/MSS_En_Vox_LD_Inhale"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "lipLower_c"
+        ]
+      },
+      "Vox_Leap": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.LesserDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_LD_Leap'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Vox/MSS_En_Vox_LD_Leap"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "lipLower_c"
+        ]
+      },
+      "Vox_Roar": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.LesserDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_LD_Roar'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Vox/MSS_En_Vox_LD_Roar"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head"
+        ]
+      },
+      "Vox_Summon": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.LesserDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_LD_Summon'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Vox/MSS_En_Vox_LD_Summon"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head"
+        ]
+      },
+      "Vox_Suspicious": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.LesserDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_LD_Suspicious'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Vox/MSS_En_Vox_LD_Suspicious"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "lipLower_c"
+        ]
+      },
+      "Footstep_Run": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.LesserDemon"
+            },
+            "Value": null
+          }
+        ],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.LesserDemon"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_LesserDemonFootsteps_Run'",
+              "ObjectPath": "/Game/Audio/DataAssets/FootstepData/ADA_LesserDemonFootsteps_Run"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "foot_r",
+          "foot_l",
+          "Hand_R",
+          "Hand_L"
+        ]
+      },
+      "Vox_Inhale_Locomotion": {
+        "AnimationActionType": "EAiAnimationAudioActions::Vox",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.LesserDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_LD_Inhale_Locomotion'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Vox/MSS_En_Vox_LD_Inhale_Locomotion"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": true,
+        "AllowedBones": []
+      },
+      "Vox_Exhale_Locomotion": {
+        "AnimationActionType": "EAiAnimationAudioActions::Vox",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.LesserDemon"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_LD_Exhale_Locomotion'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/LesserDemon/Vox/MSS_En_Vox_LD_Exhale_Locomotion"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": true,
+        "AllowedBones": []
+      }
+    }
+  }
+]

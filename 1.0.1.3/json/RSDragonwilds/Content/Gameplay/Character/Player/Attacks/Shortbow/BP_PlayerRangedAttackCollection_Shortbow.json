@@ -1,0 +1,168 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_PlayerRangedAttackCollection_Shortbow_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'PlayerRangedAttackCollection'",
+      "ObjectPath": "/Script/Dominion"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_PlayerRangedAttackCollection_Shortbow_C'Default__BP_PlayerRangedAttackCollection_Shortbow_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Shortbow/BP_PlayerRangedAttackCollection_Shortbow.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_PlayerRangedAttackCollection_Shortbow_C",
+    "Name": "Default__BP_PlayerRangedAttackCollection_Shortbow_C",
+    "Class": "BlueprintGeneratedClass'1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Shortbow/BP_PlayerRangedAttackCollection_Shortbow.BP_PlayerRangedAttackCollection_Shortbow_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "QuickAttackData": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Player_Shortbow_Quickshot_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Shortbow/BP_Player_Shortbow_Quickshot"
+      },
+      "QuickAttackWeakPointGameplayEffects": {
+        "GameplayEffects": [
+          {
+            "ObjectName": "GE_StatusEffect_Hamstrung_Add25_C'Default__BP_PlayerRangedAttackCollection_Shortbow_C:GE_StatusEffect_Hamstrung_Add25_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Shortbow/BP_PlayerRangedAttackCollection_Shortbow.2"
+          }
+        ],
+        "WeakPointTags": [
+          {
+            "TagName": "Player.Status.Hamstrung"
+          }
+        ]
+      },
+      "FullAttackData": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Player_Shortbow_FullDraw_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Shortbow/BP_Player_Shortbow_FullDraw"
+      },
+      "LaunchSpeedCurve": {
+        "ObjectName": "CurveFloat'Curve_Shortbow_LaunchSpeed'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Shortbow/Curve_Shortbow_LaunchSpeed"
+      },
+      "OverrideGravityZCurve": {
+        "ObjectName": "CurveFloat'Curve_Shortbow_OverrideGravityZ'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Shortbow/Curve_Shortbow_OverrideGravityZ"
+      },
+      "DamageMultiplierCurve": {
+        "ObjectName": "CurveFloat'Curve_Shortbow_DamageMultiplier'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Shortbow/Curve_Shortbow_DamageMultiplier"
+      },
+      "TrickShotDamageMultiplier": 1.15,
+      "ForceMultiplierCurve": {
+        "ObjectName": "CurveFloat'Curve_Shortbow_ForceMultiplier'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Shortbow/Curve_Shortbow_ForceMultiplier"
+      },
+      "MaxChargeUpDuration": 0.75,
+      "TimeBeforeFullAccuracy": 1.25,
+      "TimeAtFullStrength": 6.0,
+      "AccuracyLossWhenStrained": 4.0,
+      "AccuracyLossControlCurve": {
+        "ObjectName": "CurveFloat'Curve_ShortBowAccuracyLossControlCurve'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Shortbow/Curve_ShortBowAccuracyLossControlCurve"
+      },
+      "BaseStrainedCameraShake": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Feedback_RangedCombatStrainedCameraShake_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/BP_Feedback_RangedCombatStrainedCameraShake"
+      },
+      "CameraShakeControlCurve": {
+        "ObjectName": "CurveFloat'Curve_ShortBowCameraShakeControlCurve'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Shortbow/Curve_ShortBowCameraShakeControlCurve"
+      },
+      "WobbleControlCurve": {
+        "ObjectName": "CurveFloat'Curve_ShortBowReticleWobbleControlCurve'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Shortbow/Curve_ShortBowReticleWobbleControlCurve"
+      },
+      "FullAttackWeakPointGameplayEffects": [
+        {
+          "ChargeRange": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 0.9
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 1.0
+            }
+          },
+          "WeakPointGameplayEffects": {
+            "GameplayEffects": [
+              {
+                "ObjectName": "GE_StatusEffect_Hamstrung_Add50_C'Default__BP_PlayerRangedAttackCollection_Shortbow_C:GE_StatusEffect_Hamstrung_Add50_C_0'",
+                "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Shortbow/BP_PlayerRangedAttackCollection_Shortbow.4"
+              }
+            ],
+            "WeakPointTags": [
+              {
+                "TagName": "Player.Status.Hamstrung"
+              }
+            ]
+          }
+        }
+      ],
+      "SpecialAttackData": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Player_Shortbow_Rapidshot_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Shortbow/BP_Player_Shortbow_Rapidshot"
+      },
+      "SpecialAttackWeakPointGameplayEffects": {
+        "GameplayEffects": [
+          {
+            "ObjectName": "GE_StatusEffect_Hamstrung_Add35_C'Default__BP_PlayerRangedAttackCollection_Shortbow_C:GE_StatusEffect_Hamstrung_Add35_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Shortbow/BP_PlayerRangedAttackCollection_Shortbow.3"
+          }
+        ],
+        "WeakPointTags": [
+          {
+            "TagName": "Player.Status.Hamstrung"
+          }
+        ]
+      },
+      "bShouldEnableCustomCameraModeDuringSpecialAttack": true,
+      "SpecialAttackAimModeAimingCameraProfile": {
+        "ObjectName": "CameraProfile'DA_AimModeShortbowRapidshotCameraProfile'",
+        "ObjectPath": "/Game/Gameplay/Character/Data/DA_AimModeShortbowRapidshotCameraProfile"
+      }
+    }
+  },
+  {
+    "Type": "GE_StatusEffect_Hamstrung_Add25_C",
+    "Name": "GE_StatusEffect_Hamstrung_Add25_C_0",
+    "Outer": {
+      "ObjectName": "BP_PlayerRangedAttackCollection_Shortbow_C'Default__BP_PlayerRangedAttackCollection_Shortbow_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Shortbow/BP_PlayerRangedAttackCollection_Shortbow.1"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "GE_StatusEffect_Hamstrung_Add35_C",
+    "Name": "GE_StatusEffect_Hamstrung_Add35_C_1",
+    "Outer": {
+      "ObjectName": "BP_PlayerRangedAttackCollection_Shortbow_C'Default__BP_PlayerRangedAttackCollection_Shortbow_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Shortbow/BP_PlayerRangedAttackCollection_Shortbow.1"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "GE_StatusEffect_Hamstrung_Add50_C",
+    "Name": "GE_StatusEffect_Hamstrung_Add50_C_0",
+    "Outer": {
+      "ObjectName": "BP_PlayerRangedAttackCollection_Shortbow_C'Default__BP_PlayerRangedAttackCollection_Shortbow_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Shortbow/BP_PlayerRangedAttackCollection_Shortbow.1"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "Type": "DominionInputMode",
+    "Name": "DIM_FreeRoam",
+    "Class": "UScriptClass'DominionInputMode'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "InputConfig": "EDominionWidgetInputMode::Game",
+      "Mappings": [
+        {
+          "InputMapping": {
+            "ObjectName": "InputMappingContext'IMC_Camera'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Mappings/IMC_Camera"
+          },
+          "Priority": 0,
+          "DebugBuildsOnly": false
+        },
+        {
+          "InputMapping": {
+            "ObjectName": "InputMappingContext'IMC_OculusMovement'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Mappings/IMC_OculusMovement"
+          },
+          "Priority": 0,
+          "DebugBuildsOnly": false
+        },
+        {
+          "InputMapping": {
+            "ObjectName": "InputMappingContext'IMC_ExitFreeRoam'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Mappings/IMC_ExitFreeRoam"
+          },
+          "Priority": 0,
+          "DebugBuildsOnly": false
+        }
+      ],
+      "bIsEmoteMenuAllowedToOpen": false,
+      "bIsSpellcastingMenuAllowedToOpen": false
+    }
+  }
+]

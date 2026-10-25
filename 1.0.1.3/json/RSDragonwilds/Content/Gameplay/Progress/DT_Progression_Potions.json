@@ -1,0 +1,2146 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_Progression_Potions",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Object'ProgressionBundleRow'",
+        "ObjectPath": "/Script/Dominion"
+      }
+    },
+    "Rows": {
+      "T1_Weak_Antipoison": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ANY ITEMS[ Marrentill, Bittercap Mushroom ]    AND    ANY ACTORS[ BP_Crafting_Cauldron_C,  ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AnyMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Herb_Marrentill'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Herb/ITEM_Herb_Marrentill"
+              },
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Mushroom'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Plant/ITEM_Resources_Mushroom"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": true,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ActorsInteractedWith",
+            "Condition": "EUnlockMatchCondition::AnyMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'BP_Crafting_Cauldron_C'",
+                "ObjectPath": "/Game/Gameplay/World/Stations/BP_Crafting_Cauldron"
+              },
+              null
+            ],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Potion_T1_Weak_Antipoison'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Magic/RECIPE_Consumable_Potion_T1_Weak_Antipoison"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "T1_Weak_Quarrymaster": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ANY ITEMS[ Harralander, Clay ]    AND    ANY ACTORS[ BP_Crafting_Cauldron_C,  ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AnyMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Herb_Harralander'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Herb/ITEM_Herb_Harralander"
+              },
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Clay'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Mineral/ITEM_Resources_Clay"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": true,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ActorsInteractedWith",
+            "Condition": "EUnlockMatchCondition::AnyMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'BP_Crafting_Cauldron_C'",
+                "ObjectPath": "/Game/Gameplay/World/Stations/BP_Crafting_Cauldron"
+              },
+              null
+            ],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Potion_T1_Weak_Quarrymaster'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Magic/RECIPE_Consumable_Potion_T1_Weak_Quarrymaster"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "T1_Weak_Lumberjack": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ANY ITEMS[ Harralander, Antler ]    AND    ANY ACTORS[ BP_Crafting_Cauldron_C,  ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AnyMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Herb_Harralander'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Herb/ITEM_Herb_Harralander"
+              },
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Animal_Horn'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_Animal_Horn"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": true,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ActorsInteractedWith",
+            "Condition": "EUnlockMatchCondition::AnyMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'BP_Crafting_Cauldron_C'",
+                "ObjectPath": "/Game/Gameplay/World/Stations/BP_Crafting_Cauldron"
+              },
+              null
+            ],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Potion_T1_Weak_Lumberjack'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Magic/RECIPE_Consumable_Potion_T1_Weak_Lumberjack"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "T1_Weak_Focused_Artisan": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ANY ITEMS[ Marrentill,  ]    AND    ANY ACTORS[ BP_Crafting_Cauldron_C,  ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AnyMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Herb_Marrentill'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Herb/ITEM_Herb_Marrentill"
+              },
+              null
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": true,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ActorsInteractedWith",
+            "Condition": "EUnlockMatchCondition::AnyMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'BP_Crafting_Cauldron_C'",
+                "ObjectPath": "/Game/Gameplay/World/Stations/BP_Crafting_Cauldron"
+              },
+              null
+            ],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Potion_Focused_T1_Weak_Artisan'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Magic/RECIPE_Consumable_Potion_Focused_T1_Weak_Artisan"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "T1_Weak_Focused_Attack": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ANY ITEMS[ Marrentill, Small Animal Fang ]    AND    ANY ACTORS[ BP_Crafting_Cauldron_C,  ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AnyMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Herb_Marrentill'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Herb/ITEM_Herb_Marrentill"
+              },
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Fang'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_Fang"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": true,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ActorsInteractedWith",
+            "Condition": "EUnlockMatchCondition::AnyMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'BP_Crafting_Cauldron_C'",
+                "ObjectPath": "/Game/Gameplay/World/Stations/BP_Crafting_Cauldron"
+              },
+              null
+            ],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Potion_Focused_T1_Weak_Attack'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Magic/RECIPE_Consumable_Potion_Focused_T1_Weak_Attack"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "T1_Weak_Focused_Construction": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ANY ITEMS[ Marrentill, Flax ]    AND    ANY ACTORS[ BP_Crafting_Cauldron_C,  ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AnyMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Herb_Marrentill'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Herb/ITEM_Herb_Marrentill"
+              },
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Flax'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Plant/ITEM_Resources_Flax"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": true,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ActorsInteractedWith",
+            "Condition": "EUnlockMatchCondition::AnyMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'BP_Crafting_Cauldron_C'",
+                "ObjectPath": "/Game/Gameplay/World/Stations/BP_Crafting_Cauldron"
+              },
+              null
+            ],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Potion_Focused_T1_Weak_Construction'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Magic/RECIPE_Consumable_Potion_Focused_T1_Weak_Construction"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "T1_Weak_Focused_Cooking": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ANY ITEMS[ Marrentill, Cabbage ]    AND    ANY ACTORS[ BP_Crafting_Cauldron_C,  ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AnyMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Herb_Marrentill'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Herb/ITEM_Herb_Marrentill"
+              },
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Cabbage'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Plant/ITEM_Resources_Cabbage"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": true,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ActorsInteractedWith",
+            "Condition": "EUnlockMatchCondition::AnyMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'BP_Crafting_Cauldron_C'",
+                "ObjectPath": "/Game/Gameplay/World/Stations/BP_Crafting_Cauldron"
+              },
+              null
+            ],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Potion_Focused_T1_Weak_Cooking'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Magic/RECIPE_Consumable_Potion_Focused_T1_Weak_Cooking"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "T1_Weak_Focused_Mining": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ANY ITEMS[ Marrentill, Animal Bone ]    AND    ANY ACTORS[ BP_Crafting_Cauldron_C,  ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AnyMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Herb_Marrentill'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Herb/ITEM_Herb_Marrentill"
+              },
+              {
+                "ObjectName": "ItemData'ITEM_Resources_AnimalBone'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_AnimalBone"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": true,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ActorsInteractedWith",
+            "Condition": "EUnlockMatchCondition::AnyMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'BP_Crafting_Cauldron_C'",
+                "ObjectPath": "/Game/Gameplay/World/Stations/BP_Crafting_Cauldron"
+              },
+              null
+            ],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Potion_Focused_T1_Weak_Mining'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Magic/RECIPE_Consumable_Potion_Focused_T1_Weak_Mining"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "T1_Weak_Focused_Runecrafting": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ANY ITEMS[ Marrentill, Coarse Animal Fur ]    AND    ANY ACTORS[ BP_Crafting_Cauldron_C,  ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AnyMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Herb_Marrentill'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Herb/ITEM_Herb_Marrentill"
+              },
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Coarse_Animal_Fur'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_Coarse_Animal_Fur"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": true,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ActorsInteractedWith",
+            "Condition": "EUnlockMatchCondition::AnyMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'BP_Crafting_Cauldron_C'",
+                "ObjectPath": "/Game/Gameplay/World/Stations/BP_Crafting_Cauldron"
+              },
+              null
+            ],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Potion_Focused_T1_Weak_Runecrafting'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Magic/RECIPE_Consumable_Potion_Focused_T1_Weak_Runecrafting"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "T1_Weak_Focused_Woodcutting": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ANY ITEMS[ Marrentill, Feathers ]    AND    ANY ACTORS[ BP_Crafting_Cauldron_C,  ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AnyMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Herb_Marrentill'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Herb/ITEM_Herb_Marrentill"
+              },
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Feathers'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_Feathers"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": true,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ActorsInteractedWith",
+            "Condition": "EUnlockMatchCondition::AnyMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'BP_Crafting_Cauldron_C'",
+                "ObjectPath": "/Game/Gameplay/World/Stations/BP_Crafting_Cauldron"
+              },
+              null
+            ],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Potion_Focused_T1_Weak_Woodcutting'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Magic/RECIPE_Consumable_Potion_Focused_T1_Weak_Woodcutting"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "T1_Weak_Focused_Farming": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Marrentill, Weeds ]    AND    ALL ACTORS[ BP_Crafting_Cauldron_C ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Herb_Marrentill'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Herb/ITEM_Herb_Marrentill"
+              },
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Weeds'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Plant/ITEM_Resources_Weeds"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": true,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ActorsInteractedWith",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'BP_Crafting_Cauldron_C'",
+                "ObjectPath": "/Game/Gameplay/World/Stations/BP_Crafting_Cauldron"
+              }
+            ],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Potion_Focused_T1_Weak_Farming'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Magic/RECIPE_Consumable_Potion_Focused_T1_Weak_Farming"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "T1_Weak_Focused_Fishing": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Sauteed Shrimp ]    AND    ALL ACTORS[ BP_Crafting_Cauldron_C ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fish_Shrimp'",
+                "ObjectPath": "/Fishing/Gameplay/Items/Fishes/Shrimp/ITEM_Consumable_Fish_Shrimp"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": true,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ActorsInteractedWith",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'BP_Crafting_Cauldron_C'",
+                "ObjectPath": "/Game/Gameplay/World/Stations/BP_Crafting_Cauldron"
+              }
+            ],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Potion_Focused_T1_Weak_Fishing'",
+            "ObjectPath": "/Fishing/Gameplay/Items/Consumables/Magic/RECIPE_Consumable_Potion_Focused_T1_Weak_Fishing"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "T1_Weak_Focused_Agility": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ANY ITEMS[ Marrentill, Bronze Leaf ]    AND    ANY ACTORS[ BP_Crafting_Cauldron_C,  ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AnyMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Herb_Marrentill'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Herb/ITEM_Herb_Marrentill"
+              },
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Agility_Bronze_Leaf'",
+                "ObjectPath": "/Agility/Gameplay/Items/Resources/Agility/ITEM_Resources_Agility_Bronze_Leaf"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": true,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ActorsInteractedWith",
+            "Condition": "EUnlockMatchCondition::AnyMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'BP_Crafting_Cauldron_C'",
+                "ObjectPath": "/Game/Gameplay/World/Stations/BP_Crafting_Cauldron"
+              },
+              null
+            ],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Potion_Focused_T1_Weak_Agility'",
+            "ObjectPath": "/Agility/Gameplay/Items/Potions/RECIPE_Consumable_Potion_Focused_T1_Weak_Agility"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "T2_Lesser_Quarrymaster": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Toadflax ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Herb_Toadflax'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Herb/ITEM_Herb_Toadflax"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Potion_T2_Lesser_Quarrymaster'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Magic/RECIPE_Consumable_Potion_T2_Lesser_Quarrymaster"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "T2_Lesser_Lumberjack": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Toadflax ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Herb_Toadflax'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Herb/ITEM_Herb_Toadflax"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Potion_T2_Lesser_Lumberjack'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Magic/RECIPE_Consumable_Potion_T2_Lesser_Lumberjack"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "T2_Lesser_Focused_Artisan": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Snapdragon ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Herb_Snapdragon'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Herb/ITEM_Herb_Snapdragon"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Potion_Focused_T2_Lesser_Artisan'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Magic/RECIPE_Consumable_Potion_Focused_T2_Lesser_Artisan"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "T2_Lesser_Focused_Attack": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Snapdragon ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Herb_Snapdragon'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Herb/ITEM_Herb_Snapdragon"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Potion_Focused_T2_Lesser_Attack'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Magic/RECIPE_Consumable_Potion_Focused_T2_Lesser_Attack"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "T2_Lesser_Focused_Construction": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Snapdragon ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Herb_Snapdragon'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Herb/ITEM_Herb_Snapdragon"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Potion_Focused_T2_Lesser_Construction'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Magic/RECIPE_Consumable_Potion_Focused_T2_Lesser_Construction"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "T2_Lesser_Focused_Cooking": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Snapdragon ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Herb_Snapdragon'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Herb/ITEM_Herb_Snapdragon"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Potion_Focused_T2_Lesser_Cooking'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Magic/RECIPE_Consumable_Potion_Focused_T2_Lesser_Cooking"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "T2_Lesser_Focused_Mining": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Snapdragon ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Herb_Snapdragon'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Herb/ITEM_Herb_Snapdragon"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Potion_Focused_T2_Lesser_Mining'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Magic/RECIPE_Consumable_Potion_Focused_T2_Lesser_Mining"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "T2_Lesser_Focused_Runecrafting": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Snapdragon ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Herb_Snapdragon'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Herb/ITEM_Herb_Snapdragon"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Potion_Focused_T2_Lesser_Runecrafting'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Magic/RECIPE_Consumable_Potion_Focused_T2_Lesser_Runecrafting"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "T2_Lesser_Focused_Farming": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Snapdragon ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Herb_Snapdragon'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Herb/ITEM_Herb_Snapdragon"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Potion_Focused_T2_Lesser_Farming'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Magic/RECIPE_Consumable_Potion_Focused_T2_Lesser_Farming"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "T2_Lesser_Focused_Woodcutting": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Snapdragon ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Herb_Snapdragon'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Herb/ITEM_Herb_Snapdragon"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Potion_Focused_T2_Lesser_Woodcutting'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Magic/RECIPE_Consumable_Potion_Focused_T2_Lesser_Woodcutting"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "T2_Lesser_Focused_Fishing": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Fried Sardine ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fish_Sardine'",
+                "ObjectPath": "/Fishing/Gameplay/Items/Fishes/Sardine/ITEM_Consumable_Fish_Sardine"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Potion_Focused_T2_Lesser_Fishing'",
+            "ObjectPath": "/Fishing/Gameplay/Items/Consumables/Magic/RECIPE_Consumable_Potion_Focused_T2_Lesser_Fishing"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "T2_Lesser_Focused_Agility": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ANY ITEMS[ Snapdragon, Silver Leaf ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AnyMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Herb_Snapdragon'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Herb/ITEM_Herb_Snapdragon"
+              },
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Agility_Silver_Leaf'",
+                "ObjectPath": "/Agility/Gameplay/Items/Resources/Agility/ITEM_Resources_Agility_Silver_Leaf"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Potion_Focused_T2_Lesser_Agility'",
+            "ObjectPath": "/Agility/Gameplay/Items/Potions/RECIPE_Consumable_Potion_Focused_T2_Lesser_Agility"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "T3_Focused_Artisan": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Glass Vessel ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Glass_Vessel'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Glass/ITEM_Resources_Glass_Vessel"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Potion_Focused_T3_Artisan'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Magic/RECIPE_Consumable_Potion_Focused_T3_Artisan"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "T3_Focused_Attack": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Glass Vessel ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Glass_Vessel'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Glass/ITEM_Resources_Glass_Vessel"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Potion_Focused_T3_Attack'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Magic/RECIPE_Consumable_Potion_Focused_T3_Attack"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "T3_Focused_Construction": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Glass Vessel ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Glass_Vessel'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Glass/ITEM_Resources_Glass_Vessel"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Potion_Focused_T3_Construction'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Magic/RECIPE_Consumable_Potion_Focused_T3_Construction"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "T3_Focused_Cooking": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Glass Vessel ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Glass_Vessel'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Glass/ITEM_Resources_Glass_Vessel"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Potion_Focused_T3_Cooking'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Magic/RECIPE_Consumable_Potion_Focused_T3_Cooking"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "T3_Focused_Farming": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Glass Vessel ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Glass_Vessel'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Glass/ITEM_Resources_Glass_Vessel"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Potion_Focused_T3_Farming'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Magic/RECIPE_Consumable_Potion_Focused_T3_Farming"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "T3_Focused_Mining": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Glass Vessel ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Glass_Vessel'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Glass/ITEM_Resources_Glass_Vessel"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Potion_Focused_T3_Mining'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Magic/RECIPE_Consumable_Potion_Focused_T3_Mining"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "T3_Focused_Runecrafting": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Glass Vessel ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Glass_Vessel'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Glass/ITEM_Resources_Glass_Vessel"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Potion_Focused_T3_Runecrafting'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Magic/RECIPE_Consumable_Potion_Focused_T3_Runecrafting"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "T3_Focused_Woodcutting": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Glass Vessel ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Glass_Vessel'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Glass/ITEM_Resources_Glass_Vessel"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Potion_Focused_T3_Woodcutting'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Magic/RECIPE_Consumable_Potion_Focused_T3_Woodcutting"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "T3_Focused_Fishing": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Grilled Trout ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fish_Trout'",
+                "ObjectPath": "/Fishing/Gameplay/Items/Fishes/Trout/ITEM_Consumable_Fish_Trout"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Potion_Focused_T3_Fishing'",
+            "ObjectPath": "/Fishing/Gameplay/Items/Consumables/Magic/RECIPE_Consumable_Potion_Focused_T3_Fishing"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "T3_Antifire": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Glass Vessel ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Glass_Vessel'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Glass/ITEM_Resources_Glass_Vessel"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Potion_T3_Antifire'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Magic/RECIPE_Consumable_Potion_T3_Antifire"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "T3_Lumberjack": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Glass Vessel ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Glass_Vessel'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Glass/ITEM_Resources_Glass_Vessel"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Potion_T3_Lumberjack'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Magic/RECIPE_Consumable_Potion_T3_Lumberjack"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "T3_Quarrymaster": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Glass Vessel ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Glass_Vessel'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Glass/ITEM_Resources_Glass_Vessel"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Potion_T3_Quarrymaster'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Magic/RECIPE_Consumable_Potion_T3_Quarrymaster"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "T2_Lesser_Antipoison": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ANY ITEMS[ Toadflax, Swamp Weed ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AnyMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Herb_Toadflax'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Herb/ITEM_Herb_Toadflax"
+              },
+              {
+                "ObjectName": "ItemData'ITEM_SwampWeed'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Herb/ITEM_SwampWeed"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ActorsInteractedWith",
+            "Condition": "EUnlockMatchCondition::AnyMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'BP_Station_Cauldron_C'",
+                "ObjectPath": "/Game/Gameplay/World/Stations/BP_Station_Cauldron"
+              },
+              null
+            ],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Potion_T2_Lesser_Antipoison'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Magic/RECIPE_Consumable_Potion_T2_Lesser_Antipoison"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "T3_Antipoison": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ANY ITEMS[ Glass Vessel ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AnyMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Glass_Vessel'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Glass/ITEM_Resources_Glass_Vessel"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ActorsInteractedWith",
+            "Condition": "EUnlockMatchCondition::AnyMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'BP_Station_Cauldron_C'",
+                "ObjectPath": "/Game/Gameplay/World/Stations/BP_Station_Cauldron"
+              },
+              null
+            ],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Potion_T3_Antipoison'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Magic/RECIPE_Consumable_Potion_T3_Antipoison"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      }
+    }
+  }
+]

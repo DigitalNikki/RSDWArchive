@@ -1,0 +1,20 @@
+[
+  {
+    "Type": "SoundSubmix",
+    "Name": "UI_ReverbLong",
+    "Class": "UScriptClass'SoundSubmix'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SubmixEffectChain": [
+        {
+          "ObjectName": "SubmixEffectReverbPreset'UI_ReverbLong'",
+          "ObjectPath": "/Game/Audio/Reverbs/UI_Reverb/UI_ReverbLong"
+        }
+      ],
+      "ParentSubmix": {
+        "ObjectName": "SoundSubmix'SFX'",
+        "ObjectPath": "/Game/Audio/Submixes/SFX"
+      }
+    }
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "Type": "ThresholdImpactFXOverrideData",
+    "Name": "ADA_StoneBuildingPiece_thresholdImpactFXOverrideData",
+    "Class": "UScriptClass'ThresholdImpactFXOverrideData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "NoDmgSounds": [
+        {
+          "Key": "DominionMetaSoundSource'/Game/Audio/MetasoundSources/Player/Interactions/WoodCutting/MSS_Pl_WC_TooHard_Metal_Rem.MSS_Pl_WC_TooHard_Metal_Rem'",
+          "Value": [
+            "Audio.Metal"
+          ]
+        },
+        {
+          "Key": "DominionMetaSoundSource'/Game/Audio/MetasoundSources/Player/Interactions/WoodCutting/MSS_Pl_WC_TooHard_StoneBone_Rem.MSS_Pl_WC_TooHard_StoneBone_Rem'",
+          "Value": [
+            "Audio.Bone",
+            "Audio.Stone",
+            "Audio.Wood"
+          ]
+        }
+      ],
+      "FullHealthSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Sh_Co_BasePieceImpact_Stone_HighHP'",
+        "ObjectPath": "/Game/Audio/MetasoundSources/Player/Interactions/BaseBuilding/DamageThresholds/MSS_Sh_Co_BasePieceImpact_Stone_HighHP"
+      },
+      "MidHealthSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Sh_Co_BasePieceImpact_Stone_MidHp'",
+        "ObjectPath": "/Game/Audio/MetasoundSources/Player/Interactions/BaseBuilding/DamageThresholds/MSS_Sh_Co_BasePieceImpact_Stone_MidHp"
+      },
+      "LowHealthSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Sh_Co_BasePieceImpact_Stone_LowHp'",
+        "ObjectPath": "/Game/Audio/MetasoundSources/Player/Interactions/BaseBuilding/DamageThresholds/MSS_Sh_Co_BasePieceImpact_Stone_LowHp"
+      },
+      "FullHealthVFX": {
+        "ObjectName": "NiagaraSystem'NS_Impact_Wood'",
+        "ObjectPath": "/Game/Marketplace/Realistic_Pack/Niagara/Impact/NS_Impact_Wood"
+      },
+      "MidHealthVFX": {
+        "ObjectName": "NiagaraSystem'NS_Impact_Wood'",
+        "ObjectPath": "/Game/Marketplace/Realistic_Pack/Niagara/Impact/NS_Impact_Wood"
+      },
+      "LowHealthVFX": {
+        "ObjectName": "NiagaraSystem'NS_Impact_Wood'",
+        "ObjectPath": "/Game/Marketplace/Realistic_Pack/Niagara/Impact/NS_Impact_Wood"
+      }
+    }
+  }
+]

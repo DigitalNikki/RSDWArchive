@@ -1,0 +1,20 @@
+[
+  {
+    "Type": "SoundSubmix",
+    "Name": "AI_Combat_Vox_Maj",
+    "Class": "UScriptClass'SoundSubmix'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SubmixEffectChain": [
+        {
+          "ObjectName": "SubmixEffectDynamicsProcessorPreset'AI_Vox_Maj_Compressor'",
+          "ObjectPath": "/Game/Audio/Effects/AI_Vox_Maj_Compressor"
+        }
+      ],
+      "ParentSubmix": {
+        "ObjectName": "SoundSubmix'AI_Vox'",
+        "ObjectPath": "/Game/Audio/Submixes/AI_Vox"
+      }
+    }
+  }
+]

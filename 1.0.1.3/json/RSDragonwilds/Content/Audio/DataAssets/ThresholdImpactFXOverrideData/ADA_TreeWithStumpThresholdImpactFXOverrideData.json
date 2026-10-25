@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "ThresholdImpactFXOverrideData",
+    "Name": "ADA_TreeWithStumpThresholdImpactFXOverrideData",
+    "Class": "UScriptClass'ThresholdImpactFXOverrideData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ValidToolTags": [
+        "Item.Equipment.Tool.Hatchet"
+      ],
+      "NoDmgSounds": [
+        {
+          "Key": "DominionMetaSoundSource'/Game/Audio/MetasoundSources/Player/Interactions/WoodCutting/MSS_Pl_WC_TooHard_Metal_Rem.MSS_Pl_WC_TooHard_Metal_Rem'",
+          "Value": [
+            "Audio.Metal"
+          ]
+        },
+        {
+          "Key": "DominionMetaSoundSource'/Game/Audio/MetasoundSources/Player/Interactions/WoodCutting/MSS_Pl_WC_TooHard_StoneBone_Rem.MSS_Pl_WC_TooHard_StoneBone_Rem'",
+          "Value": [
+            "Audio.Bone",
+            "Audio.Stone",
+            "Audio.Wood"
+          ]
+        }
+      ],
+      "FullHealthSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Pl_WC_Im_FullHP'",
+        "ObjectPath": "/Game/Audio/MetasoundSources/Player/Interactions/WoodCutting/MSS_Pl_WC_Im_FullHP"
+      },
+      "MidHealthSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Pl_WC_Im_MedHP'",
+        "ObjectPath": "/Game/Audio/MetasoundSources/Player/Interactions/WoodCutting/MSS_Pl_WC_Im_MedHP"
+      },
+      "LowHealthSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Pl_WC_Im_Tree_LowHP'",
+        "ObjectPath": "/Game/Audio/MetasoundSources/Player/Interactions/WoodCutting/MSS_Pl_WC_Im_Tree_LowHP"
+      },
+      "FullHealthVFX": {
+        "ObjectName": "NiagaraSystem'NS_Impact_Wood_Chop'",
+        "ObjectPath": "/Game/Art/VFX/Library/Env/Foliage/Tree/NS_Impact_Wood_Chop"
+      },
+      "MidHealthVFX": {
+        "ObjectName": "NiagaraSystem'NS_Impact_Wood_Chop'",
+        "ObjectPath": "/Game/Art/VFX/Library/Env/Foliage/Tree/NS_Impact_Wood_Chop"
+      },
+      "LowHealthVFX": {
+        "ObjectName": "NiagaraSystem'NS_Impact_Wood_Chop'",
+        "ObjectPath": "/Game/Art/VFX/Library/Env/Foliage/Tree/NS_Impact_Wood_Chop"
+      },
+      "MinHP": 100.0
+    }
+  }
+]

@@ -1,0 +1,183 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ADT_BeastArrow_ImpactPairingData_VFX",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Object'ImpactSourceVFXTableRow'",
+        "ObjectPath": "/Script/Dominion"
+      }
+    },
+    "Rows": {
+      "Default": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "VFX": {
+            "ObjectName": "NiagaraSystem'NS_Impact_Ranged_Grass'",
+            "ObjectPath": "/Game/Art/VFX/Library/Combat/Ranged/Impact/NS_Impact_Ranged_Grass"
+          },
+          "CritVFX": null
+        },
+        "Identifier": [
+          "Audio.Default"
+        ]
+      },
+      "Audio.Flesh": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "VFX": {
+            "ObjectName": "NiagaraSystem'NS_Impact_Ranged_Flesh'",
+            "ObjectPath": "/Game/Art/VFX/Library/Combat/Ranged/Impact/NS_Impact_Ranged_Flesh"
+          },
+          "CritVFX": {
+            "ObjectName": "NiagaraSystem'NS_Impact_Flesh_Critic_Arrow'",
+            "ObjectPath": "/Game/Art/VFX/Library/Combat/Ranged/Impact/NS_Impact_Flesh_Critic_Arrow"
+          }
+        },
+        "Identifier": [
+          "Audio.Flesh",
+          "Audio.Cloth",
+          "Audio.Leather",
+          "Audio.Metal"
+        ]
+      },
+      "Audio.Metal.Shield": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "VFX": {
+            "ObjectName": "NiagaraSystem'NS_Impact_Ranged_Metal'",
+            "ObjectPath": "/Game/Art/VFX/Library/Combat/Ranged/Impact/NS_Impact_Ranged_Metal"
+          },
+          "CritVFX": null
+        },
+        "Identifier": [
+          "Audio.Metal.Shield"
+        ]
+      },
+      "Audio.Leather.Shield": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "VFX": {
+            "ObjectName": "NiagaraSystem'NS_Impact_Ranged_Wood'",
+            "ObjectPath": "/Game/Art/VFX/Library/Combat/Ranged/Impact/NS_Impact_Ranged_Wood"
+          },
+          "CritVFX": null
+        },
+        "Identifier": [
+          "Audio.Leather.Shield"
+        ]
+      },
+      "Audio.Stone.Blade": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "VFX": {
+            "ObjectName": "NiagaraSystem'NS_Impact_Ranged_Rock'",
+            "ObjectPath": "/Game/Art/VFX/Library/Combat/Ranged/Impact/NS_Impact_Ranged_Rock"
+          },
+          "CritVFX": null
+        },
+        "Identifier": [
+          "Audio.Stone.Blade"
+        ]
+      },
+      "None": {
+        "PhysicalMaterials": [
+          {
+            "ObjectName": "DominionPhysicalMaterial'Mud_Shallow'",
+            "ObjectPath": "/Game/Audio/PhysMats/Mud_Shallow"
+          }
+        ],
+        "ImpactFXData": {
+          "VFX": {
+            "ObjectName": "NiagaraSystem'NS_Impact_Ranged_Mud'",
+            "ObjectPath": "/Game/Art/VFX/Library/Combat/Ranged/Impact/NS_Impact_Ranged_Mud"
+          },
+          "CritVFX": null
+        },
+        "Identifier": []
+      },
+      "Audio.Spectral": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "VFX": {
+            "ObjectName": "NiagaraSystem'NS_VFX_SpectralImpact'",
+            "ObjectPath": "/Game/Art/VFX/Library/Combat/Melee/NS_VFX_SpectralImpact"
+          },
+          "CritVFX": null
+        },
+        "Identifier": [
+          "Audio.Spectral",
+          "Audio.AI.Skeleton.Spectral",
+          "Audio.AI.TerrorBird.Spectral",
+          "Audio.AI.BossDragon.Imaru.Spectral",
+          "Audio.AI.Wolf.Dragon.Spectral",
+          "Audio.AI.Wolf.Spectral",
+          "Audio.AI.Zombie.Spectral"
+        ]
+      },
+      "Audio.Kalphite.Immune": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "VFX": {
+            "ObjectName": "NiagaraSystem'NS_KalphiteQueen_ImmunityPulse'",
+            "ObjectPath": "/UmbralSands/Art/VFX/AI/KalphiteQueen/Immunity/NS_KalphiteQueen_ImmunityPulse"
+          },
+          "CritVFX": null
+        },
+        "Identifier": [
+          "Audio.Chitin.Kalphite.Immune.Ranged"
+        ]
+      },
+      "Audio.Splitbark": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "VFX": {
+            "ObjectName": "NiagaraSystem'NS_Metal_Flesh_Impact'",
+            "ObjectPath": "/Game/Art/VFX/Library/Combat/Melee/NS_Metal_Flesh_Impact"
+          },
+          "CritVFX": {
+            "ObjectName": "NiagaraSystem'NS_Impact_Flesh_Critic_Melee'",
+            "ObjectPath": "/Game/Art/VFX/Library/Combat/Ranged/Impact/NS_Impact_Flesh_Critic_Melee"
+          }
+        },
+        "Identifier": [
+          "Audio.Splitbark"
+        ]
+      },
+      "Audio.Metal.Armour": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "VFX": {
+            "ObjectName": "NiagaraSystem'NS_Metal_Flesh_Impact'",
+            "ObjectPath": "/Game/Art/VFX/Library/Combat/Melee/NS_Metal_Flesh_Impact"
+          },
+          "CritVFX": {
+            "ObjectName": "NiagaraSystem'NS_Impact_Flesh_Critic_Melee'",
+            "ObjectPath": "/Game/Art/VFX/Library/Combat/Ranged/Impact/NS_Impact_Flesh_Critic_Melee"
+          }
+        },
+        "Identifier": [
+          "Audio.Metal.Armour"
+        ]
+      },
+      "Audio.Kothaar": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "VFX": {
+            "ObjectName": "NiagaraSystem'NS_Kothaar_Impact_LavaBlood'",
+            "ObjectPath": "/UmbralSands/Art/VFX/AI/Kothaar/ImpactsBlood/NS_Kothaar_Impact_LavaBlood"
+          },
+          "CritVFX": {
+            "ObjectName": "NiagaraSystem'NS_Kothaar_Impact_LavaBlood_Critic_Arrow'",
+            "ObjectPath": "/UmbralSands/Art/VFX/AI/Kothaar/ImpactsBlood/NS_Kothaar_Impact_LavaBlood_Critic_Arrow"
+          }
+        },
+        "Identifier": [
+          "Audio.AI.Kothaar"
+        ]
+      }
+    }
+  }
+]

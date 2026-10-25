@@ -1,0 +1,2880 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_HapticFeedbackEvents",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Object'HapticFeedbackEventRow'",
+        "ObjectPath": "/Script/Dominion"
+      }
+    },
+    "Rows": {
+      "Impact_ChestDig": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_Shrt_Hrd_Descend'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_Shrt_Hrd_Descend"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_HardPrompt'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/AW_HAP_HardPrompt"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Impact.ChestDig"
+        ]
+      },
+      "Impact_OnOther_Hit": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_RippleNeutral_100ms'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_RippleNeutral_100ms"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_RippleNeutral_100ms'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/AW_HAP_RippleNeutral_100ms"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Impact.OnOther.Hit"
+        ]
+      },
+      "Impact_OnOther_Blocked": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_HitOnOtherBlocked'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_HitOnOtherBlocked"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_MediumPrompt'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/AW_HAP_MediumPrompt"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Impact.OnOther.Blocked"
+        ]
+      },
+      "Impact_OnSelf_Hit": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'GamePadRumble_OnPlayerReceiveDamage'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GamePadRumble_OnPlayerReceiveDamage"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_HardPrompt'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/AW_HAP_HardPrompt"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Impact.OnSelf.Hit"
+        ]
+      },
+      "Impact_OnSelf_Blocked": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_RipplePositive_250ms'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_RipplePositive_250ms"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_RipplePositive_250ms'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/AW_HAP_RipplePositive_250ms"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Impact.OnSelf.Blocked"
+        ]
+      },
+      "Pickup_Default": {
+        "HapticFeedbackEffect": null,
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": null,
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Pickup.Default"
+        ]
+      },
+      "Dragon_VelgarWrath_LongRoar": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_VelgarWrathLongRoar'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_VelgarWrathLongRoar"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 80000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_VelgarWrathLongRoar'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/AW_HAP_VelgarWrathLongRoar"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Dragon.WrathRoar"
+        ]
+      },
+      "Dragon_Land": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_VelgarLand'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_VelgarLand"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 80000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_VelgarLand'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/AW_HAP_VelgarLand"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Dragon.Land"
+        ]
+      },
+      "Dragon_ClawSlam": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_VelgarClawSlam'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_VelgarClawSlam"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_VelgarClawSlam'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/AW_HAP_VelgarClawSlam"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Dragon.ClawSlam"
+        ]
+      },
+      "Impact_Ground": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_WindstepCastImpact'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_WindstepCastImpact"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_GroundImpact'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/AW_HAP_GroundImpact"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Generic.GroundImpact"
+        ]
+      },
+      "RippleNeutral_100ms": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_RippleNeutral_100ms'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_RippleNeutral_100ms"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_RippleNeutral_100ms'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/AW_HAP_RippleNeutral_100ms"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Ripple.Neutral.100ms"
+        ]
+      },
+      "RipplePostive_540ms": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_RipplePositive_540ms'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_RipplePositive_540ms"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_RipplePositive_540ms'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/AW_HAP_RipplePositive_540ms"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Ripple.Positive.540ms"
+        ]
+      },
+      "RipplePostive_250ms": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_RipplePositive_250ms'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_RipplePositive_250ms"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_RipplePositive_250ms'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/AW_HAP_RipplePositive_250ms"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Ripple.Positive.250ms"
+        ]
+      },
+      "RippleHard_750ms": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_RippleHard_750ms'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_RippleHard_750ms"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_RippleHard_750ms'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/AW_HAP_RippleHard_750ms"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Ripple.Hard.750ms"
+        ]
+      },
+      "Ranged_BowDraw": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_BowDraw'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_BowDraw"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_BowDraw'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/AW_HAP_BowDraw"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Ranged.BowDraw"
+        ]
+      },
+      "Ranged_BowStrain": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_BowStrain'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_BowStrain"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_OculasCast'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/Spells/AW_HAP_OculasCast"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Ranged.BowStrain"
+        ]
+      },
+      "DragonRoar_DistantShort": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_VelgarDistantRoar'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_VelgarDistantRoar"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 80000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_VelgarDistantRoar'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/AW_HAP_VelgarDistantRoar"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Dragon.Roar.DistantShort"
+        ]
+      },
+      "DragonStrongRoar": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_VelgarStrongRoar'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_VelgarStrongRoar"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 80000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_VelgarStrongRoar'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/AW_HAP_VelgarStrongRoar"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Dragon.Roar.Strong"
+        ]
+      },
+      "SpikeAttack_Erupt": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_SpikeErupt'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_SpikeErupt"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 2000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_SpikeErupt'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/AW_HAP_SpikeErupt"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.AISpecialAttack.SpikeErupt"
+        ]
+      },
+      "Dragon_Imaru_NecroticBlast": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_ImaruNecroticBlastImpact'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_ImaruNecroticBlastImpact"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 80000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_ImaruNecroticBlastImpact'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/AW_HAP_ImaruNecroticBlastImpact"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Dragon.NecroticBlastImpact"
+        ]
+      },
+      "Impact_NecroticProj": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_WitheredProjImpact'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_WitheredProjImpact"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_WitheredProjImpact'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/AW_HAP_WitheredProjImpact"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Impacts.NecroticProj"
+        ]
+      },
+      "Dragon_Imaru_NecroticPulse": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_NecroPulse'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_NecroPulse"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_NecroPulse'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/AW_HAP_NecroPulse"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Dragon.NecroticPulse"
+        ]
+      },
+      "Dragon_FireLoop": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_DragonFireLoop'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_DragonFireLoop"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_DragonFireLoop'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/AW_HAP_DragonFireLoop"
+        },
+        "bShouldLoop": true,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Dragon.Fireloop"
+        ]
+      },
+      "Dragon_ImaruDeath": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_ImaruDeath'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_ImaruDeath"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 80000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_ImaruDeath'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/AW_HAP_ImaruDeath"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Dragon.ImaruDeath"
+        ]
+      },
+      "Dragon_ImaruScream": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_ImaruScream'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_ImaruScream"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 80000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_ImaruScream'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/AW_HAP_ImaruScream"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Dragon.ImaruScream"
+        ]
+      },
+      "HardPulseAndFade": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_BlockRipple'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_BlockRipple"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_PulseAndFade_70Hz_570ms'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/AW_HAP_PulseAndFade_70Hz_570ms"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Pulse.PulseAndFadeHard570ms"
+        ]
+      },
+      "Dragon_HeavyWhoosh": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_DragonFlyover'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_DragonFlyover"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 80000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_DragonFlyover'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/AW_HAP_DragonFlyover"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Dragon.HeavyWhoosh"
+        ]
+      },
+      "Teleport": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_Teleport'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_Teleport"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_Teleport'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/AW_HAP_Teleport"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Player.Teleport"
+        ]
+      },
+      "BoulderCrumble": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_RipplePositive_540ms'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_RipplePositive_540ms"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_BoulderCrumble'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/AW_HAP_BoulderCrumble"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Mining.Crumble"
+        ]
+      },
+      "Pre_SpellCast": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_1500ms_HighFreqCast'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_1500ms_HighFreqCast"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_CastMagic'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/Spells/AW_HAP_CastMagic"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Spell.PreCast"
+        ]
+      },
+      "BarktoBone": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_BarkToBone'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_BarkToBone"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_BarkToBone'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/Spells/AW_HAP_BarkToBone"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Spell.BarktoBone"
+        ]
+      },
+      "Confuse": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_Confuse'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_Confuse"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_Confuse'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/Spells/AW_HAP_Confuse"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Spell.Confuse"
+        ]
+      },
+      "DetectOre": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_DetectOre'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_DetectOre"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_DetectOre'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/Spells/AW_HAP_DetectOre"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Spell.DetectOre"
+        ]
+      },
+      "DevineRock": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_DevineRock'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_DevineRock"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_DevineRock'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/Spells/AW_HAP_DevineRock"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Spell.DevineRock"
+        ]
+      },
+      "EnchantAir": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_EnchantAir'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_EnchantAir"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_EnchantAir'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/Spells/AW_HAP_EnchantAir"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Spell.EnchantAir"
+        ]
+      },
+      "EnchantFire": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_EnchantFire'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_EnchantFire"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_EnchantFire'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/Spells/AW_HAP_EnchantFire"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Spell.EnchantFire"
+        ]
+      },
+      "FishingFrenzy": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_FishingFrenzyCast'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_FishingFrenzyCast"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_FishingFrenzyCast'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/Spells/AW_HAP_FishingFrenzyCast"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Spell.FishingFrenzy"
+        ]
+      },
+      "FishnadoCast": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_FishnadoCast'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_FishnadoCast"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_FishnadoCast'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/Spells/AW_HAP_FishnadoCast"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Spell.FishnadoCast"
+        ]
+      },
+      "FishnadoImpact": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_FishnadoImpact'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_FishnadoImpact"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_FishnadoImpact'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/Spells/AW_HAP_FishnadoImpact"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Spell.FishnadoImpact"
+        ]
+      },
+      "Humidify": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_Humidify'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_Humidify"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_Humidify'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/Spells/AW_HAP_Humidify"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Spell.Humidify"
+        ]
+      },
+      "InfernalRod": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_InfernalRod'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_InfernalRod"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_InfernalRod'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/Spells/AW_HAP_InfernalRod"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Spell.InfernalRod"
+        ]
+      },
+      "InternalAlchmy": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_InternalAlchemy'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_InternalAlchemy"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_InternalAlchemy'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/Spells/AW_HAP_InternalAlchemy"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Spell.InternalAlchemy"
+        ]
+      },
+      "MagicalMending": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_MagicalMending'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_MagicalMending"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_MagicalMending'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/Spells/AW_HAP_MagicalMending"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Spell.MagicalMending"
+        ]
+      },
+      "OculasCast": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_OculasCast'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_OculasCast"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_OculasCast'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/Spells/AW_HAP_OculasCast"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Spell.OculasCast"
+        ]
+      },
+      "OculasEnd": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_OculasEnd'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_OculasEnd"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_OculasEnd'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/Spells/AW_HAP_OculasEnd"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Spell.OculasEnd"
+        ]
+      },
+      "PersonalChest": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_PersonalChest'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_PersonalChest"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_PersonalChest'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/Spells/AW_HAP_PersonalChest"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Spell.PersonalChest"
+        ]
+      },
+      "Rocksplosion": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_Rocksplosion'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_Rocksplosion"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_Rocksplosion'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/Spells/AW_HAP_Rocksplosion"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Spell.Rocksplosion"
+        ]
+      },
+      "RunestoRunes": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_RunesToRune'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_RunesToRune"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_RunesToRune'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/Spells/AW_HAP_RunesToRune"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Spell.RunesToRune"
+        ]
+      },
+      "SnareCast": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_SnareCast'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_SnareCast"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_SnareCast'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/Spells/AW_HAP_SnareCast"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Spell.SnareCast"
+        ]
+      },
+      "SpectralArrowCast": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_SpectralArrowCast'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_SpectralArrowCast"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_SpectralArrowCast'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/Spells/AW_HAP_SpectralArrowCast"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Spell.SpectralArrowCast"
+        ]
+      },
+      "Splinter": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_Splinter'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_Splinter"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_Splinter'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/Spells/AW_HAP_Splinter"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Spell.Splinter"
+        ]
+      },
+      "SummonBuddy": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_SummonBuddy'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_SummonBuddy"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_SummonBuddy'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/Spells/AW_HAP_SummonBuddy"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Spell.SummonBuddy"
+        ]
+      },
+      "SummonElemental": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_SummonElemental'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_SummonElemental"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_SummonElemental'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/Spells/AW_HAP_SummonElemental"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Spell.SummonElemental"
+        ]
+      },
+      "SummonShelter": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_SummonShelter'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_SummonShelter"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_SummonShelter'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/Spells/AW_HAP_SummonShelter"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Spell.SummonShelter"
+        ]
+      },
+      "SuperHeat": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_SuperHeat'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_SuperHeat"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_SuperHeat'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/Spells/AW_HAP_SuperHeat"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Spell.SuperHeat"
+        ]
+      },
+      "SurgeDash": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_SurgeDash'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_SurgeDash"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_SurgeDash'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/Spells/AW_HAP_SurgeDash"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Spell.SurgeDash"
+        ]
+      },
+      "SurgeImpact": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_SurgeImpact'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_SurgeImpact"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_SurgeImpact'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/Spells/AW_HAP_SurgeImpact"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Spell.SurgeImpact"
+        ]
+      },
+      "Totum": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_Totum'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_Totum"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_Totum'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/Spells/AW_HAP_Totum"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Spell.Totum"
+        ]
+      },
+      "Uproot": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_Uproot'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_Uproot"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_Uproot'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/Spells/AW_HAP_Uproot"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Spell.Uproot"
+        ]
+      },
+      "WindstepCast": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_WindstepCastImpact'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_WindstepCastImpact"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_WindstepCastImpact'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/Spells/AW_HAP_WindstepCastImpact"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Spell.WindstepCast"
+        ]
+      },
+      "WindstepJump": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_WindstepJump'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_WindstepJump"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_WindstepJump'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/Spells/AW_HAP_WindstepJump"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.SPell.WindstepJump"
+        ]
+      },
+      "AbyFrenzyExplosion": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_Aby_FrenzyExplosion'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_Aby_FrenzyExplosion"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 2000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_Aby_FrenzyExplosion'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/AI/AW_HAP_Aby_FrenzyExplosion"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.AISpecialAttack.AbyFrenzyExplosion"
+        ]
+      },
+      "AbyFrenzyStabGround": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_Aby_FrenzyStabGround'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_Aby_FrenzyStabGround"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_Aby_FrenzyStabGround'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/AI/AW_HAP_Aby_FrenzyStabGround"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.AISpecialAttack.AbyStabGround"
+        ]
+      },
+      "AbyWarpOut": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_Aby_WarpOut'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_Aby_WarpOut"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_Aby_WarpOut'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/AI/AW_HAP_Aby_WarpOut"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.AISpecialAttack.AbyWarpOut"
+        ]
+      },
+      "BKTDeath": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_BKT_Death'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_BKT_Death"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_BKT_Death'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/AI/AW_HAP_BKT_Death"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.AISpecialAttack.BKTDeath"
+        ]
+      },
+      "BKTDodgeBack": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_BKT_DodgeBack'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_BKT_DodgeBack"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_BKT_DodgeBack'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/AI/AW_HAP_BKT_DodgeBack"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.AISpecialAttack.BKTDodgeBack"
+        ]
+      },
+      "BKTFireRing": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_BKT_FireRing'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_BKT_FireRing"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_BKT_FireRing'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/AI/AW_HAP_BKT_FireRing"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.AISpecialAttack.BKTFireRing"
+        ]
+      },
+      "BKTGroundSlam": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_BKT_GroundSlam'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_BKT_GroundSlam"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_BKT_GroundSlam'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/AI/AW_HAP_BKT_GroundSlam"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.AISpecialAttack.BKTGroundSlam"
+        ]
+      },
+      "ImaruSealOpen": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_Imaru_SealOpen'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_Imaru_SealOpen"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_Imaru_SealOpen'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/AI/AW_HAP_Imaru_SealOpen"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Event.ImaruSealOpen"
+        ]
+      },
+      "KalphiteQueenNeedleImpact": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_KalphQueenNeedleImpact'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_KalphQueenNeedleImpact"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_KalphQueenNeedleImpact'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/AI/AW_HAP_KalphQueenNeedleImpact"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.AISpecialAttack.KalQueenNeedleImpact"
+        ]
+      },
+      "KalphiteQueenSandSpawn": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_KalphQueenSandSpawn'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_KalphQueenSandSpawn"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_KalphQueenSandSpawn'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/AI/AW_HAP_KalphQueenSandSpawn"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.AISpecialAttack.KalQueenSandSpawn"
+        ]
+      },
+      "VaultDoorOpen": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_Vault_FinalDoorOpen'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_Vault_FinalDoorOpen"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_Vault_FinalDoorOpen'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/Event/AW_HAP_Vault_FinalDoorOpen"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Event.VaultDoorOpen"
+        ]
+      },
+      "TempestShield": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_SurgeImpact'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_SurgeImpact"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_TempestShieldCast'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/Spells/AW_HAP_TempestShieldCast"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Spell.TempestShield"
+        ]
+      },
+      "UI_LevelUp": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_LvlUp'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_LvlUp"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_LvlUp'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/AW_HAP_LvlUp"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.UI.LevelUp"
+        ]
+      },
+      "KalphiteQueenSpawn": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_KalphiteQueenSpawn'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_KalphiteQueenSpawn"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_KalphiteQueenSpawn'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/AW_HAP_KalphiteQueenSpawn"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Kalphite.QueenSpawn"
+        ]
+      },
+      "AxtralCast": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_AxtralCast'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_AxtralCast"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_AxtralCast'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/AW_HAP_AxtralCast"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Spells.AxtralCast"
+        ]
+      },
+      "AxtralTargeting": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_Shrt_Hrd_Descend'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_Shrt_Hrd_Descend"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_Shrt_Hrd_Descend'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/AW_HAP_Shrt_Hrd_Descend"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Spells.AxtralTargeting"
+        ]
+      },
+      "StaminaFail": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_StaminaFail'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_StaminaFail"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_HardPrompt'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/AW_HAP_HardPrompt"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Generic.StaminaDepleted"
+        ]
+      },
+      "VelgarHornSummon": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_ChallengeHornVelgarSummon'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_ChallengeHornVelgarSummon"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_ChallengeHornVelgarSummon'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/AW_HAP_ChallengeHornVelgarSummon"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Dragon.VelgarHornSummon"
+        ]
+      },
+      "FishingLeftPullBad": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_FishingPullLeft'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_FishingPullLeft"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_FishingPullLeft'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/AW_HAP_FishingPullLeft"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Fishing.LeftBadPull"
+        ]
+      },
+      "FishingRightPullBad": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_FishingPullRight'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_FishingPullRight"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_FishingPullRight'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/AW_HAP_FishingPullRight"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 1.0,
+        "Identifier": [
+          "Haptics.Fishing.RightBadPull"
+        ]
+      },
+      "KuldraHeartbeat": {
+        "HapticFeedbackEffect": {
+          "ObjectName": "ForceFeedbackEffect'FF_AW_HAP_Kuldra_Heartbeat'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/GeneratedForceFeedback/FF_AW_HAP_Kuldra_Heartbeat"
+        },
+        "HapticIntensityFalloffRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 500.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 4000.0
+          }
+        },
+        "AdvancedHapticFeedbackEffect": {
+          "ObjectName": "SoundWave'AW_HAP_Kuldra_Heartbeat'",
+          "ObjectPath": "/Game/Audio/SoundWaves/Haptics/AW_HAP_Kuldra_Heartbeat"
+        },
+        "bShouldLoop": false,
+        "IntensityParameterRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 1.0
+          }
+        },
+        "IntensityScale": 0.45,
+        "Identifier": [
+          "Haptics.Dragon.Heartbeat"
+        ]
+      }
+    }
+  }
+]

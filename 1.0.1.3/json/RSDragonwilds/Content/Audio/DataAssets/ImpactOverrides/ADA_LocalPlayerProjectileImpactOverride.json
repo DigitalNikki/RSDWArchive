@@ -1,0 +1,19 @@
+[
+  {
+    "Type": "ImpactAudioOverrideData",
+    "Name": "ADA_LocalPlayerProjectileImpactOverride",
+    "Class": "UScriptClass'ImpactAudioOverrideData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SoundClass": {
+        "ObjectName": "DominionSoundClass'Player_Ranged_Impacts'",
+        "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Player/Combat/Player_Ranged_Impacts"
+      },
+      "AttenuationSettings": {
+        "ObjectName": "SoundAttenuation'ATT_Local_ProjectileImpacts'",
+        "ObjectPath": "/Game/Audio/AttenuationSharesets/Pl_LocalCombat/ATT_Local_ProjectileImpacts"
+      },
+      "ConcurrencySettings": []
+    }
+  }
+]

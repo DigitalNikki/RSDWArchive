@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "SoundMix",
+    "Name": "Mix_TempestExplodeGlobalMute",
+    "Class": "UScriptClass'SoundMix'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SoundClassEffects": [
+        {
+          "SoundClassObject": {
+            "ObjectName": "DominionSoundClass'AI'",
+            "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/AI"
+          },
+          "VolumeAdjuster": 1.0,
+          "PitchAdjuster": 1.0,
+          "LowPassFilterFrequency": 1.0,
+          "bApplyToChildren": true,
+          "VoiceCenterChannelVolumeAdjuster": 1.0
+        },
+        {
+          "SoundClassObject": {
+            "ObjectName": "DominionSoundClass'Music'",
+            "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/Music/Music"
+          },
+          "VolumeAdjuster": 1.0,
+          "PitchAdjuster": 1.0,
+          "LowPassFilterFrequency": 1.0,
+          "bApplyToChildren": true,
+          "VoiceCenterChannelVolumeAdjuster": 1.0
+        },
+        {
+          "SoundClassObject": {
+            "ObjectName": "DominionSoundClass'Boss'",
+            "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Boss/Boss"
+          },
+          "VolumeAdjuster": 1.0,
+          "PitchAdjuster": 1.0,
+          "LowPassFilterFrequency": 1.0,
+          "bApplyToChildren": true,
+          "VoiceCenterChannelVolumeAdjuster": 1.0
+        }
+      ],
+      "FadeInTime": 0.1,
+      "Duration": 1.0,
+      "FadeOutTime": 0.1
+    }
+  }
+]

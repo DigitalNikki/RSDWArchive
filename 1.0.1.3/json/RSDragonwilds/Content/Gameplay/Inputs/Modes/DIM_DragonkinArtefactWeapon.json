@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "DominionInputMode",
+    "Name": "DIM_DragonkinArtefactWeapon",
+    "Class": "UScriptClass'DominionInputMode'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "InputConfig": "EDominionWidgetInputMode::Game",
+      "Mappings": [
+        {
+          "InputMapping": {
+            "ObjectName": "InputMappingContext'IMC_DragonkinArtefactWeapon'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Mappings/IMC_DragonkinArtefactWeapon"
+          },
+          "Priority": 100,
+          "DebugBuildsOnly": false
+        },
+        {
+          "InputMapping": {
+            "ObjectName": "InputMappingContext'IMC_DebugToggleWithPause'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Mappings/IMC_DebugToggleWithPause"
+          },
+          "Priority": 3,
+          "DebugBuildsOnly": false
+        }
+      ],
+      "bIsEmoteMenuAllowedToOpen": false,
+      "bIsSpellcastingMenuAllowedToOpen": false,
+      "LegendWidgetType": "EInputLegendWidgetType::DragonKinArtifactWeapon",
+      "bEnableHorizontalMenuNavigationUsingGamepadDPad": true
+    }
+  }
+]

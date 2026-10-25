@@ -1,0 +1,92 @@
+[
+  {
+    "Type": "DominionPlayerMappableKeySetting",
+    "Name": "DominionPlayerMappableKeySetting_10",
+    "Outer": {
+      "ObjectName": "InputMappingContext'IMC_SpellMenuPrompt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Inputs/Mappings/InputPrompts/IMC_SpellMenuPrompt.2"
+    },
+    "Class": "UScriptClass'DominionPlayerMappableKeySetting'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AlternateInputMappingNames": [
+        "SpellMenuDummyGamepad"
+      ],
+      "bHideFromList": true,
+      "InputType": "EKeyMappingSettingsInputType::KeyboardMouse",
+      "Name": "SpellMenuDummy",
+      "DisplayName": {
+        "TableId": "/Game/UI/Settings/ST_Controls.ST_Controls",
+        "Key": "MenusSpells",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "DominionPlayerMappableKeySetting",
+    "Name": "DominionPlayerMappableKeySetting_2",
+    "Outer": {
+      "ObjectName": "InputMappingContext'IMC_SpellMenuPrompt'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Inputs/Mappings/InputPrompts/IMC_SpellMenuPrompt.2"
+    },
+    "Class": "UScriptClass'DominionPlayerMappableKeySetting'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AlternateInputMappingNames": [
+        "SpellMenuDummy"
+      ],
+      "bHideFromList": true,
+      "InputType": "EKeyMappingSettingsInputType::Gamepad",
+      "Name": "SpellMenuDummyGamepad",
+      "DisplayName": {
+        "TableId": "/Game/UI/Settings/ST_Controls.ST_Controls",
+        "Key": "MenusSpells",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "InputMappingContext",
+    "Name": "IMC_SpellMenuPrompt",
+    "Class": "UScriptClass'InputMappingContext'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Mappings": [
+        {
+          "Triggers": [],
+          "Modifiers": [],
+          "Action": {
+            "ObjectName": "InputAction'IA_SpellMenuDummy'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Actions/UI/InputDummies/IA_SpellMenuDummy"
+          },
+          "Key": {
+            "KeyName": "Q"
+          },
+          "SettingBehavior": "EPlayerMappableKeySettingBehaviors::OverrideSettings",
+          "PlayerMappableKeySettings": {
+            "ObjectName": "DominionPlayerMappableKeySetting'IMC_SpellMenuPrompt:DominionPlayerMappableKeySetting_10'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Inputs/Mappings/InputPrompts/IMC_SpellMenuPrompt.0"
+          }
+        },
+        {
+          "Triggers": [],
+          "Modifiers": [],
+          "Action": {
+            "ObjectName": "InputAction'IA_SpellMenuDummy'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Actions/UI/InputDummies/IA_SpellMenuDummy"
+          },
+          "Key": {
+            "KeyName": "Gamepad_FaceButton_Top"
+          },
+          "SettingBehavior": "EPlayerMappableKeySettingBehaviors::OverrideSettings",
+          "PlayerMappableKeySettings": {
+            "ObjectName": "DominionPlayerMappableKeySetting'IMC_SpellMenuPrompt:DominionPlayerMappableKeySetting_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Inputs/Mappings/InputPrompts/IMC_SpellMenuPrompt.1"
+          }
+        }
+      ]
+    }
+  }
+]

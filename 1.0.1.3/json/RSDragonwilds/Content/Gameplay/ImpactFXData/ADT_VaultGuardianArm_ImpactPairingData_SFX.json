@@ -1,0 +1,226 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ADT_VaultGuardianArm_ImpactPairingData_SFX",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Object'ImpactSourceSFXTableRow'",
+        "ObjectPath": "/Script/Dominion"
+      }
+    },
+    "Rows": {
+      "Default": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_VaultGuardian_FistProjectile_Impact'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/Foley/MSS_En_Fo_VaultGuardian_FistProjectile_Impact"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.Default"
+        ]
+      },
+      "Audio.Flesh": {
+        "PhysicalMaterials": [
+          {
+            "ObjectName": "DominionPhysicalMaterial'Grass_Soft'",
+            "ObjectPath": "/Game/Audio/PhysMats/Grass_Soft"
+          },
+          {
+            "ObjectName": "DominionPhysicalMaterial'Gravel'",
+            "ObjectPath": "/Game/Audio/PhysMats/Gravel"
+          },
+          {
+            "ObjectName": "DominionPhysicalMaterial'Metal'",
+            "ObjectPath": "/Game/Audio/PhysMats/Metal"
+          },
+          {
+            "ObjectName": "DominionPhysicalMaterial'Mud_Shallow'",
+            "ObjectPath": "/Game/Audio/PhysMats/Mud_Shallow"
+          },
+          {
+            "ObjectName": "DominionPhysicalMaterial'Rock'",
+            "ObjectPath": "/Game/Audio/PhysMats/Rock"
+          },
+          {
+            "ObjectName": "DominionPhysicalMaterial'Wood_Boards_Tight'",
+            "ObjectPath": "/Game/Audio/PhysMats/Wood_Boards_Tight"
+          }
+        ],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_VaultGuardian_Ranged_Javelin_Impact'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/VaultGuardian/Foley/MSS_En_Fo_VaultGuardian_Ranged_Javelin_Impact"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.Flesh",
+          "Audio.Cloth",
+          "Audio.Leather",
+          "Audio.Metal"
+        ]
+      },
+      "Audio.Metal.Shield": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_Arrow_MetalShield'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Ranged/Ranged_Impacts/MSS_Co_Arrow_MetalShield"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.Metal.Shield"
+        ]
+      },
+      "Audio.Leather.Shield": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_Arrow_LeatherShield'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Ranged/Ranged_Impacts/MSS_Co_Arrow_LeatherShield"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.Leather.Shield"
+        ]
+      },
+      "Audio.Wood.Shield": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_Arrow_WoodShield'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Ranged/Ranged_Impacts/MSS_Co_Arrow_WoodShield"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.Wood.Shield"
+        ]
+      },
+      "Audio.Metal.Blade": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_Arrow_WeapMetalBlade'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Ranged/Ranged_Impacts/MSS_Co_Arrow_WeapMetalBlade"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.Metal.Blade"
+        ]
+      },
+      "Audio.Metal.BladeSmall": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_Arrow_WeapSmallMetalBlade'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Ranged/Ranged_Impacts/MSS_Co_Arrow_WeapSmallMetalBlade"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.Metal.BladeSmall"
+        ]
+      },
+      "Audio.Metal.Bludgeon": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_Arrow_WeapPole'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Ranged/Ranged_Impacts/MSS_Co_Arrow_WeapPole"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.Metal.Bludgeon"
+        ]
+      },
+      "Audio.Bone.Blade": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_Arrow_WeapBone'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Ranged/Ranged_Impacts/MSS_Co_Arrow_WeapBone"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.Bone.Blade"
+        ]
+      },
+      "Audio.Stone.Blade": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_Arrow_WeapStone'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Ranged/Ranged_Impacts/MSS_Co_Arrow_WeapStone"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.Stone.Blade"
+        ]
+      },
+      "Audio.Wood.Bludgeon": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_Arrow_WeapWood'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Ranged/Ranged_Impacts/MSS_Co_Arrow_WeapWood"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.Wood.Bludgeon"
+        ]
+      },
+      "None": {
+        "PhysicalMaterials": [
+          null
+        ],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_Arrow_Foliage_Remote'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Ranged/Ranged_Impacts/MSS_Co_Arrow_Foliage_Remote"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": []
+      },
+      "Audio.Metal.Armour": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_Armour_BludgeonMed_OnPlayer'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/Impacts_Armour/MSS_Co_Armour_BludgeonMed_OnPlayer"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.Metal.Armour"
+        ]
+      },
+      "Audio.Splitbark": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_SplitbarkArmour_BludgeonSmall'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/Impacts_Splitbark/MSS_Co_SplitbarkArmour_BludgeonSmall"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.Splitbark"
+        ]
+      }
+    }
+  }
+]

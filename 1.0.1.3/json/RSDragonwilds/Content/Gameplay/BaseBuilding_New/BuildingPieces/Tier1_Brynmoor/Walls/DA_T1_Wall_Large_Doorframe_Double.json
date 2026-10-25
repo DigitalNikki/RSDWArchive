@@ -1,0 +1,68 @@
+[
+  {
+    "Type": "BuildingPieceData",
+    "Name": "DA_T1_Wall_Large_Doorframe_Double",
+    "Class": "UScriptClass'BuildingPieceData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DerivedData": {
+        "AssetPathName": "/Game/Gameplay/BaseBuilding_New/BuildingPieces_DerivedData/Tier1_Brynmoor/Walls/DA_T1_Wall_Large_Doorframe_Double_DerivedData.DA_T1_Wall_Large_Doorframe_Double_DerivedData",
+        "SubPathString": ""
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "B740F178455BBCA0C74DC1B8E18C0EB4",
+        "SourceString": "WALL WITH DOUBLE DOOR FRAME",
+        "LocalizedString": "WALL WITH DOUBLE DOOR FRAME"
+      },
+      "Description": {
+        "TableId": "/Game/Gameplay/BaseBuilding_New/BuildingPieces/ST_BuildingPieces.ST_BuildingPieces",
+        "Key": "PallisadesGate.Description.Tier2",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "DisplayIcon": {
+        "AssetPathName": "/Game/Art/UI/Icons/07_T1_Building_Icons/Walls/T_Icon_T1_Wall_with_Double_Doorframe.T_Icon_T1_Wall_with_Double_Doorframe",
+        "SubPathString": ""
+      },
+      "BuildableActor": {
+        "AssetPathName": "/Game/Gameplay/BaseBuilding_New/BuildingPieces/Tier1_Brynmoor/Walls/BP_T1_Wall_Large_Doorframe_Double.BP_T1_Wall_Large_Doorframe_Double_C",
+        "SubPathString": ""
+      },
+      "Requirements": [
+        {
+          "Amount": 4,
+          "ItemData": {
+            "ObjectName": "FuelItemData'ITEM_Resources_Wood_Ash'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Wood/ITEM_Resources_Wood_Ash"
+          }
+        }
+      ],
+      "PieceTag": {
+        "TagName": "BaseBuilding.PieceType.Base"
+      },
+      "BuildingStabilityProfileRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_StabilityProfile'",
+          "ObjectPath": "/Game/Gameplay/BaseBuilding_New/DT_StabilityProfile"
+        },
+        "RowName": "Tier1_Base"
+      },
+      "BuildXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Building'",
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Building"
+        },
+        "RowName": "Build_Wall_Tier1"
+      },
+      "SelectionPlayerHooks": [
+        {
+          "ObjectName": "BP_FTUENotificationPlayerHook_C'PH_Stability'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/PlayerHooks/FTUE/PH_Stability"
+        }
+      ],
+      "RepresentationCategory": "EBuildingPieceRepresentationCategory::Lightweight",
+      "PersistenceID": "FhAxsUUg3CD1DM2-3QHvwA"
+    }
+  }
+]

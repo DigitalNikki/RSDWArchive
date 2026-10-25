@@ -1,0 +1,55 @@
+[
+  {
+    "Type": "SkillPerkData",
+    "Name": "PerkV2_Magic_FireMagic",
+    "Class": "UScriptClass'SkillPerkData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "PerkName": {
+        "TableId": "/Game/Gameplay/Character/Player/PerksV2/ST_Skills_Perks.ST_Skills_Perks",
+        "Key": "Magic.FireMagic.Name",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PerkDescription": {
+        "TableId": "/Game/Gameplay/Character/Player/PerksV2/ST_Skills_Perks.ST_Skills_Perks",
+        "Key": "Magic.FireMagic.Desc",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "InputActionDisplay": {
+        "InputAction": {
+          "ObjectName": "InputAction'IA_SecondaryAction'",
+          "ObjectPath": "/Game/Gameplay/Inputs/Actions/Basic/IA_SecondaryAction"
+        },
+        "ActionDescription": {
+          "TableId": "/Game/UI/ST_UI_Localization.ST_UI_Localization",
+          "Key": "UseWith",
+          "SourceString": null,
+          "LocalizedString": ""
+        }
+      },
+      "SkillPerkImage": {
+        "AssetPathName": "/Game/Art/UI/Icons/Runes/T_Icons_Rune_Fire.T_Icons_Rune_Fire",
+        "SubPathString": ""
+      },
+      "PerkUnlockInfo": {
+        "AssociatedSkill": {
+          "AssetPathName": "/Game/Gameplay/Character/Player/Skills/SKILL_Magic.SKILL_Magic",
+          "SubPathString": ""
+        },
+        "RequiredSkillLevel": 21
+      },
+      "PerkUsageVideo": {
+        "ObjectName": "BinkMediaPlayer'Video_Magic_FireMagic'",
+        "ObjectPath": "/Game/Movies/Video_Magic_FireMagic"
+      },
+      "bShouldBeActivatedIfOwningFeatureDisabled": true,
+      "FeatureTag": {
+        "TagName": "Feature.MagicSkillPerks"
+      },
+      "PersistenceID": "hOxcIU0x-WcVTC6jlxnVfw",
+      "InternalName": "perk_magic_firemagic"
+    }
+  }
+]

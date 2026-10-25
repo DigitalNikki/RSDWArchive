@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "TransientArtZoneDescription",
+    "Name": "DA_TransientZone_SW_Raid",
+    "Class": "UScriptClass'TransientArtZoneDescription'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ActorsToSpawn": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_World_Skybox_new_SW_C'",
+          "ObjectPath": "/Game/Art/Env/Lighting/BPs/BP_World_Skybox_new_SW"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_VolumetricCloud_SW_Raid_C'",
+          "ObjectPath": "/Game/Gameplay/World/Ambience/Components/BP_VolumetricCloud_SW_Raid"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_WeatherSystemSource_SW_C'",
+          "ObjectPath": "/Game/Gameplay/World/Ambience/DataAssetBases/BP_WeatherSystemSource_SW"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_HeightFog_SW_C'",
+          "ObjectPath": "/Game/Art/Env/Lighting/BP_HeightFog_SW"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_SkyLIght_SW_C'",
+          "ObjectPath": "/Game/Art/Env/Lighting/BPs/BP_SkyLIght_SW"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Ambience_Day_Night_Cycle_SW_FixedTOD_C'",
+          "ObjectPath": "/Game/Gameplay/World/Ambience/DataAssetBases/BP_Ambience_Day_Night_Cycle_SW_FixedTOD"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_SetCloudQuality_SW_C'",
+          "ObjectPath": "/Game/Gameplay/World/Ambience/Components/BP_SetCloudQuality_SW"
+        }
+      ],
+      "DataAssetsToAsyncLoad": [
+        {
+          "ObjectName": "TreeData'TD_FH_YewTree_01'",
+          "ObjectPath": "/Game/Gameplay/World/Trees/Yew/TD_FH_YewTree_01"
+        },
+        {
+          "ObjectName": "TreeData'TD_FH_YewTree_02'",
+          "ObjectPath": "/Game/Gameplay/World/Trees/Yew/TD_FH_YewTree_02"
+        },
+        {
+          "ObjectName": "TreeData'TD_FH_YewTree_03'",
+          "ObjectPath": "/Game/Gameplay/World/Trees/Yew/TD_FH_YewTree_03"
+        }
+      ]
+    }
+  }
+]

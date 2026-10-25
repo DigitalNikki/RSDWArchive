@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "QuestData",
+    "Name": "Quest_Heartstrings",
+    "Class": "UScriptClass'QuestData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "QuestName": {
+        "TableId": "/Game/Gameplay/Quests/WiseOldManQuestFlow/ST_HeartStrings.ST_HeartStrings",
+        "Key": "QuestName",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "CompletedQuestDescription": {
+        "TableId": "/Game/Gameplay/Quests/ST_QuestCompletionText.ST_QuestCompletionText",
+        "Key": "Heartstrings",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "QuestRegion": "EQuestRegion::Ghornfell",
+      "QuestDescription": {
+        "TableId": "/Game/Gameplay/Quests/WiseOldManQuestFlow/ST_HeartStrings.ST_HeartStrings",
+        "Key": "QuestDescription",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Objectives": [
+        {
+          "Key": "follow the blue-leafed trees",
+          "Value": {
+            "Description": {
+              "Namespace": "",
+              "Key": "9767A22243D34331F2F8B69915113E08",
+              "SourceString": "Follow the memorial path, look for blue trees heading toward the east of Ghornfell and the memorial markers.",
+              "LocalizedString": "Follow the memorial path, look for blue trees heading toward the east of Ghornfell and the memorial markers."
+            },
+            "SubobjectiveDescription": {
+              "CultureInvariantString": null
+            },
+            "Hint": {
+              "CultureInvariantString": null
+            },
+            "bOverrideQuestDescription": false,
+            "QuestDescriptionOverride": {
+              "CultureInvariantString": null
+            }
+          }
+        }
+      ],
+      "PersistenceID": "xsgOzUS-M2iCLDe-XTDq3w",
+      "InternalName": "hearstrings"
+    }
+  }
+]

@@ -1,0 +1,1137 @@
+[
+  {
+    "Type": "ConversationDatabase",
+    "Name": "QF_FH_NightoftheSpectralBoom",
+    "Class": "UScriptClass'ConversationDatabase'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CompilerVersion": 2,
+      "ReachableNodeMap": [
+        {
+          "Key": "79AD4C40-4ADDA91E-B8EEF3BC-8E8AB4F4",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_FH_NightoftheSpectralBoom:ConversationEntryPointNode_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.2"
+          }
+        },
+        {
+          "Key": "FB927D30-44CBE4F4-CDD51F9E-B7202D30",
+          "Value": {
+            "ObjectName": "QFT_CompleteQuests_C'QF_FH_NightoftheSpectralBoom:QFT_CompleteQuests_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.41"
+          }
+        },
+        {
+          "Key": "546C4271-4A7CE066-BBB76CAE-9C55FAB8",
+          "Value": {
+            "ObjectName": "QFT_GiveQuest_C'QF_FH_NightoftheSpectralBoom:QFT_GiveQuest_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.45"
+          }
+        },
+        {
+          "Key": "3CCEFEAD-44B0CDD2-B637C88F-DB490C92",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_FH_NightoftheSpectralBoom:QFT_SetQuestObjective_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.69"
+          }
+        },
+        {
+          "Key": "B5B8FFC6-4E938D88-2EE7E690-CA620C5C",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_NightoftheSpectralBoom:QFT_PromptMessage_C_9'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.66"
+          }
+        },
+        {
+          "Key": "A224D01C-44C07F5A-41F8E985-66F781F9",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_FH_NightoftheSpectralBoom:ConversationEntryPointNode_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.1"
+          }
+        },
+        {
+          "Key": "E61B066C-47023596-7CA31F93-A3718B8A",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_NightoftheSpectralBoom:QFT_Blank_C_20'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.30"
+          }
+        },
+        {
+          "Key": "6E23175E-4A1C7194-B9CF208E-03F6924D",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_NightoftheSpectralBoom:QFT_Blank_C_21'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.31"
+          }
+        },
+        {
+          "Key": "031E5D92-4DF1E00D-F428A297-CEEC2D0A",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_NightoftheSpectralBoom:QFT_PromptMessage_C_8'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.65"
+          }
+        },
+        {
+          "Key": "98013BF2-423E420F-396709B9-CBD8A71F",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_NightoftheSpectralBoom:QFT_PromptMessage_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.54"
+          }
+        },
+        {
+          "Key": "1986588D-40C397C2-8D65D5A7-59B48F44",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_NightoftheSpectralBoom:QFT_Blank_C_13'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.25"
+          }
+        },
+        {
+          "Key": "4D425FEA-41981FAA-DF475687-E9675462",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_NightoftheSpectralBoom:QFT_PromptMessage_C_5'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.62"
+          }
+        },
+        {
+          "Key": "910386D3-49CF9245-F1B59485-9D1E2C42",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_NightoftheSpectralBoom:QFT_Blank_C_25'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.35"
+          }
+        },
+        {
+          "Key": "D5DA5D1E-478C816E-851678A2-393E45AC",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_NightoftheSpectralBoom:QFT_PromptMessage_C_6'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.63"
+          }
+        },
+        {
+          "Key": "B9B5A049-48F35A9A-499FE58A-A416A677",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_NightoftheSpectralBoom:QFT_Blank_C_22'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.32"
+          }
+        },
+        {
+          "Key": "7246BF96-4985D411-45D334BC-8F98A706",
+          "Value": {
+            "ObjectName": "QFT_TakeItemAmountFromPlayer_C'QF_FH_NightoftheSpectralBoom:QFT_TakeItemAmountFromPlayer_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.72"
+          }
+        },
+        {
+          "Key": "A6688843-4C9BBCC0-25306A81-3729C6EE",
+          "Value": {
+            "ObjectName": "QFT_GiveItemsToPlayer_C'QF_FH_NightoftheSpectralBoom:QFT_GiveItemsToPlayer_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.43"
+          }
+        },
+        {
+          "Key": "F547070A-40CD017E-9EA2DA96-7786AE27",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_NightoftheSpectralBoom:QFT_PromptMessage_C_7'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.64"
+          }
+        },
+        {
+          "Key": "B936BEEC-4FCF611E-EEAE68B0-727B3349",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_NightoftheSpectralBoom:QFT_Blank_C_19'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.29"
+          }
+        },
+        {
+          "Key": "29B2273B-4A44423E-90D44E87-D56E90EE",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_NightoftheSpectralBoom:QFT_Blank_C_7'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.39"
+          }
+        },
+        {
+          "Key": "227B6768-4F4051F2-FB6B5D85-B30A5556",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_NightoftheSpectralBoom:QFT_Blank_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.36"
+          }
+        },
+        {
+          "Key": "EEB2FD06-4F8FB399-487D71BB-D1AFE5A4",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_NightoftheSpectralBoom:QFT_Blank_C_16'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.28"
+          }
+        },
+        {
+          "Key": "8C6954EB-4E5A7912-FD4C3CBA-9B7CF02D",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_NightoftheSpectralBoom:QFT_PromptMessage_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.47"
+          }
+        },
+        {
+          "Key": "6A6A4061-4EB08EE0-F6A2759A-05176119",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_NightoftheSpectralBoom:QFT_PromptMessage_C_25'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.57"
+          }
+        },
+        {
+          "Key": "9D3F7D9F-4EE83FA1-3DF3F6B9-0F2BD7D3",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_NightoftheSpectralBoom:QFT_Blank_C_11'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.24"
+          }
+        },
+        {
+          "Key": "758BB26A-424461D8-9515D48E-B5E70F14",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_NightoftheSpectralBoom:QFT_PromptMessage_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.58"
+          }
+        },
+        {
+          "Key": "72D6DA83-43C7F4C5-38A7DFAF-7CAB1D3C",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_NightoftheSpectralBoom:QFT_PromptMessage_C_19'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.53"
+          }
+        },
+        {
+          "Key": "B3A34B1C-42C124F0-EB196FBA-75CD7F0C",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_NightoftheSpectralBoom:QFT_Blank_C_23'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.33"
+          }
+        },
+        {
+          "Key": "41844CB6-4970C2CB-4118E993-FE20C333",
+          "Value": {
+            "ObjectName": "QFT_TakeItemAmountFromPlayer_C'QF_FH_NightoftheSpectralBoom:QFT_TakeItemAmountFromPlayer_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.71"
+          }
+        },
+        {
+          "Key": "739EC9FF-4509628A-DCEFC6B8-3343B383",
+          "Value": {
+            "ObjectName": "QFT_GiveItemToPlayer_C'QF_FH_NightoftheSpectralBoom:QFT_GiveItemToPlayer_C_8'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.44"
+          }
+        },
+        {
+          "Key": "F952AC0A-430EA965-A2FC3CB5-30E0F486",
+          "Value": {
+            "ObjectName": "QFT_GiveCraftingRecipe_C'QF_FH_NightoftheSpectralBoom:QFT_GiveCraftingRecipe_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.42"
+          }
+        },
+        {
+          "Key": "E79FF9D7-47753BCD-8978BFA5-E7AC8D38",
+          "Value": {
+            "ObjectName": "QFT_CompleteQuest_C'QF_FH_NightoftheSpectralBoom:QFT_CompleteQuest_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.40"
+          }
+        },
+        {
+          "Key": "65F5D3E3-4D21C5D1-DC33A189-13C505F7",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_NightoftheSpectralBoom:QFT_PromptMessage_C_24'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.56"
+          }
+        },
+        {
+          "Key": "10D9AD36-49A3E769-6D2F6B9E-4C1672DE",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_NightoftheSpectralBoom:QFT_Blank_C_24'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.34"
+          }
+        },
+        {
+          "Key": "137D01A8-4CA1E022-A7E43188-66B8B9E1",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_NightoftheSpectralBoom:QFT_PromptMessage_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.60"
+          }
+        },
+        {
+          "Key": "A91E45B7-476176B8-D4918785-A1535AF4",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_NightoftheSpectralBoom:QFT_PromptMessage_C_13'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.49"
+          }
+        },
+        {
+          "Key": "AD92AB0F-4CCFF19B-B3ABB28F-4FE6C52D",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_NightoftheSpectralBoom:QFT_PromptMessage_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.48"
+          }
+        },
+        {
+          "Key": "23A0E94A-439E54D0-6169B880-5B8B5351",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_NightoftheSpectralBoom:QFT_PromptMessage_C_16'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.50"
+          }
+        },
+        {
+          "Key": "637A813F-472F6117-790A01A9-93DC54B1",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_NightoftheSpectralBoom:QFT_PromptMessage_C_17'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.51"
+          }
+        },
+        {
+          "Key": "EF6F7A05-4C2854D8-BA1580AB-16991BC4",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_NightoftheSpectralBoom:QFT_PromptMessage_C_18'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.52"
+          }
+        },
+        {
+          "Key": "91EAD2C5-4C813FA1-3C3CEE95-9AF3A316",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_NightoftheSpectralBoom:QFT_Blank_C_6'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.38"
+          }
+        },
+        {
+          "Key": "CFAE0C87-41003EFA-0F32978F-028B422E",
+          "Value": {
+            "ObjectName": "QFT_GiveQuest_C'QF_FH_NightoftheSpectralBoom:QFT_GiveQuest_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.46"
+          }
+        },
+        {
+          "Key": "B294C8CD-4DDE3132-A2999791-C52309C8",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_FH_NightoftheSpectralBoom:QFT_SetQuestObjective_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.70"
+          }
+        },
+        {
+          "Key": "580FC87E-49467CD7-9E24E683-407A3EEE",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_FH_NightoftheSpectralBoom:QFT_UpdateQuestLocation_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.73"
+          }
+        },
+        {
+          "Key": "4568B4DE-44FA403C-F0F1E39A-F7FB9F1E",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_FH_NightoftheSpectralBoom:QFT_SetQuestBool_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.68"
+          }
+        },
+        {
+          "Key": "5A925975-4A209585-8804D785-89FFF44A",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_FH_NightoftheSpectralBoom:QFT_SetQuestBool_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.67"
+          }
+        },
+        {
+          "Key": "478C1013-490B5375-512D0985-8A6FC2B9",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_NightoftheSpectralBoom:QFT_Blank_C_5'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.37"
+          }
+        },
+        {
+          "Key": "83B2B09F-49FBF4F0-0064358E-4AA10924",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_NightoftheSpectralBoom:QFT_PromptMessage_C_42'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.61"
+          }
+        },
+        {
+          "Key": "795856D2-4842C7CA-41C78495-011FBC10",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_NightoftheSpectralBoom:QFT_PromptMessage_C_22'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.55"
+          }
+        },
+        {
+          "Key": "E9DBF1F5-48A1DE57-568D94BA-21BEFA77",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_NightoftheSpectralBoom:QFT_Blank_C_14'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.26"
+          }
+        },
+        {
+          "Key": "9F9C7055-428DD496-42FBF489-E4AC2A3C",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FH_NightoftheSpectralBoom:QFT_PromptMessage_C_31'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.59"
+          }
+        },
+        {
+          "Key": "28537F44-420B4C91-27DE54AF-1B0E76AA",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_NightoftheSpectralBoom:QFT_Blank_C_15'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.27"
+          }
+        },
+        {
+          "Key": "368ADAB4-4907593F-282AAE85-70867F42",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FH_NightoftheSpectralBoom:QFT_Blank_C_10'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.23"
+          }
+        }
+      ],
+      "EntryTags": [
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.NightofSpectralBoom"
+          },
+          "DestinationList": [
+            "A224D01C-44C07F5A-41F8E985-66F781F9"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.NightofSpectralBoom.SkipToStart"
+          },
+          "DestinationList": [
+            "79AD4C40-4ADDA91E-B8EEF3BC-8E8AB4F4"
+          ],
+          "EntryIdentifier": ""
+        }
+      ],
+      "InternalNodeIds": [
+        "79AD4C40-4ADDA91E-B8EEF3BC-8E8AB4F4",
+        "FB927D30-44CBE4F4-CDD51F9E-B7202D30",
+        "546C4271-4A7CE066-BBB76CAE-9C55FAB8",
+        "3CCEFEAD-44B0CDD2-B637C88F-DB490C92",
+        "B5B8FFC6-4E938D88-2EE7E690-CA620C5C",
+        "A224D01C-44C07F5A-41F8E985-66F781F9",
+        "E61B066C-47023596-7CA31F93-A3718B8A",
+        "6E23175E-4A1C7194-B9CF208E-03F6924D",
+        "031E5D92-4DF1E00D-F428A297-CEEC2D0A",
+        "98013BF2-423E420F-396709B9-CBD8A71F",
+        "1986588D-40C397C2-8D65D5A7-59B48F44",
+        "4D425FEA-41981FAA-DF475687-E9675462",
+        "910386D3-49CF9245-F1B59485-9D1E2C42",
+        "D5DA5D1E-478C816E-851678A2-393E45AC",
+        "B9B5A049-48F35A9A-499FE58A-A416A677",
+        "7246BF96-4985D411-45D334BC-8F98A706",
+        "A6688843-4C9BBCC0-25306A81-3729C6EE",
+        "F547070A-40CD017E-9EA2DA96-7786AE27",
+        "B936BEEC-4FCF611E-EEAE68B0-727B3349",
+        "29B2273B-4A44423E-90D44E87-D56E90EE",
+        "227B6768-4F4051F2-FB6B5D85-B30A5556",
+        "EEB2FD06-4F8FB399-487D71BB-D1AFE5A4",
+        "8C6954EB-4E5A7912-FD4C3CBA-9B7CF02D",
+        "6A6A4061-4EB08EE0-F6A2759A-05176119",
+        "9D3F7D9F-4EE83FA1-3DF3F6B9-0F2BD7D3",
+        "758BB26A-424461D8-9515D48E-B5E70F14",
+        "72D6DA83-43C7F4C5-38A7DFAF-7CAB1D3C",
+        "B3A34B1C-42C124F0-EB196FBA-75CD7F0C",
+        "41844CB6-4970C2CB-4118E993-FE20C333",
+        "739EC9FF-4509628A-DCEFC6B8-3343B383",
+        "F952AC0A-430EA965-A2FC3CB5-30E0F486",
+        "E79FF9D7-47753BCD-8978BFA5-E7AC8D38",
+        "65F5D3E3-4D21C5D1-DC33A189-13C505F7",
+        "10D9AD36-49A3E769-6D2F6B9E-4C1672DE",
+        "137D01A8-4CA1E022-A7E43188-66B8B9E1",
+        "A91E45B7-476176B8-D4918785-A1535AF4",
+        "AD92AB0F-4CCFF19B-B3ABB28F-4FE6C52D",
+        "23A0E94A-439E54D0-6169B880-5B8B5351",
+        "637A813F-472F6117-790A01A9-93DC54B1",
+        "EF6F7A05-4C2854D8-BA1580AB-16991BC4",
+        "91EAD2C5-4C813FA1-3C3CEE95-9AF3A316",
+        "CFAE0C87-41003EFA-0F32978F-028B422E",
+        "B294C8CD-4DDE3132-A2999791-C52309C8",
+        "580FC87E-49467CD7-9E24E683-407A3EEE",
+        "4568B4DE-44FA403C-F0F1E39A-F7FB9F1E",
+        "5A925975-4A209585-8804D785-89FFF44A",
+        "478C1013-490B5375-512D0985-8A6FC2B9",
+        "83B2B09F-49FBF4F0-0064358E-4AA10924",
+        "795856D2-4842C7CA-41C78495-011FBC10",
+        "E9DBF1F5-48A1DE57-568D94BA-21BEFA77",
+        "9F9C7055-428DD496-42FBF489-E4AC2A3C",
+        "28537F44-420B4C91-27DE54AF-1B0E76AA",
+        "368ADAB4-4907593F-282AAE85-70867F42"
+      ]
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.NightofSpectralBoom"
+      },
+      "OutputConnections": [
+        "B936BEEC-4FCF611E-EEAE68B0-727B3349",
+        "E61B066C-47023596-7CA31F93-A3718B8A"
+      ],
+      "Compiled_NodeGUID": "A224D01C-44C07F5A-41F8E985-66F781F9"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.NightofSpectralBoom.SkipToStart"
+      },
+      "OutputConnections": [
+        "FB927D30-44CBE4F4-CDD51F9E-B7202D30"
+      ],
+      "Compiled_NodeGUID": "79AD4C40-4ADDA91E-B8EEF3BC-8E8AB4F4"
+    }
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerDoesntHaveSpaceForItem_C",
+    "Name": "QFR_PlayerDoesntHaveSpaceForItem_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerDoesntHaveSpaceForItem_C",
+    "Name": "QFR_PlayerDoesntHaveSpaceForItem_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerDoesntHaveSpaceForItem_C",
+    "Name": "QFR_PlayerDoesntHaveSpaceForItem_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasItemAmount_C",
+    "Name": "QFR_PlayerHasItemAmount_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasItemAmount_C",
+    "Name": "QFR_PlayerHasItemAmount_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasItemAmount_C",
+    "Name": "QFR_PlayerHasItemAmount_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasItemAmount_C",
+    "Name": "QFR_PlayerHasItemAmount_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasLessThanItemAmount_C",
+    "Name": "QFR_PlayerHasLessThanItemAmount_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasLessThanItemAmount_C",
+    "Name": "QFR_PlayerHasLessThanItemAmount_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasLessThanItemAmount_C",
+    "Name": "QFR_PlayerHasLessThanItemAmount_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasLessThanItemAmount_C",
+    "Name": "QFR_PlayerHasLessThanItemAmount_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasSpaceForItem_C",
+    "Name": "QFR_PlayerHasSpaceForItem_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasSpaceForItem_C",
+    "Name": "QFR_PlayerHasSpaceForItem_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasSpaceForItem_C",
+    "Name": "QFR_PlayerHasSpaceForItem_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_13",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_14",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_15",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_16",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_19",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_20",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_21",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_22",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_23",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_24",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_25",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_CompleteQuest_C",
+    "Name": "QFT_CompleteQuest_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_CompleteQuests_C",
+    "Name": "QFT_CompleteQuests_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveCraftingRecipe_C",
+    "Name": "QFT_GiveCraftingRecipe_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveItemsToPlayer_C",
+    "Name": "QFT_GiveItemsToPlayer_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveItemToPlayer_C",
+    "Name": "QFT_GiveItemToPlayer_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveQuest_C",
+    "Name": "QFT_GiveQuest_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveQuest_C",
+    "Name": "QFT_GiveQuest_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_13",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_16",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_17",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_18",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_19",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_22",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_24",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_25",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_31",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_42",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_TakeItemAmountFromPlayer_C",
+    "Name": "QFT_TakeItemAmountFromPlayer_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_TakeItemAmountFromPlayer_C",
+    "Name": "QFT_TakeItemAmountFromPlayer_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FH_NightoftheSpectralBoom'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/QF_FH_NightoftheSpectralBoom.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  }
+]

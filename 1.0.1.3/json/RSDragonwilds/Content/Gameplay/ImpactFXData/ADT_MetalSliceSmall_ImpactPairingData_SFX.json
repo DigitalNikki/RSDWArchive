@@ -1,0 +1,276 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ADT_MetalSliceSmall_ImpactPairingData_SFX",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Object'ImpactSourceSFXTableRow'",
+        "ObjectPath": "/Script/Dominion"
+      }
+    },
+    "Rows": {
+      "Default": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_Flesh_Slash_Generic_Small'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/Impacts_Flesh/MSS_Co_Flesh_Slash_Generic_Small"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.Default"
+        ]
+      },
+      "Audio.Metal.Shield": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_ShieldImpact_MetalSmall_MetalShield'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/Shields/MSS_Co_ShieldImpact_MetalSmall_MetalShield"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.Metal.Shield"
+        ]
+      },
+      "Audio.Wood.Shield": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_ShieldImpact_Generic_WoodShield'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/Shields/MSS_Co_ShieldImpact_Generic_WoodShield"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.Wood.Shield"
+        ]
+      },
+      "Audio.Leather.Shield": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_ShieldImpact_Generic_LeatherShield'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/Shields/MSS_Co_ShieldImpact_Generic_LeatherShield"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.Leather.Shield"
+        ]
+      },
+      "Audio.Metal.Blade": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_WeapBlock_LargeMetalBlade'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/WeaponBlocks/MSS_Co_WeapBlock_LargeMetalBlade"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.Metal.Blade"
+        ]
+      },
+      "Audio.Metal.BladeSmall": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_WeapBlock_SmallMetalBlade'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/WeaponBlocks/MSS_Co_WeapBlock_SmallMetalBlade"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.Metal.BladeSmall"
+        ]
+      },
+      "Audio.Metal.Bludgeon": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_WeapBlock_SmallMetalBlade_Pole'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/WeaponBlocks/MSS_Co_WeapBlock_SmallMetalBlade_Pole"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.Metal.Bludgeon",
+          "Audio.Metal.BludgeonLarge",
+          "Audio.Metal.Chopper",
+          "Audio.Metal.ChopperLarge"
+        ]
+      },
+      "Audio.Bone": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_WeapBlock_SmallMetalBlade_Bone'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/WeaponBlocks/MSS_Co_WeapBlock_SmallMetalBlade_Bone"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.Bone"
+        ]
+      },
+      "Audio.Wood.Bludgeon": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_WeapBlock_SmallMetalBlade_Wood'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/WeaponBlocks/MSS_Co_WeapBlock_SmallMetalBlade_Wood"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.Wood.Bludgeon"
+        ]
+      },
+      "Audio.Stone.Blade": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_WeapBlock_SmallMetalBlade_Stone'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/WeaponBlocks/MSS_Co_WeapBlock_SmallMetalBlade_Stone"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.Stone.Blade",
+          "Audio.Stone.Bludgeon",
+          "Audio.Stone.Chopper",
+          "Audio.Stone"
+        ]
+      },
+      "Audio.Wood.Tree": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Pl_WC_Im_NoDmgMetal'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Player/Interactions/WoodCutting/MSS_Pl_WC_Im_NoDmgMetal"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.Wood.Tree"
+        ]
+      },
+      "Audio.Chitin": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_AbyssalDemon_Impact_Generic'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/Impacts_Flesh/MSS_Co_AbyssalDemon_Impact_Generic"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.Chitin"
+        ]
+      },
+      "Audio.Clay": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Pl_Mi_PickaxeImpact_Clay'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Player/Interactions/Mining/MSS_Pl_Mi_PickaxeImpact_Clay"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.Clay"
+        ]
+      },
+      "Audio.Plant.Vine": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_Flesh_MetalSmall_Slice'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/Impacts_Flesh/MSS_Co_Flesh_MetalSmall_Slice"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.Plant.Vine"
+        ]
+      },
+      "Audio.Metal.Armour": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_Armour_Slash'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/Impacts_Armour/MSS_Co_Armour_Slash"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.Metal.Armour"
+        ]
+      },
+      "Audio.Spectral": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_Spectral_ImpactSmall'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/Impacts_Spectra/MSS_Co_Spectral_ImpactSmall"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.Spectral",
+          "Audio.AI.Skeleton.Spectral",
+          "Audio.AI.TerrorBird.Spectral",
+          "Audio.AI.BossDragon.Imaru.Spectral",
+          "Audio.AI.Wolf.Dragon.Spectral",
+          "Audio.AI.Wolf.Spectral",
+          "Audio.AI.Zombie.Spectral"
+        ]
+      },
+      "Audio.Splitbark": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_SplitbarkArmour_Slash_Small'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/Impacts_Splitbark/MSS_Co_SplitbarkArmour_Slash_Small"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.Splitbark"
+        ]
+      },
+      "Audio.Wood.Sapling": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_WeapImpact_Generic_Wood_Sapling'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/Impacts_Wood/MSS_Co_WeapImpact_Generic_Wood_Sapling"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.Wood.Sapling"
+        ]
+      },
+      "Audio.Flaming": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_Hellhound_Impact_Generic_Metal'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/Impacts_Flesh/MSS_Co_Hellhound_Impact_Generic_Metal"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.AI.Wolf.Hellhound",
+          "Audio.HellCreature"
+        ]
+      }
+    }
+  }
+]

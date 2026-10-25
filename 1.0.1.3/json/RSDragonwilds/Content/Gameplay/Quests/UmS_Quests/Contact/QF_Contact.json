@@ -1,0 +1,4323 @@
+[
+  {
+    "Type": "ConversationChoiceNode",
+    "Name": "ConversationChoiceNode_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Class": "UScriptClass'ConversationChoiceNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultChoiceDisplayText": {
+        "TableId": "/Game/Gameplay/Quests/UmS_Quests/Contact/ST_Contact.ST_Contact",
+        "Key": "Player.Choice.Helix.1",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "ConversationChoiceNode",
+    "Name": "ConversationChoiceNode_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Class": "UScriptClass'ConversationChoiceNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultChoiceDisplayText": {
+        "TableId": "/Game/Gameplay/Quests/UmS_Quests/Contact/ST_Contact.ST_Contact",
+        "Key": "Player.Choice.Helix.2",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "ConversationChoiceNode",
+    "Name": "ConversationChoiceNode_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Class": "UScriptClass'ConversationChoiceNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultChoiceDisplayText": {
+        "TableId": "/Game/Gameplay/Quests/UmS_Quests/Contact/ST_Contact.ST_Contact",
+        "Key": "Player.Choice.Zanik.2",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "ConversationChoiceNode",
+    "Name": "ConversationChoiceNode_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Class": "UScriptClass'ConversationChoiceNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultChoiceDisplayText": {
+        "TableId": "/Game/Gameplay/Quests/UmS_Quests/Contact/ST_Contact.ST_Contact",
+        "Key": "Player.Choice.Shards.1",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "ConversationChoiceNode",
+    "Name": "ConversationChoiceNode_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Class": "UScriptClass'ConversationChoiceNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultChoiceDisplayText": {
+        "TableId": "/Game/Gameplay/Quests/UmS_Quests/Contact/ST_Contact.ST_Contact",
+        "Key": "Player.Choice.Shards.2",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "ConversationChoiceNode",
+    "Name": "ConversationChoiceNode_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Class": "UScriptClass'ConversationChoiceNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultChoiceDisplayText": {
+        "TableId": "/Game/Gameplay/Quests/UmS_Quests/Contact/ST_Contact.ST_Contact",
+        "Key": "Player.Choice.Zanik.1",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "ConversationDatabase",
+    "Name": "QF_Contact",
+    "Class": "UScriptClass'ConversationDatabase'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CompilerVersion": 2,
+      "ReachableNodeMap": [
+        {
+          "Key": "3A4CA6FB-4920C5A7-04D6EDBD-38FE46BB",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_Contact:ConversationEntryPointNode_11'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.10"
+          }
+        },
+        {
+          "Key": "FAF210F7-4DBC2FD8-2ABE81BC-3F07A478",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Contact:QFT_Blank_C_37'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.105"
+          }
+        },
+        {
+          "Key": "C2C89D82-4FA96702-6993FF81-C8B986E5",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_82'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.195"
+          }
+        },
+        {
+          "Key": "A7082001-42187486-0B908294-16A40BFB",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_83'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.196"
+          }
+        },
+        {
+          "Key": "8147C071-4714D8B1-42CB7C8B-E6136AA9",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_Contact:QFT_SetQuestBool_C_16'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.221"
+          }
+        },
+        {
+          "Key": "FA0A17D6-471523F4-CE6CCCB8-6550C542",
+          "Value": {
+            "ObjectName": "QFT_TriggerAviskVeinVFX_C'QF_Contact:QFT_TriggerAviskVeinVFX_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.251"
+          }
+        },
+        {
+          "Key": "4ED7732D-4E18EAFE-6D4E6C93-3150665E",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Contact:QFT_Blank_C_42'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.111"
+          }
+        },
+        {
+          "Key": "6EE3DB8A-45669CBF-4FA78998-B488171D",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_Contact:QFT_SetQuestBool_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.214"
+          }
+        },
+        {
+          "Key": "3DE2494F-4B3802BB-35A70996-1685D9D4",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_Contact:QFT_SetQuestBool_C_10'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.215"
+          }
+        },
+        {
+          "Key": "3C2675D9-4FBB4669-FE8C89B2-4E0E54B4",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_Contact:QFT_SetQuestObjective_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.240"
+          }
+        },
+        {
+          "Key": "B026ED3F-4C713206-387BA68B-0549A4DE",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_Contact:QFT_UpdateQuestLocation_C_8'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.264"
+          }
+        },
+        {
+          "Key": "00130169-48818663-8F1C729B-08C5AF8D",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Contact:QFT_Blank_C_38'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.106"
+          }
+        },
+        {
+          "Key": "7E06261C-481BC7F5-3D7BCFAB-ABB9F23D",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_84'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.197"
+          }
+        },
+        {
+          "Key": "8FA26403-43E011BA-4C0E5A8E-6B5B0404",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_Contact:ConversationEntryPointNode_10'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.9"
+          }
+        },
+        {
+          "Key": "EE56ED53-456ECA01-5DAED39C-F2DDDF5D",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Contact:QFT_Blank_C_35'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.103"
+          }
+        },
+        {
+          "Key": "703E12C6-45F5B43B-6747BC96-AE66AEE4",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_79'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.191"
+          }
+        },
+        {
+          "Key": "0825E558-40793299-E03374BF-8759A77F",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_80'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.193"
+          }
+        },
+        {
+          "Key": "D45A258A-4E7C3AC8-36433DB5-2B40BB97",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_Contact:QFT_SetQuestBool_C_15'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.220"
+          }
+        },
+        {
+          "Key": "5155B906-4AB87636-A7866791-75F36180",
+          "Value": {
+            "ObjectName": "QFT_TriggerAviskVeinVFX_C'QF_Contact:QFT_TriggerAviskVeinVFX_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.250"
+          }
+        },
+        {
+          "Key": "1EDE7A7B-492596DE-0273AEA2-7DCFA1B2",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Contact:QFT_Blank_C_36'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.104"
+          }
+        },
+        {
+          "Key": "F02F7623-490B1ED7-FAE753A6-DE25C434",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_81'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.194"
+          }
+        },
+        {
+          "Key": "44A887C1-4666AAD0-62CBC081-E153528E",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_Contact:ConversationEntryPointNode_9'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.18"
+          }
+        },
+        {
+          "Key": "9CCC2DCA-443802AB-4473A3B9-9E15E213",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Contact:QFT_Blank_C_33'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.101"
+          }
+        },
+        {
+          "Key": "67A8F117-45F2C7BA-BE0FDD9D-6E7BBB57",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_76'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.188"
+          }
+        },
+        {
+          "Key": "3DFCE097-40C5AD07-EAF1CCB4-9C8A03AE",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_77'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.189"
+          }
+        },
+        {
+          "Key": "29F1218E-4D50F5EB-A0E9B9B6-593F1DA7",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_Contact:QFT_SetQuestBool_C_14'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.219"
+          }
+        },
+        {
+          "Key": "A6B1C941-4E9C03DB-CCDCFBB2-3F62EF2B",
+          "Value": {
+            "ObjectName": "QFT_TriggerAviskVeinVFX_C'QF_Contact:QFT_TriggerAviskVeinVFX_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.249"
+          }
+        },
+        {
+          "Key": "85CEC116-492A794A-CA38D793-A353C37E",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Contact:QFT_Blank_C_34'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.102"
+          }
+        },
+        {
+          "Key": "346D3D1F-40E1F1C6-8BB8ECAE-3076AD66",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_78'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.190"
+          }
+        },
+        {
+          "Key": "3156984B-4739D424-0FF13291-12CDA4AA",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_Contact:ConversationEntryPointNode_8'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.17"
+          }
+        },
+        {
+          "Key": "200CE8C9-49C8BD0B-B1C22C92-AF78F917",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Contact:QFT_Blank_C_27'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.94"
+          }
+        },
+        {
+          "Key": "2B0E588F-4659F88F-EFD85994-E1341144",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_73'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.185"
+          }
+        },
+        {
+          "Key": "C23F957E-41429CD1-4D177582-C534F050",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_74'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.186"
+          }
+        },
+        {
+          "Key": "2F739E1F-4019364F-9877829C-C0D78CFA",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_Contact:QFT_SetQuestBool_C_13'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.218"
+          }
+        },
+        {
+          "Key": "99BCB005-4F6430FD-97A0D882-6C12D99A",
+          "Value": {
+            "ObjectName": "QFT_TriggerAviskVeinVFX_C'QF_Contact:QFT_TriggerAviskVeinVFX_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.248"
+          }
+        },
+        {
+          "Key": "998468D5-4C39BEF6-60255983-CEEB1DD6",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Contact:QFT_Blank_C_31'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.99"
+          }
+        },
+        {
+          "Key": "2D7EE354-469FF3C5-48673B81-44382B11",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_75'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.187"
+          }
+        },
+        {
+          "Key": "D941CFCD-4A4086C4-F21E638F-3BB0C5C2",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_Contact:ConversationEntryPointNode_7'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.16"
+          }
+        },
+        {
+          "Key": "A46D983E-42B7F729-1EDDACAC-8FEEE76B",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Contact:QFT_Blank_C_7'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.123"
+          }
+        },
+        {
+          "Key": "AC11A926-4FE57D10-E435049F-443C6792",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_23'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.156"
+          }
+        },
+        {
+          "Key": "30B391FF-4B0DAF8E-8DCA16BC-296824B9",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Contact:QFT_Blank_C_6'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.122"
+          }
+        },
+        {
+          "Key": "C6673D82-402AC419-2D8F9CB3-BE4BF3F1",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Contact:QFT_Blank_C_22'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.90"
+          }
+        },
+        {
+          "Key": "E07D13DB-401DA9D9-90A4D281-26CF0283",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_42'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.169"
+          }
+        },
+        {
+          "Key": "178698F4-4987C6BD-E9A7E0AB-F2F454BB",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_29'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.160"
+          }
+        },
+        {
+          "Key": "5B3C52D6-4C48A597-17D8E9B3-7F73CFDC",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_28'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.159"
+          }
+        },
+        {
+          "Key": "CA670748-4821F8DA-747D72AE-E2523FAC",
+          "Value": {
+            "ObjectName": "QFT_GiveCraftingRecipe_C'QF_Contact:QFT_GiveCraftingRecipe_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.127"
+          }
+        },
+        {
+          "Key": "6D1C5813-488CEB05-0782C98A-581737C9",
+          "Value": {
+            "ObjectName": "QFT_CompleteQuest_C'QF_Contact:QFT_CompleteQuest_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.126"
+          }
+        },
+        {
+          "Key": "F310D347-4EC1FBA9-B1303591-F6B0F462",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_Contact:QFT_SetQuestBool_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.213"
+          }
+        },
+        {
+          "Key": "0332F948-4BE02C8C-2F3B5E81-10C23440",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_Contact:QFT_SetQuestBool_C_17'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.222"
+          }
+        },
+        {
+          "Key": "8CD409B7-48467B5F-F6C8A79F-3789B612",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_Contact:QFT_SetQuestBool_C_11'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.216"
+          }
+        },
+        {
+          "Key": "96DE03AA-4781A6B0-98CDDE81-5FAD5FF8",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Contact:QFT_Blank_C_52'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.116"
+          }
+        },
+        {
+          "Key": "580E474A-4C3BD5CD-522CB2B6-3F958635",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_93'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.206"
+          }
+        },
+        {
+          "Key": "92E06C5C-4500BDB6-728122AC-794EFA8E",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_85'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.198"
+          }
+        },
+        {
+          "Key": "E49E6468-47C4BB27-6F27EDB0-885AF208",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_12'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.147"
+          }
+        },
+        {
+          "Key": "0342AE9D-431F5C2A-344A7FA1-B985683A",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_105'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.143"
+          }
+        },
+        {
+          "Key": "66404F6B-48020F67-FBD6299A-8E324876",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_106'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.144"
+          }
+        },
+        {
+          "Key": "33D28DEB-42340F87-90C5028D-A7D4B91F",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_107'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.145"
+          }
+        },
+        {
+          "Key": "F5E3819A-4F89F52F-749B1D90-537D7C45",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_Contact:QFT_SetQuestObjective_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.239"
+          }
+        },
+        {
+          "Key": "F98AA717-44546DC4-7CDA91A0-F9909F0D",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_Contact:QFT_SetQuestBool_C_6'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.231"
+          }
+        },
+        {
+          "Key": "2BDF898E-44F53BBC-BC5BA8A2-9A9D5A65",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_Contact:QFT_UpdateQuestLocation_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.254"
+          }
+        },
+        {
+          "Key": "8C051D19-448134B9-A15010BF-7262A693",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_Contact:ConversationEntryPointNode_12'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.11"
+          }
+        },
+        {
+          "Key": "AF3A3F69-4DC52133-784B289F-A41B1D19",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Contact:QFT_Blank_C_9'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.125"
+          }
+        },
+        {
+          "Key": "C8B67325-42D6E98D-3F1E1684-1BCA44E8",
+          "Value": {
+            "ObjectName": "QFT_TriggerTeleporter_C'QF_Contact:QFT_TriggerTeleporter_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.252"
+          }
+        },
+        {
+          "Key": "A271E54F-4560E25D-FB28AF90-F123427E",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Contact:QFT_Blank_C_8'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.124"
+          }
+        },
+        {
+          "Key": "84C6C690-4A074EDB-501FBB8E-E32B90D7",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_67'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.181"
+          }
+        },
+        {
+          "Key": "9B41822F-45DA8FF5-EB3E678E-A848A6F7",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Contact:QFT_Blank_C_30'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.98"
+          }
+        },
+        {
+          "Key": "C476A395-46155F9B-CC31F9A6-5B96E67C",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_70'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.184"
+          }
+        },
+        {
+          "Key": "C1786266-4435D4FA-982FF48A-4EE0C2C1",
+          "Value": {
+            "ObjectName": "QFT_TakeItemFromPlayer_C'QF_Contact:QFT_TakeItemFromPlayer_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.247"
+          }
+        },
+        {
+          "Key": "0CE3C9D5-4E7026DB-CF51F387-B75E1A19",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_Contact:QFT_SetQuestObjective_C_7'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.244"
+          }
+        },
+        {
+          "Key": "75251AC2-47612AB1-7CC4E0B7-A90FF974",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_Contact:QFT_SetQuestBool_C_9'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.234"
+          }
+        },
+        {
+          "Key": "DB1FFBFB-43B17D23-205CA48E-CF24EA52",
+          "Value": {
+            "ObjectName": "QFT_TriggerTeleporter_C'QF_Contact:QFT_TriggerTeleporter_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.253"
+          }
+        },
+        {
+          "Key": "D01A0CBE-473C9EA0-D6E29D87-E6774DE1",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Contact:QFT_Blank_C_32'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.100"
+          }
+        },
+        {
+          "Key": "C461B214-448100A0-63306B9F-C28D05CC",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_69'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.182"
+          }
+        },
+        {
+          "Key": "2EC7F9DE-4BA400E4-72F160A6-0EED7890",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_Contact:ConversationEntryPointNode_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.13"
+          }
+        },
+        {
+          "Key": "89145C20-4E74C35E-AFE7E2A4-39476D5E",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_104'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.142"
+          }
+        },
+        {
+          "Key": "CB8AE287-4E97F3DD-204ECD8A-79AB3046",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_60'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.177"
+          }
+        },
+        {
+          "Key": "621A31E7-45B406E8-C26E9A87-9877890D",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_63'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.179"
+          }
+        },
+        {
+          "Key": "B2CB5A23-413F8BEA-99CF0EB5-649008A0",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Contact:QFT_Blank_C_29'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.96"
+          }
+        },
+        {
+          "Key": "DD49D1B2-4B0B82B7-CAC5E2B7-36D7BA12",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_61'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.178"
+          }
+        },
+        {
+          "Key": "E8223E1A-4AC64420-5EA45CA1-C748BAF5",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Contact:QFT_Blank_C_28'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.95"
+          }
+        },
+        {
+          "Key": "06044DC6-4F24A8A9-518B7A96-11F6A6B8",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_66'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.180"
+          }
+        },
+        {
+          "Key": "B8C730AB-4B7C4F69-EDAC2B9D-B2C620CB",
+          "Value": {
+            "ObjectName": "QFT_GiveItemToPlayer_C'QF_Contact:QFT_GiveItemToPlayer_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.131"
+          }
+        },
+        {
+          "Key": "A5621B2A-43B1350D-FC11AAB1-0B397108",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_Contact:QFT_SetQuestBool_C_8'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.233"
+          }
+        },
+        {
+          "Key": "8189293F-42D890EA-96D33B9C-C7335125",
+          "Value": {
+            "ObjectName": "QFT_ModifyQuestInt_C'QF_Contact:QFT_ModifyQuestInt_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.134"
+          }
+        },
+        {
+          "Key": "A2B02342-47E5453F-22F6B5A8-8EFA3587",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Contact:QFT_Blank_C_45'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.114"
+          }
+        },
+        {
+          "Key": "7C5B5337-48AD522E-5AE2B697-BE0AF76F",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_Contact:QFT_SetQuestObjective_C_12'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.237"
+          }
+        },
+        {
+          "Key": "C5ED7B16-43B441BA-5B49B4A1-C064C52B",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_Contact:QFT_SetQuestObjective_C_13'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.238"
+          }
+        },
+        {
+          "Key": "9E0EB6FD-453329D1-E0387F85-9F0B0FE8",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Contact:QFT_Blank_C_18'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.87"
+          }
+        },
+        {
+          "Key": "85F4ACE3-428DA7C9-B19D72A1-A3E907DE",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_Contact:QFT_SetQuestObjective_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.241"
+          }
+        },
+        {
+          "Key": "AE149198-4096E37B-4BC0E59B-60A6A9DF",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_Contact:QFT_UpdateQuestLocation_C_5'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.261"
+          }
+        },
+        {
+          "Key": "31C464A0-488BBA71-43398997-FBC7F9B5",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_Contact:ConversationEntryPointNode_6'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.15"
+          }
+        },
+        {
+          "Key": "6CC20CC9-4A5A329A-E2696791-8C7FC59C",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Contact:QFT_Blank_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.79"
+          }
+        },
+        {
+          "Key": "AFEB7F06-4EC103AC-8EE703AA-0FE2752B",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_98'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.211"
+          }
+        },
+        {
+          "Key": "55E31318-421B57B2-EC0B4B81-BFDB941D",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Contact:QFT_Blank_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.78"
+          }
+        },
+        {
+          "Key": "7B39F6B7-41A64D98-A3FE99AB-216A30BA",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Contact:QFT_Blank_C_5'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.115"
+          }
+        },
+        {
+          "Key": "877E1D87-4C03F49B-5FA4199E-5C3FF97B",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.161"
+          }
+        },
+        {
+          "Key": "C4E7EBDC-4087DB8F-FAA58099-7439003C",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Contact:QFT_Blank_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.108"
+          }
+        },
+        {
+          "Key": "50B5A9BD-40CBC2D3-AF8E8C81-0DD11808",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_99'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.212"
+          }
+        },
+        {
+          "Key": "DA7CF46D-419711DD-78903F8D-FD57E10A",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_100'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.139"
+          }
+        },
+        {
+          "Key": "BB8BD128-456654E4-F32DC484-2CA6AC74",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Contact:QFT_Blank_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.97"
+          }
+        },
+        {
+          "Key": "DD76058C-4E9C929E-C64D95AF-06D0B5AF",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_101'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.140"
+          }
+        },
+        {
+          "Key": "1F0C26E6-4DA9DBA0-7BEB9BB0-FD0FDFDC",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_10'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.138"
+          }
+        },
+        {
+          "Key": "8F210F04-42DFA3BC-330820A3-638C1EB9",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_96'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.209"
+          }
+        },
+        {
+          "Key": "E7851B24-44AEBD77-19DB8690-85245E3D",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_51'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.172"
+          }
+        },
+        {
+          "Key": "6EFAD3BD-4F792B65-8CC2EC8E-5A73D8C8",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_52'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.173"
+          }
+        },
+        {
+          "Key": "065F13A8-49EC6C6B-40591881-74F73284",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Contact:QFT_Blank_C_25'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.93"
+          }
+        },
+        {
+          "Key": "68C07C7C-42F60149-1959C59D-BE519911",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_56'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.175"
+          }
+        },
+        {
+          "Key": "1AA0DBD3-484EBC67-5B8985A5-CF35D4FC",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Contact:QFT_Blank_C_24'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.92"
+          }
+        },
+        {
+          "Key": "62F0704C-432547E6-C68E80AE-20B42A63",
+          "Value": {
+            "ObjectName": "QFT_GiveItemToPlayer_C'QF_Contact:QFT_GiveItemToPlayer_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.130"
+          }
+        },
+        {
+          "Key": "89676366-493248AA-8B5D2D80-AC2DBD10",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_Contact:QFT_SetQuestBool_C_7'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.232"
+          }
+        },
+        {
+          "Key": "6F3441FF-42518756-239635A4-37A47388",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_Contact:QFT_SetQuestBool_C_18'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.223"
+          }
+        },
+        {
+          "Key": "24D5A9AE-4E5DF811-29AAA4B6-AECD52D2",
+          "Value": {
+            "ObjectName": "QFT_ModifyQuestInt_C'QF_Contact:QFT_ModifyQuestInt_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.133"
+          }
+        },
+        {
+          "Key": "DF868A9A-4C5EDD16-5200E09E-16F6F80A",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_97'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.210"
+          }
+        },
+        {
+          "Key": "D4874D11-4F0D6FB1-076B718F-CE2039BA",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Contact:QFT_Blank_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.88"
+          }
+        },
+        {
+          "Key": "0C86E2C1-4BB26A06-A1315BAB-41EA4495",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_102'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.141"
+          }
+        },
+        {
+          "Key": "67A666A0-4D74D088-46B189BA-BD26B4E5",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_Contact:ConversationEntryPointNode_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.12"
+          }
+        },
+        {
+          "Key": "20B5C538-48DB1B1A-BC27B9A5-153AA0BC",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_13'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.148"
+          }
+        },
+        {
+          "Key": "F4CC6ABA-4CC424A0-50843C8C-36440F03",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_9'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.202"
+          }
+        },
+        {
+          "Key": "2E064B5A-4284EF1A-BC71EDBD-34233DB4",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_43'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.170"
+          }
+        },
+        {
+          "Key": "3C59BEDD-43BF6D49-17F6F8A6-C19B8568",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_44'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.171"
+          }
+        },
+        {
+          "Key": "FFEC886F-4D29E8A5-8ADF298E-20390B92",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_Contact:QFT_SetQuestBool_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.229"
+          }
+        },
+        {
+          "Key": "910CC21D-4242372D-30A1B9A4-F0691A71",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_Contact:QFT_SetQuestBool_C_5'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.230"
+          }
+        },
+        {
+          "Key": "E2B2C94B-4D0F9499-62A01DAA-CBAFB1DB",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_Contact:QFT_SetQuestObjective_C_6'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.243"
+          }
+        },
+        {
+          "Key": "91DF5FD8-4CDC434D-D92320B0-A439A855",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_Contact:ConversationEntryPointNode_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.8"
+          }
+        },
+        {
+          "Key": "320229FC-4789B8BD-D86F3E85-665555AD",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Contact:QFT_Blank_C_53'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.117"
+          }
+        },
+        {
+          "Key": "86E72E97-41574C61-A22B0BAA-A3CA74FC",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_94'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.207"
+          }
+        },
+        {
+          "Key": "7D86C65A-4CCD969B-6A451B91-C0A2EF3E",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Contact:QFT_Blank_C_55'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.119"
+          }
+        },
+        {
+          "Key": "1BE7D79C-44942916-3F6DCFBE-94B2CC8B",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Contact:QFT_Blank_C_56'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.120"
+          }
+        },
+        {
+          "Key": "9FCA6761-4BB4BA28-FAFFD795-A6BDF580",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_24'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.157"
+          }
+        },
+        {
+          "Key": "731D39DA-43CE4641-A7E22B93-9193F07E",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Contact:QFT_Blank_C_10'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.80"
+          }
+        },
+        {
+          "Key": "8BD97014-4FCBE1D4-8CDFA2A0-E7DE8C7A",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_16'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.151"
+          }
+        },
+        {
+          "Key": "B6446158-455D64FC-DA3A11A7-EDDA2BE4",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_18'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.152"
+          }
+        },
+        {
+          "Key": "B2EA42F6-4415D9A4-DF010196-D5250D1F",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_20'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.155"
+          }
+        },
+        {
+          "Key": "615E80C9-46F7C496-6256DE83-AC23ECF0",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_19'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.153"
+          }
+        },
+        {
+          "Key": "4D5AACEF-4488563B-A16D94A8-AFD9CDB1",
+          "Value": {
+            "ObjectName": "QFT_TakeItemAmountFromPlayer_C'QF_Contact:QFT_TakeItemAmountFromPlayer_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.245"
+          }
+        },
+        {
+          "Key": "06E06CF5-48D4F2B1-A44FD887-EC53994A",
+          "Value": {
+            "ObjectName": "QFT_GiveItemToPlayer_C'QF_Contact:QFT_GiveItemToPlayer_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.128"
+          }
+        },
+        {
+          "Key": "653D14D0-469A93B5-CC36928E-3848F175",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_Contact:QFT_SetQuestBool_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.228"
+          }
+        },
+        {
+          "Key": "87AEAD47-4187DD54-58FB1BAF-CCC0EBE0",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_Contact:QFT_SetQuestBool_C_12'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.217"
+          }
+        },
+        {
+          "Key": "D7D27A76-42846585-D262938B-603C1AD6",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_Contact:QFT_SetQuestObjective_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.236"
+          }
+        },
+        {
+          "Key": "B78739F3-424B8637-DA0C8C94-09983202",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_Contact:QFT_UpdateQuestLocation_C_7'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.263"
+          }
+        },
+        {
+          "Key": "E78F2A8B-4A32C870-6EE3E2A7-D98B6789",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_Contact:QFT_UpdateQuestLocation_C_9'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.265"
+          }
+        },
+        {
+          "Key": "3D3270E4-43D025BC-7E5D8986-C7A1760A",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_Contact:QFT_SetQuestBool_C_20'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.226"
+          }
+        },
+        {
+          "Key": "ABD065EB-4BB73E0C-A18A2498-B2C1A2EA",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_Contact:QFT_UpdateQuestLocation_C_11'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.257"
+          }
+        },
+        {
+          "Key": "D4D88FA8-471A32E7-15E21196-6A9005D4",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Contact:QFT_Blank_C_11'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.81"
+          }
+        },
+        {
+          "Key": "8066D9D2-45399ABC-E51E2A80-B2F4064D",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Contact:QFT_Blank_C_13'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.83"
+          }
+        },
+        {
+          "Key": "BB5412DA-4DC59D45-B314C8AB-09E15D68",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Contact:QFT_Blank_C_41'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.110"
+          }
+        },
+        {
+          "Key": "CEFF9F83-4B732911-C77ECE98-6CE15768",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_6'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.176"
+          }
+        },
+        {
+          "Key": "5933D7EA-4269789F-F3AF8DBC-1739C70D",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_7'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.183"
+          }
+        },
+        {
+          "Key": "4E725AE7-4A510608-BA47EA87-24083292",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_8'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.192"
+          }
+        },
+        {
+          "Key": "5DCB658E-4A4101DF-B35117B2-C50AEBF6",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_Contact:QFT_SetQuestBool_C_21'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.227"
+          }
+        },
+        {
+          "Key": "54ACF7BA-4E7709B6-AF2D9AB0-922B7CF2",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_Contact:QFT_SetQuestObjective_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.235"
+          }
+        },
+        {
+          "Key": "22E63E10-468C1FB2-53227A88-0714705B",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_Contact:QFT_UpdateQuestLocation_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.258"
+          }
+        },
+        {
+          "Key": "9C48C8EF-4D1E5673-4D1F06B1-99DAF84C",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_Contact:QFT_UpdateQuestLocation_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.260"
+          }
+        },
+        {
+          "Key": "887ECFA2-4370D1ED-F7D33896-CB9BC8B0",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_Contact:QFT_UpdateQuestLocation_C_10'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.256"
+          }
+        },
+        {
+          "Key": "4A94AE2D-47B25C57-E56F61B5-45BE1E4A",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Contact:QFT_Blank_C_40'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.109"
+          }
+        },
+        {
+          "Key": "CE935DDA-431C6B9A-36C61CBA-16B63B6C",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_87'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.199"
+          }
+        },
+        {
+          "Key": "7B187AAB-4D2E6364-66EB5190-9486F031",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_88'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.200"
+          }
+        },
+        {
+          "Key": "ABF335CF-476737FC-943825A1-96E66DEA",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_89'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.201"
+          }
+        },
+        {
+          "Key": "6FA11BB9-4A08BF60-F070E288-A52A65E7",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_90'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.203"
+          }
+        },
+        {
+          "Key": "5A63FF47-41FBA185-ECB5C2BC-89442485",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Contact:QFT_Blank_C_12'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.82"
+          }
+        },
+        {
+          "Key": "C786F830-4D5C15A5-090CE999-EBA2D5AD",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_11'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.146"
+          }
+        },
+        {
+          "Key": "BE9A3A5A-4B4FA4B9-6B83EB90-94BCB755",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Contact:QFT_Blank_C_57'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.121"
+          }
+        },
+        {
+          "Key": "4E9A2E55-47874001-A5B952B2-76F9F018",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_95'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.208"
+          }
+        },
+        {
+          "Key": "0575E678-417AA39B-632E2DA5-AE9731CE",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_Contact:ConversationEntryPointNode_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.7"
+          }
+        },
+        {
+          "Key": "3EC973B2-43827EE6-078532AC-218A76CD",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_30'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.162"
+          }
+        },
+        {
+          "Key": "F8E00A83-435C8385-8BAD0E97-EAAEF18B",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Contact:QFT_Blank_C_16'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.85"
+          }
+        },
+        {
+          "Key": "16F9B5FD-47EC9994-7513E197-FF0CE5C6",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_38'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.166"
+          }
+        },
+        {
+          "Key": "E86952C0-41353BBD-4A839ABB-2E263C37",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_40'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.168"
+          }
+        },
+        {
+          "Key": "AB237833-4DFB5E8B-091C819C-CCA9ACDF",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_39'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.167"
+          }
+        },
+        {
+          "Key": "27C0CC0D-4946F3EC-116D738D-9CE37DFD",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_35'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.164"
+          }
+        },
+        {
+          "Key": "333A3891-4242C868-7CB90BAA-62BA4B6A",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_36'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.165"
+          }
+        },
+        {
+          "Key": "8A756A4A-4FBA6FDF-4DD3098F-CF98B0AB",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Contact:QFT_Blank_C_23'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.91"
+          }
+        },
+        {
+          "Key": "7AA827B7-4C76DAF0-41F6F584-7589C12E",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_55'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.174"
+          }
+        },
+        {
+          "Key": "66857733-48DB2C84-928BB9A9-AA073BD3",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Contact:QFT_Blank_C_21'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.89"
+          }
+        },
+        {
+          "Key": "516C5AE9-4870FDBE-11D9DDA9-04A9FD9F",
+          "Value": {
+            "ObjectName": "QFT_TakeItemAmountFromPlayer_C'QF_Contact:QFT_TakeItemAmountFromPlayer_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.246"
+          }
+        },
+        {
+          "Key": "EF58BC53-485B6C04-873A6C99-6B7DFA98",
+          "Value": {
+            "ObjectName": "QFT_GiveItemToPlayer_C'QF_Contact:QFT_GiveItemToPlayer_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.129"
+          }
+        },
+        {
+          "Key": "C1DA8EB2-41A0CE5F-E5EA49AF-9E6E8AA6",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_Contact:QFT_UpdateQuestLocation_C_6'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.262"
+          }
+        },
+        {
+          "Key": "294A657D-4AF16633-0EAB80AF-A3DC5796",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_Contact:QFT_SetQuestBool_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.225"
+          }
+        },
+        {
+          "Key": "E85CEA7D-44840F14-39BA3195-7399D6BB",
+          "Value": {
+            "ObjectName": "QFT_ModifyQuestInt_C'QF_Contact:QFT_ModifyQuestInt_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.135"
+          }
+        },
+        {
+          "Key": "658F52A8-4A1E1497-557CDCBE-1B53B365",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Contact:QFT_Blank_C_17'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.86"
+          }
+        },
+        {
+          "Key": "A511EC90-4CA44687-8D7D1BA6-5B239C39",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_32'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.163"
+          }
+        },
+        {
+          "Key": "E3898774-4CCC0CBB-A63AE395-8DAB91AA",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_Contact:QFT_UpdateQuestLocation_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.259"
+          }
+        },
+        {
+          "Key": "A517C35E-4FA91757-166397BF-B6B19F56",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_Contact:ConversationEntryPointNode_5'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.14"
+          }
+        },
+        {
+          "Key": "ED87ACD9-409E252D-6BD86092-46C9EED8",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Contact:QFT_Blank_C_39'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.107"
+          }
+        },
+        {
+          "Key": "EB8D8D1C-45F57FC1-CC4DABBB-EA613B32",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_26'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.158"
+          }
+        },
+        {
+          "Key": "30958DDC-4D85EB2B-D9F8FF85-6BD5BF17",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Contact:QFT_Blank_C_54'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.118"
+          }
+        },
+        {
+          "Key": "991B1C50-44107D9A-74301080-1BE532DC",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_135'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.149"
+          }
+        },
+        {
+          "Key": "21E83BD1-41673AAB-EF8C2491-147D30C6",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Contact:QFT_Blank_C_43'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.112"
+          }
+        },
+        {
+          "Key": "53668E14-4DAACB22-7F19ACAA-56B45FF2",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_92'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.205"
+          }
+        },
+        {
+          "Key": "327B8240-46AC35BB-3C7701B1-A14A0001",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Contact:QFT_Blank_C_44'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.113"
+          }
+        },
+        {
+          "Key": "B9B4F746-4B3AB746-1E0A1C9C-13EC2ED6",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_91'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.204"
+          }
+        },
+        {
+          "Key": "34B05599-494E3521-7407EEAC-5E8269AD",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_14'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.150"
+          }
+        },
+        {
+          "Key": "C81E4D5A-4D1DD78D-5A17F29F-677B0AF9",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.136"
+          }
+        },
+        {
+          "Key": "4755D887-4A24E3B2-5992F79B-44F353AD",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.137"
+          }
+        },
+        {
+          "Key": "E76E7E14-4AFD0508-85CB818D-4E4BBB4E",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Contact:QFT_PromptMessage_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.154"
+          }
+        },
+        {
+          "Key": "9373FAAA-47C2F489-A624C387-BFEBE677",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_Contact:QFT_SetQuestBool_C_19'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.224"
+          }
+        },
+        {
+          "Key": "1F709AC6-42EDCE32-0937E2A9-E6246768",
+          "Value": {
+            "ObjectName": "QFT_GiveQuest_C'QF_Contact:QFT_GiveQuest_C_6'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.132"
+          }
+        },
+        {
+          "Key": "2A606788-45FC4B79-AE35E1BF-CC131B53",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_Contact:QFT_SetQuestObjective_C_5'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.242"
+          }
+        },
+        {
+          "Key": "FEEF274F-4FA41046-89F0809D-519C910E",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_Contact:QFT_UpdateQuestLocation_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.255"
+          }
+        }
+      ],
+      "EntryTags": [
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.Contact"
+          },
+          "DestinationList": [
+            "A517C35E-4FA91757-166397BF-B6B19F56"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.Contact.VaultGuardian1"
+          },
+          "DestinationList": [
+            "0575E678-417AA39B-632E2DA5-AE9731CE"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.Contact.VaultGuardianLeader"
+          },
+          "DestinationList": [
+            "91DF5FD8-4CDC434D-D92320B0-A439A855"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.Contact.VaultGuardian2"
+          },
+          "DestinationList": [
+            "67A666A0-4D74D088-46B189BA-BD26B4E5"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.Contact.Zanik"
+          },
+          "DestinationList": [
+            "31C464A0-488BBA71-43398997-FBC7F9B5"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.Contact.VaultGuardian3"
+          },
+          "DestinationList": [
+            "2EC7F9DE-4BA400E4-72F160A6-0EED7890"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.Contact.MagicBarrier"
+          },
+          "DestinationList": [
+            "8C051D19-448134B9-A15010BF-7262A693"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.Contact.ZanikInChamber"
+          },
+          "DestinationList": [
+            "D941CFCD-4A4086C4-F21E638F-3BB0C5C2"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.Contact.AviskInChamber.Vein1"
+          },
+          "DestinationList": [
+            "3156984B-4739D424-0FF13291-12CDA4AA"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.Contact.AviskInChamber.Vein2"
+          },
+          "DestinationList": [
+            "44A887C1-4666AAD0-62CBC081-E153528E"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.Contact.AviskInChamber.Vein3"
+          },
+          "DestinationList": [
+            "8FA26403-43E011BA-4C0E5A8E-6B5B0404"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.Contact.AviskInChamber.Vein4"
+          },
+          "DestinationList": [
+            "3A4CA6FB-4920C5A7-04D6EDBD-38FE46BB"
+          ],
+          "EntryIdentifier": ""
+        }
+      ],
+      "InternalNodeIds": [
+        "3A4CA6FB-4920C5A7-04D6EDBD-38FE46BB",
+        "FAF210F7-4DBC2FD8-2ABE81BC-3F07A478",
+        "C2C89D82-4FA96702-6993FF81-C8B986E5",
+        "A7082001-42187486-0B908294-16A40BFB",
+        "8147C071-4714D8B1-42CB7C8B-E6136AA9",
+        "FA0A17D6-471523F4-CE6CCCB8-6550C542",
+        "4ED7732D-4E18EAFE-6D4E6C93-3150665E",
+        "6EE3DB8A-45669CBF-4FA78998-B488171D",
+        "3DE2494F-4B3802BB-35A70996-1685D9D4",
+        "3C2675D9-4FBB4669-FE8C89B2-4E0E54B4",
+        "B026ED3F-4C713206-387BA68B-0549A4DE",
+        "00130169-48818663-8F1C729B-08C5AF8D",
+        "7E06261C-481BC7F5-3D7BCFAB-ABB9F23D",
+        "8FA26403-43E011BA-4C0E5A8E-6B5B0404",
+        "EE56ED53-456ECA01-5DAED39C-F2DDDF5D",
+        "703E12C6-45F5B43B-6747BC96-AE66AEE4",
+        "0825E558-40793299-E03374BF-8759A77F",
+        "D45A258A-4E7C3AC8-36433DB5-2B40BB97",
+        "5155B906-4AB87636-A7866791-75F36180",
+        "1EDE7A7B-492596DE-0273AEA2-7DCFA1B2",
+        "F02F7623-490B1ED7-FAE753A6-DE25C434",
+        "44A887C1-4666AAD0-62CBC081-E153528E",
+        "9CCC2DCA-443802AB-4473A3B9-9E15E213",
+        "67A8F117-45F2C7BA-BE0FDD9D-6E7BBB57",
+        "3DFCE097-40C5AD07-EAF1CCB4-9C8A03AE",
+        "29F1218E-4D50F5EB-A0E9B9B6-593F1DA7",
+        "A6B1C941-4E9C03DB-CCDCFBB2-3F62EF2B",
+        "85CEC116-492A794A-CA38D793-A353C37E",
+        "346D3D1F-40E1F1C6-8BB8ECAE-3076AD66",
+        "3156984B-4739D424-0FF13291-12CDA4AA",
+        "200CE8C9-49C8BD0B-B1C22C92-AF78F917",
+        "2B0E588F-4659F88F-EFD85994-E1341144",
+        "C23F957E-41429CD1-4D177582-C534F050",
+        "2F739E1F-4019364F-9877829C-C0D78CFA",
+        "99BCB005-4F6430FD-97A0D882-6C12D99A",
+        "998468D5-4C39BEF6-60255983-CEEB1DD6",
+        "2D7EE354-469FF3C5-48673B81-44382B11",
+        "D941CFCD-4A4086C4-F21E638F-3BB0C5C2",
+        "A46D983E-42B7F729-1EDDACAC-8FEEE76B",
+        "AC11A926-4FE57D10-E435049F-443C6792",
+        "30B391FF-4B0DAF8E-8DCA16BC-296824B9",
+        "C6673D82-402AC419-2D8F9CB3-BE4BF3F1",
+        "E07D13DB-401DA9D9-90A4D281-26CF0283",
+        "178698F4-4987C6BD-E9A7E0AB-F2F454BB",
+        "5B3C52D6-4C48A597-17D8E9B3-7F73CFDC",
+        "CA670748-4821F8DA-747D72AE-E2523FAC",
+        "6D1C5813-488CEB05-0782C98A-581737C9",
+        "F310D347-4EC1FBA9-B1303591-F6B0F462",
+        "0332F948-4BE02C8C-2F3B5E81-10C23440",
+        "8CD409B7-48467B5F-F6C8A79F-3789B612",
+        "96DE03AA-4781A6B0-98CDDE81-5FAD5FF8",
+        "580E474A-4C3BD5CD-522CB2B6-3F958635",
+        "92E06C5C-4500BDB6-728122AC-794EFA8E",
+        "E49E6468-47C4BB27-6F27EDB0-885AF208",
+        "0342AE9D-431F5C2A-344A7FA1-B985683A",
+        "66404F6B-48020F67-FBD6299A-8E324876",
+        "33D28DEB-42340F87-90C5028D-A7D4B91F",
+        "F5E3819A-4F89F52F-749B1D90-537D7C45",
+        "F98AA717-44546DC4-7CDA91A0-F9909F0D",
+        "2BDF898E-44F53BBC-BC5BA8A2-9A9D5A65",
+        "8C051D19-448134B9-A15010BF-7262A693",
+        "AF3A3F69-4DC52133-784B289F-A41B1D19",
+        "C8B67325-42D6E98D-3F1E1684-1BCA44E8",
+        "A271E54F-4560E25D-FB28AF90-F123427E",
+        "84C6C690-4A074EDB-501FBB8E-E32B90D7",
+        "9B41822F-45DA8FF5-EB3E678E-A848A6F7",
+        "C476A395-46155F9B-CC31F9A6-5B96E67C",
+        "C1786266-4435D4FA-982FF48A-4EE0C2C1",
+        "0CE3C9D5-4E7026DB-CF51F387-B75E1A19",
+        "75251AC2-47612AB1-7CC4E0B7-A90FF974",
+        "DB1FFBFB-43B17D23-205CA48E-CF24EA52",
+        "D01A0CBE-473C9EA0-D6E29D87-E6774DE1",
+        "C461B214-448100A0-63306B9F-C28D05CC",
+        "2EC7F9DE-4BA400E4-72F160A6-0EED7890",
+        "89145C20-4E74C35E-AFE7E2A4-39476D5E",
+        "CB8AE287-4E97F3DD-204ECD8A-79AB3046",
+        "621A31E7-45B406E8-C26E9A87-9877890D",
+        "B2CB5A23-413F8BEA-99CF0EB5-649008A0",
+        "DD49D1B2-4B0B82B7-CAC5E2B7-36D7BA12",
+        "E8223E1A-4AC64420-5EA45CA1-C748BAF5",
+        "06044DC6-4F24A8A9-518B7A96-11F6A6B8",
+        "B8C730AB-4B7C4F69-EDAC2B9D-B2C620CB",
+        "A5621B2A-43B1350D-FC11AAB1-0B397108",
+        "8189293F-42D890EA-96D33B9C-C7335125",
+        "A2B02342-47E5453F-22F6B5A8-8EFA3587",
+        "7C5B5337-48AD522E-5AE2B697-BE0AF76F",
+        "C5ED7B16-43B441BA-5B49B4A1-C064C52B",
+        "9E0EB6FD-453329D1-E0387F85-9F0B0FE8",
+        "85F4ACE3-428DA7C9-B19D72A1-A3E907DE",
+        "AE149198-4096E37B-4BC0E59B-60A6A9DF",
+        "31C464A0-488BBA71-43398997-FBC7F9B5",
+        "6CC20CC9-4A5A329A-E2696791-8C7FC59C",
+        "AFEB7F06-4EC103AC-8EE703AA-0FE2752B",
+        "55E31318-421B57B2-EC0B4B81-BFDB941D",
+        "7B39F6B7-41A64D98-A3FE99AB-216A30BA",
+        "877E1D87-4C03F49B-5FA4199E-5C3FF97B",
+        "C4E7EBDC-4087DB8F-FAA58099-7439003C",
+        "50B5A9BD-40CBC2D3-AF8E8C81-0DD11808",
+        "DA7CF46D-419711DD-78903F8D-FD57E10A",
+        "BB8BD128-456654E4-F32DC484-2CA6AC74",
+        "DD76058C-4E9C929E-C64D95AF-06D0B5AF",
+        "1F0C26E6-4DA9DBA0-7BEB9BB0-FD0FDFDC",
+        "8F210F04-42DFA3BC-330820A3-638C1EB9",
+        "E7851B24-44AEBD77-19DB8690-85245E3D",
+        "6EFAD3BD-4F792B65-8CC2EC8E-5A73D8C8",
+        "065F13A8-49EC6C6B-40591881-74F73284",
+        "68C07C7C-42F60149-1959C59D-BE519911",
+        "1AA0DBD3-484EBC67-5B8985A5-CF35D4FC",
+        "62F0704C-432547E6-C68E80AE-20B42A63",
+        "89676366-493248AA-8B5D2D80-AC2DBD10",
+        "6F3441FF-42518756-239635A4-37A47388",
+        "24D5A9AE-4E5DF811-29AAA4B6-AECD52D2",
+        "DF868A9A-4C5EDD16-5200E09E-16F6F80A",
+        "D4874D11-4F0D6FB1-076B718F-CE2039BA",
+        "0C86E2C1-4BB26A06-A1315BAB-41EA4495",
+        "67A666A0-4D74D088-46B189BA-BD26B4E5",
+        "20B5C538-48DB1B1A-BC27B9A5-153AA0BC",
+        "F4CC6ABA-4CC424A0-50843C8C-36440F03",
+        "2E064B5A-4284EF1A-BC71EDBD-34233DB4",
+        "3C59BEDD-43BF6D49-17F6F8A6-C19B8568",
+        "FFEC886F-4D29E8A5-8ADF298E-20390B92",
+        "910CC21D-4242372D-30A1B9A4-F0691A71",
+        "E2B2C94B-4D0F9499-62A01DAA-CBAFB1DB",
+        "91DF5FD8-4CDC434D-D92320B0-A439A855",
+        "320229FC-4789B8BD-D86F3E85-665555AD",
+        "86E72E97-41574C61-A22B0BAA-A3CA74FC",
+        "7D86C65A-4CCD969B-6A451B91-C0A2EF3E",
+        "1BE7D79C-44942916-3F6DCFBE-94B2CC8B",
+        "9FCA6761-4BB4BA28-FAFFD795-A6BDF580",
+        "731D39DA-43CE4641-A7E22B93-9193F07E",
+        "8BD97014-4FCBE1D4-8CDFA2A0-E7DE8C7A",
+        "B6446158-455D64FC-DA3A11A7-EDDA2BE4",
+        "B2EA42F6-4415D9A4-DF010196-D5250D1F",
+        "615E80C9-46F7C496-6256DE83-AC23ECF0",
+        "4D5AACEF-4488563B-A16D94A8-AFD9CDB1",
+        "06E06CF5-48D4F2B1-A44FD887-EC53994A",
+        "653D14D0-469A93B5-CC36928E-3848F175",
+        "87AEAD47-4187DD54-58FB1BAF-CCC0EBE0",
+        "D7D27A76-42846585-D262938B-603C1AD6",
+        "B78739F3-424B8637-DA0C8C94-09983202",
+        "E78F2A8B-4A32C870-6EE3E2A7-D98B6789",
+        "3D3270E4-43D025BC-7E5D8986-C7A1760A",
+        "ABD065EB-4BB73E0C-A18A2498-B2C1A2EA",
+        "D4D88FA8-471A32E7-15E21196-6A9005D4",
+        "8066D9D2-45399ABC-E51E2A80-B2F4064D",
+        "BB5412DA-4DC59D45-B314C8AB-09E15D68",
+        "CEFF9F83-4B732911-C77ECE98-6CE15768",
+        "5933D7EA-4269789F-F3AF8DBC-1739C70D",
+        "4E725AE7-4A510608-BA47EA87-24083292",
+        "5DCB658E-4A4101DF-B35117B2-C50AEBF6",
+        "54ACF7BA-4E7709B6-AF2D9AB0-922B7CF2",
+        "22E63E10-468C1FB2-53227A88-0714705B",
+        "9C48C8EF-4D1E5673-4D1F06B1-99DAF84C",
+        "887ECFA2-4370D1ED-F7D33896-CB9BC8B0",
+        "4A94AE2D-47B25C57-E56F61B5-45BE1E4A",
+        "CE935DDA-431C6B9A-36C61CBA-16B63B6C",
+        "7B187AAB-4D2E6364-66EB5190-9486F031",
+        "ABF335CF-476737FC-943825A1-96E66DEA",
+        "6FA11BB9-4A08BF60-F070E288-A52A65E7",
+        "5A63FF47-41FBA185-ECB5C2BC-89442485",
+        "C786F830-4D5C15A5-090CE999-EBA2D5AD",
+        "BE9A3A5A-4B4FA4B9-6B83EB90-94BCB755",
+        "4E9A2E55-47874001-A5B952B2-76F9F018",
+        "0575E678-417AA39B-632E2DA5-AE9731CE",
+        "3EC973B2-43827EE6-078532AC-218A76CD",
+        "F8E00A83-435C8385-8BAD0E97-EAAEF18B",
+        "16F9B5FD-47EC9994-7513E197-FF0CE5C6",
+        "E86952C0-41353BBD-4A839ABB-2E263C37",
+        "AB237833-4DFB5E8B-091C819C-CCA9ACDF",
+        "27C0CC0D-4946F3EC-116D738D-9CE37DFD",
+        "333A3891-4242C868-7CB90BAA-62BA4B6A",
+        "8A756A4A-4FBA6FDF-4DD3098F-CF98B0AB",
+        "7AA827B7-4C76DAF0-41F6F584-7589C12E",
+        "66857733-48DB2C84-928BB9A9-AA073BD3",
+        "516C5AE9-4870FDBE-11D9DDA9-04A9FD9F",
+        "EF58BC53-485B6C04-873A6C99-6B7DFA98",
+        "C1DA8EB2-41A0CE5F-E5EA49AF-9E6E8AA6",
+        "294A657D-4AF16633-0EAB80AF-A3DC5796",
+        "E85CEA7D-44840F14-39BA3195-7399D6BB",
+        "658F52A8-4A1E1497-557CDCBE-1B53B365",
+        "A511EC90-4CA44687-8D7D1BA6-5B239C39",
+        "E3898774-4CCC0CBB-A63AE395-8DAB91AA",
+        "A517C35E-4FA91757-166397BF-B6B19F56",
+        "ED87ACD9-409E252D-6BD86092-46C9EED8",
+        "EB8D8D1C-45F57FC1-CC4DABBB-EA613B32",
+        "30958DDC-4D85EB2B-D9F8FF85-6BD5BF17",
+        "991B1C50-44107D9A-74301080-1BE532DC",
+        "21E83BD1-41673AAB-EF8C2491-147D30C6",
+        "53668E14-4DAACB22-7F19ACAA-56B45FF2",
+        "327B8240-46AC35BB-3C7701B1-A14A0001",
+        "B9B4F746-4B3AB746-1E0A1C9C-13EC2ED6",
+        "34B05599-494E3521-7407EEAC-5E8269AD",
+        "C81E4D5A-4D1DD78D-5A17F29F-677B0AF9",
+        "4755D887-4A24E3B2-5992F79B-44F353AD",
+        "E76E7E14-4AFD0508-85CB818D-4E4BBB4E",
+        "9373FAAA-47C2F489-A624C387-BFEBE677",
+        "1F709AC6-42EDCE32-0937E2A9-E6246768",
+        "2A606788-45FC4B79-AE35E1BF-CC131B53",
+        "FEEF274F-4FA41046-89F0809D-519C910E"
+      ]
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.Contact.VaultGuardian1"
+      },
+      "OutputConnections": [
+        "3EC973B2-43827EE6-078532AC-218A76CD"
+      ],
+      "Compiled_NodeGUID": "0575E678-417AA39B-632E2DA5-AE9731CE"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.Contact.VaultGuardianLeader"
+      },
+      "OutputConnections": [
+        "7D86C65A-4CCD969B-6A451B91-C0A2EF3E",
+        "320229FC-4789B8BD-D86F3E85-665555AD"
+      ],
+      "Compiled_NodeGUID": "91DF5FD8-4CDC434D-D92320B0-A439A855"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.Contact.AviskInChamber.Vein3"
+      },
+      "OutputConnections": [
+        "1EDE7A7B-492596DE-0273AEA2-7DCFA1B2",
+        "EE56ED53-456ECA01-5DAED39C-F2DDDF5D"
+      ],
+      "Compiled_NodeGUID": "8FA26403-43E011BA-4C0E5A8E-6B5B0404"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.Contact.AviskInChamber.Vein4"
+      },
+      "OutputConnections": [
+        "00130169-48818663-8F1C729B-08C5AF8D",
+        "FAF210F7-4DBC2FD8-2ABE81BC-3F07A478"
+      ],
+      "Compiled_NodeGUID": "3A4CA6FB-4920C5A7-04D6EDBD-38FE46BB"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_12",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.Contact.MagicBarrier"
+      },
+      "OutputConnections": [
+        "A271E54F-4560E25D-FB28AF90-F123427E",
+        "AF3A3F69-4DC52133-784B289F-A41B1D19"
+      ],
+      "Compiled_NodeGUID": "8C051D19-448134B9-A15010BF-7262A693"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.Contact.VaultGuardian2"
+      },
+      "OutputConnections": [
+        "F4CC6ABA-4CC424A0-50843C8C-36440F03",
+        "20B5C538-48DB1B1A-BC27B9A5-153AA0BC"
+      ],
+      "Compiled_NodeGUID": "67A666A0-4D74D088-46B189BA-BD26B4E5"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.Contact.VaultGuardian3"
+      },
+      "OutputConnections": [
+        "CB8AE287-4E97F3DD-204ECD8A-79AB3046",
+        "89145C20-4E74C35E-AFE7E2A4-39476D5E"
+      ],
+      "Compiled_NodeGUID": "2EC7F9DE-4BA400E4-72F160A6-0EED7890"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.Contact"
+      },
+      "OutputConnections": [
+        "30958DDC-4D85EB2B-D9F8FF85-6BD5BF17",
+        "ED87ACD9-409E252D-6BD86092-46C9EED8"
+      ],
+      "Compiled_NodeGUID": "A517C35E-4FA91757-166397BF-B6B19F56"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.Contact.Zanik"
+      },
+      "OutputConnections": [
+        "55E31318-421B57B2-EC0B4B81-BFDB941D",
+        "6CC20CC9-4A5A329A-E2696791-8C7FC59C"
+      ],
+      "Compiled_NodeGUID": "31C464A0-488BBA71-43398997-FBC7F9B5"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.Contact.ZanikInChamber"
+      },
+      "OutputConnections": [
+        "30B391FF-4B0DAF8E-8DCA16BC-296824B9",
+        "A46D983E-42B7F729-1EDDACAC-8FEEE76B"
+      ],
+      "Compiled_NodeGUID": "D941CFCD-4A4086C4-F21E638F-3BB0C5C2"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.Contact.AviskInChamber.Vein1"
+      },
+      "OutputConnections": [
+        "998468D5-4C39BEF6-60255983-CEEB1DD6",
+        "200CE8C9-49C8BD0B-B1C22C92-AF78F917"
+      ],
+      "Compiled_NodeGUID": "3156984B-4739D424-0FF13291-12CDA4AA"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.Contact.AviskInChamber.Vein2"
+      },
+      "OutputConnections": [
+        "85CEC116-492A794A-CA38D793-A353C37E",
+        "9CCC2DCA-443802AB-4473A3B9-9E15E213"
+      ],
+      "Compiled_NodeGUID": "44A887C1-4666AAD0-62CBC081-E153528E"
+    }
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerDoesntHaveSpaceForItem_C",
+    "Name": "QFR_PlayerDoesntHaveSpaceForItem_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerDoesntHaveSpaceForItem_C",
+    "Name": "QFR_PlayerDoesntHaveSpaceForItem_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerDoesntHaveSpaceForItem_C",
+    "Name": "QFR_PlayerDoesntHaveSpaceForItem_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasItemAmount_C",
+    "Name": "QFR_PlayerHasItemAmount_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasItemAmount_C",
+    "Name": "QFR_PlayerHasItemAmount_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasItemAmount_C",
+    "Name": "QFR_PlayerHasItemAmount_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasItemAmount_C",
+    "Name": "QFR_PlayerHasItemAmount_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasItemAmount_C",
+    "Name": "QFR_PlayerHasItemAmount_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasLessThanItemAmount_C",
+    "Name": "QFR_PlayerHasLessThanItemAmount_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasLessThanItemAmount_C",
+    "Name": "QFR_PlayerHasLessThanItemAmount_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasLessThanItemAmount_C",
+    "Name": "QFR_PlayerHasLessThanItemAmount_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasLessThanItemAmount_C",
+    "Name": "QFR_PlayerHasLessThanItemAmount_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasLessThanItemAmount_C",
+    "Name": "QFR_PlayerHasLessThanItemAmount_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasSpaceForItem_C",
+    "Name": "QFR_PlayerHasSpaceForItem_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasSpaceForItem_C",
+    "Name": "QFR_PlayerHasSpaceForItem_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasSpaceForItem_C",
+    "Name": "QFR_PlayerHasSpaceForItem_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasSpaceForItem_C",
+    "Name": "QFR_PlayerHasSpaceForItem_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_12",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_13",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_14",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_17",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_18",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_19",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_20",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_21",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_22",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_23",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_24",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_25",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_26",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_28",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_29",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_30",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_31",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_32",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_33",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBoolsAND_C",
+    "Name": "QFR_TestQuestBoolsAND_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestInt_C",
+    "Name": "QFR_TestQuestInt_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_12",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_13",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_15",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_16",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_17",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_18",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_21",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_22",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_23",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_24",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_25",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_27",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_28",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_29",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_30",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_31",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_32",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_33",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_34",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_35",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_36",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_37",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_38",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_39",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_40",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_41",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_42",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_43",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_44",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_45",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_52",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_53",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_54",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_55",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_56",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_57",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_CompleteQuest_C",
+    "Name": "QFT_CompleteQuest_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveCraftingRecipe_C",
+    "Name": "QFT_GiveCraftingRecipe_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveItemToPlayer_C",
+    "Name": "QFT_GiveItemToPlayer_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveItemToPlayer_C",
+    "Name": "QFT_GiveItemToPlayer_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveItemToPlayer_C",
+    "Name": "QFT_GiveItemToPlayer_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveItemToPlayer_C",
+    "Name": "QFT_GiveItemToPlayer_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveQuest_C",
+    "Name": "QFT_GiveQuest_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_ModifyQuestInt_C",
+    "Name": "QFT_ModifyQuestInt_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_ModifyQuestInt_C",
+    "Name": "QFT_ModifyQuestInt_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_ModifyQuestInt_C",
+    "Name": "QFT_ModifyQuestInt_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_100",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_101",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_102",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_104",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_105",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_106",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_107",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_12",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_13",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_135",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_14",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_16",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_18",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_19",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_20",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_23",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_24",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_26",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_28",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_29",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_30",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_32",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_35",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_36",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_38",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_39",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_40",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_42",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_43",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_44",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_51",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_52",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_55",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_56",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_60",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_61",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_63",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_66",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_67",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_69",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_70",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_73",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_74",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_75",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_76",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_77",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_78",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_79",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_80",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_81",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_82",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_83",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_84",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_85",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_87",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_88",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_89",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_90",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_91",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_92",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_93",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_94",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_95",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_96",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_97",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_98",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_99",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_12",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_13",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_14",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_15",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_16",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_17",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_18",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_19",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_20",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_21",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_12",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_13",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_TakeItemAmountFromPlayer_C",
+    "Name": "QFT_TakeItemAmountFromPlayer_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_TakeItemAmountFromPlayer_C",
+    "Name": "QFT_TakeItemAmountFromPlayer_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_TakeItemFromPlayer_C",
+    "Name": "QFT_TakeItemFromPlayer_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_TriggerAviskVeinVFX_C",
+    "Name": "QFT_TriggerAviskVeinVFX_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_TriggerAviskVeinVFX_C",
+    "Name": "QFT_TriggerAviskVeinVFX_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_TriggerAviskVeinVFX_C",
+    "Name": "QFT_TriggerAviskVeinVFX_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_TriggerAviskVeinVFX_C",
+    "Name": "QFT_TriggerAviskVeinVFX_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_TriggerTeleporter_C",
+    "Name": "QFT_TriggerTeleporter_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_TriggerTeleporter_C",
+    "Name": "QFT_TriggerTeleporter_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_Play2DSting_C",
+    "Name": "SEN_Play2DSting_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Contact'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/Contact/QF_Contact.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  }
+]

@@ -1,0 +1,314 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_BaseBuilding_TrainingDummy_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_BaseBuilding_TrainingDummy_C:SimpleConstructionScript_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Actors/Props/BP_BaseBuilding_TrainingDummy.12"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_BaseBuilding_TrainingDummy_C:InheritableComponentHandler'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Actors/Props/BP_BaseBuilding_TrainingDummy.6"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BaseBuilding_PropBase_C'",
+      "ObjectPath": "/Game/Gameplay/BaseBuilding/Actors/BP_BaseBuilding_PropBase"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "TrainingDummyBuildPiece",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'TrainingDummyBuildPieceComponent'",
+          "ObjectPath": "/Script/Dominion"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_NoExport | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_BaseBuilding_TrainingDummy_C'Default__BP_BaseBuilding_TrainingDummy_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Actors/Props/BP_BaseBuilding_TrainingDummy.2"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "BoxComponent",
+    "Outer": {
+      "ObjectName": "BP_BaseBuilding_TrainingDummy_C'Default__BP_BaseBuilding_TrainingDummy_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Actors/Props/BP_BaseBuilding_TrainingDummy.2"
+    },
+    "Class": "UScriptClass'BoxComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BoxExtent": {
+        "X": 30.0,
+        "Y": 15.0,
+        "Z": 110.0
+      },
+      "OnComponentBeginOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_BaseBuilding_TrainingDummy_C'Default__BP_BaseBuilding_TrainingDummy_C'",
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Actors/Props/BP_BaseBuilding_TrainingDummy.2"
+            },
+            "FunctionName": "OnBeginOverlap"
+          }
+        ]
+      },
+      "OnComponentEndOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_BaseBuilding_TrainingDummy_C'Default__BP_BaseBuilding_TrainingDummy_C'",
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Actors/Props/BP_BaseBuilding_TrainingDummy.2"
+            },
+            "FunctionName": "OnEndOverlap"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_BaseBuilding_TrainingDummy_C:Root'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Actors/Props/BP_BaseBuilding_TrainingDummy.9"
+      },
+      "RelativeLocation": {
+        "X": 1.4406844E-07,
+        "Y": 0.0,
+        "Z": 85.0
+      }
+    }
+  },
+  {
+    "Type": "BP_BaseBuilding_TrainingDummy_C",
+    "Name": "Default__BP_BaseBuilding_TrainingDummy_C",
+    "Class": "BlueprintGeneratedClass'1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Actors/Props/BP_BaseBuilding_TrainingDummy.BP_BaseBuilding_TrainingDummy_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "BuildingDamageComponent",
+    "Name": "BaseBuildingDamageComponent",
+    "Outer": {
+      "ObjectName": "BP_BaseBuilding_TrainingDummy_C'Default__BP_BaseBuilding_TrainingDummy_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Actors/Props/BP_BaseBuilding_TrainingDummy.2"
+    },
+    "Class": "UScriptClass'BuildingDamageComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "BuildingSnapComponent",
+    "Name": "BuildingSnapComponent",
+    "Outer": {
+      "ObjectName": "BP_BaseBuilding_TrainingDummy_C'Default__BP_BaseBuilding_TrainingDummy_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Actors/Props/BP_BaseBuilding_TrainingDummy.2"
+    },
+    "Class": "UScriptClass'BuildingSnapComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "HealthComponent",
+    "Name": "HealthComponent",
+    "Outer": {
+      "ObjectName": "BP_BaseBuilding_TrainingDummy_C'Default__BP_BaseBuilding_TrainingDummy_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Actors/Props/BP_BaseBuilding_TrainingDummy.2"
+    },
+    "Class": "UScriptClass'HealthComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BaseBuilding_TrainingDummy_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Actors/Props/BP_BaseBuilding_TrainingDummy.0"
+    },
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "InteractionComponent",
+    "Name": "CompleteGhostInteractionComponent",
+    "Outer": {
+      "ObjectName": "BP_BaseBuilding_TrainingDummy_C'Default__BP_BaseBuilding_TrainingDummy_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Actors/Props/BP_BaseBuilding_TrainingDummy.2"
+    },
+    "Class": "UScriptClass'InteractionComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "OnInteractionEvent": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_BaseBuilding_TrainingDummy_C'Default__BP_BaseBuilding_TrainingDummy_C'",
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Actors/Props/BP_BaseBuilding_TrainingDummy.2"
+            },
+            "FunctionName": "OnInteract"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_BaseBuilding_TrainingDummy_C:Root'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Actors/Props/BP_BaseBuilding_TrainingDummy.9"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BaseBuilding_TrainingDummy_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Actors/Props/BP_BaseBuilding_TrainingDummy.0"
+    },
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Root",
+    "Outer": {
+      "ObjectName": "BP_BaseBuilding_TrainingDummy_C'Default__BP_BaseBuilding_TrainingDummy_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Actors/Props/BP_BaseBuilding_TrainingDummy.2"
+    },
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_BaseBuilding_TrainingDummy_C:SimpleConstructionScript_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Actors/Props/BP_BaseBuilding_TrainingDummy.12"
+    },
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_BaseBuilding_TrainingDummy_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Actors/Props/BP_BaseBuilding_TrainingDummy.8"
+      },
+      "VariableGUID": "180E8F92-4E2F789A-7A125FA6-0C7DA9CE",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_BaseBuilding_TrainingDummy_C:SimpleConstructionScript_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Actors/Props/BP_BaseBuilding_TrainingDummy.12"
+    },
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'TrainingDummyBuildPieceComponent'",
+        "ObjectPath": "/Script/Dominion"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "TrainingDummyBuildPieceComponent'BP_BaseBuilding_TrainingDummy_C:TrainingDummyBuildPiece_GEN_VARIABLE'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Actors/Props/BP_BaseBuilding_TrainingDummy.14"
+      },
+      "VariableGUID": "EB9DB522-40E8293F-0D5CC3A5-EA07D356",
+      "InternalVariableName": "TrainingDummyBuildPiece"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BaseBuilding_TrainingDummy_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Actors/Props/BP_BaseBuilding_TrainingDummy.0"
+    },
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_BaseBuilding_TrainingDummy_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Actors/Props/BP_BaseBuilding_TrainingDummy.11"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_BaseBuilding_TrainingDummy_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Actors/Props/BP_BaseBuilding_TrainingDummy.11"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_BaseBuilding_TrainingDummy_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Actors/Props/BP_BaseBuilding_TrainingDummy.10"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Mesh",
+    "Outer": {
+      "ObjectName": "BP_BaseBuilding_TrainingDummy_C'Default__BP_BaseBuilding_TrainingDummy_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Actors/Props/BP_BaseBuilding_TrainingDummy.2"
+    },
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_TrainingDummy_02'",
+        "ObjectPath": "/Game/Art/Skeleton/NPC/Mechanical/TrainingDummy_01/SM_TrainingDummy_02"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_TrainingDummy_01'",
+          "ObjectPath": "/Game/Art/Skeleton/NPC/Mechanical/TrainingDummy_01/Materials/MI_TrainingDummy_01"
+        }
+      ],
+      "CustomPrimitiveData": {
+        "Data": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_BaseBuilding_TrainingDummy_C:Root'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Actors/Props/BP_BaseBuilding_TrainingDummy.9"
+      }
+    }
+  },
+  {
+    "Type": "TrainingDummyBuildPieceComponent",
+    "Name": "TrainingDummyBuildPiece_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BaseBuilding_TrainingDummy_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Actors/Props/BP_BaseBuilding_TrainingDummy.0"
+    },
+    "Class": "UScriptClass'TrainingDummyBuildPieceComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TrainingDummyCharacterClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_AI_TrainingDummy_Character_C'",
+        "ObjectPath": "/Game/Gameplay/AI/Dummy/BP_AI_TrainingDummy_Character"
+      },
+      "TrainingDummyCharacterSpawnTransform": {
+        "Translation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 100.0
+        }
+      }
+    }
+  }
+]

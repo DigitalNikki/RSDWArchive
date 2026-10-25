@@ -1,0 +1,692 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ADT_Ai_WildJadeVine",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Object'AiAnimationAudioTableRowBase'",
+        "ObjectPath": "/Script/Dominion"
+      }
+    },
+    "Rows": {
+      "AttackSwish": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.JadeVine"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Co_WildVine_AttackSwish'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/WildJadeVine/Combat/MSS_Cr_Co_WildVine_AttackSwish"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Electric_AttackSwish": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.JadeVine"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Co_WildVine_Electric_AttackSwish'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/WildJadeVine/Combat/MSS_Cr_Co_WildVine_Electric_AttackSwish"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Electric_AttackWindup": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.JadeVine"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Co_WildVine_Electric_AttackWindup'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/WildJadeVine/Combat/MSS_Cr_Co_WildVine_Electric_AttackWindup"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Electric_Projectile_Loop": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.JadeVine"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Co_WildVine_Electric_Projectile_Loop'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/WildJadeVine/Combat/MSS_Cr_Co_WildVine_Electric_Projectile_Loop"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "ElectricImpact": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.JadeVine"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Co_WildVine_ElectricImpact'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/WildJadeVine/Combat/MSS_Cr_Co_WildVine_ElectricImpact"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "GroundSlam": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.JadeVine"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Co_WildVine_GroundSlam'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/WildJadeVine/Combat/MSS_Cr_Co_WildVine_GroundSlam"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.JadeVine.Hookworm"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Co_WildVine_GroundSlam'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/WildJadeVine/Combat/MSS_Cr_Co_WildVine_GroundSlam"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "GroundSlamLight": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.JadeVine"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Co_WildVine_GroundSlamLight'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/WildJadeVine/Combat/MSS_Cr_Co_WildVine_GroundSlamLight"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.JadeVine.Hookworm"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Co_WildVine_GroundSlamLight'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/WildJadeVine/Combat/MSS_Cr_Co_WildVine_GroundSlamLight"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "PoisonPuffCloud": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.JadeVine"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Co_WildVine_PoisonPuffCloud'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/WildJadeVine/Combat/MSS_Cr_Co_WildVine_PoisonPuffCloud"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.JadeVine.Hookworm"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Co_WildVine_PoisonPuffCloud'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/WildJadeVine/Combat/MSS_Cr_Co_WildVine_PoisonPuffCloud"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "SpinFlurry": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.JadeVine"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Co_WildVine_SpinFlurry'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/WildJadeVine/Combat/MSS_Cr_Co_WildVine_SpinFlurry"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Spit": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.JadeVine"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Co_WildVine_Spit'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/WildJadeVine/Combat/MSS_Cr_Co_WildVine_Spit"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.JadeVine.Hookworm"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Co_WildVine_Spit'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/WildJadeVine/Combat/MSS_Cr_Co_WildVine_Spit"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "VineExplosion_Emerge": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.JadeVine"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Co_WildVine_VineExplosion_Emerge'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/WildJadeVine/Combat/MSS_Cr_Co_WildVine_VineExplosion_Emerge"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "VineExplosion_Telegraph": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.JadeVine"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Co_WildVine_VineExplosion_Telegraph'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/WildJadeVine/Combat/MSS_Cr_Co_WildVine_VineExplosion_Telegraph"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "MSS_Cr_Fo_WildVine_PetalOpen": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.JadeVine"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Fo_WildVine_PetalOpen'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/WildJadeVine/Combat/MSS_Cr_Fo_WildVine_PetalOpen"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.JadeVine.Hookworm"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Fo_Hookworm_MouthOpen'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Hookworm/Foley/MSS_Cr_Fo_Hookworm_MouthOpen"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Mvt_Med": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.JadeVine"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Fo_WildVine_Mvt_Med'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/WildJadeVine/Foley/MSS_Cr_Fo_WildVine_Mvt_Med"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.JadeVine.Hookworm"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Fo_Hookworm_Mvt_Med'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Hookworm/Foley/MSS_Cr_Fo_Hookworm_Mvt_Med"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Mvt_Shrt": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.JadeVine"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Fo_WildVine_Mvt_Shrt'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/WildJadeVine/Foley/MSS_Cr_Fo_WildVine_Mvt_Shrt"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.JadeVine.Hookworm"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Fo_Hookworm_Mvt_Shrt'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Hookworm/Foley/MSS_Cr_Fo_Hookworm_Mvt_Shrt"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Mvt_Slow": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.JadeVine"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Fo_WildVine_Mvt_Slow'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/WildJadeVine/Foley/MSS_Cr_Fo_WildVine_Mvt_Slow"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.JadeVine.Hookworm"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Fo_Hookworm_Mvt_Slow'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Hookworm/Foley/MSS_Cr_Fo_Hookworm_Mvt_Slow"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Turn": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.JadeVine"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Fo_WildVine_Turn'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/WildJadeVine/Foley/MSS_Cr_Fo_WildVine_Turn"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.JadeVine.Hookworm"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Fo_Hookworm_Turn'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Hookworm/Foley/MSS_Cr_Fo_Hookworm_Turn"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "HitReactSweet": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.JadeVine"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_WildVine_HitReactSweet'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/WildJadeVine/Vox/MSS_Cr_Vox_WildVine_HitReactSweet"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.JadeVine.Hookworm"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Hookworm_HitReactSweet'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Hookworm/Vox/MSS_Cr_Vox_Hookworm_HitReactSweet"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Lng": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.JadeVine"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_WildVine_Lng'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/WildJadeVine/Vox/MSS_Cr_Vox_WildVine_Lng"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.JadeVine.Hookworm"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Hookworm_Lng'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Hookworm/Vox/MSS_Cr_Vox_Hookworm_Lng"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Med_Maj": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.JadeVine"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_WildVine_Med_Maj'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/WildJadeVine/Vox/MSS_Cr_Vox_WildVine_Med_Maj"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.JadeVine.Hookworm"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Hookworm_Med_Maj'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Hookworm/Vox/MSS_Cr_Vox_Hookworm_Med_Maj"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Med_Min": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.JadeVine"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_WildVine_Med_Min'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/WildJadeVine/Vox/MSS_Cr_Vox_WildVine_Med_Min"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.JadeVine.Hookworm"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Hookworm_Med_Min'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Hookworm/Vox/MSS_Cr_Vox_Hookworm_Med_Min"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Shrt_Maj": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.JadeVine"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_WildVine_Shrt_Maj'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/WildJadeVine/Vox/MSS_Cr_Vox_WildVine_Shrt_Maj"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.JadeVine.Hookworm"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Hookworm_Shrt_Maj'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Hookworm/Vox/MSS_Cr_Vox_Hookworm_Shrt_Maj"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Shrt_Min": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.JadeVine"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_WildVine_Shrt_Min'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/WildJadeVine/Vox/MSS_Cr_Vox_WildVine_Shrt_Min"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.JadeVine.Hookworm"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Hookworm_Shrt_Min'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Hookworm/Vox/MSS_Cr_Vox_Hookworm_Shrt_Min"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "StamenRattle": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.JadeVine"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_WildVine_StamenRattle'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/WildJadeVine/Vox/MSS_Cr_Vox_WildVine_StamenRattle"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.JadeVine.Hookworm"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Hookworm_StamenRattle'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Hookworm/Vox/MSS_Cr_Vox_Hookworm_StamenRattle"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Tail_Dust_Debris": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.JadeVine"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Generic_Mo_Tail_DustDebris'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Generic/MSS_Generic_Mo_Tail_DustDebris"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Fire_AttackSwish": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.JadeVine"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Co_WildWine_FireWhoosh'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/WildJadeVine/Combat/MSS_Cr_Co_WildWine_FireWhoosh"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Fire_AttackWindup": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.JadeVine"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Co_WildWine_FireWindup'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/WildJadeVine/Combat/MSS_Cr_Co_WildWine_FireWindup"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Fire_Spit": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.JadeVine"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Co_WildWine_FireSpit'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/WildJadeVine/Combat/MSS_Cr_Co_WildWine_FireSpit"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      }
+    }
+  }
+]

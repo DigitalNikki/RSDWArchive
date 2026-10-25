@@ -1,0 +1,80 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "MI_DR_Wood_Trim_DMG_01",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "PhysMaterial": {
+        "ObjectName": "PhysicalMaterial'HardWood'",
+        "ObjectPath": "/Game/Materials/PhysicalMaterials/HardWood"
+      },
+      "Parent": {
+        "ObjectName": "MaterialInstanceConstant'MI_DR_BrickWall_04'",
+        "ObjectPath": "/Game/Art/Env/Architecture/DowdunReach/Materials/MI_DR_BrickWall_04"
+      },
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Colour Multiplier",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.360863,
+            "G": 0.296426,
+            "B": 0.259649,
+            "A": 1.0,
+            "Hex": "A2948B"
+          },
+          "ExpressionGUID": "F4BF3726-439D1B76-21E4E4BF-E93DF7DE"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "BaseColor",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_DR_Wood_Trim_DMG_01_BCC'",
+            "ObjectPath": "/Game/Art/Env/Architecture/DowdunReach/Materials/Textures/Architecture/T_DR_Wood_Trim_DMG_01_BCC"
+          },
+          "ExpressionGUID": "55762A52-4221CBB3-DEDDDDB6-5C392D02"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Normal",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_DR_Wood_Trim_DMG_01_NRM'",
+            "ObjectPath": "/Game/Art/Env/Architecture/DowdunReach/Materials/Textures/Architecture/T_DR_Wood_Trim_DMG_01_NRM"
+          },
+          "ExpressionGUID": "5495850C-457996ED-27F4A097-383AE539"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "OpacityMaskClipValue": 0.3333
+      },
+      "bIncludedInBaseGame": true
+    },
+    "LoadedMaterialResources": [],
+    "CachedData": {
+      "ParentLayerIndexRemap": []
+    }
+  }
+]

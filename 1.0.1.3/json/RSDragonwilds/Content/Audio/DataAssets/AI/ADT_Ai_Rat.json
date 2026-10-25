@@ -1,0 +1,685 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ADT_Ai_Rat",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Object'AiAnimationAudioTableRowBase'",
+        "ObjectPath": "/Script/Dominion"
+      }
+    },
+    "Rows": {
+      "Breathe_In": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Rat"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_GiantRat_Breathe_In'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/GiantRat/Breath/MSS_Cr_Vox_GiantRat_Breathe_In"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Rat.Undead"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_UndeadGiantRat_Breathe_In'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Undeadrat/MSS_Cr_Vox_UndeadGiantRat_Breathe_In"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Rat.Hellrat"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_HellRat_Breathe_In'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/HellRat/MSS_Cr_Vox_HellRat_Breathe_In"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Breathe_Out": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Rat"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_GiantRat_Breathe_Out'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/GiantRat/Breath/MSS_Cr_Vox_GiantRat_Breathe_Out"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Rat.Undead"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_UndeadGiantRat_Breathe_Out'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Undeadrat/MSS_Cr_Vox_UndeadGiantRat_Breathe_Out"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Rat.Hellrat"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_HellRat_Breathe_Out'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/HellRat/MSS_Cr_Vox_HellRat_Breathe_Out"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Alert_Call": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Rat"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_GiantRat_Alert_Call'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/GiantRat/Vox/Aggro/MSS_Cr_Vox_GiantRat_Alert_Call"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Rat.Undead"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_UndeadGiantRat_Alert_Call'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Undeadrat/MSS_Cr_Vox_UndeadGiantRat_Alert_Call"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Rat.Hellrat"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_HellRat_Call_Alert'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/HellRat/MSS_Cr_Vox_HellRat_Call_Alert"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Attack_01": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Rat"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_GiantRat_Attack_01'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/GiantRat/Vox/Attack/MSS_Cr_Vox_GiantRat_Attack_01"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Rat.Undead"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_UndeadGiantRat_Attack_01'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Undeadrat/MSS_Cr_Vox_UndeadGiantRat_Attack_01"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Rat.Hellrat"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_HellRat_Call_Attack_01'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/HellRat/MSS_Cr_Vox_HellRat_Call_Attack_01"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Attack_02_Bite": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Rat"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_GiantRat_Attack_02_Bite'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/GiantRat/Vox/Attack/MSS_Cr_Vox_GiantRat_Attack_02_Bite"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Rat.Undead"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_UndeadGiantRat_Attack_02_Bite'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Undeadrat/MSS_Cr_Vox_UndeadGiantRat_Attack_02_Bite"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Rat.Hellrat"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_HellRat_Bite'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/HellRat/MSS_Cr_Vox_HellRat_Bite"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Attack_02_Cry": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Rat"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_GiantRat_Attack_02_Cry'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/GiantRat/Vox/Attack/MSS_Cr_Vox_GiantRat_Attack_02_Cry"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Rat.Undead"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_UndeadGiantRat_Attack_02_Cry'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Undeadrat/MSS_Cr_Vox_UndeadGiantRat_Attack_02_Cry"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Rat.Hellrat"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_HellRat_Call_Attack_02'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/HellRat/MSS_Cr_Vox_HellRat_Call_Attack_02"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Call_AddHitreact": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Rat"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_GiantRat_Call_AddHitreact'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/GiantRat/Vox/Hitreact/MSS_Cr_Vox_GiantRat_Call_AddHitreact"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Rat.Undead"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_UndeadGiantRat_Call_AddHitreact'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Undeadrat/MSS_Cr_Vox_UndeadGiantRat_Call_AddHitreact"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Rat.Hellrat"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_HellRat_Call_AddHitreact'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/HellRat/MSS_Cr_Vox_HellRat_Call_AddHitreact"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Call_Death": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Rat"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_GiantRat_Call_Death'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/GiantRat/Vox/Death/MSS_Cr_Vox_GiantRat_Call_Death"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Rat.Undead"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_UndeadGiantRat_Call_Death'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Undeadrat/MSS_Cr_Vox_UndeadGiantRat_Call_Death"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Rat.Hellrat"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_HellRat_Call_Death'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/HellRat/MSS_Cr_Vox_HellRat_Call_Death"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": true,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Call_Hitreact": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Rat"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_GiantRat_Call_Hitreact'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/GiantRat/Vox/Hitreact/MSS_Cr_Vox_GiantRat_Call_Hitreact"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Rat.Undead"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_UndeadGiantRat_Call_Hitreact'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Undeadrat/MSS_Cr_Vox_UndeadGiantRat_Call_Hitreact"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Rat.Hellrat"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_HellRat_Call_Hitreact'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/HellRat/MSS_Cr_Vox_HellRat_Call_Hitreact"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Idlebreak_Snarl": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Rat"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_GiantRat_Idlebreak_Snarl'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/GiantRat/Vox/Idle/MSS_Cr_Vox_GiantRat_Idlebreak_Snarl"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Rat.Undead"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_UndeadGiantRat_Idlebreak_Snarl'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Undeadrat/MSS_Cr_Vox_UndeadGiantRat_Idlebreak_Snarl"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Rat.Hellrat"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_HellRat_Idlebreak_Snarl'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/HellRat/MSS_Cr_Vox_HellRat_Idlebreak_Snarl"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Idlebreak_Sniff": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Rat"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_GiantRat_Idlebreak_Sniff'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/GiantRat/Vox/Idle/MSS_Cr_Vox_GiantRat_Idlebreak_Sniff"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Rat.Undead"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_UndeadGiantRat_Idlebreak_Sniff'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Undeadrat/MSS_Cr_Vox_UndeadGiantRat_Idlebreak_Sniff"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Rat.Hellrat"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_HellRat_Idlebreak_Sniff'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/HellRat/MSS_Cr_Vox_HellRat_Idlebreak_Sniff"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Idlebreak_Yipyip": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Rat"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_GiantRat_Idlebreak_Yipyip'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/GiantRat/Vox/Idle/MSS_Cr_Vox_GiantRat_Idlebreak_Yipyip"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Rat.Undead"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_UndeadGiantRat_Idlebreak_Yipyip'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Undeadrat/MSS_Cr_Vox_UndeadGiantRat_Idlebreak_Yipyip"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Rat.Hellrat"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_HellRat_Idlebreak_Yipyip'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/HellRat/MSS_Cr_Vox_HellRat_Idlebreak_Yipyip"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Idlebreathe_Growl": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Rat"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_GiantRat_Idlebreathe_Growl'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/GiantRat/Vox/Idle/MSS_Cr_Vox_GiantRat_Idlebreathe_Growl"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Rat.Undead"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_UndeadGiantRat_Idlebreathe_Growl'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Undeadrat/MSS_Cr_Vox_UndeadGiantRat_Idlebreathe_Growl"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Rat.Hellrat"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_HellRat_Idlebreathe_Growl'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/HellRat/MSS_Cr_Vox_HellRat_Idlebreathe_Growl"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Loco_Snarl": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Rat"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_GiantRat_Loco_Snarl'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/GiantRat/Vox/Idle/MSS_Cr_Vox_GiantRat_Loco_Snarl"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Rat.Undead"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_UndeadGiantRat_Loco_Snarl'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Undeadrat/MSS_Cr_Vox_UndeadGiantRat_Loco_Snarl"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Rat.Hellrat"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_HellRat_Loco_Snarl'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/HellRat/MSS_Cr_Vox_HellRat_Loco_Snarl"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Suspicious_Sniff": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Rat"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_GiantRat_Suspicious_Sniff'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/GiantRat/Vox/Idle/MSS_Cr_Vox_GiantRat_Suspicious_Sniff"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Rat.Undead"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_UndeadGiantRat_Suspicious_Sniff'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Undeadrat/MSS_Cr_Vox_UndeadGiantRat_Suspicious_Sniff"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Rat.Hellrat"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_HellRat_Suspicious_Sniff'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/HellRat/MSS_Cr_Vox_HellRat_Suspicious_Sniff"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Chew": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Rat"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Fo_GiantRat_Chew'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/GiantRat/Foley/MSS_Cr_Fo_GiantRat_Chew"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Facepaw": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Rat"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Fo_GiantRat_Facepaw'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/GiantRat/Foley/MSS_Cr_Fo_GiantRat_Facepaw"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "PawScrape": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Rat"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Fo_GiantRat_PawScrape'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/GiantRat/Foley/MSS_Cr_Fo_GiantRat_PawScrape"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Footsteps": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Rat"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_GiantRatFootsteps'",
+              "ObjectPath": "/Game/Audio/DataAssets/FootstepData/ADA_GiantRatFootsteps"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Footsteps_Light": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Rat"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_GiantRatFootsteps_Light'",
+              "ObjectPath": "/Game/Audio/DataAssets/FootstepData/ADA_GiantRatFootsteps_Light"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Bodyfall_Small": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Rat"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_Cr_Bodyfall_Small'",
+              "ObjectPath": "/Game/Audio/DataAssets/Foley/ADA_Cr_Bodyfall_Small"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      }
+    }
+  }
+]

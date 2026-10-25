@@ -1,0 +1,88 @@
+[
+  {
+    "Type": "BuildingPieceData",
+    "Name": "BUILDPIECE_StationUpgrade_Tanners_Kit",
+    "Class": "UScriptClass'BuildingPieceData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DerivedData": {
+        "AssetPathName": "/Game/Gameplay/BaseBuilding/Data/BuildingPieces_DerivedData/Structures/Crafting/BUILDPIECE_StationUpgrade_Tanners_Kit_DerivedData.BUILDPIECE_StationUpgrade_Tanners_Kit_DerivedData",
+        "SubPathString": ""
+      },
+      "DisplayName": {
+        "TableId": "/Game/UI/Crafting/ST_Crafting.ST_Crafting",
+        "Key": "TannersKit",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Description": {
+        "TableId": "/Game/UI/Crafting/ST_Crafting.ST_Crafting",
+        "Key": "TannersKit.Description",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Category": {
+        "TagName": "BaseBuilding.Category.StationUpgrade"
+      },
+      "DisplayIcon": {
+        "AssetPathName": "/Game/Art/UI/Icons/T_Icon_Spinners_Kit_01.T_Icon_Spinners_Kit_01",
+        "SubPathString": ""
+      },
+      "BuildableActor": {
+        "AssetPathName": "/Game/Gameplay/World/Stations/Upgrades/BP_UpgradeProp_Tanners_Kit.BP_UpgradeProp_Tanners_Kit_C",
+        "SubPathString": ""
+      },
+      "Requirements": [
+        {
+          "Amount": 6,
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_BronzeBar'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Metal/ITEM_Resources_BronzeBar"
+          }
+        },
+        {
+          "Amount": 8,
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Thread_Coarse'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Textiles/ITEM_Resources_Thread_Coarse"
+          }
+        },
+        {
+          "Amount": 6,
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Adhesive'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_Adhesive"
+          }
+        },
+        {
+          "Amount": 18,
+          "ItemData": {
+            "ObjectName": "FuelItemData'ITEM_Resources_Plank_Ash'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Wood/ITEM_Resources_Plank_Ash"
+          }
+        }
+      ],
+      "ConstructionXPOnBuild": 200,
+      "PieceTag": {
+        "TagName": "BaseBuilding.PieceType.Prop"
+      },
+      "BuildingStabilityProfileRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'StabilityProfileDataTable'",
+          "ObjectPath": "/Game/Gameplay/BaseBuilding/StabilityProfileDataTable"
+        },
+        "RowName": "Prop"
+      },
+      "BuildXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Building'",
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Building"
+        },
+        "RowName": "Build_Improvement"
+      },
+      "RepresentationCategory": "EBuildingPieceRepresentationCategory::IndividuallyReplicatedAndPersistedActor",
+      "PersistenceID": "fMgSDUW1upEvWIWVR2XbMA",
+      "InternalName": "buildpiece_upgrade_tanner"
+    }
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "Type": "InputMappingContext",
+    "Name": "IMC_LockOnTargeting",
+    "Class": "UScriptClass'InputMappingContext'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Mappings": [
+        {
+          "Triggers": [],
+          "Modifiers": [],
+          "Action": {
+            "ObjectName": "InputAction'IA_TargetSwitchLockOnTargeting'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Actions/Basic/IA_TargetSwitchLockOnTargeting"
+          },
+          "Key": {
+            "KeyName": "Gamepad_Right2D"
+          },
+          "SettingBehavior": "EPlayerMappableKeySettingBehaviors::OverrideSettings",
+          "PlayerMappableKeySettings": null
+        }
+      ]
+    }
+  }
+]

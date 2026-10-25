@@ -1,0 +1,59 @@
+[
+  {
+    "Type": "SkillPerkData",
+    "Name": "PerkV2_Attack_MeleeSpecialAttacks",
+    "Class": "UScriptClass'SkillPerkData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "PerkName": {
+        "TableId": "/Game/Gameplay/Character/Player/PerksV2/ST_Skills_Perks.ST_Skills_Perks",
+        "Key": "Attack.SpecialActions.Name",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PerkDescription": {
+        "TableId": "/Game/Gameplay/Character/Player/PerksV2/ST_Skills_Perks.ST_Skills_Perks",
+        "Key": "Attack.SpecialActions.Desc",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "InputActionDisplay": {
+        "InputAction": {
+          "ObjectName": "InputAction'IA_SpecialActionDummy'",
+          "ObjectPath": "/Game/Gameplay/Inputs/Actions/Basic/IA_SpecialActionDummy"
+        },
+        "InputActionMappingContext": {
+          "ObjectName": "InputMappingContext'IMC_SpecialActionPrompt'",
+          "ObjectPath": "/Game/Gameplay/Inputs/Mappings/InputPrompts/IMC_SpecialActionPrompt"
+        },
+        "ActionDescription": {
+          "TableId": "/Game/UI/ST_UI_Localization.ST_UI_Localization",
+          "Key": "UseWith",
+          "SourceString": null,
+          "LocalizedString": ""
+        }
+      },
+      "SkillPerkImage": {
+        "AssetPathName": "/Game/Art/UI/Skills/Icons/Unlock/T_Icon_Skills_Abilities_Global.T_Icon_Skills_Abilities_Global",
+        "SubPathString": ""
+      },
+      "PerkUnlockInfo": {
+        "AssociatedSkill": {
+          "AssetPathName": "/Game/Gameplay/Character/Player/Skills/SKILL_Attack.SKILL_Attack",
+          "SubPathString": ""
+        },
+        "RequiredSkillLevel": 8
+      },
+      "PerkUsageVideo": {
+        "ObjectName": "BinkMediaPlayer'Video_Attack_SpecialAction'",
+        "ObjectPath": "/Game/Movies/Video_Attack_SpecialAction"
+      },
+      "bShouldBeActivatedIfOwningFeatureDisabled": true,
+      "FeatureTag": {
+        "TagName": "Feature.AttackSkillPerks"
+      },
+      "PersistenceID": "ehiqx0cCnnTh2n6vKeNs6A",
+      "InternalName": "perk_attack_meleespecialattacks"
+    }
+  }
+]

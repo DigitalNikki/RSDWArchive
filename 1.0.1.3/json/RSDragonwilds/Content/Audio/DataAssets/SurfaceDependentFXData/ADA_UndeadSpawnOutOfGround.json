@@ -1,0 +1,63 @@
+[
+  {
+    "Type": "SurfaceDependentFXData",
+    "Name": "ADA_UndeadSpawnOutOfGround",
+    "Class": "UScriptClass'SurfaceDependentFXData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SurfaceTypeToFXMap": [
+        {
+          "Key": "SurfaceType8",
+          "Value": {
+            "VFX": {
+              "ObjectName": "NiagaraSystem'NS_Knockdown_Water'",
+              "ObjectPath": "/Game/Art/VFX/Library/Character/Shared/Knockdown/NS_Knockdown_Water"
+            },
+            "LocalSFX": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_Undead_GroundBurst'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/ZombieFaction/Foley/MSS_En_Fo_Undead_GroundBurst"
+            },
+            "RemoteSFX": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_Undead_GroundBurst'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/ZombieFaction/Foley/MSS_En_Fo_Undead_GroundBurst"
+            }
+          }
+        },
+        {
+          "Key": "SurfaceType21",
+          "Value": {
+            "VFX": {
+              "ObjectName": "NiagaraSystem'NS_Knockdown_Water'",
+              "ObjectPath": "/Game/Art/VFX/Library/Character/Shared/Knockdown/NS_Knockdown_Water"
+            },
+            "LocalSFX": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_Undead_GroundBurst'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/ZombieFaction/Foley/MSS_En_Fo_Undead_GroundBurst"
+            },
+            "RemoteSFX": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_Undead_GroundBurst'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/ZombieFaction/Foley/MSS_En_Fo_Undead_GroundBurst"
+            }
+          }
+        },
+        {
+          "Key": "SurfaceType_Default",
+          "Value": {
+            "VFX": {
+              "ObjectName": "NiagaraSystem'NS_Knockdown_Dust'",
+              "ObjectPath": "/Game/Art/VFX/Library/Character/Shared/Knockdown/NS_Knockdown_Dust"
+            },
+            "LocalSFX": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_Undead_GroundBurst'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/ZombieFaction/Foley/MSS_En_Fo_Undead_GroundBurst"
+            },
+            "RemoteSFX": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_Undead_GroundBurst'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/ZombieFaction/Foley/MSS_En_Fo_Undead_GroundBurst"
+            }
+          }
+        }
+      ]
+    }
+  }
+]

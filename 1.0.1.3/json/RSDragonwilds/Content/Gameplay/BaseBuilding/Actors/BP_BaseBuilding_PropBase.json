@@ -1,0 +1,462 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_BaseBuilding_PropBase_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_BaseBuilding_PropBase_C:SimpleConstructionScript_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Actors/BP_BaseBuilding_PropBase.13"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BaseBuilding_BaseActor_C'",
+      "ObjectPath": "/Game/Gameplay/BaseBuilding/Actors/BP_BaseBuilding_BaseActor"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "FurnitureBonus",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'FurnitureBonusComponent'",
+          "ObjectPath": "/Script/Dominion"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PlugFloor",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PlugComponent'",
+          "ObjectPath": "/Script/Dominion"
+        }
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "Prayer Bonus",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "Cosiness Bonus",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "Discovery Bonus",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      }
+    ],
+    "ClassFlags": "CLASS_Abstract | CLASS_Config | CLASS_NoExport | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_BaseBuilding_PropBase_C'Default__BP_BaseBuilding_PropBase_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Actors/BP_BaseBuilding_PropBase.2"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "BoxComponent",
+    "Outer": {
+      "ObjectName": "BP_BaseBuilding_PropBase_C'Default__BP_BaseBuilding_PropBase_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Actors/BP_BaseBuilding_PropBase.2"
+    },
+    "Class": "UScriptClass'BoxComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BoxExtent": {
+        "X": 65.0,
+        "Y": 126.94303,
+        "Z": 10.0
+      },
+      "bDynamicObstacle": true,
+      "bFillCollisionUnderneathForNavmesh": true,
+      "OnComponentBeginOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_BaseBuilding_PropBase_C'Default__BP_BaseBuilding_PropBase_C'",
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Actors/BP_BaseBuilding_PropBase.2"
+            },
+            "FunctionName": "OnBeginOverlap"
+          }
+        ]
+      },
+      "OnComponentEndOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_BaseBuilding_PropBase_C'Default__BP_BaseBuilding_PropBase_C'",
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Actors/BP_BaseBuilding_PropBase.2"
+            },
+            "FunctionName": "OnEndOverlap"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_BaseBuilding_PropBase_C:Root'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Actors/BP_BaseBuilding_PropBase.9"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -11.0,
+        "Z": 89.0
+      }
+    }
+  },
+  {
+    "Type": "BP_BaseBuilding_PropBase_C",
+    "Name": "Default__BP_BaseBuilding_PropBase_C",
+    "Class": "BlueprintGeneratedClass'1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Actors/BP_BaseBuilding_PropBase.BP_BaseBuilding_PropBase_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "BuildingDamageComponent",
+    "Name": "BaseBuildingDamageComponent",
+    "Outer": {
+      "ObjectName": "BP_BaseBuilding_PropBase_C'Default__BP_BaseBuilding_PropBase_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Actors/BP_BaseBuilding_PropBase.2"
+    },
+    "Class": "UScriptClass'BuildingDamageComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "BuildingSnapComponent",
+    "Name": "BuildingSnapComponent",
+    "Outer": {
+      "ObjectName": "BP_BaseBuilding_PropBase_C'Default__BP_BaseBuilding_PropBase_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Actors/BP_BaseBuilding_PropBase.2"
+    },
+    "Class": "UScriptClass'BuildingSnapComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Plugs": [
+        {
+          "PlugProfile": {
+            "PlugTag": {
+              "TagName": "BaseBuilding.PlugType.Surface"
+            },
+            "PieceIgnoringTypes": [
+              "BaseBuilding.PieceType.Window",
+              "BaseBuilding.PieceType.Prop",
+              "BaseBuilding.PieceType.None",
+              "BaseBuilding.PieceType.Foundation",
+              "BaseBuilding.PieceType.Door",
+              "BaseBuilding.PieceType.Beam",
+              "BaseBuilding.PieceType.Base"
+            ],
+            "PlugIgnoringTypes": [
+              "BaseBuilding.PlugType.Surface",
+              "BaseBuilding.PlugType.None",
+              "BaseBuilding.PlugType.Hinge",
+              "BaseBuilding.PlugType.BeamSurface",
+              "BaseBuilding.PlugType.Beam",
+              "BaseBuilding.PlugType.BaseBeam",
+              "BaseBuilding.PlugType.Base"
+            ]
+          },
+          "PlugTransform": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.70710677,
+              "Z": 0.0,
+              "W": 0.70710677,
+              "IsNormalized": true,
+              "Size": 0.99999994,
+              "SizeSquared": 0.99999994
+            },
+            "Translation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "FurnitureBonusComponent",
+    "Name": "FurnitureBonus_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BaseBuilding_PropBase_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Actors/BP_BaseBuilding_PropBase.0"
+    },
+    "Class": "UScriptClass'FurnitureBonusComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "HealthComponent",
+    "Name": "HealthComponent",
+    "Outer": {
+      "ObjectName": "BP_BaseBuilding_PropBase_C'Default__BP_BaseBuilding_PropBase_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Actors/BP_BaseBuilding_PropBase.2"
+    },
+    "Class": "UScriptClass'HealthComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "InteractionComponent",
+    "Name": "CompleteGhostInteractionComponent",
+    "Outer": {
+      "ObjectName": "BP_BaseBuilding_PropBase_C'Default__BP_BaseBuilding_PropBase_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Actors/BP_BaseBuilding_PropBase.2"
+    },
+    "Class": "UScriptClass'InteractionComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "OnInteractionEvent": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_BaseBuilding_PropBase_C'Default__BP_BaseBuilding_PropBase_C'",
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Actors/BP_BaseBuilding_PropBase.2"
+            },
+            "FunctionName": "OnInteract"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_BaseBuilding_PropBase_C:Root'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Actors/BP_BaseBuilding_PropBase.9"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BaseBuilding_PropBase_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Actors/BP_BaseBuilding_PropBase.0"
+    },
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Root",
+    "Outer": {
+      "ObjectName": "BP_BaseBuilding_PropBase_C'Default__BP_BaseBuilding_PropBase_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Actors/BP_BaseBuilding_PropBase.2"
+    },
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_BaseBuilding_PropBase_C:SimpleConstructionScript_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Actors/BP_BaseBuilding_PropBase.13"
+    },
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_BaseBuilding_PropBase_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Actors/BP_BaseBuilding_PropBase.8"
+      },
+      "VariableGUID": "0CAF02B0-4C98AAA4-435AC2B8-74DF177D",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_BaseBuilding_PropBase_C:SimpleConstructionScript_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Actors/BP_BaseBuilding_PropBase.13"
+    },
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'FurnitureBonusComponent'",
+        "ObjectPath": "/Script/Dominion"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "FurnitureBonusComponent'BP_BaseBuilding_PropBase_C:FurnitureBonus_GEN_VARIABLE'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Actors/BP_BaseBuilding_PropBase.5"
+      },
+      "VariableGUID": "6A70E306-4C87CA08-C5998980-0EC58276",
+      "InternalVariableName": "FurnitureBonus"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_BaseBuilding_PropBase_C:SimpleConstructionScript_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Actors/BP_BaseBuilding_PropBase.13"
+    },
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PlugComponent'",
+        "ObjectPath": "/Script/Dominion"
+      },
+      "ComponentTemplate": null,
+      "ParentComponentOrVariableName": "Mesh",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "D6987641-40663CEB-A1D0F28B-A99355EF",
+      "InternalVariableName": "PlugFloor"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BaseBuilding_PropBase_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Actors/BP_BaseBuilding_PropBase.0"
+    },
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_BaseBuilding_PropBase_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Actors/BP_BaseBuilding_PropBase.12"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_BaseBuilding_PropBase_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Actors/BP_BaseBuilding_PropBase.11"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_BaseBuilding_PropBase_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Actors/BP_BaseBuilding_PropBase.12"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_BaseBuilding_PropBase_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Actors/BP_BaseBuilding_PropBase.11"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_BaseBuilding_PropBase_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Actors/BP_BaseBuilding_PropBase.10"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Mesh",
+    "Outer": {
+      "ObjectName": "BP_BaseBuilding_PropBase_C'Default__BP_BaseBuilding_PropBase_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Actors/BP_BaseBuilding_PropBase.2"
+    },
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bEvaluateWorldPositionOffsetInRayTracing": true,
+      "BodyInstance": {
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel2",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel3",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel4",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel5",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel6",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Ai",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Building_SnapDetection",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Building_PropPlacement",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Ground",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_BaseBuilding_PropBase_C:Root'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/BaseBuilding/Actors/BP_BaseBuilding_PropBase.9"
+      }
+    }
+  }
+]

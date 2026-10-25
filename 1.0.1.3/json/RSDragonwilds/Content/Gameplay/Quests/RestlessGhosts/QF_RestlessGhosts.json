@@ -1,0 +1,3124 @@
+[
+  {
+    "Type": "ConversationChoiceNode",
+    "Name": "ConversationChoiceNode_15",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Class": "UScriptClass'ConversationChoiceNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultChoiceDisplayText": {
+        "TableId": "/Game/Gameplay/Quests/WiseOldManQuestFlow/ST_MessageInABottle.ST_MessageInABottle",
+        "Key": "Altar_Remember_Kay",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "ConversationChoiceNode",
+    "Name": "ConversationChoiceNode_16",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Class": "UScriptClass'ConversationChoiceNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultChoiceDisplayText": {
+        "TableId": "/Game/Gameplay/Quests/WiseOldManQuestFlow/ST_MessageInABottle.ST_MessageInABottle",
+        "Key": "Altar_Remember_Finn",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "ConversationChoiceNode",
+    "Name": "ConversationChoiceNode_17",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Class": "UScriptClass'ConversationChoiceNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultChoiceDisplayText": {
+        "TableId": "/Game/Gameplay/Quests/WiseOldManQuestFlow/ST_MessageInABottle.ST_MessageInABottle",
+        "Key": "Altar_Remember_Lazina",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "ConversationChoiceNode",
+    "Name": "ConversationChoiceNode_18",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Class": "UScriptClass'ConversationChoiceNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultChoiceDisplayText": {
+        "TableId": "/Game/Gameplay/Quests/WiseOldManQuestFlow/ST_MessageInABottle.ST_MessageInABottle",
+        "Key": "Altar_Remember_Warren",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "ConversationDatabase",
+    "Name": "QF_RestlessGhosts",
+    "Class": "UScriptClass'ConversationDatabase'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CompilerVersion": 2,
+      "ReachableNodeMap": [
+        {
+          "Key": "623FA7B0-4E998A2E-51510BAA-BF089B5C",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_RestlessGhosts:ConversationEntryPointNode_8'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.10"
+          }
+        },
+        {
+          "Key": "8FBF9F8D-48F85F39-7FAE768F-92859FFD",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_RestlessGhosts:QFT_Blank_C_51'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.105"
+          }
+        },
+        {
+          "Key": "DF57E377-45744730-38214AAC-BAE5612E",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_RestlessGhosts:QFT_PromptMessage_C_49'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.162"
+          }
+        },
+        {
+          "Key": "2AE54FBD-4A679A76-B73233A2-36010F2D",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_RestlessGhosts:QFT_Blank_C_50'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.104"
+          }
+        },
+        {
+          "Key": "24EB3759-4690CC6B-EC122B8C-1D75250A",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_RestlessGhosts:QFT_PromptMessage_C_72'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.171"
+          }
+        },
+        {
+          "Key": "65922F68-45565A53-612861B7-955544CE",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_RestlessGhosts:QFT_Blank_C_9'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.113"
+          }
+        },
+        {
+          "Key": "92B5284F-42BBC0AA-48B74DB4-C637FF2F",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_RestlessGhosts:QFT_Blank_C_7'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.112"
+          }
+        },
+        {
+          "Key": "2F088A59-462D09D7-A6124E83-AE2D5811",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_RestlessGhosts:QFT_Blank_C_61'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.107"
+          }
+        },
+        {
+          "Key": "F710AF65-44C1AD2D-7FBFC48D-D2491089",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_RestlessGhosts:QFT_PromptMessage_C_6'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.167"
+          }
+        },
+        {
+          "Key": "0FA95224-4F9FA399-DE242A93-8CDE090F",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_RestlessGhosts:QFT_Blank_C_6'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.106"
+          }
+        },
+        {
+          "Key": "2FD75840-4187AF79-77135C9D-F27D9DF7",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_RestlessGhosts:QFT_PromptMessage_C_5'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.163"
+          }
+        },
+        {
+          "Key": "5DD5ADE0-4DDAA7D8-EAD4D28E-853A13B7",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_RestlessGhosts:QFT_Blank_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.93"
+          }
+        },
+        {
+          "Key": "07CAEF6B-4A3274EF-315B109F-30A38F98",
+          "Value": {
+            "ObjectName": "QFT_CompleteQuest_RestlessGhost_C'QF_RestlessGhosts:QFT_CompleteQuest_RestlessGhost_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.114"
+          }
+        },
+        {
+          "Key": "30E7CA48-4B4CEA03-3588B182-FD12FEC3",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_RestlessGhosts:QFT_UpdateQuestLocation_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.191"
+          }
+        },
+        {
+          "Key": "2FFAF7D7-45EFAC3F-DE2D6D92-21018F3D",
+          "Value": {
+            "ObjectName": "QFT_GiveItemToPlayer_C'QF_RestlessGhosts:QFT_GiveItemToPlayer_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.116"
+          }
+        },
+        {
+          "Key": "E70D5CF1-470FF0F7-9E817E9B-4943D663",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_RestlessGhosts:QFT_Blank_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.87"
+          }
+        },
+        {
+          "Key": "1A053C85-4F6DB024-0C609398-08597C2C",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_RestlessGhosts:QFT_PromptMessage_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.141"
+          }
+        },
+        {
+          "Key": "F37A2AD2-4C14A1F8-7B2B0888-81317ED7",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_RestlessGhosts:QFT_PromptMessage_C_40'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.153"
+          }
+        },
+        {
+          "Key": "ACAE34BC-47F314DC-A7F52A93-48F2791E",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_RestlessGhosts:QFT_Blank_C_64'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.108"
+          }
+        },
+        {
+          "Key": "E4075A57-46A6CB7E-40E34AB4-CD9D8777",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_RestlessGhosts:QFT_SetQuestBool_C_34'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.181"
+          }
+        },
+        {
+          "Key": "1E1C4B04-47549D00-507B5AAA-73F6E61A",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_RestlessGhosts:QFT_PromptMessage_C_69'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.168"
+          }
+        },
+        {
+          "Key": "BF78DD0C-49BDBFF2-B8535193-BA640624",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_RestlessGhosts:QFT_Blank_C_65'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.109"
+          }
+        },
+        {
+          "Key": "89B5B3AE-4FCE586A-A0FAF4BC-23FE56DD",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_RestlessGhosts:QFT_SetQuestBool_C_35'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.182"
+          }
+        },
+        {
+          "Key": "17E06777-4194BFC4-84161791-004BAD6F",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_RestlessGhosts:QFT_PromptMessage_C_70'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.170"
+          }
+        },
+        {
+          "Key": "A8E8625D-4D543B1F-B6E6CE8B-DE24507D",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_RestlessGhosts:QFT_Blank_C_66'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.110"
+          }
+        },
+        {
+          "Key": "44096568-48782031-29490880-A99B8AC3",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_RestlessGhosts:QFT_SetQuestBool_C_36'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.183"
+          }
+        },
+        {
+          "Key": "8CBC0168-4E7B965F-94965393-DF3057B4",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_RestlessGhosts:QFT_PromptMessage_C_44'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.157"
+          }
+        },
+        {
+          "Key": "8DCE4B2C-411A92C8-53522BAD-0B59DA62",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_RestlessGhosts:QFT_Blank_C_67'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.111"
+          }
+        },
+        {
+          "Key": "BF2B18A5-4A129177-4958CA9A-4D54C25D",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_RestlessGhosts:QFT_SetQuestBool_C_37'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.184"
+          }
+        },
+        {
+          "Key": "BB0E3FDD-4AA01A81-638A8FBF-030AD2D1",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_RestlessGhosts:QFT_PromptMessage_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.118"
+          }
+        },
+        {
+          "Key": "989F51DA-4A1B2191-B7222C91-C241FA91",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_RestlessGhosts:QFT_Blank_C_10'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.82"
+          }
+        },
+        {
+          "Key": "5C33AB19-4E94DEE9-AD02728E-AA4E4556",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_RestlessGhosts:ConversationEntryPointNode_6'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.9"
+          }
+        },
+        {
+          "Key": "CC955FC6-4F90C8E4-30A45C99-E8BAC5A8",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_RestlessGhosts:QFT_Blank_C_25'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.88"
+          }
+        },
+        {
+          "Key": "E877112C-4F5F4423-D70AAFAC-DCBF8BEA",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_RestlessGhosts:QFT_PromptMessage_C_38'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.150"
+          }
+        },
+        {
+          "Key": "77EAB8DB-480540A2-DEA9878D-1FF15ECC",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_RestlessGhosts:QFT_Blank_C_26'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.89"
+          }
+        },
+        {
+          "Key": "EE7CEFFE-443EDBA8-103AF08C-9ECC160A",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_RestlessGhosts:QFT_Blank_C_30'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.94"
+          }
+        },
+        {
+          "Key": "E0B0FBE9-4BF48829-84B315A4-14FC9EBF",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_RestlessGhosts:QFT_PromptMessage_C_17'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.127"
+          }
+        },
+        {
+          "Key": "496DE6F6-47532374-00C9DBB3-98F2386C",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_RestlessGhosts:QFT_PromptMessage_C_39'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.151"
+          }
+        },
+        {
+          "Key": "2781497D-48E89237-B163DE8B-E1C7EBB4",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_RestlessGhosts:QFT_Blank_C_31'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.95"
+          }
+        },
+        {
+          "Key": "96AE829C-452059DF-2994D4BC-9DE2CF1E",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_RestlessGhosts:QFT_PromptMessage_C_13'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.123"
+          }
+        },
+        {
+          "Key": "66648ED4-4AB8B55B-DD0AB9BC-4E4DB738",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_RestlessGhosts:QFT_PromptMessage_C_11'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.121"
+          }
+        },
+        {
+          "Key": "789574EC-49BC5E7A-69696B97-13F4E865",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_RestlessGhosts:QFT_PromptMessage_C_8'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.172"
+          }
+        },
+        {
+          "Key": "A7EC84AB-438A359E-E270E4A5-9B37086E",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_RestlessGhosts:QFT_PromptMessage_C_9'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.173"
+          }
+        },
+        {
+          "Key": "90ED4ABB-4E2AB7D3-673831A0-382A3874",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_RestlessGhosts:QFT_PromptMessage_C_37'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.149"
+          }
+        },
+        {
+          "Key": "1F981635-408DC148-5ED6C8B5-1613EC2F",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_RestlessGhosts:QFT_SetQuestBool_C_7'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.185"
+          }
+        },
+        {
+          "Key": "C2CC51FD-45ABA1D3-A479A384-C1660DD5",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_RestlessGhosts:QFT_SetQuestBool_C_11'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.176"
+          }
+        },
+        {
+          "Key": "B7CE6C62-4ABAF51A-71FDDD9F-7926C1E2",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_RestlessGhosts:QFT_Blank_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.80"
+          }
+        },
+        {
+          "Key": "E1738836-43A8DE7F-919EBB93-0EA17C04",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_RestlessGhosts:QFT_SetQuestObjective_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.188"
+          }
+        },
+        {
+          "Key": "09C331D0-4823C698-A460FEA4-CABED7FD",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_RestlessGhosts:QFT_SetQuestBool_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.174"
+          }
+        },
+        {
+          "Key": "6285A536-44FEC5C0-F8A994BC-BAD31E33",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_RestlessGhosts:QFT_PromptMessage_C_36'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.148"
+          }
+        },
+        {
+          "Key": "D4B611C5-45E73EA8-2F4B3F87-995B943D",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_RestlessGhosts:QFT_PromptMessage_C_35'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.147"
+          }
+        },
+        {
+          "Key": "1E0251EF-464FD2F2-02C7A68C-8CA6376D",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_RestlessGhosts:QFT_PromptMessage_C_34'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.146"
+          }
+        },
+        {
+          "Key": "38DD1B42-4290773C-152CBCA6-D4EF64DD",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_RestlessGhosts:ConversationEntryPointNode_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.7"
+          }
+        },
+        {
+          "Key": "867813D3-457D86FC-7B946CB8-560D97FA",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_RestlessGhosts:QFT_Blank_C_19'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.86"
+          }
+        },
+        {
+          "Key": "D3D4BA0F-4E826090-06BBCDAD-11E56BA7",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_RestlessGhosts:QFT_PromptMessage_C_50'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.164"
+          }
+        },
+        {
+          "Key": "10E746E5-47A78BE3-F0E80F87-C176F32B",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_RestlessGhosts:QFT_Blank_C_18'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.85"
+          }
+        },
+        {
+          "Key": "A28BA518-4CF354AC-F3BE90A8-73ED6DC2",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_RestlessGhosts:QFT_Blank_C_32'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.96"
+          }
+        },
+        {
+          "Key": "50AA3308-4B2A76B5-9455F0BD-2FDC84E8",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_RestlessGhosts:QFT_PromptMessage_C_32'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.144"
+          }
+        },
+        {
+          "Key": "659505FE-44C2CC23-174CD982-C422A748",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_RestlessGhosts:QFT_PromptMessage_C_33'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.145"
+          }
+        },
+        {
+          "Key": "436536FB-4A48A8C2-A2A2CDA6-EC082029",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_RestlessGhosts:QFT_Blank_C_33'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.97"
+          }
+        },
+        {
+          "Key": "19AC28D1-43CFA7EA-D7A448B2-F0CF69C8",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_RestlessGhosts:QFT_PromptMessage_C_31'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.143"
+          }
+        },
+        {
+          "Key": "A40BBF86-4006D333-579E17A6-25BAE65E",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_RestlessGhosts:QFT_PromptMessage_C_21'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.132"
+          }
+        },
+        {
+          "Key": "982A18F1-4E4B157A-69F73487-A7AEB633",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_RestlessGhosts:QFT_PromptMessage_C_19'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.129"
+          }
+        },
+        {
+          "Key": "83961F47-4742FE90-71D077B4-58D26E6E",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_RestlessGhosts:QFT_PromptMessage_C_18'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.128"
+          }
+        },
+        {
+          "Key": "C7EF52DA-4CE23357-86B21088-1D679ADE",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_RestlessGhosts:QFT_PromptMessage_C_30'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.142"
+          }
+        },
+        {
+          "Key": "01F077AA-4525ED12-21E1F093-37325C56",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_RestlessGhosts:QFT_SetQuestBool_C_10'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.175"
+          }
+        },
+        {
+          "Key": "A48225F6-4C734950-E922FDAA-7D123A77",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_RestlessGhosts:QFT_SetQuestBool_C_12'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.177"
+          }
+        },
+        {
+          "Key": "2421E8C9-4DCD36BF-F6DFB6AC-5EBD51A4",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_RestlessGhosts:QFT_PromptMessage_C_29'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.140"
+          }
+        },
+        {
+          "Key": "EF0DF1BE-4A852081-D7AE13AE-9457D452",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_RestlessGhosts:QFT_PromptMessage_C_28'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.139"
+          }
+        },
+        {
+          "Key": "32167CAA-4DF7F2D6-0D3016B3-EF93E58B",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_RestlessGhosts:QFT_PromptMessage_C_27'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.138"
+          }
+        },
+        {
+          "Key": "29C2696C-43CE1835-B3F0BF92-996504FE",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_RestlessGhosts:ConversationEntryPointNode_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.5"
+          }
+        },
+        {
+          "Key": "5C32B100-40C40A6C-03EB1DB1-13D50BDD",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_RestlessGhosts:QFT_Blank_C_13'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.84"
+          }
+        },
+        {
+          "Key": "BE7480D8-455BEAC6-2487EA9E-E2C3E3CA",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_RestlessGhosts:QFT_PromptMessage_C_51'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.165"
+          }
+        },
+        {
+          "Key": "0BD3A9C1-4A7E6032-301C829C-4E4671E8",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_RestlessGhosts:QFT_Blank_C_11'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.83"
+          }
+        },
+        {
+          "Key": "EF730119-4E63D7D1-D093CCA7-15B9280C",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_RestlessGhosts:QFT_Blank_C_35'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.98"
+          }
+        },
+        {
+          "Key": "35DE003E-499D4DCD-B8FA02AE-1378D6E6",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_RestlessGhosts:QFT_PromptMessage_C_46'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.159"
+          }
+        },
+        {
+          "Key": "849B274D-41B089C6-88F27691-743F6176",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_RestlessGhosts:QFT_PromptMessage_C_20'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.131"
+          }
+        },
+        {
+          "Key": "922E0260-4D95BE06-8D69BF9D-27BBB37A",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_RestlessGhosts:QFT_Blank_C_37'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.99"
+          }
+        },
+        {
+          "Key": "B408303C-4D3EA249-D12ACDBB-3DA58A15",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_RestlessGhosts:QFT_PromptMessage_C_45'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.158"
+          }
+        },
+        {
+          "Key": "87B1C003-4864D4B9-D52F679C-20388405",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_RestlessGhosts:QFT_PromptMessage_C_14'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.124"
+          }
+        },
+        {
+          "Key": "FC55F982-41CB5618-4776AEBE-ACE00B83",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_RestlessGhosts:QFT_PromptMessage_C_15'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.125"
+          }
+        },
+        {
+          "Key": "D8F2E639-40AE0619-4524B79F-71058945",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_RestlessGhosts:QFT_PromptMessage_C_16'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.126"
+          }
+        },
+        {
+          "Key": "172A17B5-48E8B832-2AD9B191-A4C2E43B",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_RestlessGhosts:QFT_PromptMessage_C_26'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.137"
+          }
+        },
+        {
+          "Key": "C2F0BBF4-43602D79-E9B0F5A8-F3068D83",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_RestlessGhosts:QFT_SetQuestBool_C_8'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.186"
+          }
+        },
+        {
+          "Key": "2B118EF3-43D38D7E-6E95E8B5-64B902B4",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_RestlessGhosts:QFT_SetQuestBool_C_13'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.178"
+          }
+        },
+        {
+          "Key": "8CC4E095-4C8DA59F-05579EAF-ACC70AF7",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_RestlessGhosts:QFT_PromptMessage_C_25'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.136"
+          }
+        },
+        {
+          "Key": "D52E0336-49D55F35-8E28239D-84C57647",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_RestlessGhosts:QFT_PromptMessage_C_23'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.134"
+          }
+        },
+        {
+          "Key": "15F65C3A-4C4733B6-40916B9C-CAD1BD81",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_RestlessGhosts:QFT_PromptMessage_C_22'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.133"
+          }
+        },
+        {
+          "Key": "C671FC32-46918CD2-99EBD5B0-9B2222C3",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_RestlessGhosts:ConversationEntryPointNode_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.8"
+          }
+        },
+        {
+          "Key": "25813E92-454CBF86-2C39088B-20582F19",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_RestlessGhosts:QFT_Blank_C_5'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.103"
+          }
+        },
+        {
+          "Key": "1DEB4E56-49932F98-FB7D70AB-35CCBD64",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_RestlessGhosts:QFT_PromptMessage_C_52'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.166"
+          }
+        },
+        {
+          "Key": "7EF29C14-476FCD1F-6B2CCAA5-12D9CCBD",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_RestlessGhosts:QFT_Blank_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.102"
+          }
+        },
+        {
+          "Key": "EFBBC090-459539D6-17CA68B2-AAE9D57C",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_RestlessGhosts:QFT_Blank_C_38'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.100"
+          }
+        },
+        {
+          "Key": "04DF6D3F-4A25E9D4-9E61E7AC-A690F918",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_RestlessGhosts:QFT_PromptMessage_C_48'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.161"
+          }
+        },
+        {
+          "Key": "AA57B316-47BD6861-1942BE88-88F12638",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_RestlessGhosts:QFT_PromptMessage_C_10'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.120"
+          }
+        },
+        {
+          "Key": "21E05F01-4A1B9D48-D5F310B8-C8076B85",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_RestlessGhosts:QFT_Blank_C_39'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.101"
+          }
+        },
+        {
+          "Key": "B1BDB439-48E58A01-1E6A01AB-B7C2B776",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_RestlessGhosts:QFT_PromptMessage_C_47'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.160"
+          }
+        },
+        {
+          "Key": "2E1DA73A-4F47483F-BF27B680-B5009CA7",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_RestlessGhosts:QFT_PromptMessage_C_42'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.155"
+          }
+        },
+        {
+          "Key": "FD3C13EC-406A81E2-D71CAEA8-ECC8F668",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_RestlessGhosts:QFT_PromptMessage_C_24'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.135"
+          }
+        },
+        {
+          "Key": "36BF55A4-49FE75EC-1ED76C86-3A2F33A4",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_RestlessGhosts:QFT_PromptMessage_C_43'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.156"
+          }
+        },
+        {
+          "Key": "BEAC5259-415E6F5D-6AABBAA3-6A5B3134",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_RestlessGhosts:QFT_PromptMessage_C_12'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.122"
+          }
+        },
+        {
+          "Key": "DC9169E4-45CF0E63-B0C6CB94-0290CF94",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_RestlessGhosts:QFT_SetQuestBool_C_9'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.187"
+          }
+        },
+        {
+          "Key": "F4936D99-4A37BD2D-7888E89B-62C5E89C",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_RestlessGhosts:QFT_SetQuestBool_C_14'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.179"
+          }
+        },
+        {
+          "Key": "3F6D77D2-438C72E9-3AB5729B-D25344A9",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_RestlessGhosts:QFT_PromptMessage_C_7'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.169"
+          }
+        },
+        {
+          "Key": "FF0A332D-43DE1DD0-92C3F2AB-53A96ACF",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_RestlessGhosts:QFT_PromptMessage_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.152"
+          }
+        },
+        {
+          "Key": "06EFE826-414A4598-7BE16FB9-73B511CC",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_RestlessGhosts:QFT_PromptMessage_C_41'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.154"
+          }
+        },
+        {
+          "Key": "2DA92F22-4CD1AADA-2B0F53A8-A00A85E6",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_RestlessGhosts:ConversationEntryPointNode_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.6"
+          }
+        },
+        {
+          "Key": "592DC674-4A03DC8A-F11753BF-FB65ECD7",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_RestlessGhosts:QFT_Blank_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.81"
+          }
+        },
+        {
+          "Key": "2A42FADF-4F83BE33-A59C63B2-F163E450",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_RestlessGhosts:QFT_PromptMessage_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.119"
+          }
+        },
+        {
+          "Key": "7BD05A5D-4633575B-3E0C9D93-60E823A5",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_RestlessGhosts:QFT_Blank_C_29'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.92"
+          }
+        },
+        {
+          "Key": "85574E60-47C3706F-9197079A-92C00424",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_RestlessGhosts:QFT_Blank_C_27'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.90"
+          }
+        },
+        {
+          "Key": "2D6B3088-439AEA00-D1D6E8B3-EFBECF6D",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_RestlessGhosts:QFT_Blank_C_28'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.91"
+          }
+        },
+        {
+          "Key": "3F8C1B31-41622EF9-47510BAB-33AEFCF3",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_RestlessGhosts:QFT_PromptMessage_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.130"
+          }
+        },
+        {
+          "Key": "7A8DA306-45F0A22C-65BF2EBC-CE0BBDA7",
+          "Value": {
+            "ObjectName": "QFT_GiveQuest_C'QF_RestlessGhosts:QFT_GiveQuest_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.117"
+          }
+        },
+        {
+          "Key": "33EEA27A-4B55336F-690BB092-ED6AE3F2",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_RestlessGhosts:QFT_SetQuestObjective_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.189"
+          }
+        },
+        {
+          "Key": "945AC86C-4509B83F-54C3E39D-7F60EB93",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_RestlessGhosts:QFT_UpdateQuestLocation_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.190"
+          }
+        },
+        {
+          "Key": "9FC0A85D-43D904E8-DF3DDA85-8B43820E",
+          "Value": {
+            "ObjectName": "QFT_GiveItemToPlayer_C'QF_RestlessGhosts:QFT_GiveItemToPlayer_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.115"
+          }
+        },
+        {
+          "Key": "2F0717A2-4A973970-28BBCE81-A4873A43",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_RestlessGhosts:QFT_SetQuestBool_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.180"
+          }
+        }
+      ],
+      "EntryTags": [
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.RestlessGhosts.WellEntry"
+          },
+          "DestinationList": [
+            "2DA92F22-4CD1AADA-2B0F53A8-A00A85E6"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.RestlessGhosts.Ghost1Entry"
+          },
+          "DestinationList": [
+            "C671FC32-46918CD2-99EBD5B0-9B2222C3"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.RestlessGhosts.Ghost2Entry"
+          },
+          "DestinationList": [
+            "29C2696C-43CE1835-B3F0BF92-996504FE"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.RestlessGhosts.Ghost3Entry"
+          },
+          "DestinationList": [
+            "38DD1B42-4290773C-152CBCA6-D4EF64DD"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.RestlessGhosts.Ghost4Entry"
+          },
+          "DestinationList": [
+            "5C33AB19-4E94DEE9-AD02728E-AA4E4556"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.RestlessGhosts.TempleMemorialEntry"
+          },
+          "DestinationList": [
+            "623FA7B0-4E998A2E-51510BAA-BF089B5C"
+          ],
+          "EntryIdentifier": ""
+        }
+      ],
+      "InternalNodeIds": [
+        "623FA7B0-4E998A2E-51510BAA-BF089B5C",
+        "8FBF9F8D-48F85F39-7FAE768F-92859FFD",
+        "DF57E377-45744730-38214AAC-BAE5612E",
+        "2AE54FBD-4A679A76-B73233A2-36010F2D",
+        "24EB3759-4690CC6B-EC122B8C-1D75250A",
+        "65922F68-45565A53-612861B7-955544CE",
+        "92B5284F-42BBC0AA-48B74DB4-C637FF2F",
+        "2F088A59-462D09D7-A6124E83-AE2D5811",
+        "F710AF65-44C1AD2D-7FBFC48D-D2491089",
+        "0FA95224-4F9FA399-DE242A93-8CDE090F",
+        "2FD75840-4187AF79-77135C9D-F27D9DF7",
+        "5DD5ADE0-4DDAA7D8-EAD4D28E-853A13B7",
+        "07CAEF6B-4A3274EF-315B109F-30A38F98",
+        "30E7CA48-4B4CEA03-3588B182-FD12FEC3",
+        "2FFAF7D7-45EFAC3F-DE2D6D92-21018F3D",
+        "E70D5CF1-470FF0F7-9E817E9B-4943D663",
+        "1A053C85-4F6DB024-0C609398-08597C2C",
+        "F37A2AD2-4C14A1F8-7B2B0888-81317ED7",
+        "ACAE34BC-47F314DC-A7F52A93-48F2791E",
+        "E4075A57-46A6CB7E-40E34AB4-CD9D8777",
+        "1E1C4B04-47549D00-507B5AAA-73F6E61A",
+        "BF78DD0C-49BDBFF2-B8535193-BA640624",
+        "89B5B3AE-4FCE586A-A0FAF4BC-23FE56DD",
+        "17E06777-4194BFC4-84161791-004BAD6F",
+        "A8E8625D-4D543B1F-B6E6CE8B-DE24507D",
+        "44096568-48782031-29490880-A99B8AC3",
+        "8CBC0168-4E7B965F-94965393-DF3057B4",
+        "8DCE4B2C-411A92C8-53522BAD-0B59DA62",
+        "BF2B18A5-4A129177-4958CA9A-4D54C25D",
+        "BB0E3FDD-4AA01A81-638A8FBF-030AD2D1",
+        "989F51DA-4A1B2191-B7222C91-C241FA91",
+        "5C33AB19-4E94DEE9-AD02728E-AA4E4556",
+        "CC955FC6-4F90C8E4-30A45C99-E8BAC5A8",
+        "E877112C-4F5F4423-D70AAFAC-DCBF8BEA",
+        "77EAB8DB-480540A2-DEA9878D-1FF15ECC",
+        "EE7CEFFE-443EDBA8-103AF08C-9ECC160A",
+        "E0B0FBE9-4BF48829-84B315A4-14FC9EBF",
+        "496DE6F6-47532374-00C9DBB3-98F2386C",
+        "2781497D-48E89237-B163DE8B-E1C7EBB4",
+        "96AE829C-452059DF-2994D4BC-9DE2CF1E",
+        "66648ED4-4AB8B55B-DD0AB9BC-4E4DB738",
+        "789574EC-49BC5E7A-69696B97-13F4E865",
+        "A7EC84AB-438A359E-E270E4A5-9B37086E",
+        "90ED4ABB-4E2AB7D3-673831A0-382A3874",
+        "1F981635-408DC148-5ED6C8B5-1613EC2F",
+        "C2CC51FD-45ABA1D3-A479A384-C1660DD5",
+        "B7CE6C62-4ABAF51A-71FDDD9F-7926C1E2",
+        "E1738836-43A8DE7F-919EBB93-0EA17C04",
+        "09C331D0-4823C698-A460FEA4-CABED7FD",
+        "6285A536-44FEC5C0-F8A994BC-BAD31E33",
+        "D4B611C5-45E73EA8-2F4B3F87-995B943D",
+        "1E0251EF-464FD2F2-02C7A68C-8CA6376D",
+        "38DD1B42-4290773C-152CBCA6-D4EF64DD",
+        "867813D3-457D86FC-7B946CB8-560D97FA",
+        "D3D4BA0F-4E826090-06BBCDAD-11E56BA7",
+        "10E746E5-47A78BE3-F0E80F87-C176F32B",
+        "A28BA518-4CF354AC-F3BE90A8-73ED6DC2",
+        "50AA3308-4B2A76B5-9455F0BD-2FDC84E8",
+        "659505FE-44C2CC23-174CD982-C422A748",
+        "436536FB-4A48A8C2-A2A2CDA6-EC082029",
+        "19AC28D1-43CFA7EA-D7A448B2-F0CF69C8",
+        "A40BBF86-4006D333-579E17A6-25BAE65E",
+        "982A18F1-4E4B157A-69F73487-A7AEB633",
+        "83961F47-4742FE90-71D077B4-58D26E6E",
+        "C7EF52DA-4CE23357-86B21088-1D679ADE",
+        "01F077AA-4525ED12-21E1F093-37325C56",
+        "A48225F6-4C734950-E922FDAA-7D123A77",
+        "2421E8C9-4DCD36BF-F6DFB6AC-5EBD51A4",
+        "EF0DF1BE-4A852081-D7AE13AE-9457D452",
+        "32167CAA-4DF7F2D6-0D3016B3-EF93E58B",
+        "29C2696C-43CE1835-B3F0BF92-996504FE",
+        "5C32B100-40C40A6C-03EB1DB1-13D50BDD",
+        "BE7480D8-455BEAC6-2487EA9E-E2C3E3CA",
+        "0BD3A9C1-4A7E6032-301C829C-4E4671E8",
+        "EF730119-4E63D7D1-D093CCA7-15B9280C",
+        "35DE003E-499D4DCD-B8FA02AE-1378D6E6",
+        "849B274D-41B089C6-88F27691-743F6176",
+        "922E0260-4D95BE06-8D69BF9D-27BBB37A",
+        "B408303C-4D3EA249-D12ACDBB-3DA58A15",
+        "87B1C003-4864D4B9-D52F679C-20388405",
+        "FC55F982-41CB5618-4776AEBE-ACE00B83",
+        "D8F2E639-40AE0619-4524B79F-71058945",
+        "172A17B5-48E8B832-2AD9B191-A4C2E43B",
+        "C2F0BBF4-43602D79-E9B0F5A8-F3068D83",
+        "2B118EF3-43D38D7E-6E95E8B5-64B902B4",
+        "8CC4E095-4C8DA59F-05579EAF-ACC70AF7",
+        "D52E0336-49D55F35-8E28239D-84C57647",
+        "15F65C3A-4C4733B6-40916B9C-CAD1BD81",
+        "C671FC32-46918CD2-99EBD5B0-9B2222C3",
+        "25813E92-454CBF86-2C39088B-20582F19",
+        "1DEB4E56-49932F98-FB7D70AB-35CCBD64",
+        "7EF29C14-476FCD1F-6B2CCAA5-12D9CCBD",
+        "EFBBC090-459539D6-17CA68B2-AAE9D57C",
+        "04DF6D3F-4A25E9D4-9E61E7AC-A690F918",
+        "AA57B316-47BD6861-1942BE88-88F12638",
+        "21E05F01-4A1B9D48-D5F310B8-C8076B85",
+        "B1BDB439-48E58A01-1E6A01AB-B7C2B776",
+        "2E1DA73A-4F47483F-BF27B680-B5009CA7",
+        "FD3C13EC-406A81E2-D71CAEA8-ECC8F668",
+        "36BF55A4-49FE75EC-1ED76C86-3A2F33A4",
+        "BEAC5259-415E6F5D-6AABBAA3-6A5B3134",
+        "DC9169E4-45CF0E63-B0C6CB94-0290CF94",
+        "F4936D99-4A37BD2D-7888E89B-62C5E89C",
+        "3F6D77D2-438C72E9-3AB5729B-D25344A9",
+        "FF0A332D-43DE1DD0-92C3F2AB-53A96ACF",
+        "06EFE826-414A4598-7BE16FB9-73B511CC",
+        "2DA92F22-4CD1AADA-2B0F53A8-A00A85E6",
+        "592DC674-4A03DC8A-F11753BF-FB65ECD7",
+        "2A42FADF-4F83BE33-A59C63B2-F163E450",
+        "7BD05A5D-4633575B-3E0C9D93-60E823A5",
+        "85574E60-47C3706F-9197079A-92C00424",
+        "2D6B3088-439AEA00-D1D6E8B3-EFBECF6D",
+        "3F8C1B31-41622EF9-47510BAB-33AEFCF3",
+        "7A8DA306-45F0A22C-65BF2EBC-CE0BBDA7",
+        "33EEA27A-4B55336F-690BB092-ED6AE3F2",
+        "945AC86C-4509B83F-54C3E39D-7F60EB93",
+        "9FC0A85D-43D904E8-DF3DDA85-8B43820E",
+        "2F0717A2-4A973970-28BBCE81-A4873A43"
+      ]
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.RestlessGhosts.Ghost2Entry"
+      },
+      "OutputConnections": [
+        "0BD3A9C1-4A7E6032-301C829C-4E4671E8",
+        "5C32B100-40C40A6C-03EB1DB1-13D50BDD"
+      ],
+      "Compiled_NodeGUID": "29C2696C-43CE1835-B3F0BF92-996504FE"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.RestlessGhosts.WellEntry"
+      },
+      "OutputConnections": [
+        "7BD05A5D-4633575B-3E0C9D93-60E823A5",
+        "592DC674-4A03DC8A-F11753BF-FB65ECD7"
+      ],
+      "Compiled_NodeGUID": "2DA92F22-4CD1AADA-2B0F53A8-A00A85E6"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.RestlessGhosts.Ghost3Entry"
+      },
+      "OutputConnections": [
+        "10E746E5-47A78BE3-F0E80F87-C176F32B",
+        "867813D3-457D86FC-7B946CB8-560D97FA"
+      ],
+      "Compiled_NodeGUID": "38DD1B42-4290773C-152CBCA6-D4EF64DD"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.RestlessGhosts.Ghost1Entry"
+      },
+      "OutputConnections": [
+        "7EF29C14-476FCD1F-6B2CCAA5-12D9CCBD",
+        "25813E92-454CBF86-2C39088B-20582F19"
+      ],
+      "Compiled_NodeGUID": "C671FC32-46918CD2-99EBD5B0-9B2222C3"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.RestlessGhosts.Ghost4Entry"
+      },
+      "OutputConnections": [
+        "77EAB8DB-480540A2-DEA9878D-1FF15ECC",
+        "CC955FC6-4F90C8E4-30A45C99-E8BAC5A8"
+      ],
+      "Compiled_NodeGUID": "5C33AB19-4E94DEE9-AD02728E-AA4E4556"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.RestlessGhosts.TempleMemorialEntry"
+      },
+      "OutputConnections": [
+        "2AE54FBD-4A679A76-B73233A2-36010F2D",
+        "8FBF9F8D-48F85F39-7FAE768F-92859FFD"
+      ],
+      "Compiled_NodeGUID": "623FA7B0-4E998A2E-51510BAA-BF089B5C"
+    }
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_20",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerDoesntHaveItem_C",
+    "Name": "QFR_PlayerDoesntHaveItem_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerDoesntHaveItem_C",
+    "Name": "QFR_PlayerDoesntHaveItem_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerDoesntHaveItem_C",
+    "Name": "QFR_PlayerDoesntHaveItem_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerDoesntHaveItem_C",
+    "Name": "QFR_PlayerDoesntHaveItem_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerDoesntHaveSpaceForItems_C",
+    "Name": "QFR_PlayerDoesntHaveSpaceForItems_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasItemAmount_C",
+    "Name": "QFR_PlayerHasItemAmount_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasItemAmount_C",
+    "Name": "QFR_PlayerHasItemAmount_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasItemAmount_C",
+    "Name": "QFR_PlayerHasItemAmount_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasItemAmount_C",
+    "Name": "QFR_PlayerHasItemAmount_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasSpaceForItems_C",
+    "Name": "QFR_PlayerHasSpaceForItems_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_12",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_13",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_14",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_15",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_16",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_17",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_19",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_20",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_21",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_22",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_23",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_24",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_25",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_26",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_27",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_28",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_30",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_31",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_32",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_33",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_34",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_35",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_36",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_38",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_39",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_40",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_48",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_49",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_50",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_51",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_52",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_53",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_54",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_55",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBoolsOR_C",
+    "Name": "QFR_TestQuestBoolsOR_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBoolsOR_C",
+    "Name": "QFR_TestQuestBoolsOR_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_13",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_18",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_19",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_25",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_26",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_27",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_28",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_29",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_30",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_31",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_32",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_33",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_35",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_37",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_38",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_39",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_50",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_51",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_61",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_64",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_65",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_66",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_67",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_CompleteQuest_RestlessGhost_C",
+    "Name": "QFT_CompleteQuest_RestlessGhost_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveItemToPlayer_C",
+    "Name": "QFT_GiveItemToPlayer_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveItemToPlayer_C",
+    "Name": "QFT_GiveItemToPlayer_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveQuest_C",
+    "Name": "QFT_GiveQuest_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_12",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_13",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_14",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_15",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_16",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_17",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_18",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_19",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_20",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_21",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_22",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_23",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_24",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_25",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_26",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_27",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_28",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_29",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_30",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_31",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_32",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_33",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_34",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_35",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_36",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_37",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_38",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_39",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_40",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_41",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_42",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_43",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_44",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_45",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_46",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_47",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_48",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_49",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_50",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_51",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_52",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_69",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_70",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_72",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_12",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_13",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_14",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_34",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_35",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_36",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_37",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_Play2DSting_C",
+    "Name": "SEN_Play2DSting_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_Play2DSting_C",
+    "Name": "SEN_Play2DSting_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_Play2DSting_C",
+    "Name": "SEN_Play2DSting_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_Play2DSting_C",
+    "Name": "SEN_Play2DSting_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_Play2DSting_C",
+    "Name": "SEN_Play2DSting_C_12",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_Play2DSting_C",
+    "Name": "SEN_Play2DSting_C_13",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_Play2DSting_C",
+    "Name": "SEN_Play2DSting_C_14",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_Play2DSting_C",
+    "Name": "SEN_Play2DSting_C_15",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_Play2DSting_C",
+    "Name": "SEN_Play2DSting_C_16",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_Play2DSting_C",
+    "Name": "SEN_Play2DSting_C_17",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_Play2DSting_C",
+    "Name": "SEN_Play2DSting_C_18",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_Play2DSting_C",
+    "Name": "SEN_Play2DSting_C_19",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_Play2DSting_C",
+    "Name": "SEN_Play2DSting_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_Play2DSting_C",
+    "Name": "SEN_Play2DSting_C_20",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_Play2DSting_C",
+    "Name": "SEN_Play2DSting_C_21",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_Play2DSting_C",
+    "Name": "SEN_Play2DSting_C_22",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_Play2DSting_C",
+    "Name": "SEN_Play2DSting_C_23",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_Play2DSting_C",
+    "Name": "SEN_Play2DSting_C_24",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_Play2DSting_C",
+    "Name": "SEN_Play2DSting_C_25",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_Play2DSting_C",
+    "Name": "SEN_Play2DSting_C_26",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_Play2DSting_C",
+    "Name": "SEN_Play2DSting_C_27",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_Play2DSting_C",
+    "Name": "SEN_Play2DSting_C_28",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_Play2DSting_C",
+    "Name": "SEN_Play2DSting_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_Play2DSting_C",
+    "Name": "SEN_Play2DSting_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_Play2DSting_C",
+    "Name": "SEN_Play2DSting_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_Play2DSting_C",
+    "Name": "SEN_Play2DSting_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_Play2DSting_C",
+    "Name": "SEN_Play2DSting_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_Play2DSting_C",
+    "Name": "SEN_Play2DSting_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_Play2DSting_C",
+    "Name": "SEN_Play2DSting_C_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_RestlessGhosts'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/RestlessGhosts/QF_RestlessGhosts.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  }
+]

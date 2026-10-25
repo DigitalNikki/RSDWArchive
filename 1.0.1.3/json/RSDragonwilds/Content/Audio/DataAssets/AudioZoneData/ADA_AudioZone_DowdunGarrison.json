@@ -1,0 +1,104 @@
+[
+  {
+    "Type": "AudioZoneData",
+    "Name": "ADA_AudioZone_DowdunGarrison",
+    "Class": "UScriptClass'AudioZoneData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AudioZoneEmitterEvents_DayTime": [
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_DR_BKChainRattle'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/BiomeBeds/Dowdun/Emitters/MSS_Wo_EmMo_DR_BKChainRattle"
+          },
+          "Weight": 75
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_DR_BKRockDebris'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/BiomeBeds/Dowdun/Emitters/MSS_Wo_EmMo_DR_BKRockDebris"
+          },
+          "Weight": 70
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_DR_BKWarGroan'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/BiomeBeds/Dowdun/Emitters/MSS_Wo_EmMo_DR_BKWarGroan"
+          },
+          "Weight": 30
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_DR_BKWoodCrank'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/BiomeBeds/Dowdun/Emitters/MSS_Wo_EmMo_DR_BKWoodCrank"
+          },
+          "Weight": 50
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_DR_BKWoodRoll'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/BiomeBeds/Dowdun/Emitters/MSS_Wo_EmMo_DR_BKWoodRoll"
+          },
+          "Weight": 60
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_DR_BKWoodRumble'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/BiomeBeds/Dowdun/Emitters/MSS_Wo_EmMo_DR_BKWoodRumble"
+          },
+          "Weight": 70
+        }
+      ],
+      "AudioZoneEmitterEvents_NightTime": [
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_DR_BKChainRattle'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/BiomeBeds/Dowdun/Emitters/MSS_Wo_EmMo_DR_BKChainRattle"
+          },
+          "Weight": 75
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_DR_BKRockDebris'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/BiomeBeds/Dowdun/Emitters/MSS_Wo_EmMo_DR_BKRockDebris"
+          },
+          "Weight": 70
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_DR_BKWarGroan'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/BiomeBeds/Dowdun/Emitters/MSS_Wo_EmMo_DR_BKWarGroan"
+          },
+          "Weight": 30
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_DR_BKWoodCrank'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/BiomeBeds/Dowdun/Emitters/MSS_Wo_EmMo_DR_BKWoodCrank"
+          },
+          "Weight": 50
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_DR_BKWoodRoll'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/BiomeBeds/Dowdun/Emitters/MSS_Wo_EmMo_DR_BKWoodRoll"
+          },
+          "Weight": 60
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_DR_BKWoodRumble'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/BiomeBeds/Dowdun/Emitters/MSS_Wo_EmMo_DR_BKWoodRumble"
+          },
+          "Weight": 70
+        }
+      ],
+      "Priority": 5,
+      "OuterRadius": 2000.0,
+      "InnerRadius": 1500.0,
+      "ZoneEmitterCap": 5,
+      "ProbabilityToSpawnNonDiegeticEmitterDay": 70.0,
+      "ProbabilityToSpawnNonDiegeticEmitterNight": 40.0
+    }
+  }
+]

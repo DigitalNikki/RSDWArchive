@@ -1,0 +1,240 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ADT_BeastArrow_ImpactPairingData_SFX",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Object'ImpactSourceSFXTableRow'",
+        "ObjectPath": "/Script/Dominion"
+      }
+    },
+    "Rows": {
+      "Default": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_Arrow_Grass_Remote'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Ranged/Ranged_Impacts/MSS_Co_Arrow_Grass_Remote"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.Default"
+        ]
+      },
+      "Audio.Flesh": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_Arrow_Flesh_Remote'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Ranged/Ranged_Impacts/MSS_Co_Arrow_Flesh_Remote"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.Flesh",
+          "Audio.Cloth",
+          "Audio.Leather",
+          "Audio.Metal",
+          "Audio.Chitin.Kalphite"
+        ]
+      },
+      "Audio.Metal.Shield": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_Arrow_MetalShield'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Ranged/Ranged_Impacts/MSS_Co_Arrow_MetalShield"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.Metal.Shield"
+        ]
+      },
+      "Audio.Leather.Shield": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_Arrow_LeatherShield'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Ranged/Ranged_Impacts/MSS_Co_Arrow_LeatherShield"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.Leather.Shield"
+        ]
+      },
+      "Audio.Wood.Shield": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_Arrow_WoodShield'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Ranged/Ranged_Impacts/MSS_Co_Arrow_WoodShield"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.Wood.Shield"
+        ]
+      },
+      "Audio.Metal.Blade": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_Arrow_WeapMetalBlade'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Ranged/Ranged_Impacts/MSS_Co_Arrow_WeapMetalBlade"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.Metal.Blade"
+        ]
+      },
+      "Audio.Metal.BladeSmall": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_Arrow_WeapSmallMetalBlade'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Ranged/Ranged_Impacts/MSS_Co_Arrow_WeapSmallMetalBlade"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.Metal.BladeSmall"
+        ]
+      },
+      "Audio.Metal.Bludgeon": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_Arrow_WeapPole'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Ranged/Ranged_Impacts/MSS_Co_Arrow_WeapPole"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.Metal.Bludgeon"
+        ]
+      },
+      "Audio.Bone.Blade": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_Arrow_WeapBone'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Ranged/Ranged_Impacts/MSS_Co_Arrow_WeapBone"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.Bone.Blade"
+        ]
+      },
+      "Audio.Stone.Blade": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_Arrow_WeapStone'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Ranged/Ranged_Impacts/MSS_Co_Arrow_WeapStone"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.Stone.Blade"
+        ]
+      },
+      "Audio.Wood.Bludgeon": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_Arrow_WeapWood'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Ranged/Ranged_Impacts/MSS_Co_Arrow_WeapWood"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.Wood.Bludgeon"
+        ]
+      },
+      "None": {
+        "PhysicalMaterials": [
+          {
+            "ObjectName": "DominionPhysicalMaterial'Wood_Boards_Tight'",
+            "ObjectPath": "/Game/Audio/PhysMats/Wood_Boards_Tight"
+          }
+        ],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_Arrow_Wood_Remote'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Ranged/Ranged_Impacts/MSS_Co_Arrow_Wood_Remote"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": []
+      },
+      "Audio.Metal.Armour": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_Armour_Pierce_OnPlayer'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/Impacts_Armour/MSS_Co_Armour_Pierce_OnPlayer"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.Metal.Armour"
+        ]
+      },
+      "Audio.Splitbark": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_SplitbarkArmour_Pierce'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/Impacts_Splitbark/MSS_Co_SplitbarkArmour_Pierce"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.Splitbark"
+        ]
+      },
+      "Audio.Spectral": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_Spectral_ImpactSmall'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/Impacts_Spectra/MSS_Co_Spectral_ImpactSmall"
+          },
+          "CritSweetener": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_CriticalHitSuccess'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/MSS_Co_CriticalHitSuccess"
+          }
+        },
+        "Identifier": [
+          "Audio.Spectral",
+          "Audio.AI.Skeleton.Spectral",
+          "Audio.AI.TerrorBird.Spectral",
+          "Audio.AI.BossDragon.Imaru.Spectral",
+          "Audio.AI.Wolf.Dragon.Spectral",
+          "Audio.AI.Wolf.Spectral",
+          "Audio.AI.Zombie.Spectral"
+        ]
+      },
+      "Audio.Immune": {
+        "PhysicalMaterials": [],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_BleedArrow_Wood_REM'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Ranged/Bleed_Impacts/MSS_Co_BleedArrow_Wood_REM"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.Chitin.Kalphite.Immune"
+        ]
+      }
+    }
+  }
+]

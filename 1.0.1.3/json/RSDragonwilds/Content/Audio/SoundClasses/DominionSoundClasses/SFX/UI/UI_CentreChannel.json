@@ -1,0 +1,22 @@
+[
+  {
+    "Type": "DominionSoundClass",
+    "Name": "UI_CentreChannel",
+    "Class": "UScriptClass'DominionSoundClass'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MinReverbSend": 0.15,
+      "Properties": {
+        "bCenterChannelOnly": true,
+        "DefaultSubmix": {
+          "ObjectName": "SoundSubmix'SFX'",
+          "ObjectPath": "/Game/Audio/Submixes/SFX"
+        }
+      },
+      "ParentClass": {
+        "ObjectName": "DominionSoundClass'UI_Maj'",
+        "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/UI/UI_Maj"
+      }
+    }
+  }
+]

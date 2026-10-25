@@ -1,0 +1,933 @@
+[
+  {
+    "Type": "ConversationDatabase",
+    "Name": "QF_ScarecrowScavening",
+    "Class": "UScriptClass'ConversationDatabase'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CompilerVersion": 2,
+      "ReachableNodeMap": [
+        {
+          "Key": "A339A0CC-4BD31D43-A469318B-AF9EE534",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_ScarecrowScavening:ConversationEntryPointNode_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.2"
+          }
+        },
+        {
+          "Key": "4FACBE16-4754FB01-CD1F6BAE-720B4F18",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_ScarecrowScavening:QFT_Blank_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.26"
+          }
+        },
+        {
+          "Key": "CA765D92-4436BABC-C511D1AC-03911E8E",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_ScarecrowScavening:QFT_Blank_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.28"
+          }
+        },
+        {
+          "Key": "07EFC53F-4EA0DFF5-B8AAC29F-FA8A0E40",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_ScarecrowScavening:QFT_PromptMessage_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.46"
+          }
+        },
+        {
+          "Key": "5A8FD600-4F055F60-06B1A7A4-A69A3E2D",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_ScarecrowScavening:QFT_Blank_C_5'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.29"
+          }
+        },
+        {
+          "Key": "FB065B19-4FE72C88-6C413E9D-FA554716",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_ScarecrowScavening:QFT_Blank_C_6'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.32"
+          }
+        },
+        {
+          "Key": "C1DEA8DA-4FF39127-39ADBD94-BC99727E",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_ScarecrowScavening:QFT_Blank_C_8'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.34"
+          }
+        },
+        {
+          "Key": "369E1CAD-440AF5F0-3AAC2388-B2BAF2A8",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_ScarecrowScavening:QFT_Blank_C_9'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.35"
+          }
+        },
+        {
+          "Key": "0ADC7A35-4B49DA4E-04E361A6-4E3AAC09",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_ScarecrowScavening:QFT_Blank_C_10'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.23"
+          }
+        },
+        {
+          "Key": "BCF97E72-41846090-ED9580A2-0371BFD9",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_ScarecrowScavening:QFT_Blank_C_12'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.25"
+          }
+        },
+        {
+          "Key": "5B185C06-41799100-8B75FBBB-96560BCB",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_ScarecrowScavening:QFT_PromptMessage_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.51"
+          }
+        },
+        {
+          "Key": "19CA4697-431EA846-1520F98A-0FC44B3F",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_ScarecrowScavening:QFT_Blank_C_11'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.24"
+          }
+        },
+        {
+          "Key": "C4680154-4CBF0D96-3AF3E59B-63C0370F",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_ScarecrowScavening:QFT_SetQuestBool_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.55"
+          }
+        },
+        {
+          "Key": "1665A558-4EB5FE9D-BBF3188C-95CC3B5A",
+          "Value": {
+            "ObjectName": "QFT_GiveItemToPlayer_C'QF_ScarecrowScavening:QFT_GiveItemToPlayer_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.41"
+          }
+        },
+        {
+          "Key": "218BABCC-47B2834A-41D11E85-E5CD7C81",
+          "Value": {
+            "ObjectName": "QFT_GiveCraftingRecipe_C'QF_ScarecrowScavening:QFT_GiveCraftingRecipe_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.37"
+          }
+        },
+        {
+          "Key": "E0A531EA-46C0E7DF-A4E56DB5-65075E50",
+          "Value": {
+            "ObjectName": "QFT_TakeItemFromPlayer_C'QF_ScarecrowScavening:QFT_TakeItemFromPlayer_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.57"
+          }
+        },
+        {
+          "Key": "A280A14A-40C8D2F2-8109B9AD-909E74A1",
+          "Value": {
+            "ObjectName": "QFT_TakeItemFromPlayer_C'QF_ScarecrowScavening:QFT_TakeItemFromPlayer_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.58"
+          }
+        },
+        {
+          "Key": "3505B53D-44D7D8BF-45FA33BD-F0CF2AEB",
+          "Value": {
+            "ObjectName": "QFT_TakeItemFromPlayer_C'QF_ScarecrowScavening:QFT_TakeItemFromPlayer_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.59"
+          }
+        },
+        {
+          "Key": "B5E8DD99-45990213-C4643681-C5FE952D",
+          "Value": {
+            "ObjectName": "QFT_TakeItemFromPlayer_C'QF_ScarecrowScavening:QFT_TakeItemFromPlayer_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.60"
+          }
+        },
+        {
+          "Key": "1B4571AC-4D3D9641-7233399C-203524D8",
+          "Value": {
+            "ObjectName": "QFT_CompleteQuest_C'QF_ScarecrowScavening:QFT_CompleteQuest_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.36"
+          }
+        },
+        {
+          "Key": "924B935A-4200967C-57585A84-BCFD4CF1",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_ScarecrowScavening:QFT_Blank_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.21"
+          }
+        },
+        {
+          "Key": "46E49274-4DAD7DFD-E898BA95-D509B424",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_ScarecrowScavening:ConversationEntryPointNode_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.1"
+          }
+        },
+        {
+          "Key": "62406D05-4620B045-F32618AD-B7ED2FF1",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_ScarecrowScavening:QFT_Blank_C_53'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.30"
+          }
+        },
+        {
+          "Key": "CD30697B-40800520-E72AABBB-9DC3A59F",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_ScarecrowScavening:QFT_Blank_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.22"
+          }
+        },
+        {
+          "Key": "96E85219-4B2565A0-3DDAC1BD-9CE22F52",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_ScarecrowScavening:QFT_PromptMessage_C_7'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.52"
+          }
+        },
+        {
+          "Key": "AB28C800-4BF72C9A-F1CD838B-2F6BF6F5",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_ScarecrowScavening:QFT_PromptMessage_C_8'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.53"
+          }
+        },
+        {
+          "Key": "8355A4FD-47BF7CDB-FCE1EAB7-0256D501",
+          "Value": {
+            "ObjectName": "QFT_GiveCraftingRecipe_C'QF_ScarecrowScavening:QFT_GiveCraftingRecipe_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.39"
+          }
+        },
+        {
+          "Key": "B7BD078B-49DD61A8-82956998-BAF0BA05",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_ScarecrowScavening:QFT_Blank_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.27"
+          }
+        },
+        {
+          "Key": "4CFF784E-4F940529-1C07459B-462827B9",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_ScarecrowScavening:QFT_PromptMessage_C_9'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.54"
+          }
+        },
+        {
+          "Key": "407C3EF3-4CD27F84-A3DDA3B2-E83AB6D5",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_ScarecrowScavening:QFT_PromptMessage_C_10'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.45"
+          }
+        },
+        {
+          "Key": "E011978A-4747FE43-ACA251B5-F0B78F43",
+          "Value": {
+            "ObjectName": "QFT_GiveCraftingRecipe_C'QF_ScarecrowScavening:QFT_GiveCraftingRecipe_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.38"
+          }
+        },
+        {
+          "Key": "A274D5D1-48F75555-E3931999-B8053C5B",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_ScarecrowScavening:QFT_Blank_C_54'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.31"
+          }
+        },
+        {
+          "Key": "A5301C5D-4FE007C9-FD138FA3-EBE76509",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_ScarecrowScavening:QFT_PromptMessage_C_27'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.50"
+          }
+        },
+        {
+          "Key": "B2D9E718-4EC29326-2B41069C-D4B6653F",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_ScarecrowScavening:QFT_PromptMessage_C_26'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.49"
+          }
+        },
+        {
+          "Key": "228FFE61-48661B65-B8701DA4-C4C022AD",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_ScarecrowScavening:QFT_PromptMessage_C_24'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.47"
+          }
+        },
+        {
+          "Key": "C72E923F-483E339B-BDC63FB7-03A224EB",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_ScarecrowScavening:QFT_PromptMessage_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.43"
+          }
+        },
+        {
+          "Key": "D460DE7E-4B6F610D-1BE27CBB-63369FA8",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_ScarecrowScavening:QFT_PromptMessage_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.44"
+          }
+        },
+        {
+          "Key": "A71A9E93-40BB0556-A4EC2B81-BEEBED78",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_ScarecrowScavening:QFT_PromptMessage_C_25'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.48"
+          }
+        },
+        {
+          "Key": "8D116606-439670EE-A3C71D8C-E899204F",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_ScarecrowScavening:QFT_Blank_C_7'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.33"
+          }
+        },
+        {
+          "Key": "A3A2A7C4-4F1292B2-23D4EDA7-B3E06552",
+          "Value": {
+            "ObjectName": "QFT_GiveItemsToPlayer_C'QF_ScarecrowScavening:QFT_GiveItemsToPlayer_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.40"
+          }
+        },
+        {
+          "Key": "086608D5-4A151901-6582D2AF-EEFD84D6",
+          "Value": {
+            "ObjectName": "QFT_GiveQuest_C'QF_ScarecrowScavening:QFT_GiveQuest_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.42"
+          }
+        },
+        {
+          "Key": "7BBC5324-4B8B1A56-194AC5BF-CD4210D1",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_ScarecrowScavening:QFT_SetQuestBool_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.56"
+          }
+        }
+      ],
+      "EntryTags": [
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.Scarecrow"
+          },
+          "DestinationList": [
+            "46E49274-4DAD7DFD-E898BA95-D509B424"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.Scarecrow.ChestComplete"
+          },
+          "DestinationList": [
+            "A339A0CC-4BD31D43-A469318B-AF9EE534"
+          ],
+          "EntryIdentifier": ""
+        }
+      ],
+      "InternalNodeIds": [
+        "A339A0CC-4BD31D43-A469318B-AF9EE534",
+        "4FACBE16-4754FB01-CD1F6BAE-720B4F18",
+        "CA765D92-4436BABC-C511D1AC-03911E8E",
+        "07EFC53F-4EA0DFF5-B8AAC29F-FA8A0E40",
+        "5A8FD600-4F055F60-06B1A7A4-A69A3E2D",
+        "FB065B19-4FE72C88-6C413E9D-FA554716",
+        "C1DEA8DA-4FF39127-39ADBD94-BC99727E",
+        "369E1CAD-440AF5F0-3AAC2388-B2BAF2A8",
+        "0ADC7A35-4B49DA4E-04E361A6-4E3AAC09",
+        "BCF97E72-41846090-ED9580A2-0371BFD9",
+        "5B185C06-41799100-8B75FBBB-96560BCB",
+        "19CA4697-431EA846-1520F98A-0FC44B3F",
+        "C4680154-4CBF0D96-3AF3E59B-63C0370F",
+        "1665A558-4EB5FE9D-BBF3188C-95CC3B5A",
+        "218BABCC-47B2834A-41D11E85-E5CD7C81",
+        "E0A531EA-46C0E7DF-A4E56DB5-65075E50",
+        "A280A14A-40C8D2F2-8109B9AD-909E74A1",
+        "3505B53D-44D7D8BF-45FA33BD-F0CF2AEB",
+        "B5E8DD99-45990213-C4643681-C5FE952D",
+        "1B4571AC-4D3D9641-7233399C-203524D8",
+        "924B935A-4200967C-57585A84-BCFD4CF1",
+        "46E49274-4DAD7DFD-E898BA95-D509B424",
+        "62406D05-4620B045-F32618AD-B7ED2FF1",
+        "CD30697B-40800520-E72AABBB-9DC3A59F",
+        "96E85219-4B2565A0-3DDAC1BD-9CE22F52",
+        "AB28C800-4BF72C9A-F1CD838B-2F6BF6F5",
+        "8355A4FD-47BF7CDB-FCE1EAB7-0256D501",
+        "B7BD078B-49DD61A8-82956998-BAF0BA05",
+        "4CFF784E-4F940529-1C07459B-462827B9",
+        "407C3EF3-4CD27F84-A3DDA3B2-E83AB6D5",
+        "E011978A-4747FE43-ACA251B5-F0B78F43",
+        "A274D5D1-48F75555-E3931999-B8053C5B",
+        "A5301C5D-4FE007C9-FD138FA3-EBE76509",
+        "B2D9E718-4EC29326-2B41069C-D4B6653F",
+        "228FFE61-48661B65-B8701DA4-C4C022AD",
+        "C72E923F-483E339B-BDC63FB7-03A224EB",
+        "D460DE7E-4B6F610D-1BE27CBB-63369FA8",
+        "A71A9E93-40BB0556-A4EC2B81-BEEBED78",
+        "8D116606-439670EE-A3C71D8C-E899204F",
+        "A3A2A7C4-4F1292B2-23D4EDA7-B3E06552",
+        "086608D5-4A151901-6582D2AF-EEFD84D6",
+        "7BBC5324-4B8B1A56-194AC5BF-CD4210D1"
+      ]
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.Scarecrow"
+      },
+      "OutputConnections": [
+        "A274D5D1-48F75555-E3931999-B8053C5B",
+        "62406D05-4620B045-F32618AD-B7ED2FF1"
+      ],
+      "Compiled_NodeGUID": "46E49274-4DAD7DFD-E898BA95-D509B424"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.Scarecrow.ChestComplete"
+      },
+      "OutputConnections": [
+        "924B935A-4200967C-57585A84-BCFD4CF1",
+        "4FACBE16-4754FB01-CD1F6BAE-720B4F18"
+      ],
+      "Compiled_NodeGUID": "A339A0CC-4BD31D43-A469318B-AF9EE534"
+    }
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerDoesntHaveItem_C",
+    "Name": "QFR_PlayerDoesntHaveItem_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerDoesntHaveItem_C",
+    "Name": "QFR_PlayerDoesntHaveItem_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerDoesntHaveItem_C",
+    "Name": "QFR_PlayerDoesntHaveItem_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerDoesntHaveItem_C",
+    "Name": "QFR_PlayerDoesntHaveItem_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerDoesntHaveItem_C",
+    "Name": "QFR_PlayerDoesntHaveItem_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerDoesntHaveSpaceForItem_C",
+    "Name": "QFR_PlayerDoesntHaveSpaceForItem_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerDoesntHaveSpaceForItem_C",
+    "Name": "QFR_PlayerDoesntHaveSpaceForItem_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasItemAmount_C",
+    "Name": "QFR_PlayerHasItemAmount_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasItemAmount_C",
+    "Name": "QFR_PlayerHasItemAmount_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasItemAmount_C",
+    "Name": "QFR_PlayerHasItemAmount_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasItemAmount_C",
+    "Name": "QFR_PlayerHasItemAmount_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasItemAmount_C",
+    "Name": "QFR_PlayerHasItemAmount_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasSpaceForItem_C",
+    "Name": "QFR_PlayerHasSpaceForItem_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasSpaceForItem_C",
+    "Name": "QFR_PlayerHasSpaceForItem_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_12",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_53",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_54",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_CompleteQuest_C",
+    "Name": "QFT_CompleteQuest_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveCraftingRecipe_C",
+    "Name": "QFT_GiveCraftingRecipe_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveCraftingRecipe_C",
+    "Name": "QFT_GiveCraftingRecipe_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveCraftingRecipe_C",
+    "Name": "QFT_GiveCraftingRecipe_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveItemsToPlayer_C",
+    "Name": "QFT_GiveItemsToPlayer_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveItemToPlayer_C",
+    "Name": "QFT_GiveItemToPlayer_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveQuest_C",
+    "Name": "QFT_GiveQuest_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_24",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_25",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_26",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_27",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_TakeItemFromPlayer_C",
+    "Name": "QFT_TakeItemFromPlayer_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_TakeItemFromPlayer_C",
+    "Name": "QFT_TakeItemFromPlayer_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_TakeItemFromPlayer_C",
+    "Name": "QFT_TakeItemFromPlayer_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_TakeItemFromPlayer_C",
+    "Name": "QFT_TakeItemFromPlayer_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_ScarecrowScavening'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/ScarecrowScavening/QF_ScarecrowScavening.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  }
+]

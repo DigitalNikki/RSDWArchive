@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "DominionSoundClass",
+    "Name": "VaultGuardian",
+    "Class": "UScriptClass'DominionSoundClass'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "OcclusionMultiplier": 1.0,
+      "Properties": {
+        "Volume": 0.5011872
+      },
+      "ChildClasses": [
+        {
+          "ObjectName": "DominionSoundClass'VaultGuardian_Abilites'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/VaultGuardian/VaultGuardian_Abilites"
+        },
+        {
+          "ObjectName": "DominionSoundClass'VaultGuardian_Foley'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/VaultGuardian/VaultGuardian_Foley"
+        },
+        {
+          "ObjectName": "DominionSoundClass'VaultGuardian_Vox_Com_Maj'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/VaultGuardian/VaultGuardian_Vox_Com_Maj"
+        },
+        {
+          "ObjectName": "DominionSoundClass'VaultGuardian_Vox_Com_Min'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/VaultGuardian/VaultGuardian_Vox_Com_Min"
+        },
+        {
+          "ObjectName": "DominionSoundClass'VaultGuardian_Vox_NonCom_Maj'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/VaultGuardian/VaultGuardian_Vox_NonCom_Maj"
+        },
+        {
+          "ObjectName": "DominionSoundClass'VaultGuardian_Vox_NonCom_Min'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/VaultGuardian/VaultGuardian_Vox_NonCom_Min"
+        },
+        {
+          "ObjectName": "SoundClass'VaultGuardian_Miniboss_Vox'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/VaultGuardian/VaultGuardian_Miniboss_Vox"
+        }
+      ],
+      "ParentClass": {
+        "ObjectName": "DominionSoundClass'AI'",
+        "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/AI"
+      }
+    }
+  }
+]

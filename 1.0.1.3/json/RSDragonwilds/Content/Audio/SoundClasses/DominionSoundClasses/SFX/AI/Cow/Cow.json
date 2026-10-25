@@ -1,0 +1,40 @@
+[
+  {
+    "Type": "DominionSoundClass",
+    "Name": "Cow",
+    "Class": "UScriptClass'DominionSoundClass'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "OcclusionMultiplier": 1.0,
+      "Properties": {
+        "Volume": 0.7823743
+      },
+      "ChildClasses": [
+        {
+          "ObjectName": "DominionSoundClass'Cow_Foley'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/Cow/Cow_Foley"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Cow_FS'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/Cow/Cow_FS"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Cow_Vox_NonCom_Maj'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/Cow/Cow_Vox_NonCom_Maj"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Cow_Vox_Com_Min'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/Cow/Cow_Vox_Com_Min"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Cow_Vox_Com_Maj'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/Cow/Cow_Vox_Com_Maj"
+        }
+      ],
+      "ParentClass": {
+        "ObjectName": "DominionSoundClass'AI'",
+        "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/AI"
+      }
+    }
+  }
+]

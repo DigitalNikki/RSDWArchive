@@ -1,0 +1,39 @@
+[
+  {
+    "Type": "FTUENotificationData",
+    "Name": "FTUE_FoodBenefits",
+    "Class": "UScriptClass'FTUENotificationData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Type": "EFTUENotificationType::SpeechBubble",
+      "Title": {
+        "TableId": "/Game/Gameplay/FTUE/Strings/ST_FTUENotifications.ST_FTUENotifications",
+        "Key": "UI.FTUE.FoodBenefitsTitle",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "InputAction": {
+        "ObjectName": "InputAction'IA_InventoryMenuDummy'",
+        "ObjectPath": "/Game/Gameplay/Inputs/Actions/UI/InputDummies/IA_InventoryMenuDummy"
+      },
+      "InputMappingContext": {
+        "ObjectName": "InputMappingContext'IMC_InventoryPrompt'",
+        "ObjectPath": "/Game/Gameplay/Inputs/Mappings/InputPrompts/IMC_InventoryPrompt"
+      },
+      "InputActionDescription": {
+        "TableId": "/Game/Gameplay/FTUE/Strings/ST_FTUENotifications.ST_FTUENotifications",
+        "Key": "UI.FTUE.Backpack.Menu.Open",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Text": {
+        "TableId": "/Game/Gameplay/FTUE/Strings/ST_FTUENotifications.ST_FTUENotifications",
+        "Key": "UI.FTUE.FoodBenenfitsText",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PersistenceID": "kzi1nkIMq1qd2QGP_VKmlQ",
+      "InternalName": "FTUE_FoodBenefits"
+    }
+  }
+]

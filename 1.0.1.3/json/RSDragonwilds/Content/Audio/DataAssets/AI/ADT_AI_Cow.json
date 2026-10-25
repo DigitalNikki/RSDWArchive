@@ -1,0 +1,552 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ADT_AI_Cow",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Object'AiAnimationAudioTableRowBase'",
+        "ObjectPath": "/Script/Dominion"
+      }
+    },
+    "Rows": {
+      "Bodyfall": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Cow"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Fo_Cow_Bodyfall'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Cow/Cow_Foley/MSS_Cr_Fo_Cow_Bodyfall"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Cow.Undead"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Fo_Cow_Bodyfall'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Cow/Cow_Foley/MSS_Cr_Fo_Cow_Bodyfall"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": true,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "ChewIdle": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Cow"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Fo_Cow_ChewIdle'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Cow/Cow_Foley/MSS_Cr_Fo_Cow_ChewIdle"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "ChewIdleBreak": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Cow"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Fo_Cow_ChewIdleBreak'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Cow/Cow_Foley/MSS_Cr_Fo_Cow_ChewIdleBreak"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Headshake": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Cow"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Fo_Cow_Headshake'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Cow/Cow_Foley/MSS_Cr_Fo_Cow_Headshake"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "HoofScrape": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Cow"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Fo_Cow_HoofScrape'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Cow/Cow_Foley/MSS_Cr_Fo_Cow_HoofScrape"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "RipGrass": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Cow"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Fo_Cow_RipGrass'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Cow/Cow_Foley/MSS_Cr_Fo_Cow_RipGrass"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "SingleChew": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Cow"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Fo_Cow_SingleChew'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Cow/Cow_Foley/MSS_Cr_Fo_Cow_SingleChew"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "TailFlicks": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Cow"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Fo_Cow_TailFlicks'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Cow/Cow_Foley/MSS_Cr_Fo_Cow_TailFlicks"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Aggro_Grunt": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Cow"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Cow_Aggro_Grunt'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Cow/Cow_Vox/MSS_Cr_Vox_Cow_Aggro_Grunt"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Cow.Undead"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_UndeadCow_Aggro_Grunt'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/UndeadCow/UndeadCow_Vox/MSS_Cr_Vox_UndeadCow_Aggro_Grunt"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Breathe": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Cow"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Cow_Breathe'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Cow/Cow_Vox/MSS_Cr_Vox_Cow_Breathe"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Cow.Undead"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_UndeadCow_Breathe'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/UndeadCow/UndeadCow_Vox/MSS_Cr_Vox_UndeadCow_Breathe"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Alert_Moo": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Cow"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Cow_Call_Alert_Moo'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Cow/Cow_Vox/MSS_Cr_Vox_Cow_Call_Alert_Moo"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Cow.Undead"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_UndeadCow_Call_Alert_Moo'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/UndeadCow/UndeadCow_Vox/MSS_Cr_Vox_UndeadCow_Call_Alert_Moo"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Call_Attack_Large": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Cow"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Cow_Call_Attack_Large'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Cow/Cow_Vox/MSS_Cr_Vox_Cow_Call_Attack_Large"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Cow.Undead"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_UndeadCow_Call_Attack_Large'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/UndeadCow/UndeadCow_Vox/MSS_Cr_Vox_UndeadCow_Call_Attack_Large"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Call_Attack_Small": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Cow"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Cow_Call_Attack_Small'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Cow/Cow_Vox/MSS_Cr_Vox_Cow_Call_Attack_Small"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Cow.Undead"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_UndeadCow_Call_Attack_Small'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/UndeadCow/UndeadCow_Vox/MSS_Cr_Vox_UndeadCow_Call_Attack_Small"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Call_Death": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Cow"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Cow_Call_Death'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Cow/Cow_Vox/MSS_Cr_Vox_Cow_Call_Death"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Cow.Undead"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_UndeadCow_Call_Death'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/UndeadCow/UndeadCow_Vox/MSS_Cr_Vox_UndeadCow_Call_Death"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": true,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Call_Hitreact_Back": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Cow"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Cow_Call_Hitreact_Back'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Cow/Cow_Vox/MSS_Cr_Vox_Cow_Call_Hitreact_Back"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Cow.Undead"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_UndeadCow_Call_Hitreact_Back'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/UndeadCow/UndeadCow_Vox/MSS_Cr_Vox_UndeadCow_Call_Hitreact_Back"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Call_Hitreact_Front": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Cow"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Cow_Call_Hitreact_Front'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Cow/Cow_Vox/MSS_Cr_Vox_Cow_Call_Hitreact_Front"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Cow.Undead"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_UndeadCow_Call_Hitreact_Front'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/UndeadCow/UndeadCow_Vox/MSS_Cr_Vox_UndeadCow_Call_Hitreact_Front"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Call_Idle_Moo": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Cow"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Cow_Call_Idle_Moo'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Cow/Cow_Vox/MSS_Cr_Vox_Cow_Call_Idle_Moo"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Cow.Undead"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_UndeadCow_Call_Idle_Moo'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/UndeadCow/UndeadCow_Vox/MSS_Cr_Vox_UndeadCow_Call_Idle_Moo"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Call_Long_Moo": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Cow"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Cow_Call_Long_Moo'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Cow/Cow_Vox/MSS_Cr_Vox_Cow_Call_Long_Moo"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Cow.Undead"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_UndeadCow_Call_Long_Moo'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/UndeadCow/UndeadCow_Vox/MSS_Cr_Vox_UndeadCow_Call_Long_Moo"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Charging_Grunt": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Cow"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Cow_Charging_Grunt'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Cow/Cow_Vox/MSS_Cr_Vox_Cow_Charging_Grunt"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Cow.Undead"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_UndeadCow_Charging_Grunt'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/UndeadCow/UndeadCow_Vox/MSS_Cr_Vox_UndeadCow_Charging_Grunt"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Footsteps_Walk": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Cow"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_CowFootsteps_Walk'",
+              "ObjectPath": "/Game/Audio/DataAssets/FootstepData/ADA_CowFootsteps_Walk"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "fore_foot_l",
+          "fore_foot_r",
+          "hind_foot_r",
+          "hind_foot_r"
+        ]
+      },
+      "Footsteps_Run": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Cow"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_CowFootsteps_Run'",
+              "ObjectPath": "/Game/Audio/DataAssets/FootstepData/ADA_CowFootsteps_Run"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "fore_foot_l",
+          "fore_foot_r",
+          "hind_foot_r",
+          "hind_foot_r"
+        ]
+      },
+      "Bodyfall_Med": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Cow"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_Cr_Bodyfall_Med'",
+              "ObjectPath": "/Game/Audio/DataAssets/Foley/ADA_Cr_Bodyfall_Med"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      }
+    }
+  }
+]

@@ -1,0 +1,96 @@
+[
+  {
+    "Type": "LocalPlayerAudioManagerData",
+    "Name": "ADA_LocalPlayerAudioManager",
+    "Class": "UScriptClass'LocalPlayerAudioManagerData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EquipItemSoundMap": {
+        "ObjectName": "AudioSwitchEvent'ADA_AudioSwitch_Equip'",
+        "ObjectPath": "/Game/Audio/DataAssets/AudioSwitches/ADA_AudioSwitch_Equip"
+      },
+      "UnEquipItemSoundMap": {
+        "ObjectName": "AudioSwitchEvent'ADA_AudioSwitch_UnEquip'",
+        "ObjectPath": "/Game/Audio/DataAssets/AudioSwitches/ADA_AudioSwitch_UnEquip"
+      },
+      "RecipeAudioTable": {
+        "ObjectName": "DataTable'ADT_CraftingRecipes'",
+        "ObjectPath": "/Game/Audio/DataAssets/Recipes/ADT_CraftingRecipes"
+      },
+      "PinAddedSFX": {
+        "AssetPathName": "/Game/Audio/MetasoundSources/UI/Map/MSS_UI_Map_Waypoint_Place.MSS_UI_Map_Waypoint_Place",
+        "SubPathString": ""
+      },
+      "PinRemovedSFX": {
+        "AssetPathName": "/Game/Audio/MetasoundSources/UI/Map/MSS_UI_Map_Waypoint_Remove.MSS_UI_Map_Waypoint_Remove",
+        "SubPathString": ""
+      },
+      "WaypointMovedSFX": {
+        "AssetPathName": "/Game/Audio/MetasoundSources/UI/Map/MSS_UI_Map_Waypoint_Place.MSS_UI_Map_Waypoint_Place",
+        "SubPathString": ""
+      },
+      "WaypointClearedSFX": {
+        "AssetPathName": "/Game/Audio/MetasoundSources/UI/Map/MSS_UI_Map_Waypoint_Remove.MSS_UI_Map_Waypoint_Remove",
+        "SubPathString": ""
+      },
+      "LocalPlayerInventoryAudioData": {
+        "AssetPathName": "/Game/Audio/DataAssets/ADA_LocalPlayerInventoryAudio.ADA_LocalPlayerInventoryAudio",
+        "SubPathString": ""
+      },
+      "LocalPlayerEnclosureAudioData": {
+        "ObjectName": "LocalPlayerEnclosureAudioData'ADA_LocalPlayerEnclosureAudioData'",
+        "ObjectPath": "/Game/Audio/DataAssets/ADA_LocalPlayerEnclosureAudioData"
+      },
+      "SoulRiftStateIndexToParameterName": [
+        {
+          "Key": "0",
+          "Value": "WolfSpawnTime"
+        },
+        {
+          "Key": "1",
+          "Value": "DragonSpawnTime"
+        },
+        {
+          "Key": "2",
+          "Value": "DeathTime"
+        }
+      ],
+      "RegionToSoulRiftAudioEvent": [
+        {
+          "Key": "EAudioLocation::Overworld",
+          "Value": {
+            "OnEffectAddedOneShotSFX": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Wo_Ev_Soulrift_In'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/World/WorldEvents/ImarusGaze/MSS_Wo_Ev_Soulrift_In"
+            },
+            "OnEffectAddedLoopSFX": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Wo_Ev_Soulrift_Stage2_FullLoop'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/World/WorldEvents/ImarusGaze/MSS_Wo_Ev_Soulrift_Stage2_FullLoop"
+            },
+            "OnEffectRemovedSFX": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Wo_Ev_Soulrift_Out'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/World/WorldEvents/ImarusGaze/MSS_Wo_Ev_Soulrift_Out"
+            }
+          }
+        },
+        {
+          "Key": "EAudioLocation::DragonLair",
+          "Value": {
+            "OnEffectAddedOneShotSFX": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Wo_Ev_Soulrift_In'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/World/WorldEvents/ImarusGaze/MSS_Wo_Ev_Soulrift_In"
+            },
+            "OnEffectAddedLoopSFX": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Wo_Ev_Soulrift_Imaru_FullLoop'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/World/WorldEvents/ImarusGaze/MSS_Wo_Ev_Soulrift_Imaru_FullLoop"
+            },
+            "OnEffectRemovedSFX": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Wo_Ev_Soulrift_Out'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/World/WorldEvents/ImarusGaze/MSS_Wo_Ev_Soulrift_Out"
+            }
+          }
+        }
+      ]
+    }
+  }
+]

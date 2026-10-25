@@ -1,0 +1,1035 @@
+[
+  {
+    "Type": "ConversationDatabase",
+    "Name": "QF_GraniteMauled",
+    "Class": "UScriptClass'ConversationDatabase'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CompilerVersion": 2,
+      "ReachableNodeMap": [
+        {
+          "Key": "7CD1B298-4F77FBAC-A70650AA-08241711",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_GraniteMauled:ConversationEntryPointNode_8'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.4"
+          }
+        },
+        {
+          "Key": "10FEF185-47E986C5-9F6450A9-AD451D36",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_GraniteMauled:QFT_PromptMessage_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.41"
+          }
+        },
+        {
+          "Key": "B0D72205-42FCE2A0-AFF05585-17790F85",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_GraniteMauled:ConversationEntryPointNode_7'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.3"
+          }
+        },
+        {
+          "Key": "B72DD3BF-439567A1-3A8DFAA1-18075127",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_GraniteMauled:QFT_PromptMessage_C_58'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.44"
+          }
+        },
+        {
+          "Key": "B10F3999-40AEC4C1-5094E4A7-D4420C07",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_GraniteMauled:ConversationEntryPointNode_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.2"
+          }
+        },
+        {
+          "Key": "F8AE29F7-43C1DDB0-C5D647A3-30732D4C",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_GraniteMauled:QFT_SetQuestBool_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.52"
+          }
+        },
+        {
+          "Key": "54D1192C-4315A975-AF753893-5A757E6E",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_GraniteMauled:QFT_Blank_C_6'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.25"
+          }
+        },
+        {
+          "Key": "2ADE4D0E-4E5F4C7B-6CC0C0BE-495D9DBC",
+          "Value": {
+            "ObjectName": "QFT_GiveQuest_C'QF_GraniteMauled:QFT_GiveQuest_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.30"
+          }
+        },
+        {
+          "Key": "0C4CA3E0-446A9B05-423BAD9F-277AF6A1",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_GraniteMauled:QFT_SetQuestObjective_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.56"
+          }
+        },
+        {
+          "Key": "DC5E4ED4-4A4C21B2-B2F445B1-40901F3D",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_GraniteMauled:QFT_PromptMessage_C_64'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.46"
+          }
+        },
+        {
+          "Key": "55C21AA5-4D1250C5-3229A39D-7B508FFE",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_GraniteMauled:QFT_Blank_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.22"
+          }
+        },
+        {
+          "Key": "55206843-4A887055-4224F7AA-73692389",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_GraniteMauled:QFT_SetQuestObjective_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.55"
+          }
+        },
+        {
+          "Key": "BE3A0BC0-43A6EA32-082E8EA4-A4F6E596",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_GraniteMauled:QFT_PromptMessage_C_63'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.45"
+          }
+        },
+        {
+          "Key": "243E14B9-43F9C0DD-F77A4AA6-ED6174E0",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_GraniteMauled:QFT_PromptMessage_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.31"
+          }
+        },
+        {
+          "Key": "6C1EE6F7-4B1A5845-587399BB-1D5B4B59",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_GraniteMauled:ConversationEntryPointNode_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.1"
+          }
+        },
+        {
+          "Key": "CF963E88-4738A66E-8D831B95-160BB60F",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_GraniteMauled:QFT_Blank_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.21"
+          }
+        },
+        {
+          "Key": "4ABADE8F-4C2CF7E3-1AEF1C8C-60E5769F",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_GraniteMauled:QFT_Blank_C_5'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.24"
+          }
+        },
+        {
+          "Key": "BB77464C-4CA4F1F5-CE348088-9492F76E",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_GraniteMauled:QFT_PromptMessage_C_16'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.35"
+          }
+        },
+        {
+          "Key": "C6AB6750-46197E43-14794E9A-D274CF4C",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_GraniteMauled:QFT_PromptMessage_C_36'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.37"
+          }
+        },
+        {
+          "Key": "BA1E99B4-40D44F37-F6FF92B7-C782C0F7",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_GraniteMauled:QFT_PromptMessage_C_37'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.38"
+          }
+        },
+        {
+          "Key": "378B900F-4D6F0731-75271E81-B41D0EB1",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_GraniteMauled:QFT_PromptMessage_C_38'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.39"
+          }
+        },
+        {
+          "Key": "0357F117-408E7AB5-CDF9A780-42E67FB9",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_GraniteMauled:QFT_PromptMessage_C_39'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.40"
+          }
+        },
+        {
+          "Key": "131031FA-4C79DB20-0983E5B8-D0466D49",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_GraniteMauled:QFT_SetQuestBool_C_5'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.53"
+          }
+        },
+        {
+          "Key": "7923B94A-4B0FBD9A-1AD8FCB0-D98D2168",
+          "Value": {
+            "ObjectName": "QFT_GiveQuest_C'QF_GraniteMauled:QFT_GiveQuest_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.29"
+          }
+        },
+        {
+          "Key": "D7788500-4B357D5F-92D34A92-81A726FE",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_GraniteMauled:QFT_SetQuestObjective_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.54"
+          }
+        },
+        {
+          "Key": "4C697F34-4B320677-AF9140B8-D717DC84",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_GraniteMauled:QFT_Blank_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.23"
+          }
+        },
+        {
+          "Key": "AFF8D887-44565959-0296599E-5C611AD3",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_GraniteMauled:QFT_PromptMessage_C_14'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.33"
+          }
+        },
+        {
+          "Key": "4E97BD5F-4BC05F9F-149A5794-BFD1A5A2",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_GraniteMauled:QFT_PromptMessage_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.32"
+          }
+        },
+        {
+          "Key": "C9F9A400-4A1081B7-BCCC388C-B173C6DD",
+          "Value": {
+            "ObjectName": "QFT_GiveCraftingRecipe_C'QF_GraniteMauled:QFT_GiveCraftingRecipe_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.27"
+          }
+        },
+        {
+          "Key": "7AE5F319-4C0B7BCE-BE82A29B-F986140F",
+          "Value": {
+            "ObjectName": "QFT_GiveItemToPlayer_C'QF_GraniteMauled:QFT_GiveItemToPlayer_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.28"
+          }
+        },
+        {
+          "Key": "6D44FFAB-48089209-2A39A9BD-C647FDD6",
+          "Value": {
+            "ObjectName": "QFT_CompleteQuest_C'QF_GraniteMauled:QFT_CompleteQuest_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.26"
+          }
+        },
+        {
+          "Key": "DE34B388-46BEC753-A8FBE990-70325B56",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_GraniteMauled:QFT_PromptMessage_C_67'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.48"
+          }
+        },
+        {
+          "Key": "7532FCFE-425D44F3-526EF78F-CBD8AB89",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_GraniteMauled:QFT_PromptMessage_C_55'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.43"
+          }
+        },
+        {
+          "Key": "821CED04-4A77BD82-993E7191-844FE04E",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_GraniteMauled:QFT_PromptMessage_C_15'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.34"
+          }
+        },
+        {
+          "Key": "61A1E98C-4F5632D7-182E07B7-EDC0858F",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_GraniteMauled:QFT_PromptMessage_C_17'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.36"
+          }
+        },
+        {
+          "Key": "8B0581B0-4E55ACB2-5ADB8898-A9A5E87F",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_GraniteMauled:QFT_PromptMessage_C_7'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.49"
+          }
+        },
+        {
+          "Key": "355C2077-41F49C20-B3900684-A0156DC0",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_GraniteMauled:QFT_PromptMessage_C_8'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.50"
+          }
+        },
+        {
+          "Key": "086BDAEA-4ED42930-A59E7D85-B9698418",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_GraniteMauled:QFT_PromptMessage_C_9'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.51"
+          }
+        },
+        {
+          "Key": "063AA4CB-472AF94D-05AA9298-047BD8CF",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_GraniteMauled:QFT_PromptMessage_C_65'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.47"
+          }
+        },
+        {
+          "Key": "7C3DE7B9-45EE0509-D0976FA6-968CB11D",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_GraniteMauled:QFT_Blank_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.20"
+          }
+        },
+        {
+          "Key": "60C5ABA7-43CE5D9A-D68B6CB7-2E16E7E4",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_GraniteMauled:QFT_PromptMessage_C_40'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.42"
+          }
+        }
+      ],
+      "EntryTags": [
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.GraniteMauled.Doric"
+          },
+          "DestinationList": [
+            "6C1EE6F7-4B1A5845-587399BB-1D5B4B59"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.GraniteMauled.RecieveBlueprint"
+          },
+          "DestinationList": [
+            "B10F3999-40AEC4C1-5094E4A7-D4420C07"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.GraniteMauled.VaultEntrance"
+          },
+          "DestinationList": [
+            "B0D72205-42FCE2A0-AFF05585-17790F85"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.GraniteMauled.PuzzleFinished"
+          },
+          "DestinationList": [
+            "7CD1B298-4F77FBAC-A70650AA-08241711"
+          ],
+          "EntryIdentifier": ""
+        }
+      ],
+      "InternalNodeIds": [
+        "7CD1B298-4F77FBAC-A70650AA-08241711",
+        "10FEF185-47E986C5-9F6450A9-AD451D36",
+        "B0D72205-42FCE2A0-AFF05585-17790F85",
+        "B72DD3BF-439567A1-3A8DFAA1-18075127",
+        "B10F3999-40AEC4C1-5094E4A7-D4420C07",
+        "F8AE29F7-43C1DDB0-C5D647A3-30732D4C",
+        "54D1192C-4315A975-AF753893-5A757E6E",
+        "2ADE4D0E-4E5F4C7B-6CC0C0BE-495D9DBC",
+        "0C4CA3E0-446A9B05-423BAD9F-277AF6A1",
+        "DC5E4ED4-4A4C21B2-B2F445B1-40901F3D",
+        "55C21AA5-4D1250C5-3229A39D-7B508FFE",
+        "55206843-4A887055-4224F7AA-73692389",
+        "BE3A0BC0-43A6EA32-082E8EA4-A4F6E596",
+        "243E14B9-43F9C0DD-F77A4AA6-ED6174E0",
+        "6C1EE6F7-4B1A5845-587399BB-1D5B4B59",
+        "CF963E88-4738A66E-8D831B95-160BB60F",
+        "4ABADE8F-4C2CF7E3-1AEF1C8C-60E5769F",
+        "BB77464C-4CA4F1F5-CE348088-9492F76E",
+        "C6AB6750-46197E43-14794E9A-D274CF4C",
+        "BA1E99B4-40D44F37-F6FF92B7-C782C0F7",
+        "378B900F-4D6F0731-75271E81-B41D0EB1",
+        "0357F117-408E7AB5-CDF9A780-42E67FB9",
+        "131031FA-4C79DB20-0983E5B8-D0466D49",
+        "7923B94A-4B0FBD9A-1AD8FCB0-D98D2168",
+        "D7788500-4B357D5F-92D34A92-81A726FE",
+        "4C697F34-4B320677-AF9140B8-D717DC84",
+        "AFF8D887-44565959-0296599E-5C611AD3",
+        "4E97BD5F-4BC05F9F-149A5794-BFD1A5A2",
+        "C9F9A400-4A1081B7-BCCC388C-B173C6DD",
+        "7AE5F319-4C0B7BCE-BE82A29B-F986140F",
+        "6D44FFAB-48089209-2A39A9BD-C647FDD6",
+        "DE34B388-46BEC753-A8FBE990-70325B56",
+        "7532FCFE-425D44F3-526EF78F-CBD8AB89",
+        "821CED04-4A77BD82-993E7191-844FE04E",
+        "61A1E98C-4F5632D7-182E07B7-EDC0858F",
+        "8B0581B0-4E55ACB2-5ADB8898-A9A5E87F",
+        "355C2077-41F49C20-B3900684-A0156DC0",
+        "086BDAEA-4ED42930-A59E7D85-B9698418",
+        "063AA4CB-472AF94D-05AA9298-047BD8CF",
+        "7C3DE7B9-45EE0509-D0976FA6-968CB11D",
+        "60C5ABA7-43CE5D9A-D68B6CB7-2E16E7E4"
+      ]
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.GraniteMauled.Doric"
+      },
+      "OutputConnections": [
+        "7C3DE7B9-45EE0509-D0976FA6-968CB11D",
+        "CF963E88-4738A66E-8D831B95-160BB60F"
+      ],
+      "Compiled_NodeGUID": "6C1EE6F7-4B1A5845-587399BB-1D5B4B59"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.GraniteMauled.RecieveBlueprint"
+      },
+      "OutputConnections": [
+        "243E14B9-43F9C0DD-F77A4AA6-ED6174E0",
+        "F8AE29F7-43C1DDB0-C5D647A3-30732D4C"
+      ],
+      "Compiled_NodeGUID": "B10F3999-40AEC4C1-5094E4A7-D4420C07"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.GraniteMauled.VaultEntrance"
+      },
+      "OutputConnections": [
+        "B72DD3BF-439567A1-3A8DFAA1-18075127"
+      ],
+      "Compiled_NodeGUID": "B0D72205-42FCE2A0-AFF05585-17790F85"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.GraniteMauled.PuzzleFinished"
+      },
+      "OutputConnections": [
+        "10FEF185-47E986C5-9F6450A9-AD451D36"
+      ],
+      "Compiled_NodeGUID": "7CD1B298-4F77FBAC-A70650AA-08241711"
+    }
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerDoesntHaveSpaceForItem_C",
+    "Name": "QFR_PlayerDoesntHaveSpaceForItem_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasSpaceForItems_C",
+    "Name": "QFR_PlayerHasSpaceForItems_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_16",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_41",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_48",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_49",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_50",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_CompleteQuest_C",
+    "Name": "QFT_CompleteQuest_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveCraftingRecipe_C",
+    "Name": "QFT_GiveCraftingRecipe_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveItemToPlayer_C",
+    "Name": "QFT_GiveItemToPlayer_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveQuest_C",
+    "Name": "QFT_GiveQuest_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveQuest_C",
+    "Name": "QFT_GiveQuest_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_14",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_15",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_16",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_17",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_36",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_37",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_38",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_39",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_40",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_55",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_58",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_63",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_64",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_65",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_67",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_Play2DSting_C",
+    "Name": "SEN_Play2DSting_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_Play2DSting_C",
+    "Name": "SEN_Play2DSting_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_Play2DSting_C",
+    "Name": "SEN_Play2DSting_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_13",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_14",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_GraniteMauled'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_GraniteMauled.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  }
+]

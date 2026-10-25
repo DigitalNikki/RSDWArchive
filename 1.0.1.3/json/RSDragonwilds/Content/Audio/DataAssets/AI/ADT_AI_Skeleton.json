@@ -1,0 +1,1219 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ADT_AI_Skeleton",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Object'AiAnimationAudioTableRowBase'",
+        "ObjectPath": "/Script/Dominion"
+      }
+    },
+    "Rows": {
+      "Movement_Fast": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_SkeletonGeneric_move_fast'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Foley/Movement/SkeletonGeneric/MSS_En_Fo_SkeletonGeneric_move_fast"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Mage"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_SkeletonMage_move_fast'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Foley/Movement/SkeletonMage/MSS_En_Fo_SkeletonMage_move_fast"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Melee.ShieldHoplite"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_SkeletonHeavy_move_fast'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Foley/Movement/SkeletonHeavy/MSS_En_Fo_SkeletonHeavy_move_fast"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Archer"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_SkeletonArcher_move_fast'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Foley/Movement/SkeletonArcher/MSS_En_Fo_SkeletonArcher_move_fast"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Melee.1HSword"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_SkeletonGeneric_move_fast'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Foley/Movement/SkeletonGeneric/MSS_En_Fo_SkeletonGeneric_move_fast"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Melee.1HSword_Withered"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_SkeletonGeneric_move_fast'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Foley/Movement/SkeletonGeneric/MSS_En_Fo_SkeletonGeneric_move_fast"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Melee.2HAxe"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_SkeletonHeavy_move_fast'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Foley/Movement/SkeletonHeavy/MSS_En_Fo_SkeletonHeavy_move_fast"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Melee.2HAxe_Withered"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_SkeletonHeavy_move_fast'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Foley/Movement/SkeletonHeavy/MSS_En_Fo_SkeletonHeavy_move_fast"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Movement_Slow": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_SkeletonGeneric_move_slow'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Foley/Movement/SkeletonGeneric/MSS_En_Fo_SkeletonGeneric_move_slow"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Mage"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_SkeletonMage_move_slow'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Foley/Movement/SkeletonMage/MSS_En_Fo_SkeletonMage_move_slow"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Archer"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_SkeletonArcher_move_slow'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Foley/Movement/SkeletonArcher/MSS_En_Fo_SkeletonArcher_move_slow"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Melee.ShieldHoplite"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_SkeletonHeavy_move_slow'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Foley/Movement/SkeletonHeavy/MSS_En_Fo_SkeletonHeavy_move_slow"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Melee.1HSword"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_SkeletonGeneric_move_slow'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Foley/Movement/SkeletonGeneric/MSS_En_Fo_SkeletonGeneric_move_slow"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Melee.1HSword_Withered"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_SkeletonGeneric_move_slow'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Foley/Movement/SkeletonGeneric/MSS_En_Fo_SkeletonGeneric_move_slow"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Melee.2HAxe"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_SkeletonHeavy_move_slow'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Foley/Movement/SkeletonHeavy/MSS_En_Fo_SkeletonHeavy_move_slow"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Melee.2HAxe_Withered"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_SkeletonHeavy_move_slow'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Foley/Movement/SkeletonHeavy/MSS_En_Fo_SkeletonHeavy_move_slow"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Bodyfall": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_Cr_Bodyfall_Med'",
+              "ObjectPath": "/Game/Audio/DataAssets/Foley/ADA_Cr_Bodyfall_Med"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Spectral"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_Cr_Bodyfall_MedSpectral'",
+              "ObjectPath": "/Game/Audio/DataAssets/Foley/ADA_Cr_Bodyfall_MedSpectral"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Movement_Run": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_SkeletonGeneric_move_Run'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Foley/Movement/SkeletonGeneric/MSS_En_Fo_SkeletonGeneric_move_Run"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Mage"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_SkeletonMage_move_Run'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Foley/Movement/SkeletonMage/MSS_En_Fo_SkeletonMage_move_Run"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Melee.ShieldHoplite"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_SkeletonHeavy_move_Run'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Foley/Movement/SkeletonHeavy/MSS_En_Fo_SkeletonHeavy_move_Run"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Archer"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_SkeletonArcher_move_Run'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Foley/Movement/SkeletonArcher/MSS_En_Fo_SkeletonArcher_move_Run"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Melee.1HSword"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_SkeletonGeneric_move_Run'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Foley/Movement/SkeletonGeneric/MSS_En_Fo_SkeletonGeneric_move_Run"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Melee.1HSword_Withered"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_SkeletonGeneric_move_Run'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Foley/Movement/SkeletonGeneric/MSS_En_Fo_SkeletonGeneric_move_Run"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Melee.2HAxe"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_SkeletonHeavy_move_Run'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Foley/Movement/SkeletonHeavy/MSS_En_Fo_SkeletonHeavy_move_Run"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Melee.2HAxe_Withered"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_SkeletonHeavy_move_Run'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Foley/Movement/SkeletonHeavy/MSS_En_Fo_SkeletonHeavy_move_Run"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Spectral"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_SpecSkeletonHeavy_move_Run'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/SkeletonFaction/SpectralSkeleton/Foley/Movement/MSS_En_Fo_SpecSkeletonHeavy_move_Run"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Movement_Walk": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_SkeletonGeneric_move_Walk'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Foley/Movement/SkeletonGeneric/MSS_En_Fo_SkeletonGeneric_move_Walk"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Mage"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_SkeletonMage_move_Walk'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Foley/Movement/SkeletonMage/MSS_En_Fo_SkeletonMage_move_Walk"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Archer"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_SkeletonArcher_move_Walk'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Foley/Movement/SkeletonArcher/MSS_En_Fo_SkeletonArcher_move_Walk"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Melee.ShieldHoplite"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_SkeletonHeavy_move_Walk'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Foley/Movement/SkeletonHeavy/MSS_En_Fo_SkeletonHeavy_move_Walk"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Melee.1HSword"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_SkeletonGeneric_move_Walk'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Foley/Movement/SkeletonGeneric/MSS_En_Fo_SkeletonGeneric_move_Walk"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Melee.1HSword_Withered"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_SkeletonGeneric_move_Walk'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Foley/Movement/SkeletonGeneric/MSS_En_Fo_SkeletonGeneric_move_Walk"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Melee.2HAxe"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_SkeletonHeavy_move_Walk'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Foley/Movement/SkeletonHeavy/MSS_En_Fo_SkeletonHeavy_move_Walk"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Melee.2HAxe_Withered"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_SkeletonHeavy_move_Walk'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Foley/Movement/SkeletonHeavy/MSS_En_Fo_SkeletonHeavy_move_Walk"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Spectral"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_SpecSkeletonHeavy_move_slow'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/SkeletonFaction/SpectralSkeleton/Foley/Movement/MSS_En_Fo_SpecSkeletonHeavy_move_slow"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Vox_Aggro": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_Skeleton_GenericAggro'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Vox/MSS_En_Vox_Skeleton_GenericAggro"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Spectral"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_SpecSkeleton_GenericAggro'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/SkeletonFaction/SpectralSkeleton/Vox/MSS_En_Vox_SpecSkeleton_GenericAggro"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Vox_Hitreact": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_Skeleton_Hitreact'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Vox/MSS_En_Vox_Skeleton_Hitreact"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Spectral"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_SpecSkeleton_Hitreact'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/SkeletonFaction/SpectralSkeleton/Vox/MSS_En_Vox_SpecSkeleton_Hitreact"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Vox_Alert": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_Skeleton_Alert'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Vox/MSS_En_Vox_Skeleton_Alert"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Spectral"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_SpecSkeleton_Alert'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/SkeletonFaction/SpectralSkeleton/Vox/MSS_En_Vox_SpecSkeleton_Alert"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Vox_Idle": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_Skeleton_Idle'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Vox/MSS_En_Vox_Skeleton_Idle"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Spectral"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_SpecSkeleton_Idle'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/SkeletonFaction/SpectralSkeleton/Vox/MSS_En_Vox_SpecSkeleton_Idle"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Vox_Suspicious": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_Skeleton_Suspicious'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Vox/MSS_En_Vox_Skeleton_Suspicious"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Spectral"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Vox_SpecSkeleton_Suspicious'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/SkeletonFaction/SpectralSkeleton/Vox/MSS_En_Vox_SpecSkeleton_Suspicious"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Swing_Light": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_SwishFast_Rem'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/Swish_Rem/MSS_Co_SwishFast_Rem"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Melee.1H_Fire"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_FireSwing_Rem'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Combat/MagicSwings/Fire/MSS_Co_FireSwing_Rem"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Melee.1H_Shock"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_ElectricSwing_Rem'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Combat/MagicSwings/Electric/MSS_Co_ElectricSwing_Rem"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Melee.1HSword_Withered"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_WitherSwing_Rem'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Combat/MagicSwings/Withered/MSS_Co_WitherSwing_Rem"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Melee.2HAxe_Withered"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_WitherSwing_Rem'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Combat/MagicSwings/Withered/MSS_Co_WitherSwing_Rem"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Melee.1HSword"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_SwishFast_Rem'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/Swish_Rem/MSS_Co_SwishFast_Rem"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Melee.2HAxe"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_SwishFast_Rem'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/Swish_Rem/MSS_Co_SwishFast_Rem"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Melee.ShieldHoplite"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_SwishFast_Rem'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/Swish_Rem/MSS_Co_SwishFast_Rem"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Swing_Med": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_SwishMedium_Rem'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/Swish_Rem/MSS_Co_SwishMedium_Rem"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Melee.1H_Fire"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_FireSwing_Rem'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Combat/MagicSwings/Fire/MSS_Co_FireSwing_Rem"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Melee.1H_Shock"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_ElectricSwing_Rem'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Combat/MagicSwings/Electric/MSS_Co_ElectricSwing_Rem"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Melee.1HSword_Withered"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_WitherSwing_Rem'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Combat/MagicSwings/Withered/MSS_Co_WitherSwing_Rem"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Melee.2HAxe_Withered"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_WitherSwing_Rem'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Combat/MagicSwings/Withered/MSS_Co_WitherSwing_Rem"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Melee.1HSword"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_SwishMedium_Rem'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/Swish_Rem/MSS_Co_SwishMedium_Rem"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Melee.2HAxe"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_SwishMedium_Rem'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/Swish_Rem/MSS_Co_SwishMedium_Rem"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Melee.ShieldHoplite"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_SwishMedium_Rem'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/Swish_Rem/MSS_Co_SwishMedium_Rem"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Swing_Heavy": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_SwishSlow_Rem'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/Swish_Rem/MSS_Co_SwishSlow_Rem"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Melee.1H_Fire"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_FireSwing_Large_Rem'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Combat/MagicSwings/Fire/MSS_Co_FireSwing_Large_Rem"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Melee.1H_Shock"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_ElectricSwing_Rem'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Combat/MagicSwings/Electric/MSS_Co_ElectricSwing_Rem"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Melee.1HSword_Withered"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_WitherSwing_Rem'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Combat/MagicSwings/Withered/MSS_Co_WitherSwing_Rem"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Melee.2HAxe_Withered"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_WitherSwing_Rem'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Combat/MagicSwings/Withered/MSS_Co_WitherSwing_Rem"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Melee.1HSword"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_SwishSlow_Rem'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/Swish_Rem/MSS_Co_SwishSlow_Rem"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Melee.2HAxe"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_SwishSlow_Rem'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/Swish_Rem/MSS_Co_SwishSlow_Rem"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Melee.ShieldHoplite"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_SwishSlow_Rem'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/Swish_Rem/MSS_Co_SwishSlow_Rem"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "WeaponGroundImpact": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_LargeWeapon_Ground_Impact'",
+              "ObjectPath": "/Game/Audio/DataAssets/Weapons/ADA_LargeWeapon_Ground_Impact"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "foot_r",
+          "foot_l",
+          "hand_r",
+          "hand_l"
+        ]
+      },
+      "WeaponGroundRemove": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_GreatAxe_Extract'",
+              "ObjectPath": "/Game/Audio/DataAssets/Weapons/ADA_GreatAxe_Extract"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "foot_r",
+          "foot_l",
+          "hand_r",
+          "hand_l"
+        ]
+      },
+      "Ground Burst": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton"
+            },
+            "Value": null
+          }
+        ],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_Cr_Undead_GroundBurst'",
+              "ObjectPath": "/Game/Audio/DataAssets/Foley/ADA_Cr_Undead_GroundBurst"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Spectral"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_Cr_Spectral_GroundBurst'",
+              "ObjectPath": "/Game/Audio/DataAssets/Foley/ADA_Cr_Spectral_GroundBurst"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "jaw"
+        ]
+      },
+      "Footstep_Walk": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_SkeletonFootsteps_Walk'",
+              "ObjectPath": "/Game/Audio/DataAssets/FootstepData/ADA_SkeletonFootsteps_Walk"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Spectral"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_SpecSkeletonFootsteps_Walk'",
+              "ObjectPath": "/Game/Audio/DataAssets/FootstepData/ADA_SpecSkeletonFootsteps_Walk"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "foot_r",
+          "foot_l"
+        ]
+      },
+      "Footstep_Run": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_SkeletonFootsteps_Run'",
+              "ObjectPath": "/Game/Audio/DataAssets/FootstepData/ADA_SkeletonFootsteps_Run"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Spectral"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_SpecSkeletonFootsteps_Run'",
+              "ObjectPath": "/Game/Audio/DataAssets/FootstepData/ADA_SpecSkeletonFootsteps_Run"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "foot_r",
+          "foot_l"
+        ]
+      },
+      "SFX_Cinderbolt_Windup": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Mage"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Magic_Skeleton_Cinderbolt_Windup'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Magic/MSS_En_Magic_Skeleton_Cinderbolt_Windup"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "SFX_Cinderbolt_Launch": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Mage"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Magic_Skeleton_Cinderbolt_Launch'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Magic/MSS_En_Magic_Skeleton_Cinderbolt_Launch"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "SFX_NecroticPulse_Start": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Mage"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Magic_Skeleton_NecroticPulse_Start'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Magic/MSS_En_Magic_Skeleton_NecroticPulse_Start"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "SFX_NecroticPulse_Windup": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Mage"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Magic_Skeleton_NecroticPulse_Windup'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Magic/MSS_En_Magic_Skeleton_NecroticPulse_Windup"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "SFX_NecroticPulse_Launch": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Mage"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Magic_Skeleton_NecroticPulse_Launch'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Magic/MSS_En_Magic_Skeleton_NecroticPulse_Launch"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "SFX_RaiseDead_Windup": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Mage"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Magic_Skeleton_RaiseDead_Windup'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Magic/MSS_En_Magic_Skeleton_RaiseDead_Windup"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "SFX_RaiseDead_Launch": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Mage"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Magic_Skeleton_RaiseDead_Launch'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Magic/MSS_En_Magic_Skeleton_RaiseDead_Launch"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "SFX_Impact_BreakApart": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Pl_Fo_Skeleton_ImpactBreakApart'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Foley/Movement/MSS_Pl_Fo_Skeleton_ImpactBreakApart"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Spectral"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Pl_Fo_SpecSkeleton_ImpactBreakApart'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/SkeletonFaction/SpectralSkeleton/Foley/Footsteps/MSS_Pl_Fo_SpecSkeleton_ImpactBreakApart"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "SFX_ImpactDebris": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Pl_Fo_Skeleton_ImpactDebris'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Foley/Movement/MSS_Pl_Fo_Skeleton_ImpactDebris"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "SFX_Bow_Draw": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Archer"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_SkeletonArcher_LongBow_Draw'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Foley/Movement/SkeletonArcher/MSS_En_Fo_SkeletonArcher_LongBow_Draw"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "SFX_Bow_Fire": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Archer"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Fo_SkeletonArcher_LongBow_Fire_Local'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Foley/Movement/SkeletonArcher/MSS_En_Fo_SkeletonArcher_LongBow_Fire_Local"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "SFX_HeavyAttack_Charge": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Melee"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_BlockBreakerSwing'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/MSS_Co_BlockBreakerSwing"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "SFX_BlockBroken": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Melee"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_EnemyBlockBroken'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Melee/MSS_Co_EnemyBlockBroken"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Vox_BreathMoanLoco": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Footsteps_Walk": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_SkeletonFootsteps_Walk'",
+              "ObjectPath": "/Game/Audio/DataAssets/FootstepData/ADA_SkeletonFootsteps_Walk"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Skeleton.Spectral"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_SpecSkeletonFootsteps_Walk'",
+              "ObjectPath": "/Game/Audio/DataAssets/FootstepData/ADA_SpecSkeletonFootsteps_Walk"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "foot_r",
+          "foot_l"
+        ]
+      }
+    }
+  }
+]

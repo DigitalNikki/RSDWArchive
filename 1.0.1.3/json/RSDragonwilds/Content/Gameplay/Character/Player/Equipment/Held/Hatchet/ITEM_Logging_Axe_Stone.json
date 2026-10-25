@@ -1,0 +1,99 @@
+[
+  {
+    "Type": "HeldEquipmentData",
+    "Name": "ITEM_Logging_Axe_Stone",
+    "Class": "UScriptClass'HeldEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HeldEquipmentActorClass": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Hatchet/BP_Logging_Axe_Stone.BP_Logging_Axe_Stone_C",
+        "SubPathString": ""
+      },
+      "PrimaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_Hatchet_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Axe/PA_Attack_Hatchet"
+      },
+      "SecondaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Block_PickAxe_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Abilities/Block/PA_Block_PickAxe"
+      },
+      "SpecialActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_Hatchet_Special_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Axe/PA_Attack_Hatchet_Special"
+      },
+      "AnimationPoseType": "EAnimationPoseType::Default",
+      "AnimationPosesSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Idle_1H_Hatchet_Poses'",
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Hatchet/A_PlayerM_Idle_1H_Hatchet_Poses"
+      },
+      "BaseHeldEquipmentPowerLevelRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_PlayerWeaponPowerLevels'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels"
+        },
+        "RowName": "Weapons"
+      },
+      "BaseHeldEquipmentDamageNegationRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_PlayerDamageNegation'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_PlayerDamageNegation"
+        },
+        "RowName": "Tools"
+      },
+      "DamageMultiplier": 1.5,
+      "AdditionalDamageMultiplier": 0.5,
+      "DamageTypes": [
+        "DamageType.Physical.Slash"
+      ],
+      "Slot": "ELoadoutSlotStrategy::HeldTwoHanded",
+      "Tier": 1,
+      "bIsAWeapon": true,
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Woodcutting'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Woodcutting"
+      },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "StoneLoggingAxe",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "StoneLoggingAxe",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Weapons_09_24/T_Icon_LoggingAxe_Crude_2H_01.T_Icon_LoggingAxe_Crude_2H_01",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Skeleton/Weapons/Tool/LoggingAxe_Crude_2H_01/SM_LoggingAxe_Crude_2H_01.SM_LoggingAxe_Crude_2H_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 1,
+      "Weight": 5.0,
+      "Category": {
+        "TagName": "Item.Equipment.Tool.Hatchet"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Tool.LoggingAxe"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Stone.Chopper"
+      },
+      "BaseDurability": 1200,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak"
+      },
+      "PersistenceID": "0NWm0hwPokOAgp0ux3ambA",
+      "InternalName": "tool_logging_axe_stone"
+    }
+  }
+]

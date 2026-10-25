@@ -1,0 +1,58 @@
+[
+  {
+    "Type": "SoundMix",
+    "Name": "Mix_MountedSprint",
+    "Class": "UScriptClass'SoundMix'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SoundClassEffects": [
+        {
+          "SoundClassObject": {
+            "ObjectName": "DominionSoundClass'Music'",
+            "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/Music/Music"
+          },
+          "VolumeAdjuster": 0.8,
+          "PitchAdjuster": 1.0,
+          "LowPassFilterFrequency": 20000.0,
+          "bApplyToChildren": true,
+          "VoiceCenterChannelVolumeAdjuster": 1.0
+        },
+        {
+          "SoundClassObject": {
+            "ObjectName": "DominionSoundClass'Ambience'",
+            "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Ambience/Ambience"
+          },
+          "VolumeAdjuster": 0.5,
+          "PitchAdjuster": 1.0,
+          "LowPassFilterFrequency": 20000.0,
+          "bApplyToChildren": true,
+          "VoiceCenterChannelVolumeAdjuster": 1.0
+        },
+        {
+          "SoundClassObject": {
+            "ObjectName": "DominionSoundClass'AI'",
+            "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/AI"
+          },
+          "VolumeAdjuster": 1.0,
+          "PitchAdjuster": 1.0,
+          "LowPassFilterFrequency": 300.0,
+          "bApplyToChildren": true,
+          "VoiceCenterChannelVolumeAdjuster": 1.0
+        },
+        {
+          "SoundClassObject": {
+            "ObjectName": "DominionSoundClass'TerrorBirdMount_FS'",
+            "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/Terrorbird/TerrorBirdMount_FS"
+          },
+          "VolumeAdjuster": 2.0,
+          "PitchAdjuster": 1.0,
+          "LowPassFilterFrequency": 20000.0,
+          "bApplyToChildren": true,
+          "VoiceCenterChannelVolumeAdjuster": 1.0
+        }
+      ],
+      "FadeInTime": 1.0,
+      "FadeOutTime": 1.0
+    }
+  }
+]

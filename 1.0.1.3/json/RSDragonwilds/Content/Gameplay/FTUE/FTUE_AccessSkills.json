@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "FTUENotificationData",
+    "Name": "FTUE_AccessSkills",
+    "Class": "UScriptClass'FTUENotificationData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Type": "EFTUENotificationType::SpeechBubble",
+      "Title": {
+        "TableId": "/Game/Gameplay/FTUE/Strings/ST_FTUENotifications.ST_FTUENotifications",
+        "Key": "UI.FTUE.AccessSkills.Title",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "InputAction": {
+        "ObjectName": "InputAction'IA_SkillsMenuDummy'",
+        "ObjectPath": "/Game/Gameplay/Inputs/Actions/UI/InputDummies/IA_SkillsMenuDummy"
+      },
+      "InputMappingContext": {
+        "ObjectName": "InputMappingContext'IMC_SkillsMenuPrompt'",
+        "ObjectPath": "/Game/Gameplay/Inputs/Mappings/InputPrompts/IMC_SkillsMenuPrompt"
+      },
+      "InputActionDescription": {
+        "TableId": "/Game/Gameplay/FTUE/Strings/ST_FTUENotifications.ST_FTUENotifications",
+        "Key": "UI.FTUE.Skills.Menu.Open",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Text": {
+        "TableId": "/Game/Gameplay/FTUE/Strings/ST_FTUENotifications.ST_FTUENotifications",
+        "Key": "UI.FTUE.AccessSkills",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "TextFormatTokenToTextGenerators": [
+        {
+          "Key": "SkillsMenuButton",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'BP_FTUEDescribeSkillsMenuButtonAsRichText_C'",
+            "ObjectPath": "/Game/Gameplay/FTUE/Strings/BP_FTUEDescribeSkillsMenuButtonAsRichText"
+          }
+        }
+      ],
+      "PersistenceID": "F7XEIkXuM0GdG4O645vwrQ",
+      "InternalName": "ftue_accessskills"
+    }
+  }
+]

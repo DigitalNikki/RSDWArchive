@@ -1,0 +1,160 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Components_PlayerGameplayEffects_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'DominionGameplayEffectsComponent'",
+      "ObjectPath": "/Script/Dominion"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Components_PlayerGameplayEffects_C'Default__BP_Components_PlayerGameplayEffects_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Components/BP_Components_PlayerGameplayEffects.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Components_PlayerGameplayEffects_C",
+    "Name": "Default__BP_Components_PlayerGameplayEffects_C",
+    "Class": "BlueprintGeneratedClass'1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Components/BP_Components_PlayerGameplayEffects.BP_Components_PlayerGameplayEffects_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "StatusEffectDataTable": {
+        "ObjectName": "DataTable'DT_StatusEffects'",
+        "ObjectPath": "/Game/Gameplay/GameplayEffects/StatusEffects/DT_StatusEffects"
+      },
+      "SpellTimerDataTable": {
+        "ObjectName": "DataTable'DT_SpellTimers'",
+        "ObjectPath": "/Game/Gameplay/GameplayEffects/SpellTimer/DT_SpellTimers"
+      },
+      "TagTriggeredGameplayEffects": [
+        {
+          "TagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Environment.HazardousArea.StaticSpikes"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ANY( Environment.HazardousArea.StaticSpikes )"
+          },
+          "GameplayEffect": {
+            "ObjectName": "BlueprintGeneratedClass'GE_Slow_StaticSpikes_C'",
+            "ObjectPath": "/Game/Gameplay/GameplayEffects/Traps/GE_Slow_StaticSpikes"
+          },
+          "Handle": {
+            "ID": {
+              "Value": 0
+            },
+            "Component": null
+          }
+        },
+        {
+          "TagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Environment.HazardousArea.StaticSpikes"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ANY( Environment.HazardousArea.StaticSpikes )"
+          },
+          "GameplayEffect": {
+            "ObjectName": "BlueprintGeneratedClass'GE_Damage_StaticSpikes_C'",
+            "ObjectPath": "/Game/Gameplay/GameplayEffects/Traps/GE_Damage_StaticSpikes"
+          },
+          "Handle": {
+            "ID": {
+              "Value": 0
+            },
+            "Component": null
+          }
+        },
+        {
+          "TagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Environment.HazardousArea.BurnTrap"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ANY( Environment.HazardousArea.BurnTrap )"
+          },
+          "GameplayEffect": {
+            "ObjectName": "BlueprintGeneratedClass'GE_AddBurn_FireTraps_C'",
+            "ObjectPath": "/Game/Gameplay/GameplayEffects/Traps/GE_AddBurn_FireTraps"
+          },
+          "Handle": {
+            "ID": {
+              "Value": 0
+            },
+            "Component": null
+          }
+        },
+        {
+          "TagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [
+              {
+                "TagName": "Environment.HazardousArea.BurnTrap"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "UserDescription": "",
+            "AutoDescription": " ANY( Environment.HazardousArea.BurnTrap )"
+          },
+          "GameplayEffect": {
+            "ObjectName": "BlueprintGeneratedClass'GE_Damage_FireTraps_C'",
+            "ObjectPath": "/Game/Gameplay/GameplayEffects/Traps/GE_Damage_FireTraps"
+          },
+          "Handle": {
+            "ID": {
+              "Value": 0
+            },
+            "Component": null
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "Type": "DominionSoundClass",
+    "Name": "Player_WorldInteract_Maj",
+    "Class": "UScriptClass'DominionSoundClass'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MinReverbSend": 0.05,
+      "MaxReverbSend": 0.15,
+      "Properties": {
+        "Volume": 0.3874288
+      },
+      "ChildClasses": [
+        {
+          "ObjectName": "DominionSoundClass'CraftingStationPLacements'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Player/CraftingStationPLacements"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Building'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Player/Building"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Traps'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Player/Traps"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Quest_SFX'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Player/Quest_SFX"
+        }
+      ],
+      "ParentClass": {
+        "ObjectName": "DominionSoundClass'Player'",
+        "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Player/Player"
+      }
+    }
+  }
+]

@@ -1,0 +1,76 @@
+[
+  {
+    "Type": "AudioZoneData",
+    "Name": "ADA_AudioZone_DowdunNexus",
+    "Class": "UScriptClass'AudioZoneData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AudioZoneEmitterEvents_DayTime": [
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_DR_NexusDust'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/BiomeBeds/Dowdun/Emitters/MSS_Wo_EmMo_DR_NexusDust"
+          },
+          "Weight": 60
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_DR_NexusRumble'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/BiomeBeds/Dowdun/Emitters/MSS_Wo_EmMo_DR_NexusRumble"
+          },
+          "Weight": 40
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_DR_NexusShimmer'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/BiomeBeds/Dowdun/Emitters/MSS_Wo_EmMo_DR_NexusShimmer"
+          },
+          "Weight": 60
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_DR_NexusWind'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/BiomeBeds/Dowdun/Emitters/MSS_Wo_EmMo_DR_NexusWind"
+          },
+          "Weight": 80
+        }
+      ],
+      "AudioZoneEmitterEvents_NightTime": [
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_DR_NexusDust'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/BiomeBeds/Dowdun/Emitters/MSS_Wo_EmMo_DR_NexusDust"
+          },
+          "Weight": 60
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_DR_NexusRumble'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/BiomeBeds/Dowdun/Emitters/MSS_Wo_EmMo_DR_NexusRumble"
+          },
+          "Weight": 40
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_DR_NexusShimmer'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/BiomeBeds/Dowdun/Emitters/MSS_Wo_EmMo_DR_NexusShimmer"
+          },
+          "Weight": 60
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_DR_NexusWind'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/BiomeBeds/Dowdun/Emitters/MSS_Wo_EmMo_DR_NexusWind"
+          },
+          "Weight": 80
+        }
+      ],
+      "Priority": 5,
+      "OuterRadius": 1500.0,
+      "InnerRadius": 500.0,
+      "ZoneEmitterCap": 2,
+      "ProbabilityToSpawnNonDiegeticEmitterDay": 70.0,
+      "ProbabilityToSpawnNonDiegeticEmitterNight": 70.0
+    }
+  }
+]

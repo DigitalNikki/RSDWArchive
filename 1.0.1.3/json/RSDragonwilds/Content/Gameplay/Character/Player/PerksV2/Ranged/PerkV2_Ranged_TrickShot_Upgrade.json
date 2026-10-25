@@ -1,0 +1,50 @@
+[
+  {
+    "Type": "SkillPerkData",
+    "Name": "PerkV2_Ranged_TrickShot_Upgrade",
+    "Class": "UScriptClass'SkillPerkData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "PerkName": {
+        "TableId": "/Game/Gameplay/Character/Player/PerksV2/ST_Skills_Perks.ST_Skills_Perks",
+        "Key": "Ranged.TrickShot.Upgrade.Name",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PerkDescription": {
+        "TableId": "/Game/Gameplay/Character/Player/PerksV2/ST_Skills_Perks.ST_Skills_Perks",
+        "Key": "Ranged.TrickShot.Upgrade.Desc",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "InputActionDisplay": {
+        "InputAction": {
+          "ObjectName": "InputAction'IA_PrimaryAction'",
+          "ObjectPath": "/Game/Gameplay/Inputs/Actions/Basic/IA_PrimaryAction"
+        },
+        "ActionDescription": {
+          "TableId": "/Game/UI/ST_UI_Localization.ST_UI_Localization",
+          "Key": "UseWith",
+          "SourceString": null,
+          "LocalizedString": ""
+        }
+      },
+      "SkillPerkImage": {
+        "AssetPathName": "/Game/Art/UI/Skills/Icons/Unlock/T_Icon_Skills_Perks_Global_+.T_Icon_Skills_Perks_Global_+",
+        "SubPathString": ""
+      },
+      "PerkUnlockInfo": {
+        "AssociatedSkill": {
+          "AssetPathName": "/Game/Gameplay/Character/Player/Skills/SKILL_Ranged.SKILL_Ranged",
+          "SubPathString": ""
+        },
+        "RequiredSkillLevel": 30
+      },
+      "FeatureTag": {
+        "TagName": "Feature.RangedSkillPerks"
+      },
+      "PersistenceID": "eEgMiEvVRA2A3eunlh4ZMA",
+      "InternalName": "perk_ranged_trickshot_upgrade"
+    }
+  }
+]

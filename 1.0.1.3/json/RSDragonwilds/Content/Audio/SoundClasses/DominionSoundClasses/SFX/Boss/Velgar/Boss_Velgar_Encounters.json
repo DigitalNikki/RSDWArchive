@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "DominionSoundClass",
+    "Name": "Boss_Velgar_Encounters",
+    "Class": "UScriptClass'DominionSoundClass'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Properties": {
+        "DefaultSubmix": {
+          "ObjectName": "SoundSubmix'SFX'",
+          "ObjectPath": "/Game/Audio/Submixes/SFX"
+        }
+      },
+      "ChildClasses": [
+        {
+          "ObjectName": "DominionSoundClass'Boss_Velgar_Encounters_Combat'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Boss/Velgar/Boss_Velgar_Encounters_Combat"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Boss_Velgar_Encounters_Encounters_Non_Combat'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/Boss/Velgar/Boss_Velgar_Encounters_Encounters_Non_Combat"
+        }
+      ]
+    }
+  }
+]

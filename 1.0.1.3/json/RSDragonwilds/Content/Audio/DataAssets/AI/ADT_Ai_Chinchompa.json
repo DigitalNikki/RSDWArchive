@@ -1,0 +1,878 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ADT_Ai_Chinchompa",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Object'AiAnimationAudioTableRowBase'",
+        "ObjectPath": "/Script/Dominion"
+      }
+    },
+    "Rows": {
+      "Bodyfall": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Fo_Chinchompa_Bodyfall'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa/Foley/MSS_Cr_Fo_Chinchompa_Bodyfall"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa.Spectral"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Fo_Spectral_Chinchompa_Bodyfall'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa_Spectral/Foley/MSS_Cr_Fo_Spectral_Chinchompa_Bodyfall"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": true,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Explode": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Fo_Chinchompa_Explode'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa/Foley/MSS_Cr_Fo_Chinchompa_Explode"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa.Spectral"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Fo_Spectral_Chinchompa_Explode'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa_Spectral/Foley/MSS_Cr_Fo_Spectral_Chinchompa_Explode"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa.Carnivorous"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Fo_Chinchompa_Explode'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa/Foley/MSS_Cr_Fo_Chinchompa_Explode"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": true,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Fuse_Attack": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Fo_Chinchompa_Fuse_Attack'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa/Foley/MSS_Cr_Fo_Chinchompa_Fuse_Attack"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa.Spectral"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Fo_Spectral_Chinchompa_Fuse_Attack'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa_Spectral/Foley/MSS_Cr_Fo_Spectral_Chinchompa_Fuse_Attack"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa.Carnivorous"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Fo_Chinchompa_Fuse_Attack'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa/Foley/MSS_Cr_Fo_Chinchompa_Fuse_Attack"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": true,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Fuse_Loop": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Fo_Chinchompa_Fuse_Loop'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa/Foley/MSS_Cr_Fo_Chinchompa_Fuse_Loop"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa.Spectral"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Fo_Spectral_Chinchompa_Fuse_Loop'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa_Spectral/Foley/MSS_Cr_Fo_Spectral_Chinchompa_Fuse_Loop"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa.Carnivorous"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Fo_Chinchompa_Fuse_Loop'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa/Foley/MSS_Cr_Fo_Chinchompa_Fuse_Loop"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": true,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Idlebreak03Scratch": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Fo_Chinchompa_Idlebreak03Scratch'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa/Foley/MSS_Cr_Fo_Chinchompa_Idlebreak03Scratch"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Alert": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Chinchompa_Alert'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa/Vox/Calls/MSS_Cr_Vox_Chinchompa_Alert"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa.Spectral"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Spectral_Chinchompa_Alert'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa_Spectral/Vox/Calls/MSS_Cr_Vox_Spectral_Chinchompa_Alert"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa.Carnivorous"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Carnivorous_Chinchompa_Alert'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa_Carnivorous/Calls/MSS_Cr_Vox_Carnivorous_Chinchompa_Alert"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Alert_Combat": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Chinchompa_Alert_Combat'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa/Vox/Calls/MSS_Cr_Vox_Chinchompa_Alert_Combat"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa.Spectral"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Spectral_Chinchompa_Alert_Combat'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa_Spectral/Vox/Calls/MSS_Cr_Vox_Spectral_Chinchompa_Alert_Combat"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa.Carnivorous"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Carnivorous_Chinchompa_Alert_Combat'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa_Carnivorous/Calls/MSS_Cr_Vox_Carnivorous_Chinchompa_Alert_Combat"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Alert_Growl": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Chinchompa_Alert_Growl'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa/Vox/Growl/MSS_Cr_Vox_Chinchompa_Alert_Growl"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa.Spectral"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Spectral_Chinchompa_Alert_Growl'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa_Spectral/Vox/Growls/MSS_Cr_Vox_Spectral_Chinchompa_Alert_Growl"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa.Carnivorous"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Carnivorous_Chinchompa_Alert_Growl'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa_Carnivorous/Growls/MSS_Cr_Vox_Carnivorous_Chinchompa_Alert_Growl"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "AlertBreath": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Chinchompa_AlertBreath'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa/Vox/Breaths/MSS_Cr_Vox_Chinchompa_AlertBreath"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa.Spectral"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Spectral_Chinchompa_AlertBreath'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa_Spectral/Vox/Breaths/MSS_Cr_Vox_Spectral_Chinchompa_AlertBreath"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa.Carnivorous"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Carnivorous_Chinchompa_AlertBreath'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa_Carnivorous/Breaths/MSS_Cr_Vox_Carnivorous_Chinchompa_AlertBreath"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Death": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Chinchompa_Death'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa/Vox/Calls/MSS_Cr_Vox_Chinchompa_Death"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa.Spectral"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Spectral_Chinchompa_Death'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa_Spectral/Vox/Calls/MSS_Cr_Vox_Spectral_Chinchompa_Death"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa.Carnivorous"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Carnivorous_Chinchompa_Death'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa_Carnivorous/Calls/MSS_Cr_Vox_Carnivorous_Chinchompa_Death"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": true,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "HitReact": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Chinchompa_HitReact'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa/Vox/Calls/MSS_Cr_Vox_Chinchompa_HitReact"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa.Spectral"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Spectral_Chinchompa_HitReact'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa_Spectral/Vox/Calls/MSS_Cr_Vox_Spectral_Chinchompa_HitReact"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa.Carnivorous"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Carnivorous_Chinchompa_HitReact'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa_Carnivorous/Calls/MSS_Cr_Vox_Carnivorous_Chinchompa_HitReact"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Idle_Grunt": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Chinchompa_Idle_Grunt'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa/Vox/Grunts/MSS_Cr_Vox_Chinchompa_Idle_Grunt"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa.Spectral"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Spectral_Chinchompa_Idle_Grunt'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa_Spectral/Vox/Grunts/MSS_Cr_Vox_Spectral_Chinchompa_Idle_Grunt"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa.Carnivorous"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Carnivorous_Chinchompa_Idle_Grunt'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa_Carnivorous/Grunts/MSS_Cr_Vox_Carnivorous_Chinchompa_Idle_Grunt"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Idlebreak02": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Chinchompa_Idlebreak02'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa/Vox/Calls/MSS_Cr_Vox_Chinchompa_Idlebreak02"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa.Spectral"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Spectral_Chinchompa_Idlebreak02'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa_Spectral/Vox/Calls/MSS_Cr_Vox_Spectral_Chinchompa_Idlebreak02"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa.Carnivorous"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Carnivorous_Chinchompa_Idlebreak02'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa_Carnivorous/Calls/MSS_Cr_Vox_Carnivorous_Chinchompa_Idlebreak02"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Idlebreak03": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Chinchompa_Idlebreak03'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa/Vox/Calls/MSS_Cr_Vox_Chinchompa_Idlebreak03"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa.Spectral"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Spectral_Chinchompa_Idlebreak03'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa_Spectral/Vox/Calls/MSS_Cr_Vox_Spectral_Chinchompa_Idlebreak03"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa.Carnivorous"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Carnivorous_Chinchompa_Idlebreak03'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa_Carnivorous/Calls/MSS_Cr_Vox_Carnivorous_Chinchompa_Idlebreak03"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Idlebreak01_A": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Chinchompa_Idlebreak01_A'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa/Vox/Calls/MSS_Cr_Vox_Chinchompa_Idlebreak01_A"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa.Spectral"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Spectral_Chinchompa_Idlebreak01_A'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa_Spectral/Vox/Calls/MSS_Cr_Vox_Spectral_Chinchompa_Idlebreak01_A"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa.Carnivorous"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Carnivorous_Chinchompa_Idlebreak01_A'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa_Carnivorous/Calls/MSS_Cr_Vox_Carnivorous_Chinchompa_Idlebreak01_A"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Idlebreak01_B": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Chinchompa_Idlebreak01_B'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa/Vox/Calls/MSS_Cr_Vox_Chinchompa_Idlebreak01_B"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa.Spectral"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Spectral_Chinchompa_Idlebreak01_B'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa_Spectral/Vox/Calls/MSS_Cr_Vox_Spectral_Chinchompa_Idlebreak01_B"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa.Carnivorous"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Carnivorous_Chinchompa_Idlebreak01_B'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa_Carnivorous/Calls/MSS_Cr_Vox_Carnivorous_Chinchompa_Idlebreak01_B"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Idlebreak01_Breath": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Chinchompa_Idlebreak01_Breath'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa/Vox/Breaths/MSS_Cr_Vox_Chinchompa_Idlebreak01_Breath"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa.Spectral"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Spectral_Chinchompa_Idlebreak01_Breath'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa_Spectral/Vox/Breaths/MSS_Cr_Vox_Spectral_Chinchompa_Idlebreak01_Breath"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa.Carnivorous"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Carnivorous_Chinchompa_Idlebreak01_Breath'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa_Carnivorous/Breaths/MSS_Cr_Vox_Carnivorous_Chinchompa_Idlebreak01_Breath"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Idlebreak02_Breath": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Chinchompa_Idlebreak02_Breath'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa/Vox/Breaths/MSS_Cr_Vox_Chinchompa_Idlebreak02_Breath"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa.Spectral"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Spectral_Chinchompa_Idlebreak02_Breath'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa_Spectral/Vox/Breaths/MSS_Cr_Vox_Spectral_Chinchompa_Idlebreak02_Breath"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa.Carnivorous"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Carnivorous_Chinchompa_Idlebreak02_Breath'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa_Carnivorous/Breaths/MSS_Cr_Vox_Carnivorous_Chinchompa_Idlebreak02_Breath"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Idlebreak03_Breath": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Chinchompa_Idlebreak03_Breath'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa/Vox/Breaths/MSS_Cr_Vox_Chinchompa_Idlebreak03_Breath"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa.Spectral"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Spectral_Chinchompa_Idlebreak03_Breath'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa_Spectral/Vox/Breaths/MSS_Cr_Vox_Spectral_Chinchompa_Idlebreak03_Breath"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa.Carnivorous"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Carnivorous_Chinchompa_Idlebreak03_Breath'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa_Carnivorous/Breaths/MSS_Cr_Vox_Carnivorous_Chinchompa_Idlebreak03_Breath"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "IdleBreath": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Chinchompa_IdleBreath'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa/Vox/Breaths/MSS_Cr_Vox_Chinchompa_IdleBreath"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa.Spectral"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Spectral_Chinchompa_IdleBreath'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa_Spectral/Vox/Breaths/MSS_Cr_Vox_Spectral_Chinchompa_IdleBreath"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa.Carnivorous"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Carnivorous_Chinchompa_IdleBreath'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa_Carnivorous/Breaths/MSS_Cr_Vox_Carnivorous_Chinchompa_IdleBreath"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Run_Breath": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Chinchompa_Run_Breath'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa/Vox/Breaths/MSS_Cr_Vox_Chinchompa_Run_Breath"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa.Spectral"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Spectral_Chinchompa_Run_Breath'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa_Spectral/Vox/Breaths/MSS_Cr_Vox_Spectral_Chinchompa_Run_Breath"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa.Carnivorous"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Carnivorous_Chinchompa_Run_Breath'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa_Carnivorous/Breaths/MSS_Cr_Vox_Carnivorous_Chinchompa_Run_Breath"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Run_Grunt": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Chinchompa_Run_Grunt'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa/Vox/Grunts/MSS_Cr_Vox_Chinchompa_Run_Grunt"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa.Spectral"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Spectral_Chinchompa_Run_Grunt'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa_Spectral/Vox/Grunts/MSS_Cr_Vox_Spectral_Chinchompa_Run_Grunt"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa.Carnivorous"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Carnivorous_Chinchompa_Run_Grunt'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa_Carnivorous/Grunts/MSS_Cr_Vox_Carnivorous_Chinchompa_Run_Grunt"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Walk_Breath": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Chinchompa_Walk_Breath'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa/Vox/Breaths/MSS_Cr_Vox_Chinchompa_Walk_Breath"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa.Spectral"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Spectral_Chinchompa_Walk_Breath'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa_Spectral/Vox/Breaths/MSS_Cr_Vox_Spectral_Chinchompa_Walk_Breath"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa.Carnivorous"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Vox_Carnivorous_Chinchompa_Walk_Breath'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/Creatures/Chinchompa_Carnivorous/Breaths/MSS_Cr_Vox_Carnivorous_Chinchompa_Walk_Breath"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Footsteps": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_ChinchompaFootsteps'",
+              "ObjectPath": "/Game/Audio/DataAssets/FootstepData/ADA_ChinchompaFootsteps"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Bodyfall_Small": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Chinchompa"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_Cr_Bodyfall_Small'",
+              "ObjectPath": "/Game/Audio/DataAssets/Foley/ADA_Cr_Bodyfall_Small"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      }
+    }
+  }
+]

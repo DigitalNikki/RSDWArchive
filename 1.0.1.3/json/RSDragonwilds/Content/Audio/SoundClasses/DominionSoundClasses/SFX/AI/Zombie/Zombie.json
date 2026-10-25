@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "DominionSoundClass",
+    "Name": "Zombie",
+    "Class": "UScriptClass'DominionSoundClass'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "OcclusionMultiplier": 1.0,
+      "Properties": {
+        "Volume": 0.5011872
+      },
+      "ChildClasses": [
+        {
+          "ObjectName": "DominionSoundClass'Zombie_Foley'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/Zombie/Zombie_Foley"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Zombie_Abilites'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/Zombie/Zombie_Abilites"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Zombie_FS'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/Zombie/Zombie_FS"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Zombie_Vox_Com_Maj'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/Zombie/Zombie_Vox_Com_Maj"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Zombie_Vox_Com_Min'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/Zombie/Zombie_Vox_Com_Min"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Zombie_Vox_NonCom_Maj'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/Zombie/Zombie_Vox_NonCom_Maj"
+        },
+        {
+          "ObjectName": "DominionSoundClass'Zombie_Vox_NonCom_Min'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/Zombie/Zombie_Vox_NonCom_Min"
+        }
+      ],
+      "ParentClass": {
+        "ObjectName": "DominionSoundClass'AI'",
+        "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/AI/AI"
+      }
+    }
+  }
+]

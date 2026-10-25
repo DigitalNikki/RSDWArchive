@@ -1,0 +1,156 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_PlayerRangedAttackCollection_Longbow_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'PlayerRangedAttackCollection'",
+      "ObjectPath": "/Script/Dominion"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_PlayerRangedAttackCollection_Longbow_C'Default__BP_PlayerRangedAttackCollection_Longbow_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Longbow/BP_PlayerRangedAttackCollection_Longbow.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_PlayerRangedAttackCollection_Longbow_C",
+    "Name": "Default__BP_PlayerRangedAttackCollection_Longbow_C",
+    "Class": "BlueprintGeneratedClass'1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Longbow/BP_PlayerRangedAttackCollection_Longbow.BP_PlayerRangedAttackCollection_Longbow_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "QuickAttackData": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Player_Longbow_Attack1_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Bow/BP_Player_Longbow_Attack1"
+      },
+      "QuickAttackWeakPointGameplayEffects": {
+        "GameplayEffects": [
+          {
+            "ObjectName": "GE_StatusEffect_Hamstrung_Add35_C'Default__BP_PlayerRangedAttackCollection_Longbow_C:GE_StatusEffect_Hamstrung_Add35_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Longbow/BP_PlayerRangedAttackCollection_Longbow.3"
+          }
+        ],
+        "WeakPointTags": [
+          {
+            "TagName": "Player.Status.Hamstrung"
+          }
+        ]
+      },
+      "FullAttackData": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Player_Bow_FullDraw_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Bow/BP_Player_Bow_FullDraw"
+      },
+      "LaunchSpeedCurve": {
+        "ObjectName": "CurveFloat'CF_LaunchSpeed'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Bow/CF_LaunchSpeed"
+      },
+      "OverrideGravityZCurve": {
+        "ObjectName": "CurveFloat'CF_OverrideGravityZ'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Bow/CF_OverrideGravityZ"
+      },
+      "DamageMultiplierCurve": {
+        "ObjectName": "CurveFloat'CF_DamageMultiplier'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Bow/CF_DamageMultiplier"
+      },
+      "TrickShotDamageMultiplier": 1.15,
+      "ForceMultiplierCurve": {
+        "ObjectName": "CurveFloat'CF_ForceMultiplier'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Bow/CF_ForceMultiplier"
+      },
+      "MaxChargeUpDuration": 1.55,
+      "TimeBeforeFullAccuracy": 2.05,
+      "TimeAtFullStrength": 6.0,
+      "AccuracyLossWhenStrained": 4.0,
+      "AccuracyLossControlCurve": {
+        "ObjectName": "CurveFloat'Curve_BowAccuracyLossControlCurve'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Bow/Curve_BowAccuracyLossControlCurve"
+      },
+      "BaseStrainedCameraShake": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Feedback_RangedCombatStrainedCameraShake_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Feedback/BP_Feedback_RangedCombatStrainedCameraShake"
+      },
+      "CameraShakeControlCurve": {
+        "ObjectName": "CurveFloat'Curve_BowCameraShakeControlCurve'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Bow/Curve_BowCameraShakeControlCurve"
+      },
+      "WobbleControlCurve": {
+        "ObjectName": "CurveFloat'Curve_BowReticleWobbleControlCurve'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Bow/Curve_BowReticleWobbleControlCurve"
+      },
+      "FullAttackWeakPointGameplayEffects": [
+        {
+          "ChargeRange": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 0.9
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 1.0
+            }
+          },
+          "WeakPointGameplayEffects": {
+            "GameplayEffects": [
+              {
+                "ObjectName": "GE_StatusEffect_Hamstrung_Add100_C'Default__BP_PlayerRangedAttackCollection_Longbow_C:GE_StatusEffect_Hamstrung_Add100_C_0'",
+                "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Longbow/BP_PlayerRangedAttackCollection_Longbow.2"
+              }
+            ],
+            "WeakPointTags": [
+              {
+                "TagName": "Player.Status.Hamstrung"
+              }
+            ]
+          }
+        }
+      ],
+      "SpecialAttackData": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Player_Longbow_Powershot_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Longbow/BP_Player_Longbow_Powershot"
+      },
+      "SpecialAttackGravityMultiplier": 0.1,
+      "SpecialAttackProjectilePenetrationInfoOverride": {
+        "bShouldOverrideCanPenetrateDamageableTargets": true,
+        "bCanPenetrateDamageableTargetsOverride": true,
+        "bShouldOverrideMaxTargetsHit": true,
+        "MaxTargetsHitOverride": 8,
+        "bShouldOverrideSubsequentTargetDamageMultiplierOverride": true,
+        "SubsequentTargetDamageMultiplierOverride": 0.6,
+        "SubsequentTargetForceMultiplierOverride": 0.75
+      },
+      "bShouldEnableCustomCameraModeDuringSpecialAttack": true,
+      "SpecialAttackAimModeAimingCameraProfile": {
+        "ObjectName": "CameraProfile'DA_AimModeLongbowPowershotCameraProfile'",
+        "ObjectPath": "/Game/Gameplay/Character/Data/DA_AimModeLongbowPowershotCameraProfile"
+      }
+    }
+  },
+  {
+    "Type": "GE_StatusEffect_Hamstrung_Add100_C",
+    "Name": "GE_StatusEffect_Hamstrung_Add100_C_0",
+    "Outer": {
+      "ObjectName": "BP_PlayerRangedAttackCollection_Longbow_C'Default__BP_PlayerRangedAttackCollection_Longbow_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Longbow/BP_PlayerRangedAttackCollection_Longbow.1"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "GE_StatusEffect_Hamstrung_Add35_C",
+    "Name": "GE_StatusEffect_Hamstrung_Add35_C_0",
+    "Outer": {
+      "ObjectName": "BP_PlayerRangedAttackCollection_Longbow_C'Default__BP_PlayerRangedAttackCollection_Longbow_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Longbow/BP_PlayerRangedAttackCollection_Longbow.1"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  }
+]

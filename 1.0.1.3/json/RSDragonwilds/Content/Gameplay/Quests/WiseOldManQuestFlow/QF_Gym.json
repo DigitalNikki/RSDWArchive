@@ -1,0 +1,579 @@
+[
+  {
+    "Type": "ConversationChoiceNode",
+    "Name": "ConversationChoiceNode_16",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Gym'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_Gym.6"
+    },
+    "Class": "UScriptClass'ConversationChoiceNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultChoiceDisplayText": {
+        "Namespace": "",
+        "Key": "0566CBF24F18C3694E45E392435EBF8B",
+        "SourceString": "Tell me more",
+        "LocalizedString": "Tell me more"
+      }
+    }
+  },
+  {
+    "Type": "ConversationChoiceNode",
+    "Name": "ConversationChoiceNode_17",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Gym'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_Gym.6"
+    },
+    "Class": "UScriptClass'ConversationChoiceNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultChoiceDisplayText": {
+        "Namespace": "",
+        "Key": "5EE480C2441A51D1AC5E3383B7694E39",
+        "SourceString": "That's enough.",
+        "LocalizedString": "That's enough."
+      }
+    }
+  },
+  {
+    "Type": "ConversationChoiceNode",
+    "Name": "ConversationChoiceNode_18",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Gym'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_Gym.6"
+    },
+    "Class": "UScriptClass'ConversationChoiceNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultChoiceDisplayText": {
+        "Namespace": "",
+        "Key": "012F67B34F3952ABC71434ADD6418250",
+        "SourceString": "1",
+        "LocalizedString": "1"
+      }
+    }
+  },
+  {
+    "Type": "ConversationChoiceNode",
+    "Name": "ConversationChoiceNode_19",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Gym'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_Gym.6"
+    },
+    "Class": "UScriptClass'ConversationChoiceNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultChoiceDisplayText": {
+        "Namespace": "",
+        "Key": "D628C59040D917DD18E5DEAD940AD5C6",
+        "SourceString": "2",
+        "LocalizedString": "2"
+      }
+    }
+  },
+  {
+    "Type": "ConversationChoiceNode",
+    "Name": "ConversationChoiceNode_20",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Gym'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_Gym.6"
+    },
+    "Class": "UScriptClass'ConversationChoiceNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultChoiceDisplayText": {
+        "Namespace": "",
+        "Key": "CBDF68DA468014891BDD5381106B35C3",
+        "SourceString": "4",
+        "LocalizedString": "4"
+      }
+    }
+  },
+  {
+    "Type": "ConversationChoiceNode",
+    "Name": "ConversationChoiceNode_21",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Gym'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_Gym.6"
+    },
+    "Class": "UScriptClass'ConversationChoiceNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultChoiceDisplayText": {
+        "Namespace": "",
+        "Key": "C2B982644BEBEED8701F9B8018C569FB",
+        "SourceString": "3",
+        "LocalizedString": "3"
+      }
+    }
+  },
+  {
+    "Type": "ConversationDatabase",
+    "Name": "QF_Gym",
+    "Class": "UScriptClass'ConversationDatabase'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CompilerVersion": 2,
+      "ReachableNodeMap": [
+        {
+          "Key": "796FBE02-4210E7C3-172EB482-2572263C",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_Gym:ConversationEntryPointNode_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_Gym.8"
+          }
+        },
+        {
+          "Key": "E85E5499-4A20B2AF-C11CFA81-7DE6F148",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Gym:QFT_PromptMessage_C_18'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_Gym.21"
+          }
+        },
+        {
+          "Key": "B5DE609A-453A588D-8A434581-18A4DD19",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Gym:QFT_Blank_C_10'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_Gym.15"
+          }
+        },
+        {
+          "Key": "1521377D-4563E6B1-1358B89F-EF2E8AB0",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Gym:QFT_PromptMessage_C_22'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_Gym.25"
+          }
+        },
+        {
+          "Key": "E82C6496-46946DA7-09877894-3D171631",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_Gym:QFT_SetQuestBool_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_Gym.31"
+          }
+        },
+        {
+          "Key": "7370C0BE-4F7FCF6E-5D9C44AA-C84620BC",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Gym:QFT_PromptMessage_C_23'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_Gym.26"
+          }
+        },
+        {
+          "Key": "69D4B9C0-44F6F78E-CADC268C-15772784",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Gym:QFT_Blank_C_13'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_Gym.18"
+          }
+        },
+        {
+          "Key": "1C3FDEE0-46DE06F7-B872BE80-7BBBB808",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Gym:QFT_PromptMessage_C_24'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_Gym.27"
+          }
+        },
+        {
+          "Key": "3C22C3EE-4CE3ABBE-B25010B1-4F76E3F3",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Gym:QFT_Blank_C_12'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_Gym.17"
+          }
+        },
+        {
+          "Key": "2B9C8C8D-40F767C3-6916FA8F-7DBB883B",
+          "Value": {
+            "ObjectName": "ConversationLinkNode'QF_Gym:ConversationLinkNode_5'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_Gym.9"
+          }
+        },
+        {
+          "Key": "AAA8B068-4621267A-36C657A6-79461F9D",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Gym:QFT_Blank_C_11'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_Gym.16"
+          }
+        },
+        {
+          "Key": "4C8AF7C5-473C6AF4-BEEAA183-03D055F1",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Gym:QFT_PromptMessage_C_21'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_Gym.24"
+          }
+        },
+        {
+          "Key": "DDD7B9C8-4E1278DD-4FDE9490-2E40EFDE",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_Gym:QFT_SetQuestBool_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_Gym.30"
+          }
+        },
+        {
+          "Key": "E8D3D3EE-4D1FA9DA-076C6BBB-0D89C800",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Gym:QFT_Blank_C_9'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_Gym.20"
+          }
+        },
+        {
+          "Key": "4596B8CF-40407024-403DE394-C45E7FF4",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Gym:QFT_PromptMessage_C_20'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_Gym.23"
+          }
+        },
+        {
+          "Key": "4F7E2A87-4DF8152A-E33B898E-D90DD04D",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_Gym:QFT_SetQuestBool_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_Gym.29"
+          }
+        },
+        {
+          "Key": "0977D631-4B5E6424-2797F0BE-140B5404",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Gym:QFT_Blank_C_8'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_Gym.19"
+          }
+        },
+        {
+          "Key": "F760A08A-49C2BE82-BA3B4C99-8F315D07",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Gym:QFT_PromptMessage_C_19'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_Gym.22"
+          }
+        },
+        {
+          "Key": "C1008E3F-409E9D5B-DC1040B6-67AE39E3",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_Gym:QFT_SetQuestBool_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_Gym.28"
+          }
+        },
+        {
+          "Key": "D6DAC803-4374A908-3DA2038B-BF19434E",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_Gym:ConversationEntryPointNode_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_Gym.7"
+          }
+        }
+      ],
+      "EntryTags": [
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.Gym"
+          },
+          "DestinationList": [
+            "D6DAC803-4374A908-3DA2038B-BF19434E"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.Gym.Link1"
+          },
+          "DestinationList": [
+            "796FBE02-4210E7C3-172EB482-2572263C"
+          ],
+          "EntryIdentifier": ""
+        }
+      ],
+      "ExitTags": [
+        "QuestFlow.Entry.Gym.Link1"
+      ],
+      "InternalNodeIds": [
+        "796FBE02-4210E7C3-172EB482-2572263C",
+        "E85E5499-4A20B2AF-C11CFA81-7DE6F148",
+        "B5DE609A-453A588D-8A434581-18A4DD19",
+        "1521377D-4563E6B1-1358B89F-EF2E8AB0",
+        "E82C6496-46946DA7-09877894-3D171631",
+        "7370C0BE-4F7FCF6E-5D9C44AA-C84620BC",
+        "69D4B9C0-44F6F78E-CADC268C-15772784",
+        "1C3FDEE0-46DE06F7-B872BE80-7BBBB808",
+        "3C22C3EE-4CE3ABBE-B25010B1-4F76E3F3",
+        "2B9C8C8D-40F767C3-6916FA8F-7DBB883B",
+        "AAA8B068-4621267A-36C657A6-79461F9D",
+        "4C8AF7C5-473C6AF4-BEEAA183-03D055F1",
+        "DDD7B9C8-4E1278DD-4FDE9490-2E40EFDE",
+        "E8D3D3EE-4D1FA9DA-076C6BBB-0D89C800",
+        "4596B8CF-40407024-403DE394-C45E7FF4",
+        "4F7E2A87-4DF8152A-E33B898E-D90DD04D",
+        "0977D631-4B5E6424-2797F0BE-140B5404",
+        "F760A08A-49C2BE82-BA3B4C99-8F315D07",
+        "C1008E3F-409E9D5B-DC1040B6-67AE39E3",
+        "D6DAC803-4374A908-3DA2038B-BF19434E"
+      ],
+      "Speakers": [
+        {
+          "FallbackName": {
+            "CultureInvariantString": null
+          },
+          "ParticipantName": {
+            "TagName": "None"
+          },
+          "NodeTint": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Gym'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_Gym.6"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.Gym"
+      },
+      "OutputConnections": [
+        "E85E5499-4A20B2AF-C11CFA81-7DE6F148"
+      ],
+      "Compiled_NodeGUID": "D6DAC803-4374A908-3DA2038B-BF19434E"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Gym'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_Gym.6"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.Gym.Link1"
+      },
+      "OutputConnections": [
+        "E85E5499-4A20B2AF-C11CFA81-7DE6F148"
+      ],
+      "Compiled_NodeGUID": "796FBE02-4210E7C3-172EB482-2572263C"
+    }
+  },
+  {
+    "Type": "ConversationLinkNode",
+    "Name": "ConversationLinkNode_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Gym'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_Gym.6"
+    },
+    "Class": "UScriptClass'ConversationLinkNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RemoteEntryTag": {
+        "TagName": "QuestFlow.Entry.Gym.Link1"
+      },
+      "Compiled_NodeGUID": "2B9C8C8D-40F767C3-6916FA8F-7DBB883B",
+      "ParentNode": {
+        "ObjectName": "QFT_Blank_C'QF_Gym:QFT_Blank_C_12'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_Gym.17"
+      }
+    }
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Gym'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_Gym.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Gym'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_Gym.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Gym'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_Gym.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_12",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Gym'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_Gym.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBoolsOR_C",
+    "Name": "QFR_TestORQuestBools_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Gym'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_Gym.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Gym'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_Gym.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Gym'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_Gym.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_12",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Gym'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_Gym.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_13",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Gym'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_Gym.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Gym'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_Gym.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Gym'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_Gym.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_18",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Gym'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_Gym.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_19",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Gym'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_Gym.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_20",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Gym'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_Gym.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_21",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Gym'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_Gym.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_22",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Gym'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_Gym.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_23",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Gym'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_Gym.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_24",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Gym'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_Gym.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Gym'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_Gym.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Gym'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_Gym.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Gym'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_Gym.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_Gym'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/WiseOldManQuestFlow/QF_Gym.6"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  }
+]

@@ -1,0 +1,64 @@
+[
+  {
+    "Type": "SkillPerkData",
+    "Name": "PerkV2_Attack_EnchantWeapon_Air",
+    "Class": "UScriptClass'SkillPerkData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "PerkName": {
+        "TableId": "/Game/Gameplay/Character/Player/PerksV2/ST_Skills_Perks.ST_Skills_Perks",
+        "Key": "Attack.EnchantWeaponAir.Name",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PerkDescription": {
+        "TableId": "/Game/Gameplay/Character/Player/PerksV2/ST_Skills_Perks.ST_Skills_Perks",
+        "Key": "Attack.EnchantWeaponAir.Desc",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "SkillPerkImage": {
+        "AssetPathName": "/Game/Art/UI/Skills/Icons/Unlock/Attack/T_Skill_Attack_Spell_Enchantweapon_Air.T_Skill_Attack_Spell_Enchantweapon_Air",
+        "SubPathString": ""
+      },
+      "PerkModules": [
+        {
+          "ObjectName": "SkillPerkModule_Spell'PerkV2_Attack_EnchantWeapon_Air:SkillPerkModule_Spell_0'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/PerksV2/Attack/PerkV2_Attack_EnchantWeapon_Air.1"
+        }
+      ],
+      "PerkUnlockInfo": {
+        "AssociatedSkill": {
+          "AssetPathName": "/Game/Gameplay/Character/Player/Skills/SKILL_Attack.SKILL_Attack",
+          "SubPathString": ""
+        },
+        "RequiredSkillLevel": 30
+      },
+      "PerkUsageVideo": {
+        "ObjectName": "BinkMediaPlayer'BNK_Video_Attack_EnchantWeaponAir'",
+        "ObjectPath": "/Game/Movies/BNK_Video_Attack_EnchantWeaponAir"
+      },
+      "FeatureTag": {
+        "TagName": "Feature.AttackSkillPerks"
+      },
+      "PersistenceID": "7iAprkCDkHuH9tiVqmFPXQ",
+      "InternalName": "perk_attack_enchantweapon_air"
+    }
+  },
+  {
+    "Type": "SkillPerkModule_Spell",
+    "Name": "SkillPerkModule_Spell_0",
+    "Outer": {
+      "ObjectName": "SkillPerkData'PerkV2_Attack_EnchantWeapon_Air'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/PerksV2/Attack/PerkV2_Attack_EnchantWeapon_Air.0"
+    },
+    "Class": "UScriptClass'SkillPerkModule_Spell'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SpellData": {
+        "ObjectName": "UtilitySpellData'USD_EnchantWeapon_Air'",
+        "ObjectPath": "/Game/Gameplay/UtilityMagic/PerkSpells/EnchantWeapon/USD_EnchantWeapon_Air"
+      }
+    }
+  }
+]

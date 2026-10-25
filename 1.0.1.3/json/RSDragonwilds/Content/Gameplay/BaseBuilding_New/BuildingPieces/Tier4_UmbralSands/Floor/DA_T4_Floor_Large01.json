@@ -1,0 +1,84 @@
+[
+  {
+    "Type": "BuildingPieceData",
+    "Name": "DA_T4_Floor_Large01",
+    "Class": "UScriptClass'BuildingPieceData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DerivedData": {
+        "AssetPathName": "/Game/Gameplay/BaseBuilding_New/BuildingPieces_DerivedData/Tier4_UmbralSands/Floor/DA_T4_Floor_Large01_DerivedData.DA_T4_Floor_Large01_DerivedData",
+        "SubPathString": ""
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "08227E07405301615B8FD4B5696C338F",
+        "SourceString": "Square Tile",
+        "LocalizedString": "Square Tile"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "628582CC4C4508D6418611AA7F5FAC1A",
+        "SourceString": "Sturdy surface used to create floors.",
+        "LocalizedString": "Sturdy surface used to create floors."
+      },
+      "DisplayIcon": {
+        "AssetPathName": "/Game/Art/UI/Icons/T4_Building_Icons/FloorsFoundations/T_Icon_BB_T4_Floor_Large_01.T_Icon_BB_T4_Floor_Large_01",
+        "SubPathString": ""
+      },
+      "BuildableActor": {
+        "AssetPathName": "/Game/Gameplay/BaseBuilding_New/BuildingPieces/Tier4_UmbralSands/Floor/BP_T4_Floor_Large01.BP_T4_Floor_Large01_C",
+        "SubPathString": ""
+      },
+      "Requirements": [
+        {
+          "Amount": 5,
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Ground_Sandstone'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Mineral/ITEM_Resources_Ground_Sandstone"
+          }
+        },
+        {
+          "Amount": 5,
+          "ItemData": {
+            "ObjectName": "BP_Consumables_Drink_C'ITEM_Consumable_Water_Dirty'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Water_Dirty"
+          }
+        },
+        {
+          "Amount": 2,
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Flax'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Plant/ITEM_Resources_Flax"
+          }
+        },
+        {
+          "Amount": 3,
+          "ItemData": {
+            "ObjectName": "FuelItemData'ITEM_Resources_Plank_Yew'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Resources/Processed/ITEM_Resources_Plank_Yew"
+          }
+        }
+      ],
+      "ConstructionXPOnBuild": 40,
+      "PieceTag": {
+        "TagName": "BaseBuilding.PieceType.Foundation"
+      },
+      "BuildingStabilityProfileRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_StabilityProfile'",
+          "ObjectPath": "/Game/Gameplay/BaseBuilding_New/DT_StabilityProfile"
+        },
+        "RowName": "Tier3_Base"
+      },
+      "BuildXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Building'",
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Building"
+        },
+        "RowName": "Build_Floor_Tier3"
+      },
+      "RepresentationCategory": "EBuildingPieceRepresentationCategory::Lightweight",
+      "PersistenceID": "E4ej1kqLrqLhKE-Z-BIyGw"
+    }
+  }
+]

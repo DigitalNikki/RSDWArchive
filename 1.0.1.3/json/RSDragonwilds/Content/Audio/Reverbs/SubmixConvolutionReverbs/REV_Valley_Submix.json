@@ -1,0 +1,23 @@
+[
+  {
+    "Type": "SoundSubmix",
+    "Name": "REV_Valley_Submix",
+    "Class": "UScriptClass'SoundSubmix'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SubmixEffectChain": [
+        {
+          "ObjectName": "SubmixEffectConvolutionReverbPreset'REV_Valley_SubmixPreset'",
+          "ObjectPath": "/Game/Audio/Reverbs/SubmixConvolutionReverbs/REV_Valley_SubmixPreset"
+        },
+        {
+          "ObjectName": "SubmixEffectSubmixEQPreset'ValleyReverbEQ'",
+          "ObjectPath": "/Game/Audio/Effects/ValleyReverbEQ"
+        }
+      ],
+      "DryLevelModulation": {
+        "Value": -60.0
+      }
+    }
+  }
+]

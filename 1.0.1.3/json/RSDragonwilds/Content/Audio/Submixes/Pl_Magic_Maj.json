@@ -1,0 +1,20 @@
+[
+  {
+    "Type": "SoundSubmix",
+    "Name": "Pl_Magic_Maj",
+    "Class": "UScriptClass'SoundSubmix'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SubmixEffectChain": [
+        {
+          "ObjectName": "SubmixEffectDynamicsProcessorPreset'Pl_Magic_Compressor'",
+          "ObjectPath": "/Game/Audio/Effects/Pl_Magic_Compressor"
+        }
+      ],
+      "ParentSubmix": {
+        "ObjectName": "SoundSubmix'SFX'",
+        "ObjectPath": "/Game/Audio/Submixes/SFX"
+      }
+    }
+  }
+]

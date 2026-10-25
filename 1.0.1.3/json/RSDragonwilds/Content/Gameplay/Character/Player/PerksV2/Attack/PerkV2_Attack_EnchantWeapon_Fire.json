@@ -1,0 +1,64 @@
+[
+  {
+    "Type": "SkillPerkData",
+    "Name": "PerkV2_Attack_EnchantWeapon_Fire",
+    "Class": "UScriptClass'SkillPerkData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "PerkName": {
+        "TableId": "/Game/Gameplay/Character/Player/PerksV2/ST_Skills_Perks.ST_Skills_Perks",
+        "Key": "Attack.EnchantWeaponFire.Name",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PerkDescription": {
+        "TableId": "/Game/Gameplay/Character/Player/PerksV2/ST_Skills_Perks.ST_Skills_Perks",
+        "Key": "Attack.EnchantWeaponFire.Desc",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "SkillPerkImage": {
+        "AssetPathName": "/Game/Art/UI/Skills/Icons/Unlock/Attack/T_Skill_Attack_Spell_Enchantweapon_Fire.T_Skill_Attack_Spell_Enchantweapon_Fire",
+        "SubPathString": ""
+      },
+      "PerkModules": [
+        {
+          "ObjectName": "SkillPerkModule_Spell'PerkV2_Attack_EnchantWeapon_Fire:SkillPerkModule_Spell_0'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/PerksV2/Attack/PerkV2_Attack_EnchantWeapon_Fire.1"
+        }
+      ],
+      "PerkUnlockInfo": {
+        "AssociatedSkill": {
+          "AssetPathName": "/Game/Gameplay/Character/Player/Skills/SKILL_Attack.SKILL_Attack",
+          "SubPathString": ""
+        },
+        "RequiredSkillLevel": 20
+      },
+      "PerkUsageVideo": {
+        "ObjectName": "BinkMediaPlayer'BNK_Video_Attack_EnchantWeaponFire'",
+        "ObjectPath": "/Game/Movies/BNK_Video_Attack_EnchantWeaponFire"
+      },
+      "FeatureTag": {
+        "TagName": "Feature.AttackSkillPerks"
+      },
+      "PersistenceID": "dCqh9kyOuoSdU7qmTvhiFQ",
+      "InternalName": "perk_attack_enchantweapon_fire"
+    }
+  },
+  {
+    "Type": "SkillPerkModule_Spell",
+    "Name": "SkillPerkModule_Spell_0",
+    "Outer": {
+      "ObjectName": "SkillPerkData'PerkV2_Attack_EnchantWeapon_Fire'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/PerksV2/Attack/PerkV2_Attack_EnchantWeapon_Fire.0"
+    },
+    "Class": "UScriptClass'SkillPerkModule_Spell'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SpellData": {
+        "ObjectName": "UtilitySpellData'USD_EnchantWeapon_Fire'",
+        "ObjectPath": "/Game/Gameplay/UtilityMagic/PerkSpells/EnchantWeapon/USD_EnchantWeapon_Fire"
+      }
+    }
+  }
+]

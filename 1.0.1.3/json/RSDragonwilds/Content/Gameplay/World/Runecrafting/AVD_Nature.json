@@ -1,0 +1,134 @@
+[
+  {
+    "Type": "AnimaVentData",
+    "Name": "AVD_Nature",
+    "Class": "UScriptClass'AnimaVentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RuneToReceiveItemData": {
+        "ObjectName": "ItemData'ITEM_Rune_Nature'",
+        "ObjectPath": "/Game/Gameplay/Items/Resources/Magic/ITEM_Rune_Nature"
+      },
+      "RuneEssenceItemData": {
+        "ObjectName": "ItemData'ITEM_Rune_Essence'",
+        "ObjectPath": "/Game/Gameplay/Items/Resources/Magic/ITEM_Rune_Essence"
+      },
+      "SpellData": {
+        "ObjectName": "UtilitySpellData'USD_SiphonRunes'",
+        "ObjectPath": "/Game/Gameplay/UtilityMagic/WorldInteractionSpells/USD_SiphonRunes"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/World/ST_WorldObjects.ST_WorldObjects",
+        "Key": "AnimaVent.DisplayName.Nature",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "ConcentratedDisplayName": {
+        "TableId": "/Game/Gameplay/World/ST_WorldObjects.ST_WorldObjects",
+        "Key": "AnimaVent.DisplayName.Nature.Concentrated",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "ConcentratedVentNotificationSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_NotifcationMenu_Open'",
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Menu/NotificationMenu/MSS_UI_NotifcationMenu_Open"
+      },
+      "InteractionPromptText": {
+        "TableId": "/Game/Gameplay/BaseBuilding/ST_WorldInteractions.ST_WorldInteractions",
+        "Key": "AnimaVent.InteractionPrompt",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "AdditionalDescriptionText": {
+        "TableId": "/Game/Gameplay/World/ST_WorldObjects.ST_WorldObjects",
+        "Key": "AnimaVent.ChargesRemaining",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "RunesReceivedAmount": 10,
+      "FreeSiphonChanceAttribute": {
+        "ObjectName": "Class'FreeSiphonChanceAttribute'",
+        "ObjectPath": "/Script/Dominion"
+      },
+      "DevName": "Nature",
+      "NoChargesLeftNotificationTag": {
+        "TagName": "UI.Notification.AnimaVentSiphon.NoChargesAvailable"
+      },
+      "NotEnoughRuneEssenceNotificationTag": {
+        "TagName": "UI.Notification.AnimaVentSiphon.NotEnoughRuneEssence"
+      },
+      "NoSpaceForRunesNotificationTag": {
+        "TagName": "UI.Notification.AnimaVentSiphon.InsufficientInventorySpace"
+      },
+      "WorldTag": {
+        "TagName": "WorldEntity.AnimaVent.Nature"
+      },
+      "WorldTagWhenConcentrated": {
+        "TagName": "WorldEntity.AnimaVent.Nature.Concentrated"
+      },
+      "AnimaVentVFX": {
+        "VFXMagic": {
+          "ObjectName": "NiagaraSystem'NS_Anima_Loop_Nature'",
+          "ObjectPath": "/Game/Art/VFX/Library/Env/AnimaVent/Nature/NS_Anima_Loop_Nature"
+        },
+        "VFXGround": {
+          "ObjectName": "NiagaraSystem'NS_Ground_Loop_Nature'",
+          "ObjectPath": "/Game/Art/VFX/Library/Env/AnimaVent/Nature/NS_Ground_Loop_Nature"
+        },
+        "VFXSiphon": {
+          "ObjectName": "NiagaraSystem'NS_Anima_Siphon_Nature'",
+          "ObjectPath": "/Game/Art/VFX/Library/Env/AnimaVent/Nature/NS_Anima_Siphon_Nature"
+        },
+        "StrandMaterialVibrant": {
+          "ObjectName": "MaterialInstanceConstant'MI_AnimaVent_Nature_01'",
+          "ObjectPath": "/Game/Art/VFX/Library/Env/AnimaVent/Nature/MI_AnimaVent_Nature_01"
+        },
+        "StrandMaterialMuted": {
+          "ObjectName": "MaterialInstanceConstant'MI_AnimaVent_Nature_02'",
+          "ObjectPath": "/Game/Art/VFX/Library/Env/AnimaVent/Nature/MI_AnimaVent_Nature_02"
+        },
+        "GroundEnergyMaterial": {
+          "ObjectName": "MaterialInstanceConstant'MI_VFX_Anima_Nature'",
+          "ObjectPath": "/Game/Art/VFX/Library/Env/AnimaVent/Nature/MI_VFX_Anima_Nature"
+        },
+        "DistantMaterial": {
+          "ObjectName": "MaterialInstanceConstant'MI_VFX_AnimaVentDistant_Nature'",
+          "ObjectPath": "/Game/Art/VFX/Library/Env/AnimaVent/Nature/MI_VFX_AnimaVentDistant_Nature"
+        },
+        "LightColor": {
+          "R": 0.283149,
+          "G": 1.0,
+          "B": 0.155926,
+          "A": 1.0,
+          "Hex": "91FF6E"
+        }
+      },
+      "AnimaVentSFX": {
+        "SiphonStart": {
+          "ObjectName": "DominionMetaSoundSource'MSS_Wo_Em_Anima_Siphon_Start'",
+          "ObjectPath": "/Game/Audio/MetasoundSources/World/Anima_Vents/MSS_Wo_Em_Anima_Siphon_Start"
+        },
+        "SiphonStop": {
+          "ObjectName": "DominionMetaSoundSource'MSS_Suso_AnimaVentSiphonEnd_Nature'",
+          "ObjectPath": "/Game/Audio/MetasoundSources/Player/SurvivalSorcery/Anima/MSS_Suso_AnimaVentSiphonEnd_Nature"
+        },
+        "AudioLoopNormal": {
+          "ObjectName": "DominionMetaSoundSource'MSS_Wo_Em_Nature_Loop_Manager'",
+          "ObjectPath": "/Game/Audio/MetasoundSources/World/Anima_Vents/MSS_Wo_Em_Nature_Loop_Manager"
+        },
+        "AudioLoopEnclosureAgnostic": {
+          "ObjectName": "DominionMetaSoundSource'MSS_Wo_Em_Nature_Loop_Manager_EnclosureAgnostic'",
+          "ObjectPath": "/Game/Audio/MetasoundSources/World/Anima_Vents/MSS_Wo_Em_Nature_Loop_Manager_EnclosureAgnostic"
+        },
+        "AudioLoopSiphoningLocal": {
+          "ObjectName": "DominionMetaSoundSource'MSS_SuSo_AnimaVentSiphonLoop_Nature'",
+          "ObjectPath": "/Game/Audio/MetasoundSources/Player/SurvivalSorcery/Anima/MSS_SuSo_AnimaVentSiphonLoop_Nature"
+        },
+        "AudioLoopSiphoningRemote": {
+          "ObjectName": "DominionMetaSoundSource'MSS_SuSo_AnimaVentSiphonLoop_Nature_Rem'",
+          "ObjectPath": "/Game/Audio/MetasoundSources/Player/SurvivalSorcery/Anima/Rem/MSS_SuSo_AnimaVentSiphonLoop_Nature_Rem"
+        }
+      }
+    }
+  }
+]

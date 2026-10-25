@@ -1,0 +1,62 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ADT_KalphiteQueen_Shock_ImpactPairingData_SFX",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Object'ImpactSourceSFXTableRow'",
+        "ObjectPath": "/Script/Dominion"
+      }
+    },
+    "Rows": {
+      "Default": {
+        "PhysicalMaterials": [
+          {
+            "ObjectName": "DominionPhysicalMaterial'Sand_ShallowGritty'",
+            "ObjectPath": "/Game/Audio/PhysMats/Sand_ShallowGritty"
+          },
+          {
+            "ObjectName": "DominionPhysicalMaterial'Sand_Deep'",
+            "ObjectPath": "/Game/Audio/PhysMats/Sand_Deep"
+          },
+          {
+            "ObjectName": "DominionPhysicalMaterial'Default'",
+            "ObjectPath": "/Game/Audio/PhysMats/Default"
+          }
+        ],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_En_Co_Shock_Ground_Impact'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KalphiteFaction/KalphiteQueen/KalphiteQueen_Combat/MSS_En_Co_Shock_Ground_Impact"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": [
+          "Audio.Default"
+        ]
+      },
+      "None": {
+        "PhysicalMaterials": [
+          {
+            "ObjectName": "DominionPhysicalMaterial'Water_Deep'",
+            "ObjectPath": "/Game/Audio/PhysMats/Water_Deep"
+          },
+          {
+            "ObjectName": "DominionPhysicalMaterial'Water_Shallow'",
+            "ObjectPath": "/Game/Audio/PhysMats/Water_Shallow"
+          }
+        ],
+        "ImpactFXData": {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Co_BleedArrow_Mud'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/Combat/Ranged/Bleed_Impacts/MSS_Co_BleedArrow_Mud"
+          },
+          "CritSweetener": null
+        },
+        "Identifier": []
+      }
+    }
+  }
+]

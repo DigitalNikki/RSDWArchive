@@ -1,0 +1,1835 @@
+[
+  {
+    "Type": "ConversationDatabase",
+    "Name": "QF_FTUE_RuneMysteries",
+    "Class": "UScriptClass'ConversationDatabase'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CompilerVersion": 2,
+      "ReachableNodeMap": [
+        {
+          "Key": "69CC58FB-41FE8C49-B188E3A9-49AB5CDE",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_FTUE_RuneMysteries:ConversationEntryPointNode_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.4"
+          }
+        },
+        {
+          "Key": "13DC7A4A-44AE47AF-15A7729C-CE84C8DC",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RuneMysteries:QFT_Blank_C_26'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.59"
+          }
+        },
+        {
+          "Key": "7FA370C1-4F07700A-E24F8DBB-8BDC753C",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RuneMysteries:QFT_Blank_C_27'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.60"
+          }
+        },
+        {
+          "Key": "D180F013-4D0D97DA-FDBAD090-39D287CF",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_FTUE_RuneMysteries:QFT_SetQuestBool_C_7'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.96"
+          }
+        },
+        {
+          "Key": "953A41D1-44B49F00-818BDE97-C7C39B24",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RuneMysteries:QFT_Blank_C_28'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.61"
+          }
+        },
+        {
+          "Key": "3BD6710F-4507AA84-77534BBD-345FBE84",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_FTUE_RuneMysteries:QFT_SetQuestBool_C_8'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.97"
+          }
+        },
+        {
+          "Key": "EBC29A7B-41667169-BFC5ABBC-B8E4345D",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RuneMysteries:QFT_Blank_C_30'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.64"
+          }
+        },
+        {
+          "Key": "9F63A391-4FF75BAC-DD88508D-12FE7B2D",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_FTUE_RuneMysteries:QFT_SetQuestObjective_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.99"
+          }
+        },
+        {
+          "Key": "10598E17-40F784DA-2341FC8B-364D264E",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_FTUE_RuneMysteries:QFT_UpdateQuestLocation_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.101"
+          }
+        },
+        {
+          "Key": "16113BAF-427AE39B-719983B3-6ED7F1C6",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_FTUE_RuneMysteries:QFT_UpdateQuestLocation_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.102"
+          }
+        },
+        {
+          "Key": "0EC3A694-4B08FD1E-3809B488-BA7250A1",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_FTUE_RuneMysteries:QFT_UpdateQuestLocation_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.110"
+          }
+        },
+        {
+          "Key": "889BFCEA-46335502-BB1F3B9D-AC7121CA",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RuneMysteries:QFT_Blank_C_25'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.58"
+          }
+        },
+        {
+          "Key": "D9A71970-4EEA448A-8DC75EB9-45183505",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_FTUE_RuneMysteries:ConversationEntryPointNode_5'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.6"
+          }
+        },
+        {
+          "Key": "3DF9BB82-4B6032BB-E554789A-BF318BCC",
+          "Value": {
+            "ObjectName": "QFT_DispatchFTUENotification_C'QF_FTUE_RuneMysteries:QFT_DispatchFTUENotification_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.75"
+          }
+        },
+        {
+          "Key": "D7F224E1-442513B2-97D30E85-34E0BF21",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_FTUE_RuneMysteries:QFT_SetQuestBool_C_5'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.94"
+          }
+        },
+        {
+          "Key": "221893EE-41DE1153-A55B2D99-EC4701B6",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_FTUE_RuneMysteries:ConversationEntryPointNode_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.3"
+          }
+        },
+        {
+          "Key": "FF1B04A4-4C77AA94-0F32AFA0-016BD7E3",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RuneMysteries:QFT_Blank_C_8'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.69"
+          }
+        },
+        {
+          "Key": "1AD6DF47-4DE31A59-EDA89995-08271992",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RuneMysteries:QFT_Blank_C_9'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.70"
+          }
+        },
+        {
+          "Key": "4DF8E5E8-49069918-B56943AE-E9000882",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RuneMysteries:QFT_Blank_C_15'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.48"
+          }
+        },
+        {
+          "Key": "C4A78080-4DC42E2D-C082D29E-610510C6",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_FTUE_RuneMysteries:QFT_SetQuestBool_C_6'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.95"
+          }
+        },
+        {
+          "Key": "2F609A2E-49A0F022-0C717D96-3EC38285",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RuneMysteries:QFT_Blank_C_14'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.47"
+          }
+        },
+        {
+          "Key": "29FC8F88-47E384EF-F3DAC19F-BAAE4BB3",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_FTUE_RuneMysteries:QFT_SetQuestBool_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.92"
+          }
+        },
+        {
+          "Key": "450E2B53-4D08D7CB-228581A9-52BDC227",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RuneMysteries:QFT_Blank_C_29'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.62"
+          }
+        },
+        {
+          "Key": "62E05E3A-474301F5-37B47CA6-5A704810",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_FTUE_RuneMysteries:QFT_SetQuestObjective_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.98"
+          }
+        },
+        {
+          "Key": "D3F8BE24-4ED5D7E9-D3517EAE-51D633DF",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_FTUE_RuneMysteries:QFT_UpdateQuestLocation_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.104"
+          }
+        },
+        {
+          "Key": "05BB6E23-4BD3BAF6-A92BFA95-DFC9E35E",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_FTUE_RuneMysteries:QFT_UpdateQuestLocation_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.109"
+          }
+        },
+        {
+          "Key": "2F8C0DF6-47695FB1-625FA994-043997DC",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_FTUE_RuneMysteries:QFT_UpdateQuestLocation_C_17'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.103"
+          }
+        },
+        {
+          "Key": "54B6CD15-4E65069C-9FE10383-486E17DE",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_FTUE_RuneMysteries:ConversationEntryPointNode_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.5"
+          }
+        },
+        {
+          "Key": "E3D32C69-40A4516A-2C18DAAE-59277416",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RuneMysteries:QFT_Blank_C_23'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.56"
+          }
+        },
+        {
+          "Key": "DF3EA865-4D0590E5-E24B7F9C-11EBAC0E",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RuneMysteries:QFT_Blank_C_13'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.46"
+          }
+        },
+        {
+          "Key": "D7AB4D75-4DAA13D1-C24103B9-9FE4AE73",
+          "Value": {
+            "ObjectName": "QFT_DispatchFTUENotification_C'QF_FTUE_RuneMysteries:QFT_DispatchFTUENotification_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.74"
+          }
+        },
+        {
+          "Key": "6F770DEE-49C4329D-AD9FC3A9-066B9CD9",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_FTUE_RuneMysteries:QFT_SetQuestBool_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.93"
+          }
+        },
+        {
+          "Key": "FE1FC88F-4F9C41CE-7DE72F9F-AD67C9E3",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RuneMysteries:QFT_Blank_C_21'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.54"
+          }
+        },
+        {
+          "Key": "71B16E02-4711FD09-1532C4BF-6B826E57",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_FTUE_RuneMysteries:QFT_UpdateQuestLocation_C_7'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.112"
+          }
+        },
+        {
+          "Key": "2C411742-46A7A3A1-0EF2869C-0E6C7706",
+          "Value": {
+            "ObjectName": "QFT_DispatchFTUENotification_C'QF_FTUE_RuneMysteries:QFT_DispatchFTUENotification_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.73"
+          }
+        },
+        {
+          "Key": "FFFDA73F-4BD13294-4D2EEA88-60B51992",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_FTUE_RuneMysteries:QFT_SetQuestBool_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.90"
+          }
+        },
+        {
+          "Key": "D8952513-43F3524B-BBE9DA8A-6755195E",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_FTUE_RuneMysteries:QFT_UpdateQuestLocation_C_20'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.105"
+          }
+        },
+        {
+          "Key": "334D1DBD-4A5B6D4D-0C4C099B-F21B7F25",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RuneMysteries:QFT_Blank_C_22'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.55"
+          }
+        },
+        {
+          "Key": "B8F4F4D1-47D7DE27-C373CB82-8DE16597",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_FTUE_RuneMysteries:ConversationEntryPointNode_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.2"
+          }
+        },
+        {
+          "Key": "8CC78218-4AF3B99B-A8D6DCA4-98840BEA",
+          "Value": {
+            "ObjectName": "QFT_DispatchFTUENotification_C'QF_FTUE_RuneMysteries:QFT_DispatchFTUENotification_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.72"
+          }
+        },
+        {
+          "Key": "E11DCF22-45BAAF1A-DFDFB79B-C9A4EDC1",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_FTUE_RuneMysteries:QFT_SetQuestBool_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.89"
+          }
+        },
+        {
+          "Key": "6F8E6FC3-4D9F7FC2-BEB2C488-A75A2124",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_FTUE_RuneMysteries:ConversationEntryPointNode_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.1"
+          }
+        },
+        {
+          "Key": "856201C2-4CA2E1C5-AF8A94BD-6A7259CB",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RuneMysteries:QFT_Blank_C_10'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.44"
+          }
+        },
+        {
+          "Key": "4B995711-4BFC9FEE-8C55688E-90654FF2",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RuneMysteries:QFT_PromptMessage_C_9'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.88"
+          }
+        },
+        {
+          "Key": "7F791F97-4F815E08-66A1AAAC-249BB154",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RuneMysteries:QFT_Blank_C_5'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.66"
+          }
+        },
+        {
+          "Key": "48F616FC-46FD9120-A02B1FBA-2247FEDF",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RuneMysteries:QFT_Blank_C_17'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.50"
+          }
+        },
+        {
+          "Key": "203C44E4-4F83C2FD-464136BB-E9F7ACC2",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RuneMysteries:QFT_PromptMessage_C_8'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.87"
+          }
+        },
+        {
+          "Key": "6FA83B8F-43D93C32-D0A6CEBB-6B89AD7B",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RuneMysteries:QFT_Blank_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.42"
+          }
+        },
+        {
+          "Key": "9626817E-4F8CA1BC-53B800AF-FE99C899",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RuneMysteries:QFT_Blank_C_18'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.51"
+          }
+        },
+        {
+          "Key": "B95E4BE9-4048DCCD-4F798BAD-A8DA5810",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RuneMysteries:QFT_PromptMessage_C_7'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.86"
+          }
+        },
+        {
+          "Key": "5FCE6B82-4DFB45FE-29FE4B9D-0B8FB292",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RuneMysteries:QFT_Blank_C_11'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.45"
+          }
+        },
+        {
+          "Key": "5CC08C7B-4F39E9C0-B95EE187-95A94968",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RuneMysteries:QFT_Blank_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.63"
+          }
+        },
+        {
+          "Key": "AFDF9499-4CF35F66-284C7C92-E0F3B1CA",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RuneMysteries:QFT_Blank_C_7'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.68"
+          }
+        },
+        {
+          "Key": "20F1EF80-4AFAF69B-E66AD496-3BA53469",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RuneMysteries:QFT_Blank_C_24'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.57"
+          }
+        },
+        {
+          "Key": "07ED62E9-4E5EA345-4115ABB9-C0D63FDE",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RuneMysteries:QFT_PromptMessage_C_12'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.81"
+          }
+        },
+        {
+          "Key": "BA743923-4ADC6116-805D7B8F-6DC83085",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RuneMysteries:QFT_Blank_C_19'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.52"
+          }
+        },
+        {
+          "Key": "E001C562-4FC75A43-ECEFAB85-B967B655",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RuneMysteries:QFT_Blank_C_16'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.49"
+          }
+        },
+        {
+          "Key": "CDFB951B-4329FE4E-270242AC-735A7C1C",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RuneMysteries:QFT_PromptMessage_C_11'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.80"
+          }
+        },
+        {
+          "Key": "ABB50A44-41E5E396-638B24B2-30BD4AF4",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RuneMysteries:QFT_PromptMessage_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.82"
+          }
+        },
+        {
+          "Key": "163D5980-43E2A7A2-12C99195-EBED97DA",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RuneMysteries:QFT_PromptMessage_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.83"
+          }
+        },
+        {
+          "Key": "2860CD77-40B8D0DA-2FA02BA4-728FDBDF",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RuneMysteries:QFT_PromptMessage_C_5'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.85"
+          }
+        },
+        {
+          "Key": "2E428C15-4A72941C-2F58F895-4690B140",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RuneMysteries:QFT_Blank_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.53"
+          }
+        },
+        {
+          "Key": "E00383BC-435F7407-E130E991-21E978C3",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RuneMysteries:QFT_PromptMessage_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.78"
+          }
+        },
+        {
+          "Key": "A8BAB18F-41BD3943-275BCDB7-B6554B28",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RuneMysteries:QFT_Blank_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.43"
+          }
+        },
+        {
+          "Key": "759A05CC-403471E0-42920196-B17C00AB",
+          "Value": {
+            "ObjectName": "QFT_CompleteQuest_C'QF_FTUE_RuneMysteries:QFT_CompleteQuest_C_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.71"
+          }
+        },
+        {
+          "Key": "D403716B-48947620-B0189BA0-460527DD",
+          "Value": {
+            "ObjectName": "QFT_GiveQuest_C'QF_FTUE_RuneMysteries:QFT_GiveQuest_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.77"
+          }
+        },
+        {
+          "Key": "8119B25E-40F2CBC6-E0D6578D-51661BEB",
+          "Value": {
+            "ObjectName": "QFT_SetQuestObjective_C'QF_FTUE_RuneMysteries:QFT_SetQuestObjective_C_3'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.100"
+          }
+        },
+        {
+          "Key": "99D8DEFD-45A6DCCD-91C0C1A1-6D7ACC22",
+          "Value": {
+            "ObjectName": "QFT_GiveItemsToPlayer_C'QF_FTUE_RuneMysteries:QFT_GiveItemsToPlayer_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.76"
+          }
+        },
+        {
+          "Key": "DE8BE3B3-43F53450-4D8365B6-845E2C70",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_FTUE_RuneMysteries:QFT_UpdateQuestLocation_C_5'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.111"
+          }
+        },
+        {
+          "Key": "6A2ADC40-49627A3B-FA4D4AB0-128A8911",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_FTUE_RuneMysteries:QFT_UpdateQuestLocation_C_25'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.106"
+          }
+        },
+        {
+          "Key": "419FDA1F-42A220A0-F03C2BBB-CD69421E",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_FTUE_RuneMysteries:QFT_UpdateQuestLocation_C_26'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.107"
+          }
+        },
+        {
+          "Key": "C98F4EF1-4A3CB844-BFAC19B5-CF9C668E",
+          "Value": {
+            "ObjectName": "QFT_UpdateQuestLocation_C'QF_FTUE_RuneMysteries:QFT_UpdateQuestLocation_C_27'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.108"
+          }
+        },
+        {
+          "Key": "E4104D0C-49668708-2ACDEE96-077E5B64",
+          "Value": {
+            "ObjectName": "QFT_SetQuestBool_C'QF_FTUE_RuneMysteries:QFT_SetQuestBool_C_2'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.91"
+          }
+        },
+        {
+          "Key": "8DF834BE-4314D84E-B9AB9391-9C26A51B",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RuneMysteries:QFT_Blank_C_4'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.65"
+          }
+        },
+        {
+          "Key": "336E07CC-4F199C9B-ADD54494-83DF156D",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RuneMysteries:QFT_PromptMessage_C_44'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.84"
+          }
+        },
+        {
+          "Key": "46DC9A2F-4307AD12-83B5B3A9-F9A9AE87",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_FTUE_RuneMysteries:QFT_PromptMessage_C_10'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.79"
+          }
+        },
+        {
+          "Key": "A07902AA-44DD053A-9063B1A3-18C7A9D5",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_FTUE_RuneMysteries:QFT_Blank_C_6'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.67"
+          }
+        },
+        {
+          "Key": "10CBC92D-46C278B8-F7F6888F-706FF128",
+          "Value": {
+            "ObjectName": "ConversationLinkNode'QF_FTUE_RuneMysteries:ConversationLinkNode_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.7"
+          }
+        }
+      ],
+      "EntryTags": [
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.FTUEQuests.FTUERMEntryZanik"
+          },
+          "DestinationList": [
+            "6F8E6FC3-4D9F7FC2-BEB2C488-A75A2124"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.FTUEQuests.FTUEQ4EntryGeyserTrigger"
+          },
+          "DestinationList": [
+            "B8F4F4D1-47D7DE27-C373CB82-8DE16597"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.FTUEQuests.RuneEssenceEntry"
+          },
+          "DestinationList": [
+            "54B6CD15-4E65069C-9FE10383-486E17DE"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.FTUEQuests.AirRuneEntry"
+          },
+          "DestinationList": [
+            "221893EE-41DE1153-A55B2D99-EC4701B6"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.FTUEQuests.FTUEFlaxEntry"
+          },
+          "DestinationList": [
+            "D9A71970-4EEA448A-8DC75EB9-45183505"
+          ],
+          "EntryIdentifier": ""
+        },
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.FTUEQuests.AstralRuneEntry"
+          },
+          "DestinationList": [
+            "69CC58FB-41FE8C49-B188E3A9-49AB5CDE"
+          ],
+          "EntryIdentifier": ""
+        }
+      ],
+      "ExitTags": [
+        "QuestFlow.Entry.FTUEQuests.FTUELOEntryZanik"
+      ],
+      "InternalNodeIds": [
+        "69CC58FB-41FE8C49-B188E3A9-49AB5CDE",
+        "13DC7A4A-44AE47AF-15A7729C-CE84C8DC",
+        "7FA370C1-4F07700A-E24F8DBB-8BDC753C",
+        "D180F013-4D0D97DA-FDBAD090-39D287CF",
+        "953A41D1-44B49F00-818BDE97-C7C39B24",
+        "3BD6710F-4507AA84-77534BBD-345FBE84",
+        "EBC29A7B-41667169-BFC5ABBC-B8E4345D",
+        "9F63A391-4FF75BAC-DD88508D-12FE7B2D",
+        "10598E17-40F784DA-2341FC8B-364D264E",
+        "16113BAF-427AE39B-719983B3-6ED7F1C6",
+        "0EC3A694-4B08FD1E-3809B488-BA7250A1",
+        "889BFCEA-46335502-BB1F3B9D-AC7121CA",
+        "D9A71970-4EEA448A-8DC75EB9-45183505",
+        "3DF9BB82-4B6032BB-E554789A-BF318BCC",
+        "D7F224E1-442513B2-97D30E85-34E0BF21",
+        "221893EE-41DE1153-A55B2D99-EC4701B6",
+        "FF1B04A4-4C77AA94-0F32AFA0-016BD7E3",
+        "1AD6DF47-4DE31A59-EDA89995-08271992",
+        "4DF8E5E8-49069918-B56943AE-E9000882",
+        "C4A78080-4DC42E2D-C082D29E-610510C6",
+        "2F609A2E-49A0F022-0C717D96-3EC38285",
+        "29FC8F88-47E384EF-F3DAC19F-BAAE4BB3",
+        "450E2B53-4D08D7CB-228581A9-52BDC227",
+        "62E05E3A-474301F5-37B47CA6-5A704810",
+        "D3F8BE24-4ED5D7E9-D3517EAE-51D633DF",
+        "05BB6E23-4BD3BAF6-A92BFA95-DFC9E35E",
+        "2F8C0DF6-47695FB1-625FA994-043997DC",
+        "54B6CD15-4E65069C-9FE10383-486E17DE",
+        "E3D32C69-40A4516A-2C18DAAE-59277416",
+        "DF3EA865-4D0590E5-E24B7F9C-11EBAC0E",
+        "D7AB4D75-4DAA13D1-C24103B9-9FE4AE73",
+        "6F770DEE-49C4329D-AD9FC3A9-066B9CD9",
+        "FE1FC88F-4F9C41CE-7DE72F9F-AD67C9E3",
+        "71B16E02-4711FD09-1532C4BF-6B826E57",
+        "2C411742-46A7A3A1-0EF2869C-0E6C7706",
+        "FFFDA73F-4BD13294-4D2EEA88-60B51992",
+        "D8952513-43F3524B-BBE9DA8A-6755195E",
+        "334D1DBD-4A5B6D4D-0C4C099B-F21B7F25",
+        "B8F4F4D1-47D7DE27-C373CB82-8DE16597",
+        "8CC78218-4AF3B99B-A8D6DCA4-98840BEA",
+        "E11DCF22-45BAAF1A-DFDFB79B-C9A4EDC1",
+        "6F8E6FC3-4D9F7FC2-BEB2C488-A75A2124",
+        "856201C2-4CA2E1C5-AF8A94BD-6A7259CB",
+        "4B995711-4BFC9FEE-8C55688E-90654FF2",
+        "7F791F97-4F815E08-66A1AAAC-249BB154",
+        "48F616FC-46FD9120-A02B1FBA-2247FEDF",
+        "203C44E4-4F83C2FD-464136BB-E9F7ACC2",
+        "6FA83B8F-43D93C32-D0A6CEBB-6B89AD7B",
+        "9626817E-4F8CA1BC-53B800AF-FE99C899",
+        "B95E4BE9-4048DCCD-4F798BAD-A8DA5810",
+        "5FCE6B82-4DFB45FE-29FE4B9D-0B8FB292",
+        "5CC08C7B-4F39E9C0-B95EE187-95A94968",
+        "AFDF9499-4CF35F66-284C7C92-E0F3B1CA",
+        "20F1EF80-4AFAF69B-E66AD496-3BA53469",
+        "07ED62E9-4E5EA345-4115ABB9-C0D63FDE",
+        "BA743923-4ADC6116-805D7B8F-6DC83085",
+        "E001C562-4FC75A43-ECEFAB85-B967B655",
+        "CDFB951B-4329FE4E-270242AC-735A7C1C",
+        "ABB50A44-41E5E396-638B24B2-30BD4AF4",
+        "163D5980-43E2A7A2-12C99195-EBED97DA",
+        "2860CD77-40B8D0DA-2FA02BA4-728FDBDF",
+        "2E428C15-4A72941C-2F58F895-4690B140",
+        "E00383BC-435F7407-E130E991-21E978C3",
+        "A8BAB18F-41BD3943-275BCDB7-B6554B28",
+        "759A05CC-403471E0-42920196-B17C00AB",
+        "D403716B-48947620-B0189BA0-460527DD",
+        "8119B25E-40F2CBC6-E0D6578D-51661BEB",
+        "99D8DEFD-45A6DCCD-91C0C1A1-6D7ACC22",
+        "DE8BE3B3-43F53450-4D8365B6-845E2C70",
+        "6A2ADC40-49627A3B-FA4D4AB0-128A8911",
+        "419FDA1F-42A220A0-F03C2BBB-CD69421E",
+        "C98F4EF1-4A3CB844-BFAC19B5-CF9C668E",
+        "E4104D0C-49668708-2ACDEE96-077E5B64",
+        "8DF834BE-4314D84E-B9AB9391-9C26A51B",
+        "336E07CC-4F199C9B-ADD54494-83DF156D",
+        "46DC9A2F-4307AD12-83B5B3A9-F9A9AE87",
+        "A07902AA-44DD053A-9063B1A3-18C7A9D5",
+        "10CBC92D-46C278B8-F7F6888F-706FF128"
+      ]
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.FTUEQuests.FTUERMEntryZanik"
+      },
+      "OutputConnections": [
+        "7F791F97-4F815E08-66A1AAAC-249BB154",
+        "856201C2-4CA2E1C5-AF8A94BD-6A7259CB"
+      ],
+      "Compiled_NodeGUID": "6F8E6FC3-4D9F7FC2-BEB2C488-A75A2124"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.FTUEQuests.FTUEQ4EntryGeyserTrigger"
+      },
+      "OutputConnections": [
+        "8CC78218-4AF3B99B-A8D6DCA4-98840BEA"
+      ],
+      "Compiled_NodeGUID": "B8F4F4D1-47D7DE27-C373CB82-8DE16597"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.FTUEQuests.AirRuneEntry"
+      },
+      "OutputConnections": [
+        "1AD6DF47-4DE31A59-EDA89995-08271992",
+        "FF1B04A4-4C77AA94-0F32AFA0-016BD7E3"
+      ],
+      "Compiled_NodeGUID": "221893EE-41DE1153-A55B2D99-EC4701B6"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.FTUEQuests.AstralRuneEntry"
+      },
+      "OutputConnections": [
+        "889BFCEA-46335502-BB1F3B9D-AC7121CA",
+        "13DC7A4A-44AE47AF-15A7729C-CE84C8DC"
+      ],
+      "Compiled_NodeGUID": "69CC58FB-41FE8C49-B188E3A9-49AB5CDE"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.FTUEQuests.RuneEssenceEntry"
+      },
+      "OutputConnections": [
+        "334D1DBD-4A5B6D4D-0C4C099B-F21B7F25",
+        "E3D32C69-40A4516A-2C18DAAE-59277416"
+      ],
+      "Compiled_NodeGUID": "54B6CD15-4E65069C-9FE10383-486E17DE"
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.FTUEQuests.FTUEFlaxEntry"
+      },
+      "OutputConnections": [
+        "3DF9BB82-4B6032BB-E554789A-BF318BCC"
+      ],
+      "Compiled_NodeGUID": "D9A71970-4EEA448A-8DC75EB9-45183505"
+    }
+  },
+  {
+    "Type": "ConversationLinkNode",
+    "Name": "ConversationLinkNode_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Class": "UScriptClass'ConversationLinkNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RemoteEntryTag": {
+        "TagName": "QuestFlow.Entry.FTUEQuests.FTUELOEntryZanik"
+      },
+      "Compiled_NodeGUID": "10CBC92D-46C278B8-F7F6888F-706FF128",
+      "ParentNode": {
+        "ObjectName": "QFT_Blank_C'QF_FTUE_RuneMysteries:QFT_Blank_C_6'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.67"
+      }
+    }
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_DoesNotHaveQuestState_C",
+    "Name": "QFR_DoesNotHaveQuestState_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_HasQuestState_C",
+    "Name": "QFR_HasQuestState_C_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerDoesntHaveItem_C",
+    "Name": "QFR_PlayerDoesntHaveItem_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerDoesntHaveItem_C",
+    "Name": "QFR_PlayerDoesntHaveItem_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerDoesntHaveSpaceForItems_C",
+    "Name": "QFR_PlayerDoesntHaveSpaceForItems_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasItemAmount_C",
+    "Name": "QFR_PlayerHasItemAmount_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasItemAmount_C",
+    "Name": "QFR_PlayerHasItemAmount_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_PlayerHasSpaceForItems_C",
+    "Name": "QFR_PlayerHasSpaceForItems_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_12",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFR_TestQuestBool_C",
+    "Name": "QFR_TestQuestBool_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_13",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_14",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_15",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_16",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_17",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_18",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_19",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_21",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_22",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_23",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_24",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_25",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_26",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_27",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_28",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_29",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_30",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_CompleteQuest_C",
+    "Name": "QFT_CompleteQuest_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_DispatchFTUENotification_C",
+    "Name": "QFT_DispatchFTUENotification_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_DispatchFTUENotification_C",
+    "Name": "QFT_DispatchFTUENotification_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_DispatchFTUENotification_C",
+    "Name": "QFT_DispatchFTUENotification_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_DispatchFTUENotification_C",
+    "Name": "QFT_DispatchFTUENotification_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveItemsToPlayer_C",
+    "Name": "QFT_GiveItemsToPlayer_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_GiveQuest_C",
+    "Name": "QFT_GiveQuest_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_10",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_11",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_12",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_44",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_9",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_6",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestBool_C",
+    "Name": "QFT_SetQuestBool_C_8",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_SetQuestObjective_C",
+    "Name": "QFT_SetQuestObjective_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_17",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_20",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_25",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_26",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_27",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "QFT_UpdateQuestLocation_C",
+    "Name": "QFT_UpdateQuestLocation_C_7",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_0",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_1",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_2",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_3",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_4",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_5",
+    "Outer": {
+      "ObjectName": "ConversationDatabase'QF_FTUE_RuneMysteries'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Quests/FTUEQuests/QF_FTUE_RuneMysteries.0"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  }
+]

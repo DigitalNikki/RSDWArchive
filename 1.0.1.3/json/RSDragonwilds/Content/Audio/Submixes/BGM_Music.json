@@ -1,0 +1,24 @@
+[
+  {
+    "Type": "SoundSubmix",
+    "Name": "BGM_Music",
+    "Class": "UScriptClass'SoundSubmix'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SubmixEffectChain": [
+        {
+          "ObjectName": "SubmixEffectMultibandCompressorPreset'Ducker_MB_MusicMids'",
+          "ObjectPath": "/Game/Audio/Effects/SidechainCompressors/Ducker_MB_MusicMids"
+        },
+        {
+          "ObjectName": "SubmixEffectDynamicsProcessorPreset'MusicDucker_FullSpectrum'",
+          "ObjectPath": "/Game/Audio/Effects/MusicDucker_FullSpectrum"
+        },
+        {
+          "ObjectName": "SubmixEffectDynamicsProcessorPreset'Boss_Megaduck_SidechainCompressor'",
+          "ObjectPath": "/Game/Audio/Effects/SidechainCompressors/Boss_Megaduck_SidechainCompressor"
+        }
+      ]
+    }
+  }
+]

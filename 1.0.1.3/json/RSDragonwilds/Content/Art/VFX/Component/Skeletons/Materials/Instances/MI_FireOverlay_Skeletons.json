@@ -1,0 +1,24 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "MI_FireOverlay_Skeletons",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material'M_VFX_Fire_Overlay'",
+        "ObjectPath": "/Game/Art/VFX/Library/Survival/Burning/M_VFX_Fire_Overlay"
+      },
+      "BasePropertyOverrides": {
+        "BlendMode": "EBlendMode::BLEND_TranslucentGreyTransmittance",
+        "ShadingModel": "EMaterialShadingModel::MSM_Unlit",
+        "OpacityMaskClipValue": 0.1
+      },
+      "bIncludedInBaseGame": true
+    },
+    "LoadedMaterialResources": [],
+    "CachedData": {
+      "ParentLayerIndexRemap": []
+    }
+  }
+]

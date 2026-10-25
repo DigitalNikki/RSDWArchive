@@ -1,0 +1,354 @@
+[
+  {
+    "Type": "Material",
+    "Name": "M_MagicRibbon_v02",
+    "Class": "UScriptClass'Material'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BlendMode": "EBlendMode::BLEND_Additive",
+      "bUsedWithParticleSprites": true,
+      "bUsedWithMeshParticles": true,
+      "bUsedWithNiagaraSprites": true,
+      "bUsedWithNiagaraRibbons": true,
+      "bUsedWithNiagaraMeshParticles": true,
+      "bCanMaskedBeAssumedOpaque": true,
+      "PixelDepthOffsetMode": "EPixelDepthOffsetMode::PDOM_Legacy",
+      "StateId": "45B09020-4C5EFFCF-6D2D75BA-EB670F5A",
+      "TextureStreamingData": [
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "T_Sub_Noise_3"
+        }
+      ],
+      "bIncludedInBaseGame": true
+    },
+    "LoadedMaterialResources": [],
+    "CachedExpressionData": {
+      "RuntimeEntries": {
+        "ParameterInfoSet": [
+          {
+            "Name": "texPower",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          {
+            "Name": "noiseDensity",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          {
+            "Name": "noisePower",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          {
+            "Name": "alphaDensity",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          {
+            "Name": "FresnelMultiply",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          {
+            "Name": "DepthFadeDistance",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          {
+            "Name": "A",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          {
+            "Name": "SoftEdge?",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          {
+            "Name": "UsingRibbons?",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          {
+            "Name": "HueShiftAmount",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          {
+            "Name": "EmissiveMult",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          {
+            "Name": "BaseMult",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          }
+        ]
+      },
+      "RuntimeEntries[1]": {
+        "ParameterInfoSet": []
+      },
+      "RuntimeEntries[2]": {
+        "ParameterInfoSet": []
+      },
+      "RuntimeEntries[3]": {
+        "ParameterInfoSet": []
+      },
+      "RuntimeEntries[4]": {
+        "ParameterInfoSet": []
+      },
+      "RuntimeEntries[5]": {
+        "ParameterInfoSet": []
+      },
+      "RuntimeEntries[6]": {
+        "ParameterInfoSet": []
+      },
+      "RuntimeEntries[7]": {
+        "ParameterInfoSet": []
+      },
+      "RuntimeEntries[8]": {
+        "ParameterInfoSet": [
+          {
+            "Name": "Use Eye Adaptation Inverse?",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          }
+        ]
+      },
+      "ScalarPrimitiveDataIndexValues": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "VectorPrimitiveDataIndexValues": [],
+      "ScalarValues": [
+        2.0,
+        1.0,
+        0.2,
+        1.0,
+        1.0,
+        300.0,
+        0.2,
+        0.0,
+        1.0,
+        0.928,
+        0.36,
+        1.0
+      ],
+      "StaticSwitchValues": [
+        false
+      ],
+      "DynamicSwitchValues": [
+        false
+      ],
+      "VectorValues": [],
+      "DoubleVectorValues": [],
+      "TextureValues": [],
+      "TextureCollectionValues": [],
+      "FontValues": [],
+      "FontPageValues": [],
+      "RuntimeVirtualTextureValues": [],
+      "SparseVolumeTextureValues": [],
+      "ReferencedTextures": [
+        {
+          "ObjectName": "Texture2D'T_MagicRibbon01'",
+          "ObjectPath": "/Game/Art/VFX/Library/Env/MagicWell/T_MagicRibbon01"
+        },
+        {
+          "ObjectName": "Texture2D'T_VFX_Caustics'",
+          "ObjectPath": "/Game/Art/VFX/Component/Texture/Noise/T_VFX_Caustics"
+        },
+        {
+          "ObjectName": "Texture2D'T_Noise_Soft'",
+          "ObjectPath": "/Game/Art/VFX/Library/Crafting/Brewing_Barrel/Textures/T_Noise_Soft"
+        },
+        {
+          "ObjectName": "Texture2D'T_Sub_Noise_3'",
+          "ObjectPath": "/Game/Art/VFX/Component/Building/Textures/T_Sub_Noise_3"
+        },
+        {
+          "ObjectName": "Texture2D'T_ky_noise6'",
+          "ObjectPath": "/Game/Art/VFX/Library/Env/MagicWell/T_ky_noise6"
+        },
+        {
+          "ObjectName": "Texture2D'T_ky_noise13_sml_nor'",
+          "ObjectPath": "/Game/Art/VFX/Library/Env/MagicWell/T_ky_noise13_sml_nor"
+        },
+        {
+          "ObjectName": "Texture2D'T_MagicRibbon02'",
+          "ObjectPath": "/Game/Art/VFX/Library/Env/MagicWell/T_MagicRibbon02"
+        }
+      ],
+      "ReferencedTextureCollections": [],
+      "ReferencedExternalCodeExpressionClasses": [
+        {
+          "ObjectName": "Class'MaterialExpressionParticleColor'",
+          "ObjectPath": "/Script/Engine"
+        },
+        {
+          "ObjectName": "Class'MaterialExpressionEyeAdaptationInverse'",
+          "ObjectPath": "/Script/Engine"
+        }
+      ],
+      "FunctionInfos": [
+        {
+          "StateId": "073623F3-4EECE6DA-9851CC96-5B49AE44",
+          "Function": {
+            "ObjectName": "MaterialFunction'DynamicBranch'",
+            "ObjectPath": "/Engine/Functions/Engine_MaterialFunctions02/Utility/DynamicBranch"
+          }
+        },
+        {
+          "StateId": "073623F3-4EECE6DA-9851CC96-5B49AE44",
+          "Function": {
+            "ObjectName": "MaterialFunction'DynamicBranch'",
+            "ObjectPath": "/Engine/Functions/Engine_MaterialFunctions02/Utility/DynamicBranch"
+          }
+        },
+        {
+          "StateId": "B7C71B91-4E2BB667-772D6CBE-2AB55665",
+          "Function": {
+            "ObjectName": "MaterialFunction'LinearGradient'",
+            "ObjectPath": "/Engine/Functions/Engine_MaterialFunctions01/Gradient/LinearGradient"
+          }
+        },
+        {
+          "StateId": "E36855D3-4F101683-B3F0D590-4E53AD6F",
+          "Function": {
+            "ObjectName": "MaterialFunction'3ColorBlend'",
+            "ObjectPath": "/Engine/Functions/Engine_MaterialFunctions01/ImageAdjustment/3ColorBlend"
+          }
+        },
+        {
+          "StateId": "F1A8C6A9-4D37E691-BD787485-98A34AB8",
+          "Function": {
+            "ObjectName": "MaterialFunction'RemapValueRange'",
+            "ObjectPath": "/Engine/Functions/Engine_MaterialFunctions03/Math/RemapValueRange"
+          }
+        },
+        {
+          "StateId": "B7C71B91-4E2BB667-772D6CBE-2AB55665",
+          "Function": {
+            "ObjectName": "MaterialFunction'LinearGradient'",
+            "ObjectPath": "/Engine/Functions/Engine_MaterialFunctions01/Gradient/LinearGradient"
+          }
+        },
+        {
+          "StateId": "F1A8C6A9-4D37E691-BD787485-98A34AB8",
+          "Function": {
+            "ObjectName": "MaterialFunction'RemapValueRange'",
+            "ObjectPath": "/Engine/Functions/Engine_MaterialFunctions03/Math/RemapValueRange"
+          }
+        },
+        {
+          "StateId": "B7C71B91-4E2BB667-772D6CBE-2AB55665",
+          "Function": {
+            "ObjectName": "MaterialFunction'LinearGradient'",
+            "ObjectPath": "/Engine/Functions/Engine_MaterialFunctions01/Gradient/LinearGradient"
+          }
+        },
+        {
+          "StateId": "E6715291-45CBD5A7-9C2DB096-ABFA19DF",
+          "Function": {
+            "ObjectName": "MaterialFunction'AppendMany'",
+            "ObjectPath": "/Engine/Functions/Engine_MaterialFunctions02/Utility/AppendMany"
+          }
+        },
+        {
+          "StateId": "E6715291-45CBD5A7-9C2DB096-ABFA19DF",
+          "Function": {
+            "ObjectName": "MaterialFunction'AppendMany'",
+            "ObjectPath": "/Engine/Functions/Engine_MaterialFunctions02/Utility/AppendMany"
+          }
+        },
+        {
+          "StateId": "B6067F67-4AC0092A-9D7DF581-EBEEE180",
+          "Function": {
+            "ObjectName": "MaterialFunction'HueShift'",
+            "ObjectPath": "/Engine/Functions/Engine_MaterialFunctions02/HueShift"
+          }
+        }
+      ],
+      "FunctionInfosStateCRC": 488300008,
+      "ParameterCollectionInfos": [],
+      "GrassTypes": [],
+      "MaterialLayers": {
+        "Layers": [],
+        "Blends": [],
+        "Tree": {
+          "Nodes": [],
+          "Payloads": [],
+          "Root": -1
+        }
+      },
+      "DynamicParameterNames": [
+        "Color 1",
+        "Color 2",
+        "PanningSpeedScaleB",
+        "PanningSpeedScaleC"
+      ],
+      "QualityLevelsUsed": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "bHasMaterialLayers": false,
+      "bHasRuntimeVirtualTextureOutput": false,
+      "bHasFirstPersonOutput": false,
+      "bHasMaterialCacheOutput": false,
+      "bMaterialCacheHasNonUVDerivedExpression": false,
+      "bHasSceneColor": false,
+      "bHasPerInstanceCustomData": false,
+      "bHasPerInstanceRandom": false,
+      "bHasVertexInterpolator": false,
+      "bHasCustomizedUVs": false,
+      "bHasMeshPaintTexture": false,
+      "bHasWorldPosition": false,
+      "PropertyConnectedMask": 35
+    },
+    "ReferencedTextures": [
+      {
+        "ObjectName": "Texture2D'T_Sub_Noise_3'",
+        "ObjectPath": "/Game/Art/VFX/Component/Building/Textures/T_Sub_Noise_3"
+      },
+      {
+        "ObjectName": "Texture2D'T_VFX_Caustics'",
+        "ObjectPath": "/Game/Art/VFX/Component/Texture/Noise/T_VFX_Caustics"
+      },
+      {
+        "ObjectName": "Texture2D'T_Noise_Soft'",
+        "ObjectPath": "/Game/Art/VFX/Library/Crafting/Brewing_Barrel/Textures/T_Noise_Soft"
+      },
+      {
+        "ObjectName": "Texture2D'T_ky_noise13_sml_nor'",
+        "ObjectPath": "/Game/Art/VFX/Library/Env/MagicWell/T_ky_noise13_sml_nor"
+      },
+      {
+        "ObjectName": "Texture2D'T_ky_noise6'",
+        "ObjectPath": "/Game/Art/VFX/Library/Env/MagicWell/T_ky_noise6"
+      },
+      {
+        "ObjectName": "Texture2D'T_MagicRibbon01'",
+        "ObjectPath": "/Game/Art/VFX/Library/Env/MagicWell/T_MagicRibbon01"
+      },
+      {
+        "ObjectName": "Texture2D'T_MagicRibbon02'",
+        "ObjectPath": "/Game/Art/VFX/Library/Env/MagicWell/T_MagicRibbon02"
+      }
+    ]
+  }
+]

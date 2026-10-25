@@ -1,0 +1,96 @@
+[
+  {
+    "Type": "QuestData",
+    "Name": "Quest_FH_MirrorMirror",
+    "Class": "UScriptClass'QuestData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "QuestName": {
+        "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_MirrorMirror/ST_FH_MirrorMirror.ST_FH_MirrorMirror",
+        "Key": "QuestName",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "CompletedQuestDescription": {
+        "TableId": "/Game/Gameplay/Quests/ST_QuestCompletionText.ST_QuestCompletionText",
+        "Key": "MirrorMirror",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "QuestRegion": "EQuestRegion::Fellhollow",
+      "QuestDescription": {
+        "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_MirrorMirror/ST_FH_MirrorMirror.ST_FH_MirrorMirror",
+        "Key": "QuestDescription",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Objectives": [
+        {
+          "Key": "FindSilverThread",
+          "Value": {
+            "Description": {
+              "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_MirrorMirror/ST_FH_MirrorMirror.ST_FH_MirrorMirror",
+              "Key": "ObjectiveOne",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "SubobjectiveDescription": {
+              "CultureInvariantString": null
+            },
+            "Hint": {
+              "CultureInvariantString": null
+            },
+            "bOverrideQuestDescription": false,
+            "QuestDescriptionOverride": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        {
+          "Key": "LightCandles",
+          "Value": {
+            "Description": {
+              "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_MirrorMirror/ST_FH_MirrorMirror.ST_FH_MirrorMirror",
+              "Key": "ObjectiveTwoOne",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "SubobjectiveDescription": {
+              "CultureInvariantString": null
+            },
+            "Hint": {
+              "CultureInvariantString": null
+            },
+            "bOverrideQuestDescription": false,
+            "QuestDescriptionOverride": {
+              "CultureInvariantString": null
+            }
+          }
+        },
+        {
+          "Key": "ReturnToNPC",
+          "Value": {
+            "Description": {
+              "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_MirrorMirror/ST_FH_MirrorMirror.ST_FH_MirrorMirror",
+              "Key": "ObjectiveThree",
+              "SourceString": null,
+              "LocalizedString": ""
+            },
+            "SubobjectiveDescription": {
+              "CultureInvariantString": null
+            },
+            "Hint": {
+              "CultureInvariantString": null
+            },
+            "bOverrideQuestDescription": false,
+            "QuestDescriptionOverride": {
+              "CultureInvariantString": null
+            }
+          }
+        }
+      ],
+      "PersistenceID": "KLBpt02O2AA_kaa_A8Av9w",
+      "InternalName": "FH_MirrorMirror"
+    }
+  }
+]

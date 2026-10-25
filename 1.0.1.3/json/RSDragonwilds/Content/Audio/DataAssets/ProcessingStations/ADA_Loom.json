@@ -1,0 +1,38 @@
+[
+  {
+    "Type": "ProcessingStationAudioData",
+    "Name": "ADA_Loom",
+    "Class": "UScriptClass'ProcessingStationAudioData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "VendTagToSFXMap": [
+        {
+          "Key": {
+            "TagName": "Audio.Default"
+          },
+          "Value": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Pl_Cr_Loom_Vend'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/UI/Crafting/ProcessingStation/Loom/MSS_Pl_Cr_Loom_Vend"
+          }
+        }
+      ],
+      "ProcessingLoopStartedSFX": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Cr_Mn_ProcessingStartUI_WoodMech'",
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Crafting/ProcessingStation/ProcessingStartUI/MSS_Cr_Mn_ProcessingStartUI_WoodMech"
+      },
+      "ProcessingLoopSFX": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Pl_Cr_LoomLoop'",
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Crafting/ProcessingStation/Loom/MSS_Pl_Cr_LoomLoop"
+      },
+      "ProcessingLoopStoppedSFX": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Cr_Mn_ProcessingStopUI_WoodMech'",
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Crafting/ProcessingStation/ProcessingStartUI/MSS_Cr_Mn_ProcessingStopUI_WoodMech"
+      },
+      "RecipeChangedSFX": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Pl_Cr_Loom_Deposit'",
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Crafting/ProcessingStation/Loom/MSS_Pl_Cr_Loom_Deposit"
+      },
+      "ProcessingLoopFadeOut": 1.0
+    }
+  }
+]

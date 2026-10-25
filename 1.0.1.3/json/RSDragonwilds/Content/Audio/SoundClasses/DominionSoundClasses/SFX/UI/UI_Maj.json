@@ -1,0 +1,36 @@
+[
+  {
+    "Type": "DominionSoundClass",
+    "Name": "UI_Maj",
+    "Class": "UScriptClass'DominionSoundClass'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MinReverbSend": 0.15,
+      "Properties": {
+        "Volume": 0.31622776,
+        "DefaultSubmix": {
+          "ObjectName": "SoundSubmix'SFX'",
+          "ObjectPath": "/Game/Audio/Submixes/SFX"
+        }
+      },
+      "ChildClasses": [
+        {
+          "ObjectName": "DominionSoundClass'UI_Duckers'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/UI/UI_Duckers"
+        },
+        {
+          "ObjectName": "DominionSoundClass'UI_Duckees'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/UI/UI_Duckees"
+        },
+        {
+          "ObjectName": "DominionSoundClass'UI_CentreChannel'",
+          "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/UI/UI_CentreChannel"
+        }
+      ],
+      "ParentClass": {
+        "ObjectName": "DominionSoundClass'UI'",
+        "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/UI/UI"
+      }
+    }
+  }
+]

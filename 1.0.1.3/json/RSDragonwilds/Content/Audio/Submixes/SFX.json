@@ -1,0 +1,61 @@
+[
+  {
+    "Type": "SoundSubmix",
+    "Name": "SFX",
+    "Class": "UScriptClass'SoundSubmix'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SubmixEffectChain": [
+        null
+      ],
+      "EnvelopeFollowerAttackTime": 0,
+      "EnvelopeFollowerReleaseTime": 300,
+      "ChildSubmixes": [
+        {
+          "ObjectName": "SoundSubmix'Duck_WorldLoops'",
+          "ObjectPath": "/Game/Audio/Submixes/Duck_WorldLoops"
+        },
+        {
+          "ObjectName": "SoundSubmix'Melee'",
+          "ObjectPath": "/Game/Audio/Submixes/Melee"
+        },
+        {
+          "ObjectName": "SoundSubmix'Pl_Magic_Min'",
+          "ObjectPath": "/Game/Audio/Submixes/Pl_Magic_Min"
+        },
+        {
+          "ObjectName": "SoundSubmix'UI_Reverb'",
+          "ObjectPath": "/Game/Audio/Reverbs/SubmixAlgorithmicReverbs/UI_Reverb"
+        },
+        {
+          "ObjectName": "SoundSubmix'Pl_Magic_Maj'",
+          "ObjectPath": "/Game/Audio/Submixes/Pl_Magic_Maj"
+        },
+        {
+          "ObjectName": "SoundSubmix'Boss_Maj'",
+          "ObjectPath": "/Game/Audio/Submixes/Boss_Maj"
+        },
+        {
+          "ObjectName": "SoundSubmix'Player_Foley'",
+          "ObjectPath": "/Game/Audio/Submixes/Player_Foley"
+        },
+        {
+          "ObjectName": "SoundSubmix'Pl_MagicWeaponLoop'",
+          "ObjectPath": "/Game/Audio/Submixes/Pl_MagicWeaponLoop"
+        },
+        {
+          "ObjectName": "SoundSubmix'MagicNonDiegeticReverb'",
+          "ObjectPath": "/Game/Audio/Reverbs/SubmixAlgorithmicReverbs/MagicNonDiegeticReverb"
+        },
+        {
+          "ObjectName": "SoundSubmix'AI'",
+          "ObjectPath": "/Game/Audio/Submixes/AI"
+        },
+        {
+          "ObjectName": "SoundSubmix'UI_ReverbLong'",
+          "ObjectPath": "/Game/Audio/Reverbs/SubmixAlgorithmicReverbs/UI_ReverbLong"
+        }
+      ]
+    }
+  }
+]

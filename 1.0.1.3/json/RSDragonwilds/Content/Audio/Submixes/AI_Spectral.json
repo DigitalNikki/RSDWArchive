@@ -1,0 +1,24 @@
+[
+  {
+    "Type": "SoundSubmix",
+    "Name": "AI_Spectral",
+    "Class": "UScriptClass'SoundSubmix'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ParentSubmix": {
+        "ObjectName": "SoundSubmix'AI'",
+        "ObjectPath": "/Game/Audio/Submixes/AI"
+      },
+      "ChildSubmixes": [
+        {
+          "ObjectName": "SoundSubmix'AI_Spectral_Vox'",
+          "ObjectPath": "/Game/Audio/Submixes/AI_Spectral_Vox"
+        },
+        {
+          "ObjectName": "SoundSubmix'AI_Spectral_Magic'",
+          "ObjectPath": "/Game/Audio/Submixes/AI_Spectral_Magic"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "Type": "AudioZoneData",
+    "Name": "ADA_AudioZone_DowdunCistern",
+    "Class": "UScriptClass'AudioZoneData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AudioZoneEmitterEvents_DayTime": [
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_DR_CisternBell'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/BiomeBeds/Dowdun/Emitters/MSS_Wo_EmMo_DR_CisternBell"
+          },
+          "Weight": 60
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_DR_CisternChime'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/BiomeBeds/Dowdun/Emitters/MSS_Wo_EmMo_DR_CisternChime"
+          },
+          "Weight": 50
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_DR_CisternMetalRattle'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/BiomeBeds/Dowdun/Emitters/MSS_Wo_EmMo_DR_CisternMetalRattle"
+          },
+          "Weight": 30
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_WaterDrips'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/Generic/Dungeon/MSS_Wo_EmMo_WaterDrips"
+          },
+          "Weight": 75
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_BC_Wo_EmMo_DungeonSpotWind'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/Generic/BeautifulCorner/AmbEmitters/MSS_BC_Wo_EmMo_DungeonSpotWind"
+          },
+          "Weight": 30
+        }
+      ],
+      "AudioZoneEmitterEvents_NightTime": [
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_DR_CisternBell'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/BiomeBeds/Dowdun/Emitters/MSS_Wo_EmMo_DR_CisternBell"
+          },
+          "Weight": 60
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_DR_CisternChime'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/BiomeBeds/Dowdun/Emitters/MSS_Wo_EmMo_DR_CisternChime"
+          },
+          "Weight": 50
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_DR_CisternMetalRattle'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/BiomeBeds/Dowdun/Emitters/MSS_Wo_EmMo_DR_CisternMetalRattle"
+          },
+          "Weight": 30
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_Wo_EmMo_WaterDrips'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/Generic/Dungeon/MSS_Wo_EmMo_WaterDrips"
+          },
+          "Weight": 75
+        },
+        {
+          "AudioEvent": {
+            "ObjectName": "DominionMetaSoundSource'MSS_BC_Wo_EmMo_DungeonSpotWind'",
+            "ObjectPath": "/Game/Audio/MetasoundSources/World/Generic/BeautifulCorner/AmbEmitters/MSS_BC_Wo_EmMo_DungeonSpotWind"
+          },
+          "Weight": 30
+        }
+      ],
+      "Priority": 7,
+      "OuterRadius": 1500.0,
+      "InnerRadius": 750.0,
+      "ZoneEmitterCap": 2,
+      "ProbabilityToSpawnNonDiegeticEmitterDay": 25.0,
+      "ProbabilityToSpawnNonDiegeticEmitterNight": 25.0
+    }
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "Type": "InputMappingContext",
+    "Name": "IMC_ServerFilterDialog",
+    "Class": "UScriptClass'InputMappingContext'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Mappings": [
+        {
+          "Triggers": [],
+          "Modifiers": [],
+          "Action": {
+            "ObjectName": "InputAction'IA_UI_ServerFilterAccept'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Actions/UI/IA_UI_ServerFilterAccept"
+          },
+          "Key": {
+            "KeyName": "Gamepad_FaceButton_Left"
+          },
+          "SettingBehavior": "EPlayerMappableKeySettingBehaviors::InheritSettingsFromAction",
+          "PlayerMappableKeySettings": null
+        },
+        {
+          "Triggers": [],
+          "Modifiers": [],
+          "Action": {
+            "ObjectName": "InputAction'IA_UI_ServerFilterCancel'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Actions/UI/IA_UI_ServerFilterCancel"
+          },
+          "Key": {
+            "KeyName": "Gamepad_FaceButton_Right"
+          },
+          "SettingBehavior": "EPlayerMappableKeySettingBehaviors::InheritSettingsFromAction",
+          "PlayerMappableKeySettings": null
+        }
+      ]
+    }
+  }
+]

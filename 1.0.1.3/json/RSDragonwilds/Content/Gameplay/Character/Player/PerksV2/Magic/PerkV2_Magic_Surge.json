@@ -1,0 +1,64 @@
+[
+  {
+    "Type": "SkillPerkData",
+    "Name": "PerkV2_Magic_Surge",
+    "Class": "UScriptClass'SkillPerkData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "PerkName": {
+        "TableId": "/Game/Gameplay/Character/Player/PerksV2/ST_Skills_Perks.ST_Skills_Perks",
+        "Key": "Magic.Surge.Name",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "PerkDescription": {
+        "TableId": "/Game/Gameplay/Character/Player/PerksV2/ST_Skills_Perks.ST_Skills_Perks",
+        "Key": "Magic.Surge.Desc",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "SkillPerkImage": {
+        "AssetPathName": "/Game/Art/UI/Skills/Icons/Unlock/Magic/T_Skill_Magic_Spell_Surge.T_Skill_Magic_Spell_Surge",
+        "SubPathString": ""
+      },
+      "PerkModules": [
+        {
+          "ObjectName": "SkillPerkModule_Spell'PerkV2_Magic_Surge:SkillPerkModule_Spell_0'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/PerksV2/Magic/PerkV2_Magic_Surge.1"
+        }
+      ],
+      "PerkUnlockInfo": {
+        "AssociatedSkill": {
+          "AssetPathName": "/Game/Gameplay/Character/Player/Skills/SKILL_Magic.SKILL_Magic",
+          "SubPathString": ""
+        },
+        "RequiredSkillLevel": 11
+      },
+      "PerkUsageVideo": {
+        "ObjectName": "BinkMediaPlayer'Video_Magic_Surge'",
+        "ObjectPath": "/Game/Movies/Video_Magic_Surge"
+      },
+      "FeatureTag": {
+        "TagName": "Feature.MagicSkillPerks"
+      },
+      "PersistenceID": "tG-bHE7MxIu_fPKmxO5oGQ",
+      "InternalName": "perk_magic_surge"
+    }
+  },
+  {
+    "Type": "SkillPerkModule_Spell",
+    "Name": "SkillPerkModule_Spell_0",
+    "Outer": {
+      "ObjectName": "SkillPerkData'PerkV2_Magic_Surge'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/PerksV2/Magic/PerkV2_Magic_Surge.0"
+    },
+    "Class": "UScriptClass'SkillPerkModule_Spell'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SpellData": {
+        "ObjectName": "UtilitySpellData'USD_Surge'",
+        "ObjectPath": "/Game/Gameplay/UtilityMagic/PerkSpells/Surge/USD_Surge"
+      }
+    }
+  }
+]

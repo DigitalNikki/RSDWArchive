@@ -1,0 +1,389 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Torch_Standing_SW_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Torch_Standing_SW_C:SimpleConstructionScript_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Art/Env/Lighting/Torhes/BP_Torch_Standing_SW.9"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_Torch_Standing_SW_C:InheritableComponentHandler'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Art/Env/Lighting/Torhes/BP_Torch_Standing_SW.3"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_TorchBase_C'",
+      "ObjectPath": "/Game/Art/Env/Lighting/Torhes/BP_TorchBase"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_NoExport | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Torch_Standing_SW_C'Default__BP_Torch_Standing_SW_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Art/Env/Lighting/Torhes/BP_Torch_Standing_SW.2"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_ProxyLightComponent_C",
+    "Name": "BP_ProxyLightComponent_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Torch_Standing_SW_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Art/Env/Lighting/Torhes/BP_Torch_Standing_SW.0"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate"
+  },
+  {
+    "Type": "BP_Torch_Standing_SW_C",
+    "Name": "Default__BP_Torch_Standing_SW_C",
+    "Class": "BlueprintGeneratedClass'1.0.1.3/RSDragonwilds/Content/Art/Env/Lighting/Torhes/BP_Torch_Standing_SW.BP_Torch_Standing_SW_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Torch_Standing_SW_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Art/Env/Lighting/Torhes/BP_Torch_Standing_SW.0"
+    },
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'NiagaraComponent'",
+            "ObjectPath": "/Script/Niagara"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "NiagaraComponent'BP_Torch_Standing_SW_C:NS_Torch_02_GEN_VARIABLE'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Art/Env/Lighting/Torhes/BP_Torch_Standing_SW.4"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_TorchBase_C'",
+              "ObjectPath": "/Game/Art/Env/Lighting/Torhes/BP_TorchBase"
+            },
+            "SCSVariableName": "NS_Torch_02",
+            "AssociatedGuid": "989AC2F4-4B70F9E8-9F25BC8E-F8AA2498"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "StaticMeshComponent'BP_Torch_Standing_SW_C:TorchMesh_GEN_VARIABLE'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Art/Env/Lighting/Torhes/BP_Torch_Standing_SW.10"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_TorchBase_C'",
+              "ObjectPath": "/Game/Art/Env/Lighting/Torhes/BP_TorchBase"
+            },
+            "SCSVariableName": "TorchMesh",
+            "AssociatedGuid": "624F69ED-4E5FFE0B-7A48D7B6-53F11C80"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "SceneComponent'BP_Torch_Standing_SW_C:Fire_Position_GEN_VARIABLE'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Art/Env/Lighting/Torhes/BP_Torch_Standing_SW.7"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_TorchBase_C'",
+              "ObjectPath": "/Game/Art/Env/Lighting/Torhes/BP_TorchBase"
+            },
+            "SCSVariableName": "Fire_Position",
+            "AssociatedGuid": "6EC7C7DD-44221108-1FDE51BB-E5F59B23"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "StaticMeshComponent'BP_Torch_Standing_SW_C:VFX_PLANE_GEN_VARIABLE'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Art/Env/Lighting/Torhes/BP_Torch_Standing_SW.11"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_TorchBase_C'",
+              "ObjectPath": "/Game/Art/Env/Lighting/Torhes/BP_TorchBase"
+            },
+            "SCSVariableName": "VFX_PLANE",
+            "AssociatedGuid": "B0EAD7CD-4C6E7B8B-F85C2FB0-E3D3B7DF"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'PointLightComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "PointLightComponent'BP_Torch_Standing_SW_C:PointLight_GEN_VARIABLE'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Art/Env/Lighting/Torhes/BP_Torch_Standing_SW.5"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_TorchBase_C'",
+              "ObjectPath": "/Game/Art/Env/Lighting/Torhes/BP_TorchBase"
+            },
+            "SCSVariableName": "PointLight",
+            "AssociatedGuid": "652E6AC6-483BB763-F95C7590-21EC5136"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "BlueprintGeneratedClass'BP_ProxyLightComponent_C'",
+            "ObjectPath": "/Game/Art/Env/Lighting/BPs/BP_ProxyLightComponent"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "BP_ProxyLightComponent_C'BP_Torch_Standing_SW_C:BP_ProxyLightComponent_GEN_VARIABLE'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Art/Env/Lighting/Torhes/BP_Torch_Standing_SW.1"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_TorchBase_C'",
+              "ObjectPath": "/Game/Art/Env/Lighting/Torhes/BP_TorchBase"
+            },
+            "SCSVariableName": "BP_ProxyLightComponent",
+            "AssociatedGuid": "AA9A9786-45EDB6DA-F7BC17AD-FDD72B76"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "NS_Torch_02_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Torch_Standing_SW_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Art/Env/Lighting/Torhes/BP_Torch_Standing_SW.0"
+    },
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Properties": {
+      "OverrideParameters": {},
+      "RelativeLocation": {
+        "X": 1.4303745E-07,
+        "Y": 1.9866278E-08,
+        "Z": -29.479237
+      }
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "PointLight_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Torch_Standing_SW_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Art/Env/Lighting/Torhes/BP_Torch_Standing_SW.0"
+    },
+    "Class": "UScriptClass'PointLightComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Properties": {
+      "SourceRadius": 15.0,
+      "InverseExposureBlend": 1.0,
+      "AttenuationRadius": 800.0,
+      "MaxDrawDistance": 10000.0,
+      "MaxDistanceFadeRange": 2000.0,
+      "LightFunctionMaterial": {
+        "ObjectName": "MaterialInstanceConstant'MI_Fire_flickering_main'",
+        "ObjectPath": "/Game/Art/Env/Lighting/Materials/MI_Fire_flickering_main"
+      },
+      "intensity": 25000.0,
+      "LightColor": {
+        "B": 0,
+        "G": 80,
+        "R": 255,
+        "A": 255,
+        "Hex": "FF5000"
+      }
+    },
+    "IntensityNits": 0.017777776
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Torch_Standing_SW_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Art/Env/Lighting/Torhes/BP_Torch_Standing_SW.0"
+    },
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Fire_Position_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Torch_Standing_SW_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Art/Env/Lighting/Torhes/BP_Torch_Standing_SW.0"
+    },
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 6.2327956E-09,
+        "Y": 0.0,
+        "Z": 161.7965
+      }
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Torch_Standing_SW_C:SimpleConstructionScript_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Art/Env/Lighting/Torhes/BP_Torch_Standing_SW.9"
+    },
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Torch_Standing_SW_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Art/Env/Lighting/Torhes/BP_Torch_Standing_SW.6"
+      },
+      "VariableGUID": "1C16E5C1-45B461B4-93617D82-9E0AF350",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Torch_Standing_SW_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Art/Env/Lighting/Torhes/BP_Torch_Standing_SW.0"
+    },
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Torch_Standing_SW_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Art/Env/Lighting/Torhes/BP_Torch_Standing_SW.8"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "TorchMesh_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Torch_Standing_SW_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Art/Env/Lighting/Torhes/BP_Torch_Standing_SW.0"
+    },
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Floor_Torch_02'",
+        "ObjectPath": "/Game/Art/Env/Base_Building/Furniture/Cosiness/Torches/SM_Floor_Torch_02"
+      },
+      "CustomPrimitiveData": {
+        "Data": [
+          0.0,
+          1.0,
+          0.31398875,
+          0.011612247,
+          1.0
+        ]
+      },
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Footstep",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "WorldActor",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Projectile_PathTrace",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Projectile_Arrow",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "FeetIK",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "AudioOcclusion",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "VFX_PLANE_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Torch_Standing_SW_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Art/Env/Lighting/Torhes/BP_Torch_Standing_SW.0"
+    },
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 18.238955
+      },
+      "RelativeScale3D": {
+        "X": 0.5,
+        "Y": 0.5,
+        "Z": 0.5
+      }
+    }
+  }
+]

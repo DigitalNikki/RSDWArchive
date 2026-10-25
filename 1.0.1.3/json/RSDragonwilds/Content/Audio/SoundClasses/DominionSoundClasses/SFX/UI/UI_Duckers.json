@@ -1,0 +1,31 @@
+[
+  {
+    "Type": "DominionSoundClass",
+    "Name": "UI_Duckers",
+    "Class": "UScriptClass'DominionSoundClass'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MinReverbSend": 0.15,
+      "Properties": {
+        "DefaultSubmix": {
+          "ObjectName": "SoundSubmix'SFX'",
+          "ObjectPath": "/Game/Audio/Submixes/SFX"
+        }
+      },
+      "PassiveSoundMixModifiers": [
+        {
+          "SoundMix": {
+            "ObjectName": "SoundMix'Mix_UIDucking'",
+            "ObjectPath": "/Game/Audio/SoundMixes/Mix_UIDucking"
+          },
+          "MinVolumeThreshold": 0.0,
+          "MaxVolumeThreshold": 10.0
+        }
+      ],
+      "ParentClass": {
+        "ObjectName": "DominionSoundClass'UI_Maj'",
+        "ObjectPath": "/Game/Audio/SoundClasses/DominionSoundClasses/SFX/UI/UI_Maj"
+      }
+    }
+  }
+]

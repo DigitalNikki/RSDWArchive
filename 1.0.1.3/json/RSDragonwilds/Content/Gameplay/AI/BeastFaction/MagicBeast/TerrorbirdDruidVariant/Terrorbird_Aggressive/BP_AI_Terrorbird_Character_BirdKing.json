@@ -1,0 +1,393 @@
+[
+  {
+    "Type": "AIAttributesComponent",
+    "Name": "AI Attributes Component",
+    "Outer": {
+      "ObjectName": "BP_AI_Terrorbird_Character_BirdKing_C'Default__BP_AI_Terrorbird_Character_BirdKing_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BeastFaction/MagicBeast/TerrorbirdDruidVariant/Terrorbird_Aggressive/BP_AI_Terrorbird_Character_BirdKing.6"
+    },
+    "Class": "UScriptClass'AIAttributesComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "AIDominionGameplayEffectsComponent",
+    "Name": "Gameplay Effects Component",
+    "Outer": {
+      "ObjectName": "BP_AI_Terrorbird_Character_BirdKing_C'Default__BP_AI_Terrorbird_Character_BirdKing_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BeastFaction/MagicBeast/TerrorbirdDruidVariant/Terrorbird_Aggressive/BP_AI_Terrorbird_Character_BirdKing.6"
+    },
+    "Class": "UScriptClass'AIDominionGameplayEffectsComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "AiHealthComponent",
+    "Name": "Health Component",
+    "Outer": {
+      "ObjectName": "BP_AI_Terrorbird_Character_BirdKing_C'Default__BP_AI_Terrorbird_Character_BirdKing_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BeastFaction/MagicBeast/TerrorbirdDruidVariant/Terrorbird_Aggressive/BP_AI_Terrorbird_Character_BirdKing.6"
+    },
+    "Class": "UScriptClass'AiHealthComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "AiMovementComponent",
+    "Name": "CharMoveComp",
+    "Outer": {
+      "ObjectName": "BP_AI_Terrorbird_Character_BirdKing_C'Default__BP_AI_Terrorbird_Character_BirdKing_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BeastFaction/MagicBeast/TerrorbirdDruidVariant/Terrorbird_Aggressive/BP_AI_Terrorbird_Character_BirdKing.6"
+    },
+    "Class": "UScriptClass'AiMovementComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "AiSightSensorPositionComponent",
+    "Name": "Sight Sensor Position Component",
+    "Outer": {
+      "ObjectName": "BP_AI_Terrorbird_Character_BirdKing_C'Default__BP_AI_Terrorbird_Character_BirdKing_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BeastFaction/MagicBeast/TerrorbirdDruidVariant/Terrorbird_Aggressive/BP_AI_Terrorbird_Character_BirdKing.6"
+    },
+    "Class": "UScriptClass'AiSightSensorPositionComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_AI_Terrorbird_Character_BirdKing_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_AI_Terrorbird_Character_BirdKing_C:SimpleConstructionScript_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BeastFaction/MagicBeast/TerrorbirdDruidVariant/Terrorbird_Aggressive/BP_AI_Terrorbird_Character_BirdKing.17"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_AI_Terrorbird_Character_BirdKing_C:InheritableComponentHandler'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BeastFaction/MagicBeast/TerrorbirdDruidVariant/Terrorbird_Aggressive/BP_AI_Terrorbird_Character_BirdKing.12"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_Terrorbird_Character_C'",
+      "ObjectPath": "/Game/Gameplay/AI/Terrorbird/BP_AI_Terrorbird_Character"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_NoExport | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_AI_Terrorbird_Character_BirdKing_C'Default__BP_AI_Terrorbird_Character_BirdKing_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BeastFaction/MagicBeast/TerrorbirdDruidVariant/Terrorbird_Aggressive/BP_AI_Terrorbird_Character_BirdKing.6"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_AI_Terrorbird_Character_BirdKing_C",
+    "Name": "Default__BP_AI_Terrorbird_Character_BirdKing_C",
+    "Class": "BlueprintGeneratedClass'1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BeastFaction/MagicBeast/TerrorbirdDruidVariant/Terrorbird_Aggressive/BP_AI_Terrorbird_Character_BirdKing.BP_AI_Terrorbird_Character_BirdKing_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "BP_TagActivatedFX_C",
+    "Name": "TagActivatedFX",
+    "Outer": {
+      "ObjectName": "BP_AI_Terrorbird_Character_BirdKing_C'Default__BP_AI_Terrorbird_Character_BirdKing_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BeastFaction/MagicBeast/TerrorbirdDruidVariant/Terrorbird_Aggressive/BP_AI_Terrorbird_Character_BirdKing.6"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Outer": {
+      "ObjectName": "BP_AI_Terrorbird_Character_BirdKing_C'Default__BP_AI_Terrorbird_Character_BirdKing_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BeastFaction/MagicBeast/TerrorbirdDruidVariant/Terrorbird_Aggressive/BP_AI_Terrorbird_Character_BirdKing.6"
+    },
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "DominionAIActionsComponent",
+    "Name": "DominionAIActionsComponent",
+    "Outer": {
+      "ObjectName": "BP_AI_Terrorbird_Character_BirdKing_C'Default__BP_AI_Terrorbird_Character_BirdKing_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BeastFaction/MagicBeast/TerrorbirdDruidVariant/Terrorbird_Aggressive/BP_AI_Terrorbird_Character_BirdKing.6"
+    },
+    "Class": "UScriptClass'DominionAIActionsComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "EnvironmentComponent",
+    "Name": "Environment Component",
+    "Outer": {
+      "ObjectName": "BP_AI_Terrorbird_Character_BirdKing_C'Default__BP_AI_Terrorbird_Character_BirdKing_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BeastFaction/MagicBeast/TerrorbirdDruidVariant/Terrorbird_Aggressive/BP_AI_Terrorbird_Character_BirdKing.6"
+    },
+    "Class": "UScriptClass'EnvironmentComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "GameplayTagsComponent",
+    "Name": "GameplayTagsComponent",
+    "Outer": {
+      "ObjectName": "BP_AI_Terrorbird_Character_BirdKing_C'Default__BP_AI_Terrorbird_Character_BirdKing_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BeastFaction/MagicBeast/TerrorbirdDruidVariant/Terrorbird_Aggressive/BP_AI_Terrorbird_Character_BirdKing.6"
+    },
+    "Class": "UScriptClass'GameplayTagsComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_Terrorbird_Character_BirdKing_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BeastFaction/MagicBeast/TerrorbirdDruidVariant/Terrorbird_Aggressive/BP_AI_Terrorbird_Character_BirdKing.5"
+    },
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'LootDropComponent'",
+            "ObjectPath": "/Script/Dominion"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "LootDropComponent'BP_AI_Terrorbird_Character_BirdKing_C:LootDrop_GEN_VARIABLE'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BeastFaction/MagicBeast/TerrorbirdDruidVariant/Terrorbird_Aggressive/BP_AI_Terrorbird_Character_BirdKing.13"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_AI_Terrorbird_Character_C'",
+              "ObjectPath": "/Game/Gameplay/AI/Terrorbird/BP_AI_Terrorbird_Character"
+            },
+            "SCSVariableName": "LootDrop",
+            "AssociatedGuid": "51A861DA-4E4B8B5A-AE7F7AB1-7D85F32F"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "LootDropComponent",
+    "Name": "LootDrop_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_Terrorbird_Character_BirdKing_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BeastFaction/MagicBeast/TerrorbirdDruidVariant/Terrorbird_Aggressive/BP_AI_Terrorbird_Character_BirdKing.5"
+    },
+    "Class": "UScriptClass'LootDropComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Properties": {
+      "EnemyTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_EnemyLootDropTable'",
+          "ObjectPath": "/Game/Gameplay/Items/LootDropTables/DT_EnemyLootDropTable"
+        },
+        "RowName": "Elite_Terrorbird_BirdKing"
+      }
+    }
+  },
+  {
+    "Type": "MeshOverlayMaterialManager",
+    "Name": "MeshOverlayMaterialManager",
+    "Outer": {
+      "ObjectName": "BP_AI_Terrorbird_Character_BirdKing_C'Default__BP_AI_Terrorbird_Character_BirdKing_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BeastFaction/MagicBeast/TerrorbirdDruidVariant/Terrorbird_Aggressive/BP_AI_Terrorbird_Character_BirdKing.6"
+    },
+    "Class": "UScriptClass'MeshOverlayMaterialManager'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_Terrorbird_Character_BirdKing_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BeastFaction/MagicBeast/TerrorbirdDruidVariant/Terrorbird_Aggressive/BP_AI_Terrorbird_Character_BirdKing.5"
+    },
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_AI_Terrorbird_Character_BirdKing_C:SimpleConstructionScript_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BeastFaction/MagicBeast/TerrorbirdDruidVariant/Terrorbird_Aggressive/BP_AI_Terrorbird_Character_BirdKing.17"
+    },
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_AI_Terrorbird_Character_BirdKing_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BeastFaction/MagicBeast/TerrorbirdDruidVariant/Terrorbird_Aggressive/BP_AI_Terrorbird_Character_BirdKing.15"
+      },
+      "VariableGUID": "BBD735AF-47150CF2-FDD7F6A1-B53B65E4",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AI_Terrorbird_Character_BirdKing_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BeastFaction/MagicBeast/TerrorbirdDruidVariant/Terrorbird_Aggressive/BP_AI_Terrorbird_Character_BirdKing.5"
+    },
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_AI_Terrorbird_Character_BirdKing_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BeastFaction/MagicBeast/TerrorbirdDruidVariant/Terrorbird_Aggressive/BP_AI_Terrorbird_Character_BirdKing.16"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "CharacterMesh0",
+    "Outer": {
+      "ObjectName": "BP_AI_Terrorbird_Character_BirdKing_C'Default__BP_AI_Terrorbird_Character_BirdKing_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BeastFaction/MagicBeast/TerrorbirdDruidVariant/Terrorbird_Aggressive/BP_AI_Terrorbird_Character_BirdKing.6"
+    },
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Terrorbird_Mount_03_04'",
+          "ObjectPath": "/Game/Art/Skeleton/NPC/Avian/Mount_Terrorbird_03/Materials/MI_Terrorbird_Mount_03_04"
+        }
+      ],
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_AI_Terrorbird_Character_BirdKing_C:CollisionCylinder'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BeastFaction/MagicBeast/TerrorbirdDruidVariant/Terrorbird_Aggressive/BP_AI_Terrorbird_Character_BirdKing.8"
+      },
+      "RelativeScale3D": {
+        "X": 1.15,
+        "Y": 1.15,
+        "Z": 1.15
+      }
+    }
+  },
+  {
+    "Type": "TrackedStatusEffectInstance",
+    "Name": "TrackedStatusEffectInstance_0",
+    "Outer": {
+      "ObjectName": "TrackedStatusEffectsComponent'Default__BP_AI_Terrorbird_Character_BirdKing_C:Tracked Status Effects Component'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BeastFaction/MagicBeast/TerrorbirdDruidVariant/Terrorbird_Aggressive/BP_AI_Terrorbird_Character_BirdKing.26"
+    },
+    "Class": "UScriptClass'TrackedStatusEffectInstance'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TrackedStatusEffectInstance",
+    "Name": "TrackedStatusEffectInstance_1",
+    "Outer": {
+      "ObjectName": "TrackedStatusEffectsComponent'Default__BP_AI_Terrorbird_Character_BirdKing_C:Tracked Status Effects Component'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BeastFaction/MagicBeast/TerrorbirdDruidVariant/Terrorbird_Aggressive/BP_AI_Terrorbird_Character_BirdKing.26"
+    },
+    "Class": "UScriptClass'TrackedStatusEffectInstance'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TrackedStatusEffectInstanceBleeding",
+    "Name": "TrackedStatusEffectInstanceBleeding_0",
+    "Outer": {
+      "ObjectName": "TrackedStatusEffectsComponent'Default__BP_AI_Terrorbird_Character_BirdKing_C:Tracked Status Effects Component'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BeastFaction/MagicBeast/TerrorbirdDruidVariant/Terrorbird_Aggressive/BP_AI_Terrorbird_Character_BirdKing.26"
+    },
+    "Class": "UScriptClass'TrackedStatusEffectInstanceBleeding'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TrackedStatusEffectInstanceBurning",
+    "Name": "TrackedStatusEffectInstanceBurning_0",
+    "Outer": {
+      "ObjectName": "TrackedStatusEffectsComponent'Default__BP_AI_Terrorbird_Character_BirdKing_C:Tracked Status Effects Component'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BeastFaction/MagicBeast/TerrorbirdDruidVariant/Terrorbird_Aggressive/BP_AI_Terrorbird_Character_BirdKing.26"
+    },
+    "Class": "UScriptClass'TrackedStatusEffectInstanceBurning'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TrackedStatusEffectInstanceHamstrung",
+    "Name": "TrackedStatusEffectInstanceHamstrung_0",
+    "Outer": {
+      "ObjectName": "TrackedStatusEffectsComponent'Default__BP_AI_Terrorbird_Character_BirdKing_C:Tracked Status Effects Component'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BeastFaction/MagicBeast/TerrorbirdDruidVariant/Terrorbird_Aggressive/BP_AI_Terrorbird_Character_BirdKing.26"
+    },
+    "Class": "UScriptClass'TrackedStatusEffectInstanceHamstrung'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TrackedStatusEffectInstancePoison",
+    "Name": "TrackedStatusEffectInstancePoison_0",
+    "Outer": {
+      "ObjectName": "TrackedStatusEffectsComponent'Default__BP_AI_Terrorbird_Character_BirdKing_C:Tracked Status Effects Component'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BeastFaction/MagicBeast/TerrorbirdDruidVariant/Terrorbird_Aggressive/BP_AI_Terrorbird_Character_BirdKing.26"
+    },
+    "Class": "UScriptClass'TrackedStatusEffectInstancePoison'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TrackedStatusEffectInstanceSlow",
+    "Name": "TrackedStatusEffectInstanceSlow_0",
+    "Outer": {
+      "ObjectName": "TrackedStatusEffectsComponent'Default__BP_AI_Terrorbird_Character_BirdKing_C:Tracked Status Effects Component'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BeastFaction/MagicBeast/TerrorbirdDruidVariant/Terrorbird_Aggressive/BP_AI_Terrorbird_Character_BirdKing.26"
+    },
+    "Class": "UScriptClass'TrackedStatusEffectInstanceSlow'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TrackedStatusEffectsComponent",
+    "Name": "Tracked Status Effects Component",
+    "Outer": {
+      "ObjectName": "BP_AI_Terrorbird_Character_BirdKing_C'Default__BP_AI_Terrorbird_Character_BirdKing_C'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BeastFaction/MagicBeast/TerrorbirdDruidVariant/Terrorbird_Aggressive/BP_AI_Terrorbird_Character_BirdKing.6"
+    },
+    "Class": "UScriptClass'TrackedStatusEffectsComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TrackedStatusEffectInstances": [
+        {
+          "ObjectName": "TrackedStatusEffectInstancePoison'Default__BP_AI_Terrorbird_Character_BirdKing_C:Tracked Status Effects Component.TrackedStatusEffectInstancePoison_0'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BeastFaction/MagicBeast/TerrorbirdDruidVariant/Terrorbird_Aggressive/BP_AI_Terrorbird_Character_BirdKing.24"
+        },
+        {
+          "ObjectName": "TrackedStatusEffectInstanceBurning'Default__BP_AI_Terrorbird_Character_BirdKing_C:Tracked Status Effects Component.TrackedStatusEffectInstanceBurning_0'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BeastFaction/MagicBeast/TerrorbirdDruidVariant/Terrorbird_Aggressive/BP_AI_Terrorbird_Character_BirdKing.22"
+        },
+        {
+          "ObjectName": "TrackedStatusEffectInstanceBleeding'Default__BP_AI_Terrorbird_Character_BirdKing_C:Tracked Status Effects Component.TrackedStatusEffectInstanceBleeding_0'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BeastFaction/MagicBeast/TerrorbirdDruidVariant/Terrorbird_Aggressive/BP_AI_Terrorbird_Character_BirdKing.21"
+        },
+        {
+          "ObjectName": "TrackedStatusEffectInstanceSlow'Default__BP_AI_Terrorbird_Character_BirdKing_C:Tracked Status Effects Component.TrackedStatusEffectInstanceSlow_0'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BeastFaction/MagicBeast/TerrorbirdDruidVariant/Terrorbird_Aggressive/BP_AI_Terrorbird_Character_BirdKing.25"
+        },
+        {
+          "ObjectName": "TrackedStatusEffectInstance'Default__BP_AI_Terrorbird_Character_BirdKing_C:Tracked Status Effects Component.TrackedStatusEffectInstance_0'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BeastFaction/MagicBeast/TerrorbirdDruidVariant/Terrorbird_Aggressive/BP_AI_Terrorbird_Character_BirdKing.19"
+        },
+        {
+          "ObjectName": "TrackedStatusEffectInstance'Default__BP_AI_Terrorbird_Character_BirdKing_C:Tracked Status Effects Component.TrackedStatusEffectInstance_1'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BeastFaction/MagicBeast/TerrorbirdDruidVariant/Terrorbird_Aggressive/BP_AI_Terrorbird_Character_BirdKing.20"
+        },
+        {
+          "ObjectName": "TrackedStatusEffectInstanceHamstrung'Default__BP_AI_Terrorbird_Character_BirdKing_C:Tracked Status Effects Component.TrackedStatusEffectInstanceHamstrung_0'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/AI/BeastFaction/MagicBeast/TerrorbirdDruidVariant/Terrorbird_Aggressive/BP_AI_Terrorbird_Character_BirdKing.23"
+        }
+      ]
+    }
+  }
+]

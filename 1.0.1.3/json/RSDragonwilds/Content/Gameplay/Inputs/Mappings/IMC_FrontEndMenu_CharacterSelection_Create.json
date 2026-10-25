@@ -1,0 +1,51 @@
+[
+  {
+    "Type": "DominionPlayerMappableKeySetting",
+    "Name": "DominionPlayerMappableKeySetting_10",
+    "Outer": {
+      "ObjectName": "InputMappingContext'IMC_FrontEndMenu_CharacterSelection_Create'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Inputs/Mappings/IMC_FrontEndMenu_CharacterSelection_Create.1"
+    },
+    "Class": "UScriptClass'DominionPlayerMappableKeySetting'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LinkedMappingNames": [
+        "CreateCharacterWorldsGameplay"
+      ],
+      "InputType": "EKeyMappingSettingsInputType::Gamepad",
+      "Name": "CreateCharacterGameplay",
+      "DisplayName": {
+        "TableId": "/Game/UI/Settings/ST_Controls.ST_Controls",
+        "Key": "FrontendCreateCharacter",
+        "SourceString": null,
+        "LocalizedString": ""
+      }
+    }
+  },
+  {
+    "Type": "InputMappingContext",
+    "Name": "IMC_FrontEndMenu_CharacterSelection_Create",
+    "Class": "UScriptClass'InputMappingContext'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Mappings": [
+        {
+          "Triggers": [],
+          "Modifiers": [],
+          "Action": {
+            "ObjectName": "InputAction'IA_CreateCharacter'",
+            "ObjectPath": "/Game/Gameplay/Inputs/Actions/UI/IA_CreateCharacter"
+          },
+          "Key": {
+            "KeyName": "Gamepad_FaceButton_Bottom"
+          },
+          "SettingBehavior": "EPlayerMappableKeySettingBehaviors::OverrideSettings",
+          "PlayerMappableKeySettings": {
+            "ObjectName": "DominionPlayerMappableKeySetting'IMC_FrontEndMenu_CharacterSelection_Create:DominionPlayerMappableKeySetting_10'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Inputs/Mappings/IMC_FrontEndMenu_CharacterSelection_Create.0"
+          }
+        }
+      ]
+    }
+  }
+]

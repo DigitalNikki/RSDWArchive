@@ -1,0 +1,475 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ADT_Kothaar_TokXil",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Object'AiAnimationAudioTableRowBase'",
+        "ObjectPath": "/Script/Dominion"
+      }
+    },
+    "Rows": {
+      "Footstep_Walk": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.TokXil"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_Kothaar_TokXil_Footsteps_Walk'",
+              "ObjectPath": "/Game/Audio/DataAssets/FootstepData/ADA_Kothaar_TokXil_Footsteps_Walk"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "foot_r",
+          "foot_l"
+        ]
+      },
+      "BodyMove_Slow": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.TokXil"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_AI_Kot_TokXil_BodyMove'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KothaarFaction/TokXil/Foley/MSS_AI_Kot_TokXil_BodyMove"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Vox_Aggro": {
+        "AnimationActionType": "EAiAnimationAudioActions::Vox",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.TokXil"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_AI_Kot_TokXil_Vox_Aggro'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KothaarFaction/TokXil/Vox/MSS_AI_Kot_TokXil_Vox_Aggro"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head"
+        ]
+      },
+      "Vox_Attack": {
+        "AnimationActionType": "EAiAnimationAudioActions::Vox",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.TokXil"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_AI_Kot_TokXil_Vox_Attack'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KothaarFaction/TokXil/Vox/MSS_AI_Kot_TokXil_Vox_Attack"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head"
+        ]
+      },
+      "Vox_Windup": {
+        "AnimationActionType": "EAiAnimationAudioActions::Vox",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.TokXil"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_AI_Kot_TokXil_Vox_Windup'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KothaarFaction/TokXil/Vox/MSS_AI_Kot_TokXil_Vox_Windup"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head"
+        ]
+      },
+      "Vox_Death": {
+        "AnimationActionType": "EAiAnimationAudioActions::Vox",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.TokXil"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_AI_Kot_TokXil_Vox_Death'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KothaarFaction/TokXil/Vox/MSS_AI_Kot_TokXil_Vox_Death"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": true,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head"
+        ]
+      },
+      "Vox_Dodge": {
+        "AnimationActionType": "EAiAnimationAudioActions::Vox",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.TokXil"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_AI_Kot_TokXil_Vox_Dodge'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KothaarFaction/TokXil/Vox/MSS_AI_Kot_TokXil_Vox_Dodge"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head"
+        ]
+      },
+      "Vox_HitReact": {
+        "AnimationActionType": "EAiAnimationAudioActions::Vox",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.TokXil"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_AI_Kot_TokXil_Vox_HitReact'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KothaarFaction/TokXil/Vox/MSS_AI_Kot_TokXil_Vox_HitReact"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "head"
+        ]
+      },
+      "Vox_Exhale": {
+        "AnimationActionType": "EAiAnimationAudioActions::Vox",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.TokXil"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_AI_Kot_TokXil_Vox_Exhale'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KothaarFaction/TokXil/Vox/MSS_AI_Kot_TokXil_Vox_Exhale"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": true,
+        "AllowedBones": [
+          "head"
+        ]
+      },
+      "Bodyfall": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.Hur"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Co_Kot_Hur_DeathImpact'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KothaarFaction/Hur/Hur_Combat/MSS_En_Co_Kot_Hur_DeathImpact"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.TokXil"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_Cr_Bodyfall_Kothaar_TokXil'",
+              "ObjectPath": "/Game/Audio/DataAssets/Foley/ADA_Cr_Bodyfall_Kothaar_TokXil"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Pre_Attack": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.TokXil"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_AI_Kot_TokXil_PreAttack'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KothaarFaction/TokXil/Combat/MSS_AI_Kot_TokXil_PreAttack"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Slam": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.TokXil"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_AI_Kot_TokXil_Slam'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KothaarFaction/TokXil/Combat/MSS_AI_Kot_TokXil_Slam"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "hand_r",
+          "hand_l",
+          "foot_r",
+          "foot_l"
+        ]
+      },
+      "Sweetener": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.TokXil"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_AI_Kot_TokXil_Sweetener'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KothaarFaction/TokXil/Combat/MSS_AI_Kot_TokXil_Sweetener"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Swipe": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.TokXil"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_AI_Kot_TokXil_Swipe'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KothaarFaction/TokXil/Combat/MSS_AI_Kot_TokXil_Swipe"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "hand_r",
+          "hand_l"
+        ]
+      },
+      "Settle": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.TokXil"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_AI_Kot_TokXil_Settle'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KothaarFaction/TokXil/Foley/MSS_AI_Kot_TokXil_Settle"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "hand_r",
+          "hand_l"
+        ]
+      },
+      "Spawn": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.TokXil"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_AI_Kot_TokXil_Spawn'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KothaarFaction/TokXil/Foley/MSS_AI_Kot_TokXil_Spawn"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Earthquake_Slam": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.TokXil"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_AI_Kot_TokXil_Earthquake_Slam'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KothaarFaction/TokXil/Combat/MSS_AI_Kot_TokXil_Earthquake_Slam"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Earthquake_Start": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.TokXil"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_AI_Kot_TokXil_Earthquake_Start'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KothaarFaction/TokXil/Combat/MSS_AI_Kot_TokXil_Earthquake_Start"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Jump": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.TokXil"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_AI_Kot_TokXil_Jump'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KothaarFaction/TokXil/Combat/MSS_AI_Kot_TokXil_Jump"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Mortar_Start": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.TokXil"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_AI_Kot_TokXil_Mortar_Start'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KothaarFaction/TokXil/Combat/MSS_AI_Kot_TokXil_Mortar_Start"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Mortar_Fire": {
+        "AnimationActionType": "EAiAnimationAudioActions::None",
+        "SFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.TokXil"
+            },
+            "Value": {
+              "ObjectName": "DominionMetaSoundSource'MSS_AI_Kot_TokXil_Mortar_Fire'",
+              "ObjectPath": "/Game/Audio/MetasoundSources/EnemyAI/KothaarFaction/TokXil/Combat/MSS_AI_Kot_TokXil_Mortar_Fire"
+            }
+          }
+        ],
+        "FootstepSFXToPlay": [],
+        "bPlayWhenNotSignificant": true,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": []
+      },
+      "Handstep": {
+        "AnimationActionType": "EAiAnimationAudioActions::Footstep",
+        "SFXToPlay": [],
+        "FootstepSFXToPlay": [
+          {
+            "Key": {
+              "TagName": "Audio.AI.Kothaar.TokXil"
+            },
+            "Value": {
+              "ObjectName": "FootstepData'ADA_Cr_Kothaar_Handslam'",
+              "ObjectPath": "/Game/Audio/DataAssets/Foley/ADA_Cr_Kothaar_Handslam"
+            }
+          }
+        ],
+        "bPlayWhenNotSignificant": false,
+        "bPlayAtLocation": false,
+        "bCanBeUsedAsCombatIdleVox": false,
+        "AllowedBones": [
+          "hand_r",
+          "hand_l"
+        ]
+      }
+    }
+  }
+]

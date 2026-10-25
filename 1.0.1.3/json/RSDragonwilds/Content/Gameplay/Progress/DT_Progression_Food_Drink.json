@@ -1,0 +1,4038 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_Progression_Food_Drink",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Object'ProgressionBundleRow'",
+        "ObjectPath": "/Script/Dominion"
+      }
+    },
+    "Rows": {
+      "Water_Clean": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Dirty Water ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "BP_Consumables_Drink_C'ITEM_Consumable_Water_Dirty'",
+                "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Water_Dirty"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Water_Clean_From_Water_Dirty'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Water_Clean_From_Water_Dirty"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Infusion_Redberry": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ACTORS[ BP_Crafting_Stone_Range_C ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ActorsInteractedWith",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'BP_Crafting_Stone_Range_C'",
+                "ObjectPath": "/Game/Gameplay/World/Stations/BP_Crafting_Stone_Range"
+              }
+            ],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Tea_From_Redberry'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Crafted/RECIPE_Consumable_Tea_From_Redberry"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Infusion_FleetFooted": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ACTORS[ BP_Crafting_Stone_Range_C ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ActorsInteractedWith",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'BP_Crafting_Stone_Range_C'",
+                "ObjectPath": "/Game/Gameplay/World/Stations/BP_Crafting_Stone_Range"
+              }
+            ],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Tea_Stamina_Reduction_Sprint'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Crafted/RECIPE_Consumable_Tea_Stamina_Reduction_Sprint"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Infusion_Evasive": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ACTORS[ BP_Crafting_Stone_Range_C ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ActorsInteractedWith",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'BP_Crafting_Stone_Range_C'",
+                "ObjectPath": "/Game/Gameplay/World/Stations/BP_Crafting_Stone_Range"
+              }
+            ],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Tea_Stamina_Reduction_Dodge'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Crafted/RECIPE_Consumable_Tea_Stamina_Reduction_Dodge"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Redberry_Dried": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Redberries ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fruit_Redberry'",
+                "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Fruit_Redberry"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Dried_Redberries_From_Redberries'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Dried_Redberries_From_Redberries"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Dwellberry_Dried": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Dwellberries ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fruit_Dwellberry'",
+                "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Fruit_Dwellberry"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Dried_Dwellberries_From_Dwellberries'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Dried_Dwellberries_From_Dwellberries"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Peach_Dried": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Peach ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fruit_Peach'",
+                "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Fruit_Peach"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Dried_Peach_From_Peach'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Dried_Peach_From_Peach"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Potato_Jacket": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Potato ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Potato'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Plant/ITEM_Resources_Potato"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Potato_Jacket_From_Potato'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Potato_Jacket_From_Potato"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Cabbage_Fried": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Cabbage ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Cabbage'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Plant/ITEM_Resources_Cabbage"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Cabbage_Fried_From_Cabbage'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Cabbage_Fried_From_Cabbage"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Mushroom_Grilled": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Bittercap Mushroom ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Mushroom'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Plant/ITEM_Resources_Mushroom"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Mushroom_Grilled_From_Mushroom'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Mushroom_Grilled_From_Mushroom"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Onion_Fried": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Onion ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Onion'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Plant/ITEM_Resources_Onion"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Fried_Onion_From_Onion'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Fried_Onion_From_Onion"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Fillet": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Raw Bird Meat ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Meat_Bird'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_Meat_Bird"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Fillet_From_Bird'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Fillet_From_Bird"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Haunch": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Raw Game Meat ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Meat_Game'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_Meat_Game"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Haunch_From_Game'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Haunch_From_Game"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Steak": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Raw Farm Meat ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Meat_Farm'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_Meat_Farm"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Steak_From_Farm'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Steak_From_Farm"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "RatRoast": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Raw Rat Meat ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Raw_Stringy_Meat'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_Raw_Stringy_Meat"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Rat_Roast_From_Rat'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Rat_Roast_From_Rat"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Flank": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Raw Bestial Meat ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Meat_Bestial'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_Meat_Bestial"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Flank_From_Beast'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Flank_From_Beast"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Egg_Fried": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Egg ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Egg'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_Egg"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Egg_Fried_From_Egg'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Egg_Fried_From_Egg"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Soup_Vegetable": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ACTORS[ BP_Crafting_Stone_Range_C ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ActorsInteractedWith",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'BP_Crafting_Stone_Range_C'",
+                "ObjectPath": "/Game/Gameplay/World/Stations/BP_Crafting_Stone_Range"
+              }
+            ],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Soup_Vegetable'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Crafted/RECIPE_Consumable_Soup_Vegetable"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Redberry_RatRoast": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ACTORS[ BP_Crafting_Stone_Range_C ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ActorsInteractedWith",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'BP_Crafting_Stone_Range_C'",
+                "ObjectPath": "/Game/Gameplay/World/Stations/BP_Crafting_Stone_Range"
+              }
+            ],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_RedberryRoastRat'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Crafted/RECIPE_Consumable_RedberryRoastRat"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Stew_Meat": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ACTORS[ BP_Crafting_Stone_Range_C ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ActorsInteractedWith",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'BP_Crafting_Stone_Range_C'",
+                "ObjectPath": "/Game/Gameplay/World/Stations/BP_Crafting_Stone_Range"
+              }
+            ],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Stew_Meat'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Crafted/RECIPE_Consumable_Stew_Meat"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "SteakAndEggs": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ACTORS[ BP_Crafting_Stone_Range_C ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ActorsInteractedWith",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'BP_Crafting_Stone_Range_C'",
+                "ObjectPath": "/Game/Gameplay/World/Stations/BP_Crafting_Stone_Range"
+              }
+            ],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_SteakAndEggs'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Crafted/RECIPE_Consumable_SteakAndEggs"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Dinner_Roast": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ACTORS[ BP_Crafting_CookingBench_C ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ActorsInteractedWith",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'BP_Crafting_CookingBench_C'",
+                "ObjectPath": "/Game/Gameplay/World/Stations/BP_Crafting_CookingBench"
+              }
+            ],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Dinner_Roast'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Crafted/RECIPE_Consumable_Dinner_Roast"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Sausage_Squeaking": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ACTORS[ BP_Crafting_CookingBench_C ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ActorsInteractedWith",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'BP_Crafting_CookingBench_C'",
+                "ObjectPath": "/Game/Gameplay/World/Stations/BP_Crafting_CookingBench"
+              }
+            ],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Sausage_Squeaking'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Crafted/RECIPE_Consumable_Sausage_Squeaking"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Omelette_Pungent": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ACTORS[ BP_Crafting_CookingBench_C ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ActorsInteractedWith",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'BP_Crafting_CookingBench_C'",
+                "ObjectPath": "/Game/Gameplay/World/Stations/BP_Crafting_CookingBench"
+              }
+            ],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Omelette_Pungent'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Crafted/RECIPE_Consumable_Omelette_Pungent"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Infusion_Dwellberry": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Dwellberries ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fruit_Dwellberry'",
+                "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Fruit_Dwellberry"
+              }
+            ],
+            "Actors": [
+              {
+                "ObjectName": "BlueprintGeneratedClass'BP_Crafting_Stone_Range_C'",
+                "ObjectPath": "/Game/Gameplay/World/Stations/BP_Crafting_Stone_Range"
+              }
+            ],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Tea_From_Dwellberry'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Crafted/RECIPE_Consumable_Tea_From_Dwellberry"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Flour": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Wheat ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Wheat'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Plant/ITEM_Resources_Wheat"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Process_Ground_Wheat'",
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Mineral/RECIPE_Process_Ground_Wheat"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Bread": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Bag of Flour ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Ground_Wheat'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Mineral/ITEM_Resources_Ground_Wheat"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Bread_From_Flour'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Bread_From_Flour"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Pumpkin_Roast": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Pumpkin ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Pumpkin'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Plant/ITEM_Resources_Pumpkin"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Pumpkin_Roast_From_Pumpkin'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Pumpkin_Roast_From_Pumpkin"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Tomato_Grilled": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Tomato ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Tomato'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Plant/ITEM_Resources_Tomato"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Tomatoes_Grilled_From_Tomatoes'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Tomatoes_Grilled_From_Tomatoes"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Jerky_Watermelon": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Watermelon ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Resources_Watermelon'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Plant/ITEM_Resources_Watermelon"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Watermelon_Jerky_From_Watermelon'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Watermelon_Jerky_From_Watermelon"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Steak_Undead": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Undead Meat ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Meat_Undead'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_Meat_Undead"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Steak_Undead_From_Meat_Undead'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Steak_Undead_From_Meat_Undead"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Cadaveberry_Dried": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Cadavaberries ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fruit_Cadavaberry'",
+                "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Fruit_Cadavaberry"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Dried_Cadaveberries_From_Cadaveberries'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Dried_Cadaveberries_From_Cadaveberries"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Infusion_Pumpkin": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Pumpkin ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Pumpkin'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Plant/ITEM_Resources_Pumpkin"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Tea_From_Pumpkin'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Crafted/RECIPE_Consumable_Tea_From_Pumpkin"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Infusion_Cadavaberry": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Cadavaberries ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fruit_Cadavaberry'",
+                "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Fruit_Cadavaberry"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Tea_From_Cadavaberry'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Crafted/RECIPE_Consumable_Tea_From_Cadavaberry"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Pie_Fruit": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Dried Cadavaberries, Dried Dwellberries, Dried Redberries ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fruit_Dried_Cadavaberry'",
+                "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Fruit_Dried_Cadavaberry"
+              },
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fruit_Dried_Dwellberry'",
+                "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Fruit_Dried_Dwellberry"
+              },
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fruit_Dried_Redberry'",
+                "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Fruit_Dried_Redberry"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Pie_Fruit'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Crafted/RECIPE_Consumable_Pie_Fruit"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Pie_Meat_Dubious": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Cauterised Undead Steak, Roast Pumpkin, Dried Cadavaberries ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Steak_Undead'",
+                "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Steak_Undead"
+              },
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Pumpkin_Roast'",
+                "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Pumpkin_Roast"
+              },
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fruit_Dried_Cadavaberry'",
+                "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Fruit_Dried_Cadavaberry"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Pie_Meat_Dubious'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Crafted/RECIPE_Consumable_Pie_Meat_Dubious"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Soup_Pumpkin": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Roast Pumpkin, Fried Cabbage, Baked Potato ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Pumpkin_Roast'",
+                "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Pumpkin_Roast"
+              },
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Cabbage_Fried'",
+                "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Cabbage_Fried"
+              },
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Potato_Jacket'",
+                "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Potato_Jacket"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Soup_Pumpkin'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Crafted/RECIPE_Consumable_Soup_Pumpkin"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Stew_BeefTomato": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Steak, Grilled Tomatoes ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Farm_Steak'",
+                "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Farm_Steak"
+              },
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Tomato_Grilled'",
+                "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Tomato_Grilled"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Stew_BeefTomato'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Crafted/RECIPE_Consumable_Stew_BeefTomato"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Fryup_Vegan": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Baked Potato, Fried Cabbage, Grilled Tomatoes ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Potato_Jacket'",
+                "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Potato_Jacket"
+              },
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Cabbage_Fried'",
+                "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Cabbage_Fried"
+              },
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Tomato_Grilled'",
+                "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Tomato_Grilled"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Fryup_Vegan'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Crafted/RECIPE_Consumable_Fryup_Vegan"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Crunchies_Redberry": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Redberries, Wheat ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fruit_Redberry'",
+                "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Fruit_Redberry"
+              },
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Wheat'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Plant/ITEM_Resources_Wheat"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Crunchies_Redberry'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Crafted/RECIPE_Consumable_Crunchies_Redberry"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Crunchies_Dwellberry": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Dwellberries, Wheat ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fruit_Dwellberry'",
+                "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Fruit_Dwellberry"
+              },
+              {
+                "ObjectName": "ItemData'ITEM_Resources_Wheat'",
+                "ObjectPath": "/Game/Gameplay/Items/Resources/Plant/ITEM_Resources_Wheat"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Crunchies_Dwellberry'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Crafted/RECIPE_Consumable_Crunchies_Dwellberry"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Purposefully_Burnt_Egg": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Fried Egg ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Egg_Fried'",
+                "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Egg_Fried"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Purposefully_Burnt_Egg'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Purposefully_Burnt_Egg"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Purposefully_Burnt_Bread": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Bread ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Bread'",
+                "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Bread"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Purposefully_Burnt_Bread'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Purposefully_Burnt_Bread"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Purposefully_Burnt_Cabbage": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Fried Cabbage ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Cabbage_Fried'",
+                "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Cabbage_Fried"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Purposefully_Burnt_Cabbage'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Purposefully_Burnt_Cabbage"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Purposefully_Burnt_Cadavaberry": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Dried Cadavaberries ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fruit_Dried_Cadavaberry'",
+                "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Fruit_Dried_Cadavaberry"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Purposefully_Burnt_Cadavaberry'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Purposefully_Burnt_Cadavaberry"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Purposefully_Burnt_Dwellberry": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Dried Dwellberries ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fruit_Dried_Dwellberry'",
+                "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Fruit_Dried_Dwellberry"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Purposefully_Burnt_Dwellberry'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Purposefully_Burnt_Dwellberry"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Purposefully_Burnt_Fillet": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Fillet ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Meat_Fillet'",
+                "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Meat_Fillet"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Purposefully_Burnt_Fillet'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Purposefully_Burnt_Fillet"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Purposefully_Burnt_Flank": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Flank Steak ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Beast_Flank'",
+                "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Beast_Flank"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Purposefully_Burnt_Flank'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Purposefully_Burnt_Flank"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Purposefully_Burnt_Haunch": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Haunch ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Meat_Haunch'",
+                "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Meat_Haunch"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Purposefully_Burnt_Haunch'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Purposefully_Burnt_Haunch"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Purposefully_Burnt_Mushroom": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Grilled Mushrooms ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Mushroom_Grilled'",
+                "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Mushroom_Grilled"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Purposefully_Burnt_Mushroom'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Purposefully_Burnt_Mushroom"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Purposefully_Burnt_Onion": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Fried Onions ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Onion_Fried'",
+                "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Onion_Fried"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Purposefully_Burnt_Onion'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Purposefully_Burnt_Onion"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Purposefully_Burnt_Peach": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Dried Peach ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fruit_Peach_Dried'",
+                "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Fruit_Peach_Dried"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Purposefully_Burnt_Peach'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Purposefully_Burnt_Peach"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Purposefully_Burnt_Potato": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Baked Potato ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Potato_Jacket'",
+                "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Potato_Jacket"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Purposefully_Burnt_Potato'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Purposefully_Burnt_Potato"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Purposefully_Burnt_Pumpkin": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Roast Pumpkin ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Pumpkin_Roast'",
+                "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Pumpkin_Roast"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Purposefully_Burnt_Pumpkin'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Purposefully_Burnt_Pumpkin"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Purposefully_Burnt_Rat": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Rat Roast ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Meat_Rat_Roast'",
+                "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Meat_Rat_Roast"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Purposefully_Burnt_Rat'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Purposefully_Burnt_Rat"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Purposefully_Burnt_Redberry": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Dried Redberries ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fruit_Dried_Redberry'",
+                "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Fruit_Dried_Redberry"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Purposefully_Burnt_Redberry'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Purposefully_Burnt_Redberry"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Purposefully_Burnt_Steak": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Steak ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Farm_Steak'",
+                "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Farm_Steak"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Purposefully_Burnt_Steak'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Purposefully_Burnt_Steak"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Purposefully_Burnt_Steak_Undead": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Cauterised Undead Steak ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Steak_Undead'",
+                "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Steak_Undead"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Purposefully_Burnt_Steak_Undead'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Purposefully_Burnt_Steak_Undead"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Purposefully_Burnt_Tomato": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Grilled Tomatoes ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Tomato_Grilled'",
+                "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Tomato_Grilled"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Purposefully_Burnt_Tomato'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Purposefully_Burnt_Tomato"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Purposefully_Burnt_Watermelon": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Watermelon Jerky ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Watermelon_Jerky'",
+                "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Watermelon_Jerky"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Purposefully_Burnt_Watermelon'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Purposefully_Burnt_Watermelon"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Syrup_Maple": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[  ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Syrup_Maple_From_Sap_Maple'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Syrup_Maple_From_Sap_Maple"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Purposefully_Burnt_Syrup_Maple": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Maple Syrup ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Syrup_Maple'",
+                "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Syrup_Maple"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Purposefully_Burnt_Syrup_Maple'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Purposefully_Burnt_Syrup_Maple"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Infusion_Maple": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Maple Syrup ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Syrup_Maple'",
+                "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Syrup_Maple"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Tea_From_Maple'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Crafted/RECIPE_Consumable_Tea_From_Maple"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Purposefully_Burnt_Fish_Anchovies": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Seared Anchovies ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fish_Anchovies'",
+                "ObjectPath": "/Fishing/Gameplay/Items/Fishes/Anchovies/ITEM_Consumable_Fish_Anchovies"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Purposefully_Burnt_Fish_Anchovies'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Purposefully_Burnt_Fish_Anchovies"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Purposefully_Burnt_Fish_ArmouredCatfish": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Braised Armoured Catfish ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fish_ArmouredCatfish'",
+                "ObjectPath": "/Fishing/Gameplay/Items/Fishes/ArmouredCatfish/ITEM_Consumable_Fish_ArmouredCatfish"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Purposefully_Burnt_Fish_ArmouredCatfish'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Purposefully_Burnt_Fish_ArmouredCatfish"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Purposefully_Burnt_Fish_Beltfish": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Steamed Beltfish ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fish_Beltfish'",
+                "ObjectPath": "/UmbralSands/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Fish_Beltfish"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Purposefully_Burnt_Fish_Beltfish'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Purposefully_Burnt_Fish_Beltfish"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Purposefully_Burnt_Fish_DesertSole": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Sun Baked Sole ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fish_DesertSole'",
+                "ObjectPath": "/UmbralSands/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Fish_DesertSole"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Purposefully_Burnt_Fish_DesertSole'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Purposefully_Burnt_Fish_DesertSole"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Purposefully_Burnt_Fish_GiantKrill": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Dried Giant Krill ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fish_GiantKrill'",
+                "ObjectPath": "/Fishing/Gameplay/Items/Fishes/GiantKrill/ITEM_Consumable_Fish_GiantKrill"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Purposefully_Burnt_Fish_GiantKrill'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Purposefully_Burnt_Fish_GiantKrill"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Purposefully_Burnt_Fish_Herring": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Smoked Herring ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fish_Herring'",
+                "ObjectPath": "/Fishing/Gameplay/Items/Fishes/Herring/ITEM_Consumable_Fish_Herring"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Purposefully_Burnt_Fish_Herring'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Purposefully_Burnt_Fish_Herring"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Purposefully_Burnt_Fish_InfernalEel": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Smoked Infernal Eel ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fish_InfernalEel'",
+                "ObjectPath": "/Fishing/Gameplay/Items/Fishes/InfernalEel/ITEM_Consumable_Fish_InfernalEel"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Purposefully_Burnt_Fish_InfernalEel'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Purposefully_Burnt_Fish_InfernalEel"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Purposefully_Burnt_Fish_Lobster": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Roasted Lobster ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fish_Lobster'",
+                "ObjectPath": "/Fishing/Gameplay/Items/Fishes/Lobster/ITEM_Consumable_Fish_Lobster"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Purposefully_Burnt_Fish_Lobster'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Purposefully_Burnt_Fish_Lobster"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Purposefully_Burnt_Fish_Monkfish": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Monkfish Fillets ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fish_Monkfish'",
+                "ObjectPath": "/UmbralSands/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Fish_Monkfish"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Purposefully_Burnt_Fish_Monkfish'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Purposefully_Burnt_Fish_Monkfish"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Purposefully_Burnt_Fish_Salmon": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Fried Salmon ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fish_Salmon'",
+                "ObjectPath": "/Fishing/Gameplay/Items/Fishes/Salmon/ITEM_Consumable_Fish_Salmon"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Purposefully_Burnt_Fish_Salmon'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Purposefully_Burnt_Fish_Salmon"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Purposefully_Burnt_Fish_Sardine": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Fried Sardine ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fish_Sardine'",
+                "ObjectPath": "/Fishing/Gameplay/Items/Fishes/Sardine/ITEM_Consumable_Fish_Sardine"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Purposefully_Burnt_Fish_Sardine'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Purposefully_Burnt_Fish_Sardine"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Purposefully_Burnt_Fish_Shrimp": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Sauteed Shrimp ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fish_Shrimp'",
+                "ObjectPath": "/Fishing/Gameplay/Items/Fishes/Shrimp/ITEM_Consumable_Fish_Shrimp"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Purposefully_Burnt_Fish_Shrimp'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Purposefully_Burnt_Fish_Shrimp"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Purposefully_Burnt_Fish_Trout": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Grilled Trout ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fish_Trout'",
+                "ObjectPath": "/Fishing/Gameplay/Items/Fishes/Trout/ITEM_Consumable_Fish_Trout"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Purposefully_Burnt_Fish_Trout'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Purposefully_Burnt_Fish_Trout"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Purposefully_Burnt_Fish_UndeadBass": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Grilled Undead Bass ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fish_UndeadBass'",
+                "ObjectPath": "/Fishing/Gameplay/Items/Fishes/UndeadBass/ITEM_Consumable_Fish_UndeadBass"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Purposefully_Burnt_Fish_UndeadBass'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Purposefully_Burnt_Fish_UndeadBass"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      },
+      "Purposefully_Burnt_Fish_UndeadEel": {
+        "bManuallyUnlocked": false,
+        "bMilestoneUnlock": false,
+        "UnlockQueryString": "ALL ITEMS[ Braised Undead Eel ]",
+        "UnlockQuery": {
+          "FirstOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [
+              {
+                "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fish_UndeadEel'",
+                "ObjectPath": "/Fishing/Gameplay/Items/Fishes/UndeadEel/ITEM_Consumable_Fish_UndeadEel"
+              }
+            ],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          },
+          "bUseSecondOperand": false,
+          "Operator": "EUnlockMatchOperator::AND",
+          "SecondOperand": {
+            "UnlockType": "EProgressUnlockType::ItemsPickedUp",
+            "Condition": "EUnlockMatchCondition::AllMatch",
+            "NumberOfMatchesRequired": 2,
+            "Items": [],
+            "Actors": [],
+            "Skill": null,
+            "AgilityCourseUnlockRequirements": {
+              "CourseDataAssets": [],
+              "MinimumRequiredMedal": "EAgilityCourseMedal::Bronze"
+            },
+            "RequiredSkillLevel": 1,
+            "Entitlement": null
+          }
+        },
+        "UnlockedBuildings": [],
+        "UnlockedRecipes": [
+          {
+            "ObjectName": "RecipeData'RECIPE_Consumable_Purposefully_Burnt_Fish_UndeadEel'",
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Recipes/v3/Processed/RECIPE_Consumable_Purposefully_Burnt_Fish_UndeadEel"
+          }
+        ],
+        "UnlockedAchievements": [],
+        "ChangedQuests": []
+      }
+    }
+  }
+]

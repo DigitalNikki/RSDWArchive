@@ -1,0 +1,42 @@
+[
+  {
+    "Type": "SoundSubmix",
+    "Name": "AI",
+    "Class": "UScriptClass'SoundSubmix'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SubmixEffectChain": [
+        {
+          "ObjectName": "SubmixEffectDynamicsProcessorPreset'Magic_Maj_SidechainCompressor'",
+          "ObjectPath": "/Game/Audio/Effects/SidechainCompressors/Magic_Maj_SidechainCompressor"
+        },
+        {
+          "ObjectName": "SubmixEffectDynamicsProcessorPreset'UIMajSidechainCompressor'",
+          "ObjectPath": "/Game/Audio/Effects/SidechainCompressors/UIMajSidechainCompressor"
+        },
+        {
+          "ObjectName": "SubmixEffectDynamicsProcessorPreset'Boss_Megaduck_SidechainCompressor'",
+          "ObjectPath": "/Game/Audio/Effects/SidechainCompressors/Boss_Megaduck_SidechainCompressor"
+        }
+      ],
+      "ParentSubmix": {
+        "ObjectName": "SoundSubmix'SFX'",
+        "ObjectPath": "/Game/Audio/Submixes/SFX"
+      },
+      "ChildSubmixes": [
+        {
+          "ObjectName": "SoundSubmix'AI_Magic'",
+          "ObjectPath": "/Game/Audio/Submixes/AI_Magic"
+        },
+        {
+          "ObjectName": "SoundSubmix'AI_Vox'",
+          "ObjectPath": "/Game/Audio/Submixes/AI_Vox"
+        },
+        {
+          "ObjectName": "SoundSubmix'AI_Spectral'",
+          "ObjectPath": "/Game/Audio/Submixes/AI_Spectral"
+        }
+      ]
+    }
+  }
+]

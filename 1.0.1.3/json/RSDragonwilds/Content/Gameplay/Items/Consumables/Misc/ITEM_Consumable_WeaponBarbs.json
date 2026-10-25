@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "WhetstoneItemData",
+    "Name": "ITEM_Consumable_WeaponBarbs",
+    "Class": "UScriptClass'WhetstoneItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HeldEquipmentEffectData": {
+        "ObjectName": "BP_WhetstoneHeldEquipmentEffectData_C'HEED_WeaponBarbs'",
+        "ObjectPath": "/Game/Gameplay/Items/Consumables/Misc/HEED_WeaponBarbs"
+      },
+      "RequiresHeldMeleeWeaponTag": {
+        "TagName": "UI.ConsumeItem.RequiresHeldMeleeWeapon"
+      },
+      "SpellData": {
+        "ObjectName": "UtilitySpellData'USD_WeaponBarbs'",
+        "ObjectPath": "/Game/Gameplay/UtilityMagic/PerkSpells/WeaponBarbs/USD_WeaponBarbs"
+      },
+      "UseVerb": {
+        "Namespace": "",
+        "Key": "07895D6346321A5653E2AC8CDF937B7F",
+        "SourceString": "Hone",
+        "LocalizedString": "Hone"
+      },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Ranged'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Ranged"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "WeaponBarbs",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "WeaponBarbs",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Ranged/T_Icon_Weapon_Barbs2.T_Icon_Weapon_Barbs2",
+        "SubPathString": ""
+      },
+      "CategoryClassIcon": {
+        "AssetPathName": "/Game/Art/UI/Icons/StatusEffects/T_Icon_Sml_Bleed.T_Icon_Sml_Bleed",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 50,
+      "Weight": 1.0,
+      "Category": {
+        "TagName": "Item.Whetstone"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.WeightReduction",
+        "ItemFilter.Type.Consumable"
+      ],
+      "PersistenceID": "gMtJMk-b5kwQmSKqmGSimw",
+      "InternalName": "item_weaponbarbs"
+    }
+  }
+]
