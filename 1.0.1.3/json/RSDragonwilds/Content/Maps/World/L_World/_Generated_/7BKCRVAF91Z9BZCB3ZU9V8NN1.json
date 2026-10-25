@@ -1,0 +1,2644 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": {
+      "ObjectName": "StaticMesh'StaticMesh_HL_Level1_Merged_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/7BKCRVAF91Z9BZCB3ZU9V8NN1.8"
+    },
+    "Class": "UScriptClass'BodySetup'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bNeverNeedsCookedCollisionData": true,
+      "DefaultInstance": {
+        "ObjectType": "ECollisionChannel::ECC_GameTraceChannel17",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel2",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel3",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel4",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel5",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel6",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Ai",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Player",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Building",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Ground",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        }
+      }
+    },
+    "BodySetupGuid": "4E8744F74AF120119675F68E3218577D"
+  },
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": {
+      "ObjectName": "StaticMesh'StaticMesh_HLODArchitectureBig_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/7BKCRVAF91Z9BZCB3ZU9V8NN1.9"
+    },
+    "Class": "UScriptClass'BodySetup'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bNeverNeedsCookedCollisionData": true,
+      "DefaultInstance": {
+        "ObjectType": "ECollisionChannel::ECC_GameTraceChannel17",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel2",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel3",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel4",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel5",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel6",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Ai",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Player",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Building",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Ground",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        }
+      }
+    },
+    "BodySetupGuid": "F3665E3F428EB6C8F1CDCFBDC71B54ED"
+  },
+  {
+    "Type": "DominionWorldSettings",
+    "Name": "DominionWorldSettings",
+    "Outer": {
+      "ObjectName": "Level'L_World:PersistentLevel'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/7BKCRVAF91Z9BZCB3ZU9V8NN1.3"
+    },
+    "Class": "UScriptClass'DominionWorldSettings'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'L_World:PersistentLevel.DominionWorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/7BKCRVAF91Z9BZCB3ZU9V8NN1.7"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "bReplicates": false
+    },
+    "ActorInstanceGuid": {
+      "ActorGuid": "E453C7CA-333E370D-B32180BF-7AA33DBE",
+      "ActorInstanceGuid": "00000000-00000000-00000000-00000000"
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": {
+      "ObjectName": "World'L_World'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/7BKCRVAF91Z9BZCB3ZU9V8NN1.18"
+    },
+    "Class": "UScriptClass'Level'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'L_World:PersistentLevel.Model_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/7BKCRVAF91Z9BZCB3ZU9V8NN1.6"
+      },
+      "StreamingTextureGuids": [
+        "00000000-00000000-00000000-00000000"
+      ],
+      "StreamingTextures": [
+        "/Game/__ExternalActors__/Maps/World/L_World/A7/3V/Y6UCKCU6UVVQE6685F2PB.Texture2D_1755"
+      ],
+      "PackedTextureStreamingQualityLevelFeatureLevel": 65540,
+      "LevelBuildDataId": "5130FF1B-4B72322C-DA2EAC84-2AFBEC74",
+      "WorldSettings": {
+        "ObjectName": "DominionWorldSettings'L_World:PersistentLevel.DominionWorldSettings'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/7BKCRVAF91Z9BZCB3ZU9V8NN1.2"
+      },
+      "WorldPartitionRuntimeCell": {
+        "AssetPathName": "/Game/Maps/World/L_World.L_World",
+        "SubPathString": "PersistentLevel.DominionWorldSettings.WorldPartition_0.WorldPartitionRuntimeSpatialHash_0.7BKCRVAF91Z9BZCB3ZU9V8NN1"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "DominionWorldSettings'L_World:PersistentLevel.DominionWorldSettings'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/7BKCRVAF91Z9BZCB3ZU9V8NN1.2"
+      },
+      null,
+      {
+        "ObjectName": "WorldPartitionHLOD'L_World:PersistentLevel.HLODArchitectureBig_00000000b0325484'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/7BKCRVAF91Z9BZCB3ZU9V8NN1.20"
+      },
+      {
+        "ObjectName": "WorldPartitionHLOD'L_World:PersistentLevel.HL_Level1_Merged_00000000031b566e'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/7BKCRVAF91Z9BZCB3ZU9V8NN1.19"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/L_FrontEnd",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'L_World:PersistentLevel.Model_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/7BKCRVAF91Z9BZCB3ZU9V8NN1.6"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "MI_L_World_HLOD0_252m_251m_L0_X11_Y10FlattenMaterial_0",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material'FlattenMaterial'",
+        "ObjectPath": "/Engine/EngineMaterials/FlattenMaterial"
+      },
+      "bHasStaticPermutationResource": true,
+      "TextureParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "BaseColorTexture",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'Texture2D_1750'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/7BKCRVAF91Z9BZCB3ZU9V8NN1.12"
+          },
+          "ExpressionGUID": "82FD0F32-4AF06CC6-18A9E0A9-2A071FCA"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "NormalTexture",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'Texture2D_1755'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/7BKCRVAF91Z9BZCB3ZU9V8NN1.14"
+          },
+          "ExpressionGUID": "C6A93FE4-4230CDF6-85A0698E-87A1C080"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "PackedTexture",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'Texture2D_1751'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/7BKCRVAF91Z9BZCB3ZU9V8NN1.13"
+          },
+          "ExpressionGUID": "40ACFD99-47FCA49B-8BC0ACB0-D368686E"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "OpacityMaskClipValue": 0.3333
+      },
+      "StaticParametersRuntime": {
+        "StaticSwitchParameters": [
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "UseBaseColor",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "99BA8635-4EAA882F-9D4136AF-958BF760"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "UseDiffuse",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "00000000-00000000-00000000-00000000"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "UseRoughness",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "1FB0D1A1-4B814EB2-C253E1BD-D768EE11"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "UseMetallic",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "A67F0132-4E615DFD-F6D3C093-8AF6A389"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "UseSpecular",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "F9B187B7-4F6A5313-3076A08F-BE363FCC"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "UseNormal",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "00000000-00000000-00000000-00000000"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "PackMetallic",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "2F18F907-4CC0A230-52399AB8-5E10A0DC"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "PackSpecular",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "20D8F867-44B315C4-70FC5388-7923C8DE"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "PackRoughness",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "5497FBBB-481DC774-ED618F83-67DA38BD"
+          }
+        ]
+      },
+      "bIncludedInBaseGame": true
+    },
+    "LoadedMaterialResources": [],
+    "CachedData": {
+      "ParentLayerIndexRemap": []
+    }
+  },
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "MI_L_World_HLOD0_252m_252m_L0_X11_Y10FlattenMaterial_0",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material'FlattenMaterial'",
+        "ObjectPath": "/Engine/EngineMaterials/FlattenMaterial"
+      },
+      "bHasStaticPermutationResource": true,
+      "TextureParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "BaseColorTexture",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'Texture2D_2050'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/7BKCRVAF91Z9BZCB3ZU9V8NN1.15"
+          },
+          "ExpressionGUID": "82FD0F32-4AF06CC6-18A9E0A9-2A071FCA"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "NormalTexture",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'Texture2D_2055'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/7BKCRVAF91Z9BZCB3ZU9V8NN1.17"
+          },
+          "ExpressionGUID": "C6A93FE4-4230CDF6-85A0698E-87A1C080"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "PackedTexture",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'Texture2D_2051'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/7BKCRVAF91Z9BZCB3ZU9V8NN1.16"
+          },
+          "ExpressionGUID": "40ACFD99-47FCA49B-8BC0ACB0-D368686E"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "OpacityMaskClipValue": 0.3333
+      },
+      "StaticParametersRuntime": {
+        "StaticSwitchParameters": [
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "UseBaseColor",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "99BA8635-4EAA882F-9D4136AF-958BF760"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "UseDiffuse",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "00000000-00000000-00000000-00000000"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "UseRoughness",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "1FB0D1A1-4B814EB2-C253E1BD-D768EE11"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "UseMetallic",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "A67F0132-4E615DFD-F6D3C093-8AF6A389"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "UseSpecular",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "F9B187B7-4F6A5313-3076A08F-BE363FCC"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "UseNormal",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "00000000-00000000-00000000-00000000"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "PackMetallic",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "2F18F907-4CC0A230-52399AB8-5E10A0DC"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "PackSpecular",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "20D8F867-44B315C4-70FC5388-7923C8DE"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "PackRoughness",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "5497FBBB-481DC774-ED618F83-67DA38BD"
+          }
+        ]
+      },
+      "bIncludedInBaseGame": true
+    },
+    "LoadedMaterialResources": [],
+    "CachedData": {
+      "ParentLayerIndexRemap": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": {
+      "ObjectName": "Level'L_World:PersistentLevel'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/7BKCRVAF91Z9BZCB3ZU9V8NN1.3"
+    },
+    "Class": "UScriptClass'Model'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "2F8BDF1B-2D53D1E4-A654D15B-9F72F06F",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": {
+      "ObjectName": "DominionWorldSettings'L_World:PersistentLevel.DominionWorldSettings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/7BKCRVAF91Z9BZCB3ZU9V8NN1.2"
+    },
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "StaticMesh_HL_Level1_Merged_0",
+    "Class": "UScriptClass'StaticMesh'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_L_World_HLOD0_252m_252m_L0_X11_Y10FlattenMaterial_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/7BKCRVAF91Z9BZCB3ZU9V8NN1.5"
+          },
+          "MaterialSlotName": "MI_L_World_HLOD0_252m_252m_L0_X11_Y10FlattenMaterial_0",
+          "ImportedMaterialSlotName": "MI_L_World_HLOD0_252m_252m_L0_X11_Y10FlattenMaterial_0",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 42852.363,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          },
+          "OverlayMaterialInterface": null
+        }
+      ],
+      "LightmapUVDensity": 42852.363,
+      "LightMapResolution": 64,
+      "LODForCollision": 8,
+      "bHasNavigationData": false,
+      "bSupportRayTracing": false,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 295010.25,
+          "Y": 262598.53,
+          "Z": -3189.971
+        },
+        "BoxExtent": {
+          "X": 8408.3125,
+          "Y": 13811.156,
+          "Z": 3481.2932
+        },
+        "SphereRadius": 14400.781703626799
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'StaticMesh_HL_Level1_Merged_0:BodySetup_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/7BKCRVAF91Z9BZCB3ZU9V8NN1.0"
+    },
+    "NavCollision": null,
+    "LightingGuid": "90A9C433-45926A5D-6A62369A-13495FE7",
+    "RenderData": {
+      "LODs": [
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 3169,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 2532,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 0.0,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 2533
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 1,
+            "NumVertices": 2533,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 4,
+            "NumVertices": 2533
+          },
+          "CardRepresentationData": {
+            "Bounds": {
+              "Min": {
+                "X": 286431.0,
+                "Y": 248687.38,
+                "Z": -6672.264
+              },
+              "Max": {
+                "X": 303593.0,
+                "Y": 276410.7,
+                "Z": 292.32227
+              },
+              "IsValid": 1
+            },
+            "MaxLodLevel": 0,
+            "bMostlyTwoSided": false,
+            "CardBuildData": [
+              {
+                "OBB": {
+                  "AxisX": {
+                    "X": 0.0,
+                    "Y": 1.0,
+                    "Z": 0.0
+                  },
+                  "AxisY": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 1.0
+                  },
+                  "AxisZ": {
+                    "X": -1.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Origin": {
+                    "X": 293532.16,
+                    "Y": 262549.03,
+                    "Z": -3189.9707
+                  },
+                  "Extent": {
+                    "X": 13861.656,
+                    "Y": 3465.414,
+                    "Z": 7111.151
+                  }
+                },
+                "LODLevel": 0,
+                "AxisAlignedDirectionIndex": 0
+              },
+              {
+                "OBB": {
+                  "AxisX": {
+                    "X": 0.0,
+                    "Y": 1.0,
+                    "Z": 0.0
+                  },
+                  "AxisY": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 1.0
+                  },
+                  "AxisZ": {
+                    "X": 1.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Origin": {
+                    "X": 296058.7,
+                    "Y": 262549.03,
+                    "Z": -3189.9707
+                  },
+                  "Extent": {
+                    "X": 13861.656,
+                    "Y": 3465.414,
+                    "Z": 7544.3276
+                  }
+                },
+                "LODLevel": 0,
+                "AxisAlignedDirectionIndex": 1
+              },
+              {
+                "OBB": {
+                  "AxisX": {
+                    "X": 1.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "AxisY": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 1.0
+                  },
+                  "AxisZ": {
+                    "X": 0.0,
+                    "Y": -1.0,
+                    "Z": 0.0
+                  },
+                  "Origin": {
+                    "X": 295012.0,
+                    "Y": 261027.9,
+                    "Z": -3189.9707
+                  },
+                  "Extent": {
+                    "X": 8581.0,
+                    "Y": 3465.414,
+                    "Z": 12350.537
+                  }
+                },
+                "LODLevel": 0,
+                "AxisAlignedDirectionIndex": 2
+              },
+              {
+                "OBB": {
+                  "AxisX": {
+                    "X": 1.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "AxisY": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 1.0
+                  },
+                  "AxisZ": {
+                    "X": 0.0,
+                    "Y": -1.0,
+                    "Z": 0.0
+                  },
+                  "Origin": {
+                    "X": 297136.62,
+                    "Y": 271645.75,
+                    "Z": -3189.9707
+                  },
+                  "Extent": {
+                    "X": 6456.382,
+                    "Y": 3465.414,
+                    "Z": 1732.707
+                  }
+                },
+                "LODLevel": 0,
+                "AxisAlignedDirectionIndex": 2
+              },
+              {
+                "OBB": {
+                  "AxisX": {
+                    "X": 1.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "AxisY": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 1.0
+                  },
+                  "AxisZ": {
+                    "X": 0.0,
+                    "Y": -1.0,
+                    "Z": 0.0
+                  },
+                  "Origin": {
+                    "X": 292887.38,
+                    "Y": 266014.44,
+                    "Z": -4056.3242
+                  },
+                  "Extent": {
+                    "X": 6456.3857,
+                    "Y": 2599.0605,
+                    "Z": 3898.5903
+                  }
+                },
+                "LODLevel": 0,
+                "AxisAlignedDirectionIndex": 2
+              },
+              {
+                "OBB": {
+                  "AxisX": {
+                    "X": 1.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "AxisY": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 1.0
+                  },
+                  "AxisZ": {
+                    "X": 0.0,
+                    "Y": 1.0,
+                    "Z": 0.0
+                  },
+                  "Origin": {
+                    "X": 295012.0,
+                    "Y": 265802.84,
+                    "Z": -3189.9707
+                  },
+                  "Extent": {
+                    "X": 8581.0,
+                    "Y": 3465.414,
+                    "Z": 10617.83
+                  }
+                },
+                "LODLevel": 0,
+                "AxisAlignedDirectionIndex": 3
+              },
+              {
+                "OBB": {
+                  "AxisX": {
+                    "X": 1.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "AxisY": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 1.0
+                  },
+                  "AxisZ": {
+                    "X": 0.0,
+                    "Y": 1.0,
+                    "Z": 0.0
+                  },
+                  "Origin": {
+                    "X": 292887.38,
+                    "Y": 258650.44,
+                    "Z": -4056.3242
+                  },
+                  "Extent": {
+                    "X": 6456.3857,
+                    "Y": 2599.0605,
+                    "Z": 4331.768
+                  }
+                },
+                "LODLevel": 0,
+                "AxisAlignedDirectionIndex": 3
+              },
+              {
+                "OBB": {
+                  "AxisX": {
+                    "X": 1.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "AxisY": {
+                    "X": 0.0,
+                    "Y": 1.0,
+                    "Z": 0.0
+                  },
+                  "AxisZ": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": -1.0
+                  },
+                  "Origin": {
+                    "X": 295012.0,
+                    "Y": 262549.03,
+                    "Z": -3419.9988
+                  },
+                  "Extent": {
+                    "X": 8581.0,
+                    "Y": 13861.656,
+                    "Z": 3262.2654
+                  }
+                },
+                "LODLevel": 0,
+                "AxisAlignedDirectionIndex": 4
+              },
+              {
+                "OBB": {
+                  "AxisX": {
+                    "X": 1.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "AxisY": {
+                    "X": 0.0,
+                    "Y": 1.0,
+                    "Z": 0.0
+                  },
+                  "AxisZ": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 1.0
+                  },
+                  "Origin": {
+                    "X": 295012.0,
+                    "Y": 262549.03,
+                    "Z": -2093.5896
+                  },
+                  "Extent": {
+                    "X": 8581.0,
+                    "Y": 13861.656,
+                    "Z": 2395.9116
+                  }
+                },
+                "LODLevel": 0,
+                "AxisAlignedDirectionIndex": 5
+              }
+            ]
+          }
+        },
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 1585,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 1520,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 28477.598,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 1521
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 1,
+            "NumVertices": 1521,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 4,
+            "NumVertices": 1521
+          }
+        },
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 793,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 916,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 71090.06,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 917
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 1,
+            "NumVertices": 917,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 4,
+            "NumVertices": 917
+          }
+        }
+      ],
+      "NaniteResources": {
+        "StreamablePages": {
+          "BulkDataFlags": "BULKDATA_None",
+          "ElementCount": 0,
+          "SizeOnDisk": 0,
+          "OffsetInFile": "0xB24A"
+        },
+        "AssemblyTransforms": [],
+        "AssemblyBoneAttachmentData": null,
+        "BoneIndices": null,
+        "VoxelMaterialsMask": 0,
+        "MeshBounds": {
+          "Origin": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "BoxExtent": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "SphereRadius": 0.0
+        },
+        "PageRangeLookup": null,
+        "NumRootPages": 0,
+        "PositionPrecision": 0,
+        "NormalPrecision": 0,
+        "NumInputTriangles": 0,
+        "NumInputVertices": 0,
+        "NumInputMeshes": 0,
+        "NumInputTexCoords": 0,
+        "NumClusters": 0,
+        "NumInputCurves": 0,
+        "ResourceFlags": "NONE"
+      },
+      "Bounds": {
+        "Origin": {
+          "X": 295012.0,
+          "Y": 262549.03,
+          "Z": -3189.971
+        },
+        "BoxExtent": {
+          "X": 8579.992,
+          "Y": 13860.652,
+          "Z": 3481.2932
+        },
+        "SphereRadius": 14585.823
+      },
+      "bLODsShareStaticLighting": true,
+      "ScreenSize": [
+        2.0,
+        0.09004509,
+        0.03720011,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "StaticMesh_HLODArchitectureBig_0",
+    "Class": "UScriptClass'StaticMesh'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_L_World_HLOD0_252m_251m_L0_X11_Y10FlattenMaterial_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/7BKCRVAF91Z9BZCB3ZU9V8NN1.4"
+          },
+          "MaterialSlotName": "MI_L_World_HLOD0_252m_251m_L0_X11_Y10FlattenMaterial_0",
+          "ImportedMaterialSlotName": "MI_L_World_HLOD0_252m_251m_L0_X11_Y10FlattenMaterial_0",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 11910.944,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          },
+          "OverlayMaterialInterface": null
+        }
+      ],
+      "LightmapUVDensity": 11910.944,
+      "LightMapResolution": 64,
+      "LODForCollision": 8,
+      "bHasNavigationData": false,
+      "bSupportRayTracing": false,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 298006.56,
+          "Y": 258939.52,
+          "Z": -3809.315
+        },
+        "BoxExtent": {
+          "X": 2712.7188,
+          "Y": 2953.6562,
+          "Z": 1587.3701
+        },
+        "SphereRadius": 3294.994370756936
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'StaticMesh_HLODArchitectureBig_0:BodySetup_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/7BKCRVAF91Z9BZCB3ZU9V8NN1.1"
+    },
+    "NavCollision": null,
+    "LightingGuid": "9244A48A-4B725A7A-6EAB7A9A-7105629A",
+    "RenderData": {
+      "LODs": [
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 955,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 873,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 0.0,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 874
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 1,
+            "NumVertices": 874,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 4,
+            "NumVertices": 874
+          },
+          "CardRepresentationData": {
+            "Bounds": {
+              "Min": {
+                "X": 295292.84,
+                "Y": 255936.8,
+                "Z": -5397.685
+              },
+              "Max": {
+                "X": 300720.28,
+                "Y": 261894.17,
+                "Z": -2220.9448
+              },
+              "IsValid": 1
+            },
+            "MaxLodLevel": 0,
+            "bMostlyTwoSided": false,
+            "CardBuildData": [
+              {
+                "OBB": {
+                  "AxisX": {
+                    "X": 0.0,
+                    "Y": 1.0,
+                    "Z": 0.0
+                  },
+                  "AxisY": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 1.0
+                  },
+                  "AxisZ": {
+                    "X": -1.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Origin": {
+                    "X": 297017.03,
+                    "Y": 258915.48,
+                    "Z": -3809.315
+                  },
+                  "Extent": {
+                    "X": 2978.6875,
+                    "Y": 1582.4277,
+                    "Z": 1734.1943
+                  }
+                },
+                "LODLevel": 0,
+                "AxisAlignedDirectionIndex": 0
+              },
+              {
+                "OBB": {
+                  "AxisX": {
+                    "X": 0.0,
+                    "Y": 1.0,
+                    "Z": 0.0
+                  },
+                  "AxisY": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 1.0
+                  },
+                  "AxisZ": {
+                    "X": 1.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Origin": {
+                    "X": 298903.0,
+                    "Y": 258915.48,
+                    "Z": -3809.315
+                  },
+                  "Extent": {
+                    "X": 2978.6875,
+                    "Y": 1582.4277,
+                    "Z": 1827.2783
+                  }
+                },
+                "LODLevel": 0,
+                "AxisAlignedDirectionIndex": 1
+              },
+              {
+                "OBB": {
+                  "AxisX": {
+                    "X": 1.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "AxisY": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 1.0
+                  },
+                  "AxisZ": {
+                    "X": 0.0,
+                    "Y": -1.0,
+                    "Z": 0.0
+                  },
+                  "Origin": {
+                    "X": 298006.56,
+                    "Y": 258305.44,
+                    "Z": -3809.315
+                  },
+                  "Extent": {
+                    "X": 2699.4355,
+                    "Y": 1582.4277,
+                    "Z": 2378.6416
+                  }
+                },
+                "LODLevel": 0,
+                "AxisAlignedDirectionIndex": 2
+              },
+              {
+                "OBB": {
+                  "AxisX": {
+                    "X": 1.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "AxisY": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 1.0
+                  },
+                  "AxisZ": {
+                    "X": 0.0,
+                    "Y": -1.0,
+                    "Z": 0.0
+                  },
+                  "Origin": {
+                    "X": 299775.16,
+                    "Y": 260032.5,
+                    "Z": -3902.399
+                  },
+                  "Extent": {
+                    "X": 372.33594,
+                    "Y": 1489.3438,
+                    "Z": 465.41992
+                  }
+                },
+                "LODLevel": 0,
+                "AxisAlignedDirectionIndex": 2
+              },
+              {
+                "OBB": {
+                  "AxisX": {
+                    "X": 1.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "AxisY": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 1.0
+                  },
+                  "AxisZ": {
+                    "X": 0.0,
+                    "Y": 1.0,
+                    "Z": 0.0
+                  },
+                  "Origin": {
+                    "X": 298006.56,
+                    "Y": 259711.7,
+                    "Z": -3809.315
+                  },
+                  "Extent": {
+                    "X": 2699.4355,
+                    "Y": 1582.4277,
+                    "Z": 2192.4736
+                  }
+                },
+                "LODLevel": 0,
+                "AxisAlignedDirectionIndex": 3
+              },
+              {
+                "OBB": {
+                  "AxisX": {
+                    "X": 1.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "AxisY": {
+                    "X": 0.0,
+                    "Y": 1.0,
+                    "Z": 0.0
+                  },
+                  "AxisZ": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": -1.0
+                  },
+                  "Origin": {
+                    "X": 298006.56,
+                    "Y": 259008.56,
+                    "Z": -4049.996
+                  },
+                  "Extent": {
+                    "X": 2699.4355,
+                    "Y": 2885.6035,
+                    "Z": 1357.689
+                  }
+                },
+                "LODLevel": 0,
+                "AxisAlignedDirectionIndex": 4
+              },
+              {
+                "OBB": {
+                  "AxisX": {
+                    "X": 1.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "AxisY": {
+                    "X": 0.0,
+                    "Y": 1.0,
+                    "Z": 0.0
+                  },
+                  "AxisZ": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 1.0
+                  },
+                  "Origin": {
+                    "X": 298006.56,
+                    "Y": 258915.48,
+                    "Z": -3382.4658
+                  },
+                  "Extent": {
+                    "X": 2699.4355,
+                    "Y": 2978.6875,
+                    "Z": 1171.521
+                  }
+                },
+                "LODLevel": 0,
+                "AxisAlignedDirectionIndex": 5
+              }
+            ]
+          }
+        },
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 478,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 427,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 4906.737,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 428
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 1,
+            "NumVertices": 428,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 4,
+            "NumVertices": 428
+          }
+        },
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 239,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 231,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 14215.874,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 232
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 1,
+            "NumVertices": 232,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 4,
+            "NumVertices": 232
+          }
+        }
+      ],
+      "NaniteResources": {
+        "StreamablePages": {
+          "BulkDataFlags": "BULKDATA_None",
+          "ElementCount": 0,
+          "SizeOnDisk": 0,
+          "OffsetInFile": "0x336E"
+        },
+        "AssemblyTransforms": [],
+        "AssemblyBoneAttachmentData": null,
+        "BoneIndices": null,
+        "VoxelMaterialsMask": 0,
+        "MeshBounds": {
+          "Origin": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "BoxExtent": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "SphereRadius": 0.0
+        },
+        "PageRangeLookup": null,
+        "NumRootPages": 0,
+        "PositionPrecision": 0,
+        "NormalPrecision": 0,
+        "NumInputTriangles": 0,
+        "NumInputVertices": 0,
+        "NumInputMeshes": 0,
+        "NumInputTexCoords": 0,
+        "NumClusters": 0,
+        "NumInputCurves": 0,
+        "ResourceFlags": "NONE"
+      },
+      "Bounds": {
+        "Origin": {
+          "X": 298006.56,
+          "Y": 258915.48,
+          "Z": -3809.315
+        },
+        "BoxExtent": {
+          "X": 2712.7266,
+          "Y": 2977.6914,
+          "Z": 1587.3701
+        },
+        "SphereRadius": 3334.3535
+      },
+      "bLODsShareStaticLighting": true,
+      "ScreenSize": [
+        2.0,
+        0.11752287,
+        0.042399522,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent_0",
+    "Outer": {
+      "ObjectName": "WorldPartitionHLOD'L_World:PersistentLevel.HL_Level1_Merged_00000000031b566e'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/7BKCRVAF91Z9BZCB3ZU9V8NN1.19"
+    },
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'StaticMesh_HL_Level1_Merged_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/7BKCRVAF91Z9BZCB3ZU9V8NN1.8"
+      },
+      "bIsActorTextureStreamingBuiltData": true,
+      "bGenerateOverlapEvents": false,
+      "AlwaysLoadOnServer": false,
+      "CanCharacterStepUpOn": "ECanBeCharacterBase::ECB_No",
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_GameTraceChannel17",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel2",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel3",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel4",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel5",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel6",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Ai",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Player",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Building",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Ground",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "bComputeFastLocalBounds": true,
+      "bComputeBoundsOnceForGame": true,
+      "bComputedBoundsOnceForGame": true,
+      "Mobility": "EComponentMobility::Static",
+      "bCanEverAffectNavigation": false,
+      "CreationMethod": "EComponentCreationMethod::Instance"
+    },
+    "Bounds": {
+      "Origin": {
+        "X": 295010.25,
+        "Y": 262598.53,
+        "Z": -3189.971
+      },
+      "BoxExtent": {
+        "X": 8408.3125,
+        "Y": 13811.156,
+        "Z": 3481.2932
+      },
+      "SphereRadius": 14400.781
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent_0",
+    "Outer": {
+      "ObjectName": "WorldPartitionHLOD'L_World:PersistentLevel.HLODArchitectureBig_00000000b0325484'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/7BKCRVAF91Z9BZCB3ZU9V8NN1.20"
+    },
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'StaticMesh_HLODArchitectureBig_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/7BKCRVAF91Z9BZCB3ZU9V8NN1.9"
+      },
+      "bIsActorTextureStreamingBuiltData": true,
+      "bGenerateOverlapEvents": false,
+      "AlwaysLoadOnServer": false,
+      "CanCharacterStepUpOn": "ECanBeCharacterBase::ECB_No",
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_GameTraceChannel17",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel2",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel3",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel4",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel5",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel6",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Ai",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Player",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Building",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Ground",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "bComputeFastLocalBounds": true,
+      "bComputeBoundsOnceForGame": true,
+      "bComputedBoundsOnceForGame": true,
+      "Mobility": "EComponentMobility::Static",
+      "bCanEverAffectNavigation": false,
+      "CreationMethod": "EComponentCreationMethod::Instance"
+    },
+    "Bounds": {
+      "Origin": {
+        "X": 298006.56,
+        "Y": 258939.52,
+        "Z": -3809.315
+      },
+      "BoxExtent": {
+        "X": 2712.7188,
+        "Y": 2953.6562,
+        "Z": 1587.3701
+      },
+      "SphereRadius": 3294.9944
+    }
+  },
+  {
+    "Type": "Texture2D",
+    "Name": "Texture2D_1750",
+    "Class": "UScriptClass'Texture2D'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ImportedSize": {
+        "X": 256,
+        "Y": 256
+      },
+      "LODGroup": "TextureGroup::TEXTUREGROUP_HierarchicalLOD"
+    },
+    "SizeX": 256,
+    "SizeY": 256,
+    "PackedData": 1,
+    "PixelFormat": "PF_DXT1",
+    "FirstMipToSerialize": 0,
+    "Mips": [
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_PayloadAtEndOfFile | BULKDATA_PayloadInSeperateFile | BULKDATA_Force_NOT_InlinePayload | BULKDATA_NoOffsetFixUp",
+          "ElementCount": 32768,
+          "SizeOnDisk": 32768,
+          "OffsetInFile": "0x483358"
+        },
+        "SizeX": 256,
+        "SizeY": 256,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_PayloadAtEndOfFile | BULKDATA_PayloadInSeperateFile | BULKDATA_Force_NOT_InlinePayload | BULKDATA_NoOffsetFixUp",
+          "ElementCount": 8192,
+          "SizeOnDisk": 8192,
+          "OffsetInFile": "0x48B358"
+        },
+        "SizeX": 128,
+        "SizeY": 128,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 2048,
+          "SizeOnDisk": 2048,
+          "OffsetInFile": "0x81"
+        },
+        "SizeX": 64,
+        "SizeY": 64,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 512,
+          "SizeOnDisk": 512,
+          "OffsetInFile": "0x891"
+        },
+        "SizeX": 32,
+        "SizeY": 32,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 128,
+          "SizeOnDisk": 128,
+          "OffsetInFile": "0xAA1"
+        },
+        "SizeX": 16,
+        "SizeY": 16,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 32,
+          "SizeOnDisk": 32,
+          "OffsetInFile": "0xB31"
+        },
+        "SizeX": 8,
+        "SizeY": 8,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 8,
+          "SizeOnDisk": 8,
+          "OffsetInFile": "0xB61"
+        },
+        "SizeX": 4,
+        "SizeY": 4,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 8,
+          "SizeOnDisk": 8,
+          "OffsetInFile": "0xB79"
+        },
+        "SizeX": 2,
+        "SizeY": 2,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 8,
+          "SizeOnDisk": 8,
+          "OffsetInFile": "0xB91"
+        },
+        "SizeX": 1,
+        "SizeY": 1,
+        "SizeZ": 1
+      }
+    ]
+  },
+  {
+    "Type": "Texture2D",
+    "Name": "Texture2D_1751",
+    "Class": "UScriptClass'Texture2D'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ImportedSize": {
+        "X": 256,
+        "Y": 256
+      },
+      "LODGroup": "TextureGroup::TEXTUREGROUP_HierarchicalLOD",
+      "SRGB": false
+    },
+    "SizeX": 256,
+    "SizeY": 256,
+    "PackedData": 1,
+    "PixelFormat": "PF_DXT1",
+    "FirstMipToSerialize": 0,
+    "Mips": [
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_PayloadAtEndOfFile | BULKDATA_PayloadInSeperateFile | BULKDATA_Force_NOT_InlinePayload | BULKDATA_NoOffsetFixUp",
+          "ElementCount": 32768,
+          "SizeOnDisk": 32768,
+          "OffsetInFile": "0x48D358"
+        },
+        "SizeX": 256,
+        "SizeY": 256,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_PayloadAtEndOfFile | BULKDATA_PayloadInSeperateFile | BULKDATA_Force_NOT_InlinePayload | BULKDATA_NoOffsetFixUp",
+          "ElementCount": 8192,
+          "SizeOnDisk": 8192,
+          "OffsetInFile": "0x495358"
+        },
+        "SizeX": 128,
+        "SizeY": 128,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 2048,
+          "SizeOnDisk": 2048,
+          "OffsetInFile": "0x84"
+        },
+        "SizeX": 64,
+        "SizeY": 64,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 512,
+          "SizeOnDisk": 512,
+          "OffsetInFile": "0x894"
+        },
+        "SizeX": 32,
+        "SizeY": 32,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 128,
+          "SizeOnDisk": 128,
+          "OffsetInFile": "0xAA4"
+        },
+        "SizeX": 16,
+        "SizeY": 16,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 32,
+          "SizeOnDisk": 32,
+          "OffsetInFile": "0xB34"
+        },
+        "SizeX": 8,
+        "SizeY": 8,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 8,
+          "SizeOnDisk": 8,
+          "OffsetInFile": "0xB64"
+        },
+        "SizeX": 4,
+        "SizeY": 4,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 8,
+          "SizeOnDisk": 8,
+          "OffsetInFile": "0xB7C"
+        },
+        "SizeX": 2,
+        "SizeY": 2,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 8,
+          "SizeOnDisk": 8,
+          "OffsetInFile": "0xB94"
+        },
+        "SizeX": 1,
+        "SizeY": 1,
+        "SizeZ": 1
+      }
+    ]
+  },
+  {
+    "Type": "Texture2D",
+    "Name": "Texture2D_1755",
+    "Class": "UScriptClass'Texture2D'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ImportedSize": {
+        "X": 256,
+        "Y": 256
+      },
+      "CompressionSettings": "TextureCompressionSettings::TC_Normalmap",
+      "LODGroup": "TextureGroup::TEXTUREGROUP_HierarchicalLOD",
+      "SRGB": false
+    },
+    "SizeX": 256,
+    "SizeY": 256,
+    "PackedData": 1,
+    "PixelFormat": "PF_BC5",
+    "FirstMipToSerialize": 0,
+    "Mips": [
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_PayloadAtEndOfFile | BULKDATA_PayloadInSeperateFile | BULKDATA_Force_NOT_InlinePayload | BULKDATA_NoOffsetFixUp",
+          "ElementCount": 65536,
+          "SizeOnDisk": 65536,
+          "OffsetInFile": "0x497358"
+        },
+        "SizeX": 256,
+        "SizeY": 256,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_PayloadAtEndOfFile | BULKDATA_PayloadInSeperateFile | BULKDATA_Force_NOT_InlinePayload | BULKDATA_NoOffsetFixUp",
+          "ElementCount": 16384,
+          "SizeOnDisk": 16384,
+          "OffsetInFile": "0x4A7358"
+        },
+        "SizeX": 128,
+        "SizeY": 128,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 4096,
+          "SizeOnDisk": 4096,
+          "OffsetInFile": "0x86"
+        },
+        "SizeX": 64,
+        "SizeY": 64,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 1024,
+          "SizeOnDisk": 1024,
+          "OffsetInFile": "0x1096"
+        },
+        "SizeX": 32,
+        "SizeY": 32,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 256,
+          "SizeOnDisk": 256,
+          "OffsetInFile": "0x14A6"
+        },
+        "SizeX": 16,
+        "SizeY": 16,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 64,
+          "SizeOnDisk": 64,
+          "OffsetInFile": "0x15B6"
+        },
+        "SizeX": 8,
+        "SizeY": 8,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 16,
+          "SizeOnDisk": 16,
+          "OffsetInFile": "0x1606"
+        },
+        "SizeX": 4,
+        "SizeY": 4,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 16,
+          "SizeOnDisk": 16,
+          "OffsetInFile": "0x1626"
+        },
+        "SizeX": 2,
+        "SizeY": 2,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 16,
+          "SizeOnDisk": 16,
+          "OffsetInFile": "0x1646"
+        },
+        "SizeX": 1,
+        "SizeY": 1,
+        "SizeZ": 1
+      }
+    ]
+  },
+  {
+    "Type": "Texture2D",
+    "Name": "Texture2D_2050",
+    "Class": "UScriptClass'Texture2D'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ImportedSize": {
+        "X": 256,
+        "Y": 256
+      },
+      "LODGroup": "TextureGroup::TEXTUREGROUP_HierarchicalLOD"
+    },
+    "SizeX": 256,
+    "SizeY": 256,
+    "PackedData": 1,
+    "PixelFormat": "PF_DXT1",
+    "FirstMipToSerialize": 0,
+    "Mips": [
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_PayloadAtEndOfFile | BULKDATA_PayloadInSeperateFile | BULKDATA_Force_NOT_InlinePayload | BULKDATA_NoOffsetFixUp",
+          "ElementCount": 32768,
+          "SizeOnDisk": 32768,
+          "OffsetInFile": "0x4AB358"
+        },
+        "SizeX": 256,
+        "SizeY": 256,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_PayloadAtEndOfFile | BULKDATA_PayloadInSeperateFile | BULKDATA_Force_NOT_InlinePayload | BULKDATA_NoOffsetFixUp",
+          "ElementCount": 8192,
+          "SizeOnDisk": 8192,
+          "OffsetInFile": "0x4B3358"
+        },
+        "SizeX": 128,
+        "SizeY": 128,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 2048,
+          "SizeOnDisk": 2048,
+          "OffsetInFile": "0x81"
+        },
+        "SizeX": 64,
+        "SizeY": 64,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 512,
+          "SizeOnDisk": 512,
+          "OffsetInFile": "0x891"
+        },
+        "SizeX": 32,
+        "SizeY": 32,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 128,
+          "SizeOnDisk": 128,
+          "OffsetInFile": "0xAA1"
+        },
+        "SizeX": 16,
+        "SizeY": 16,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 32,
+          "SizeOnDisk": 32,
+          "OffsetInFile": "0xB31"
+        },
+        "SizeX": 8,
+        "SizeY": 8,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 8,
+          "SizeOnDisk": 8,
+          "OffsetInFile": "0xB61"
+        },
+        "SizeX": 4,
+        "SizeY": 4,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 8,
+          "SizeOnDisk": 8,
+          "OffsetInFile": "0xB79"
+        },
+        "SizeX": 2,
+        "SizeY": 2,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 8,
+          "SizeOnDisk": 8,
+          "OffsetInFile": "0xB91"
+        },
+        "SizeX": 1,
+        "SizeY": 1,
+        "SizeZ": 1
+      }
+    ]
+  },
+  {
+    "Type": "Texture2D",
+    "Name": "Texture2D_2051",
+    "Class": "UScriptClass'Texture2D'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ImportedSize": {
+        "X": 256,
+        "Y": 256
+      },
+      "LODGroup": "TextureGroup::TEXTUREGROUP_HierarchicalLOD",
+      "SRGB": false
+    },
+    "SizeX": 256,
+    "SizeY": 256,
+    "PackedData": 1,
+    "PixelFormat": "PF_DXT1",
+    "FirstMipToSerialize": 0,
+    "Mips": [
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_PayloadAtEndOfFile | BULKDATA_PayloadInSeperateFile | BULKDATA_Force_NOT_InlinePayload | BULKDATA_NoOffsetFixUp",
+          "ElementCount": 32768,
+          "SizeOnDisk": 32768,
+          "OffsetInFile": "0x4B5358"
+        },
+        "SizeX": 256,
+        "SizeY": 256,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_PayloadAtEndOfFile | BULKDATA_PayloadInSeperateFile | BULKDATA_Force_NOT_InlinePayload | BULKDATA_NoOffsetFixUp",
+          "ElementCount": 8192,
+          "SizeOnDisk": 8192,
+          "OffsetInFile": "0x4BD358"
+        },
+        "SizeX": 128,
+        "SizeY": 128,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 2048,
+          "SizeOnDisk": 2048,
+          "OffsetInFile": "0x84"
+        },
+        "SizeX": 64,
+        "SizeY": 64,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 512,
+          "SizeOnDisk": 512,
+          "OffsetInFile": "0x894"
+        },
+        "SizeX": 32,
+        "SizeY": 32,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 128,
+          "SizeOnDisk": 128,
+          "OffsetInFile": "0xAA4"
+        },
+        "SizeX": 16,
+        "SizeY": 16,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 32,
+          "SizeOnDisk": 32,
+          "OffsetInFile": "0xB34"
+        },
+        "SizeX": 8,
+        "SizeY": 8,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 8,
+          "SizeOnDisk": 8,
+          "OffsetInFile": "0xB64"
+        },
+        "SizeX": 4,
+        "SizeY": 4,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 8,
+          "SizeOnDisk": 8,
+          "OffsetInFile": "0xB7C"
+        },
+        "SizeX": 2,
+        "SizeY": 2,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 8,
+          "SizeOnDisk": 8,
+          "OffsetInFile": "0xB94"
+        },
+        "SizeX": 1,
+        "SizeY": 1,
+        "SizeZ": 1
+      }
+    ]
+  },
+  {
+    "Type": "Texture2D",
+    "Name": "Texture2D_2055",
+    "Class": "UScriptClass'Texture2D'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ImportedSize": {
+        "X": 256,
+        "Y": 256
+      },
+      "CompressionSettings": "TextureCompressionSettings::TC_Normalmap",
+      "LODGroup": "TextureGroup::TEXTUREGROUP_HierarchicalLOD",
+      "SRGB": false
+    },
+    "SizeX": 256,
+    "SizeY": 256,
+    "PackedData": 1,
+    "PixelFormat": "PF_BC5",
+    "FirstMipToSerialize": 0,
+    "Mips": [
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_PayloadAtEndOfFile | BULKDATA_PayloadInSeperateFile | BULKDATA_Force_NOT_InlinePayload | BULKDATA_NoOffsetFixUp",
+          "ElementCount": 65536,
+          "SizeOnDisk": 65536,
+          "OffsetInFile": "0x4BF358"
+        },
+        "SizeX": 256,
+        "SizeY": 256,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_PayloadAtEndOfFile | BULKDATA_PayloadInSeperateFile | BULKDATA_Force_NOT_InlinePayload | BULKDATA_NoOffsetFixUp",
+          "ElementCount": 16384,
+          "SizeOnDisk": 16384,
+          "OffsetInFile": "0x4CF358"
+        },
+        "SizeX": 128,
+        "SizeY": 128,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 4096,
+          "SizeOnDisk": 4096,
+          "OffsetInFile": "0x86"
+        },
+        "SizeX": 64,
+        "SizeY": 64,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 1024,
+          "SizeOnDisk": 1024,
+          "OffsetInFile": "0x1096"
+        },
+        "SizeX": 32,
+        "SizeY": 32,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 256,
+          "SizeOnDisk": 256,
+          "OffsetInFile": "0x14A6"
+        },
+        "SizeX": 16,
+        "SizeY": 16,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 64,
+          "SizeOnDisk": 64,
+          "OffsetInFile": "0x15B6"
+        },
+        "SizeX": 8,
+        "SizeY": 8,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 16,
+          "SizeOnDisk": 16,
+          "OffsetInFile": "0x1606"
+        },
+        "SizeX": 4,
+        "SizeY": 4,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 16,
+          "SizeOnDisk": 16,
+          "OffsetInFile": "0x1626"
+        },
+        "SizeX": 2,
+        "SizeY": 2,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 16,
+          "SizeOnDisk": 16,
+          "OffsetInFile": "0x1646"
+        },
+        "SizeX": 1,
+        "SizeY": 1,
+        "SizeZ": 1
+      }
+    ]
+  },
+  {
+    "Type": "World",
+    "Name": "L_World",
+    "Class": "UScriptClass'World'",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "PersistentLevel": {
+      "ObjectName": "Level'L_World:PersistentLevel'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/7BKCRVAF91Z9BZCB3ZU9V8NN1.3"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldPartitionHLOD",
+    "Name": "HL_Level1_Merged_00000000031b566e",
+    "Outer": {
+      "ObjectName": "Level'L_World:PersistentLevel'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/7BKCRVAF91Z9BZCB3ZU9V8NN1.3"
+    },
+    "Class": "UScriptClass'WorldPartitionHLOD'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LODLevel": 1,
+      "SourceCellGuid": "8A8A941B-5FAC8DFA-FD475989-F877754C",
+      "bReplicates": false,
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'L_World:PersistentLevel.HL_Level1_Merged_00000000031b566e.StaticMeshComponent_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/7BKCRVAF91Z9BZCB3ZU9V8NN1.10"
+      },
+      "InstanceComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'L_World:PersistentLevel.HL_Level1_Merged_00000000031b566e.StaticMeshComponent_0'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/7BKCRVAF91Z9BZCB3ZU9V8NN1.10"
+        },
+        null
+      ]
+    },
+    "ActorLabel": "HL_Level1_Merged/L_World_HLOD0_252m_252m_L0_X11_Y10",
+    "ActorInstanceGuid": {
+      "ActorGuid": "C550F3F8-40E036A5-2E8CD2AB-AF9BA095",
+      "ActorInstanceGuid": "00000000-00000000-00000000-00000000"
+    }
+  },
+  {
+    "Type": "WorldPartitionHLOD",
+    "Name": "HLODArchitectureBig_00000000b0325484",
+    "Outer": {
+      "ObjectName": "Level'L_World:PersistentLevel'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/7BKCRVAF91Z9BZCB3ZU9V8NN1.3"
+    },
+    "Class": "UScriptClass'WorldPartitionHLOD'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LODLevel": 1,
+      "SourceCellGuid": "61851F0B-7A46A1C3-84A8AEBC-321DABD6",
+      "bReplicates": false,
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'L_World:PersistentLevel.HLODArchitectureBig_00000000b0325484.StaticMeshComponent_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/7BKCRVAF91Z9BZCB3ZU9V8NN1.11"
+      },
+      "InstanceComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'L_World:PersistentLevel.HLODArchitectureBig_00000000b0325484.StaticMeshComponent_0'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/7BKCRVAF91Z9BZCB3ZU9V8NN1.11"
+        },
+        null
+      ]
+    },
+    "ActorLabel": "HLODArchitectureBig/L_World_HLOD0_252m_251m_L0_X11_Y10",
+    "ActorInstanceGuid": {
+      "ActorGuid": "863B7BA2-4FB42935-9E12D6A9-B5BE7AFE",
+      "ActorInstanceGuid": "00000000-00000000-00000000-00000000"
+    }
+  }
+]

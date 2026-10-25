@@ -1,0 +1,304 @@
+[
+  {
+    "Type": "BoxComponent",
+    "Name": "Box",
+    "Outer": {
+      "ObjectName": "BP_PCG_TileSpawner_C'L_World:PersistentLevel.BP_PCG_TileSpawner_C_UAID_AC1A3DB43E399ACA02_2042440099'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/DPIQ7XXWAE3UNVME0ANUHIQ1N.2"
+    },
+    "Class": "UScriptClass'BoxComponent'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 214900.0,
+        "Y": 233200.0,
+        "Z": -227.73438
+      },
+      "RelativeScale3D": {
+        "X": 127.0,
+        "Y": 127.0,
+        "Z": 160.3789
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BP_InteractableFoliageISMC_PickUps_C",
+    "Name": "SM_Desert_Weed_0",
+    "Outer": {
+      "ObjectName": "BP_PCG_TileSpawner_C'L_World:PersistentLevel.BP_PCG_TileSpawner_C_UAID_AC1A3DB43E399ACA02_2042440099'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/DPIQ7XXWAE3UNVME0ANUHIQ1N.2"
+    },
+    "Flags": "RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "BP_PCG_TileSpawner_C",
+    "Name": "BP_PCG_TileSpawner_C_UAID_AC1A3DB43E399ACA02_2042440099",
+    "Outer": {
+      "ObjectName": "Level'L_World:PersistentLevel'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/DPIQ7XXWAE3UNVME0ANUHIQ1N.4"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "DominionWorldSettings",
+    "Name": "DominionWorldSettings",
+    "Outer": {
+      "ObjectName": "Level'L_World:PersistentLevel'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/DPIQ7XXWAE3UNVME0ANUHIQ1N.4"
+    },
+    "Class": "UScriptClass'DominionWorldSettings'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'L_World:PersistentLevel.DominionWorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/DPIQ7XXWAE3UNVME0ANUHIQ1N.6"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "bReplicates": false
+    },
+    "ActorInstanceGuid": {
+      "ActorGuid": "E7551643-6EB83F11-B8B0C3FB-DB8B1FC7",
+      "ActorInstanceGuid": "00000000-00000000-00000000-00000000"
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": {
+      "ObjectName": "World'L_World'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/DPIQ7XXWAE3UNVME0ANUHIQ1N.9"
+    },
+    "Class": "UScriptClass'Level'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'L_World:PersistentLevel.Model_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/DPIQ7XXWAE3UNVME0ANUHIQ1N.5"
+      },
+      "LevelBuildDataId": "5130FF1B-4B72322C-DA2EAC84-2AFBEC74",
+      "WorldSettings": {
+        "ObjectName": "DominionWorldSettings'L_World:PersistentLevel.DominionWorldSettings'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/DPIQ7XXWAE3UNVME0ANUHIQ1N.3"
+      },
+      "WorldPartitionRuntimeCell": {
+        "AssetPathName": "/Game/Maps/World/L_World.L_World",
+        "SubPathString": "PersistentLevel.DominionWorldSettings.WorldPartition_0.WorldPartitionRuntimeSpatialHash_0.DPIQ7XXWAE3UNVME0ANUHIQ1N"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "DominionWorldSettings'L_World:PersistentLevel.DominionWorldSettings'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/DPIQ7XXWAE3UNVME0ANUHIQ1N.3"
+      },
+      null,
+      {
+        "ObjectName": "BP_PCG_TileSpawner_C'L_World:PersistentLevel.BP_PCG_TileSpawner_C_UAID_AC1A3DB43E399ACA02_2042440099'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/DPIQ7XXWAE3UNVME0ANUHIQ1N.2"
+      },
+      {
+        "ObjectName": "StaticMeshActor'L_World:PersistentLevel.StaticMeshActor_UAID_AC1A3DB83721AFC902_1528849862'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/DPIQ7XXWAE3UNVME0ANUHIQ1N.7"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/L_FrontEnd",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'L_World:PersistentLevel.Model_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/DPIQ7XXWAE3UNVME0ANUHIQ1N.5"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": {
+      "ObjectName": "Level'L_World:PersistentLevel'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/DPIQ7XXWAE3UNVME0ANUHIQ1N.4"
+    },
+    "Class": "UScriptClass'Model'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "2F8BDF1B-2D53D1E4-A654D15B-9F72F06F",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": {
+      "ObjectName": "DominionWorldSettings'L_World:PersistentLevel.DominionWorldSettings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/DPIQ7XXWAE3UNVME0ANUHIQ1N.3"
+    },
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "StaticMeshActor_UAID_AC1A3DB83721AFC902_1528849862",
+    "Outer": {
+      "ObjectName": "Level'L_World:PersistentLevel'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/DPIQ7XXWAE3UNVME0ANUHIQ1N.4"
+    },
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'L_World:PersistentLevel.StaticMeshActor_UAID_AC1A3DB83721AFC902_1528849862.StaticMeshComponent0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/DPIQ7XXWAE3UNVME0ANUHIQ1N.8"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'L_World:PersistentLevel.StaticMeshActor_UAID_AC1A3DB83721AFC902_1528849862.StaticMeshComponent0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/DPIQ7XXWAE3UNVME0ANUHIQ1N.8"
+      },
+      "Tags": [
+        "CTX_UmbralSands"
+      ]
+    },
+    "ActorLabel": "SM_DK_Pyramid_Bottom_4",
+    "ActorInstanceGuid": {
+      "ActorGuid": "2F1E1206-483CC5CE-688C1CAF-29EC2714",
+      "ActorInstanceGuid": "00000000-00000000-00000000-00000000"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": {
+      "ObjectName": "StaticMeshActor'L_World:PersistentLevel.StaticMeshActor_UAID_AC1A3DB83721AFC902_1528849862'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/DPIQ7XXWAE3UNVME0ANUHIQ1N.7"
+    },
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_DK_Pyramid_Bottom_01v1'",
+        "ObjectPath": "/Game/Art/Env/Architecture/Umbral/DK_Pyramid/SM_DK_Pyramid_Bottom_01v1"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "CustomPrimitiveData": {
+        "Data": [
+          0.0,
+          0.0,
+          0.0,
+          -1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.25,
+          0.2,
+          0.48
+        ]
+      },
+      "RelativeLocation": {
+        "X": 221019.48,
+        "Y": 237213.69,
+        "Z": 130.99332
+      },
+      "RelativeRotation": {
+        "Pitch": 0.8385556,
+        "Yaw": -163.50577,
+        "Roll": 0.8854793
+      }
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "L_World",
+    "Class": "UScriptClass'World'",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "PersistentLevel": {
+      "ObjectName": "Level'L_World:PersistentLevel'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/DPIQ7XXWAE3UNVME0ANUHIQ1N.4"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  }
+]

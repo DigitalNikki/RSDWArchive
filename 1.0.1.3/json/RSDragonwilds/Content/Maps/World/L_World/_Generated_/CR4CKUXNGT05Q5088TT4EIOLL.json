@@ -1,0 +1,2089 @@
+[
+  {
+    "Type": "ActorSequence",
+    "Name": "Sequence",
+    "Outer": {
+      "ObjectName": "ActorSequenceComponent'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402.ActorSequence'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.1"
+    },
+    "Class": "UScriptClass'ActorSequence'",
+    "Flags": "RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402.ActorSequence.Sequence.MovieScene'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.18"
+      },
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402.ActorSequence.Sequence.CompiledData'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.27"
+      }
+    }
+  },
+  {
+    "Type": "ActorSequenceComponent",
+    "Name": "ActorSequence",
+    "Outer": {
+      "ObjectName": "BP_BossAltar_Region1_C'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.5"
+    },
+    "Class": "UScriptClass'ActorSequenceComponent'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Sequence": {
+        "ObjectName": "ActorSequence'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402.ActorSequence.Sequence'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.0"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": {
+      "ObjectName": "BrushComponent'L_World:PersistentLevel.KillZVolume_UAID_CC96E517328E9FFE01_1429776400.BrushComponent0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.9"
+    },
+    "Class": "UScriptClass'BodySetup'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": -100.0,
+                "Y": 100.0,
+                "Z": -100.0
+              },
+              {
+                "X": -100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": 100.0
+              },
+              {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              {
+                "X": 100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": -100.0,
+                "Z": 100.0
+              }
+            ],
+            "IndexData": [
+              5,
+              4,
+              1,
+              0,
+              2,
+              1,
+              0,
+              1,
+              4,
+              3,
+              0,
+              4,
+              3,
+              2,
+              0,
+              6,
+              3,
+              4,
+              6,
+              2,
+              3,
+              5,
+              1,
+              2,
+              5,
+              6,
+              4,
+              7,
+              5,
+              2,
+              7,
+              6,
+              5,
+              7,
+              2,
+              6
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              "Max": {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "bGenerateMirroredCollision": false,
+      "CollisionTraceFlag": "ECollisionTraceFlag::CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "5FD319CF491B9022E5AE958F412340D4",
+    "CookedFormatData": {
+      "Chaos": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 503,
+        "SizeOnDisk": 503,
+        "OffsetInFile": "0x203"
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "InteractionCollider",
+    "Outer": {
+      "ObjectName": "BP_BossAltar_Region1_C'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.5"
+    },
+    "Class": "UScriptClass'BoxComponent'",
+    "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402.Root'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.37"
+      },
+      "RelativeLocation": {
+        "X": 68.765434,
+        "Y": 2.0962205,
+        "Z": 125.6733
+      }
+    }
+  },
+  {
+    "Type": "BP_Ambience_LocalFog_Target_C",
+    "Name": "BP_Ambience_LocalFog_Target",
+    "Outer": {
+      "ObjectName": "BP_GroundFog_v03_C'L_World:PersistentLevel.BP_GroundFog_v03_C_UAID_CC96E574F28B861602_1824873319'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.7"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "BP_BossAltar_Region1_C",
+    "Name": "BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402",
+    "Outer": {
+      "ObjectName": "Level'L_World:PersistentLevel'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.15"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "BP_ChallengeHorn_VFX_C",
+    "Name": "BP_ChallengeHorn_VFX_GEN_VARIABLE_BP_ChallengeHorn_VFX_C_CAT_0",
+    "Outer": {
+      "ObjectName": "Level'L_World:PersistentLevel'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.15"
+    },
+    "Flags": "RF_WasLoaded | RF_TextExportTransient | RF_LoadCompleted | RF_DuplicateTransient"
+  },
+  {
+    "Type": "BP_GroundFog_v03_C",
+    "Name": "BP_GroundFog_v03_C_UAID_CC96E574F28B861602_1824873319",
+    "Outer": {
+      "ObjectName": "Level'L_World:PersistentLevel'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.15"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "BP_SpawnPoint_DragonBoss_C",
+    "Name": "BP_SpawnPoint_DragonBoss_C_UAID_CC96E574F28E148002_0729c55e3c805148_1888898223",
+    "Outer": {
+      "ObjectName": "Level'L_World:PersistentLevel'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.15"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "BrushComponent",
+    "Name": "BrushComponent0",
+    "Outer": {
+      "ObjectName": "KillZVolume'L_World:PersistentLevel.KillZVolume_UAID_CC96E517328E9FFE01_1429776400'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.14"
+    },
+    "Class": "UScriptClass'BrushComponent'",
+    "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ObjectName": "Model'L_World:PersistentLevel.KillZVolume_UAID_CC96E517328E9FFE01_1429776400.Model_1'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.16"
+      },
+      "BrushBodySetup": {
+        "ObjectName": "BodySetup'L_World:PersistentLevel.KillZVolume_UAID_CC96E517328E9FFE01_1429776400.BrushComponent0.BodySetup_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.2"
+      },
+      "bHasNoStreamableTextures": true,
+      "RelativeLocation": {
+        "X": 99140.49,
+        "Y": 428444.16,
+        "Z": 102844.31
+      },
+      "RelativeScale3D": {
+        "X": 161.09282,
+        "Y": 138.29303,
+        "Z": 11.983867
+      }
+    }
+  },
+  {
+    "Type": "ChildActorComponent",
+    "Name": "BP_ChallengeHorn_VFX",
+    "Outer": {
+      "ObjectName": "BP_BossAltar_Region1_C'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.5"
+    },
+    "Class": "UScriptClass'ChildActorComponent'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ChildActor": {
+        "ObjectName": "BP_ChallengeHorn_VFX_C'L_World:PersistentLevel.BP_ChallengeHorn_VFX_GEN_VARIABLE_BP_ChallengeHorn_VFX_C_CAT_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.6"
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402.Root'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.37"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DomConversationParticipant",
+    "Name": "DomConversationParticipant",
+    "Outer": {
+      "ObjectName": "BP_BossAltar_Region1_C'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.5"
+    },
+    "Class": "UScriptClass'DomConversationParticipant'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DominionWorldSettings",
+    "Name": "DominionWorldSettings",
+    "Outer": {
+      "ObjectName": "Level'L_World:PersistentLevel'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.15"
+    },
+    "Class": "UScriptClass'DominionWorldSettings'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'L_World:PersistentLevel.DominionWorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.28"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "bReplicates": false
+    },
+    "ActorInstanceGuid": {
+      "ActorGuid": "7C1FFAC7-46D4378B-BC5FE788-B8AAA0FE",
+      "ActorInstanceGuid": "00000000-00000000-00000000-00000000"
+    }
+  },
+  {
+    "Type": "InteractionComponent",
+    "Name": "InteractionComponent",
+    "Outer": {
+      "ObjectName": "BP_BossAltar_Region1_C'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.5"
+    },
+    "Class": "UScriptClass'InteractionComponent'",
+    "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "OnInteractionEvent": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_BossAltar_Region1_C'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402'",
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.5"
+            },
+            "FunctionName": "HandleInteraction"
+          },
+          {
+            "Object": {
+              "ObjectName": "BP_BossAltar_Region1_C'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402'",
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.5"
+            },
+            "FunctionName": "BndEvt__BP_BossAltar_Region1_InteractionComponent_K2Node_ComponentBoundEvent_0_OnInteraction__DelegateSignature"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "KillZVolume",
+    "Name": "KillZVolume_UAID_CC96E517328E9FFE01_1429776400",
+    "Outer": {
+      "ObjectName": "Level'L_World:PersistentLevel'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.15"
+    },
+    "Class": "UScriptClass'KillZVolume'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BrushType": "EBrushType::Brush_Add",
+      "Brush": {
+        "ObjectName": "Model'L_World:PersistentLevel.KillZVolume_UAID_CC96E517328E9FFE01_1429776400.Model_1'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.16"
+      },
+      "BrushComponent": {
+        "ObjectName": "BrushComponent'L_World:PersistentLevel.KillZVolume_UAID_CC96E517328E9FFE01_1429776400.BrushComponent0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.9"
+      },
+      "bHidden": false,
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "BrushComponent'L_World:PersistentLevel.KillZVolume_UAID_CC96E517328E9FFE01_1429776400.BrushComponent0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.9"
+      }
+    },
+    "ActorLabel": "KillZVolume5",
+    "ActorInstanceGuid": {
+      "ActorGuid": "BB63FE08-45077016-3612C6A0-3BBFB3A1",
+      "ActorInstanceGuid": "00000000-00000000-00000000-00000000"
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": {
+      "ObjectName": "World'L_World'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.51"
+    },
+    "Class": "UScriptClass'Level'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'L_World:PersistentLevel.Model_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.17"
+      },
+      "LevelBuildDataId": "5130FF1B-4B72322C-DA2EAC84-2AFBEC74",
+      "WorldSettings": {
+        "ObjectName": "DominionWorldSettings'L_World:PersistentLevel.DominionWorldSettings'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.12"
+      },
+      "WorldPartitionRuntimeCell": {
+        "AssetPathName": "/Game/Maps/World/L_World.L_World",
+        "SubPathString": "PersistentLevel.DominionWorldSettings.WorldPartition_0.WorldPartitionRuntimeSpatialHash_0.CR4CKUXNGT05Q5088TT4EIOLL"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "DominionWorldSettings'L_World:PersistentLevel.DominionWorldSettings'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.12"
+      },
+      null,
+      {
+        "ObjectName": "BP_GroundFog_v03_C'L_World:PersistentLevel.BP_GroundFog_v03_C_UAID_CC96E574F28B861602_1824873319'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.7"
+      },
+      {
+        "ObjectName": "BP_SpawnPoint_DragonBoss_C'L_World:PersistentLevel.BP_SpawnPoint_DragonBoss_C_UAID_CC96E574F28E148002_0729c55e3c805148_1888898223'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.8"
+      },
+      {
+        "ObjectName": "KillZVolume'L_World:PersistentLevel.KillZVolume_UAID_CC96E517328E9FFE01_1429776400'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.14"
+      },
+      {
+        "ObjectName": "BP_BossAltar_Region1_C'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.5"
+      },
+      {
+        "ObjectName": "BP_ChallengeHorn_VFX_C'L_World:PersistentLevel.BP_ChallengeHorn_VFX_GEN_VARIABLE_BP_ChallengeHorn_VFX_C_CAT_0'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.6"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/L_FrontEnd",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'L_World:PersistentLevel.Model_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.17"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_1",
+    "Outer": {
+      "ObjectName": "KillZVolume'L_World:PersistentLevel.KillZVolume_UAID_CC96E517328E9FFE01_1429776400'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.14"
+    },
+    "Class": "UScriptClass'Model'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      "SphereRadius": 173.20508
+    },
+    "Vectors": [
+      {
+        "X": -1.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -1.0
+      },
+      {
+        "X": 1.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": -1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 1.0
+      }
+    ],
+    "Points": [
+      {
+        "X": -100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      },
+      {
+        "X": -100.0,
+        "Y": -100.0,
+        "Z": 100.0
+      },
+      {
+        "X": -100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      {
+        "X": -100.0,
+        "Y": 100.0,
+        "Z": -100.0
+      },
+      {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": -100.0
+      },
+      {
+        "X": 100.0,
+        "Y": -100.0,
+        "Z": 100.0
+      },
+      {
+        "X": 100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      }
+    ],
+    "Nodes": [
+      {
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 0,
+        "iSurf": 0,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 4,
+        "iSurf": 1,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 2,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 8,
+        "iSurf": 2,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 3,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 12,
+        "iSurf": 3,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 4,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "iVertPool": 16,
+        "iSurf": 4,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 5,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -1.0
+        },
+        "iVertPool": 20,
+        "iSurf": 5,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": -1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": 0,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      }
+    ],
+    "Surfs": [
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 0,
+        "vTextureU": 1,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 3,
+        "vNormal": 1,
+        "vTextureU": 3,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 5,
+        "vNormal": 3,
+        "vTextureU": 4,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 7,
+        "vNormal": 4,
+        "vTextureU": 0,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 2,
+        "vNormal": 5,
+        "vTextureU": 3,
+        "vTextureV": 1,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 2,
+        "vTextureU": 3,
+        "vTextureV": 4,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -1.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      }
+    ],
+    "NumSharedSides": 4,
+    "VertexBuffer": null,
+    "LightingGuid": "F6975430-08E30A6F-A812365E-40E20C36",
+    "LightmassSettings": [
+      {
+        "bUseTwoSidedLighting": false,
+        "bShadowIndirectOnly": false,
+        "bUseEmissiveForStaticLighting": false,
+        "bUseVertexNormalForHemisphereGather": false,
+        "EmissiveLightFalloffExponent": 8.0,
+        "EmissiveLightExplicitInfluenceRadius": 0.0,
+        "EmissiveBoost": 1.0,
+        "DiffuseBoost": 1.0,
+        "SpecularBoost": 0.0,
+        "FullyOccludedSamplesFraction": 1.0
+      }
+    ]
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": {
+      "ObjectName": "Level'L_World:PersistentLevel'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.15"
+    },
+    "Class": "UScriptClass'Model'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "2F8BDF1B-2D53D1E4-A654D15B-9F72F06F",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "MovieScene",
+    "Outer": {
+      "ObjectName": "ActorSequence'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402.ActorSequence.Sequence'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.0"
+    },
+    "Class": "UScriptClass'MovieScene'",
+    "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "0A54F8D1-40F1E64A-7A5CA681-7A544607",
+          "BindingName": "InteractionCollider",
+          "Tracks": [
+            {
+              "ObjectName": "MovieScene3DTransformTrack'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402.ActorSequence.Sequence.MovieScene.MovieScene3DTransformTrack_1'",
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.21"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "3C01DC7B-4E70CE6D-76E81399-C60EA8EC",
+          "BindingName": "PlaceholderVisuals",
+          "Tracks": [
+            {
+              "ObjectName": "MovieScene3DTransformTrack'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402.ActorSequence.Sequence.MovieScene.MovieScene3DTransformTrack_2'",
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.22"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "EAA4633C-46F3D126-AACD4BAB-DF0F9D24",
+          "BindingName": "Owner",
+          "Tracks": []
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MovieScene3DTransformSection",
+    "Name": "MovieScene3DTransformSection_0",
+    "Outer": {
+      "ObjectName": "MovieScene3DTransformTrack'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402.ActorSequence.Sequence.MovieScene.MovieScene3DTransformTrack_1'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.21"
+    },
+    "Class": "UScriptClass'MovieScene3DTransformSection'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402.ActorSequence.Sequence.MovieScene.MovieScene3DTransformTrack_1.MovieScene3DTransformSection_0.EaseInFunction'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.23"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402.ActorSequence.Sequence.MovieScene.MovieScene3DTransformTrack_1.MovieScene3DTransformSection_0.EaseOutFunction'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.24"
+        }
+      }
+    }
+  },
+  {
+    "Type": "MovieScene3DTransformSection",
+    "Name": "MovieScene3DTransformSection_0",
+    "Outer": {
+      "ObjectName": "MovieScene3DTransformTrack'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402.ActorSequence.Sequence.MovieScene.MovieScene3DTransformTrack_2'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.22"
+    },
+    "Class": "UScriptClass'MovieScene3DTransformSection'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402.ActorSequence.Sequence.MovieScene.MovieScene3DTransformTrack_2.MovieScene3DTransformSection_0.EaseInFunction'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.25"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402.ActorSequence.Sequence.MovieScene.MovieScene3DTransformTrack_2.MovieScene3DTransformSection_0.EaseOutFunction'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.26"
+        }
+      }
+    }
+  },
+  {
+    "Type": "MovieScene3DTransformTrack",
+    "Name": "MovieScene3DTransformTrack_1",
+    "Outer": {
+      "ObjectName": "MovieScene'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402.ActorSequence.Sequence.MovieScene'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.18"
+    },
+    "Class": "UScriptClass'MovieScene3DTransformTrack'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Sections": [
+        {
+          "ObjectName": "MovieScene3DTransformSection'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402.ActorSequence.Sequence.MovieScene.MovieScene3DTransformTrack_1.MovieScene3DTransformSection_0'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.19"
+        }
+      ],
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieScene3DTransformSection'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402.ActorSequence.Sequence.MovieScene.MovieScene3DTransformTrack_1.MovieScene3DTransformSection_0'",
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.19"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "MovieScene3DTransformTrack",
+    "Name": "MovieScene3DTransformTrack_2",
+    "Outer": {
+      "ObjectName": "MovieScene'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402.ActorSequence.Sequence.MovieScene'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.18"
+    },
+    "Class": "UScriptClass'MovieScene3DTransformTrack'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Sections": [
+        {
+          "ObjectName": "MovieScene3DTransformSection'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402.ActorSequence.Sequence.MovieScene.MovieScene3DTransformTrack_2.MovieScene3DTransformSection_0'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.20"
+        }
+      ],
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieScene3DTransformSection'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402.ActorSequence.Sequence.MovieScene.MovieScene3DTransformTrack_2.MovieScene3DTransformSection_0'",
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.20"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": {
+      "ObjectName": "MovieScene3DTransformSection'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402.ActorSequence.Sequence.MovieScene.MovieScene3DTransformTrack_1.MovieScene3DTransformSection_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.19"
+    },
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Flags": "RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": {
+      "ObjectName": "MovieScene3DTransformSection'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402.ActorSequence.Sequence.MovieScene.MovieScene3DTransformTrack_1.MovieScene3DTransformSection_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.19"
+    },
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Flags": "RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": {
+      "ObjectName": "MovieScene3DTransformSection'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402.ActorSequence.Sequence.MovieScene.MovieScene3DTransformTrack_2.MovieScene3DTransformSection_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.20"
+    },
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Flags": "RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": {
+      "ObjectName": "MovieScene3DTransformSection'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402.ActorSequence.Sequence.MovieScene.MovieScene3DTransformTrack_2.MovieScene3DTransformSection_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.20"
+    },
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Flags": "RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Outer": {
+      "ObjectName": "ActorSequence'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402.ActorSequence.Sequence'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.0"
+    },
+    "Class": "UScriptClass'MovieSceneCompiledData'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 2,
+                  "Capacity": 2
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 1,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": -1
+              },
+              "DataID": {
+                "EntryIndex": 0
+              }
+            },
+            "ChildNodes": {
+              "Entries": [],
+              "Items": []
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieScene3DTransformSection'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402.ActorSequence.Sequence.MovieScene.MovieScene3DTransformTrack_1.MovieScene3DTransformSection_0'",
+                "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.19"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieScene3DTransformSection'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402.ActorSequence.Sequence.MovieScene.MovieScene3DTransformTrack_2.MovieScene3DTransformSection_0'",
+                "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.20"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 1
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "0A54F8D1-40F1E64A-7A5CA681-7A544607"
+          },
+          {
+            "ObjectBindingID": "3C01DC7B-4E70CE6D-76E81399-C60EA8EC"
+          }
+        ]
+      },
+      "CompiledSignature": "1A5A3D32-4DE79CA1-8C75B7B8-0101064B",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField",
+      "AllocatedMask": "EMovieSceneSequenceCompilerMask::EntityComponentField"
+    }
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": {
+      "ObjectName": "DominionWorldSettings'L_World:PersistentLevel.DominionWorldSettings'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.12"
+    },
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "NS_5thCreedOffering_Beam",
+    "Outer": {
+      "ObjectName": "BP_BossAltar_Region1_C'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.5"
+    },
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "OverrideParameters": {
+        "DataInterfaces": [
+          {
+            "ObjectName": "NiagaraDataInterfaceColorCurve'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402.NS_5thCreedOffering_Beam.NiagaraDataInterfaceColorCurve_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.34"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402.SM_Dragons_Arena_Altar_1'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.44"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "NS_VelgarArena_Altar_B",
+    "Outer": {
+      "ObjectName": "BP_BossAltar_Region1_C'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.5"
+    },
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "SceneComponent'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402.Root'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.37"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "NS_VelgarArena_AltarA",
+    "Outer": {
+      "ObjectName": "BP_BossAltar_Region1_C'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.5"
+    },
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402.SM_Dragons_Arena_Altar_1'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.44"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "NS_VelgarArena_Strips_A",
+    "Outer": {
+      "ObjectName": "BP_BossAltar_Region1_C'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.5"
+    },
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "SceneComponent'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402.Root'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.37"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "NS_ChallengeHorn",
+    "Outer": {
+      "ObjectName": "BP_ChallengeHorn_VFX_C'L_World:PersistentLevel.BP_ChallengeHorn_VFX_GEN_VARIABLE_BP_ChallengeHorn_VFX_C_CAT_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.6"
+    },
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "OverrideParameters": {
+        "DataInterfaces": [
+          {
+            "ObjectName": "NiagaraDataInterfaceColorCurve'L_World:PersistentLevel.BP_ChallengeHorn_VFX_GEN_VARIABLE_BP_ChallengeHorn_VFX_C_CAT_0.NS_ChallengeHorn.NiagaraDataInterfaceColorCurve_1'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.35"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponent'L_World:PersistentLevel.BP_ChallengeHorn_VFX_GEN_VARIABLE_BP_ChallengeHorn_VFX_C_CAT_0.SK_ChallengeHorn'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.41"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "NiagaraDataInterfaceColorCurve",
+    "Name": "NiagaraDataInterfaceColorCurve_0",
+    "Outer": {
+      "ObjectName": "NiagaraComponent'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402.NS_5thCreedOffering_Beam'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.29"
+    },
+    "Class": "UScriptClass'NiagaraDataInterfaceColorCurve'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RedCurve": {
+        "Keys": []
+      },
+      "GreenCurve": {
+        "Keys": []
+      },
+      "BlueCurve": {
+        "Keys": []
+      },
+      "AlphaCurve": {
+        "Keys": []
+      }
+    }
+  },
+  {
+    "Type": "NiagaraDataInterfaceColorCurve",
+    "Name": "NiagaraDataInterfaceColorCurve_1",
+    "Outer": {
+      "ObjectName": "NiagaraComponent'L_World:PersistentLevel.BP_ChallengeHorn_VFX_GEN_VARIABLE_BP_ChallengeHorn_VFX_C_CAT_0.NS_ChallengeHorn'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.33"
+    },
+    "Class": "UScriptClass'NiagaraDataInterfaceColorCurve'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RedCurve": {
+        "Keys": []
+      },
+      "GreenCurve": {
+        "Keys": []
+      },
+      "BlueCurve": {
+        "Keys": []
+      },
+      "AlphaCurve": {
+        "Keys": []
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlaceholderVisuals",
+    "Outer": {
+      "ObjectName": "BP_BossAltar_Region1_C'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.5"
+    },
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402.Root'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.37"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -0.488889
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Root",
+    "Outer": {
+      "ObjectName": "BP_BossAltar_Region1_C'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.5"
+    },
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 99112.35,
+        "Y": 428488.62,
+        "Z": 105104.65
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -30.300697,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": {
+      "ObjectName": "BP_ChallengeHorn_VFX_C'L_World:PersistentLevel.BP_ChallengeHorn_VFX_GEN_VARIABLE_BP_ChallengeHorn_VFX_C_CAT_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.6"
+    },
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "ChildActorComponent'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402.BP_ChallengeHorn_VFX'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.10"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": {
+      "ObjectName": "BP_GroundFog_v03_C'L_World:PersistentLevel.BP_GroundFog_v03_C_UAID_CC96E574F28B861602_1824873319'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.7"
+    },
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 76890.78,
+        "Y": 443395.0,
+        "Z": 66953.96
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -63.416603,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 500.0,
+        "Y": 500.0,
+        "Z": 300.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Root",
+    "Outer": {
+      "ObjectName": "BP_SpawnPoint_DragonBoss_C'L_World:PersistentLevel.BP_SpawnPoint_DragonBoss_C_UAID_CC96E574F28E148002_0729c55e3c805148_1888898223'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.8"
+    },
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 95832.12,
+        "Y": 430444.88,
+        "Z": 105117.83
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -350.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "SK_ChallengeHorn",
+    "Outer": {
+      "ObjectName": "BP_ChallengeHorn_VFX_C'L_World:PersistentLevel.BP_ChallengeHorn_VFX_GEN_VARIABLE_BP_ChallengeHorn_VFX_C_CAT_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.6"
+    },
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'L_World:PersistentLevel.BP_ChallengeHorn_VFX_GEN_VARIABLE_BP_ChallengeHorn_VFX_C_CAT_0.DefaultSceneRoot'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.38"
+      },
+      "PrimaryComponentTick": {
+        "EndTickGroup": "ETickingGroup::TG_PostPhysics"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SpotLightComponent",
+    "Name": "SpotLight",
+    "Outer": {
+      "ObjectName": "BP_BossAltar_Region1_C'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.5"
+    },
+    "Class": "UScriptClass'SpotLightComponent'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CastShadows": false,
+      "VolumetricScatteringIntensity": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402.Root'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.37"
+      },
+      "RelativeLocation": {
+        "X": -9.088644E-07,
+        "Y": -3.3338599E-10,
+        "Z": 1006.262
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": -10.024988,
+        "Roll": 10.024988
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    },
+    "IntensityNits": 0.0
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "pedestal",
+    "Outer": {
+      "ObjectName": "BP_BossAltar_Region1_C'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.5"
+    },
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LDMaxDrawDistance": 25000.0,
+      "CachedMaxDrawDistance": 25000.0,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402.PlaceholderVisuals'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.36"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_Dragons_Arena_Altar_1",
+    "Outer": {
+      "ObjectName": "BP_BossAltar_Region1_C'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.5"
+    },
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "OverrideMaterials": [
+        null,
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_DK_Arena_Floor_Not_Active'",
+          "ObjectPath": "/Game/Art/Env/Architecture/Dragonkin/Dragon_Arena/Materials/MI_DK_Arena_Floor_Not_Active"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_FlatColor_39'",
+          "ObjectPath": "/Game/Art/Item/Shared/Placeholder/MI_FlatColor_39"
+        }
+      ],
+      "LDMaxDrawDistance": 25000.0,
+      "CachedMaxDrawDistance": 25000.0,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402.PlaceholderVisuals'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.36"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_Dragons_Arena_Floor_Not_Active_01",
+    "Outer": {
+      "ObjectName": "BP_BossAltar_Region1_C'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.5"
+    },
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LDMaxDrawDistance": 25000.0,
+      "CachedMaxDrawDistance": 25000.0,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402.Root'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.37"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Cube",
+    "Outer": {
+      "ObjectName": "BP_GroundFog_v03_C'L_World:PersistentLevel.BP_GroundFog_v03_C_UAID_CC96E574F28B861602_1824873319'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.7"
+    },
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_LocalFogVelgarEntrance'",
+          "ObjectPath": "/Game/Art/Env/Lighting/Materials/MI_LocalFogVelgarEntrance"
+        }
+      ],
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'L_World:PersistentLevel.BP_GroundFog_v03_C_UAID_CC96E574F28B861602_1824873319.DefaultSceneRoot'",
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.39"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TimelineComponent",
+    "Name": "BeamAlpha",
+    "Outer": {
+      "ObjectName": "BP_BossAltar_Region1_C'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.5"
+    },
+    "Class": "UScriptClass'TimelineComponent'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TheTimeline": {
+        "LengthMode": "ETimelineLengthMode::TL_TimelineLength",
+        "Length": 2.0,
+        "InterpFloats": [
+          {
+            "FloatCurve": {
+              "ObjectName": "CurveFloat'BP_BossAltar_Region1_C:CurveFloat_3'",
+              "ObjectPath": "/Game/Gameplay/World/Misc/BP_BossAltar_Region1"
+            },
+            "InterpFunc": {
+              "Object": null,
+              "FunctionName": "None"
+            },
+            "TrackName": "BeamAlpha",
+            "FloatPropertyName": "BeamAlpha_BeamAlpha_A6C6642E4B0C56EBC34651A66AEDF6C5"
+          }
+        ],
+        "TimelinePostUpdateFunc": {
+          "Object": {
+            "ObjectName": "BP_BossAltar_Region1_C'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.5"
+          },
+          "FunctionName": "BeamAlpha__UpdateFunc"
+        },
+        "TimelineFinishedFunc": {
+          "Object": {
+            "ObjectName": "BP_BossAltar_Region1_C'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.5"
+          },
+          "FunctionName": "BeamAlpha__FinishedFunc"
+        },
+        "PropertySetObject": {
+          "ObjectName": "BP_BossAltar_Region1_C'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.5"
+        },
+        "DirectionPropertyName": "BeamAlpha__Direction_A6C6642E4B0C56EBC34651A66AEDF6C5"
+      },
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::UserConstructionScript"
+    }
+  },
+  {
+    "Type": "TimelineComponent",
+    "Name": "CircleAnimation",
+    "Outer": {
+      "ObjectName": "BP_BossAltar_Region1_C'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.5"
+    },
+    "Class": "UScriptClass'TimelineComponent'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TheTimeline": {
+        "LengthMode": "ETimelineLengthMode::TL_TimelineLength",
+        "Length": 1.0,
+        "InterpFloats": [
+          {
+            "FloatCurve": {
+              "ObjectName": "CurveFloat'BP_BossAltar_Region1_C:CurveFloat_0'",
+              "ObjectPath": "/Game/Gameplay/World/Misc/BP_BossAltar_Region1"
+            },
+            "InterpFunc": {
+              "Object": null,
+              "FunctionName": "None"
+            },
+            "TrackName": "CircleOffset",
+            "FloatPropertyName": "CircleAnimation_CircleOffset_AF56EF444C88B73FDF1ECF9F60A2C4E1"
+          },
+          {
+            "FloatCurve": {
+              "ObjectName": "CurveFloat'BP_BossAltar_Region1_C:CurveFloat_1'",
+              "ObjectPath": "/Game/Gameplay/World/Misc/BP_BossAltar_Region1"
+            },
+            "InterpFunc": {
+              "Object": null,
+              "FunctionName": "None"
+            },
+            "TrackName": "EnergyScale",
+            "FloatPropertyName": "CircleAnimation_EnergyScale_AF56EF444C88B73FDF1ECF9F60A2C4E1"
+          },
+          {
+            "FloatCurve": {
+              "ObjectName": "CurveFloat'BP_BossAltar_Region1_C:CurveFloat_2'",
+              "ObjectPath": "/Game/Gameplay/World/Misc/BP_BossAltar_Region1"
+            },
+            "InterpFunc": {
+              "Object": null,
+              "FunctionName": "None"
+            },
+            "TrackName": "CircleSize",
+            "FloatPropertyName": "CircleAnimation_CircleSize_AF56EF444C88B73FDF1ECF9F60A2C4E1"
+          },
+          {
+            "FloatCurve": {
+              "ObjectName": "CurveFloat'BP_BossAltar_Region1_C:CurveFloat_4'",
+              "ObjectPath": "/Game/Gameplay/World/Misc/BP_BossAltar_Region1"
+            },
+            "InterpFunc": {
+              "Object": null,
+              "FunctionName": "None"
+            },
+            "TrackName": "HornPositionZ",
+            "FloatPropertyName": "CircleAnimation_HornPositionZ_AF56EF444C88B73FDF1ECF9F60A2C4E1"
+          }
+        ],
+        "TimelinePostUpdateFunc": {
+          "Object": {
+            "ObjectName": "BP_BossAltar_Region1_C'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.5"
+          },
+          "FunctionName": "CircleAnimation__UpdateFunc"
+        },
+        "TimelineFinishedFunc": {
+          "Object": {
+            "ObjectName": "BP_BossAltar_Region1_C'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.5"
+          },
+          "FunctionName": "CircleAnimation__FinishedFunc"
+        },
+        "PropertySetObject": {
+          "ObjectName": "BP_BossAltar_Region1_C'L_World:PersistentLevel.BP_BossAltar_Region1_C_UAID_18C04D97CB3D450A02_0729c55e3c805148_1640859402'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.5"
+        },
+        "DirectionPropertyName": "CircleAnimation__Direction_AF56EF444C88B73FDF1ECF9F60A2C4E1"
+      },
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::UserConstructionScript"
+    }
+  },
+  {
+    "Type": "TimelineComponent",
+    "Name": "RevealTimeline",
+    "Outer": {
+      "ObjectName": "BP_ChallengeHorn_VFX_C'L_World:PersistentLevel.BP_ChallengeHorn_VFX_GEN_VARIABLE_BP_ChallengeHorn_VFX_C_CAT_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.6"
+    },
+    "Class": "UScriptClass'TimelineComponent'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TheTimeline": {
+        "LengthMode": "ETimelineLengthMode::TL_TimelineLength",
+        "Length": 6.0,
+        "InterpFloats": [
+          {
+            "FloatCurve": {
+              "ObjectName": "CurveFloat'BP_ChallengeHorn_VFX_C:CurveFloat_4'",
+              "ObjectPath": "/Game/Art/VFX/Library/Character/Velgar/Arena/SM_Challenge_Horn_01_SM_Challenge_Horn_01/BP_ChallengeHorn_VFX"
+            },
+            "InterpFunc": {
+              "Object": null,
+              "FunctionName": "None"
+            },
+            "TrackName": "Dissolve",
+            "FloatPropertyName": "RevealTimeline_Dissolve_E5FE404C4973245CC0621BBDB1D10867"
+          },
+          {
+            "FloatCurve": {
+              "ObjectName": "CurveFloat'BP_ChallengeHorn_VFX_C:CurveFloat_5'",
+              "ObjectPath": "/Game/Art/VFX/Library/Character/Velgar/Arena/SM_Challenge_Horn_01_SM_Challenge_Horn_01/BP_ChallengeHorn_VFX"
+            },
+            "InterpFunc": {
+              "Object": null,
+              "FunctionName": "None"
+            },
+            "TrackName": "GLWidth",
+            "FloatPropertyName": "RevealTimeline_GLWidth_E5FE404C4973245CC0621BBDB1D10867"
+          },
+          {
+            "FloatCurve": {
+              "ObjectName": "CurveFloat'BP_ChallengeHorn_VFX_C:CurveFloat_6'",
+              "ObjectPath": "/Game/Art/VFX/Library/Character/Velgar/Arena/SM_Challenge_Horn_01_SM_Challenge_Horn_01/BP_ChallengeHorn_VFX"
+            },
+            "InterpFunc": {
+              "Object": null,
+              "FunctionName": "None"
+            },
+            "TrackName": "ChallengeHornVFX",
+            "FloatPropertyName": "RevealTimeline_ChallengeHornVFX_E5FE404C4973245CC0621BBDB1D10867"
+          },
+          {
+            "FloatCurve": {
+              "ObjectName": "CurveFloat'BP_ChallengeHorn_VFX_C:CurveFloat_7'",
+              "ObjectPath": "/Game/Art/VFX/Library/Character/Velgar/Arena/SM_Challenge_Horn_01_SM_Challenge_Horn_01/BP_ChallengeHorn_VFX"
+            },
+            "InterpFunc": {
+              "Object": null,
+              "FunctionName": "None"
+            },
+            "TrackName": "Alpha",
+            "FloatPropertyName": "RevealTimeline_Alpha_E5FE404C4973245CC0621BBDB1D10867"
+          }
+        ],
+        "TimelinePostUpdateFunc": {
+          "Object": {
+            "ObjectName": "BP_ChallengeHorn_VFX_C'L_World:PersistentLevel.BP_ChallengeHorn_VFX_GEN_VARIABLE_BP_ChallengeHorn_VFX_C_CAT_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.6"
+          },
+          "FunctionName": "RevealTimeline__UpdateFunc"
+        },
+        "TimelineFinishedFunc": {
+          "Object": {
+            "ObjectName": "BP_ChallengeHorn_VFX_C'L_World:PersistentLevel.BP_ChallengeHorn_VFX_GEN_VARIABLE_BP_ChallengeHorn_VFX_C_CAT_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.6"
+          },
+          "FunctionName": "RevealTimeline__FinishedFunc"
+        },
+        "PropertySetObject": {
+          "ObjectName": "BP_ChallengeHorn_VFX_C'L_World:PersistentLevel.BP_ChallengeHorn_VFX_GEN_VARIABLE_BP_ChallengeHorn_VFX_C_CAT_0'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.6"
+        },
+        "DirectionPropertyName": "RevealTimeline__Direction_E5FE404C4973245CC0621BBDB1D10867"
+      },
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::UserConstructionScript"
+    }
+  },
+  {
+    "Type": "TimelineComponent",
+    "Name": "VFXAnimation_Horn",
+    "Outer": {
+      "ObjectName": "BP_ChallengeHorn_VFX_C'L_World:PersistentLevel.BP_ChallengeHorn_VFX_GEN_VARIABLE_BP_ChallengeHorn_VFX_C_CAT_0'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.6"
+    },
+    "Class": "UScriptClass'TimelineComponent'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TheTimeline": {
+        "LengthMode": "ETimelineLengthMode::TL_TimelineLength",
+        "InterpFloats": [
+          {
+            "FloatCurve": {
+              "ObjectName": "CurveFloat'BP_ChallengeHorn_VFX_C:CurveFloat_0'",
+              "ObjectPath": "/Game/Art/VFX/Library/Character/Velgar/Arena/SM_Challenge_Horn_01_SM_Challenge_Horn_01/BP_ChallengeHorn_VFX"
+            },
+            "InterpFunc": {
+              "Object": null,
+              "FunctionName": "None"
+            },
+            "TrackName": "ChallengeHorn_Breakup",
+            "FloatPropertyName": "VFXAnimation_Horn_ChallengeHorn_Breakup_44C15F3C4465475022F939BD149DB1AD"
+          },
+          {
+            "FloatCurve": {
+              "ObjectName": "CurveFloat'BP_ChallengeHorn_VFX_C:CurveFloat_1'",
+              "ObjectPath": "/Game/Art/VFX/Library/Character/Velgar/Arena/SM_Challenge_Horn_01_SM_Challenge_Horn_01/BP_ChallengeHorn_VFX"
+            },
+            "InterpFunc": {
+              "Object": null,
+              "FunctionName": "None"
+            },
+            "TrackName": "ChallengeHorn_VFX_Rate",
+            "FloatPropertyName": "VFXAnimation_Horn_ChallengeHorn_VFX_Rate_44C15F3C4465475022F939BD149DB1AD"
+          },
+          {
+            "FloatCurve": {
+              "ObjectName": "CurveFloat'BP_ChallengeHorn_VFX_C:CurveFloat_2'",
+              "ObjectPath": "/Game/Art/VFX/Library/Character/Velgar/Arena/SM_Challenge_Horn_01_SM_Challenge_Horn_01/BP_ChallengeHorn_VFX"
+            },
+            "InterpFunc": {
+              "Object": null,
+              "FunctionName": "None"
+            },
+            "TrackName": "DissolveAmount",
+            "FloatPropertyName": "VFXAnimation_Horn_DissolveAmount_44C15F3C4465475022F939BD149DB1AD"
+          },
+          {
+            "FloatCurve": {
+              "ObjectName": "CurveFloat'BP_ChallengeHorn_VFX_C:CurveFloat_3'",
+              "ObjectPath": "/Game/Art/VFX/Library/Character/Velgar/Arena/SM_Challenge_Horn_01_SM_Challenge_Horn_01/BP_ChallengeHorn_VFX"
+            },
+            "InterpFunc": {
+              "Object": null,
+              "FunctionName": "None"
+            },
+            "TrackName": "GlowWidth",
+            "FloatPropertyName": "VFXAnimation_Horn_GlowWidth_44C15F3C4465475022F939BD149DB1AD"
+          }
+        ],
+        "TimelinePostUpdateFunc": {
+          "Object": {
+            "ObjectName": "BP_ChallengeHorn_VFX_C'L_World:PersistentLevel.BP_ChallengeHorn_VFX_GEN_VARIABLE_BP_ChallengeHorn_VFX_C_CAT_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.6"
+          },
+          "FunctionName": "VFXAnimation_Horn__UpdateFunc"
+        },
+        "TimelineFinishedFunc": {
+          "Object": {
+            "ObjectName": "BP_ChallengeHorn_VFX_C'L_World:PersistentLevel.BP_ChallengeHorn_VFX_GEN_VARIABLE_BP_ChallengeHorn_VFX_C_CAT_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.6"
+          },
+          "FunctionName": "VFXAnimation_Horn__FinishedFunc"
+        },
+        "PropertySetObject": {
+          "ObjectName": "BP_ChallengeHorn_VFX_C'L_World:PersistentLevel.BP_ChallengeHorn_VFX_GEN_VARIABLE_BP_ChallengeHorn_VFX_C_CAT_0'",
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.6"
+        },
+        "DirectionPropertyName": "VFXAnimation_Horn__Direction_44C15F3C4465475022F939BD149DB1AD"
+      },
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::UserConstructionScript"
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "L_World",
+    "Class": "UScriptClass'World'",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "PersistentLevel": {
+      "ObjectName": "Level'L_World:PersistentLevel'",
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Maps/World/L_World/_Generated_/CR4CKUXNGT05Q5088TT4EIOLL.15"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  }
+]
