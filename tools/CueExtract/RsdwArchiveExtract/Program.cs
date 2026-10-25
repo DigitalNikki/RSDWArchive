@@ -5,6 +5,7 @@ using CUE4Parse.Compression;
 using CUE4Parse.FileProvider;
 using CUE4Parse.FileProvider.Objects;
 using CUE4Parse.MappingsProvider;
+using CUE4Parse.MappingsProvider.Usmap; // new line
 using CUE4Parse.UE4.Assets;
 using CUE4Parse.UE4.Assets.Exports;
 using CUE4Parse.UE4.Assets.Exports.ControlRig;
@@ -13,7 +14,9 @@ using CUE4Parse.UE4.Versions;
 using CUE4Parse.Utils;
 using CUE4Parse_Conversion.Textures;
 using CUE4Parse_Conversion.Textures.BC;
-using CUE4Parse_Conversion.UEFormat.Enums;
+using CUE4Parse_Conversion.Writers.UEFormat.Enums; // using CUE4Parse_Conversion.UEFormat.Enums;
+using CUE4Parse_Conversion.Options;
+
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
@@ -475,7 +478,15 @@ internal static class Program
 
     private static string ExpectedJsonPath(string outputRoot, string packagePath)
     {
-        var relative = StripPackageExtension(NormalizeSeparators(packagePath)).TrimStart('/') + ".json";
+        // var relative = StripPackageExtension(NormalizeSeparators(packagePath)).TrimStart('/') + ".json";
+				var relative = StripPackageExtension(NormalizeSeparators(packagePath)).TrimStart('/');
+
+        if (relative.StartsWith("1.0.1.3/"))
+        {
+        relative = relative.Substring("1.0.1.3/".Length);
+        }
+
+        relative += ".json";
         return CombineUnderRoot(outputRoot, "json/" + relative);
     }
 
